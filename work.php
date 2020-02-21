@@ -6,7 +6,19 @@ include "header.php";
 
 <main>
   <h1><?php echo $sidetittel; ?></h1>
-  <h2>Videregående</h2>
+  <h2>Webutvikling, universitet</h2>
+  <ul>
+    <li>
+      <a href="http://folk.ntnu.no/paalsst/webprog_php/php-prosjektet/">Reiseregninger</a>, en side med bruk av PHP og databaser
+    </li>
+    <li>
+      <a href="http://folk.ntnu.no/paalsst/sprakrensk/oblig1_pss.html">Språkrensk</a>, en side med bruk av JavaScript
+    </li>
+  </ul>
+  <p>
+    Flere nettsider på <a href="folk.ntnu.no/paalsst">folk.ntnu.no/paalsst</a>.
+  </p>
+  <h2>Medier og kommunikasjon, videregående</h2>
   <div class="art">
     <?php
     $artgall = array(

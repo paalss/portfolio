@@ -31,8 +31,6 @@ include "header.php";
         <li>Spilling</li>
         <li>Lesing</li>
         <li>Orientering (Geocaching og stolpejakten)</li>
-        <li>Webkoding</li>
-        <li>Spillprogrammering</li>
       </ul>
     </div>
     <div>

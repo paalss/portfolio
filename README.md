@@ -1,6 +1,4 @@
-# My portfolio (work in progress)
-
-The interface language is in Norwegian.
+# Min portefølje
 
 https://paalss.github.io/Min-portefolje/
 

@@ -8,10 +8,10 @@ const footer = document.querySelector('footer')
 // nav.innerHTML = `
 //   <ul>
 //     <li>
-//       <a href="index.html">Om meg</a>
+//       <a href="index.html">Arbeid</a>
 //     </li>
 //     <li>
-//       <a href="work.html">Arbeid (kommer etter hvert)</a>
+//       <a href="qqqqqq.html">qqqqqq</a>
 //     </li>
 //   </ul>
 // `
@@ -59,7 +59,7 @@ footer.innerHTML = `
   <ul>
     <li>
       <a href="http://folk.ntnu.no/paalsst/min_portefolje/" target="_blank" rel="noopener noreferrer">
-        <span class="icon text">Min-portefølje</span>
+        <span class="icon text">Min portefølje</span>
       </a>
     </li>
   </ul>

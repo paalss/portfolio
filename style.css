@@ -72,6 +72,9 @@
     font-weight: 900;
     line-height: 3rem;
   }
+  .index header .circle-frame {
+    display: none;
+  }
   .work header a {
     color: #fff;
     font-size: 3rem;
@@ -217,6 +220,28 @@
     padding-left: 14%;
     padding-right: 14%;
   }
+  .index header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .index header .circle-frame {
+    /* margin-left: 5%; */
+    margin-top: -40px;
+    /* flytt over header's padding-top */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* ^^ align-items: center (default) vil plassere bildet slik at toppen av bildet slettes ved overflow hidden, og .index header img {…} da ikke vil ha noe å hente  */
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 200px;
+    overflow: hidden;
+  }
+  header img {
+    margin-top: -50px;
+    width: 140%;
+    object-fit: cover;
+  }
   /* .about .flex {
     display: flex;
     flex-direction: column;
@@ -245,11 +270,4 @@
   .index .box .frame {
     height: 170px;
   }
-}
-
-@media only screen and (min-width: 1200px) {
-  /* main {} */
-  /* .index .box {
-    margin: 40px 4.5%;
-  } */
 }

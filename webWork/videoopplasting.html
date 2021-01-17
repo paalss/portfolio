@@ -13,56 +13,74 @@
 <body class="work maclean">
   <header>
     <a href="../index.html">&lt;</a>
-    <h1>Videoopplastingssystemer</h1>
+    <h1>Video&shy;opplastings&shy;systemer</h1>
   </header>
   <main>
-    <h2>To prosjekter i IMT2291 - WWW-teknologi, våren 2020</h2>
-    <p>I dette faget hadde vi to prosjekter hvor vi skulle lage videoopplastingssystemer for NTNU-forelesninger, den
-      første skulle lages med PHP og Twig, mens den andre med JavaScript og LitElement-komponenter. </p>
-    <p>Begge prosjektene skulle gi en bruker mye den samme funksjonaliteten som man har på YouTube: Laste opp videoer,
-      se på dem, endre detaljene, legge dem til i spillelister, abonnere på spillelister osv. Ettersom dette skulle være
-      spesifikt for forelesningsvideoer, skulle vi også ha interaktive transkript med. Dvs. etter hvert som man
-      spilte av videoen, ville transkriptet utheve replikkene som ble sagt på dette tidspunktet. (transkriptfilene
-      inneholdt informasjon om replikker, og hvor langt uti videoen de ble sagt.) Det skulle også være mulig å klikke i
-      transkriptet for å få videoen til å spole til det tidspunktet som var knyttet med den replikken.</p>
+    <!-- <div class="carousel proj2"></div> -->
+    <div class="container">
+      <h2>To studieproskekter, vår 2020</h2>
+      <p>Våren 2020, i WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting
+        og -visning. Det som skilte prosjektene mest var verktøyene vi skulle bruke.</p>
+      <p>Begge nettappene skulle gi brukere til å: • laste opp videoer • se på dem • legge et interaktivt transkript
+        ved siden av videoen • endre videodetaljene • legge dem til i spillelister • abonnere på spillelister • og mer
+      </p>
 
-    <h3>Første prosjekt, Twig-prosjektet</h3>
-    <figure>
-      <img src="images/2-video-og-transkript.png" alt="videosiden første prosjekt">
-      <caption>Videosiden</caption>
-    </figure>
-    <p>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting og visning og det spilleliste
-      relatert. Det dette innebar var å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting av
-      videoer til filsystemet. Jeg jobbet også med kommentarer (eller var det neste prosjekt? Husker
-      ikke helt)</p>
-    <p>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</p>
+      <h3>Første prosjekt
+        <span class="subtitle">
+          Verktøy: PHP og Twig
+        </span>
+      </h3>
+      <div>
+        <p>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting og visning og det spilleliste
+          relatert. Det dette innebar var å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting
+          av
+          videoer til filsystemet. Jeg jobbet også med kommentarer (eller var det neste prosjekt? Husker
+          ikke helt)</p>
+        <p>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</p>
+      </div>
+      <figure>
+        <img src="images/2-video-og-transkript.png" alt="videosiden første prosjekt">
+        <caption>Videosiden</caption>
+      </figure>
 
-    <h3>Andre prosjekt, LitElement prosjektet</h3>
-    <figure>
-      <img src="images/prosjekt2-5-videoside.png" alt="videoside andre prosjekt">
-      <caption>Videoside</caption>
-    </figure>
-    <p>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle også noen brukere ha
-      status som admin, og skulle derfor ha lov til å i tillegg endre statusen på de andre brukerne. De resterende
-      brukertypene var vanlig bruker (elev) og lærere.</p>
-    <p>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, videovisning
-      og oversikt og brukerredigeringsfunksjonen for admin brukere. Vi hadde også mange diskusjoner oss i mellom selvfølgelig, jeg
-      husker ikke så mye av detaljene.</p>
-    <p>Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det meste lagde selv.</p>
-    <figure>
-      <img src="images/prosjekt2-7-videoliste.png" alt="videolistesiden">
-      <caption>Videooversikt</caption>
-    </figure>
-    <br>
-    <br>
-    <figure>
-      <img src="images/prosjekt2-8-videoopplasting.png" alt="videoopplastingssiden">
-      <caption>«Last opp video»-siden</caption>
-    </figure>
 
+      <h3>Andre prosjekt
+        <span class="subtitle">
+          Verktøy: LitElement (base class for å lage web-komponenter) <br>
+          Resultat: Løsningen skulle være en *Single Page Application*
+        </span>
+      </h3>
+      <div>
+        <p>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle også noen brukere ha
+          status som admin, og skulle derfor ha lov til å i tillegg endre statusen på de andre brukerne. De resterende
+          brukertypene var vanlig bruker (elev) og lærere.</p>
+        <p>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting,
+          videovisning
+          og oversikt og brukerredigeringsfunksjonen for admin brukere. Vi hadde også mange diskusjoner oss i mellom
+          selvfølgelig, jeg
+          husker ikke så mye av detaljene.</p>
+        <p>Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det meste lagde selv.</p>
+      </div>
+
+      <figure>
+        <img src="images/prosjekt2-5-videoside.png" alt="videoside andre prosjekt">
+        <caption>Videoside</caption>
+      </figure>
+
+      <figure>
+        <img src="images/prosjekt2-7-videoliste.png" alt="videolistesiden">
+        <caption>Videooversikt</caption>
+      </figure>
+
+      <figure>
+        <img src="images/prosjekt2-8-videoopplasting.png" alt="videoopplastingssiden">
+        <caption>«Last opp video»-siden</caption>
+      </figure>
+    </div> <!-- /container -->
   </main>
   <footer></footer>
-  <script src="../script.js"></script>
+  <script src="../footer.js"></script>
+  <!-- <script src="../carousel.js"></script> -->
 </body>
 
 </html>

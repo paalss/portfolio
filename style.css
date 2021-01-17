@@ -64,6 +64,12 @@
     font-size: 3rem;
     font-weight: 900;
   }
+  .work h2 {
+    margin-top: 3rem;
+  }
+  .work h3 {
+    margin-top: 3rem;
+  }
   .work h1 {
     display: inline;
   }
@@ -71,6 +77,13 @@
     font-size: 2.2rem;
     font-weight: 900;
     line-height: 3rem;
+  }
+  .subtitle {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+    margin: 0;
   }
   .index header .circle-frame {
     display: none;
@@ -154,6 +167,9 @@
     color: #000;
     background: #fff;
     box-shadow: inset 0px 0px 0px 3px #000;
+  }
+  figure {
+    border: 1px solid #000;
   }
   /* ––––––––––––––––––––– Footer  ––––––––––––––––––––– */
   footer {
@@ -269,5 +285,13 @@
   } */
   .index .box .frame {
     height: 170px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container p, .container h2, .container h3 {
+    width: 630px;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
 }

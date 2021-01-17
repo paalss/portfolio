@@ -1,20 +1,4 @@
-// Define references
-const header = document.querySelector('header')
-const main = document.querySelector('main')
 const footer = document.querySelector('footer')
-
-// const nav = document.createElement('nav')
-// header.appendChild(nav)
-// nav.innerHTML = `
-//   <ul>
-//     <li>
-//       <a href="index.html">Arbeid</a>
-//     </li>
-//     <li>
-//       <a href="qqqqqq.html">qqqqqq</a>
-//     </li>
-//   </ul>
-// `
 
 footer.innerHTML = `
   <b>Du finner meg på:</b>

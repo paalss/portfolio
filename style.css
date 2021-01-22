@@ -94,11 +94,14 @@
     text-decoration: none;
   }
   /* ––––––––––––––––––––– Nav ––––––––––––––––––––– */
-  /* nav ul {
+  nav {
+    background-color: #fff;
+  }
+  nav ul {
+    margin: 0;
     padding: 0;
     list-style-type: none;
     /* fjerne bullets */
-  /*
   }
   nav ul li a {
     display: block;
@@ -107,14 +110,14 @@
     text-decoration: none;
   }
   nav ul li {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #bbb;
   }
   nav ul li:nth-child(2) {
     border: none;
   }
-  nav a:hover, nav a:active, nav a:focus {
+  nav a:hover, nav a:active, nav a:focus, nav a.open {
     font-weight: 900;
-  } */
+  }
   /* ––––––––––––––––––––– Main  ––––––––––––––––––––– */
   main {
     padding-top: 50px;
@@ -148,13 +151,20 @@
     transform: scale(1.05);
     transition: 0.2s;
   }
+  .work main {
+    /* .work main skal ha nav. nav skal «kaste skygge» over på main */
+    -webkit-box-shadow: inset 0px 4px 32px -16px #000000;
+    box-shadow: inset 0px 4px 32px -16px #000000;
+  }
   .work img {
     width: 100%;
   }
   .work main a {
+    display: inline-block;
     color: #fff;
     text-decoration: none;
-    padding: 15px;
+    margin: 0 3px;
+    padding: 12px 24px;
     border-radius: 5px;
   }
   .work main a:link {
@@ -217,21 +227,18 @@
   }
 }
 
-@media only screen and (min-width: 400px) {
-  /* nav ul {
+@media only screen and (min-width: 700px) {
+  nav ul {
     display: flex;
     padding: 0;
   }
   nav ul li {
     border-bottom: none;
-    border-right: 2px solid #000;
+    border-right: 2px solid #bbb;
   }
   nav ul li a {
-    padding: 10px 40px;
-  } */
-}
-
-@media only screen and (min-width: 700px) {
+    padding: 16px 40px;
+  }
   body>* {
     padding-left: 14%;
     padding-right: 14%;

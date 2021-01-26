@@ -22,6 +22,42 @@
     padding-left: 10%;
     padding-right: 10%;
   }
+  .marginbottom {
+    margin-bottom: 50px;
+  }
+  /* ––––––––––––––––––––– Type ––––––––––––––––––––– */
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .work h2 {
+    margin-top: 3rem;
+  }
+  .work h3 {
+    color: #3b3b3b;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+  }
+  .work h1 {
+    display: inline;
+  }
+  .tagline {
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 3rem;
+  }
+  .subtitle {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+    margin: 0;
+  }
+  /* ––––––––––––––––––––– Header ––––––––––––––––––––– */
   header {
     padding-top: 100px;
     padding-bottom: 40px;
@@ -59,32 +95,6 @@
     background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1.0), rgba(127, 1, 127, 0.0));
     background: linear-gradient(to top, rgba(0, 0, 0, 1.0), rgba(127, 1, 127, 0.0));
   }
-  h1 {
-    margin: 0;
-    font-size: 3rem;
-    font-weight: 900;
-  }
-  .work h2 {
-    margin-top: 3rem;
-  }
-  .work h3 {
-    margin-top: 3rem;
-  }
-  .work h1 {
-    display: inline;
-  }
-  .tagline {
-    font-size: 2.2rem;
-    font-weight: 900;
-    line-height: 3rem;
-  }
-  .subtitle {
-    display: block;
-    font-size: 1rem;
-    font-weight: 600;
-    color: gray;
-    margin: 0;
-  }
   .index header .circle-frame {
     display: none;
   }
@@ -112,7 +122,7 @@
   nav ul li {
     border-bottom: 2px solid #bbb;
   }
-  nav ul li:nth-child(2) {
+  nav ul li:last-child {
     border: none;
   }
   nav a:hover, nav a:active, nav a:focus, nav a.open {
@@ -228,6 +238,10 @@
 }
 
 @media only screen and (min-width: 700px) {
+  .index header .container {
+    display: flex;
+    justify-content: space-around;
+  }
   nav ul {
     display: flex;
     padding: 0;
@@ -242,10 +256,6 @@
   body>* {
     padding-left: 14%;
     padding-right: 14%;
-  }
-  .index header {
-    display: flex;
-    justify-content: space-around;
   }
   .index header .circle-frame {
     /* margin-left: 5%; */
@@ -296,9 +306,14 @@
 }
 
 @media only screen and (min-width: 900px) {
-  .container p, .container h2, .container h3 {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    max-width: 1000px;
+  }
+  .work .container p, .work .container h2, .work .container h3 {
     width: 630px;
-    /* margin-left: auto;
-    margin-right: auto; */
   }
 }

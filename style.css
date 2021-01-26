@@ -54,7 +54,6 @@
     display: block;
     font-size: 1rem;
     font-weight: 600;
-    color: gray;
     margin: 0;
   }
   /* ––––––––––––––––––––– Header ––––––––––––––––––––– */
@@ -157,7 +156,7 @@
     text-decoration: none;
     transition: 0.2s;
   }
-  .index a.box:hover {
+  .index a.box:hover, .index a.box:focus {
     transform: scale(1.05);
     transition: 0.2s;
   }
@@ -177,19 +176,31 @@
     padding: 12px 24px;
     border-radius: 5px;
   }
-  .work main a:link {
+  .work main a:link, .work main a:visited {
     background: rgba(127, 1, 127, 1.0);
     background: -webkit-linear-gradient(top left, rgba(127, 1, 127, 1.0), rgba(1, 1, 31, 1.0));
     background: -moz-linear-gradient(top left, rgba(127, 1, 127, 1.0), rgba(1, 1, 31, 1.0));
     background: linear-gradient(to bottom right, rgba(127, 1, 127, 1.0), rgba(1, 1, 31, 1.0));
   }
-  .work main a:hover {
+  .work main a:hover, .work main a:focus {
     color: #000;
     background: #fff;
     box-shadow: inset 0px 0px 0px 3px #000;
   }
   figure {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
+    margin: 15px 0;
+    padding: 40px 5% 10px 5%;
+    background-color: #bbb;
+  }
+  ul.tools {
+    padding: 0;
+  }
+  ul.tools li {
+    display: inline;
+    border-radius: 20px;
+    border: 2px solid #3b3b3b;
+    padding: 2px 7px;
   }
   /* ––––––––––––––––––––– Footer  ––––––––––––––––––––– */
   footer {
@@ -290,16 +301,12 @@
   /*
   } */
   .index .flex {
-    /* justify-content: flex-start; */
     justify-content: space-between;
   }
   .index a.box {
     width: 190px;
     margin: 6px 3%;
   }
-  /* .index a.box:hover {
-
-  } */
   .index .box .frame {
     height: 170px;
   }
@@ -313,7 +320,7 @@
   .container {
     max-width: 1000px;
   }
-  .work .container p, .work .container h2, .work .container h3 {
+  .work main .container * {
     width: 630px;
   }
 }

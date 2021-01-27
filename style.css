@@ -30,6 +30,10 @@
     margin: 0;
     font-size: 3rem;
     font-weight: 900;
+    line-height: 3rem;
+  }
+  .work h1 {
+    display: inline;
   }
   h2 {
     font-size: 2rem;
@@ -41,9 +45,6 @@
     color: #3b3b3b;
     font-size: 1.3rem;
     margin-top: 3rem;
-  }
-  .work h1 {
-    display: inline;
   }
   .tagline {
     font-size: 2.2rem;
@@ -104,14 +105,11 @@
   }
   /* ––––––––––––––––––––– Nav ––––––––––––––––––––– */
   nav {
-    /* display: block;
-    /* text-align: center; */
     background-color: #fff;
   }
   nav ul {
     margin: 0;
     padding: 0;
-    /* list-style: none; */
     list-style-type: none;
   }
   nav a {
@@ -120,10 +118,6 @@
     text-decoration: none;
     padding: 10px 5vw;
     color: #000;
-    /* padding: .8em 1.8em; */
-  }
-  .nav {
-    /* display: inline-block; */
   }
   .nav li {
     position: relative;
@@ -174,7 +168,6 @@
     margin-top: -5px
   }
   .nav li li>a:first-child:nth-last-child(2):before {
-    /* border-left-color: #aaa; */
     margin-top: -5px
   }
   .nav li li:hover>a:first-child:nth-last-child(2):before {
@@ -182,9 +175,12 @@
     /* border-right-color: orange; */
     right: 10px;
   }
+  /* nav ul.nav>li {
+    border-bottom: 2px solid #bbb;
+  }
   nav ul.nav>li:last-child {
     border: none;
-  }
+  } */
   nav a:hover, nav a:active, nav a:focus, nav a.open {
     font-weight: 900;
   }
@@ -222,7 +218,8 @@
     transition: 0.2s;
   }
   .work main {
-    /* .work main skal ha nav. nav skal «kaste skygge» over på main */
+    /* .work main skal ha nav-bar som ligger ved siden av main. nav-bar skal
+    «kaste skygge» over på main,lag derfor en invers skygge på main. */
     -webkit-box-shadow: inset 0px 4px 32px -16px #000000;
     box-shadow: inset 0px 4px 32px -16px #000000;
   }
@@ -235,7 +232,7 @@
     text-decoration: none;
     margin: 0 3px;
     padding: 12px 24px;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   .work main a:link, .work main a:visited {
     background: rgba(127, 1, 127, 1.0);
@@ -249,7 +246,6 @@
     box-shadow: inset 0px 0px 0px 3px #000;
   }
   figure {
-    /* border: 1px solid #000; */
     margin: 15px 0;
     padding: 40px 5% 10px 5%;
     background-color: #bbb;
@@ -315,7 +311,6 @@
     padding-right: 14%;
   }
   .index header .circle-frame {
-    /* margin-left: 5%; */
     margin-top: -40px;
     /* flytt over header's padding-top */
     display: flex;
@@ -340,27 +335,13 @@
     display: flex;
     padding: 0;
   }
-  nav ul.nav>li {
+  /* nav ul.nav>li {
     border-bottom: none;
     border-right: 2px solid #bbb;
-  }
+  } */
   nav ul li a {
     padding: 16px 40px;
   }
-  /* .about .flex {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-  .about .flex>* {
-    width: 50%;
-  }
-  .about .flex>*:nth-child(4) {
-    page-break-before: always;
-    /* FF33 */
-  /*
-  } */
   .index .flex {
     justify-content: space-between;
   }
@@ -381,7 +362,7 @@
   .container {
     max-width: 1000px;
   }
-  .work main .container * {
+  .work main .container p, figure {
     width: 630px;
   }
 }

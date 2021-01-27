@@ -104,24 +104,85 @@
   }
   /* ––––––––––––––––––––– Nav ––––––––––––––––––––– */
   nav {
+    /* display: block;
+    /* text-align: center; */
     background-color: #fff;
   }
   nav ul {
     margin: 0;
     padding: 0;
+    /* list-style: none; */
     list-style-type: none;
-    /* fjerne bullets */
   }
-  nav ul li a {
+  nav a {
     display: block;
+    background: #fff;
+    text-decoration: none;
     padding: 10px 5vw;
     color: #000;
-    text-decoration: none;
+    /* padding: .8em 1.8em; */
   }
-  nav ul li {
-    border-bottom: 2px solid #bbb;
+  .nav {
+    /* display: inline-block; */
   }
-  nav ul li:last-child {
+  .nav li {
+    position: relative;
+  }
+  .nav>li {
+    font-weight: 600;
+    margin-right: 1px;
+  }
+  .nav li a:first-child:nth-last-child(2):before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    top: 50%;
+    right: 5px;
+  }
+  /* submenu positioning*/
+  .nav ul {
+    position: absolute;
+    white-space: nowrap;
+    -webkit-box-shadow: 0px 19px 21px -18px #000;
+    box-shadow: 0px 19px 21px -18px #000;
+    z-index: 1;
+    left: -99999em;
+  }
+  .nav>li:hover>ul {
+    left: auto;
+    padding-top: 5px;
+    min-width: 100%;
+  }
+  /* .nav > li li ul {  border-left:1px solid #fff;} */
+  .nav>li li:hover>ul {
+    /* margin-left: 1px */
+    left: 100%;
+    top: -1px;
+  }
+  /* arrow hover styling */
+  .nav>li>a:first-child:nth-last-child(2):before {
+    border-top-color: rgb(127, 1, 127);
+  }
+  .nav>li:hover>a:first-child:nth-last-child(2) {
+    font-weight: 900;
+  }
+  .nav>li:hover>a:first-child:nth-last-child(2):before {
+    border: 5px solid transparent;
+    border-bottom-color: #000;
+    margin-top: -5px
+  }
+  .nav li li>a:first-child:nth-last-child(2):before {
+    /* border-left-color: #aaa; */
+    margin-top: -5px
+  }
+  .nav li li:hover>a:first-child:nth-last-child(2):before {
+    border: 5px solid transparent;
+    /* border-right-color: orange; */
+    right: 10px;
+  }
+  nav ul.nav>li:last-child {
     border: none;
   }
   nav a:hover, nav a:active, nav a:focus, nav a.open {
@@ -275,11 +336,11 @@
     display: flex;
     justify-content: space-around;
   }
-  nav ul, nav ul div.work-links {
+  nav ul.nav {
     display: flex;
     padding: 0;
   }
-  nav ul li {
+  nav ul.nav>li {
     border-bottom: none;
     border-right: 2px solid #bbb;
   }

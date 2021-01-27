@@ -249,21 +249,6 @@
 }
 
 @media only screen and (min-width: 700px) {
-  .index header .container {
-    display: flex;
-    justify-content: space-around;
-  }
-  nav ul {
-    display: flex;
-    padding: 0;
-  }
-  nav ul li {
-    border-bottom: none;
-    border-right: 2px solid #bbb;
-  }
-  nav ul li a {
-    padding: 16px 40px;
-  }
   body>* {
     padding-left: 14%;
     padding-right: 14%;
@@ -285,6 +270,21 @@
     margin-top: -50px;
     width: 140%;
     object-fit: cover;
+  }
+  .index header .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul, nav ul div.work-links {
+    display: flex;
+    padding: 0;
+  }
+  nav ul li {
+    border-bottom: none;
+    border-right: 2px solid #bbb;
+  }
+  nav ul li a {
+    padding: 16px 40px;
   }
   /* .about .flex {
     display: flex;

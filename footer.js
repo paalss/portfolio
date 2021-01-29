@@ -1,3 +1,5 @@
+import { prepareCopyButton } from './copyMailToClipboard.js';
+
 const footer = document.querySelector('footer')
 
 footer.innerHTML = `
@@ -38,6 +40,9 @@ footer.innerHTML = `
           <span class="icon fa fa-envelope"></span><span class="text">paalss94@gmail.com</span>
         </a>
       </li>
+      <li>
+        <span class="icon fa"></span><button id="copyMailButton"><i class="fa fa-clipboard" aria-hidden="true"></i> Kopier mailadresse</button>
+      </li>
     </ul>
   
     <b>Forrige portefølje:</b>
@@ -50,3 +55,5 @@ footer.innerHTML = `
     </ul>
   </div>
 `
+
+prepareCopyButton()

@@ -303,6 +303,20 @@
     color: #fff;
     /*nok til å fylle hele kontaktbredden*/
   }
+  #copyMailButton {
+    color: #000;
+    /* font-size: inherit; */
+    padding: 4px 11px;
+    border-radius: 5px;
+    font-family: inherit;
+    background-color: #fff;
+    border: 3px solid transparent;
+  }
+  button#copyMail:hover, button#copyMail:focus {
+    color: #fff;
+    background: none;
+    border-color: #fff;
+  }
 }
 
 @media only screen and (min-width: 700px) {

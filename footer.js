@@ -42,15 +42,6 @@ footer.innerHTML = `
         <span class="icon fa"></span><button id="copyMailButton"><i class="fa fa-clipboard" aria-hidden="true"></i> Kopier mailadresse</button>
       </li>
     </ul>
-  
-    <b>Forrige portefølje:</b>
-    <ul>
-      <li>
-        <a href="http://folk.ntnu.no/paalsst/min_portefolje/" target="_blank" rel="noopener noreferrer">
-          <span class="icon text">Min portefølje</span>
-        </a>
-      </li>
-    </ul>
   </div>
 `
 

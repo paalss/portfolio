@@ -311,6 +311,7 @@
     font-family: inherit;
     background-color: #fff;
     border: 3px solid transparent;
+    cursor: pointer;
   }
   button#copyMail:hover, button#copyMail:focus {
     color: #fff;

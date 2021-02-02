@@ -26,7 +26,7 @@ footer.innerHTML = `
       </li>
       <li>
         <a href="https://scratch.mit.edu/users/pa0110/" target="_blank" rel="noopener noreferrer">
-          <span class="icon fa"><img src="images/scratchlogo.png" alt="Scratch logo"></span><span class="text">Scratch (pa0110)</span>
+          <span class="icon fa"><img src="images/scratchlogo-transparent-white.png" alt="Scratch logo"></span><span class="text">Scratch (pa0110)</span>
         </a>
       </li>
     </ul>

@@ -313,7 +313,7 @@
     border: 3px solid transparent;
     cursor: pointer;
   }
-  button#copyMail:hover, button#copyMail:focus {
+  #copyMailButton:hover, #copyMailButton:focus {
     color: #fff;
     background: none;
     border-color: #fff;

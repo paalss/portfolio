@@ -28,7 +28,7 @@
   /* ––––––––––––––––––––– Type ––––––––––––––––––––– */
   h1 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
     line-height: 3rem;
   }
@@ -230,7 +230,7 @@
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    margin: 0 3px;
+    margin: 4px 3px;
     padding: 12px 24px;
     border-radius: 10px;
   }
@@ -299,7 +299,8 @@
   footer ul li .text {
     text-decoration: underline;
     display: inline-block;
-    width: 190px; /* må justeres etter å kunne romme den bredeste teksten */
+    width: 190px;
+    /* må justeres etter å kunne romme den bredeste teksten */
     color: #fff;
     /*nok til å fylle hele kontaktbredden*/
   }
@@ -324,6 +325,9 @@
   body>* {
     padding-left: 14%;
     padding-right: 14%;
+  }
+  h1 {
+    font-size: 3rem;
   }
   .index header .circle-frame {
     margin-top: -40px;

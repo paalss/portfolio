@@ -23,8 +23,11 @@
     padding-left: 10%;
     padding-right: 10%;
   }
-  .marginbottom {
+  .mb-50 {
     margin-bottom: 50px;
+  }
+  .mb-100 {
+    margin-bottom: 100px;
   }
   /* ––––––––––––––––––––– Type ––––––––––––––––––––– */
   h1 {
@@ -378,8 +381,6 @@
   .container {
     margin-left: auto;
     margin-right: auto;
-  }
-  .container {
     max-width: 1000px;
   }
   .work main .container p, figure {

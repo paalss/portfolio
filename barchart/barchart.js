@@ -34,40 +34,47 @@ skillsDiv.innerHTML = `
       <div class="chart chart--dev">
         <span class="chart__title">Utvikling</span>
         <ul class="chart--horiz">
-          <li class="chart__bar" style="width: 100%;">
+          <li>
             <span class="chart__label">
               HTML
             </span>
+            <div class="chart__bar" style="width: 100%;">
           </li>
-          <li class="chart__bar" style="width: 100%;">
+          <li>
             <span class="chart__label">
               CSS
             </span>
+            <div class="chart__bar" style="width: 100%;">
           </li>
-          <li class="chart__bar" style="width: 90%;">
+          <li>
             <span class="chart__label">
               JavaScript
             </span>
+            <div class="chart__bar" style="width: 90%;">
           </li>
-          <li class="chart__bar" style="width: 80%;">
+          <li>
             <span class="chart__label">
               MySQL
             </span>
+            <div class="chart__bar" style="width: 80%;">
           </li>
-          <li class="chart__bar" style="width: 80%;">
+          <li>
             <span class="chart__label">
-              Relasjons&shy;database (MariaDB/MySQL)
+              Relasjons&shy;database
             </span>
+            <div class="chart__bar" style="width: 80%;">
           </li>
-          <li class="chart__bar" style="width: 80%;">
+          <li>
             <span class="chart__label">
               PHP
             </span>
+            <div class="chart__bar" style="width: 80%;">
           </li>
-          <li class="chart__bar" style="width: 5%;">
+          <li>
             <span class="chart__label">
               NodeJS
             </span>
+            <div class="chart__bar" style="width: 5%;">
           </li>
         </ul>
       </div>
@@ -75,20 +82,23 @@ skillsDiv.innerHTML = `
       <div class="chart chart--design">
         <span class="chart__title">Design</span>
         <ul class="chart--horiz">
-          <li class="chart__bar" style="width: 70%;">
+          <li>
             <span class="chart__label">
               Photoshop
             </span>
+            <div class="chart__bar" style="width: 70%;">
           </li>
-          <li class="chart__bar" style="width: 70%;">
+          <li>
             <span class="chart__label">
               Illustrator
             </span>
+            <div class="chart__bar" style="width: 70%;">
           </li>
-          <li class="chart__bar" style="width: 50%;">
+          <li>
             <span class="chart__label">
               Adobe XD
             </span>
+            <div class="chart__bar" style="width: 50%;">
           </li>
         </ul>
       </div>

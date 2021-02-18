@@ -61,7 +61,6 @@ $chartBarGap: 10px;
   }
 }
 .line__label {
-  // height: auto;
   display: block;
   width: 100px;
   text-align: center;
@@ -107,11 +106,11 @@ $chartBarGap: 10px;
   }
 }
 
-$ulPaddingLeft: 120px;
+$chartLabelWidth: 100px;
 
 .chart--horiz {
   overflow: hidden;
-  padding-left: $ulPaddingLeft;
+  padding-left: $chartLabelWidth;
 }
 
 .chart__bar {
@@ -139,12 +138,10 @@ $ulPaddingLeft: 120px;
 }
 
 .chart__label {
-  // height: 60px;
-  // background-color: brown;
-  max-width: $ulPaddingLeft;
-  transform: translateX(0-$ulPaddingLeft);
+  width: $chartLabelWidth;
+  margin-left: 0-$chartLabelWidth;
   line-height: 20px;
-  // color: white;
+  // text-align: end;
 }
 
 //Keyframes
@@ -157,10 +154,6 @@ $ulPaddingLeft: 120px;
     transform: translateX(0);
     opacity: 1;
   }
-}
-
-* {
-  list-style-type: none;
 }
 
 ul li {

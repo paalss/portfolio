@@ -12,24 +12,19 @@ skillsDiv.innerHTML = `
           Erfaring:
         </span>
       </li>
-      <li class="line l--25">
+      <li class="line l--33">
         <span class="line__label">
-          Fulgt noen tutorials
+          Grunn&shy;leggende
         </span>
       </li>
-      <li class="line l--50">
+      <li class="line l--66">
         <span class="line__label">
-          --
-        </span>
-      </li>
-      <li class="line l--75">
-        <span class="line__label">
-          --
+          Behersker
         </span>
       </li>
       <li class="line l--100">
         <span class="line__label">
-          God på
+          Temmelig god på
         </span>
       </li>
     </ul>
@@ -59,7 +54,7 @@ skillsDiv.innerHTML = `
               <span class="chart__label">
                 JavaScript
               </span>
-              <div class="chart__bar" style="width: 90%;">
+              <div class="chart__bar" style="width: 100%;">
             </div>
           </li>
           <li>
@@ -67,7 +62,7 @@ skillsDiv.innerHTML = `
               <span class="chart__label">
                 MySQL
               </span>
-              <div class="chart__bar" style="width: 80%;">
+              <div class="chart__bar" style="width: 66%;">
             </div>
           </li>
           <li>
@@ -75,7 +70,7 @@ skillsDiv.innerHTML = `
               <span class="chart__label">
                 Relasjons&shy;database
               </span>
-              <div class="chart__bar" style="width: 80%;">
+              <div class="chart__bar" style="width: 66%;">
             </div>
           </li>
           <li>
@@ -83,7 +78,15 @@ skillsDiv.innerHTML = `
               <span class="chart__label">
                 PHP
               </span>
-              <div class="chart__bar" style="width: 80%;">
+              <div class="chart__bar" style="width: 66%;">
+            </div>
+          </li>
+          <li>
+            <div class="flex-li">
+              <span class="chart__label">
+                Docker
+              </span>
+              <div class="chart__bar" style="width: 33%;">
             </div>
           </li>
           <li>
@@ -91,7 +94,15 @@ skillsDiv.innerHTML = `
               <span class="chart__label">
                 NodeJS
               </span>
-              <div class="chart__bar" style="width: 5%;">
+              <div class="chart__bar" style="width: 16%;">
+            </div>
+          </li>
+          <li>
+            <div class="flex-li">
+              <span class="chart__label">
+                Angular & React
+              </span>
+              <div class="chart__bar" style="width: 8%;">
             </div>
           </li>
         </ul>
@@ -105,7 +116,7 @@ skillsDiv.innerHTML = `
               <span class="chart__label">
                 Photoshop
               </span>
-              <div class="chart__bar" style="width: 70%;">
+              <div class="chart__bar" style="width: 66%;">
             </div>
           </li>
           <li>
@@ -113,7 +124,7 @@ skillsDiv.innerHTML = `
               <span class="chart__label">
                 Illustrator
               </span>
-              <div class="chart__bar" style="width: 70%;">
+              <div class="chart__bar" style="width: 66%;">
             </div>
           </li>
           <li>
@@ -121,7 +132,15 @@ skillsDiv.innerHTML = `
               <span class="chart__label">
                 Adobe XD
               </span>
-              <div class="chart__bar" style="width: 50%;">
+              <div class="chart__bar" style="width: 66%;">
+            </div>
+          </li>
+          <li>
+            <div class="flex-li">
+              <span class="chart__label">
+                InDesign
+              </span>
+              <div class="chart__bar" style="width: 66%;">
             </div>
           </li>
         </ul>

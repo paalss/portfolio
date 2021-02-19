@@ -31,20 +31,12 @@ skillsDiv.innerHTML = `
   
     <div class="charts">
       <div class="chart chart--dev">
-        <span class="chart__title">Utvikling</span>
+        <h3 class="chart__title">Utvikling</h3>
         <ul class="chart--horiz">
           <li>
             <div class="flex-li">
               <span class="chart__label">
-                HTML
-              </span>
-              <div class="chart__bar" style="width: 100%;">
-            </div>
-          </li>
-          <li>
-            <div class="flex-li">
-              <span class="chart__label">
-                CSS
+                HTML & CSS
               </span>
               <div class="chart__bar" style="width: 100%;">
             </div>
@@ -60,15 +52,7 @@ skillsDiv.innerHTML = `
           <li>
             <div class="flex-li">
               <span class="chart__label">
-                MySQL
-              </span>
-              <div class="chart__bar" style="width: 66%;">
-            </div>
-          </li>
-          <li>
-            <div class="flex-li">
-              <span class="chart__label">
-                Relasjons&shy;database
+                MySQL & Relasjons&shy;databaser
               </span>
               <div class="chart__bar" style="width: 66%;">
             </div>
@@ -109,36 +93,12 @@ skillsDiv.innerHTML = `
       </div>
   
       <div class="chart chart--design">
-        <span class="chart__title">Design</span>
+        <h3 class="chart__title">Design</h3>
         <ul class="chart--horiz">
           <li>
             <div class="flex-li">
               <span class="chart__label">
-                Photoshop
-              </span>
-              <div class="chart__bar" style="width: 66%;">
-            </div>
-          </li>
-          <li>
-            <div class="flex-li">
-              <span class="chart__label">
-                Illustrator
-              </span>
-              <div class="chart__bar" style="width: 66%;">
-            </div>
-          </li>
-          <li>
-            <div class="flex-li">
-              <span class="chart__label">
-                Adobe XD
-              </span>
-              <div class="chart__bar" style="width: 66%;">
-            </div>
-          </li>
-          <li>
-            <div class="flex-li">
-              <span class="chart__label">
-                InDesign
+                Adobe XD, Photoshop, Illustrator, InDesign 
               </span>
               <div class="chart__bar" style="width: 66%;">
             </div>

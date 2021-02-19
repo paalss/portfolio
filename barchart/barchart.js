@@ -1,3 +1,7 @@
+// basert på
+// Pure CSS horizontal bar chart with staggering animation
+// https://codepen.io/vajkri/pen/NxzZwL?editors=0100
+
 const skillsDiv = document.getElementById('skills-placeholder')
 
 skillsDiv.innerHTML = `

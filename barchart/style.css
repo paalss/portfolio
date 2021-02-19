@@ -38,17 +38,7 @@
 }
 
 .line__label {
-  display: block;
-  width: 100px;
-  text-align: center;
-  position: absolute;
-  bottom: -20px;
-  right: -50px;
-}
-
-.line__label.title {
-  text-transform: uppercase;
-  font-weight: bold;
+  display: none;
 }
 
 .charts {
@@ -120,8 +110,27 @@
 }
 
 ul li {
+  list-style-type: none;
+}
+
+.flex-li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (min-width: 530px) {
+  .line__label {
+    display: block;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+    right: -50px;
+  }
+  .line__label.title {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
 /*# sourceMappingURL=style.css.map */

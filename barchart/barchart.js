@@ -35,46 +35,60 @@ skillsDiv.innerHTML = `
         <span class="chart__title">Utvikling</span>
         <ul class="chart--horiz">
           <li>
-            <span class="chart__label">
-              HTML
-            </span>
-            <div class="chart__bar" style="width: 100%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                HTML
+              </span>
+              <div class="chart__bar" style="width: 100%;">
+            </div>
           </li>
           <li>
-            <span class="chart__label">
-              CSS
-            </span>
-            <div class="chart__bar" style="width: 100%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                CSS
+              </span>
+              <div class="chart__bar" style="width: 100%;">
+            </div>
           </li>
           <li>
-            <span class="chart__label">
-              JavaScript
-            </span>
-            <div class="chart__bar" style="width: 90%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                JavaScript
+              </span>
+              <div class="chart__bar" style="width: 90%;">
+            </div>
           </li>
           <li>
-            <span class="chart__label">
-              MySQL
-            </span>
-            <div class="chart__bar" style="width: 80%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                MySQL
+              </span>
+              <div class="chart__bar" style="width: 80%;">
+            </div>
           </li>
           <li>
-            <span class="chart__label">
-              Relasjons&shy;database
-            </span>
-            <div class="chart__bar" style="width: 80%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                Relasjons&shy;database
+              </span>
+              <div class="chart__bar" style="width: 80%;">
+            </div>
           </li>
           <li>
-            <span class="chart__label">
-              PHP
-            </span>
-            <div class="chart__bar" style="width: 80%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                PHP
+              </span>
+              <div class="chart__bar" style="width: 80%;">
+            </div>
           </li>
           <li>
-            <span class="chart__label">
-              NodeJS
-            </span>
-            <div class="chart__bar" style="width: 5%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                NodeJS
+              </span>
+              <div class="chart__bar" style="width: 5%;">
+            </div>
           </li>
         </ul>
       </div>
@@ -83,22 +97,28 @@ skillsDiv.innerHTML = `
         <span class="chart__title">Design</span>
         <ul class="chart--horiz">
           <li>
-            <span class="chart__label">
-              Photoshop
-            </span>
-            <div class="chart__bar" style="width: 70%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                Photoshop
+              </span>
+              <div class="chart__bar" style="width: 70%;">
+            </div>
           </li>
           <li>
-            <span class="chart__label">
-              Illustrator
-            </span>
-            <div class="chart__bar" style="width: 70%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                Illustrator
+              </span>
+              <div class="chart__bar" style="width: 70%;">
+            </div>
           </li>
           <li>
-            <span class="chart__label">
-              Adobe XD
-            </span>
-            <div class="chart__bar" style="width: 50%;">
+            <div class="flex-li">
+              <span class="chart__label">
+                Adobe XD
+              </span>
+              <div class="chart__bar" style="width: 50%;">
+            </div>
           </li>
         </ul>
       </div>

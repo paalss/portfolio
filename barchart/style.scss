@@ -61,18 +61,7 @@ $chartBarGap: 10px;
   }
 }
 .line__label {
-  display: block;
-  width: 100px;
-  text-align: center;
-
-  position: absolute;
-  bottom: -20px;
-  right: -50px;
-
-  &.title {
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+  display: none;
 }
 
 .charts {
@@ -139,7 +128,7 @@ $chartLabelWidth: 100px;
 
 .chart__label {
   width: $chartLabelWidth;
-  margin-left: 0-$chartLabelWidth;
+  margin-left: -$chartLabelWidth;
   line-height: 20px;
   // text-align: end;
 }
@@ -157,5 +146,25 @@ $chartLabelWidth: 100px;
 }
 
 ul li {
+  list-style-type: none;
+}
+
+.flex-li {
   display: flex;
+}
+
+@media only screen and (min-width: 530px) {
+  .line__label {
+    display: block;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+    right: -50px;
+
+    &.title {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
 }

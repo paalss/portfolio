@@ -30,17 +30,15 @@ $chartBarGap: 10px;
   max-width: 800px;
   height: 520px;
   // height: $totalChartCount * ($chartBarHeight + $chartBarGap) + ($chartCount * ($chartGap + $titleHeight));
-  margin: auto;
   position: relative;
 }
 
-$chartLabelWidthMobile: 80px;
-$chartLabelWidthTablet: 100px;
+$chartLabelWidth: 80px;
 
 .lines {
   height: 100%;
   position: relative;
-  margin-left: $chartLabelWidthMobile;
+  margin-left: $chartLabelWidth;
 }
 .line {
   height: inherit;
@@ -100,18 +98,18 @@ $chartLabelWidthTablet: 100px;
   // opacity: 0;
   // animation: 0.2s anim-lightspeed-in ease forwards;
 
-  .chart--dev & {}
+  // .chart--dev & {}
   // .chart--prod & {
   //   animation-delay: 1.3s;
   // }
-  .chart--design & {
+  // .chart--design & {
     // animation-delay: 1.5s;
-  }
+  // }
 }
 
 .chart--horiz {
   overflow: hidden;
-  padding-left: $chartLabelWidthMobile;
+  padding-left: $chartLabelWidth;
 }
 
 .chart__bar {
@@ -139,8 +137,8 @@ $chartLabelWidthTablet: 100px;
 }
 
 .chart__label {
-  width: $chartLabelWidthMobile;
-  margin-left: -$chartLabelWidthMobile;
+  width: $chartLabelWidth;
+  margin-left: -$chartLabelWidth;
   line-height: 20px;
   font-size: 0.8rem;
 }
@@ -186,12 +184,14 @@ ul li {
   }
 }
 @media only screen and (min-width: 560px) {
+  $chartLabelWidth: 100px;
+
   .lines {
-    margin-left: $chartLabelWidthTablet;
+    margin-left: $chartLabelWidth;
   }
   .chart--horiz {
     overflow: hidden;
-    padding-left: $chartLabelWidthTablet;
+    padding-left: $chartLabelWidth;
   }
   .line__label {
     width: 100px;
@@ -199,8 +199,27 @@ ul li {
     right: -50px;
   }
   .chart__label {
-    width: $chartLabelWidthTablet;
-    margin-left: -$chartLabelWidthTablet;
+    width: $chartLabelWidth;
+    margin-left: -$chartLabelWidth;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  $chartLabelWidth: 200px;
+  .lines {
+    margin-left: $chartLabelWidth;
+  }
+  .skills {
+    height: 470px;
+    // height: $totalChartCount * ($chartBarHeight + $chartBarGap) + ($chartCount * ($chartGap + $titleHeight));
+  }
+  .chart--horiz {
+    overflow: hidden;
+    padding-left: $chartLabelWidth;
+  }
+  .chart__label {
+    width: $chartLabelWidth;
+    margin-left: -$chartLabelWidth;
     font-size: 1rem;
   }
 }

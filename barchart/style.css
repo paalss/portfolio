@@ -1,7 +1,6 @@
 .skills {
   max-width: 800px;
   height: 520px;
-  margin: auto;
   position: relative;
 }
 
@@ -166,6 +165,24 @@ ul li {
   .chart__label {
     width: 100px;
     margin-left: -100px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .lines {
+    margin-left: 200px;
+  }
+  .skills {
+    height: 470px;
+  }
+  .chart--horiz {
+    overflow: hidden;
+    padding-left: 200px;
+  }
+  .chart__label {
+    width: 200px;
+    margin-left: -200px;
     font-size: 1rem;
   }
 }

@@ -74,6 +74,7 @@ ul li {
 }
 
 .chart--horiz {
+  overflow: hidden;
   padding-left: 80px;
 }
 
@@ -85,8 +86,43 @@ ul li {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   opacity: 0;
-  -webkit-animation: 0.2s anim-lightspeed-in ease forwards;
-          animation: 0.2s anim-lightspeed-in ease forwards;
+  -webkit-animation: 1s anim-lightspeed-in ease forwards;
+          animation: 1s anim-lightspeed-in ease forwards;
+}
+
+.chart--dev .chart__bar:nth-of-type(4) {
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+
+.chart--dev .chart__bar:nth-of-type(3) {
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+
+.chart--dev .chart__bar:nth-of-type(2) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.chart--dev .chart__bar:nth-of-type(1) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.chart--design .chart__bar:nth-of-type(3) {
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+
+.chart--design .chart__bar:nth-of-type(2) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.chart--design .chart__bar:nth-of-type(1) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
 }
 
 .chart__label {
@@ -94,6 +130,8 @@ ul li {
   margin-left: -80px;
   line-height: 20px;
   font-size: 0.8rem;
+  z-index: 2;
+  background-color: #fff;
 }
 
 li:hover .chart__label {

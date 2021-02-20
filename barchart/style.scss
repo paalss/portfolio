@@ -96,14 +96,14 @@ $chartLabelWidth: 80px;
   margin: 0 0 10px;
   font-weight: bold;
   // opacity: 0;
-  // animation: 0.2s anim-lightspeed-in ease forwards;
+  // animation: 1s anim-lightspeed-in ease forwards;
 
   // .chart--dev & {}
   // .chart--prod & {
   //   animation-delay: 1.3s;
   // }
   // .chart--design & {
-  // animation-delay: 1.5s;
+  //   animation-delay: 4.3s;
   // }
 }
 
@@ -113,7 +113,7 @@ ul li {
 }
 
 .chart--horiz {
-  // overflow: hidden;
+  overflow: hidden;
   padding-left: $chartLabelWidth;
 }
 
@@ -121,24 +121,23 @@ ul li {
   $border-rad: 15px;
   height: $chartBarHeight;
   margin-bottom: $chartBarGap;
-  background: -webkit-linear-gradient(top left, #7f017f, #330145 );
-  background: -moz-linear-gradient(top left, #7f017f, #330145 );
-  background: linear-gradient(to bottom right, #7f017f, #330145 );
+  background: -webkit-linear-gradient(top left, #7f017f, #330145);
+  background: -moz-linear-gradient(top left, #7f017f, #330145);
+  background: linear-gradient(to bottom right, #7f017f, #330145);
   border-top-right-radius: $border-rad;
   border-bottom-right-radius: $border-rad;
   opacity: 0;
+  animation: 1s anim-lightspeed-in ease forwards;
 
-  animation: 0.2s anim-lightspeed-in ease forwards;
-
-  // .chart--dev & {
-  // @include stagger-anim-delay($chartOneCount, 0.5s, 0.2s);
-  // }
+  .chart--dev & {
+    @include stagger-anim-delay($chartOneCount, 0.5s, 0.2s);
+  }
   // .chart--prod & {
   //   @include stagger-anim-delay($chartTwoCount, 0.8s, 0.2s);
   // }
-  // .chart--design & {
-  // @include stagger-anim-delay($chartTwoCount, 0.5s, 0.2s);
-  // }
+  .chart--design & {
+    @include stagger-anim-delay($chartTwoCount, 0.5s, 0.2s);
+  }
 }
 
 .chart__label {
@@ -146,6 +145,8 @@ ul li {
   margin-left: -$chartLabelWidth;
   line-height: 20px;
   font-size: 0.8rem;
+  z-index: 2;
+  background-color: #fff;
 }
 
 li:hover .chart__label {

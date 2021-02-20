@@ -1,5 +1,5 @@
 //Setup
-// @import url(https://fonts.googleapis.com/css?family=Open+Sans); 
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 @mixin stagger-anim-delay($i, $initial-delay, $stagger-delay) {
   @while $i > 0 {
@@ -8,7 +8,7 @@
     }
     $i: $i - 1;
   }
-} 
+}
 
 $baseFontSize: 16px;
 $baseLineHeight: 1;
@@ -28,7 +28,7 @@ $chartBarGap: 10px;
 
 .skills {
   max-width: 800px;
-  height: 520px;
+  height: 540px;
   // height: $totalChartCount * ($chartBarHeight + $chartBarGap) + ($chartCount * ($chartGap + $titleHeight));
   position: relative;
 }
@@ -103,12 +103,17 @@ $chartLabelWidth: 80px;
   //   animation-delay: 1.3s;
   // }
   // .chart--design & {
-    // animation-delay: 1.5s;
+  // animation-delay: 1.5s;
   // }
 }
 
+ul li {
+  list-style-type: none;
+  margin-bottom: 4px;
+}
+
 .chart--horiz {
-  overflow: hidden;
+  // overflow: hidden;
   padding-left: $chartLabelWidth;
 }
 
@@ -116,9 +121,9 @@ $chartLabelWidth: 80px;
   $border-rad: 15px;
   height: $chartBarHeight;
   margin-bottom: $chartBarGap;
-  background: -webkit-linear-gradient(top left, rgba(127, 1, 127, 1.0), rgba(1, 1, 31, 1.0));
-  background: -moz-linear-gradient(top left, rgba(127, 1, 127, 1.0), rgba(1, 1, 31, 1.0));
-  background: linear-gradient(to bottom right, rgba(127, 1, 127, 1.0), rgba(1, 1, 31, 1.0));
+  background: -webkit-linear-gradient(top left, #7f017f, #330145 );
+  background: -moz-linear-gradient(top left, #7f017f, #330145 );
+  background: linear-gradient(to bottom right, #7f017f, #330145 );
   border-top-right-radius: $border-rad;
   border-bottom-right-radius: $border-rad;
   opacity: 0;
@@ -126,13 +131,13 @@ $chartLabelWidth: 80px;
   animation: 0.2s anim-lightspeed-in ease forwards;
 
   // .chart--dev & {
-    // @include stagger-anim-delay($chartOneCount, 0.5s, 0.2s);
+  // @include stagger-anim-delay($chartOneCount, 0.5s, 0.2s);
   // }
   // .chart--prod & {
   //   @include stagger-anim-delay($chartTwoCount, 0.8s, 0.2s);
   // }
   // .chart--design & {
-    // @include stagger-anim-delay($chartTwoCount, 0.5s, 0.2s);
+  // @include stagger-anim-delay($chartTwoCount, 0.5s, 0.2s);
   // }
 }
 
@@ -142,7 +147,17 @@ $chartLabelWidth: 80px;
   line-height: 20px;
   font-size: 0.8rem;
 }
-ul li:nth-child(odd) .chart__label {
+
+li:hover .chart__label {
+  // color: #7f017f;
+  font-weight: 900;
+}
+
+li:hover .chart__bar {
+  background: #000;
+}
+
+li:nth-child(odd) .chart__label {
   background-color: #eee;
 }
 
@@ -156,11 +171,6 @@ ul li:nth-child(odd) .chart__label {
     transform: translateX(0);
     opacity: 1;
   }
-}
-
-ul li {
-  list-style-type: none;
-  margin-bottom: 4px;
 }
 
 .flex-li {
@@ -190,7 +200,6 @@ ul li {
     margin-left: $chartLabelWidth;
   }
   .chart--horiz {
-    overflow: hidden;
     padding-left: $chartLabelWidth;
   }
   .line__label {
@@ -210,11 +219,10 @@ ul li {
     margin-left: $chartLabelWidth;
   }
   .skills {
-    height: 470px;
+    height: 490px;
     // height: $totalChartCount * ($chartBarHeight + $chartBarGap) + ($chartCount * ($chartGap + $titleHeight));
   }
   .chart--horiz {
-    overflow: hidden;
     padding-left: $chartLabelWidth;
   }
   .chart__label {

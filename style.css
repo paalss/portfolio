@@ -249,10 +249,13 @@
     background: #fff;
     box-shadow: inset 0px 0px 0px 3px #000;
   }
-  figure {
+  /* .index figure {
+    margin: 0;
+  } */
+  .work figure {
+    background-color: #bbb;
     margin: 15px 0;
     padding: 40px 5% 10px 5%;
-    background-color: #bbb;
   }
   ul.tools {
     padding: 0;
@@ -383,7 +386,7 @@
     margin-right: auto;
     max-width: 1000px;
   }
-  .work main .container p, figure {
+  .work main .container p, .work figure {
     width: 630px;
   }
 }

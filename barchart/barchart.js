@@ -24,16 +24,16 @@ skillsDiv.innerHTML = `
       </li>
       <li class="line l--100">
         <span class="line__label">
-          Temmelig god på
+          Ganske god på
         </span>
       </li>
     </ul>
   
     <div class="charts">
       <div class="chart chart--dev">
-        <h3 class="chart__title">Utvikling</h3>
+        <h3 class="chart__title">Webutvikling</h3>
         <ul class="chart--horiz">
-          <li>
+          <li title="Ganske god på HTML & CSS">
             <div class="flex-li">
               <span class="chart__label">
                 HTML & CSS
@@ -41,7 +41,7 @@ skillsDiv.innerHTML = `
               <div class="chart__bar" style="width: 100%;">
             </div>
           </li>
-          <li>
+          <li title="Ganske god på JavaScript">
             <div class="flex-li">
               <span class="chart__label">
                 JavaScript
@@ -49,7 +49,7 @@ skillsDiv.innerHTML = `
               <div class="chart__bar" style="width: 100%;">
             </div>
           </li>
-          <li>
+          <li title="Behersker MySQL & Relasjonsdatabaser">
             <div class="flex-li">
               <span class="chart__label">
                 MySQL & Relasjons&shy;databaser
@@ -57,7 +57,7 @@ skillsDiv.innerHTML = `
               <div class="chart__bar" style="width: 66%;">
             </div>
           </li>
-          <li>
+          <li title="Behersker PHP">
             <div class="flex-li">
               <span class="chart__label">
                 PHP
@@ -65,7 +65,15 @@ skillsDiv.innerHTML = `
               <div class="chart__bar" style="width: 66%;">
             </div>
           </li>
-          <li>
+          <li title="Kan grunnleggende Jest">
+            <div class="flex-li">
+              <span class="chart__label">
+                Jest
+              </span>
+              <div class="chart__bar" style="width: 33%;">
+            </div>
+          </li>
+          <li title="Kan grunnleggende Docker">
             <div class="flex-li">
               <span class="chart__label">
                 Docker
@@ -73,7 +81,7 @@ skillsDiv.innerHTML = `
               <div class="chart__bar" style="width: 33%;">
             </div>
           </li>
-          <li>
+          <li title="Kan under grunnleggende NodeJS">
             <div class="flex-li">
               <span class="chart__label">
                 NodeJS
@@ -81,7 +89,7 @@ skillsDiv.innerHTML = `
               <div class="chart__bar" style="width: 16%;">
             </div>
           </li>
-          <li>
+          <li title="Kan under grunnleggende Angular & React">
             <div class="flex-li">
               <span class="chart__label">
                 Angular & React
@@ -93,9 +101,9 @@ skillsDiv.innerHTML = `
       </div>
   
       <div class="chart chart--design">
-        <h3 class="chart__title">Design</h3>
+        <h3 class="chart__title">Grafisk design</h3>
         <ul class="chart--horiz">
-          <li>
+          <li title="Behersker Adobe XD, Photoshop, Illustrator, InDesign">
             <div class="flex-li">
               <span class="chart__label">
                 Adobe XD, Photoshop, Illustrator, InDesign 

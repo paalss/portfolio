@@ -1,6 +1,6 @@
 .skills {
   max-width: 800px;
-  height: 520px;
+  height: 540px;
   position: relative;
 }
 
@@ -68,16 +68,20 @@
   font-weight: bold;
 }
 
+ul li {
+  list-style-type: none;
+  margin-bottom: 4px;
+}
+
 .chart--horiz {
-  overflow: hidden;
   padding-left: 80px;
 }
 
 .chart__bar {
   height: 20px;
   margin-bottom: 10px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#7f017f), to(#01011f));
-  background: linear-gradient(to bottom right, #7f017f, #01011f);
+  background: -webkit-gradient(linear, left top, right bottom, from(#7f017f), to(#330145));
+  background: linear-gradient(to bottom right, #7f017f, #330145);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   opacity: 0;
@@ -92,7 +96,15 @@
   font-size: 0.8rem;
 }
 
-ul li:nth-child(odd) .chart__label {
+li:hover .chart__label {
+  font-weight: 900;
+}
+
+li:hover .chart__bar {
+  background: #000;
+}
+
+li:nth-child(odd) .chart__label {
   background-color: #eee;
 }
 
@@ -122,11 +134,6 @@ ul li:nth-child(odd) .chart__label {
   }
 }
 
-ul li {
-  list-style-type: none;
-  margin-bottom: 4px;
-}
-
 .flex-li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,7 +161,6 @@ ul li {
     margin-left: 100px;
   }
   .chart--horiz {
-    overflow: hidden;
     padding-left: 100px;
   }
   .line__label {
@@ -174,10 +180,9 @@ ul li {
     margin-left: 200px;
   }
   .skills {
-    height: 470px;
+    height: 490px;
   }
   .chart--horiz {
-    overflow: hidden;
     padding-left: 200px;
   }
   .chart__label {

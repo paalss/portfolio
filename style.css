@@ -349,9 +349,10 @@
     overflow: hidden;
   }
   header img {
-    margin-top: -50px;
-    width: 140%;
+    /* width: 140%; */
+    height: 170%;
     object-fit: cover;
+    transform: translateX(-10px) translateY(-43px);
   }
   .index header .container {
     display: flex;

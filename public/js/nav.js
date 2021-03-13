@@ -4,12 +4,12 @@ if (page=='index') {
   nav.innerHTML = `
     <div class="container">
       <ul class="nav">
-        <li><a href="index.html" class="open">Hjem</a></li>
+        <li><a href="/" class="open">Hjem</a></li>
         <li><a href="#">Nettsider</a>
           <ul class="website-links">
-            <li><a href="webWork/rankingapp.html">Ranking app</a></li>
-            <li><a href="webWork/videoopplasting.html">Videoopplastingssystemer</a></li>
-            <li><a href="webWork/maclean.html">Alistair Maclean nettside redesign</a></li>
+            <li><a href="/rankingapp">Ranking app</a></li>
+            <li><a href="/videoopplasting">Videoopplastingssystemer</a></li>
+            <li><a href="/maclean">Alistair Maclean nettside redesign</a></li>
           </ul>
         </li>
       </ul>
@@ -20,12 +20,12 @@ if (page=='index') {
   nav.innerHTML = `
     <div class="container">
       <ul class="nav">
-        <li><a href="../index.html">Hjem</a></li>
+        <li><a href="/">Hjem</a></li>
         <li><a href="#" class="open">Nettsider</a>
           <ul class="website-links">
-            <li><a href="rankingapp.html">Ranking app</a></li>
-            <li><a href="videoopplasting.html">Videoopplastingssystemer</a></li>
-            <li><a href="maclean.html">Alistair Maclean nettside redesign</a></li>
+            <li><a href="/rankingapp">Ranking app</a></li>
+            <li><a href="/videoopplasting">Videoopplastingssystemer</a></li>
+            <li><a href="/maclean">Alistair Maclean nettside redesign</a></li>
           </ul>
         </li>
       </ul>

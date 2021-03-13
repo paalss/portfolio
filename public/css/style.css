@@ -14,7 +14,7 @@
     background-attachment: fixed;
   }
   body.index {
-    background-image: url("images/black_explosion.png");
+    background-image: url("../images/black_explosion.png");
     background-blend-mode: multiply;
     background-position: 230% -135px;
     background-size: 130%;

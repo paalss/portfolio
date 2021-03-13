@@ -349,7 +349,6 @@
     overflow: hidden;
   }
   header img {
-    /* width: 140%; */
     height: 170%;
     object-fit: cover;
     transform: translateX(-10px) translateY(-43px);
@@ -387,7 +386,7 @@
     margin-right: auto;
     max-width: 1000px;
   }
-  .work main .container p, .work figure {
+  .work main .container p, .work main .container li, .work figure {
     width: 630px;
   }
 }

@@ -6,27 +6,27 @@ footer.innerHTML = `
     <ul>
       <li>
         <a href="https://github.com/paalss" target="_blank" rel="noopener noreferrer">
-          <span class="icon fa fa-github"></span><span class="text">Github (paalss)</span>
+          <span class="icon fab fa-github"></span><span class="text">Github (paalss)</span>
         </a>
       </li>
       <li>
         <a href="https://www.facebook.com/pal.stakvik" target="_blank" rel="noopener noreferrer">
-          <span class="icon fa fa-facebook"></span><span class="text">Facebook</span>
+          <span class="icon fab fa-facebook"></span> <span class="text">Facebook</span>
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/in/pal-stakvik/" target="_blank" rel="noopener noreferrer">
-          <span class="icon fa fa-linkedin"></span><span class="text">Linkedin</span>
+          <span class="icon fab fa-linkedin"></span><span class="text">Linkedin</span>
         </a>
       </li>
       <li>
         <a href="https://www.instagram.com/gassosaman/" target="_blank" rel="noopener noreferrer">
-          <span class="icon fa fa-instagram"></span><span class="text">Instagram (gassosaman)</span>
+          <span class="icon fab fa-instagram"></span><span class="text">Instagram (gassosaman)</span>
         </a>
       </li>
       <li>
         <a href="https://scratch.mit.edu/users/pa0110/" target="_blank" rel="noopener noreferrer">
-          <span class="icon fa"><img src="images/scratchlogo-transparent-white.png" alt="Scratch logo"></span><span class="text">Scratch (pa0110)</span>
+          <span class="icon fab fa"><img src="images/scratchlogo-transparent-white.png" alt="Scratch logo"></span><span class="text">Scratch (pa0110)</span>
         </a>
       </li>
     </ul>
@@ -35,11 +35,11 @@ footer.innerHTML = `
     <ul>
       <li>
         <a href="mailto:paalss94@gmail.com">
-          <span class="icon fa fa-envelope"></span><span class="text">paalss94@gmail.com</span>
+          <span class="icon fas fa-envelope"></span><span class="text">paalss94@gmail.com</span>
         </a>
       </li>
       <li>
-        <span class="icon fa"></span><button id="copyMailButton"><i class="fa fa-clipboard" aria-hidden="true"></i> Kopier mailadresse</button>
+        <span class="icon fa"></span><button id="copyMailButton"><i class="far fa-clipboard" aria-hidden="true"></i> Kopier mailadresse</button>
       </li>
     </ul>
   </div>
@@ -60,7 +60,7 @@ function prepareCopyButton() {
     if (copyToClipboard(mailAddress)) {
       feedback.outerHTML = '<span id="feedback">Kopiert til utklippstavlen<br><span class="icon fa"></span></span>'
     } else {
-      feedback.outerHTML = '<span id="feedback">Kopiering feilet<br><span class="icon fa"></span></span>'
+      feedback.outerHTML = '<span id="feedback">Kopiering feilet<br><span class="icon far fa-clipboard"></span></span>'
     }
   })
 }

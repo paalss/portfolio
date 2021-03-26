@@ -16,7 +16,7 @@
 
 .tooltip {
   visibility: hidden;
-  width: 72%;
+  width: 90%;
   z-index: 1;
   /* opacity: .40; */
   padding: 0px 20px;
@@ -97,7 +97,7 @@
 /*bottom*/
 
 .bottom .tooltip {
-  top: 115%;
+  top: 115%; /**/
   left: 0%;
 }
 
@@ -131,11 +131,11 @@
 
 @media only screen and (min-width: 700px) {
   .tooltip {
-    width: 112%;
+    width: 140%;
   }
   .bottom .tooltip {
     top: 115%;
-    left: -13%;
+    left: -23%;
   }
   /* .work .tooltip {
     width: 132%;

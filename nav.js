@@ -12,11 +12,11 @@ if (page == 'index') {
             <li><a href="webWork/maclean.html">Alistair Maclean nettside redesign</a></li>
           </ul>
         </li>
-        <!-- <li><a class="con-tooltip bottom" href="https://paalss-instagram-gallery.herokuapp.com/portfolio">Kunst <span class="gray"> 15 <i class="far fa-clock"></i></span>
+        <li><a class="con-tooltip bottom" href="https://paalss-instagram-gallery.herokuapp.com/portfolio">Kunst <span class="gray"> 15 <i class="far fa-clock"></i></span>
           <div class="tooltip">
-            <p>Kan ta 15 sek å laste inn</p>
+            <p>Kan ta 15 sek å laste inn siden</p>
           </div>
-        </a></li> -->
+        </a></li>
       </ul>
     </div>
   `
@@ -33,11 +33,11 @@ else if (page == 'fritid') {
             <li><a href="maclean.html">Alistair Maclean nettside redesign</a></li>
           </ul>
         </li>
-        <!-- <li><a class="con-tooltip bottom" href="https://paalss-instagram-gallery.herokuapp.com/portfolio" class="open">Kunst <span class="gray"> 15 <i class="far fa-clock"></i></span>
+        <li><a class="con-tooltip bottom" href="https://paalss-instagram-gallery.herokuapp.com/portfolio" class="open">Kunst <span class="gray"> 15 <i class="far fa-clock"></i></span>
           <div class="tooltip">
-            <p>Kan ta 15 sek å laste inn</p>
+            <p>Kan ta 15 sek å laste inn siden</p>
           </div>
-        </a></li> -->
+        </a></li>
       </ul>
     </div>
   `
@@ -55,11 +55,11 @@ else {
             <li><a href="maclean.html">Alistair Maclean nettside redesign</a></li>
           </ul>
         </li>
-        <!-- <li><a class="con-tooltip bottom" href="https://paalss-instagram-gallery.herokuapp.com/portfolio">Kunst <span class="gray"> 15 <i class="far fa-clock"></i></span>
+        <li><a class="con-tooltip bottom" href="https://paalss-instagram-gallery.herokuapp.com/portfolio">Kunst <span class="gray"> 15 <i class="far fa-clock"></i></span>
           <div class="tooltip">
-            <p>Kan ta 15 sek å laste inn</p>
+            <p>Kan ta 15 sek å laste inn siden</p>
           </div>
-        </a></li> -->
+        </a></li>
       </ul>
     </div>
   `

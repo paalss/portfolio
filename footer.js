@@ -11,7 +11,7 @@ footer.innerHTML = `
       </li>
       <li>
         <a href="https://www.facebook.com/pal.stakvik" target="_blank" rel="noopener noreferrer">
-          <span class="icon fab fa-facebook"></span> <span class="text">Facebook</span>
+          <span class="icon fab fa-facebook"></span><span class="text">Facebook</span>
         </a>
       </li>
       <li>

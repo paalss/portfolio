@@ -65,6 +65,14 @@ skillsDiv.innerHTML = `
               <div class="chart__bar" style="width: 66%;">
             </div>
           </li>
+          <li title="Kan grunnleggende React">
+            <div class="flex-li">
+              <span class="chart__label">
+                React
+              </span>
+              <div class="chart__bar" style="width: 33%;">
+              </div>
+          </li>
           <li title="Kan grunnleggende Jest">
             <div class="flex-li">
               <span class="chart__label">
@@ -87,14 +95,6 @@ skillsDiv.innerHTML = `
                 NodeJS
               </span>
               <div class="chart__bar" style="width: 16%;">
-            </div>
-          </li>
-          <li title="Kan under grunnleggende Angular & React">
-            <div class="flex-li">
-              <span class="chart__label">
-                Angular & React
-              </span>
-              <div class="chart__bar" style="width: 8%;">
             </div>
           </li>
         </ul>

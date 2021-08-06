@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <title>Kunst | Påls Porteføje</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery/style.css">
+  <link rel="stylesheet" href="gallery/lightbox.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,600,900&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body class="gallery">
+  <header>
+    <div class="container">
+      <a href="index.html">&lt;</a>
+      <h1>Kunst</h1>
+    </div>
+  </header>
+  <nav></nav>
+  <main>
+    <div class="container">
+      <div class="flex" id="gallery">
+        <div class="list-item">
+        </div>
+        <script>
+          let gallery = document.getElementById("gallery")
+          const savedResponse = {
+            "data": [
+              {
+                "id": "17873112287469510",
+                "caption": "Disarming Hornet\n\n#hollowknight #hollowknightfanart #hollowknightart",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/182585796_2546671315639652_3940180805179702736_n.jpg?_nc_cat=108&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=ZXpaEp3GpfUAX9b6XPO&_nc_ht=scontent.cdninstagram.com&oh=22e6cb03d993fb59b9df595ed4adf4eb&oe=61116C42",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17887298762061506",
+                "caption": "Desktop sheep! #esheep #desktopsheep",
+                "media_url": "https://video.cdninstagram.com/v/t50.2886-16/175449252_457493395580394_7051780808900517571_n.mp4?_nc_cat=102&vs=17912017705704135_1988420787&_nc_vs=HBkcFQAYJEdLUWtkUXJxcFZSN0ZxQUJBTU9lYnFSSTlkeGhia1lMQUFBRhUAAsgBACgAGAAbAYgHdXNlX29pbAExFQAAJo7k0brTuNE\u00252FFQIoAkMzLBc\u00252F\u00252BqfvnbItDhgSZGFzaF9iYXNlbGluZV8xX3YxEQB16gcA&ccb=1-4&_nc_sid=59939d&efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjU0MC5mZWVkIn0\u00253D&_nc_ohc=Hs3VZP-5ql0AX-6MKGa&_nc_ht=video.cdninstagram.com&edm=ANo9K5cEAAAA&oh=b0d9d670309e2bef08cbd27252a1d05e&oe=610D99D8&_nc_rid=e035ff6c0e",
+                "media_type": "VIDEO"
+              },
+              {
+                "id": "17844505790512627",
+                "caption": "Samus!\n#metroidart\n#metroidfanart",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/143506614_262731038612053_2367273703330282593_n.jpg?_nc_cat=110&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=rFxr3VW7rLcAX8jMrN7&_nc_ht=scontent.cdninstagram.com&oh=c2b57f565c3a06b4aab3b7c2b8136040&oe=611118C1",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17859476954334356",
+                "caption": "Discovering my mental age with a drawing (arealme.com).\n\nIt says my mental age is 27 and I'm 26 :O",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/131889398_719753562309549_7322091402677886695_n.jpg?_nc_cat=107&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=TnwCVS540McAX_HC3LL&_nc_ht=scontent.cdninstagram.com&oh=a3c43ed0162127cf977bd9edd899dd43&oe=6111FA06",
+                "media_type": "CAROUSEL_ALBUM"
+              },
+              {
+                "id": "17870856431107426",
+                "caption": "#hollowknightfanart #hollowknightart",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/128215695_393562375100647_8989147005996215443_n.jpg?_nc_cat=101&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=iJ8DdOF0mDcAX8Fy_xz&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=06bd7ad58d0063b9b13433c338683779&oe=6112975C",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17894781487693094",
+                "caption": "#hollowknightart #hollowknightfanart",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/128208278_290323592400119_8137297023240781513_n.jpg?_nc_cat=106&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=YTgG9qy-8U0AX-QCE_J&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=7222f0b10eee81b51c6b44a723498571&oe=61112EEA",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17908743148534123",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/124278474_209433650565668_6205548818957723727_n.jpg?_nc_cat=102&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=bxuLihkI-akAX-rNjTS&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=14ad26713bbe9ead3f123a89633166b3&oe=61114A80",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17886171925768011",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123963206_677520186470542_2961105743805471519_n.jpg?_nc_cat=100&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=zY1px2YZg7YAX881W5f&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=617aa326f13dcb2cdb23ed97711d2f7b&oe=6112597F",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17895054208663195",
+                "caption": ".\n#hollowknightart \n#hollowknightfanart",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/124302893_1337362636595193_2719101737361076099_n.jpg?_nc_cat=100&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=LkdYIvtxLv8AX_FQnD8&_nc_ht=scontent.cdninstagram.com&oh=520a98938a66db98bdc5eacee32ee92c&oe=6111E636",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17852326643333860",
+                "caption": ".\n\"Garama!\"\n\u2013Hornet\n\n#hollowknightart \n#hollowknightfanart",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123702955_143865244142280_784796128510515407_n.jpg?_nc_cat=108&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=r1LiCy1ZargAX_gJAec&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=2af7597b5c81c2b79497f2983c5b3e70&oe=61116164",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17844228830479004",
+                "caption": "#hollowknightart \n#hollowknightfanart",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123587322_718929738732133_6981022479588269815_n.jpg?_nc_cat=104&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=beNk0R4Yt2YAX_HP4yM&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=52ee9b4c5c83a2646612bc2ebca47033&oe=61111275",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17862698543191421",
+                "caption": "This dance is kinda hard\n#hollowknightart \n#hollowknightfanart",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123723513_411055263598811_3411252840743200840_n.jpg?_nc_cat=102&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=bVG65naT_uwAX9aLOlq&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=d8e207062b9008004e5680aa071f91d2&oe=611248F7",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "18057889066248060",
+                "caption": "Fighting for respect\n#hollowknightart \n#hollowknightfanart \n\nHoly frick I got so many hearts on my last post. I'm so happy now :D",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123475992_366564848017617_546656601261924560_n.jpg?_nc_cat=104&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=y45d8DmkYZwAX-h5aI1&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=b44fcc5ea9c9fcdd79a34c29204a25d3&oe=61123362",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17891524285726573",
+                "caption": "Hollow Knight fanart:\nThe Abyss\n#hollowknightfanart #hollowknightart",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123270757_385666222790037_2355994815372865471_n.jpg?_nc_cat=100&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=7mrvt-AxqFwAX_kNygK&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=cd26be29acc31162b73fcfa6aebe627d&oe=61113830",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17901996472590743",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123262230_1074319086324882_4658285727910534057_n.jpg?_nc_cat=103&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=i2LmzWPilWsAX9Hhq9c&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=7bd032202c107d52810fb753a5a839bd&oe=61112755",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17911698745519610",
+                "caption": "#drawing",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123145531_667055027346637_8956817855027085415_n.jpg?_nc_cat=103&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=40ZUnqVpOs4AX-4ZJiR&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=62e57d9b5afcf3344d7444c30ff5f183&oe=61113635",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17884895032777380",
+                "caption": "Interviewing",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123119539_351463729409645_4072410393774151050_n.jpg?_nc_cat=100&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=KZzO4uDBTdQAX9cRrnK&_nc_ht=scontent.cdninstagram.com&oh=0dafb6a5f9e012b240d5e69d81c12f82&oe=61124D6E",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17891026081729804",
+                "caption": "I had to make the image wider (adding the dark background) or else instagram wouldn't let me fit the whole image in the post",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/123128659_149740973527538_7879929100233988951_n.jpg?_nc_cat=105&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=Z5NBP97MLbMAX-1FffA&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=154a722b1c0dbb5a3d51ff8280bfed12&oe=6112B2E0",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17864954588140102",
+                "caption": "Best author!! #alistairmaclean",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/122927801_380968960014240_802421061719483710_n.jpg?_nc_cat=102&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=fbX7CSIr1oQAX_3eLLe&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=3be9724be712da69016ac98b23f7d455&oe=6112FE2D",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17859857132225521",
+                "caption": "Gravely",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/122696506_680392019254620_7025223543540499457_n.jpg?_nc_cat=100&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=zH6_jfV9ts4AX9pfLxg&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=595128a8c3898c1094658ea1ac9b8b90&oe=611140FE",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17872205054020860",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/122906954_1225001251214666_6314140283902771790_n.jpg?_nc_cat=104&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=pZLUGjQIPrMAX8yP3Gd&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=b5307960c6da730d6a312c4bc4184c16&oe=6111B7FD",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "18128642647140300",
+                "caption": "Sowing",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/122696506_2612775532365764_5010826225103040218_n.jpg?_nc_cat=100&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=BmnNCkPTYyEAX8o9QJv&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=a5228999e829499a05bafc753dce7bef&oe=611144A2",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17865821222087009",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/122618454_114260757126565_9004865580879340208_n.jpg?_nc_cat=102&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=TpbqgwCehkMAX-KWJsa&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=05226170606d2f9efa0e54fbbf3cb768&oe=6112B354",
+                "media_type": "IMAGE"
+              },
+              {
+                "id": "17891164153708802",
+                "caption": "Trying out clip studio paint effects",
+                "media_url": "https://scontent.cdninstagram.com/v/t51.29350-15/122507377_735960090599523_7945233642337305740_n.jpg?_nc_cat=101&ccb=1-4&_nc_sid=8ae9d6&_nc_ohc=Qxcm6l_YnxEAX-I6-DR&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=b9b4bf4c04dd91e7d670cc8083e6e2a2&oe=61119BD1",
+                "media_type": "CAROUSEL_ALBUM"
+              },
+              {
+                "id": "17882940481805891",
+                "caption": "Mmm, infinite donut!",
+                "media_url": "https://video.cdninstagram.com/v/t50.2886-16/122773558_679241429388075_6471946292806400766_n.mp4?_nc_cat=109&vs=17879701054851514_1397683119&_nc_vs=HBkcFQAYJEdEWmdVUWNyaXgwNHhHa0NBUDY2SVF6ZF9OQlpia1lMQUFBRhUAAsgBACgAGAAbAYgHdXNlX29pbAExFQAAJvTMtt3I38I\u00252FFQIoAkMzLBdAGu6XjU\u00252FfOxgSZGFzaF9iYXNlbGluZV8xX3YxEQB16gcA&ccb=1-4&_nc_sid=59939d&efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjU0MC5mZWVkIn0\u00253D&_nc_ohc=1ZzzSchzjnMAX9A97bT&_nc_ht=video.cdninstagram.com&oh=da3bed295f315eb37fe777c9da78ecd8&oe=610DA3E7&_nc_rid=045a05ba3b",
+                "media_type": "VIDEO"
+              }
+            ],
+            "paging": {
+              "cursors": {
+                "before": "QVFIUmE0VE1ETUlnOC1fc3lRYzFPQXNjWVRud3JCQVFRald0N19ackJNNGhYcmd6T19OcGZAUaXNrc1Q1UVNfOGJROFRPamF6YnpJdDZADMExSdmlsLXVST01R",
+                "after": "QVFIUkkxanlsSUo2T1NjakREY3JWczQ3bThkVTZAVbWFSRUdqdjBxRFc2cEZAQR3RRN2dJZADlqOGdPZA2c2SU41Rnc1R2VxZAXBtMno4VV9rSkV4QmJzUlRhM3FB"
+              },
+              "next": "https://graph.instagram.com/v10.0/17841421688843316/media?access_token=IGQVJYenVMc2VnTl9zWnBfTUpGVnhQbzdndkhGS09sa053SWg5ekd2cnJ2aGFCSkVmanpmVWhjbWpDSXRjR0tpT1ZAqd0xFUmFqVFpGTTdLY1g0MThHNzJqdk51am1LS0pjLTFENkVB&fields=id\u00252Ccaption\u00252Cmedia_url\u00252Cmedia_type&limit=25&after=QVFIUkkxanlsSUo2T1NjakREY3JWczQ3bThkVTZAVbWFSRUdqdjBxRFc2cEZAQR3RRN2dJZADlqOGdPZA2c2SU41Rnc1R2VxZAXBtMno4VV9rSkV4QmJzUlRhM3FB"
+            }
+          }
+
+          const galleryHtml = savedResponse.data.map(e => {
+            if (e.media_type == "IMAGE" || e.media_type == "CAROUSEL_ALBUM") {
+              const caption = e.caption ? e.caption : "";
+              return (
+                `
+                <a class='list-item' href='${e.media_url}' data-lightbox='gallery' data-title='${caption}'>
+                  <div class='frame'>
+                    <img class='gallery-img' src='${e.media_url}' alt='${caption}'>
+                  </div>
+                </a>
+                `
+              )
+            }
+          }).join(' ')
+          gallery.innerHTML = galleryHtml
+        </script>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="nav.js" page="fritid"></script>
+  <script src="footer.js"></script>
+  <script src="gallery/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>

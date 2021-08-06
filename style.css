@@ -37,7 +37,7 @@
     line-height: 3rem;
     letter-spacing: .1rem;
   }
-  .work h1 {
+  .work h1, .gallery h1 {
     display: inline;
   }
   h2 {
@@ -76,7 +76,7 @@
   .index header {
     padding-bottom: 40px;
   }
-  .work header {
+  .work header, .gallery header {
     padding-bottom: 50px;
   }
   header:before {
@@ -108,7 +108,7 @@
   .index header .circle-frame {
     display: none;
   }
-  .work header a {
+  .work header a, .gallery header a {
     color: #fff;
     font-size: 3rem;
     text-decoration: none;

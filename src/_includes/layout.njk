@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Påls portefølje</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="barchart/style.css" />
+  <link rel="stylesheet" href="tooltip.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,600,900&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body class="index">
+  {{ content | safe }}
+  <footer>
+    <div class="container">
+      <b>Du finner meg på:</b>
+      <ul>
+        <li>
+          <a href="https://github.com/paalss" target="_blank" rel="noopener noreferrer">
+            <span class="icon fab fa-github"></span><span class="text">Github (paalss)</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/pal.stakvik" target="_blank" rel="noopener noreferrer">
+            <span class="icon fab fa-facebook"></span><span class="text">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/pal-stakvik/" target="_blank" rel="noopener noreferrer">
+            <span class="icon fab fa-linkedin"></span><span class="text">Linkedin</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/gassosaman/" target="_blank" rel="noopener noreferrer">
+            <span class="icon fab fa-instagram"></span><span class="text">Instagram (gassosaman)</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://scratch.mit.edu/users/pa0110/" target="_blank" rel="noopener noreferrer">
+            <span class="icon fab fa"><img src="images/scratchlogo-transparent-white.png"
+                alt="Scratch logo"></span><span class="text">Scratch (pa0110)</span>
+          </a>
+        </li>
+      </ul>
+
+      <b>Mail:</b>
+      <ul>
+        <li>
+          <a href="mailto:paalss94@gmail.com">
+            <span class="icon fas fa-envelope"></span><span class="text">paalss94@gmail.com</span>
+          </a>
+        </li>
+        <li>
+          <span class="icon fa"></span><button id="copyMailButton"><i class="far fa-clipboard" aria-hidden="true"></i>
+            Kopier mailadresse</button>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="copyMail.js"></script>
+  <script src="barchart/barchart.js"></script>
+</body>
+
+</html>

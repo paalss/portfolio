@@ -73,10 +73,10 @@ skillsDiv.innerHTML = `
               <div class="chart__bar" style="width: 66%;">
             </div>
           </li>
-          <li title="Kan grunnleggende Jest">
+          <li title="Kan grunnleggende automatisk testing">
             <div class="flex-li">
               <span class="chart__label">
-                Jest
+                Automatisk testing
               </span>
               <div class="chart__bar" style="width: 33%;">
             </div>

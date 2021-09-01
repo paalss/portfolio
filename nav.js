@@ -13,8 +13,8 @@ if (page == "index" || page == "fritid") {
             <li><a href="webWork/maclean.html">Alistair Maclean nettside redesign</a></li>
           </ul>
         </li>
-        <li><a id="galleryLink" href="gallery.html">Kunst
-        </a></li>
+        <!--<li><a id="galleryLink" href="gallery.html">Kunst
+        </a></li>-->
       </ul>
     </div>
   `;

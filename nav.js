@@ -31,8 +31,8 @@ if (page == "index" || page == "fritid") {
             <li><a href="maclean.html">Alistair Maclean nettside redesign</a></li>
           </ul>
         </li>
-        <li><a href="../gallery.html">Kunst
-        </a></li>
+        <!--<li><a href="../gallery.html">Kunst
+        </a></li>-->
       </ul>
     </div>
   `;

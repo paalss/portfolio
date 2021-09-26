@@ -4,8 +4,12 @@ import Nav from "./components/layout/Nav";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import Main from "./components/layout/Main";
-import photo from "./images/cvphoto1.jpg";
 
+// images
+import photo from "./images/cvphoto1.jpg";
+import maclean from "./images/maclean/alistairmaclean.png"
+import rankingapp from "./images/rankingapp/rankingapp.png"
+import videoopplasting from "./images/www-teknologi/prosjekt2-5-videoside.png";
 function App() {
   return (
     <div className="oldbody index">
@@ -41,7 +45,7 @@ function App() {
             <a href="webWork/rankingapp.html" className="box">
               <div className="frame">
                 <img
-                  src="webWork/images/rankingapp/app2.png"
+                  src={rankingapp}
                   alt="ranking webapp"
                 />
               </div>
@@ -57,10 +61,7 @@ function App() {
 
             <a href="webWork/videoopplasting.html" className="box">
               <div className="frame">
-                <img
-                  src="webWork/images/www-teknologi/prosjekt2-5-videoside.png"
-                  alt="videoopplasting webapp"
-                />
+                <img src={videoopplasting} alt="videoopplasting webapp" />
               </div>
               <h3>Videoopplastings&shy;system prosjekter</h3>
               <ul className="tools">
@@ -75,7 +76,7 @@ function App() {
             <a href="webWork/maclean.html" className="box">
               <div className="frame">
                 <img
-                  src="webWork/images/maclean/alistairmaclean.png"
+                  src={maclean}
                   alt="maclean nettside"
                 />
               </div>

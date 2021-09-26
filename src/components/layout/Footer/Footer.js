@@ -1,4 +1,5 @@
 // import classes from "./Footer.module.css";
+import scratchLogo from "../../../images/scratchlogo-transparent-white.png"
 
 function Footer() {
   return (
@@ -52,10 +53,7 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <span className="icon fab fa">
-              <img
-                src="images/scratchlogo-transparent-white.png"
-                alt="Scratch logo"
-              />
+              <img src={scratchLogo} alt="Scratch logo" />
             </span>
             <span className="text">Scratch (pa0110)</span>
           </a>

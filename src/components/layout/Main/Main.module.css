@@ -16,11 +16,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.index a.box {
-  width: 90%;
-  margin: 30px 0;
-  overflow: hidden;
-}
+
 .index a.box .frame {
   height: 200px;
 }
@@ -33,6 +29,12 @@
   color: #000;
   text-decoration: none;
   transition: 0.2s;
+}
+
+.index a.box {
+  width: 90%;
+  margin: 30px 0;
+  overflow: hidden;
 }
 .index a.box:hover,
 .index a.box:focus {
@@ -101,4 +103,22 @@ ul.tools li {
 }
 iframe {
   display: none;
+}
+
+
+@media only screen and (min-width: 700px) {
+  .index .flex {
+    justify-content: space-between;
+  }
+  .index a.box {
+    width: 190px;
+    margin: 6px 3%;
+  }
+  .index .box .frame {
+    height: 170px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+
 }

@@ -1,10 +1,65 @@
+html {
+  font-size: 100%;
+  /* 16px */
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  line-height: 2rem;
+  scrollbar-color: #999 #fff;
+}
+
 body {
   margin: 0;
   background-color: #230d9b;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-body > * {
+
+body > div > div > div > * {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+body.index {
+  background-image: url("images/black_explosion.png");
+  background-blend-mode: multiply;
+  background-position: 230% -135px;
+  background-size: 130%;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-130 {
+  margin-bottom: 130px;
+}
+
+/* ––––––––––––––––––––– Type ––––––––––––––––––––– */
+h2 {
+  margin-top: 3rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+.work h3 {
+  color: #3b3b3b;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+.tagline {
+  font-size: 2.2rem;
+  font-weight: 900;
+  line-height: 3rem;
+}
+.subtitle {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: normal;
+}
+
+@media only screen and (min-width: 700px) {
+  body > div > div > div > * {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
 }

@@ -3,7 +3,7 @@ import Nav from "./components/layout/Nav";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import Main from "./components/layout/Main";
-import photo from "./images/cvphoto1.jpg"
+import photo from "./images/cvphoto1.jpg";
 
 function App() {
   return (

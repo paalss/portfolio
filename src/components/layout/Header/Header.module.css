@@ -34,7 +34,7 @@
   );
 }
 
-.index .header {
+.header {
   padding-bottom: 40px;
 }
 .work .header,
@@ -89,9 +89,8 @@
   background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(127, 1, 127, 0));
 }
 
-.index .header .circle-frame {
-  display: none;
-}
+/*flytt alle circle frame fra header og til der det er*/
+
 .work .header a,
 .gallery .header a {
   color: #fff;
@@ -99,18 +98,25 @@
   text-decoration: none;
 }
 
-@media only screen and (min-width: 900px) {
-  .index .header .circle-frame {
-    margin-left: 18%;
+@media only screen and (min-width: 700px) {
+  .header h1 {
+    font-size: 3rem;
   }
 
   .index .header .container {
-    justify-content: flex-start;
+    display: flex;
+    justify-content: space-around;
   }
 
-  .work main .container p,
-  .work main .container li,
-  .work figure {
-    width: 630px;
+  @media only screen and (min-width: 900px) {
+    .index .header .container {
+      justify-content: flex-start;
+    }
+
+    .work main .container p,
+    .work main .container li,
+    .work figure {
+      width: 630px;
+    }
   }
 }

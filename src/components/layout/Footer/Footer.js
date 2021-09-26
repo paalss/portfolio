@@ -1,8 +1,8 @@
-import classes from "./Footer.module.css";
+// import classes from "./Footer.module.css";
 
 function Footer() {
   return (
-    <footer className={classes.footer}>
+    <footer>
       <b>Du finner meg på:</b>
       <ul>
         <li>

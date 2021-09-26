@@ -1,7 +1,8 @@
-import classes from "./Header.module.css";
+// import classes from "./Header.module.css";
+
 function Header({ children }) {
   return (
-    <header className={classes.header}>
+    <header>
       {children}
     </header>
   );

@@ -1,10 +1,10 @@
-import classes from "./Nav.module.css";
+// import classes from "./Nav.module.css";
 
 function Nav({ page }) {
   return (
-    <nav className={classes.container}>
+    <nav>
       <div className="container">
-        <ul className={classes.nav}>
+        <ul className="nav">
           <li>
             <a
               href="index.html"

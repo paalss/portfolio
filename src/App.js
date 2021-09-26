@@ -10,6 +10,8 @@ import photo from "./images/cvphoto1.jpg";
 import maclean from "./images/maclean/alistairmaclean.png"
 import rankingapp from "./images/rankingapp/rankingapp.png"
 import videoopplasting from "./images/www-teknologi/prosjekt2-5-videoside.png";
+import Barchart from "./components/common/Barchart";
+
 function App() {
   return (
     <div className="oldbody index">
@@ -34,7 +36,9 @@ function App() {
           <div
             id="skills-placeholder"
             className="skills-placeholder mb-130"
-          ></div>
+          >
+            <Barchart/>
+          </div>
 
           <h2>Nettsider</h2>
           <p className="mb-50">

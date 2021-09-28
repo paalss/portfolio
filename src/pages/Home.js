@@ -1,3 +1,4 @@
+// components
 import Barchart from "../components/common/Barchart";
 import SquareLink from "../components/common/SquareLink";
 

@@ -1,11 +1,7 @@
 import { WebWorkLinks } from "./Home";
 
 function Webwork() {
-  return (
-
-      <WebWorkLinks />
-
-  );
+  return <WebWorkLinks />;
 }
 
 export default Webwork;

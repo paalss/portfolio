@@ -7,6 +7,7 @@ import Rankingapp from "./pages/Rankingapp";
 import Videoopplasting from "./pages/Videoopplasting";
 import Maclean from "./pages/Maclean";
 import Gallery from "./pages/Gallery";
+import Webwork from "./pages/Webwork";
 
 // components
 import Nav from "./components/layout/Nav";
@@ -16,7 +17,6 @@ import Main from "./components/layout/Main";
 
 // images
 import photo from "./images/cvphoto1.jpg";
-import Webwork from "./pages/Webwork";
 
 function App() {
   return (

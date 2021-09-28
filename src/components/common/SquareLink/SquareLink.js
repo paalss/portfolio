@@ -1,6 +1,6 @@
 // import classes from "./SquareLink.module.css";
 
-function SquareLink({ link, imgSrc, imgAlt, title, tools }) {
+function SquareLink({ link, imgSrc, imgAlt, title, tools, thereAreMoreTools }) {
   return (
     <a href={link} className="box">
       <div className="frame">
@@ -16,6 +16,7 @@ function SquareLink({ link, imgSrc, imgAlt, title, tools }) {
               </span>
             );
           })}
+      {thereAreMoreTools && "med mer"}
       </ul>
     </a>
   );

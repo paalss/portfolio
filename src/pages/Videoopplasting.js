@@ -56,9 +56,9 @@ function Videoopplasting() {
         <span className="subtitle">
           <ul className="tools">
             Verktøy: <br />
-            <li>JavaScript</li> <li>Web&#8209;components&nbsp;(LitElement)</li>{" "}
-            <li>PHP</li> <li>MySQL</li> <li>Relasjonsdatabase</li> <li>HTML</li>{" "}
-            <li>CSS</li> <li>Docker</li>{" "}
+            <li>JavaScript</li> <li>LitElement</li> <li>PHP</li> <li>MySQL</li>{" "}
+            <li>Relasjonsdatabase</li> <li>HTML</li> <li>CSS</li>{" "}
+            <li>Docker</li>{" "}
           </ul>
         </span>
       </h3>
@@ -68,7 +68,8 @@ function Videoopplasting() {
           også skilles mellom ulike brukertyper, som var <i>admin</i>,{" "}
           <i>lærer</i> og <i>studenter</i>, hver med ulike rettigheter:
         </p>
-        <ul>
+        {/* className="normal-list" kan fjernes hvis du går over til component-scoped CSS */}
+        <ul className="normal-list">
           <li>
             <b>studenter</b> skulle ha mulighet til å se på videoer, kommentere,
             lagre video i spillelister etc.

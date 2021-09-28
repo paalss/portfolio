@@ -56,7 +56,8 @@ export function WebWorkLinks() {
         imgSrc={rankingappImg}
         imgAlt="ranking webapp"
         title="Ranking app"
-        tools={["TypeScript", "PHP", "Relasjonsdatabase", "MySQL", "mer…"]}
+        tools={["TypeScript", "PHP", "Relasjonsdatabase", "MySQL"]}
+        thereAreMoreTools={true}
       />
       <SquareLink
         link="/webWork/videoopplasting"
@@ -64,7 +65,8 @@ export function WebWorkLinks() {
         imgAlt="videoopplasting webapp"
         title="Videoopplastings&shy;system prosjekter"
         // &#8209; === hard hyphen
-        tools={["PHP", "JS", <>Web&#8209;components</>, "mer…"]}
+        tools={["PHP", "JavaScript", "LitElement"]}
+        thereAreMoreTools={true}
       />
       <SquareLink
         link="/webWork/maclean"

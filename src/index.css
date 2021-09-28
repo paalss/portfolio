@@ -484,7 +484,7 @@
     justify-content: flex-start;
   }
   main .container p,
-  /* main .container li, */
+  main .container .normal-list li,
   figure {
     width: 630px;
   }

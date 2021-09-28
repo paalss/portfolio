@@ -31,11 +31,11 @@ function Nav() {
               </li>
             </ul>
           </li>
-          <li>
+          {/* <li>
             <NavLink id="galleryLink" to="/webWork/gallery" activeClassName="selected">
               Kunst
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

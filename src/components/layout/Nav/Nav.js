@@ -12,20 +12,20 @@ function Nav() {
             </NavLink>
           </li>
           <li>
-            <a href="index.html">Nettsider</a>
+            <NavLink to="/webWork" activeClassName="selected">Nettsider</NavLink>
             <ul className="website-links">
               <li>
-                <NavLink to="/rankingapp" activeClassName="selected">
+                <NavLink to="/webWork/rankingapp" activeClassName="selected">
                   Ranking app
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/videoopplasting" activeClassName="selected">
+                <NavLink to="/webWork/videoopplasting" activeClassName="selected">
                   Videoopplastingssystemer
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/maclean" activeClassName="selected">
+                <NavLink to="/webWork/maclean" activeClassName="selected">
                   Alistair Maclean nettside redesign
                 </NavLink>
               </li>

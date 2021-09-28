@@ -38,16 +38,16 @@ function App() {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/rankingapp">
+            <Route path="/webWork/rankingapp">
               <Rankingapp />
             </Route>
-            <Route path="/videoopplasting">
+            <Route path="/webWork/videoopplasting">
               <Videoopplasting />
             </Route>
-            <Route path="/maclean">
+            <Route path="/webWork/maclean">
               <Maclean />
             </Route>
-            <Route path="/gallery">
+            <Route path="/webWork/gallery">
               <Gallery />
             </Route>
           </Switch>

@@ -44,21 +44,21 @@ function Home() {
       </p>
       <div className="flex">
         <SquareLink
-          link="/rankingapp"
+          link="/webWork/rankingapp"
           imgSrc={rankingappImg}
           imgAlt="ranking webapp"
           title="Ranking app"
           tools={["TypeScript", "PHP", "Relasjonsdatabase", "MySQL", "mer…"]}
         />
         <SquareLink
-          link="/videoopplasting"
+          link="/webWork/videoopplasting"
           imgSrc={videoopplastingImg}
           imgAlt="videoopplasting webapp"
           title="Videoopplastings&shy;system prosjekter"
           tools={["PHP", "JS", <>Web&#8209;components</>, "mer…"]}
         />
         <SquareLink
-          link="/maclean"
+          link="/webWork/maclean"
           imgSrc={macleanImg}
           imgAlt="maclean nettside"
           title="Alistair MacLean nettside redesign"

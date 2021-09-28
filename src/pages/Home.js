@@ -8,7 +8,7 @@ import videoopplastingImg from "../images/www-teknologi/prosjekt2-5-videoside.pn
 
 function Home() {
   return (
-    <div className="container">
+    <>
       <h2>Kompetanse</h2>
       <p className="mb-50">
         Jeg har erfaring innen webutvikling og grafisk design.
@@ -42,31 +42,37 @@ function Home() {
         Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som
         jeg har skrevet litt om.
       </p>
-      <div className="flex">
-        <SquareLink
-          link="/webWork/rankingapp"
-          imgSrc={rankingappImg}
-          imgAlt="ranking webapp"
-          title="Ranking app"
-          tools={["TypeScript", "PHP", "Relasjonsdatabase", "MySQL", "mer…"]}
-        />
-        <SquareLink
-          link="/webWork/videoopplasting"
-          imgSrc={videoopplastingImg}
-          imgAlt="videoopplasting webapp"
-          title="Videoopplastings&shy;system prosjekter"
-          tools={["PHP", "JS", <>Web&#8209;components</>, "mer…"]}
-        />
-        <SquareLink
-          link="/webWork/maclean"
-          imgSrc={macleanImg}
-          imgAlt="maclean nettside"
-          title="Alistair MacLean nettside redesign"
-          tools={["HTML", "CSS"]}
-        />
-      </div>
+      <WebWorkLinks />
+    </>
+  );
+}
+
+export function WebWorkLinks() {
+  return (
+    <div className="flex">
+      <SquareLink
+        link="/webWork/rankingapp"
+        imgSrc={rankingappImg}
+        imgAlt="ranking webapp"
+        title="Ranking app"
+        tools={["TypeScript", "PHP", "Relasjonsdatabase", "MySQL", "mer…"]}
+      />
+      <SquareLink
+        link="/webWork/videoopplasting"
+        imgSrc={videoopplastingImg}
+        imgAlt="videoopplasting webapp"
+        title="Videoopplastings&shy;system prosjekter"
+        tools={["PHP", "JS", <>Web&#8209;components</>, "mer…"]}
+      />
+      <SquareLink
+        link="/webWork/maclean"
+        imgSrc={macleanImg}
+        imgAlt="maclean nettside"
+        title="Alistair MacLean nettside redesign"
+        tools={["HTML", "CSS"]}
+      />
     </div>
   );
 }
 
-export default Home
+export default Home;

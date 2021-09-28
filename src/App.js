@@ -16,6 +16,7 @@ import Main from "./components/layout/Main";
 
 // images
 import photo from "./images/cvphoto1.jpg";
+import Webwork from "./pages/Webwork";
 
 function App() {
   return (
@@ -34,23 +35,28 @@ function App() {
         </Header>
         <Nav page="index" />
         <Main>
-          <Switch>
-            <Route path="/" exact>
-              <Home />
-            </Route>
-            <Route path="/webWork/rankingapp">
-              <Rankingapp />
-            </Route>
-            <Route path="/webWork/videoopplasting">
-              <Videoopplasting />
-            </Route>
-            <Route path="/webWork/maclean">
-              <Maclean />
-            </Route>
-            <Route path="/webWork/gallery">
-              <Gallery />
-            </Route>
-          </Switch>
+          <div className="container">
+            <Switch>
+              <Route path="/" exact>
+                <Home />
+              </Route>
+              <Route path="/webWork" exact>
+                <Webwork />
+              </Route>
+              <Route path="/webWork/rankingapp">
+                <Rankingapp />
+              </Route>
+              <Route path="/webWork/videoopplasting">
+                <Videoopplasting />
+              </Route>
+              <Route path="/webWork/maclean">
+                <Maclean />
+              </Route>
+              <Route path="/webWork/gallery">
+                <Gallery />
+              </Route>
+            </Switch>
+          </div>
         </Main>
         <Footer />
       </div>

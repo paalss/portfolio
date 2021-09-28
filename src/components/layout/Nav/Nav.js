@@ -9,7 +9,7 @@ function Nav({ page }) {
             <a
               href="index.html"
               id="indexLink"
-              // className={page === "index" && "open"}
+              className={page === "index" ? "open" : ""}
             >
               Hjem
             </a>
@@ -20,7 +20,7 @@ function Nav({ page }) {
               <li>
                 <a
                   href="webWork/rankingapp.html"
-                  // className={page === "rankingapp" && "open"}
+                  className={page === "rankingapp" ? "open" : ""}
                 >
                   Ranking app
                 </a>
@@ -28,7 +28,7 @@ function Nav({ page }) {
               <li>
                 <a
                   href="webWork/videoopplasting.html"
-                  // className={page === "videoopplasting" && "open"}
+                  className={page === "videoopplasting" ? "open" : ""}
                 >
                   Videoopplastingssystemer
                 </a>
@@ -36,7 +36,7 @@ function Nav({ page }) {
               <li>
                 <a
                   href="webWork/maclean.html"
-                  // className={page === "maclean" && "open"}
+                  className={page === "maclean" ? "open" : ""}
                 >
                   Alistair Maclean nettside redesign
                 </a>

@@ -1,4 +1,5 @@
 // import classes from "./Nav.module.css";
+import { Link } from "react-router-dom";
 
 function Nav({ page }) {
   return (
@@ -6,13 +7,13 @@ function Nav({ page }) {
       <div className="container">
         <ul className="nav">
           <li>
-            <a
-              href="index.html"
+            <Link
+              to="/maclean"
               id="indexLink"
               className={page === "index" ? "open" : ""}
             >
               Hjem
-            </a>
+            </Link>
           </li>
           <li>
             <a href="index.html">Nettsider</a>

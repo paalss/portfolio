@@ -11,6 +11,7 @@ import maclean from "./images/maclean/alistairmaclean.png"
 import rankingapp from "./images/rankingapp/rankingapp.png"
 import videoopplasting from "./images/www-teknologi/prosjekt2-5-videoside.png";
 import Barchart from "./components/common/Barchart";
+import SquareLink from "./components/common/SquareLink";
 
 function App() {
   return (
@@ -33,11 +34,8 @@ function App() {
           <p className="mb-50">
             Jeg har erfaring innen webutvikling og grafisk design.
           </p>
-          <div
-            id="skills-placeholder"
-            className="skills-placeholder mb-130"
-          >
-            <Barchart/>
+          <div id="skills-placeholder" className="skills-placeholder mb-130">
+            <Barchart />
           </div>
 
           <h2>Nettsider</h2>
@@ -48,46 +46,29 @@ function App() {
           <div className="flex">
             <a href="webWork/rankingapp.html" className="box">
               <div className="frame">
-                <img
-                  src={rankingapp}
-                  alt="ranking webapp"
-                />
+                <img src={rankingapp} alt="ranking webapp" />
               </div>
               <h3>Ranking app</h3>
               <ul className="tools">
-                <li>TypeScript</li>{" "}
-                <li>PHP</li>{" "}
-                <li>Relasjonsdatabase</li>{" "}
-                <li>MySQL</li>{" "}
-                <li>[…]</li>{" "}
+                <li>TypeScript</li> <li>PHP</li> <li>Relasjonsdatabase</li>{" "}
+                <li>MySQL</li> <li>[…]</li>{" "}
               </ul>
             </a>
-
-            <a href="webWork/videoopplasting.html" className="box">
-              <div className="frame">
-                <img src={videoopplasting} alt="videoopplasting webapp" />
-              </div>
-              <h3>Videoopplastings&shy;system prosjekter</h3>
-              <ul className="tools">
-                <li>PHP</li>{" "}
-                <li>Twig</li>{" "}
-                <li>JS</li>{" "}
-                <li>Web&#8209;components</li>{" "}
-                <li>[…]</li>{" "}
-              </ul>
-            </a>
+            <SquareLink
+              link="webWork/videoopplasting.html"
+              imgSrc={videoopplasting}
+              imgAlt="videoopplasting webapp"
+              title="Videoopplastings&shy;system prosjekter"
+              tools={["PHP", "JS", "Web&#8209;components", "mer…"]}
+            />
 
             <a href="webWork/maclean.html" className="box">
               <div className="frame">
-                <img
-                  src={maclean}
-                  alt="maclean nettside"
-                />
+                <img src={maclean} alt="maclean nettside" />
               </div>
               <h3>Alistair MacLean nettside redesign</h3>
               <ul className="tools">
-                <li>HTML</li>{" "}
-                <li>CSS</li>{" "}
+                <li>HTML</li> <li>CSS</li>{" "}
               </ul>
             </a>
           </div>

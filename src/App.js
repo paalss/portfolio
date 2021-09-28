@@ -64,16 +64,19 @@ function App() {
             som jeg har skrevet litt om.
           </p>
           <div className="flex">
-            <a href="webWork/rankingapp.html" className="box">
-              <div className="frame">
-                <img src={rankingapp} alt="ranking webapp" />
-              </div>
-              <h3>Ranking app</h3>
-              <ul className="tools">
-                <li>TypeScript</li> <li>PHP</li> <li>Relasjonsdatabase</li>{" "}
-                <li>MySQL</li> <li>[…]</li>{" "}
-              </ul>
-            </a>
+            <SquareLink
+              link="webWork/rankingapp.html"
+              imgSrc={rankingapp}
+              imgAlt="ranking webapp"
+              title="Ranking app"
+              tools={[
+                "TypeScript",
+                "PHP",
+                "Relasjonsdatabase",
+                "MySQL",
+                "mer…",
+              ]}
+            />
             <SquareLink
               link="webWork/videoopplasting.html"
               imgSrc={videoopplasting}
@@ -81,16 +84,13 @@ function App() {
               title="Videoopplastings&shy;system prosjekter"
               tools={["PHP", "JS", <>Web&#8209;components</>, "mer…"]}
             />
-
-            <a href="webWork/maclean.html" className="box">
-              <div className="frame">
-                <img src={maclean} alt="maclean nettside" />
-              </div>
-              <h3>Alistair MacLean nettside redesign</h3>
-              <ul className="tools">
-                <li>HTML</li> <li>CSS</li>{" "}
-              </ul>
-            </a>
+            <SquareLink
+              link="webWork/maclean.html"
+              imgSrc={maclean}
+              imgAlt="maclean nettside"
+              title="Alistair MacLean nettside redesign"
+              tools={["HTML", "CSS"]}
+            />
           </div>
         </div>
       </Main>

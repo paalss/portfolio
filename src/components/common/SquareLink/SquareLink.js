@@ -11,9 +11,9 @@ function SquareLink({ link, imgSrc, imgAlt, title, tools }) {
         {tools &&
           tools.map((t, i) => {
             return (
-              <li key={i}>
-                {t}
-              </li>
+              <>
+                <li key={i}>{t}</li>{" "}
+              </>
             );
           })}
       </ul>

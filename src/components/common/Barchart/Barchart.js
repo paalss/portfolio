@@ -26,13 +26,13 @@ function Barchart() {
               <li title="Ganske god på HTML &amp; CSS">
                 <div className="flex-li">
                   <span className="chart__label">HTML &amp; CSS</span>
-                  <div className="chart__bar" style={{ width: "100%;" }}></div>
+                  <div className="chart__bar" style={{ width: "100%" }}></div>
                 </div>
               </li>
               <li title="Ganske god på JavaScript">
                 <div className="flex-li">
                   <span className="chart__label">JavaScript</span>
-                  <div className="chart__bar" style={{ width: "100%;" }}></div>
+                  <div className="chart__bar" style={{ width: "100%" }}></div>
                 </div>
               </li>
               <li title="Ganske god på MySQL &amp; Relasjonsdatabaser">
@@ -40,37 +40,37 @@ function Barchart() {
                   <span className="chart__label">
                     MySQL &amp; Relasjons&shy;databaser
                   </span>
-                  <div className="chart__bar" style={{ width: "100%;" }}></div>
+                  <div className="chart__bar" style={{ width: "100%" }}></div>
                 </div>
               </li>
               <li title="Behersker React godt">
                 <div className="flex-li">
                   <span className="chart__label">React</span>
-                  <div className="chart__bar" style={{ width: "66%;" }}></div>
+                  <div className="chart__bar" style={{ width: "66%" }}></div>
                 </div>
               </li>
               <li title="Behersker PHP godt">
                 <div className="flex-li">
                   <span className="chart__label">PHP</span>
-                  <div className="chart__bar" style={{ width: "66%;" }}></div>
+                  <div className="chart__bar" style={{ width: "66%" }}></div>
                 </div>
               </li>
               <li title="Kan grunnleggende automatisk testing">
                 <div className="flex-li">
                   <span className="chart__label">Automatisk testing</span>
-                  <div className="chart__bar" style={{ width: "33%;" }}></div>
+                  <div className="chart__bar" style={{ width: "33%" }}></div>
                 </div>
               </li>
               <li title="Kan grunnleggende NodeJS">
                 <div className="flex-li">
                   <span className="chart__label">NodeJS</span>
-                  <div className="chart__bar" style={{ width: "33%;" }}></div>
+                  <div className="chart__bar" style={{ width: "33%" }}></div>
                 </div>
               </li>
               <li title="Kan under Docker">
                 <div className="flex-li">
                   <span className="chart__label">Docker</span>
-                  <div className="chart__bar" style={{ width: "33%;" }}></div>
+                  <div className="chart__bar" style={{ width: "33%" }}></div>
                 </div>
               </li>
             </ul>
@@ -84,7 +84,7 @@ function Barchart() {
                   <span className="chart__label">
                     Adobe XD, Photoshop, Illustrator, InDesign
                   </span>
-                  <div className="chart__bar" style={{ width: "66%;" }}></div>
+                  <div className="chart__bar" style={{ width: "66%" }}></div>
                 </div>
               </li>
             </ul>

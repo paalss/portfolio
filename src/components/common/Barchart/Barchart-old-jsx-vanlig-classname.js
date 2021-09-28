@@ -1,4 +1,4 @@
-import classes from "./Barchart.module.css";
+import "./Barchart.module.css";
 
 function Barchart() {
   return (

@@ -63,6 +63,7 @@ export function WebWorkLinks() {
         imgSrc={videoopplastingImg}
         imgAlt="videoopplasting webapp"
         title="Videoopplastings&shy;system prosjekter"
+        // &#8209; === hard hyphen
         tools={["PHP", "JS", <>Web&#8209;components</>, "mer…"]}
       />
       <SquareLink

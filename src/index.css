@@ -290,10 +290,10 @@
   .index a.stripe:focus {
     font-style: italic;
   }
-  .work img {
+  main img {
     width: 100%;
   }
-  .work main a.link {
+  main a.link {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -301,8 +301,8 @@
     padding: 12px 24px;
     border-radius: 10px;
   }
-  .work main a.link:link,
-  .work main a.link:visited {
+  main a.link:link,
+  main a.link:visited {
     background: #7f017f;
     background: -webkit-linear-gradient(
       top left,
@@ -320,13 +320,13 @@
       rgba(1, 1, 31, 1)
     );
   }
-  .work main a.link:hover,
-  .work main a.link:focus {
+  main a.link:hover,
+  main a.link:focus {
     color: #000;
     background: #fff;
     box-shadow: inset 0px 0px 0px 3px #000;
   }
-  .work figure {
+  figure {
     background-color: #bbb;
     margin: 15px 0;
     padding: 40px 5% 10px 5%;
@@ -483,9 +483,9 @@
   .index header .container {
     justify-content: flex-start;
   }
-  .work main .container p,
-  .work main .container li,
-  .work figure {
+  main .container p,
+  /* main .container li, */
+  figure {
     width: 630px;
   }
 }

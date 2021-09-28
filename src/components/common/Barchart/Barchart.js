@@ -1,5 +1,37 @@
 import "./Barchart.css";
 
+const createBars = (topics) => {
+  return topics.map((topic) => {
+    const { tech, level } = topic;
+    let title = "";
+    let width = "";
+    if (level === "0") {
+      title = `Kan litt ${tech}`;
+      width = "16.5%";
+    }
+    if (level === "1") {
+      title = `Kan grunnleggende ${tech}`;
+      width = "33%";
+    }
+    if (level === "2") {
+      title = `Behersker ${tech} godt`;
+      width = "66%";
+    }
+    if (level === "3") {
+      title = `Ganske god på ${tech}`;
+      width = "100%";
+    }
+    return (
+      <li title={title} key={tech}>
+        <div className="flex-li">
+          <span className="chart__label">{tech}</span>
+          <div className="chart__bar" style={{ width: width }}></div>
+        </div>
+      </li>
+    );
+  });
+};
+
 function Barchart({ web, design }) {
   return (
     <>
@@ -22,81 +54,12 @@ function Barchart({ web, design }) {
         <div className="charts">
           <div className="chart chart--dev">
             <h3 className="chart__title">Webutvikling</h3>
-            <ul className="chart--horiz">
-              {web &&
-                web.map((w) => {
-                  const { tech, level } = w;
-                  let title = "";
-                  let width = "";
-                  if (level === "0") {
-                    title = `Kan litt ${tech}`;
-                    width = "16.5%";
-                  }
-                  if (level === "1") {
-                    title = `Kan grunnleggende ${tech}`;
-                    width = "33%";
-                  }
-                  if (level === "2") {
-                    title = `Behersker ${tech} godt`;
-                    width = "66%";
-                  }
-                  if (level === "3") {
-                    title = `Ganske god på ${tech}`;
-                    width = "100%";
-                  }
-                  return (
-                    <li title={title} key={tech}>
-                      <div className="flex-li">
-                        <span className="chart__label">{tech}</span>
-                        <div
-                          className="chart__bar"
-                          style={{ width: width }}
-                        ></div>
-                      </div>
-                    </li>
-                  );
-                })}
-            </ul>
+            <ul className="chart--horiz">{web && createBars(web)}</ul>
           </div>
 
           <div className="chart chart--design">
             <h3 className="chart__title">Grafisk design</h3>
-            <ul className="chart--horiz">
-              {design &&
-                design.map((w) => {
-                  console.log(w)
-                  const { tech, level } = w;
-                  let title = "";
-                  let width = "";
-                  if (level === "0") {
-                    title = `Kan litt ${tech}`;
-                    width = "16.5%";
-                  }
-                  if (level === "1") {
-                    title = `Kan grunnleggende ${tech}`;
-                    width = "33%";
-                  }
-                  if (level === "2") {
-                    title = `Behersker ${tech} godt`;
-                    width = "66%";
-                  }
-                  if (level === "3") {
-                    title = `Ganske god på ${tech}`;
-                    width = "100%";
-                  }
-                  return (
-                    <li title={title} key={tech}>
-                      <div className="flex-li">
-                        <span className="chart__label">{tech}</span>
-                        <div
-                          className="chart__bar"
-                          style={{ width: width }}
-                        ></div>
-                      </div>
-                    </li>
-                  );
-                })}
-            </ul>
+            <ul className="chart--horiz">{design && createBars(design)}</ul>
           </div>
         </div>
       </div>

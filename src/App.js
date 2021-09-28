@@ -7,8 +7,8 @@ import Main from "./components/layout/Main";
 
 // images
 import photo from "./images/cvphoto1.jpg";
-import maclean from "./images/maclean/alistairmaclean.png"
-import rankingapp from "./images/rankingapp/rankingapp.png"
+import maclean from "./images/maclean/alistairmaclean.png";
+import rankingapp from "./images/rankingapp/rankingapp.png";
 import videoopplasting from "./images/www-teknologi/prosjekt2-5-videoside.png";
 import Barchart from "./components/common/Barchart";
 import SquareLink from "./components/common/SquareLink";
@@ -35,7 +35,24 @@ function App() {
             Jeg har erfaring innen webutvikling og grafisk design.
           </p>
           <div id="skills-placeholder" className="skills-placeholder mb-130">
-            <Barchart />
+            <Barchart
+              web={[
+                { tech: "HTML & CSS", level: "3" },
+                { tech: "JavaScript", level: "3" },
+                { tech: "MySQL & relasjonsdatabaser", level: "3" },
+                { tech: "React", level: "2" },
+                { tech: "PHP", level: "2" },
+                { tech: "Automatisk testing", level: "1" },
+                { tech: "NodeJS", level: "1" },
+                { tech: "Docker", level: "1" },
+              ]}
+              design={[
+                {
+                  tech: "Adobe XD, Photoshop, Illustrator & InDesign",
+                  level: "2",
+                },
+              ]}
+            />
           </div>
 
           <h2>Nettsider</h2>

@@ -55,11 +55,11 @@ function App() {
               </div>
               <h3>Ranking app</h3>
               <ul className="tools">
-                <li>TypeScript</li>
-                <li>PHP</li>
-                <li>Relasjonsdatabase</li>
-                <li>MySQL</li>
-                <li>[…]</li>
+                <li>TypeScript</li>{" "}
+                <li>PHP</li>{" "}
+                <li>Relasjonsdatabase</li>{" "}
+                <li>MySQL</li>{" "}
+                <li>[…]</li>{" "}
               </ul>
             </a>
 
@@ -69,11 +69,11 @@ function App() {
               </div>
               <h3>Videoopplastings&shy;system prosjekter</h3>
               <ul className="tools">
-                <li>PHP</li>
-                <li>Twig</li>
-                <li>JS</li>
-                <li>Web&#8209;components</li>
-                <li>[…]</li>
+                <li>PHP</li>{" "}
+                <li>Twig</li>{" "}
+                <li>JS</li>{" "}
+                <li>Web&#8209;components</li>{" "}
+                <li>[…]</li>{" "}
               </ul>
             </a>
 
@@ -86,8 +86,8 @@ function App() {
               </div>
               <h3>Alistair MacLean nettside redesign</h3>
               <ul className="tools">
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>HTML</li>{" "}
+                <li>CSS</li>{" "}
               </ul>
             </a>
           </div>

@@ -1,4 +1,4 @@
-import "./Barchart-old.css";
+import "./Barchart.css";
 
 function Barchart() {
   return (

@@ -10,7 +10,11 @@ function SquareLink({ link, imgSrc, imgAlt, title, tools }) {
       <ul className="tools">
         {tools &&
           tools.map((t, i) => {
-            return <li key={i}>{t}</li>
+            return (
+              <li key={i}>
+                {t}
+              </li>
+            );
           })}
       </ul>
     </a>

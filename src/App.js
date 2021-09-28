@@ -39,7 +39,10 @@ function App() {
               web={[
                 { tech: "HTML & CSS", level: "3" },
                 { tech: "JavaScript", level: "3" },
-                { tech: "MySQL & relasjonsdatabaser", level: "3" },
+                {
+                  tech: <>MySQL &amp; relasjons&shy;databaser</>,
+                  level: "3",
+                },
                 { tech: "React", level: "2" },
                 { tech: "PHP", level: "2" },
                 { tech: "Automatisk testing", level: "1" },
@@ -76,7 +79,7 @@ function App() {
               imgSrc={videoopplasting}
               imgAlt="videoopplasting webapp"
               title="Videoopplastings&shy;system prosjekter"
-              tools={["PHP", "JS", "Web&#8209;components", "mer…"]}
+              tools={["PHP", "JS", <>Web&#8209;components</>, "mer…"]}
             />
 
             <a href="webWork/maclean.html" className="box">

@@ -1,53 +1,40 @@
 // import classes from "./Nav.module.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-function Nav({ page }) {
+function Nav() {
   return (
     <nav>
       <div className="container">
         <ul className="nav">
           <li>
-            <Link
-              to="/maclean"
-              id="indexLink"
-              className={page === "index" ? "open" : ""}
-            >
+            <NavLink to="/" id="indexLink" activeClassName="selected" exact>
               Hjem
-            </Link>
+            </NavLink>
           </li>
           <li>
             <a href="index.html">Nettsider</a>
             <ul className="website-links">
               <li>
-                <a
-                  href="webWork/rankingapp.html"
-                  className={page === "rankingapp" ? "open" : ""}
-                >
+                <NavLink to="/rankingapp" activeClassName="selected">
                   Ranking app
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="webWork/videoopplasting.html"
-                  className={page === "videoopplasting" ? "open" : ""}
-                >
+                <NavLink to="/videoopplasting" activeClassName="selected">
                   Videoopplastingssystemer
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="webWork/maclean.html"
-                  className={page === "maclean" ? "open" : ""}
-                >
+                <NavLink to="/maclean" activeClassName="selected">
                   Alistair Maclean nettside redesign
-                </a>
+                </NavLink>
               </li>
             </ul>
           </li>
           <li>
-            <a id="galleryLink" href="gallery.html">
+            <NavLink id="galleryLink" to="/gallery" activeClassName="selected">
               Kunst
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

@@ -1,5 +1,9 @@
 // import classes from "./App.css";
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 // pages
 import Home from "./pages/Home";
@@ -20,12 +24,12 @@ import photo from "./images/cvphoto1.jpg";
 
 function App() {
   return (
-    <Router>
+    <Router basename="portfolio">
       <div className="oldbody index">
         <Header>
           <div className="container">
             <Switch>
-              <Route path="/portfolio">
+              <Route path="/" exact>
                 <div>
                   <h1>Pål Stakvik</h1>
                   <p className="tagline">Utdannet web&shy;utvikler</p>
@@ -33,6 +37,9 @@ function App() {
                 <div className="circle-frame">
                   <img src={photo} alt="Pål Stakvik" />
                 </div>
+              </Route>
+              <Route path="/webWork" exact>
+                <h1>Nettsider</h1>
               </Route>
               <Route path="/webWork/rankingapp">
                 <h1>Ranking app</h1>
@@ -50,7 +57,7 @@ function App() {
         <Main>
           <div className="container">
             <Switch>
-              <Route path="/portfolio" exact>
+              <Route path="/" exact>
                 <Home />
               </Route>
               <Route path="/webWork" exact>

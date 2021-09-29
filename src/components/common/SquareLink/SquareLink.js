@@ -1,8 +1,10 @@
 // import classes from "./SquareLink.module.css";
+import { Link } from "react-router-dom";
+
 
 function SquareLink({ link, imgSrc, imgAlt, title, tools, thereAreMoreTools = false }) {
   return (
-    <a href={link} className="box">
+    <Link to={link} className="box">
       <div className="frame">
         <img src={imgSrc} alt={imgAlt} />
       </div>
@@ -18,7 +20,7 @@ function SquareLink({ link, imgSrc, imgAlt, title, tools, thereAreMoreTools = fa
           })}
         {thereAreMoreTools && ". . ."}
       </ul>
-    </a>
+    </Link>
   );
 }
 

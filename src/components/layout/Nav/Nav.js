@@ -1,4 +1,3 @@
-// import classes from "./Nav.module.css";
 import { NavLink } from "react-router-dom";
 
 function Nav() {

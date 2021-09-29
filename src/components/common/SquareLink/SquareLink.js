@@ -1,4 +1,3 @@
-// import classes from "./SquareLink.module.css";
 import { Link } from "react-router-dom";
 
 

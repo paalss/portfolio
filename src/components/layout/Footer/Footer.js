@@ -1,4 +1,3 @@
-// import classes from "./Footer.module.css";
 import scratchLogo from "../../../images/scratchlogo-transparent-white.png";
 
 function Footer() {

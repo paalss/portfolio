@@ -1,5 +1,5 @@
 // import classes from "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
 // pages
 import Home from "./pages/Home";
@@ -33,6 +33,9 @@ function App() {
                 <div className="circle-frame">
                   <img src={photo} alt="Pål Stakvik" />
                 </div>
+              </Route>
+              <Route path="/portfolio">
+                <Redirect to="/" />
               </Route>
               <Route path="/webWork/rankingapp">
                 <h1>Ranking app</h1>

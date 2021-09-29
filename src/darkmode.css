@@ -1,0 +1,21 @@
+.oldbody, main, h2, h3, footer {
+  color: #fff;
+  background-color: rgb(19, 7, 0) !important;
+}
+
+.chart__label, .chart__title {
+  background: none !important;
+}
+
+.tools li {
+  color: #fff;
+}
+
+nav {
+  background-color: #000;
+}
+
+nav a {
+  color: #fff;
+  background-color: rgb(27, 27, 27);
+}

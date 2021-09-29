@@ -51,7 +51,7 @@ function Home() {
 
 export function WebWorkLinks() {
   return (
-    <div className="flex">
+    <div className="webworklinks-flex">
       <SquareLink
         link="/webwork/rankingapp"
         imgSrc={rankingappImg}

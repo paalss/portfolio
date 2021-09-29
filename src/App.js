@@ -40,7 +40,7 @@ function App() {
               <Route path="/webWork/videoopplasting">
                 <h1>Videoopplasting apper</h1>
               </Route>
-              <Route path="/webWork/rankingapp">
+              <Route path="/webWork/maclean">
                 <h1>Alistair MacLean nettside redesign</h1>
               </Route>
             </Switch>

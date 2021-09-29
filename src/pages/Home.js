@@ -53,7 +53,7 @@ export function WebWorkLinks() {
   return (
     <div className="flex">
       <SquareLink
-        link="/webWork/rankingapp"
+        link="/webwork/rankingapp"
         imgSrc={rankingappImg}
         imgAlt="ranking webapp"
         title="Ranking app"
@@ -61,7 +61,7 @@ export function WebWorkLinks() {
         thereAreMoreTools={true}
       />
       <SquareLink
-        link="/webWork/videoopplasting"
+        link="/webwork/videoopplasting"
         imgSrc={videoopplastingImg}
         imgAlt="videoopplasting webapp"
         title="Videoopplasting&shy;apper"
@@ -69,7 +69,7 @@ export function WebWorkLinks() {
         thereAreMoreTools={true}
       />
       <SquareLink
-        link="/webWork/maclean"
+        link="/webwork/maclean"
         imgSrc={macleanImg}
         imgAlt="maclean nettside"
         title="Alistair MacLean nettside redesign"

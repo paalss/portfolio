@@ -11,27 +11,27 @@ function Nav() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/webWork" activeClassName="selected">Nettsider</NavLink>
+            <NavLink to="/webwork" activeClassName="selected">Nettsider</NavLink>
             <ul className="website-links">
               <li>
-                <NavLink to="/webWork/rankingapp" activeClassName="selected">
+                <NavLink to="/webwork/rankingapp" activeClassName="selected">
                   Ranking app
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/webWork/videoopplasting" activeClassName="selected">
+                <NavLink to="/webwork/videoopplasting" activeClassName="selected">
                   Videoopplastingssystemer
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/webWork/maclean" activeClassName="selected">
+                <NavLink to="/webwork/maclean" activeClassName="selected">
                   Alistair Maclean nettside redesign
                 </NavLink>
               </li>
             </ul>
           </li>
           {/* <li>
-            <NavLink id="galleryLink" to="/webWork/gallery" activeClassName="selected">
+            <NavLink id="galleryLink" to="/webwork/gallery" activeClassName="selected">
               Kunst
             </NavLink>
           </li> */}

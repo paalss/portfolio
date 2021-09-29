@@ -35,16 +35,16 @@ function App() {
                   </div>
                 </div>
               </Route>
-              <Route path="/webWork" exact>
+              <Route path="/webwork" exact>
                 <h1>Nettsider</h1>
               </Route>
-              <Route path="/webWork/rankingapp">
+              <Route path="/webwork/rankingapp">
                 <h1>Ranking app</h1>
               </Route>
-              <Route path="/webWork/videoopplasting">
+              <Route path="/webwork/videoopplasting">
                 <h1>Videoopplasting apper</h1>
               </Route>
-              <Route path="/webWork/maclean">
+              <Route path="/webwork/maclean">
                 <h1>Alistair MacLean nettside redesign</h1>
               </Route>
             </Switch>
@@ -57,19 +57,19 @@ function App() {
               <Route path="/" exact>
                 <Home />
               </Route>
-              <Route path="/webWork" exact>
+              <Route path="/webwork" exact>
                 <Webwork />
               </Route>
-              <Route path="/webWork/rankingapp">
+              <Route path="/webwork/rankingapp">
                 <Rankingapp />
               </Route>
-              <Route path="/webWork/videoopplasting">
+              <Route path="/webwork/videoopplasting">
                 <Videoopplasting />
               </Route>
-              <Route path="/webWork/maclean">
+              <Route path="/webwork/maclean">
                 <Maclean />
               </Route>
-              <Route path="/webWork/gallery">
+              <Route path="/webwork/gallery">
                 <Gallery />
               </Route>
             </Switch>

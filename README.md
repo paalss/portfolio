@@ -2,7 +2,12 @@
 
 https://paalss.github.io/portfolio/
 
-# Deploy Github pages
+
+## Dev
+
+[Create React App README](CRA-README.md)
+
+### Deploy til Github pages
 
 `npm run deploy`
 

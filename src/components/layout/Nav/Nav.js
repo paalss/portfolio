@@ -7,7 +7,7 @@ function Nav() {
       <div className="container">
         <ul className="nav">
           <li>
-            <NavLink to="/" id="indexLink" activeClassName="selected" exact>
+            <NavLink to="/portfolio" id="indexLink" activeClassName="selected" exact>
               Hjem
             </NavLink>
           </li>

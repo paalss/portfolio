@@ -25,7 +25,7 @@ function App() {
         <Header>
           <div className="container">
             <Switch>
-              <Route path="/" exact>
+              <Route path="/portfolio">
                 <div>
                   <h1>Pål Stakvik</h1>
                   <p className="tagline">Utdannet web&shy;utvikler</p>
@@ -33,9 +33,6 @@ function App() {
                 <div className="circle-frame">
                   <img src={photo} alt="Pål Stakvik" />
                 </div>
-              </Route>
-              <Route path="/portfolio">
-                <Redirect to="/" />
               </Route>
               <Route path="/webWork/rankingapp">
                 <h1>Ranking app</h1>
@@ -53,7 +50,7 @@ function App() {
         <Main>
           <div className="container">
             <Switch>
-              <Route path="/" exact>
+              <Route path="/portfolio" exact>
                 <Home />
               </Route>
               <Route path="/webWork" exact>

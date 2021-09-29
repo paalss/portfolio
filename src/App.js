@@ -1,9 +1,5 @@
 // import classes from "./App.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // pages
 import Home from "./pages/Home";
@@ -25,17 +21,19 @@ import photo from "./images/cvphoto1.jpg";
 function App() {
   return (
     <Router basename="portfolio">
-      <div className="oldbody index">
+      <div className="oldbody">
         <Header>
           <div className="container">
             <Switch>
               <Route path="/" exact>
-                <div>
-                  <h1>Pål Stakvik</h1>
-                  <p className="tagline">Utdannet web&shy;utvikler</p>
-                </div>
-                <div className="circle-frame">
-                  <img src={photo} alt="Pål Stakvik" />
+                <div className="index-header-flex">
+                  <div>
+                    <h1>Pål Stakvik</h1>
+                    <p className="tagline">Utdannet web&shy;utvikler</p>
+                  </div>
+                  <div className="circle-frame">
+                    <img src={photo} alt="Pål Stakvik" />
+                  </div>
                 </div>
               </Route>
               <Route path="/webWork" exact>

@@ -63,9 +63,10 @@
 }
 
 .chart__title {
-  display: block;
+  display: inline-block;
   margin: 0 0 10px;
   font-weight: bold;
+  background-color: #fff;
 }
 
 .skills ul li {

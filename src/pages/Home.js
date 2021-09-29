@@ -20,6 +20,7 @@ function Home() {
             { tech: "HTML & CSS", level: "3" },
             { tech: "JavaScript", level: "3" },
             {
+              // &shy; === soft hyphen
               tech: <>MySQL &amp; relasjons&shy;databaser</>,
               level: "3",
             },
@@ -63,7 +64,7 @@ export function WebWorkLinks() {
         link="/webWork/videoopplasting"
         imgSrc={videoopplastingImg}
         imgAlt="videoopplasting webapp"
-        title="Videoopplastings&shy;system prosjekter"
+        title="Videoopplasting&shy;apper"
         tools={["PHP", "JavaScript", "LitElement"]}
         thereAreMoreTools={true}
       />

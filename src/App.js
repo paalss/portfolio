@@ -24,13 +24,26 @@ function App() {
       <div className="oldbody index">
         <Header>
           <div className="container">
-            <div>
-              <h1>Pål Stakvik</h1>
-              <p className="tagline">Utdannet web&shy;utvikler</p>
-            </div>
-            <div className="circle-frame">
-              <img src={photo} alt="Pål Stakvik" />
-            </div>
+            <Switch>
+              <Route path="/" exact>
+                <div>
+                  <h1>Pål Stakvik</h1>
+                  <p className="tagline">Utdannet web&shy;utvikler</p>
+                </div>
+                <div className="circle-frame">
+                  <img src={photo} alt="Pål Stakvik" />
+                </div>
+              </Route>
+              <Route path="/webWork/rankingapp">
+                <h1>Ranking app</h1>
+              </Route>
+              <Route path="/webWork/videoopplasting">
+                <h1>Videoopplasting apper</h1>
+              </Route>
+              <Route path="/webWork/rankingapp">
+                <h1>Alistair MacLean nettside redesign</h1>
+              </Route>
+            </Switch>
           </div>
         </Header>
         <Nav page="index" />

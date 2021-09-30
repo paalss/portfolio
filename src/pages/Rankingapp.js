@@ -2,6 +2,7 @@ import rankingappGif from "../images/rankingapp/app-recording1.gif";
 import overviewImg from "../images/rankingapp/overview.png";
 import topNovelsImg from "../images/rankingapp/top-novels2.png";
 import bestMetroidvaniasImg from "../images/rankingapp/best-metroidvanias.png";
+import Figure from "../components/common/Figure";
 
 function Rankingapp() {
   return (
@@ -62,39 +63,24 @@ function Rankingapp() {
         Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det
         i seg selv er jo motivasjon nok til å fortsette med det.
       </p>
-      <figure>
-        <a
-          href={overviewImg}
-          data-lightbox="rankingapp"
-          data-title="Lag egne lister"
-        >
-          <img src={overviewImg} alt="oversikt over lister eksempel" />
-        </a>
-        <figcaption>Lag egne lister</figcaption>
-      </figure>
-      <figure>
-        <a
-          href={bestMetroidvaniasImg}
-          data-lightbox="rankingapp"
-          data-title="Sett inn egne elementer, tilpass etter behov"
-        >
-          <img
-            src={bestMetroidvaniasImg}
-            alt="beste metroidvanias listeeksempel"
-          />
-        </a>
-        <figcaption>Sett inn egne elementer, tilpass etter behov</figcaption>
-      </figure>
-      <figure>
-        <a
-          href={topNovelsImg}
-          data-lightbox="rankingapp"
-          data-title="Få pene og oversiktlige lister"
-        >
-          <img src={topNovelsImg} alt="beste bøker listeeksempel" />
-        </a>
-        <figcaption>Få pene og oversiktlige lister</figcaption>
-      </figure>
+      <Figure
+        imgSrc={overviewImg}
+        imgAlt="oversikt over lister eksempel"
+        caption="Lag egne lister"
+        group="rankingapp"
+      />
+      <Figure
+        imgSrc={bestMetroidvaniasImg}
+        imgAlt="beste metroidvanias listeeksempel"
+        caption="Sett inn egne elementer, tilpass etter behov"
+        group="rankingapp"
+      />
+      <Figure
+        imgSrc={topNovelsImg}
+        imgAlt="beste bøker listeeksempel"
+        caption="Få pene og oversiktlige lister"
+        group="rankingapp"
+      />
     </>
   );
 }

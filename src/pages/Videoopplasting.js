@@ -2,6 +2,7 @@ import videoOgTranskriptImg from "../images/www-teknologi/2-video-og-transkript.
 import videosideImg from "../images/www-teknologi/prosjekt2-5-videoside.png";
 import videolisteImg from "../images/www-teknologi/prosjekt2-7-videoliste.png";
 import videoopplastingImg from "../images/www-teknologi/prosjekt2-8-videoopplasting.png";
+import Figure from "../components/common/Figure";
 
 function Videoopplasting() {
   return (
@@ -46,10 +47,13 @@ function Videoopplasting() {
           html-sidene.
         </p>
       </div>
-      <figure>
-        <img src={videoOgTranskriptImg} alt="videosiden første prosjekt" />
-        <figcaption>Videoside</figcaption>
-      </figure>
+
+      <Figure
+        imgSrc={videoOgTranskriptImg}
+        imgAlt="videosiden i første prosjekt"
+        caption="Videoside"
+        group="videoopplasting1"
+      />
 
       <h3>
         Andre prosjekt
@@ -104,20 +108,24 @@ function Videoopplasting() {
         </p>
       </div>
 
-      <figure>
-        <img src={videosideImg} alt="videoside andre prosjekt" />
-        <figcaption>Videoside</figcaption>
-      </figure>
-
-      <figure>
-        <img src={videolisteImg} alt="videolistesiden" />
-        <figcaption>Videooversikt</figcaption>
-      </figure>
-
-      <figure>
-        <img src={videoopplastingImg} alt="videoopplastingssiden" />
-        <figcaption>«Last opp video»-siden</figcaption>
-      </figure>
+      <Figure
+        imgSrc={videosideImg}
+        imgAlt="videosiden i andre prosjekt"
+        caption="Videoside"
+        group="videoopplasting2"
+      />
+      <Figure
+        imgSrc={videolisteImg}
+        imgAlt="videolistesiden"
+        caption="Videooversikt"
+        group="videoopplasting2"
+      />
+      <Figure
+        imgSrc={videoopplastingImg}
+        imgAlt="videoopplastingssiden"
+        caption="«Last opp video»-siden"
+        group="videoopplasting2"
+      />
     </>
   );
 }

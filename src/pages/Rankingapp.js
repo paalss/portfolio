@@ -1,7 +1,6 @@
 import rankingappGif from "../images/rankingapp/app-recording1.gif";
-import rankingappImg from "../images/rankingapp/rankingapp.png"
 import overviewImg from "../images/rankingapp/overview.png"
-import topNovelsImg from "../images/rankingapp/top-novels.png"
+import topNovelsImg from "../images/rankingapp/top-novels2.png"
 import bestMetroidvaniasImg from "../images/rankingapp/best-metroidvanias.png"
 
 function Rankingapp() {
@@ -73,6 +72,13 @@ function Rankingapp() {
           alt="beste metroidvanias listeeksempel"
         />
         <figcaption>Sett inn egne elementer, tilpass etter behov</figcaption>
+      </figure>
+      <figure>
+        <img
+          src={topNovelsImg}
+          alt="beste bøker listeeksempel"
+        />
+        <figcaption>Få pene og oversiktlige lister</figcaption>
       </figure>
     </>
   );

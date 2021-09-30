@@ -1,7 +1,7 @@
 import rankingappGif from "../images/rankingapp/app-recording1.gif";
-import overviewImg from "../images/rankingapp/overview.png"
-import topNovelsImg from "../images/rankingapp/top-novels2.png"
-import bestMetroidvaniasImg from "../images/rankingapp/best-metroidvanias.png"
+import overviewImg from "../images/rankingapp/overview.png";
+import topNovelsImg from "../images/rankingapp/top-novels2.png";
+import bestMetroidvaniasImg from "../images/rankingapp/best-metroidvanias.png";
 
 function Rankingapp() {
   return (
@@ -63,21 +63,36 @@ function Rankingapp() {
         i seg selv er jo motivasjon nok til å fortsette med det.
       </p>
       <figure>
-        <img src={overviewImg} alt="oversikt over lister eksempel" />
+        <a
+          href={overviewImg}
+          data-lightbox="rankingapp"
+          data-title="Lag egne lister"
+        >
+          <img src={overviewImg} alt="oversikt over lister eksempel" />
+        </a>
         <figcaption>Lag egne lister</figcaption>
       </figure>
       <figure>
-        <img
-          src={bestMetroidvaniasImg}
-          alt="beste metroidvanias listeeksempel"
-        />
+        <a
+          href={bestMetroidvaniasImg}
+          data-lightbox="rankingapp"
+          data-title="Sett inn egne elementer, tilpass etter behov"
+        >
+          <img
+            src={bestMetroidvaniasImg}
+            alt="beste metroidvanias listeeksempel"
+          />
+        </a>
         <figcaption>Sett inn egne elementer, tilpass etter behov</figcaption>
       </figure>
       <figure>
-        <img
-          src={topNovelsImg}
-          alt="beste bøker listeeksempel"
-        />
+        <a
+          href={topNovelsImg}
+          data-lightbox="rankingapp"
+          data-title="Få pene og oversiktlige lister"
+        >
+          <img src={topNovelsImg} alt="beste bøker listeeksempel" />
+        </a>
         <figcaption>Få pene og oversiktlige lister</figcaption>
       </figure>
     </>

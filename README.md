@@ -2,7 +2,7 @@
 
 https://paalss.github.io/portfolio/
 
-## Notater
+## For development
 
 ### Create React App README
 

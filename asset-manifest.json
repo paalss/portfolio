@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0108fd04.chunk.css",
-    "main.js": "/portfolio/static/js/main.13fffd6e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.13fffd6e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1b3b1ef1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1b3b1ef1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.ed01e15e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.ed01e15e.js.map",
     "static/js/2.629ed0ef.chunk.js": "/portfolio/static/js/2.629ed0ef.chunk.js",
@@ -24,12 +24,12 @@
     "static/media/prosjekt2-7-videoliste.60616e82.png": "/portfolio/static/media/prosjekt2-7-videoliste.60616e82.png",
     "static/media/prosjekt2-8-videoopplasting.3ad8bc33.png": "/portfolio/static/media/prosjekt2-8-videoopplasting.3ad8bc33.png",
     "static/media/rankingapp.51916974.png": "/portfolio/static/media/rankingapp.51916974.png",
-    "static/media/top-novels.4ad5b725.png": "/portfolio/static/media/top-novels.4ad5b725.png"
+    "static/media/top-novels2.33d04c56.png": "/portfolio/static/media/top-novels2.33d04c56.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ed01e15e.js",
     "static/js/2.629ed0ef.chunk.js",
     "static/css/main.0108fd04.chunk.css",
-    "static/js/main.13fffd6e.chunk.js"
+    "static/js/main.1b3b1ef1.chunk.js"
   ]
 }

@@ -2,7 +2,7 @@
 
 https://paalss.github.io/portfolio/
 
-## For development
+## Notater for development
 
 ### Create React App README
 
@@ -14,7 +14,7 @@ https://paalss.github.io/portfolio/
 
 ### Deploy til Github pages
 
-`npm run deploy`
+`npm run deploy` / `yarn deploy`
 
 https://create-react-app.dev/docs/deployment#github-pages
 

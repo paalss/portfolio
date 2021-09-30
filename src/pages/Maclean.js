@@ -30,16 +30,22 @@ function Maclean() {
         </span>
       </h2>
       <p>
-        I 2015, andre eller tredjeåret på videregående, fikk vi et valgfritt
-        prosjekt. Jeg hadde allerede vært skuffet over hvordan nettsiden til en
-        av mine favorittforfattere så ut, og jeg bestemte meg da for at
-        prosjektet mitt skulle være å redesigne den. For meg var det viktig at
-        nettsiden skulle utstråle spenning og i tillegg være pen å se på.
+        I 2015 hadde jeg sett og vært skuffet over hvordan nettsiden til
+        Alistair MacLean – en av mine favorittforfattere på den tiden – så ut.
+        Jeg syntes ikke grensesnittet reflekterte forfatteren, som nesten
+        utelukkende skrev bøker med mye action og spenning.
+        <br />I anledning av et valgfritt prosjekt på videregående, valgte jeg
+        derfor å redesigne denne siden som oppgave. Jeg holdt meg kun til
+        UI-redesign, tekstinnholdet lot jeg for det meste være.
+      </p>
+      <p>
+        Målet mitt med UI-redesignet var å lage en nettside som utstråler
+        action og spenning og i tillegg være pen å se på.
       </p>
       <p>
         Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript. Logoen lagde
         jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av
-        eget modellfly oppnå noen T-skjorter.
+        eget modellfly på noen T-skjorter.
       </p>
     </>
   );

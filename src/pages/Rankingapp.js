@@ -1,9 +1,13 @@
-import rankingappImg from "../images/rankingapp/app-recording1.gif";
+import rankingappGif from "../images/rankingapp/app-recording1.gif";
+import rankingappImg from "../images/rankingapp/rankingapp.png"
+import overviewImg from "../images/rankingapp/overview.png"
+import topNovelsImg from "../images/rankingapp/top-novels.png"
+import bestMetroidvaniasImg from "../images/rankingapp/best-metroidvanias.png"
 
 function Rankingapp() {
   return (
     <>
-      <img src={rankingappImg} alt="ranking app interface" />
+      <img src={rankingappGif} alt="ranking app interface" />
       <a
         className="link"
         href="https://github.com/paalss/Ranking-app"
@@ -24,6 +28,7 @@ function Rankingapp() {
           </ul>
         </span>
       </h2>
+      Prosjektet er foreløpig satt på pause.
       <p>
         I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere
         ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet
@@ -58,7 +63,17 @@ function Rankingapp() {
         Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det
         i seg selv er jo motivasjon nok til å fortsette med det.
       </p>
-      <p>Nettappen er foreløpig work in progress.</p>
+      <figure>
+        <img src={overviewImg} alt="oversikt over lister eksempel" />
+        <figcaption>Lag egne lister</figcaption>
+      </figure>
+      <figure>
+        <img
+          src={bestMetroidvaniasImg}
+          alt="beste metroidvanias listeeksempel"
+        />
+        <figcaption>Sett inn egne elementer, tilpass etter behov</figcaption>
+      </figure>
     </>
   );
 }

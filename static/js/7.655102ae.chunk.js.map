@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/Gallery.js"],"names":["Gallery"],"mappings":"yHAIeA,UAJf,WACE,OAAO","file":"static/js/7.655102ae.chunk.js","sourcesContent":["function Gallery() {\r\n  return <h2>Gallery</h2>;\r\n}\r\n\r\nexport default Gallery"],"sourceRoot":""}

@@ -30,18 +30,22 @@ function Maclean() {
         </span>
       </h2>
       <p>
-        I 2015 hadde jeg sett og vært skuffet over hvordan nettsiden til
-        Alistair MacLean – en av mine favorittforfattere på den tiden – så ut.
-        Jeg syntes ikke grensesnittet reflekterte forfatteren, som nesten
-        utelukkende skrev bøker med mye action og spenning.
-        <br />I anledning av et valgfritt prosjekt på videregående, valgte jeg
-        derfor å redesigne denne siden som oppgave. Jeg holdt meg kun til
-        UI-redesign, tekstinnholdet lot jeg for det meste være.
+        I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å
+        redesigne <i>alistairmaclean.com</i> sitt GUI. Grunnen var at jeg
+        tidligere hadde jeg sett og vært skuffet over hvordan den så ut. MacLean
+        skrev nesten utelukkende bøker med action og spenning, og det syntes jeg
+        ikke nettsiden reflekterte noe av.
       </p>
       <p>
-        Målet mitt med UI-redesignet var å lage en nettside som utstråler
-        action og spenning og i tillegg være pen å se på.
+        Nå er jo det denne nettsiden egentlig bare en blogg, og ikke en
+        «offisiell» nettside, som jeg har vurdert den etter. Så man kan jo
+        spørre seg om det var riktig av meg å være såpass kritisk og mene at
+        nettsiden skal representere forfatteren. Jeg mener å huske at nettsiden
+        brukte å kalle seg selv for den offisielle nettsiden til MacLean, men
+        det er mulig jeg husker feil.
       </p>
+
+      <h3>Verktøy</h3>
       <p>
         Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript. Logoen lagde
         jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av

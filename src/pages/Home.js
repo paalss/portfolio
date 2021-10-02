@@ -64,7 +64,7 @@ export function WebWorkLinks() {
         link="/webwork/videoopplasting"
         imgSrc={videoopplastingImg}
         imgAlt="videoopplasting webapp"
-        title="Videoopplasting&shy;apper"
+        title="Videoopplastings&shy;apper"
         tools={["PHP", "JavaScript", "LitElement"]}
         thereAreMoreTools={true}
       />

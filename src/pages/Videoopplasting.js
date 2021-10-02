@@ -51,7 +51,7 @@ function Videoopplasting() {
       <Figure
         imgSrc={videoOgTranskriptImg}
         imgAlt="videosiden i første prosjekt"
-        caption="Videoside"
+        caption="Videoside i første prosjekt"
         group="videoopplasting1"
       />
 
@@ -111,7 +111,7 @@ function Videoopplasting() {
       <Figure
         imgSrc={videosideImg}
         imgAlt="videosiden i andre prosjekt"
-        caption="Videoside"
+        caption="Videoside i andre prosjekt"
         group="videoopplasting2"
       />
       <Figure

@@ -20,7 +20,7 @@ function Nav() {
               </li>
               <li>
                 <NavLink to="/webwork/videoopplasting" activeClassName="selected">
-                  Videoopplastingssystemer
+                  Videoopplastings&shy;apper
                 </NavLink>
               </li>
               <li>

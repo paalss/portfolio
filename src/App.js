@@ -56,6 +56,9 @@ function App() {
                 <Route path="/webwork/maclean">
                   <h1>Alistair MacLean nettside redesign</h1>
                 </Route>
+                <Route path="/webwork/gallery">
+                  <h1>Kunst</h1>
+                </Route>
               </Switch>
             </div>
           </Header>

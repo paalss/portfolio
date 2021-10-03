@@ -19,7 +19,10 @@ function Gallery() {
         throw new Error("Something went wrong!");
       }
       const data = await response.json();
-      setInstaMedia(data.data);
+      const dataWithoutVideos = data.data.filter(
+        (d) => d.media_type !== "VIDEO"
+      );
+      setInstaMedia(dataWithoutVideos);
     } catch (error) {
       setError(error.message);
     }
@@ -32,16 +35,20 @@ function Gallery() {
   return (
     <>
       <h2>Gallery</h2>
-      {instaMedia.map((i) => {
-        return (
-          <LightboxImage
-            imgSrc={i.media_url}
-            imgAlt={i.caption}
-            title={i.caption}
-            group="gallery"
-          />
-        );
-      })}
+      <div className="gallery-flex">
+        {instaMedia &&
+          instaMedia.map((i) => {
+            return (
+              <LightboxImage
+                imgSrc={i.media_url}
+                imgAlt={i.caption}
+                title={i.caption}
+                group="gallery"
+                gallery={true}
+              />
+            );
+          })}
+      </div>
     </>
   );
 }

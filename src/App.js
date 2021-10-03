@@ -13,11 +13,11 @@ import photo from "./images/cvphoto1.jpg";
 
 // pages
 const Home = lazy(() => import("./pages/Home"));
+const Webwork = lazy(() => import("./pages/Webwork"));
 const Rankingapp = lazy(() => import("./pages/Rankingapp"));
 const Videoopplasting = lazy(() => import("./pages/Videoopplasting"));
 const Maclean = lazy(() => import("./pages/Maclean"));
 const Gallery = lazy(() => import("./pages/Gallery"));
-const Webwork = lazy(() => import("./pages/Webwork"));
 
 function App() {
   return (
@@ -56,7 +56,7 @@ function App() {
                 <Route path="/webwork/maclean">
                   <h1>Alistair MacLean nettside redesign</h1>
                 </Route>
-                <Route path="/webwork/gallery">
+                <Route path="/gallery">
                   <h1>Kunst</h1>
                 </Route>
               </Switch>
@@ -81,7 +81,7 @@ function App() {
                 <Route path="/webwork/maclean">
                   <Maclean />
                 </Route>
-                <Route path="/webwork/gallery">
+                <Route path="/gallery">
                   <Gallery />
                 </Route>
               </Switch>

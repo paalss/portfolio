@@ -31,7 +31,7 @@ function Nav() {
             </ul>
           </li>
           <li>
-            <NavLink id="galleryLink" to="/webwork/gallery" activeClassName="selected">
+            <NavLink id="galleryLink" to="/gallery" activeClassName="selected">
               Kunst
             </NavLink>
           </li>

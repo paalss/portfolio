@@ -3,7 +3,7 @@ function LightboxImage({ imgSrc, imgAlt, title, group, gallery = false }) {
     return (
       <a
         href={imgSrc}
-        data-lighbox={group}
+        data-lightbox={group}
         data-title={title}
         className="list-item"
       >

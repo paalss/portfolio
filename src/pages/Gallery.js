@@ -2,10 +2,9 @@ import { useCallback, useEffect, useState } from "react";
 import LightboxImage from "../components/common/LightboxImage";
 
 function Gallery() {
-  const [instaMedia, setInstaMedia] = useState();
-  const [isLoading, setIsLoading] = useState();
-  const [error, setError] = useState();
-  console.log(instaMedia);
+  const [instaMedia, setInstaMedia] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   const fetchMediaHandler = useCallback(async () => {
     setIsLoading(true);
@@ -26,29 +25,44 @@ function Gallery() {
     } catch (error) {
       setError(error.message);
     }
+    setIsLoading(false);
   }, []);
 
   useEffect(() => {
     fetchMediaHandler();
   }, [fetchMediaHandler]);
 
+  let content = <p>Fant ingen bilder</p>;
+
+  console.log(instaMedia.length);
+
+  if (instaMedia.length > 0) {
+    content = instaMedia.map((i) => {
+      return (
+        <LightboxImage
+          key={i.id}
+          imgSrc={i.media_url}
+          imgAlt={i.caption}
+          title={i.caption}
+          group="gallery"
+          gallery={true}
+        />
+      );
+    });
+  }
+
+  if (error) {
+    content = <p>{error}</p>;
+  }
+
+  if (isLoading) {
+    content = <p>Laster inn...</p>;
+  }
+
   return (
     <>
-      <h2>Gallery</h2>
-      <div className="gallery-flex">
-        {instaMedia &&
-          instaMedia.map((i) => {
-            return (
-              <LightboxImage
-                imgSrc={i.media_url}
-                imgAlt={i.caption}
-                title={i.caption}
-                group="gallery"
-                gallery={true}
-              />
-            );
-          })}
-      </div>
+      <h2>Bilder publisert på Instagram</h2>
+      <div className="gallery-flex">{content}</div>
     </>
   );
 }

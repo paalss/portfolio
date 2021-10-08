@@ -18,16 +18,6 @@ function Footer() {
           </li>
           <li>
             <a
-              href="https://www.facebook.com/pal.stakvik"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="icon fab fa-facebook"></span>
-              <span className="text">Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a
               href="https://www.linkedin.com/in/pal-stakvik/"
               target="_blank"
               rel="noopener noreferrer"

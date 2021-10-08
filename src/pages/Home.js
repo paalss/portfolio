@@ -6,6 +6,7 @@ import SquareLink from "../components/common/SquareLink";
 import macleanImg from "../images/maclean/alistairmaclean.png";
 import rankingappImg from "../images/rankingapp/rankingapp.png";
 import videoopplastingImg from "../images/www-teknologi/prosjekt2-5-videoside.png";
+import galleryImg from "../images/gallery/gallery1.png";
 
 function Home() {
   return (
@@ -45,6 +46,8 @@ function Home() {
         jeg har skrevet litt om.
       </p>
       <WebWorkLinks />
+      <h2>Annet</h2>
+      <OtherLinks/>
     </>
   );
 }
@@ -74,6 +77,19 @@ export function WebWorkLinks() {
         imgAlt="maclean nettside"
         title="Alistair MacLean nettside redesign"
         tools={["HTML", "CSS"]}
+      />
+    </div>
+  );
+}
+
+export function OtherLinks() {
+  return (
+    <div className="webworklinks-flex">
+      <SquareLink
+        link="/gallery"
+        imgSrc={galleryImg}
+        imgAlt="kunstgalleri"
+        title="Kunst"
       />
     </div>
   );

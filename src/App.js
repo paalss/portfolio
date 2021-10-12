@@ -62,7 +62,7 @@ function App() {
               </Switch>
             </div>
           </Header>
-          <Nav page="index" />
+          <Nav />
           <Main>
             <div className="container">
               <Switch>

@@ -1,3 +1,5 @@
+import LazyLoad from "react-lazyload";
+
 function LightboxImage({ imgSrc, imgAlt, title, group, gallery = false }) {
   if (gallery) {
     return (
@@ -7,9 +9,12 @@ function LightboxImage({ imgSrc, imgAlt, title, group, gallery = false }) {
         data-title={title}
         className="list-item"
       >
-        <div className="frame">
-          <img src={imgSrc} alt={imgAlt} className="gallery-img" />
-        </div>
+        {/* offset={300} Start å rendre 300px før bildet kommer i viewport */}
+        <LazyLoad height="40vh" offset={300}>
+          <div className="frame">
+            <img src={imgSrc} alt={imgAlt} className="gallery-img" />
+          </div>
+        </LazyLoad>
       </a>
     );
   } else {

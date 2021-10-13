@@ -9,8 +9,8 @@ function LightboxImage({ imgSrc, imgAlt, title, group, gallery = false }) {
         data-title={title}
         className="list-item"
       >
-        {/* offset={300} Start å rendre 300px før bildet kommer i viewport */}
-        <LazyLoad height="40vh" offset={300}>
+        {/* offset={10} Start å rendre 10px før bildet kommer i viewport */}
+        <LazyLoad height="300px">
           <div className="frame">
             <img src={imgSrc} alt={imgAlt} className="gallery-img" />
           </div>
@@ -23,6 +23,7 @@ function LightboxImage({ imgSrc, imgAlt, title, group, gallery = false }) {
         <img src={imgSrc} alt={imgAlt} />
       </a>
     );
+
   }
 }
 

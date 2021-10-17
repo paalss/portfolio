@@ -19,6 +19,67 @@ const Videoopplasting = lazy(() => import("./pages/Videoopplasting"));
 const Maclean = lazy(() => import("./pages/Maclean"));
 const Gallery = lazy(() => import("./pages/Gallery"));
 
+export const pagesInfo = [
+  {
+    id: 1,
+    path: "/",
+    exact: true,
+    title: "Hjem",
+    heading: (
+      <div className="index-header-flex">
+        <div>
+          <h1>Pål Stakvik</h1>
+          <p className="tagline">Utdannet web&shy;utvikler</p>
+        </div>
+        <div className="circle-frame">
+          <img src={photo} alt="Pål Stakvik" />
+        </div>
+      </div>
+    ),
+    page: <Home />,
+  },
+  {
+    id: 2,
+    path: "/webwork",
+    exact: true,
+    title: "Nettsider",
+    page: <Webwork />,
+    subpages: [
+      {
+        id: 3,
+        path: "/webwork/rankingapp",
+        title: "Ranking app",
+        page: <Rankingapp />,
+      },
+      {
+        id: 4,
+        path: "/webwork/videoopplasting",
+        title: <>Videoopplastings&shy;apper</>,
+        heading: <h1>Videoopplastings&shy;apper</h1>,
+        page: <Videoopplasting />,
+      },
+      {
+        id: 5,
+        path: "/webwork/maclean",
+        title: "Alistair MacLean nettside redesign",
+        page: <Maclean />,
+      },
+    ],
+  },
+  {
+    id: 6,
+    path: "/gallery",
+    title: "Kunst",
+    page: <Gallery />,
+  },
+];
+
+// Bring nested array ett nivå opp
+// Klipper ut nested array og lager en ny array hvor alle elementene er på samme nivå.
+const nestedArray = pagesInfo.find((page) => page.subpages).subpages;
+const pagesInfoWithoutNestedArray = pagesInfo.filter(() => nestedArray);
+const flatPagesInfo = [...pagesInfoWithoutNestedArray, ...nestedArray];
+
 function App() {
   return (
     <Router basename="portfolio">
@@ -33,32 +94,13 @@ function App() {
           <Header>
             <div className="container">
               <Switch>
-                <Route path="/" exact>
-                  <div className="index-header-flex">
-                    <div>
-                      <h1>Pål Stakvik</h1>
-                      <p className="tagline">Utdannet web&shy;utvikler</p>
-                    </div>
-                    <div className="circle-frame">
-                      <img src={photo} alt="Pål Stakvik" />
-                    </div>
-                  </div>
-                </Route>
-                <Route path="/webwork" exact>
-                  <h1>Nettsider</h1>
-                </Route>
-                <Route path="/webwork/rankingapp">
-                  <h1>Ranking app</h1>
-                </Route>
-                <Route path="/webwork/videoopplasting">
-                  <h1>Videoopplastings&shy;apper</h1>
-                </Route>
-                <Route path="/webwork/maclean">
-                  <h1>Alistair MacLean nettside redesign</h1>
-                </Route>
-                <Route path="/gallery">
-                  <h1>Kunst</h1>
-                </Route>
+                {flatPagesInfo.map((page) => {
+                  return (
+                    <Route path={page.path} exact={page.exact}>
+                      {page.heading ? page.heading : <h1>{page.title}</h1>}
+                    </Route>
+                  );
+                })}
               </Switch>
             </div>
           </Header>
@@ -66,24 +108,13 @@ function App() {
           <Main>
             <div className="container">
               <Switch>
-                <Route path="/" exact>
-                  <Home />
-                </Route>
-                <Route path="/webwork" exact>
-                  <Webwork />
-                </Route>
-                <Route path="/webwork/rankingapp">
-                  <Rankingapp />
-                </Route>
-                <Route path="/webwork/videoopplasting">
-                  <Videoopplasting />
-                </Route>
-                <Route path="/webwork/maclean">
-                  <Maclean />
-                </Route>
-                <Route path="/gallery">
-                  <Gallery />
-                </Route>
+                {flatPagesInfo.map((page) => {
+                  return (
+                    <Route path={page.path} exact={page.exact}>
+                      {page.page}
+                    </Route>
+                  );
+                })}
               </Switch>
             </div>
           </Main>

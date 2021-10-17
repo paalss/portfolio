@@ -1,40 +1,37 @@
 import { NavLink } from "react-router-dom";
+import { pagesInfo } from "../../../App";
 
 function Nav() {
   return (
     <nav>
       <div className="container">
         <ul className="nav">
-          <li>
-            <NavLink to="/" id="indexLink" activeClassName="selected" exact>
-              Hjem
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/webwork" activeClassName="selected">Nettsider</NavLink>
-            <ul className="website-links">
-              <li>
-                <NavLink to="/webwork/rankingapp" activeClassName="selected">
-                  Ranking app
+          {pagesInfo.map((page) => {
+            return (
+              <li key={page.id}>
+                <NavLink
+                  to={page.path}
+                  activeClassName="selected"
+                  exact={page.exact ? page.exactActiveClassName : false}
+                >
+                  {page.title}
                 </NavLink>
+                {page.subpages && (
+                  <ul className="website-links">
+                    {page.subpages.map((subpage) => {
+                      return (
+                        <li key={subpage.id}>
+                          <NavLink to={subpage.path} activeClassName="selected">
+                            {subpage.title}
+                          </NavLink>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )}
               </li>
-              <li>
-                <NavLink to="/webwork/videoopplasting" activeClassName="selected">
-                  Videoopplastings&shy;apper
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/webwork/maclean" activeClassName="selected">
-                  Alistair Maclean nettside redesign
-                </NavLink>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <NavLink id="galleryLink" to="/gallery" activeClassName="selected">
-              Kunst
-            </NavLink>
-          </li>
+            );
+          })}
         </ul>
       </div>
     </nav>

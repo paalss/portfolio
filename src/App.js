@@ -23,7 +23,8 @@ export const pagesInfo = [
   {
     id: 1,
     path: "/",
-    exact: true,
+    exact: true, // bestemme om <Route path=""> skal ha exact
+    exactActiveClassName: true, // bestemme om <NavLink to=""> skal ha exact
     title: "Hjem",
     heading: (
       <div className="index-header-flex">
@@ -42,6 +43,7 @@ export const pagesInfo = [
     id: 2,
     path: "/webwork",
     exact: true,
+    exactActiveClassName: false,
     title: "Nettsider",
     page: <Webwork />,
     subpages: [
@@ -76,6 +78,7 @@ export const pagesInfo = [
 
 // Bring nested array ett nivå opp
 // Klipper ut nested array og lager en ny array hvor alle elementene er på samme nivå.
+// En slags array.flat(), bare at denne funker
 const nestedArray = pagesInfo.find((page) => page.subpages).subpages;
 const pagesInfoWithoutNestedArray = pagesInfo.filter(() => nestedArray);
 const flatPagesInfo = [...pagesInfoWithoutNestedArray, ...nestedArray];
@@ -96,7 +99,7 @@ function App() {
               <Switch>
                 {flatPagesInfo.map((page) => {
                   return (
-                    <Route path={page.path} exact={page.exact}>
+                    <Route key={page.id} path={page.path} exact={page.exact}>
                       {page.heading ? page.heading : <h1>{page.title}</h1>}
                     </Route>
                   );
@@ -110,7 +113,7 @@ function App() {
               <Switch>
                 {flatPagesInfo.map((page) => {
                   return (
-                    <Route path={page.path} exact={page.exact}>
+                    <Route key={page.id} path={page.path} exact={page.exact}>
                       {page.page}
                     </Route>
                   );

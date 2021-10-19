@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b95a75a7.chunk.css",
-    "main.js": "/portfolio/static/js/main.62d6977f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.62d6977f.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.a563ad56.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a563ad56.js.map",
+    "main.css": "/portfolio/static/css/main.c151dec3.chunk.css",
+    "main.js": "/portfolio/static/js/main.442d0060.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.442d0060.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0eebd532.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0eebd532.js.map",
     "static/js/2.facb7b01.chunk.js": "/portfolio/static/js/2.facb7b01.chunk.js",
     "static/js/2.facb7b01.chunk.js.map": "/portfolio/static/js/2.facb7b01.chunk.js.map",
     "static/js/3.9e7c58c8.chunk.js": "/portfolio/static/js/3.9e7c58c8.chunk.js",
@@ -14,11 +14,11 @@
     "static/js/5.bd3cd185.chunk.js": "/portfolio/static/js/5.bd3cd185.chunk.js",
     "static/js/5.bd3cd185.chunk.js.map": "/portfolio/static/js/5.bd3cd185.chunk.js.map",
     "static/css/6.bdb19183.chunk.css": "/portfolio/static/css/6.bdb19183.chunk.css",
-    "static/js/6.f274718d.chunk.js": "/portfolio/static/js/6.f274718d.chunk.js",
-    "static/js/6.f274718d.chunk.js.map": "/portfolio/static/js/6.f274718d.chunk.js.map",
+    "static/js/6.b2cf0ea6.chunk.js": "/portfolio/static/js/6.b2cf0ea6.chunk.js",
+    "static/js/6.b2cf0ea6.chunk.js.map": "/portfolio/static/js/6.b2cf0ea6.chunk.js.map",
     "static/css/7.bdb19183.chunk.css": "/portfolio/static/css/7.bdb19183.chunk.css",
-    "static/js/7.442738fc.chunk.js": "/portfolio/static/js/7.442738fc.chunk.js",
-    "static/js/7.442738fc.chunk.js.map": "/portfolio/static/js/7.442738fc.chunk.js.map",
+    "static/js/7.85c7f5df.chunk.js": "/portfolio/static/js/7.85c7f5df.chunk.js",
+    "static/js/7.85c7f5df.chunk.js.map": "/portfolio/static/js/7.85c7f5df.chunk.js.map",
     "static/js/8.4b1ed244.chunk.js": "/portfolio/static/js/8.4b1ed244.chunk.js",
     "static/js/8.4b1ed244.chunk.js.map": "/portfolio/static/js/8.4b1ed244.chunk.js.map",
     "static/js/9.50de0def.chunk.js": "/portfolio/static/js/9.50de0def.chunk.js",
@@ -28,7 +28,7 @@
     "index.html": "/portfolio/index.html",
     "static/css/6.bdb19183.chunk.css.map": "/portfolio/static/css/6.bdb19183.chunk.css.map",
     "static/css/7.bdb19183.chunk.css.map": "/portfolio/static/css/7.bdb19183.chunk.css.map",
-    "static/css/main.b95a75a7.chunk.css.map": "/portfolio/static/css/main.b95a75a7.chunk.css.map",
+    "static/css/main.c151dec3.chunk.css.map": "/portfolio/static/css/main.c151dec3.chunk.css.map",
     "static/js/2.facb7b01.chunk.js.LICENSE.txt": "/portfolio/static/js/2.facb7b01.chunk.js.LICENSE.txt",
     "static/media/2-video-og-transkript.6bf02f98.png": "/portfolio/static/media/2-video-og-transkript.6bf02f98.png",
     "static/media/alistairmaclean-full.fb344428.png": "/portfolio/static/media/alistairmaclean-full.fb344428.png",
@@ -46,9 +46,9 @@
     "static/media/top-novels2.33d04c56.png": "/portfolio/static/media/top-novels2.33d04c56.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a563ad56.js",
+    "static/js/runtime-main.0eebd532.js",
     "static/js/2.facb7b01.chunk.js",
-    "static/css/main.b95a75a7.chunk.css",
-    "static/js/main.62d6977f.chunk.js"
+    "static/css/main.c151dec3.chunk.css",
+    "static/js/main.442d0060.chunk.js"
   ]
 }

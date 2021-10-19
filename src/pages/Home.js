@@ -1,12 +1,14 @@
+import { pagesInfo } from "../App";
+
 // components
 import Barchart from "../components/common/Barchart";
 import SquareLink from "../components/common/SquareLink";
 
-// images
-import macleanImg from "../images/maclean/alistairmaclean.png";
-import rankingappImg from "../images/rankingapp/rankingapp.png";
-import videoopplastingImg from "../images/www-teknologi/prosjekt2-5-videoside.png";
-import galleryImg from "../images/gallery/gallery1.png";
+// info for å bygge <SquareLink>-er
+const webworkInfo = pagesInfo.find(
+  (element) => element.path === "/webwork"
+).subpages;
+const galleryInfo = pagesInfo.find((element) => element.path === "/gallery");
 
 function Home() {
   return (
@@ -47,38 +49,38 @@ function Home() {
       </p>
       <WebWorkLinks />
       <h2>Annet</h2>
-      <OtherLinks/>
+      <OtherLinks />
     </>
   );
 }
 
 export function WebWorkLinks() {
   return (
-    <div className="webworklinks-flex">
-      <SquareLink
-        link="/webwork/rankingapp"
-        imgSrc={rankingappImg}
-        imgAlt="ranking webapp"
-        title="Ranking app"
-        tools={["TypeScript", "PHP", "Relasjonsdatabase", "MySQL"]}
-        thereAreMoreTools={true}
-      />
-      <SquareLink
-        link="/webwork/videoopplasting"
-        imgSrc={videoopplastingImg}
-        imgAlt="videoopplasting webapp"
-        title="Videoopplastings&shy;apper"
-        tools={["PHP", "JavaScript", "LitElement"]}
-        thereAreMoreTools={true}
-      />
-      <SquareLink
-        link="/webwork/maclean"
-        imgSrc={macleanImg}
-        imgAlt="maclean nettside"
-        title="Alistair MacLean nettside redesign"
-        tools={["HTML", "CSS"]}
-      />
-    </div>
+    <>
+      <div className="webworklinks-flex">
+        {webworkInfo.map((page) => {
+          return (
+            <SquareLink
+              key={page.id}
+              link={page.path}
+              imgSrc={page.imgSrc}
+              imgAlt={page.imgAlt}
+              title={page.title}
+              tools={page.tools}
+              thereAreMoreTools={page.thereAreMoreTools}
+            />
+          );
+        })}
+      </div>
+      <a
+        className="link"
+        href="https://github.com/paalss?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span className="fab fa-github"></span> Se flere prosjekter
+      </a>
+    </>
   );
 }
 
@@ -86,10 +88,10 @@ export function OtherLinks() {
   return (
     <div className="webworklinks-flex">
       <SquareLink
-        link="/gallery"
-        imgSrc={galleryImg}
-        imgAlt="kunstgalleri"
-        title="Kunst"
+        link={galleryInfo.path}
+        imgSrc={galleryInfo.imgSrc}
+        imgAlt={galleryInfo.imgAlt}
+        title={galleryInfo.title}
       />
     </div>
   );

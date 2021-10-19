@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { pagesInfo } from "../../../App";
+import pagesInfo from "../../../pagesInfo";
 
 function Nav() {
   return (

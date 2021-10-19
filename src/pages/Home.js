@@ -1,4 +1,4 @@
-import { pagesInfo } from "../App";
+import pagesInfo from "../pagesInfo";
 
 // components
 import Barchart from "../components/common/Barchart";

@@ -10,6 +10,10 @@ import LoadingSpinner from "./components/layout/LoadingSpinner";
 
 // images
 import photo from "./images/cvphoto1.jpg";
+import macleanImg from "./images/maclean/alistairmaclean.png";
+import rankingappImg from "./images/rankingapp/rankingapp.png";
+import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
+import galleryImg from "./images/gallery/gallery1.png";
 
 // pages
 const Home = lazy(() => import("./pages/Home"));
@@ -52,6 +56,10 @@ export const pagesInfo = [
         path: "/webwork/rankingapp",
         title: "Ranking app",
         page: <Rankingapp />,
+        imgSrc: rankingappImg,
+        imgAlt: "Ranking app",
+        tools: ["TypeScript", "PHP", "Relasjonsdatabase", "MySQL"],
+        thereAreMoreTools: true,
       },
       {
         id: 4,
@@ -59,12 +67,19 @@ export const pagesInfo = [
         title: <>Videoopplastings&shy;apper</>,
         heading: <h1>Videoopplastings&shy;apper</h1>,
         page: <Videoopplasting />,
+        imgSrc: videoopplastingImg,
+        imgAlt: "Videoopplasting app",
+        tools: ["PHP", "JavaScript", "LitElement"],
+        thereAreMoreTools: true,
       },
       {
         id: 5,
         path: "/webwork/maclean",
         title: "Alistair MacLean nettside redesign",
         page: <Maclean />,
+        imgSrc: macleanImg,
+        imgAlt: "MacLean page",
+        tools: ["HTML", "CSS"],
       },
     ],
   },
@@ -73,6 +88,8 @@ export const pagesInfo = [
     path: "/gallery",
     title: "Kunst",
     page: <Gallery />,
+    imgSrc: galleryImg,
+    imgAlt: "gallery"
   },
 ];
 

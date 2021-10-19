@@ -22,7 +22,7 @@ function App() {
     <Router basename="portfolio">
       <Suspense
         fallback={
-          <div className="center-content">
+          <div className="center-content-fullscreen">
             <LoadingSpinner />
           </div>
         }

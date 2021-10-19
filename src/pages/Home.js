@@ -72,14 +72,16 @@ export function WebWorkLinks() {
           );
         })}
       </div>
-      <a
-        className="link"
-        href="https://github.com/paalss?tab=repositories"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="fab fa-github"></span> Se flere prosjekter
-      </a>
+      <div className="mt-50">
+        <a
+          className="link"
+          href="https://github.com/paalss?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="fab fa-github"></span> Se flere prosjekter
+        </a>
+      </div>
     </>
   );
 }

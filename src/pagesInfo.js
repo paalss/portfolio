@@ -19,8 +19,8 @@ const pagesInfo = [
   {
     id: 1,
     path: "/",
-    exact: true, // bestemme om <Route path=""> skal ha exact
-    exactActiveClassName: true, // bestemme om <NavLink to=""> skal ha exact
+    exact: true,
+    exactActiveClassName: true,
     title: "Hjem",
     heading: (
       <div className="index-header-flex">
@@ -38,8 +38,8 @@ const pagesInfo = [
   {
     id: 2,
     path: "/webwork",
-    exact: true,
-    exactActiveClassName: false,
+    exact: true, // naviger til Webwork kun om path er eksakt "/webwork"
+    exactActiveClassName: false, // uthev nav-link om path inneholder "/webwork"
     title: "Nettsider",
     page: <Webwork />,
     subpages: [

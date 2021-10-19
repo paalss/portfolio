@@ -32,13 +32,12 @@
   .mb-130 {
     margin-bottom: 130px;
   }
-/*   
   .mt-50 {
     margin-top: 50px;
   }
   .mt-130 {
     margin-top: 130px;
-  } */
+  }
   /* ––––––––––––––––––––– Type ––––––––––––––––––––– */
   h1 {
     margin: 0;
@@ -52,7 +51,7 @@
     display: inline;
   }
   h2 {
-    margin-top: 3rem;
+    margin-top: 7rem;
     font-size: 2rem;
     letter-spacing: 0.1rem;
   }
@@ -357,7 +356,7 @@
   iframe {
     display: none;
   }
-  .center-content {
+  .center-content-fullscreen {
     height: 80vh;
     margin: 3rem auto;
     text-align: center;

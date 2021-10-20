@@ -22,7 +22,4 @@ a.square:focus {
     width: 190px;
     margin: 6px 3%;
   }
-  a.square .frame {
-    height: 170px;
-  }
 }

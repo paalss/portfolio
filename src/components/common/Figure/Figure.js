@@ -1,8 +1,9 @@
 import LightboxImage from "../LightboxImage";
+import classes from "./Figure.module.css"
 
 function Figure({ imgSrc, imgAlt, caption, group }) {
   return (
-    <figure>
+    <figure className={classes.figure}>
       <LightboxImage
         imgSrc={imgSrc}
         imgAlt={imgAlt}

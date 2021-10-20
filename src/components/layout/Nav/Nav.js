@@ -1,17 +1,18 @@
 import { NavLink } from "react-router-dom";
 import pagesInfo from "../../../pagesInfo";
+import classes from "./Nav.module.css"
 
 function Nav() {
   return (
-    <nav>
+    <nav className={classes.nav}>
       <div className="container">
-        <ul className="nav">
+        <ul className={classes.ul}>
           {pagesInfo.map((page) => {
             return (
               <li key={page.id}>
                 <NavLink
                   to={page.path}
-                  activeClassName="selected"
+                  activeClassName={classes.selected}
                   exact={page.exact ? page.exactActiveClassName : false}
                 >
                   {page.title}
@@ -21,7 +22,7 @@ function Nav() {
                     {page.subpages.map((subpage) => {
                       return (
                         <li key={subpage.id}>
-                          <NavLink to={subpage.path} activeClassName="selected">
+                          <NavLink to={subpage.path} activeClassName={classes.selected}>
                             {subpage.title}
                           </NavLink>
                         </li>

@@ -14,8 +14,6 @@
     background-color: #230d9b;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
-  .oldbody {
     background-image: url("images/black_explosion.png");
     background-blend-mode: multiply;
     background-position: 230% -135px;
@@ -157,7 +155,7 @@
     text-decoration: none;
   }
   /* ––––––––––––––––––––– Nav ––––––––––––––––––––– */
-  
+  /* Se CSS module */
   /* ––––––––––––––––––––– Main  ––––––––––––––––––––– */
   main {
     padding-top: 75px;
@@ -184,39 +182,13 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  a.box {
-    width: 90%;
-    margin: 30px 0;
-    overflow: hidden;
-  }
-  a.box .frame {
-    height: 200px;
-  }
+
   .webworklinks-flex img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  a.box {
-    color: #000;
-    text-decoration: none;
-    transition: 0.2s;
-  }
-  a.box:hover,
-  a.box:focus {
-    transform: scale(1.05);
-    transition: 0.2s;
-  }
-  a.stripe {
-    display: block;
-    padding: 14px 5%;
-    color: #000;
-    background-color: #ccc;
-  }
-  a.stripe:hover,
-  a.stripe:focus {
-    font-style: italic;
-  }
+
   main img {
     width: 100%;
   }
@@ -266,9 +238,6 @@
     border-radius: 20px;
     border: 2px solid #3b3b3b;
     padding: 2px 7px;
-  }
-  iframe {
-    display: none;
   }
   .center-content-fullscreen {
     height: 80vh;
@@ -383,16 +352,9 @@
     display: flex;
     justify-content: space-around;
   }
-  
+
   .webworklinks-flex {
     justify-content: space-between;
-  }
-  a.box {
-    width: 190px;
-    margin: 6px 3%;
-  }
-  .box .frame {
-    height: 170px;
   }
 }
 

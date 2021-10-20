@@ -148,12 +148,6 @@
   header .circle-frame {
     display: none;
   }
-  .work header a,
-  .gallery header a {
-    color: #fff;
-    font-size: 3rem;
-    text-decoration: none;
-  }
   /* ––––––––––––––––––––– Nav ––––––––––––––––––––– */
   /* Se CSS module */
   /* ––––––––––––––––––––– Main  ––––––––––––––––––––– */
@@ -162,7 +156,7 @@
     padding-bottom: 50px;
     background-color: #fff;
     /* .work main skal ha nav-bar som ligger ved siden av main. nav-bar skal
-    «kaste skygge» over på main,lag derfor en invers skygge på main. */
+    «kaste skygge» over på main, lag derfor en invers skygge på main. */
     -webkit-box-shadow: inset 0px 4px 32px -16px #000000;
     box-shadow: inset 0px 4px 32px -16px #000000;
   }
@@ -172,10 +166,6 @@
   }
   .flex {
     display: flex;
-  }
-  .gallery-flex {
-    display: flex;
-    flex-wrap: wrap;
   }
   .webworklinks-flex {
     display: flex;

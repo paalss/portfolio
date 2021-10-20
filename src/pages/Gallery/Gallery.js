@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
-import LightboxImage from "../components/common/LightboxImage";
+import LightboxImage from "../../components/common/LightboxImage";
+import classes from "./Gallery.module.css"
 
 function Gallery() {
   const [instaMedia, setInstaMedia] = useState([]);
@@ -59,7 +60,7 @@ function Gallery() {
 
   return (
     <>
-      <div className="gallery-flex">{content}</div>
+      <div className={classes.galleryFlex}>{content}</div>
     </>
   );
 }

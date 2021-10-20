@@ -1,8 +1,9 @@
 import scratchLogo from "../../../images/scratchlogo-transparent-white.png";
+import classes from "./Footer.module.css"
 
 function Footer() {
   return (
-    <footer>
+    <footer className={classes.footer}>
       <div className="container">
         <b>Du finner meg på:</b>
         <ul>
@@ -12,8 +13,8 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="icon fab fa-github"></span>
-              <span className="text">Github (paalss)</span>
+              <span className={classes.icon + " fab fa-github"}></span>
+              <span className={classes.text}>Github (paalss)</span>
             </a>
           </li>
           <li>
@@ -22,8 +23,8 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="icon fab fa-linkedin"></span>
-              <span className="text">Linkedin</span>
+              <span className={classes.icon + " fab fa-linkedin"}></span>
+              <span className={classes.text}>Linkedin</span>
             </a>
           </li>
           <li>
@@ -32,8 +33,8 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="icon fab fa-instagram"></span>
-              <span className="text">Instagram (gassosaman)</span>
+              <span className={classes.icon + " fab fa-instagram"}></span>
+              <span className={classes.text}>Instagram (gassosaman)</span>
             </a>
           </li>
           <li>
@@ -42,10 +43,10 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="icon fab fa">
+              <span className={classes.icon + " fab fa"}>
                 <img src={scratchLogo} alt="Scratch logo" />
               </span>
-              <span className="text">Scratch (pa0110)</span>
+              <span className={classes.text}>Scratch (pa0110)</span>
             </a>
           </li>
         </ul>
@@ -54,8 +55,8 @@ function Footer() {
         <ul>
           <li>
             <a href="mailto:paalss94@gmail.com">
-              <span className="icon fas fa-envelope"></span>
-              <span className="text">paalss94@gmail.com</span>
+              <span className={classes.icon + " fas fa-envelope"}></span>
+              <span className={classes.text}>paalss94@gmail.com</span>
             </a>
           </li>
         </ul>

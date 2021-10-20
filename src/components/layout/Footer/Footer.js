@@ -58,13 +58,6 @@ function Footer() {
               <span className="text">paalss94@gmail.com</span>
             </a>
           </li>
-          <li>
-            <span className="icon fa"></span>
-            <button id="copyMailButton">
-              <i className="far fa-clipboard" aria-hidden="true"></i> Kopier
-              mailadresse
-            </button>
-          </li>
         </ul>
       </div>
     </footer>

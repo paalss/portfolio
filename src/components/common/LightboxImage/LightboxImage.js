@@ -19,7 +19,7 @@ function LightboxImage({ imgSrc, imgAlt, title, gallery = false }) {
     );
   } else {
     return (
-      <a class="uk-inline" href={imgSrc} data-caption={title}>
+      <a href={imgSrc} data-caption={title}>
         <img src={imgSrc} alt={imgAlt} />
       </a>
     );

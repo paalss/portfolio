@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
       <div class="uk-h3">Slide</div>
-      <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+      <div uk-grid uk-lightbox="animation: slide">
         <div>
           <a
             class="uk-inline"

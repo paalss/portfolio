@@ -4750,8 +4750,8 @@ ul.uk-nav-sub {
  ========================================================================== */
 .uk-lightbox-toolbar {
   padding: 10px 10px;
-  background: rgba(0, 0, 0, 0.3);
-  color: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
 }
 .uk-lightbox-toolbar > * {
   color: rgba(255, 255, 255, 0.7);
@@ -4777,8 +4777,8 @@ ul.uk-nav-sub {
   box-sizing: border-box;
   width: 50px;
   height: 50px;
-  background: rgba(0, 0, 0, 0.3);
-  color: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
   /* 1 */
   display: inline-flex;
   justify-content: center;

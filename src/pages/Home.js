@@ -13,37 +13,6 @@ const galleryInfo = pagesInfo.find((element) => element.path === "/gallery");
 function Home() {
   return (
     <>
-      <div class="uk-h3">Slide</div>
-      <div uk-grid uk-lightbox="animation: slide">
-        <div>
-          <a
-            class="uk-inline"
-            href="https://getuikit.com/docs/images/photo.jpg"
-            data-caption="Caption 1"
-          >
-            <img src="https://getuikit.com/docs/images/photo.jpg" alt="" />
-          </a>
-        </div>
-        <div>
-          <a
-            class="uk-inline"
-            href="https://getuikit.com/docs/images/dark.jpg"
-            data-caption="Caption 2"
-          >
-            <img src="https://getuikit.com/docs/images/dark.jpg" alt="" />
-          </a>
-        </div>
-        <div>
-          <a
-            class="uk-inline"
-            href="https://getuikit.com/docs/images/light.jpg"
-            data-caption="Caption 3"
-          >
-            <img src="https://getuikit.com/docs/images/light.jpg" alt="" />
-          </a>
-        </div>
-      </div>
-
       <h2>Kompetanse</h2>
       <p className="mb-50">
         Jeg har erfaring innen webutvikling og grafisk design.

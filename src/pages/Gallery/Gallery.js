@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import LightboxImage from "../../components/common/LightboxImage";
-import classes from "./Gallery.module.css"
+import classes from "./Gallery.module.css";
 
 function Gallery() {
   const [instaMedia, setInstaMedia] = useState([]);
@@ -43,7 +43,6 @@ function Gallery() {
           imgSrc={i.media_url}
           imgAlt={i.caption}
           title={i.caption}
-          group="gallery"
           gallery={true}
         />
       );
@@ -59,9 +58,9 @@ function Gallery() {
   }
 
   return (
-    <>
+    <div uk-grid uk-lightbox="animation: slide">
       <div className={classes.galleryFlex}>{content}</div>
-    </>
+    </div>
   );
 }
 

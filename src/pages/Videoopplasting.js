@@ -71,19 +71,16 @@ function Videoopplasting() {
           imgSrc={videosideImg}
           imgAlt="videosiden i andre prosjekt"
           caption="Videoside i andre prosjekt"
-          group="videoopplasting2"
         />
         <Figure
           imgSrc={videolisteImg}
           imgAlt="videolistesiden"
           caption="Videooversikt"
-          group="videoopplasting2"
         />
         <Figure
           imgSrc={videoopplastingImg}
           imgAlt="videoopplastingssiden"
           caption="«Last opp video»-siden"
-          group="videoopplasting2"
         />
       </div>
       <div>

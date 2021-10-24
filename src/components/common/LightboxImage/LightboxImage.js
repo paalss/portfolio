@@ -1,16 +1,15 @@
 import LazyLoad from "react-lazyload";
-import classes from "./LightboxImage.module.css"
+import classes from "./LightboxImage.module.css";
 
-function LightboxImage({ imgSrc, imgAlt, title, group, gallery = false }) {
+function LightboxImage({ imgSrc, imgAlt, title, gallery = false }) {
   if (gallery) {
     return (
       <a
+        class="uk-inline"
         href={imgSrc}
-        data-lightbox={group}
-        data-title={title}
+        data-caption={title}
         className={classes.listItem}
       >
-        {/* offset={10} Start å rendre 10px før bildet kommer i viewport */}
         <LazyLoad height="300px">
           <div className={classes.frame}>
             <img src={imgSrc} alt={imgAlt} className={classes.galleryImg} />
@@ -20,11 +19,10 @@ function LightboxImage({ imgSrc, imgAlt, title, group, gallery = false }) {
     );
   } else {
     return (
-      <a href={imgSrc} data-lightbox={group} data-title={title}>
+      <a href={imgSrc} data-caption={title}>
         <img src={imgSrc} alt={imgAlt} />
       </a>
     );
-
   }
 }
 

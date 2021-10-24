@@ -63,24 +63,23 @@ function Rankingapp() {
         Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det
         i seg selv er jo motivasjon nok til å fortsette med det.
       </p>
-      <Figure
-        imgSrc={overviewImg}
-        imgAlt="oversikt over lister eksempel"
-        caption="Lag egne lister"
-        group="rankingapp"
-      />
-      <Figure
-        imgSrc={bestMetroidvaniasImg}
-        imgAlt="beste metroidvanias listeeksempel"
-        caption="Sett inn egne elementer, tilpass etter behov"
-        group="rankingapp"
-      />
-      <Figure
-        imgSrc={topNovelsImg}
-        imgAlt="beste bøker listeeksempel"
-        caption="Få pene og oversiktlige lister"
-        group="rankingapp"
-      />
+      <div uk-grid uk-lightbox="animation: slide">
+        <Figure
+          imgSrc={overviewImg}
+          imgAlt="oversikt over lister eksempel"
+          caption="Lag egne lister"
+        />
+        <Figure
+          imgSrc={bestMetroidvaniasImg}
+          imgAlt="beste metroidvanias listeeksempel"
+          caption="Sett inn egne elementer, tilpass etter behov"
+        />
+        <Figure
+          imgSrc={topNovelsImg}
+          imgAlt="beste bøker listeeksempel"
+          caption="Få pene og oversiktlige lister"
+        />
+      </div>
     </>
   );
 }

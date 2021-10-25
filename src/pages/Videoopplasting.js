@@ -34,14 +34,7 @@ function Videoopplasting() {
           </ul>
         </span>
       </h3>
-      <div uk-grid uk-lightbox="animation: slide">
-        <Figure
-          imgSrc={videoOgTranskriptImg}
-          imgAlt="videosiden i første prosjekt"
-          caption="Videoside i første prosjekt"
-          group="videoopplasting1"
-        />
-      </div>
+      
       <div>
         <p>
           Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med
@@ -55,6 +48,15 @@ function Videoopplasting() {
           html-sidene.
         </p>
       </div>
+
+      <div uk-grid uk-lightbox="animation: slide">
+        <Figure
+          imgSrc={videoOgTranskriptImg}
+          imgAlt="videosiden i første prosjekt"
+          caption="Videoside i første prosjekt"
+          group="videoopplasting1"
+        />
+      </div>
       <h3>
         Andre prosjekt
         <span className="subtitle">
@@ -66,23 +68,6 @@ function Videoopplasting() {
           </ul>
         </span>
       </h3>
-      <div uk-grid uk-lightbox="animation: slide">
-        <Figure
-          imgSrc={videosideImg}
-          imgAlt="videosiden i andre prosjekt"
-          caption="Videoside i andre prosjekt"
-        />
-        <Figure
-          imgSrc={videolisteImg}
-          imgAlt="videolistesiden"
-          caption="Videooversikt"
-        />
-        <Figure
-          imgSrc={videoopplastingImg}
-          imgAlt="videoopplastingssiden"
-          caption="«Last opp video»-siden"
-        />
-      </div>
       <div>
         <p>
           Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det
@@ -123,6 +108,24 @@ function Videoopplasting() {
           Appen ble lagd med bruk av LitElement-baserte komponenter som vi for
           det meste lagde selv.
         </p>
+
+        <div uk-grid uk-lightbox="animation: slide">
+          <Figure
+            imgSrc={videosideImg}
+            imgAlt="videosiden i andre prosjekt"
+            caption="Videoside i andre prosjekt"
+          />
+          <Figure
+            imgSrc={videolisteImg}
+            imgAlt="videolistesiden"
+            caption="Videooversikt"
+          />
+          <Figure
+            imgSrc={videoopplastingImg}
+            imgAlt="videoopplastingssiden"
+            caption="«Last opp video»-siden"
+          />
+        </div>
       </div>
     </>
   );

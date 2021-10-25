@@ -5,7 +5,6 @@ function LightboxImage({ imgSrc, imgAlt, title, gallery = false }) {
   if (gallery) {
     return (
       <a
-        class="uk-inline"
         href={imgSrc}
         data-caption={title}
         className={classes.listItem}

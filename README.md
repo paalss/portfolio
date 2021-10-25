@@ -4,23 +4,23 @@ https://paalss.github.io/portfolio/
 
 ## Notater for development
 
-### Create React App README
-
-[CRA-README.md](CRA-README.md)
-
 ### Serve
 
-`npm start` / `yarn start`
+`yarn start` / `npm start`
 
 ### Deploy til Github pages
 
-`npm run deploy` / `yarn deploy`
+`yarn deploy` / `npm run deploy`
 
 https://create-react-app.dev/docs/deployment#github-pages
 
 ### Dark mode
 
 Aktiver `import "./darkmode.css"` i **index.js**
+
+### Create React App README
+
+[CRA-README.md](CRA-README.md)
 
 ### Instagram-galleri API ressurser
 

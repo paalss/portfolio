@@ -5,14 +5,19 @@ import photo from "./images/cvphoto1.jpg";
 import macleanImg from "./images/maclean/alistairmaclean.png";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
+import artistbookingImg from "./images/artistbooking/Android-Mobile–6.png";
+import jrNmImg from "./images/jr-nm-ski/IMG_2413.JPG"
 import galleryImg from "./images/gallery/gallery1.png";
 
 // pages. Lazy load for å forminske loade-tiden når du først besøker nettsiden. Spar loading til du besøker dem.
 const Home = lazy(() => import("./pages/Home"));
 const Webwork = lazy(() => import("./pages/Webwork"));
+const Graphicwork = lazy(() => import("./pages/Graphicwork"));
 const Rankingapp = lazy(() => import("./pages/Rankingapp"));
 const Videoopplasting = lazy(() => import("./pages/Videoopplasting"));
 const Maclean = lazy(() => import("./pages/Maclean"));
+const Artistbooking = lazy(() => import("./pages/Artistbooking"));
+const JRNM = lazy(() => import("./pages/JRNM"));
 const Gallery = lazy(() => import("./pages/Gallery"));
 
 const pagesInfo = [
@@ -56,8 +61,8 @@ const pagesInfo = [
       {
         id: 4,
         path: "/webwork/videoopplasting",
-        title: <>Videoopplastings&shy;apper</>,
-        heading: <h1>Videoopplastings&shy;apper</h1>,
+        title: <>Video&shy;opplastings&shy;apper</>,
+        heading: <h1>Video&shy;opplastings&shy;apper</h1>,
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
         imgAlt: "Videoopplasting app",
@@ -77,6 +82,34 @@ const pagesInfo = [
   },
   {
     id: 6,
+    path: "/graphicwork",
+    exact: true,
+    exactActiveClassName: false,
+    title: "Grafisk",
+    page: <Graphicwork />,
+    subpages: [
+      {
+        id: 7,
+        path: "/graphicwork/artistbooking",
+        title: "Artist booking app",
+        page: <Artistbooking />,
+        imgSrc: artistbookingImg,
+        imgAlt: "Artist booking app",
+        tools: ["Adobe XD"],
+      },
+      {
+        id: 8,
+        path: "/graphicwork/jrnm",
+        title: "Jr NM ski 2015 logo",
+        page: <JRNM />,
+        imgSrc: jrNmImg,
+        imgAlt: "Jr NM på ski logo",
+        tools: ["Photoshop"],
+      },
+    ],
+  },
+  {
+    id: 9,
     path: "/gallery",
     title: "Kunst",
     page: <Gallery />,

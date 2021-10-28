@@ -1,24 +1,29 @@
-a.square {
+a.squareLink {
   width: 90%;
   margin: 30px 0;
   overflow: hidden;
 }
-a.square .frame {
+a.squareLink .frame {
   height: 200px;
 }
-a.square {
+a.squareLink {
   color: #000;
   text-decoration: none;
   transition: 0.2s;
 }
-a.square:hover,
-a.square:focus {
+a.squareLink:hover,
+a.squareLink:focus {
   transform: scale(1.05);
   transition: 0.2s;
 }
 
+div.desktopEmptySpace {
+  width: 0;
+  height: 0;
+}
+
 @media only screen and (min-width: 700px) {
-  a.square {
+  a.squareLink, div.desktopEmptySpace {
     width: 190px;
     margin: 6px 3%;
   }

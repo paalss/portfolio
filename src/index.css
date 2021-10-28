@@ -167,12 +167,12 @@
   .flex {
     display: flex;
   }
-  .webworklinks-flex {
+  .squarelinks-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .webworklinks-flex img {
+  .squarelinks-flex img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -263,7 +263,7 @@
     display: flex;
     justify-content: space-around;
   }
-  .webworklinks-flex {
+  .squarelinks-flex {
     justify-content: space-between;
   }
 }
@@ -281,8 +281,7 @@
     justify-content: flex-start;
   }
   main .container p,
-  main .container .normal-list li,
-  figure {
+  main .container .normal-list li {
     width: 630px;
   }
 }

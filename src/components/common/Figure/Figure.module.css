@@ -2,10 +2,20 @@
   background-color: #bbb;
   margin: 15px 0;
   padding: 40px 5% 10px 5%;
+  width: fit-content;
+}
+
+.figure img {
+  width: auto;
+  max-width: 100%;
 }
 
 @media only screen and (min-width: 900px) {
   .figure {
-    width: 630px;
+    max-width: 630px;
+  }
+
+  .figure img {
+    max-width: 100%;
   }
 }

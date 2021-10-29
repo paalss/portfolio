@@ -1,18 +1,8 @@
-import pagesInfo from "../pagesInfo";
+import { galleryInfo, graphicworkInfo, webworkInfo } from "../pagesInfo";
 
 // components
 import Barchart from "../components/common/Barchart";
 import SquareLink from "../components/common/SquareLink";
-
-// info for å bygge <SquareLink>-er
-// kan flyttes til pagesInfo side og eksporteres derfra slik som det andre?
-const webworkInfo = pagesInfo.find(
-  (element) => element.path === "/webwork"
-).subpages;
-const graphicworkInfo = pagesInfo.find(
-  (element) => element.path === "/graphicwork"
-).subpages;
-const galleryInfo = pagesInfo.find((element) => element.path === "/gallery");
 
 function Home() {
   return (

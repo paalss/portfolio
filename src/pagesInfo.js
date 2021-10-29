@@ -6,7 +6,7 @@ import macleanImg from "./images/maclean/alistairmaclean.png";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
 import artistbookingImg from "./images/artistbooking/Android-Mobile–6.png";
-import jrNmImg from "./images/jr-nm-ski/IMG_2413.JPG"
+import jrNmImg from "./images/jr-nm-ski/IMG_2413.JPG";
 import galleryImg from "./images/gallery/gallery1.png";
 
 // pages. Lazy load for å forminske loade-tiden når du først besøker nettsiden. Spar loading til du besøker dem.
@@ -117,5 +117,101 @@ const pagesInfo = [
     imgAlt: "gallery",
   },
 ];
+
+/*
+=============================
+Transformer array for App
+=============================
+
+App trenger en versjon av pagesInfo hvor alle sidene (objektene) ligger på samme nivå i en array.
+Da kan den bare loope gjennom alle og rendre <Route> for hver av dem.
+
+Ta sub-pages elementene, og bring dem opp et hakk
+
+Eksempel: Det skal gå fra sånn
+
+pagesInfo =
+[
+  {
+    id: 1,
+    path: "/",
+    title: "Hjem",
+  },
+  {
+    id: 2,
+    path: "/webwork",
+    title: "Nettsider",
+    subpages: [
+      {
+        id: 3,
+        path: "/webwork/rankingapp",
+        title: "Ranking app",
+      },
+      {
+        id: 4,
+        path: "/webwork/videoopplasting",
+        title: "Videoopplastingsapper",
+      }
+      ...
+    ],
+  },
+  ...
+];
+
+til sånn:
+
+flatPagesInfo =
+[
+  {
+    id: 1,
+    path: "/",
+    title: "Hjem",
+  },
+  {
+    id: 2,
+    path: "/webwork",
+    title: "Nettsider",
+    subpages: [...],
+  },
+  {
+    id: 3,
+    path: "/webwork/rankingapp",
+    title: "Ranking app",
+  },
+  {
+    id: 4,
+    path: "/webwork/videoopplasting",
+    title: "Videoopplastingsapper",
+  }
+  ...
+];
+*/
+
+// pakk ut subPages der det finnes
+let subpages = pagesInfo.flatMap((page) => {
+  return page.subpages ? page.subpages : "no subpages";
+});
+// fjern pages som ikke hadde noen subpages, nå står vi igjen med kun subpages
+subpages = subpages.filter((e) => e !== "no subpages");
+
+export const flatPagesInfo = [...pagesInfo, ...subpages];
+
+/*
+=============================
+Hent pages for Home
+=============================
+
+Home trenger pages for å generere <SquareLink>-er
+*/
+
+export const webworkInfo = pagesInfo.find(
+  (element) => element.path === "/webwork"
+).subpages;
+export const graphicworkInfo = pagesInfo.find(
+  (element) => element.path === "/graphicwork"
+).subpages;
+export const galleryInfo = pagesInfo.find(
+  (element) => element.path === "/gallery"
+);
 
 export default pagesInfo;

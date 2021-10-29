@@ -21,7 +21,7 @@ function JRNM() {
       <p>
         I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette
         var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg
-        være med på å designe logo for <b>Junior NM på Ski 2015</b>. Det var
+        være med på å designe logo for Junior NM på Ski 2015. Det var
         kjempekult!
       </p>
       <p>
@@ -53,8 +53,8 @@ function JRNM() {
         />
         <Figure
           imgSrc={JRNMImg3}
-          imgAlt="Logo for Junior NM på ski 2015"
-          caption="Brukssted"
+          imgAlt="plakat med logo"
+          caption="Plakat"
         />
       </div>
     </>

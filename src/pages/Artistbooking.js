@@ -1,5 +1,7 @@
 import mobileImg1 from "../images/artistbooking/Android-Mobile–1.png";
-import mobileImg6 from "../images/artistbooking/Android-Mobile–6.png";
+import mobileImg2 from "../images/artistbooking/Android-Mobile–2.png";
+import mobileImg3 from "../images/artistbooking/Android-Mobile–3.png";
+import mobileImg4 from "../images/artistbooking/Android-Mobile–4.png";
 import destopImg from "../images/artistbooking/Web-1280–4.png";
 // import screenshotImg from "../images/artistbooking/Screenshot_20191126-120019.png";
 
@@ -26,16 +28,31 @@ function Artistbooking() {
         forholdte meg til å lage mobil- og desktop-visning av alle sidene
       </p>
       <h2>Noen utvalgte bilder</h2>
-      <div uk-grid uk-lightbox="animation: slide">
+      <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
         <Figure
           imgSrc={mobileImg1}
-          imgAlt="Artist booking app grensesnitt"
-          caption="Artist booking app grensesnitt"
+          imgAlt="Startside"
+          caption="Startside"
+        />
+        <Figure
+          imgSrc={mobileImg2}
+          imgAlt="Søkefelt"
+          caption="Søkefelt"
+        />
+        <Figure
+          imgSrc={mobileImg3}
+          imgAlt="Søkeresultater"
+          caption="Søkeresultater"
+        />
+        <Figure
+          imgSrc={mobileImg4}
+          imgAlt="Artistprofil"
+          caption="Artistprofil"
         />
         <Figure
           imgSrc={destopImg}
-          imgAlt="Prototype i nettleser"
-          caption="Prototype i nettleser"
+          imgAlt="En desktopside"
+          caption="En desktopside"
         />
       </div>
     </>

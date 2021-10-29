@@ -167,6 +167,9 @@
   .flex {
     display: flex;
   }
+  .wrap {
+    flex-wrap: wrap;
+  }
   .squarelinks-flex {
     display: flex;
     flex-wrap: wrap;

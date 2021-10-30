@@ -258,9 +258,9 @@
     overflow: hidden;
   }
   header img {
-    height: 170%;
+    height: 135%;
     object-fit: cover;
-    transform: translateX(-10px) translateY(-43px);
+    transform: translateX(0px) translateY(-35px);
   }
   .index-header-flex {
     display: flex;

@@ -1,7 +1,7 @@
 import { lazy } from "react";
 
 // images
-import photo from "./images/cvphoto1.jpg";
+import photo from "./images/cvphoto2.jpg";
 import macleanImg from "./images/maclean/alistairmaclean.png";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";

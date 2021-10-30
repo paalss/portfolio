@@ -22,10 +22,10 @@ function Artistbooking() {
       </h2>
       <p>
         I faget grafiske verktøy, prinsipper og metoder skulle vi lage en
-        klikkbar hi-fi prototype for en app. Appen skulle løse noe
+        klikkbar hi-fi prototype for en app. Appen skulle være
         musikkrelatert, så det endte opp med å bli en app for privatpersoner og
         musikkartister som kunne avtale spillejobber med hverandre. Jeg
-        forholdte meg til å lage mobil- og desktop-visning av alle sidene
+        forholdte meg til å lage mobil- og desktop-visning av alle sidene.
       </p>
       <h2>Noen utvalgte bilder</h2>
       <div uk-grid uk-lightbox="animation: slide" className="flex wrap">

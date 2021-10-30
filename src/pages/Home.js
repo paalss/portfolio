@@ -1,14 +1,8 @@
-import pagesInfo from "../pagesInfo";
+import { galleryInfo, graphicworkInfo, webworkInfo } from "../pagesInfo";
 
 // components
 import Barchart from "../components/common/Barchart";
 import SquareLink from "../components/common/SquareLink";
-
-// info for å bygge <SquareLink>-er
-const webworkInfo = pagesInfo.find(
-  (element) => element.path === "/webwork"
-).subpages;
-const galleryInfo = pagesInfo.find((element) => element.path === "/gallery");
 
 function Home() {
   return (
@@ -47,17 +41,19 @@ function Home() {
         Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som
         jeg har skrevet litt om.
       </p>
-      <WebWorkLinks />
+      <WebworkLinks />
+      <h2>Grafisk</h2>
+      <GraphicworkLinks/>
       <h2>Annet</h2>
       <OtherLinks />
     </>
   );
 }
 
-export function WebWorkLinks() {
+export function WebworkLinks() {
   return (
     <>
-      <div className="webworklinks-flex">
+      <div className="squarelinks-flex">
         {webworkInfo.map((page) => {
           return (
             <SquareLink
@@ -86,9 +82,32 @@ export function WebWorkLinks() {
   );
 }
 
+export function GraphicworkLinks() {
+  return (
+    <>
+      <div className="squarelinks-flex">
+        {graphicworkInfo.map((page) => {
+          return (
+            <SquareLink
+              key={page.id}
+              link={page.path}
+              imgSrc={page.imgSrc}
+              imgAlt={page.imgAlt}
+              title={page.title}
+              tools={page.tools}
+              thereAreMoreTools={page.thereAreMoreTools}
+            />
+          );
+        })}
+        <SquareLink desktopEmptySpace/>
+      </div>
+    </>
+  );
+}
+
 export function OtherLinks() {
   return (
-    <div className="webworklinks-flex">
+    <div className="squarelinks-flex">
       <SquareLink
         link={galleryInfo.path}
         imgSrc={galleryInfo.imgSrc}

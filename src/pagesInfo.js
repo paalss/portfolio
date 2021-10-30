@@ -5,14 +5,19 @@ import photo from "./images/cvphoto1.jpg";
 import macleanImg from "./images/maclean/alistairmaclean.png";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
+import artistbookingImg from "./images/artistbooking/Android-Mobile–6.png";
+import jrNmImg from "./images/jr-nm-ski/IMG_2413.JPG";
 import galleryImg from "./images/gallery/gallery1.png";
 
 // pages. Lazy load for å forminske loade-tiden når du først besøker nettsiden. Spar loading til du besøker dem.
 const Home = lazy(() => import("./pages/Home"));
 const Webwork = lazy(() => import("./pages/Webwork"));
+const Graphicwork = lazy(() => import("./pages/Graphicwork"));
 const Rankingapp = lazy(() => import("./pages/Rankingapp"));
 const Videoopplasting = lazy(() => import("./pages/Videoopplasting"));
 const Maclean = lazy(() => import("./pages/Maclean"));
+const Artistbooking = lazy(() => import("./pages/Artistbooking"));
+const JRNM = lazy(() => import("./pages/JRNM"));
 const Gallery = lazy(() => import("./pages/Gallery"));
 
 const pagesInfo = [
@@ -56,8 +61,8 @@ const pagesInfo = [
       {
         id: 4,
         path: "/webwork/videoopplasting",
-        title: <>Videoopplastings&shy;apper</>,
-        heading: <h1>Videoopplastings&shy;apper</h1>,
+        title: <>Video&shy;opplastings&shy;apper</>,
+        heading: <h1>Video&shy;opplastings&shy;apper</h1>,
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
         imgAlt: "Videoopplasting app",
@@ -77,6 +82,34 @@ const pagesInfo = [
   },
   {
     id: 6,
+    path: "/graphicwork",
+    exact: true,
+    exactActiveClassName: false,
+    title: "Grafisk",
+    page: <Graphicwork />,
+    subpages: [
+      {
+        id: 7,
+        path: "/graphicwork/artistbooking",
+        title: "Artist booking app",
+        page: <Artistbooking />,
+        imgSrc: artistbookingImg,
+        imgAlt: "Artist booking app",
+        tools: ["Adobe XD"],
+      },
+      {
+        id: 8,
+        path: "/graphicwork/jrnm",
+        title: "Jr NM ski 2015 logo",
+        page: <JRNM />,
+        imgSrc: jrNmImg,
+        imgAlt: "Jr NM på ski logo",
+        tools: ["Photoshop"],
+      },
+    ],
+  },
+  {
+    id: 9,
     path: "/gallery",
     title: "Kunst",
     page: <Gallery />,
@@ -84,5 +117,101 @@ const pagesInfo = [
     imgAlt: "gallery",
   },
 ];
+
+/*
+=============================
+Transformer array for App
+=============================
+
+App trenger en versjon av pagesInfo hvor alle sidene (objektene) ligger på samme nivå i en array.
+Da kan den bare loope gjennom alle og rendre <Route> for hver av dem.
+
+Ta sub-pages elementene, og bring dem opp et hakk
+
+Eksempel: Det skal gå fra sånn
+
+pagesInfo =
+[
+  {
+    id: 1,
+    path: "/",
+    title: "Hjem",
+  },
+  {
+    id: 2,
+    path: "/webwork",
+    title: "Nettsider",
+    subpages: [
+      {
+        id: 3,
+        path: "/webwork/rankingapp",
+        title: "Ranking app",
+      },
+      {
+        id: 4,
+        path: "/webwork/videoopplasting",
+        title: "Videoopplastingsapper",
+      }
+      ...
+    ],
+  },
+  ...
+];
+
+til sånn:
+
+flatPagesInfo =
+[
+  {
+    id: 1,
+    path: "/",
+    title: "Hjem",
+  },
+  {
+    id: 2,
+    path: "/webwork",
+    title: "Nettsider",
+    subpages: [...],
+  },
+  {
+    id: 3,
+    path: "/webwork/rankingapp",
+    title: "Ranking app",
+  },
+  {
+    id: 4,
+    path: "/webwork/videoopplasting",
+    title: "Videoopplastingsapper",
+  }
+  ...
+];
+*/
+
+// pakk ut subPages der det finnes
+let subpages = pagesInfo.flatMap((page) => {
+  return page.subpages ? page.subpages : "no subpages";
+});
+// fjern pages som ikke hadde noen subpages, nå står vi igjen med kun subpages
+subpages = subpages.filter((e) => e !== "no subpages");
+
+export const flatPagesInfo = [...pagesInfo, ...subpages];
+
+/*
+=============================
+Hent pages for Home
+=============================
+
+Home trenger pages for å generere <SquareLink>-er
+*/
+
+export const webworkInfo = pagesInfo.find(
+  (element) => element.path === "/webwork"
+).subpages;
+export const graphicworkInfo = pagesInfo.find(
+  (element) => element.path === "/graphicwork"
+).subpages;
+export const galleryInfo = pagesInfo.find(
+  (element) => element.path === "/gallery"
+);
 
 export default pagesInfo;

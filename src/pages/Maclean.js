@@ -25,7 +25,7 @@ function Maclean() {
         <span className="subtitle">
           <ul className="tools">
             Verktøy: <br />
-            <li>HTML</li> <li>CSS</li>
+            <li>HTML</li> <li>CSS</li> <li>Photoshop</li> <li>Illustrator</li>
           </ul>
         </span>
       </h2>
@@ -36,20 +36,12 @@ function Maclean() {
         skrev nesten utelukkende bøker med action og spenning, og det syntes jeg
         ikke nettsiden reflekterte noe av.
       </p>
-      <p>
-        Nå er jo det denne nettsiden egentlig bare en blogg, og ikke en
-        «offisiell» nettside, som jeg har vurdert den etter. Så man kan jo
-        spørre seg om det var riktig av meg å være såpass kritisk og mene at
-        nettsiden skal representere forfatteren. Jeg mener å huske at nettsiden
-        brukte å kalle seg selv for den offisielle nettsiden til MacLean, men
-        det er mulig jeg husker feil.
-      </p>
 
       <h3>Verktøy</h3>
       <p>
         Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript. Logoen lagde
         jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av
-        eget modellfly på noen T-skjorter.
+        eget modellfly oppå noen T-skjorter.
       </p>
     </>
   );

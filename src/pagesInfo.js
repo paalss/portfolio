@@ -76,7 +76,8 @@ const pagesInfo = [
         page: <Maclean />,
         imgSrc: macleanImg,
         imgAlt: "MacLean page",
-        tools: ["HTML", "CSS"],
+        tools: ["HTML", "CSS", "Photoshop"],
+        thereAreMoreTools: true
       },
     ],
   },

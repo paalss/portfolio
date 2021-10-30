@@ -17,6 +17,16 @@ function Footer() {
               <span className={classes.text}>Github (paalss)</span>
             </a>
           </li>
+          {/* <li>
+            <a
+              href="https://m.me/pal.stakvik"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className={classes.icon + " fab fa-facebook-messenger"}></span>
+              <span className={classes.text}>Messenger</span>
+            </a>
+          </li> */}
           <li>
             <a
               href="https://www.linkedin.com/in/pal-stakvik/"

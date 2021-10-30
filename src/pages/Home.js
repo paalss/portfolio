@@ -42,9 +42,9 @@ function Home() {
         jeg har skrevet litt om.
       </p>
       <WebworkLinks />
-      <h2>Grafisk</h2>
-      <GraphicworkLinks/>
-      <h2>Annet</h2>
+      <h2 className="mb-50">Grafisk</h2>
+      <GraphicworkLinks />
+      <h2 className="mb-50">Annet</h2>
       <OtherLinks />
     </>
   );

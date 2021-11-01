@@ -27,7 +27,7 @@ function JRNM() {
       <p>
         Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i
         den ferdige logoen, med norskeflagg og alt. Jeg hadde også en grå tekst
-        under hvor det sto «Jr NM på ski 2015» eller noe sånt.
+        under hvor det sto «Jr NM på ski 2015».
       </p>
       <p>
         Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at

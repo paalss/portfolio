@@ -26,18 +26,16 @@ function JRNM() {
       </p>
       <p>
         Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i
-        den ferdige logoen, pluss en grå tekst under hvor det sto «Jr NM på ski
-        2015».
+        den ferdige logoen, med norskeflagg og alt. Jeg hadde også en grå tekst
+        under hvor det sto «Jr NM på ski 2015» eller noe sånt.
       </p>
       <p>
-        Jeg brukte Photoshop fordi jeg ikke kunne Illustrator eller visste
-        hvorfor det var et ideelt verktøy på den tiden. Det har ergret meg i
-        ettertid: når man bytter farge med fill-bucket på pikselgrafikk, vil
-        ikke alle piksler følge med alltid, så man ender opp noen ganger med
-        pikselrester fra andre fargeversjoner. <br />
-        Jeg lagde en profilmanual til logoen som viste forskjellige versjoner og
-        bakgrunner logoen kunne være på, og man kan tydelig se at man kan se
-        rester etter tidligere farger.
+        Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at
+        jeg heller burde ha brukt et vektorprogram som Illustrator, men dette
+        visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle
+        piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg
+        prøvde ut logoen i masse forskjellige farger, og man kunne se
+        restepiksler fra tidligere fargefyll.
       </p>
       <p>
         I den ferdige logoen som ble brukt i arrangementet hadde den grå teksten
@@ -51,11 +49,7 @@ function JRNM() {
           imgAlt="Logo for Junior NM på ski 2015"
           caption="Logo som ble brukt. Den er bearbeidet etter jeg leverte den i 2013"
         />
-        <Figure
-          imgSrc={JRNMImg3}
-          imgAlt="plakat med logo"
-          caption="Plakat"
-        />
+        <Figure imgSrc={JRNMImg3} imgAlt="plakat med logo" caption="Plakat" />
       </div>
     </>
   );

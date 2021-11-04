@@ -11,6 +11,7 @@ import photo from "./images/cvphoto2.jpg";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
 import macleanImg from "./images/maclean/alistairmaclean.png";
+import portfoliosImg from "./images/portfolios/pf4.png";
 // graphicwork
 import artistbookingImg from "./images/artistbooking/Android-Mobile–6.png";
 import jrNmImg from "./images/jr-nm-ski/IMG_2413.JPG";
@@ -30,6 +31,7 @@ const Webwork = lazy(() => import("./pages/Webwork"));
 const Rankingapp = lazy(() => import("./pages/Rankingapp"));
 const Videoopplasting = lazy(() => import("./pages/Videoopplasting"));
 const Maclean = lazy(() => import("./pages/Maclean"));
+const Portfolios = lazy(()=> import("./pages/Portfolios"))
 // graphicwork
 const Graphicwork = lazy(() => import("./pages/Graphicwork"));
 const Artistbooking = lazy(() => import("./pages/Artistbooking"));
@@ -105,10 +107,20 @@ const pagesInfo = [
         tools: ["HTML", "CSS", "Photoshop"],
         thereAreMoreTools: true,
       },
+      {
+        id: 7,
+        path: "/webwork/portfolios",
+        title: "Tidligere porteføljer",
+        page: <Portfolios />,
+        imgSrc: portfoliosImg,
+        imgAlt: "porteføljer side",
+        tools: ["PHP", "HTML", "CSS"],
+        thereAreMoreTools: true,
+      },
     ],
   },
   {
-    id: 7,
+    id: 8,
     path: "/graphicwork",
     exact: true,
     exactActiveClassName: false,
@@ -116,7 +128,7 @@ const pagesInfo = [
     page: <Graphicwork />,
     subpages: [
       {
-        id: 8,
+        id: 9,
         path: "/graphicwork/artistbooking",
         title: "Artist booking app",
         page: <Artistbooking />,
@@ -125,7 +137,7 @@ const pagesInfo = [
         tools: ["Adobe XD"],
       },
       {
-        id: 9,
+        id: 10,
         path: "/graphicwork/jrnm",
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,
@@ -136,7 +148,7 @@ const pagesInfo = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     path: "/gallery",
     title: "Kunst",
     page: <Gallery />,

@@ -100,6 +100,7 @@ export function GraphicworkLinks() {
           );
         })}
         <SquareLink desktopEmptySpace />
+        <SquareLink desktopEmptySpace />
       </div>
     </>
   );

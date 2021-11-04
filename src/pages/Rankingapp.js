@@ -8,6 +8,9 @@ function Rankingapp() {
   return (
     <>
       <img src={rankingappGif} alt="ranking app interface" />
+      <span className="link">
+        <i class="fas fa-circle-notch"></i> Ikke tilgjengelig live
+      </span>
       <a
         className="link"
         href="https://github.com/paalss/Ranking-app"

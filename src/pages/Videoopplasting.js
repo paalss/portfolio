@@ -24,17 +24,29 @@ function Videoopplasting() {
         kravspesifikasjonen.
       </p>
 
-      <h3>
-        Første prosjekt
-        <span className="subtitle">
-          <ul className="tools">
-            Verktøy: <br />
-            <li>Templating engine (Twig)</li> <li>PHP</li> <li>MySQL</li>{" "}
-            <li>Relasjonsdatabase</li> <li>HTML</li> <li>Docker</li>{" "}
-          </ul>
-        </span>
-      </h3>
-      
+      <h2>Første prosjekt</h2>
+      <div uk-grid uk-lightbox="animation: slide">
+        <Figure
+          imgSrc={videoOgTranskriptImg}
+          imgAlt="videosiden i første prosjekt"
+          caption="Videoside i første prosjekt"
+          group="videoopplasting1"
+        />
+      </div>
+      <span className="link">
+        <i class="fas fa-circle-notch"></i> Ikke tilgjengelig live
+      </span>
+      <span className="link">
+        <i class="fab fa-github"></i> Ikke tilgjengelig kildekode
+      </span>
+      <span className="subtitle">
+        <ul className="tools">
+          Verktøy: <br />
+          <li>Templating engine (Twig)</li> <li>PHP</li> <li>MySQL</li>{" "}
+          <li>Relasjonsdatabase</li> <li>HTML</li> <li>Docker</li>{" "}
+        </ul>
+      </span>
+
       <div>
         <p>
           Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med
@@ -49,25 +61,38 @@ function Videoopplasting() {
         </p>
       </div>
 
+      <h2>Andre prosjekt</h2>
       <div uk-grid uk-lightbox="animation: slide">
         <Figure
-          imgSrc={videoOgTranskriptImg}
-          imgAlt="videosiden i første prosjekt"
-          caption="Videoside i første prosjekt"
-          group="videoopplasting1"
+          imgSrc={videosideImg}
+          imgAlt="videosiden i andre prosjekt"
+          caption="Videoside i andre prosjekt"
+        />
+        <Figure
+          imgSrc={videolisteImg}
+          imgAlt="videolistesiden"
+          caption="Videooversikt"
+        />
+        <Figure
+          imgSrc={videoopplastingImg}
+          imgAlt="videoopplastingssiden"
+          caption="«Last opp video»-siden"
         />
       </div>
-      <h3>
-        Andre prosjekt
-        <span className="subtitle">
-          <ul className="tools">
-            Verktøy: <br />
-            <li>JavaScript</li> <li>LitElement</li> <li>PHP</li> <li>MySQL</li>{" "}
-            <li>Relasjonsdatabase</li> <li>HTML</li> <li>CSS</li>{" "}
-            <li>Docker</li>{" "}
-          </ul>
-        </span>
-      </h3>
+      <span className="link">
+        <i class="fas fa-circle-notch"></i> Ikke tilgjengelig live
+      </span>
+      <span className="link">
+        <i class="fab fa-github"></i> Ikke tilgjengelig kildekode
+      </span>
+      <span className="subtitle">
+        <ul className="tools">
+          Verktøy: <br />
+          <li>JavaScript</li> <li>LitElement</li> <li>PHP</li> <li>MySQL</li>{" "}
+          <li>Relasjonsdatabase</li> <li>HTML</li> <li>CSS</li> <li>Docker</li>{" "}
+        </ul>
+      </span>
+
       <div>
         <p>
           Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det
@@ -108,24 +133,6 @@ function Videoopplasting() {
           Appen ble lagd med bruk av LitElement-baserte komponenter som vi for
           det meste lagde selv.
         </p>
-
-        <div uk-grid uk-lightbox="animation: slide">
-          <Figure
-            imgSrc={videosideImg}
-            imgAlt="videosiden i andre prosjekt"
-            caption="Videoside i andre prosjekt"
-          />
-          <Figure
-            imgSrc={videolisteImg}
-            imgAlt="videolistesiden"
-            caption="Videooversikt"
-          />
-          <Figure
-            imgSrc={videoopplastingImg}
-            imgAlt="videoopplastingssiden"
-            caption="«Last opp video»-siden"
-          />
-        </div>
       </div>
     </>
   );

@@ -37,7 +37,7 @@ function Videoopplasting() {
         <i class="fas fa-circle-notch"></i> Ikke tilgjengelig live
       </span>
       <span className="link">
-        <i class="fab fa-github"></i> Ikke tilgjengelig kildekode
+        <i class="fab fa-github"></i> Privat kildekode
       </span>
       <span className="subtitle">
         <ul className="tools">
@@ -83,7 +83,7 @@ function Videoopplasting() {
         <i class="fas fa-circle-notch"></i> Ikke tilgjengelig live
       </span>
       <span className="link">
-        <i class="fab fa-github"></i> Ikke tilgjengelig kildekode
+        <i class="fab fa-github"></i> Privat kildekode
       </span>
       <span className="subtitle">
         <ul className="tools">

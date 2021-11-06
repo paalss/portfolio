@@ -5,6 +5,17 @@ function Dokker() {
   return (
     <>
       <img src={dokkerlogo} alt="Dokker logo" />
+      <a
+        className="link"
+        href="https://www.dokker.com/nb/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fas fa-circle-notch"></i> Besøk siden
+      </a>
+      <span className="link">
+        <i class="fab fa-github"></i> Privat kildekode
+      </span>
       <h2>
         Praksisprosjekt hos Learning Moment, april–september 2021
         <span className="subtitle">
@@ -24,18 +35,32 @@ function Dokker() {
       <h3>Mitt bidrag</h3>
       <p>
         Her bidro jeg med nye komponenter, refaktorering og vurdering av andres
-        pull requests.
+        pull requests. Jeg fikset også noen bugs. Jeg (forsøkte) også å lage noen automatiske tester.
+      </p>
+      <h4>Egne komponenter</h4>
+      <ul>
+        <li>FollowUpCard</li>
+        <li>NewsCard</li>
+        <li>NoElementsFound</li>
+      </ul>
+      <h4>Fikset bugs</h4>
+      <h4>Auto-tester med Jest</h4>
+      <p>
+        Dette ble litt mislykket, siden jeg kom bare så langt som å lage tester
+        for om enkelte elementer fantes på siden. Og da vi oppdaterte
+        dependencies i prosjektet, så sluttet selv disse testene å funke. Jeg
+        kom fram til at man burde mocke resultatet av en hook, men der kom jeg
+        ikke lenger.
       </p>
 
       <h3>Om Dokker</h3>
       <p>
         Dokker er et samhandlingsverktøy for brukere innenfor skole,
         tiltaksarbeid, integrering og bedrifter generelt. Den har funksjonalitet
-        som man også ser igjen i verktøy som Blackboard, ItsLearning og
-        lignende: Lærere kan legge ut oppgaver, elever kan levere inn arbeidet
-        sitt. I tillegg kan Dokker ta vare på vitnemål og sertifisering. Ellers
-        legges det vekt på at brukerne ikke skal miste tilgangen til egen
-        dokumentasjon, selv om de slutter på skolen der de fikk den.
+        som man også ser igjen i verktøy ItsLearning og lignende: Lærere kan
+        legge ut oppgaver, elever kan levere inn arbeidet sitt. I tillegg kan
+        Dokker ta vare på vitnemål og sertifisering. Ellers skal brukerne beholde tilgangen til egen dokumentasjon, selv om
+        de ikke lenger går på stedet de fikk den.
       </p>
       <b>Mer info:</b>
       <ul>

@@ -14,7 +14,7 @@ function Portfolios() {
         <h2>
           Porteføljen i dag
           <span className="subtitle">
-            Portefølje med web-fokus, fritidsprosjekt startet desember 2020
+            Portefølje med web-fokus, fritidsprosjekt som startet desember 2020
           </span>
         </h2>
 
@@ -22,7 +22,7 @@ function Portfolios() {
           <Figure imgSrc={pf5} imgAlt="portefølje 5" caption="portefølje 5" />
         </div>
         <span className="link">
-          <i class="fas fa-circle-notch"></i> Du er allerede på siden
+          <i class="fas fa-circle-notch"></i> Du er på siden
         </span>
         <a
           className="link"
@@ -39,7 +39,8 @@ function Portfolios() {
           </ul>
         </span>
         <p>
-          Min første portefølje som fokuserer på hva jeg kan innen webutvikling.
+          Min første portefølje som fokuserer på hva jeg kan innen webutvikling,
+          og som jeg er helt fullstendig fornøyd med.
         </p>
       </>
 
@@ -70,14 +71,21 @@ function Portfolios() {
           </ul>
         </span>
         <p>
-          Denne lagde jeg i PHP for å la alle sidene referere til samme header
-          og footer filer. Det var ideelt for meg da, siden det var det jeg best
-          kunne, og på denne tiden hadde jeg tilgang på en folk.ntnu.no server
-          som støttet PHP. <br />
+          Så langt var den porteføljen jeg hadde lagd som var best designmessig,
+          veldig mangelfull for informasjon. I denne porteføljen forsøkte jeg å
+          dekke så mye som mulig av det jeg hadde gjort. Så jeg følte jeg måtte
+          lage en ny, med tanke på at jeg såvidt begynte med jobb- og
+          praksissøking i 2019.
+        </p>
+        <p>
+          Denne lagde jeg i PHP, mest for å løse for å fikse
+          «samme-header-og-footer-på-alle-sidene». Jeg var mest stø på PHP på
+          denne tiden, og jeg hadde tilgang på en folk.ntnu.no server som
+          støttet PHP, så jeg kunne dele den live.
+        </p>
+        <p>
           Jeg fant det temmelig demotiverende å jobbe med den, siden jeg ikke
           var helt fornøyd med designet, men ikke visste hva jeg skulle fikse.
-          Jeg trengte litt inspirasjon fra andre sider for å lage en ny
-          portefølje.
         </p>
       </>
 
@@ -89,11 +97,7 @@ function Portfolios() {
           </span>
         </h2>
         <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
-          <Figure
-            imgSrc={pf3}
-            imgAlt="portefølje 3"
-            caption="Ganske fornøyd med designet!"
-          />
+          <Figure imgSrc={pf3} imgAlt="portefølje 3" caption="portefølje 3" />
         </div>
         <a
           className="link"
@@ -114,8 +118,7 @@ function Portfolios() {
         <span className="subtitle">
           <ul className="tools">
             Verktøy: <br />
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML</li> <li>CSS</li>
           </ul>
         </span>
       </>
@@ -152,8 +155,7 @@ function Portfolios() {
           <ul className="tools">
             Verktøy:
             <br />
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML</li> <li>CSS</li>
           </ul>
         </span>
         <p>
@@ -194,8 +196,7 @@ function Portfolios() {
           <ul className="tools">
             Verktøy:
             <br />
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML</li> <li>CSS</li>
           </ul>
         </span>
         <p>
@@ -226,8 +227,7 @@ function Portfolios() {
           <ul className="tools">
             Verktøy:
             <br />
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML</li> <li>CSS</li>
           </ul>
         </span>
       </>

@@ -11,7 +11,7 @@ import photo from "./images/cvphoto2.jpg";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
 import macleanImg from "./images/maclean/alistairmaclean.png";
-import portfoliosImg from "./images/portfolios/pf4.png";
+import portfoliosImg from "./images/portfolios/pf5.png";
 // graphicwork
 import artistbookingImg from "./images/artistbooking/Android-Mobile–6.png";
 import jrNmImg from "./images/jr-nm-ski/IMG_2413.JPG";
@@ -110,11 +110,11 @@ const pagesInfo = [
       {
         id: 7,
         path: "/webwork/portfolios",
-        title: "Tidligere porteføljer",
+        title: "Porteføljer samling",
         page: <Portfolios />,
         imgSrc: portfoliosImg,
         imgAlt: "porteføljer side",
-        tools: ["PHP", "HTML", "CSS"],
+        tools: ["React", "HTML", "CSS"],
         thereAreMoreTools: true,
       },
     ],

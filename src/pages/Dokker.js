@@ -29,9 +29,14 @@ function Dokker() {
       </h2>
       <p>
         Under denne fem-måneders praksisen bidro jeg i utviklingen av
-        web-applikasjonen Dokker. Jeg tok også et nettkurs i React for å få den
-        nødvendige kompetansen jeg trengte.
+        web-applikasjonen Dokker og tok et React kurs. Jeg fikk bidratt med nye
+        komponenter, refaktorering, vurdering av andres kode og litt bug-fixing.
       </p>
+      {/* <p>
+        De fire første månedene av praksisen tok jeg et nettkurs i React for å
+        få den nødvendige kompetansen jeg trengte. Mot slutten av juni begynte
+        jeg å bidra på Dokker-koden.
+      </p> */}
       <h3>Litt om Dokker</h3>
       <p>
         Fra <a href="https://www.dokker.com/nb/blog">bloggen deres</a> :
@@ -55,11 +60,6 @@ function Dokker() {
           <a href="https://www.dokker.com/nb">dokker.com</a>
         </li>
       </ul>
-      <h3>Mitt bidrag</h3>
-      <p>
-        Jeg bidro med: med nye komponenter, refaktorering og vurdering av
-        pull requests. Jeg fikset også noen bugs.
-      </p>
     </>
   );
 }

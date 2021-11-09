@@ -7,7 +7,7 @@ import { lazy } from "react";
 // home
 import photo from "./images/cvphoto2.jpg";
 // webwork
-// import dokkerImg from "./images/dokker/dokkericon.png";
+import dokkerImg from "./images/dokker/dokkericon.png";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
 import macleanImg from "./images/maclean/alistairmaclean.png";
@@ -27,7 +27,7 @@ import galleryImg from "./images/gallery/gallery1.png";
 const Home = lazy(() => import("./pages/Home"));
 // webwork
 const Webwork = lazy(() => import("./pages/Webwork"));
-// const Dokker = lazy(() => import("./pages/Dokker"));
+const Dokker = lazy(() => import("./pages/Dokker"));
 const Rankingapp = lazy(() => import("./pages/Rankingapp"));
 const Videoopplasting = lazy(() => import("./pages/Videoopplasting"));
 const Maclean = lazy(() => import("./pages/Maclean"));
@@ -67,15 +67,15 @@ const pagesInfo = [
     title: "Nettsider",
     page: <Webwork />,
     subpages: [
-      // {
-      //   id: 3,
-      //   path: "/webwork/dokker",
-      //   title: "Dokker",
-      //   page: <Dokker />,
-      //   imgSrc: dokkerImg,
-      //   imgAlt: "Dokker logo",
-      //   tools: ["React", "TypeScript", "HTML", "CSS"],
-      // },
+      {
+        id: 3,
+        path: "/webwork/dokker",
+        title: "Dokker",
+        page: <Dokker />,
+        imgSrc: dokkerImg,
+        imgAlt: "Dokker logo",
+        tools: ["React", "TypeScript", "HTML", "CSS"],
+      },
       {
         id: 4,
         path: "/webwork/rankingapp",

@@ -238,6 +238,9 @@
     justify-content: center;
     align-items: center;
   }
+  blockquote {
+    background-color: #eee;
+  }
   /* ––––––––––––––––––––– Footer  ––––––––––––––––––––– */
   /* Se CSS module */
 }
@@ -289,7 +292,7 @@
     justify-content: flex-start;
   }
   main .container p,
-  main .container .normal-list li {
+  main .container .normal-list li, blockquote {
     width: 630px;
   }
 }

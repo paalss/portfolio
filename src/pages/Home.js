@@ -67,7 +67,7 @@ export function WebworkLinks() {
             />
           );
         })}
-        {/* <SquareLink desktopEmptySpace /> */}
+        <SquareLink desktopEmptySpace />
       </div>
       <div className="mt-50">
         <a

@@ -1,10 +1,11 @@
-import dokkerlogo from "../images/dokker/dokkerlogo.png";
+// import dokkerlogo from "../images/dokker/dokkerlogo.png";
+import dokkerInterface from "../images/dokker/dashboard/latest-document-assignment.png";
 // import Figure from "../components/common/Figure";
 
 function Dokker() {
   return (
     <>
-      <img src={dokkerlogo} alt="Dokker logo" />
+      <img src={dokkerInterface} alt="Dokker logo" />
       <a
         className="link"
         href="https://www.dokker.com/nb/"
@@ -17,7 +18,7 @@ function Dokker() {
         <i class="fab fa-github"></i> Privat kildekode
       </span>
       <h2>
-        Praksisprosjekt hos Learning Moment, april–september 2021
+        Praksisprosjekt hos Learning Moment Technologies, april–september 2021
         <span className="subtitle">
           <ul className="tools">
             Verktøy:
@@ -31,48 +32,34 @@ function Dokker() {
         web-applikasjonen Dokker. Jeg tok også et nettkurs i React for å få den
         nødvendige kompetansen jeg trengte.
       </p>
-
-      <h3>Mitt bidrag</h3>
+      <h3>Litt om Dokker</h3>
       <p>
-        Her bidro jeg med nye komponenter, refaktorering og vurdering av andres
-        pull requests. Jeg fikset også noen bugs. Jeg (forsøkte) også å lage noen automatiske tester.
+        Fra <a href="https://www.dokker.com/nb/blog">bloggen deres</a> :
       </p>
-      <h4>Egne komponenter</h4>
-      <ul>
-        <li>FollowUpCard</li>
-        <li>NewsCard</li>
-        <li>NoElementsFound</li>
-      </ul>
-      <h4>Fikset bugs</h4>
-      <h4>Auto-tester med Jest</h4>
-      <p>
-        Dette ble litt mislykket, siden jeg kom bare så langt som å lage tester
-        for om enkelte elementer fantes på siden. Og da vi oppdaterte
-        dependencies i prosjektet, så sluttet selv disse testene å funke. Jeg
-        kom fram til at man burde mocke resultatet av en hook, men der kom jeg
-        ikke lenger.
-      </p>
-
-      <h3>Om Dokker</h3>
-      <p>
-        Dokker er et samhandlingsverktøy for brukere innenfor skole,
-        tiltaksarbeid, integrering og bedrifter generelt. Den har funksjonalitet
-        som man også ser igjen i verktøy ItsLearning og lignende: Lærere kan
-        legge ut oppgaver, elever kan levere inn arbeidet sitt. I tillegg kan
-        Dokker ta vare på vitnemål og sertifisering. Ellers skal brukerne beholde tilgangen til egen dokumentasjon, selv om
-        de ikke lenger går på stedet de fikk den.
-      </p>
+      <blockquote cite="https://www.dokker.com/nb/blog/villiam-ovesen-ny-salgssjef-i-learning-moment">
+        Dokker er et samhandlingsverktøy med over 10 000 brukere innenfor skole,
+        tiltaksarbeid, integrering og bedrifter generelt. <br /> [...] <br />{" "}
+        Med Dokker tar man brukermedvirkning til et nytt nivå, og gir alle
+        parter i tiltaksarbeid en plattform for samhandling, utvikling og
+        dokumentasjon.
+      </blockquote>
+      {/* <p>
+        Den har mye av funksjonaliteten som man finner i systemer som
+        ItsLearning og vitnemålsportalen: lage oppgaver og levere inn
+        besvarelser og laste opp sertifiseringer. I tillegg beholder brukerne
+        tilgangen på dokumentasjonen på egen kunnskap livet ut.
+      </p> */}
       <b>Mer info:</b>
       <ul>
         <li>
-          <a href="https://www.dokker.com/nb">https://www.dokker.com/nb</a>
-        </li>
-        <li>
-          <a href="https://www.dokker.com/nb/blog">
-            https://www.dokker.com/nb/blog
-          </a>
+          <a href="https://www.dokker.com/nb">dokker.com</a>
         </li>
       </ul>
+      <h3>Mitt bidrag</h3>
+      <p>
+        Jeg bidro med: med nye komponenter, refaktorering og vurdering av
+        pull requests. Jeg fikset også noen bugs.
+      </p>
     </>
   );
 }

@@ -26,7 +26,7 @@ function SquareLink({
                 </span>
               );
             })}
-          {thereAreMoreTools && ". . ."}
+          {thereAreMoreTools && <>.&nbsp;.&nbsp;.</>}
         </ul>
       </Link>
     );

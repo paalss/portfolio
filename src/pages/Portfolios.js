@@ -26,7 +26,7 @@ function Portfolios() {
         </span>
         <a
           className="link"
-          href="https://github.com/paalss/portfolio-2019-fritid"
+          href="https://github.com/paalss/portfolio"
           target="_blank"
           rel="noopener noreferrer"
         >

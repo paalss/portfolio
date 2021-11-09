@@ -1,10 +1,12 @@
 a.squareLink {
   width: 90%;
   margin: 30px 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 a.squareLink .frame {
   height: 200px;
+  /* https://getcssscan.com/css-box-shadow-examples #16 */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 a.squareLink {
   color: #000;

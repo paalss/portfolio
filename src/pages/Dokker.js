@@ -1,6 +1,4 @@
-// import dokkerlogo from "../images/dokker/dokkerlogo.png";
 import dokkerInterface from "../images/dokker/dashboard/latest-document-assignment.png";
-// import Figure from "../components/common/Figure";
 
 function Dokker() {
   return (

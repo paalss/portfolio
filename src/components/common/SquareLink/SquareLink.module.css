@@ -1,14 +1,6 @@
 a.squareLink {
   width: 90%;
   margin: 30px 0;
-  /* overflow: hidden; */
-}
-a.squareLink .frame {
-  height: 200px;
-  /* https://getcssscan.com/css-box-shadow-examples #16 */
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-a.squareLink {
   color: #000;
   text-decoration: none;
   transition: 0.2s;
@@ -19,13 +11,27 @@ a.squareLink:focus {
   transition: 0.2s;
 }
 
+a.squareLink .frame {
+  height: 200px;
+  /* https://getcssscan.com/css-box-shadow-examples #16 */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+a.squareLink img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 div.desktopEmptySpace {
   width: 0;
   height: 0;
 }
 
 @media only screen and (min-width: 700px) {
-  a.squareLink, div.desktopEmptySpace {
+  a.squareLink,
+  div.desktopEmptySpace {
     width: 190px;
     margin: 6px 3%;
   }

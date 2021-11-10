@@ -3,8 +3,8 @@
     "main.css": "/portfolio/static/css/main.fd6ea910.chunk.css",
     "main.js": "/portfolio/static/js/main.0e703c3c.chunk.js",
     "main.js.map": "/portfolio/static/js/main.0e703c3c.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.c04b2f52.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c04b2f52.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f4709953.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4709953.js.map",
     "static/js/2.4eada6fd.chunk.js": "/portfolio/static/js/2.4eada6fd.chunk.js",
     "static/js/2.4eada6fd.chunk.js.map": "/portfolio/static/js/2.4eada6fd.chunk.js.map",
     "static/css/3.74df2ad3.chunk.css": "/portfolio/static/css/3.74df2ad3.chunk.css",
@@ -36,8 +36,8 @@
     "static/css/12.06be093e.chunk.css": "/portfolio/static/css/12.06be093e.chunk.css",
     "static/js/12.f9d321df.chunk.js": "/portfolio/static/js/12.f9d321df.chunk.js",
     "static/js/12.f9d321df.chunk.js.map": "/portfolio/static/js/12.f9d321df.chunk.js.map",
-    "static/js/13.e8dc0024.chunk.js": "/portfolio/static/js/13.e8dc0024.chunk.js",
-    "static/js/13.e8dc0024.chunk.js.map": "/portfolio/static/js/13.e8dc0024.chunk.js.map",
+    "static/js/13.12fdaedf.chunk.js": "/portfolio/static/js/13.12fdaedf.chunk.js",
+    "static/js/13.12fdaedf.chunk.js.map": "/portfolio/static/js/13.12fdaedf.chunk.js.map",
     "static/js/14.f520d865.chunk.js": "/portfolio/static/js/14.f520d865.chunk.js",
     "static/js/14.f520d865.chunk.js.map": "/portfolio/static/js/14.f520d865.chunk.js.map",
     "static/js/15.f1f06904.chunk.js": "/portfolio/static/js/15.f1f06904.chunk.js",
@@ -86,7 +86,7 @@
     "static/media/velkommen-til-Jr-NM-Jervskogen.fca63dda.jpg": "/portfolio/static/media/velkommen-til-Jr-NM-Jervskogen.fca63dda.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c04b2f52.js",
+    "static/js/runtime-main.f4709953.js",
     "static/js/2.4eada6fd.chunk.js",
     "static/css/main.fd6ea910.chunk.css",
     "static/js/main.0e703c3c.chunk.js"

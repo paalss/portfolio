@@ -18,7 +18,8 @@ function LightboxImage({ imgSrc, imgAlt, title, gallery = false }) {
     );
   } else {
     return (
-      <a href={imgSrc} data-caption={title}>
+      // data-type="image" er nødvendig for at UIkit lightbox alltid skal funke
+      <a href={imgSrc} data-caption={title} data-type="image">
         <img src={imgSrc} alt={imgAlt} />
       </a>
     );

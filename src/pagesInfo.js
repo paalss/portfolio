@@ -7,7 +7,7 @@ import { lazy } from "react";
 // home
 import photo from "./images/cvphoto2.jpg";
 // webwork
-import dokkerImg from "./images/dokker/dokkericon.png";
+import dokkerImg from "./images/dokker/logo/dokkericon.png";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
 import macleanImg from "./images/maclean/alistairmaclean.png";

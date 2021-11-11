@@ -18,7 +18,7 @@ function Portfolios() {
           </span>
         </h2>
 
-        <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
+        <div uk-grid uk-lightbox="animation: slide">
           <Figure imgSrc={pf5} imgAlt="portefølje 5" caption="portefølje 5" />
         </div>
         <span className="link">
@@ -50,7 +50,7 @@ function Portfolios() {
           <span className="subtitle">Fritidsprosjekt</span>
         </h2>
 
-        <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
+        <div uk-grid uk-lightbox="animation: slide">
           <Figure imgSrc={pf4} imgAlt="portefølje 4" caption="portefølje 4" />
         </div>
         <span className="link">
@@ -72,10 +72,10 @@ function Portfolios() {
         </span>
         <p>
           Så langt var den porteføljen jeg hadde lagd som var best designmessig,
-          veldig mangelfull for informasjon. I denne porteføljen forsøkte jeg å
-          dekke så mye som mulig av det jeg hadde gjort. Så jeg følte jeg måtte
-          lage en ny, med tanke på at jeg såvidt begynte med jobb- og
-          praksissøking i 2019.
+          veldig mangelfull for informasjon (den under fra 2016). I denne nye
+          porteføljen forsøkte jeg å dekke så mye som mulig av det jeg hadde
+          gjort. Så jeg følte jeg måtte lage en ny, med tanke på at jeg såvidt
+          begynte med jobb- og praksissøking i 2019.
         </p>
         <p>
           Denne lagde jeg i PHP, mest for å løse for å fikse
@@ -86,6 +86,7 @@ function Portfolios() {
         <p>
           Jeg fant det temmelig demotiverende å jobbe med den, siden jeg ikke
           var helt fornøyd med designet, men ikke visste hva jeg skulle fikse.
+          Det førte i hvert fall til at jeg skrotet den og lagde den du er på nå.
         </p>
       </>
 
@@ -96,7 +97,7 @@ function Portfolios() {
             Eksamensinnlevering i webkoding (NTNU)
           </span>
         </h2>
-        <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
+        <div uk-grid uk-lightbox="animation: slide">
           <Figure imgSrc={pf3} imgAlt="portefølje 3" caption="portefølje 3" />
         </div>
         <a
@@ -128,7 +129,7 @@ function Portfolios() {
           2016 vår/høst Portefølje
           <span className="subtitle">Fritidsprosjekt</span>
         </h2>
-        <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
+        <div uk-grid uk-lightbox="animation: slide">
           <Figure
             imgSrc={pf2}
             imgAlt="portefølje 2"
@@ -167,13 +168,15 @@ function Portfolios() {
       <>
         <h2>
           2015 Portefølje 2
-          <span className="subtitle">Videreutvikling av en innlevering</span>
+          <span className="subtitle">
+            Videreutvikling av en innlevering på VGS (se neste punkt)
+          </span>
         </h2>
-        <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
+        <div uk-grid uk-lightbox="animation: slide">
           <Figure
             imgSrc={pf1v2}
             imgAlt="portefølje 1 versjon 2"
-            caption="Fritidsarbeid, hadde lyst til å forbedre siden etter innleveringen"
+            caption="Estetiske endringer gjort"
           />
         </div>
         <a
@@ -210,7 +213,7 @@ function Portfolios() {
           2015 Portefølje
           <span className="subtitle">Innleveringsoppgave på videregående</span>
         </h2>
-        <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
+        <div uk-grid uk-lightbox="animation: slide">
           <Figure
             imgSrc={pf1v1}
             imgAlt="portefølje 1 versjon 1"

@@ -233,9 +233,10 @@
     justify-content: center;
     align-items: center;
   }
-  blockquote {
+  /* blockquote {
+    padding: 5px;
     background-color: #eee;
-  }
+  } */
   /* ––––––––––––––––––––– Footer  ––––––––––––––––––––– */
   /* Se CSS module */
 }

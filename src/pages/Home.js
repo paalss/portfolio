@@ -4,6 +4,9 @@ import { galleryInfo, graphicworkInfo, webworkInfo } from "../pagesInfo";
 import Barchart from "../components/common/Barchart";
 import SquareLink from "../components/common/SquareLink";
 
+// images
+import Certification from "../components/common/Certification";
+
 function Home() {
   return (
     <>
@@ -46,6 +49,8 @@ function Home() {
       <GraphicworkLinks />
       <h2 className="mb-50">Annet</h2>
       <OtherLinks />
+      <h2 className="mb-50">Sertififiseringer</h2>
+      <Certification/>
     </>
   );
 }

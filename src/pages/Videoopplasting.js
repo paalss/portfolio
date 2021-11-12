@@ -7,7 +7,10 @@ import Figure from "../components/common/Figure";
 function Videoopplasting() {
   return (
     <>
-      <h2>To studie&shy;proskekter, våren 2020</h2>
+      <h2>
+        To studie&shy;proskekter
+        <span className="subtitle">2020 vår</span>
+      </h2>
       <p>
         Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle
         lage nettapplikasjoner for videoopplasting og -visning. Altså mye det
@@ -25,7 +28,24 @@ function Videoopplasting() {
       </p>
 
       <h2>Første prosjekt</h2>
-      <div uk-grid uk-lightbox="animation: slide">
+      <ul className="tools">
+        Verktøy: <li>Templating engine (Twig)</li> <li>PHP</li> <li>MySQL</li>{" "}
+        <li>Relasjonsdatabase</li> <li>HTML</li> <li>Docker</li>
+      </ul>
+
+      <p>
+        Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med
+        videoopplasting, -redigering og -visning. I tillegg gjorde jeg det
+        spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens
+        interaksjon med databasen, databasestrukturen og nedlasting av videoer
+        til filsystemet. Jeg jobbet også litt med kommentarer.
+      </p>
+      <p>
+        Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre
+        html-sidene.
+      </p>
+
+      <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={videoOgTranskriptImg}
           imgAlt="videosiden i første prosjekt"
@@ -34,35 +54,60 @@ function Videoopplasting() {
         />
       </div>
       <span className="link">
-        <i class="fas fa-circle-notch"></i> Ikke tilgjengelig live
+        <i className="fas fa-circle-notch"></i> Ikke tilgjengelig live
       </span>
       <span className="link">
-        <i class="fab fa-github"></i> Privat kildekode
+        <i className="fab fa-github"></i> Privat kildekode
       </span>
-      <span className="subtitle">
-        <ul className="tools">
-          Verktøy: <br />
-          <li>Templating engine (Twig)</li> <li>PHP</li> <li>MySQL</li>{" "}
-          <li>Relasjonsdatabase</li> <li>HTML</li> <li>Docker</li>{" "}
-        </ul>
-      </span>
-
-      <div>
-        <p>
-          Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med
-          videoopplasting, -redigering og -visning. I tillegg gjorde jeg det
-          spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens
-          interaksjon med databasen, databasestrukturen og nedlasting av videoer
-          til filsystemet. Jeg jobbet også litt med kommentarer.
-        </p>
-        <p>
-          Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre
-          html-sidene.
-        </p>
-      </div>
 
       <h2>Andre prosjekt</h2>
-      <div uk-grid uk-lightbox="animation: slide">
+      <ul className="tools">
+        Verktøy: <li>JavaScript</li> <li>LitElement</li> <li>PHP</li>{" "}
+        <li>MySQL</li> <li>Relasjonsdatabase</li> <li>HTML</li> <li>CSS</li>{" "}
+        <li>Docker</li>
+      </ul>
+
+      <p>
+        Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det
+        også skilles mellom ulike brukertyper, som var <i>admin</i>,{" "}
+        <i>lærer</i> og <i>studenter</i>, hver med ulike rettigheter:
+      </p>
+      {/* className="normal-list" kan fjernes hvis du går over til component-scoped CSS */}
+      <ul className="normal-list">
+        <li>
+          <b>studenter</b> skulle ha mulighet til å se på videoer, kommentere,
+          lagre video i spillelister etc.
+        </li>
+        <li>
+          <b>lærere</b> skulle ha studenters rettigheter pluss mulighet til å
+          legge ut videoer
+        </li>
+        <li>
+          <b>admin</b> skulle ha de samme rettighetene som alle andre, pluss
+          mulighet til å endre å brukertypen til de andre brukerne. (Når folk
+          skal registrere seg som lærer, må de opprette en studentbruker, og så
+          sende forespørsel til admin om å få byttet brukertype)
+        </li>
+      </ul>
+
+      <p>
+        Nettappen skulle også være en Single page application, men dette fikk vi
+        til bare delvis. (Hvis man klikker på en video i oversikten, tar siden
+        en automatisk refresh. Man må også refreshe etter å ha lastet opp video
+        eller gjort andre permanente endringer.)
+      </p>
+      <p>
+        I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for,
+        var å få til videoopplasting, -visning og -oversikt. Jeg lagde også
+        mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev
+        også med litt CSS styling.
+      </p>
+      <p>
+        Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det
+        meste lagde selv.
+      </p>
+
+      <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={videosideImg}
           imgAlt="videosiden i andre prosjekt"
@@ -80,60 +125,11 @@ function Videoopplasting() {
         />
       </div>
       <span className="link">
-        <i class="fas fa-circle-notch"></i> Ikke tilgjengelig live
+        <i className="fas fa-circle-notch"></i> Ikke tilgjengelig live
       </span>
       <span className="link">
-        <i class="fab fa-github"></i> Privat kildekode
+        <i className="fab fa-github"></i> Privat kildekode
       </span>
-      <span className="subtitle">
-        <ul className="tools">
-          Verktøy: <br />
-          <li>JavaScript</li> <li>LitElement</li> <li>PHP</li> <li>MySQL</li>{" "}
-          <li>Relasjonsdatabase</li> <li>HTML</li> <li>CSS</li> <li>Docker</li>{" "}
-        </ul>
-      </span>
-
-      <div>
-        <p>
-          Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det
-          også skilles mellom ulike brukertyper, som var <i>admin</i>,{" "}
-          <i>lærer</i> og <i>studenter</i>, hver med ulike rettigheter:
-        </p>
-        {/* className="normal-list" kan fjernes hvis du går over til component-scoped CSS */}
-        <ul className="normal-list">
-          <li>
-            <b>studenter</b> skulle ha mulighet til å se på videoer, kommentere,
-            lagre video i spillelister etc.
-          </li>
-          <li>
-            <b>lærere</b> skulle ha studenters rettigheter pluss mulighet til å
-            legge ut videoer
-          </li>
-          <li>
-            <b>admin</b> skulle ha de samme rettighetene som alle andre, pluss
-            mulighet til å endre å brukertypen til de andre brukerne. (Når folk
-            skal registrere seg som lærer, må de opprette en studentbruker, og
-            så sende forespørsel til admin om å få byttet brukertype)
-          </li>
-        </ul>
-
-        <p>
-          Nettappen skulle også være en Single page application, men dette fikk
-          vi til bare delvis. (Hvis man klikker på en video i oversikten, tar
-          siden en automatisk refresh. Man må også refreshe etter å ha lastet
-          opp video eller gjort andre permanente endringer.)
-        </p>
-        <p>
-          I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for,
-          var å få til videoopplasting, -visning og -oversikt. Jeg lagde også
-          mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev
-          også med litt CSS styling.
-        </p>
-        <p>
-          Appen ble lagd med bruk av LitElement-baserte komponenter som vi for
-          det meste lagde selv.
-        </p>
-      </div>
     </>
   );
 }

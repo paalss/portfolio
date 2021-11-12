@@ -10,7 +10,7 @@ function Maclean() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fas fa-circle-notch"></i> Besøk siden
+        <i className="fas fa-circle-notch"></i> Besøk siden
       </a>
       <a
         className="link"
@@ -21,14 +21,13 @@ function Maclean() {
         <span className="fab fa-github"></span> Kildekode
       </a>
       <h2>
-        Prosjekt på videregående, 2015
-        <span className="subtitle">
-          <ul className="tools">
-            Verktøy: <br />
-            <li>HTML</li> <li>CSS</li> <li>Photoshop</li> <li>Illustrator</li>
-          </ul>
-        </span>
+        Innlevering på videregående
+        <span className="subtitle">2015</span>
       </h2>
+      <ul className="tools">
+        Verktøy: <li>HTML</li> <li>CSS</li> <li>Photoshop</li>{" "}
+        <li>Illustrator</li>
+      </ul>
       <p>
         I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å
         redesigne <i>alistairmaclean.com</i> sitt GUI. Grunnen var at jeg

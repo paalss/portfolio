@@ -11,34 +11,23 @@ function Artistbooking() {
   return (
     <>
       <h2>
-        Prosjekt i studiene, høsten 2019
-        <span className="subtitle">
-          <ul className="tools">
-            Verktøy:
-            <br />
-            <li>Adobe XD</li>
-          </ul>
-        </span>
+        Prosjekt i studiene
+        <span className="subtitle">2019 høst</span>
       </h2>
+      <ul className="tools">
+        Verktøy: <li>Adobe XD</li>
+      </ul>
       <p>
         I faget grafiske verktøy, prinsipper og metoder skulle vi lage en
-        klikkbar hi-fi prototype for en app. Appen skulle være
-        musikkrelatert, så det endte opp med å bli en app for privatpersoner og
-        musikkartister som kunne avtale spillejobber med hverandre. Jeg
-        forholdte meg til å lage mobil- og desktop-visning av alle sidene.
+        klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert,
+        så det endte opp med å bli en app for privatpersoner og musikkartister
+        som kunne avtale spillejobber med hverandre. Jeg forholdte meg til å
+        lage mobil- og desktop-visning av alle sidene.
       </p>
-      <h2>Noen utvalgte bilder</h2>
-      <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
-        <Figure
-          imgSrc={mobileImg1}
-          imgAlt="Startside"
-          caption="Startside"
-        />
-        <Figure
-          imgSrc={mobileImg2}
-          imgAlt="Søkefelt"
-          caption="Søkefelt"
-        />
+      <h3>Noen utvalgte bilder</h3>
+      <div uk-lightbox="animation: slide" className="flex wrap">
+        <Figure imgSrc={mobileImg1} imgAlt="Startside" caption="Startside" />
+        <Figure imgSrc={mobileImg2} imgAlt="Søkefelt" caption="Søkefelt" />
         <Figure
           imgSrc={mobileImg3}
           imgAlt="Søkeresultater"

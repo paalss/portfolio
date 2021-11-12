@@ -64,10 +64,9 @@
   }
   .subtitle {
     display: block;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    margin: 0;
-    letter-spacing: normal;
+    margin: 1rem 0;
   }
   /* ––––––––––––––––––––– Header ––––––––––––––––––––– */
   header {

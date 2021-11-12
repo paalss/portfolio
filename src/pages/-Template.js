@@ -12,7 +12,7 @@ function Template() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fas fa-circle-notch"></i> Besøk siden
+        <i className="fas fa-circle-notch"></i> Besøk siden
       </a>
       <a
         className="link"
@@ -23,17 +23,14 @@ function Template() {
         <span className="fab fa-github"></span> Kildekode
       </a>
       <h2>
-        Sammenheng, semester
-        <span className="subtitle">
-          <ul className="tools">
-            Verktøy:
-            <br />
-            <li></li>
-          </ul>
-        </span>
+        Sammenheng
+        <span className="subtitle">semester</span>
       </h2>
+      <ul className="tools">
+        Verktøy: <li></li>
+      </ul>
       <p>Beskrivelse</p>
-      <div uk-grid uk-lightbox="animation: slide" className="flex wrap">
+      <div uk-lightbox="animation: slide" className="flex wrap">
         <Figure imgSrc={img} imgAlt="bilde1" caption="bilde1" />
         <Figure imgSrc={img} imgAlt="bilde2" caption="bilde2" />
       </div>

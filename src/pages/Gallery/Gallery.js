@@ -58,7 +58,7 @@ function Gallery() {
   }
 
   return (
-    <div uk-grid uk-lightbox="animation: slide">
+    <div uk-lightbox="animation: slide">
       <div className={classes.galleryFlex}>{content}</div>
     </div>
   );

@@ -10,14 +10,11 @@ function JRNM() {
       <img src={JRNMImg} alt="Artist booking app grensesnitt" />
       <h2>
         Praksisplass
-        <span className="subtitle">
-          <ul className="tools">
-            Verktøy:
-            <br />
-            <li>Photoshop</li>
-          </ul>
-        </span>
+        <span className="subtitle">2013</span>
       </h2>
+      <ul className="tools">
+        Verktøy <li>Photoshop</li>
+      </ul>
       <p>
         I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette
         var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg

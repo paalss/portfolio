@@ -9,7 +9,7 @@ function Rankingapp() {
     <>
       <img src={rankingappGif} alt="ranking app interface" />
       <span className="link">
-        <i class="fas fa-circle-notch"></i> Ikke tilgjengelig live
+        <i className="fas fa-circle-notch"></i> Ikke tilgjengelig live
       </span>
       <a
         className="link"
@@ -20,17 +20,14 @@ function Rankingapp() {
         <span className="fab fa-github"></span> Kildekode
       </a>
       <h2>
-        Ranking app, høsten 2020–
-        <span className="subtitle">
-          <ul className="tools">
-            Verktøy:
-            <br />
-            <li>JavaScript</li> <li>TypeScript</li> <li>PHP</li> <li>MySQL</li>{" "}
-            <li>Relasjonsdatabase&nbsp;(MariaDB)</li> <li>HTML</li> <li>CSS</li>{" "}
-            <li>Docker</li> <li>Jest</li>{" "}
-          </ul>
-        </span>
+        Ranking app
+        <span className="subtitle">2020 høst–</span>
       </h2>
+      <ul className="tools">
+        Verktøy: <li>JavaScript</li> <li>TypeScript</li> <li>PHP</li>{" "}
+        <li>MySQL</li> <li>Relasjonsdatabase&nbsp;(MariaDB)</li> <li>HTML</li>{" "}
+        <li>CSS</li> <li>Docker</li> <li>Jest</li>
+      </ul>
       Prosjektet er foreløpig satt på pause.
       <p>
         I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere
@@ -40,13 +37,9 @@ function Rankingapp() {
         på felles lister og importere listelementer direkte fra andre databaser
         (med web API).
       </p>
-      <h3>
-        Motivasjon til prosjektet
-        <span className="subtitle">
-          Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for
-          å ha et kodeprosjekt å drive på med.
-        </span>
-      </h3>
+      <h3>Motivasjon til prosjektet</h3>
+      Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å
+      ha et kodeprosjekt å drive på med.
       <p>
         Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som
         jeg nevnte over. Jeg likte det, og det var derfor skuffende da
@@ -66,7 +59,7 @@ function Rankingapp() {
         Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det
         i seg selv er jo motivasjon nok til å fortsette med det.
       </p>
-      <div uk-grid uk-lightbox="animation: slide">
+      <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={overviewImg}
           imgAlt="oversikt over lister eksempel"

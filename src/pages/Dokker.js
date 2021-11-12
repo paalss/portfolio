@@ -1,8 +1,8 @@
 import dokkerInterface from "../images/dokker/dashboard/latest-document-assignment.png";
-// import newcardImg from "../images/dokker/news-card/wip3-2021-06-30-at-08.58.07.png";
-import newcardsImg from "../images/dokker/news-card/newscards.png";
 import followupcardImg from "../images/dokker/follow-up-card/followupcard.png";
-// import noElementsFoundImg from "../images/dokker/no-elements-found/empty-state-for-your-assignments.png";
+import newcardsImg from "../images/dokker/news-card/newscards.png";
+// import newcardImg from "../images/dokker/news-card/wip3-2021-06-30-at-08.58.07.png";
+// import noelementsfoundImg from "../images/dokker/no-elements-found/empty-state-for-your-assignments.png";
 
 import Figure from "../components/common/Figure";
 
@@ -16,26 +16,23 @@ function Dokker() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fas fa-circle-notch"></i> Besøk siden
+        <i className="fas fa-circle-notch"></i> Besøk siden
       </a>
       <span className="link">
-        <i class="fab fa-github"></i> Privat kildekode
+        <i className="fab fa-github"></i> Privat kildekode
       </span>
       <h2>
-        Praksisprosjekt hos Learning Moment, april–september 2021
-        <span className="subtitle">
-          <ul className="tools">
-            Verktøy:
-            <br />
-            <li>React</li> <li>TypeScript</li> <li>HTML</li> <li>CSS</li>
-          </ul>
-        </span>
+        Praksisprosjekt hos Learning Moment
+        <span className="subtitle">2021 april–september</span>
       </h2>
+      <ul className="tools">
+        Verktøy: <li>React</li> <li>TypeScript</li> <li>HTML</li> <li>CSS</li>
+      </ul>
       <p>
         Under denne fem-måneders praksisen bidro jeg i utviklingen av
-        web-applikasjonen Dokker, som er produktet til Learning Moment. Jeg tok
-        også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg
-        fikk bidratt med:
+        web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et
+        React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk
+        bidratt med:
       </p>
       <ul>
         <li>Nye komponenter</li>
@@ -45,7 +42,7 @@ function Dokker() {
       </ul>
 
       <h3>Komponentener jeg lagde</h3>
-      <div uk-grid uk-lightbox="animation: slide">
+      <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={followupcardImg}
           imgAlt="FollowUpCard"
@@ -56,6 +53,11 @@ function Dokker() {
           imgAlt="NewsCard"
           caption="Et kort for recent-atcivities-delen av dashboard"
         />
+        {/* <Figure
+          imgSrc={noelementsfoundImg}
+          imgAlt="NoElementsFound"
+          caption="Et ikon og melding som allerede fantes direkte i andre komponenter, men som jeg fikk pakke inn i et eget komponent. Her er komponentet brukt på assignments-listen"
+        /> */}
       </div>
       <h3>Litt om Dokker</h3>
       <p>

@@ -1,4 +1,4 @@
-import classes from "./Certification-copy.module.css";
+import "./Certification-copy.css";
 import reactCertificate from "../../../images/certifications/react-certificate.jpg";
 import { useCallback, useEffect, useState } from "react";
 
@@ -37,43 +37,43 @@ function Certification({ companyLogo, title, timepsan, company }) {
     });
   }, []);
 
-  // <div className={classes.card3d} style={{ width: "300px" }}></div>
-  // <div className={classes.card3d} style={{ width: "300px" }}>
+  // <div className="card3d" style={{ width: "300px" }}></div>
+  // <div className="card3d" style={{ width: "300px" }}>
   //   <img src={reactCertificate} alt="" style={{ width: "400px" }} />
   // </div>
   return (
     <>
       {/* https://codepen.io/nelsonr/pen/WNQaZPb */}
-      <div className={classes.certification}>
-        <div className={classes.card3d}>
+      <div className="certification">
+        <div className="card3d">
           <img
             src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-250-plains.png"
             alt="Plains"
             width="180"
           />
         </div>
-        <div className={classes.card3d}>
+        <div className="card3d">
           <img
             src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-251-island.png"
             alt="Island"
             width="180"
           />
         </div>
-        <div className={classes.card3d}>
+        <div className="card3d">
           <img
             src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-252-swamp.png"
             alt="Swamp"
             width="180"
           />
         </div>
-        <div className={classes.card3d}>
+        <div className="card3d">
           <img
             src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-253-mountain.png"
             alt="Mountain"
             width="180"
           />
         </div>
-        <div className={classes.card3d}>
+        <div className="card3d">
           <img
             src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-254-forest.png"
             alt="Forest"

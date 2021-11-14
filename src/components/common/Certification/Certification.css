@@ -23,9 +23,9 @@
   transition: all 250ms ease-out;
 }
 
-.card3d-img {
-  border: 1px solid #000;
-  box-shadow: rgba(61, 61, 66, 0.25) 0px 13px 27px -5px;
+.card3d img {
+  /* https://getcssscan.com/css-box-shadow-examples #18 */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 @media only screen and (min-width: 900px) {

@@ -1,0 +1,34 @@
+.certification-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /* overflow-x: hidden; */
+}
+
+.card3d {
+  width: 90%;
+  margin: 4px;
+  transform: scale(1);
+  perspective: 600px;
+}
+
+.card3d:hover {
+  z-index: 10;
+  transform: scale(1.2);
+}
+
+.card3d,
+.card3d img {
+  transition: all 250ms ease-out;
+}
+
+@media only screen and (min-width: 900px) {
+  .certification-bg {
+    justify-content: flex-start;
+  }
+  .card3d {
+    width: 60%;
+  }
+}

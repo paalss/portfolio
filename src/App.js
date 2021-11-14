@@ -8,9 +8,13 @@ import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import Main from "./components/layout/Main";
 import LoadingSpinner from "./components/layout/LoadingSpinner";
+// import Certification from "./components/common/Certification";
 
 function App() {
   return (
+    <>
+      {/* <Certification/> */}
+
     <Router basename="portfolio">
       <Suspense
         fallback={
@@ -51,6 +55,7 @@ function App() {
         </div>
       </Suspense>
     </Router>
+    </>
   );
 }
 

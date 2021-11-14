@@ -1,2 +1,2 @@
-import Certification from "./Certification-copy";
+import Certification from "./Certification";
 export default Certification;

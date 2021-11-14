@@ -45,6 +45,7 @@ function Certification() {
           target="_blank"
           rel="noopener noreferrer"
           className="card3d"
+          title="Åpne Udemy siden for dette sertifikatet"
         >
           <img
             src={reactCertificate}

@@ -16,7 +16,7 @@
 
 .card3d:hover {
   z-index: 10;
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .card3d,
@@ -24,7 +24,7 @@
   transition: all 250ms ease-out;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 900px) {
   .certification-bg {
     justify-content: flex-start;
   }

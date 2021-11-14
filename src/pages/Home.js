@@ -9,8 +9,6 @@ import Certification from "../components/common/Certification";
 function Home() {
   return (
     <>
-      <h2 className="mb-50">Sertififiseringer</h2>
-      <Certification />
       <h2>Kompetanse</h2>
       <p className="mb-50">
         Jeg har erfaring innen webutvikling og grafisk design.
@@ -50,6 +48,8 @@ function Home() {
       <GraphicworkLinks />
       <h2 className="mb-50">Annet</h2>
       <OtherLinks />
+      <h2 className="mb-50">Sertififiseringer</h2>
+      <Certification />
     </>
   );
 }

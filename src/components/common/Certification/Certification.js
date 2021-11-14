@@ -12,7 +12,7 @@ function Certification() {
       let img = card.querySelector("img");
       let mouseX = ev.offsetX;
       let mouseY = ev.offsetY;
-      let rotateY = map(mouseX, 0, 300, -15, 15);
+      let rotateY = map(mouseX, 0, 500, -15, 15);
       let rotateX = map(mouseY, 0, 500, 15, -15);
       let brightness = map(mouseY, 0, 500, 1.5, 0.5);
 
@@ -40,12 +40,17 @@ function Certification() {
     <>
       {/* https://codepen.io/nelsonr/pen/WNQaZPb */}
       <div className="certification-bg">
-        <div className="card3d">
+        <a
+          href="https://www.udemy.com/certificate/UC-0f5eb1d1-16ce-43f4-87ef-f0c9b09a9e04/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card3d"
+        >
           <img
             src={reactCertificate}
             alt="Certificate of completion. React - The Complete Guide (incl Hooks, React Router, Redux)"
           />
-        </div>
+        </a>
       </div>
     </>
   );

@@ -13,9 +13,9 @@ function Certification({ companyLogo, title, timepsan, company }) {
       let imgRect = card.getBoundingClientRect();
       let mouseX = ev.offsetX;
       let mouseY = ev.offsetY;
-      let rotateY = map(mouseX, 0, 250, -25, 25);
-      let rotateX = map(mouseY, 0, 180, 25, -25);
-      let brightness = map(mouseY, 0, 250, 1.5, 0.5);
+      let rotateY = map(mouseX, 0, 300, -15, 15);
+      let rotateX = map(mouseY, 0, 500, 15, -15);
+      let brightness = map(mouseY, 0, 500, 1.5, 0.5);
 
       img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
       img.style.filter = `brightness(${brightness})`;
@@ -48,7 +48,7 @@ function Certification({ companyLogo, title, timepsan, company }) {
         <div className="card3d">
           <img
             src={reactCertificate}
-            alt="Plains"
+            alt="Certificate of completion. React - The Complete Guide (incl Hooks, React Router, Redux)"
           />
         </div>
       </div>

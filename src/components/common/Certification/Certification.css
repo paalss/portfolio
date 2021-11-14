@@ -9,7 +9,6 @@
 
 .card3d {
   width: 90%;
-  margin: 4px;
   transform: scale(1);
   perspective: 600px;
 }
@@ -22,6 +21,11 @@
 .card3d,
 .card3d img {
   transition: all 250ms ease-out;
+}
+
+img {
+  border: 1px solid #000;
+  box-shadow: rgba(61, 61, 66, 0.25) 0px 13px 27px -5px;
 }
 
 @media only screen and (min-width: 900px) {

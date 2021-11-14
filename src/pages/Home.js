@@ -4,13 +4,13 @@ import { galleryInfo, graphicworkInfo, webworkInfo } from "../pagesInfo";
 import Barchart from "../components/common/Barchart";
 import SquareLink from "../components/common/SquareLink";
 
-// images
-// import Certification from "../components/common/Certification";
+import Certification from "../components/common/Certification";
 
 function Home() {
   return (
     <>
-      {/* <Certification /> */}
+      <h2 className="mb-50">Sertififiseringer</h2>
+      <Certification />
       <h2>Kompetanse</h2>
       <p className="mb-50">
         Jeg har erfaring innen webutvikling og grafisk design.
@@ -50,7 +50,6 @@ function Home() {
       <GraphicworkLinks />
       <h2 className="mb-50">Annet</h2>
       <OtherLinks />
-      <h2 className="mb-50">Sertififiseringer</h2>
     </>
   );
 }

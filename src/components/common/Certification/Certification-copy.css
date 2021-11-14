@@ -1,16 +1,14 @@
-.certification {
+.certification-bg {
   display: flex;
-  min-height: 100vh;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   align-content: center;
-  background: rgb(84,92,97);
-  background: radial-gradient(circle, rgba(84,92,97,1) 0%, rgba(23,41,48,1) 100%); 
   flex-wrap: wrap;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .card3d {
+  width: 40%;
   margin: 4px;
   transform: scale(1);
   perspective: 600px;

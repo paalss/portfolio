@@ -1,21 +1,21 @@
-// import { Suspense } from "react";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import { flatPagesInfo } from "./pagesInfo";
+import { Suspense } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { flatPagesInfo } from "./pagesInfo";
 
 // components
-// import Nav from "./components/layout/Nav";
-// import Header from "./components/layout/Header";
-// import Footer from "./components/layout/Footer";
-// import Main from "./components/layout/Main";
-// import LoadingSpinner from "./components/layout/LoadingSpinner";
-import Certification from "./components/common/Certification";
+import Nav from "./components/layout/Nav";
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
+import Main from "./components/layout/Main";
+import LoadingSpinner from "./components/layout/LoadingSpinner";
+// import Certification from "./components/common/Certification";
 
 function App() {
   return (
     <>
-      <Certification/>
+      {/* <Certification/> */}
 
-    {/* <Router basename="portfolio">
+    <Router basename="portfolio">
       <Suspense
         fallback={
           <div className="center-content-fullscreen">
@@ -54,7 +54,7 @@ function App() {
           <Footer />
         </div>
       </Suspense>
-    </Router> */}
+    </Router>
     </>
   );
 }

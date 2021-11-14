@@ -47,7 +47,7 @@ function Certification() {
           className="card3d"
           title="Åpne Udemy siden for dette sertifikatet"
         >
-          <img
+          <img className="card3d-img"
             src={reactCertificate}
             alt="Certificate of completion. React - The Complete Guide (incl Hooks, React Router, Redux)"
           />

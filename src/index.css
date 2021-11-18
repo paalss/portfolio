@@ -287,7 +287,8 @@
     justify-content: flex-start;
   }
   main .container p,
-  main .container .normal-list li, blockquote {
+  main .container .normal-list li,
+  blockquote {
     width: 630px;
   }
 }

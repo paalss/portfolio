@@ -10,7 +10,7 @@ function Maclean() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fas fa-circle-notch"></i> Besøk siden
+        <span className="fas fa-circle-notch"></span> Besøk siden
       </a>
       <a
         className="link"

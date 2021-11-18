@@ -9,7 +9,7 @@ function Rankingapp() {
     <>
       <img src={rankingappGif} alt="ranking app interface" />
       <span className="link">
-        <i className="fas fa-circle-notch"></i> Ikke tilgjengelig live
+        <span className="fas fa-circle-notch"></span> Ikke tilgjengelig live
       </span>
       <a
         className="link"

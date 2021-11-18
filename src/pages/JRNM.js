@@ -40,7 +40,7 @@ function JRNM() {
         Mistenker også at de har vektorisert den, siden logoen så mye renere ut
         da jeg så at den på arrangementet.
       </p>
-      <div uk-grid uk-lightbox="animation: slide">
+      <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={JRNMImg2}
           imgAlt="Logo for Junior NM på ski 2015"

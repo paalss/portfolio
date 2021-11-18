@@ -12,7 +12,7 @@ function Template() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fas fa-circle-notch"></i> Besøk siden
+        <span className="fas fa-circle-notch"></span> Besøk siden
       </a>
       <a
         className="link"
@@ -22,6 +22,12 @@ function Template() {
       >
         <span className="fab fa-github"></span> Kildekode
       </a>
+      <span className="link">
+        <i className="fas fa-circle-notch"></i> Ikke tilgjengelig live
+      </span>
+      <span className="link">
+        <i className="fab fa-github"></i> Privat kildekode
+      </span>
       <h2>
         Sammenheng
         <span className="subtitle">semester</span>

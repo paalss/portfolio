@@ -34,7 +34,7 @@ function Portfolios() {
           <Figure imgSrc={pf5} imgAlt="portefølje 5" caption="portefølje 5" />
         </div>
         <span className="link">
-          <i className="fas fa-circle-notch"></i> Du er på siden
+          <span className="fas fa-circle-notch"></span> Du er på siden
         </span>
         <a
           className="link"
@@ -71,7 +71,7 @@ function Portfolios() {
           <Figure imgSrc={pf4} imgAlt="portefølje 4" caption="portefølje 4" />
         </div>
         <span className="link">
-          <i className="fas fa-circle-notch"></i> Ikke tilgjengelig live
+          <span className="fas fa-circle-notch"></span> Ikke tilgjengelig live
         </span>
         <a
           className="link"
@@ -101,7 +101,7 @@ function Portfolios() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-circle-notch"></i> Besøk siden
+          <span className="fas fa-circle-notch"></span> Besøk siden
         </a>
         <a
           className="link"
@@ -140,7 +140,7 @@ function Portfolios() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-circle-notch"></i> Besøk siden
+          <span className="fas fa-circle-notch"></span> Besøk siden
         </a>
         <a
           className="link"
@@ -184,7 +184,7 @@ function Portfolios() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-circle-notch"></i> Besøk siden
+          <span className="fas fa-circle-notch"></span> Besøk siden
         </a>
         <a
           className="link"

@@ -7,6 +7,7 @@ import { lazy } from "react";
 // home
 import photo from "./images/cvphoto2.jpg";
 // webwork
+import extraopticalImg from "./images/extraoptical/logo/eo-icon.png"
 import dokkerImg from "./images/dokker/logo/dokkericon.png";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
@@ -27,6 +28,7 @@ import galleryImg from "./images/gallery/gallery1.png";
 const Home = lazy(() => import("./pages/Home"));
 // webwork
 const Webwork = lazy(() => import("./pages/Webwork"));
+const Extraoptical = lazy(() => import("./pages/Extraoptical"))
 const Dokker = lazy(() => import("./pages/Dokker"));
 const Rankingapp = lazy(() => import("./pages/Rankingapp"));
 const Videoopplasting = lazy(() => import("./pages/Videoopplasting"));
@@ -67,8 +69,17 @@ const pagesInfo = [
     title: "Nettsider",
     page: <Webwork />,
     subpages: [
+      // {
+      //   id: 3,
+      //   path: "/webwork/extraoptical",
+      //   title: "Extra Optical",
+      //   page: <Extraoptical />,
+      //   imgSrc: extraopticalImg,
+      //   imgAlt: "Extraoptical logo",
+      //   tools: ["Magento2", "HTML", "CSS"],
+      // },
       {
-        id: 3,
+        id: 4,
         path: "/webwork/dokker",
         title: "Dokker",
         page: <Dokker />,
@@ -77,7 +88,7 @@ const pagesInfo = [
         tools: ["React", "TypeScript", "HTML", "CSS"],
       },
       {
-        id: 4,
+        id: 5,
         path: "/webwork/rankingapp",
         title: "Ranking app",
         page: <Rankingapp />,
@@ -87,7 +98,7 @@ const pagesInfo = [
         thereAreMoreTools: true,
       },
       {
-        id: 5,
+        id: 6,
         path: "/webwork/videoopplasting",
         title: <>Video&shy;opplastings&shy;apper</>,
         heading: <h1>Video&shy;opplastings&shy;apper</h1>,
@@ -98,7 +109,7 @@ const pagesInfo = [
         thereAreMoreTools: true,
       },
       {
-        id: 6,
+        id: 7,
         path: "/webwork/maclean",
         title: "Alistair MacLean nettside redesign",
         page: <Maclean />,
@@ -108,7 +119,7 @@ const pagesInfo = [
         thereAreMoreTools: true,
       },
       {
-        id: 7,
+        id: 8,
         path: "/webwork/portfolios",
         title: "Portefølje (og tidligere versjoner)",
         page: <Portfolios />,
@@ -120,7 +131,7 @@ const pagesInfo = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     path: "/graphicwork",
     exact: true,
     exactActiveClassName: false,
@@ -128,7 +139,7 @@ const pagesInfo = [
     page: <Graphicwork />,
     subpages: [
       {
-        id: 9,
+        id: 10,
         path: "/graphicwork/artistbooking",
         title: "Artist booking app",
         page: <Artistbooking />,
@@ -137,7 +148,7 @@ const pagesInfo = [
         tools: ["Adobe XD"],
       },
       {
-        id: 10,
+        id: 11,
         path: "/graphicwork/jrnm",
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,
@@ -148,7 +159,7 @@ const pagesInfo = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     path: "/gallery",
     title: "Kunst",
     page: <Gallery />,

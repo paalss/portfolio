@@ -20,14 +20,11 @@ function Portfolios() {
         </ul>
 
         <p>
-          Min første portefølje som fokuserer på hva jeg kan innen webutvikling,
-          og som jeg er helt fullstendig fornøyd med.
-        </p>
-        <p>
-          Jeg fant det temmelig demotiverende å jobbe med min forrige portefølje
-          (den under), siden jeg ikke var helt fornøyd med designet, men ikke
-          visste hva jeg skulle fikse. Det førte i hvert fall til at jeg skrotet
-          den og lagde den du er på nå.
+          Den første porteføljen min hvor jeg fokuserer på webutvikling, og som
+          jeg er helt fullstendig fornøyd med. Den forrige fra 2019 (den under)
+          hadde bare lenker til to nettsider som jeg hadde lagd, lite synlig på
+          "arbeid"-siden. I den nye har jeg lagd et design som putter nettsidene
+          mine mer på "display". De er mer synlige.
         </p>
 
         <div uk-lightbox="animation: slide">
@@ -62,9 +59,9 @@ function Portfolios() {
         </p>
         <p>
           Denne lagde jeg i PHP, mest for å løse for å fikse
-          «samme-header-og-footer-på-alle-sidene». Jeg var mest stø på PHP på
-          denne tiden, og jeg hadde tilgang på en folk.ntnu.no server som
-          støttet PHP, så jeg kunne dele den live.
+          «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så
+          godt på denne tiden, og jeg hadde tilgang på en <i>live</i> server
+          (folk.ntnu.no/paalsst) som støttet PHP.
         </p>
 
         <div uk-lightbox="animation: slide">
@@ -162,8 +159,9 @@ function Portfolios() {
         </ul>
 
         <p>
-          Denne siden hadde veldig mye av det arbeidet jeg hadde gjort på medier
-          og kommunikasjon på videregående. Mye grafisk arbeid!
+          Til en skoleoppgave lagde jeg en tresiders portefølje om meg selv og
+          mitt arbeid. Etter å ha levert denne oppgaven endret jeg litt på
+          layout-et.
         </p>
 
         <div uk-lightbox="animation: slide">

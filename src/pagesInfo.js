@@ -69,15 +69,15 @@ const pagesInfo = [
     title: "Nettsider",
     page: <Webwork />,
     subpages: [
-      // {
-      //   id: 3,
-      //   path: "/webwork/extraoptical",
-      //   title: "Extra Optical",
-      //   page: <Extraoptical />,
-      //   imgSrc: extraopticalImg,
-      //   imgAlt: "Extraoptical logo",
-      //   tools: ["Magento2", "HTML", "CSS"],
-      // },
+      {
+        id: 3,
+        path: "/webwork/extraoptical",
+        title: "Extra Optical",
+        page: <Extraoptical />,
+        imgSrc: extraopticalImg,
+        imgAlt: "Extraoptical logo",
+        tools: ["Magento2", "HTML", "CSS", "Screaming frog"],
+      },
       {
         id: 4,
         path: "/webwork/dokker",

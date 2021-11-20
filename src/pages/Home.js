@@ -48,7 +48,7 @@ function Home() {
       <GraphicworkLinks />
       <h2 className="mb-50">Annet</h2>
       <OtherLinks />
-      <h2 className="mb-50">Sertififiseringer</h2>
+      <h2 className="mb-50">Sertififisering</h2>
       <Certification />
     </>
   );
@@ -72,7 +72,7 @@ export function WebworkLinks() {
           );
         })}
         <SquareLink desktopEmptySpace />
-        {/* <SquareLink desktopEmptySpace /> */}
+        <SquareLink desktopEmptySpace />
       </div>
       <div className="mt-50">
         <a
@@ -81,7 +81,7 @@ export function WebworkLinks() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="fab fa-github"></span> Se flere prosjekter
+          <span className="fab fa-github"></span> Se mer på Github
         </a>
       </div>
     </>

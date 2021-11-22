@@ -28,8 +28,8 @@ function Extraoptical() {
       </ul>
       <p>
         I dennne praksisen jobbet jeg med nettbutikken Extra Optical. Det har
-        for det meste gått i den norske versjonen, men har også gjort noe på den
-        svenske også.
+        for det meste gått i den norske versjonen, men har også gjort noe på de
+        andre språkene.
       </p>
       {/* <p>
         Arbeidsflyten har stort sett vært at jeg logger inn i <i>magento admin</i>{" "}
@@ -61,7 +61,9 @@ function Extraoptical() {
             </li>
           </ul> */}
         </li>
-        <li>Rettet opp / fjernet <i>broken links</i></li>
+        <li>
+          Rettet opp / fjernet <i>broken links</i>
+        </li>
         {/* <li>Lagt til nye lenketekster</li> */}
         <li>
           Fikset{" "}
@@ -74,7 +76,16 @@ function Extraoptical() {
           </a>{" "}
           for mobilvisning
         </li>
-        <li>Kopiert styling over flere undersider</li>
+        <li>Lagd undersider ut fra tilsendte bilder og tekst</li>
+        <li>
+          Fikset layout
+          {/* <ul>
+            <li>Kopiert styling over flere undersider</li>
+            <li>
+              fjernet unødvendig bruk av flere <T>h1</T> pr sidedokumentet
+            </li>
+          </ul> */}
+        </li>
         <li>Fikset litt typos</li>
         {/* <li>
           Rettet opp i ting som ikke gir helt mening{" "}
@@ -87,7 +98,6 @@ function Extraoptical() {
         </li> */}
       </ul>
       . . .
-
       {/*
       <h3>Ting jeg har reagert på i koden</h3>
       <p>
@@ -140,6 +150,9 @@ function Extraoptical() {
           Det hender koden som magento forteller at siden har, egentlig ikke
           samsvarer helt med den den har. F.eks. hvis noen andre er inne på
           samme block/page/meny så har det hent at koden den viser brukken
+        </li>
+        <li>
+          Det er forsøkt å kommentere ut CSS kode... med HTML-kommentar(!!!)
         </li>
       </ul>
       */}

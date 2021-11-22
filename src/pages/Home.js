@@ -4,7 +4,7 @@ import { galleryInfo, graphicworkInfo, webworkInfo } from "../pagesInfo";
 import Barchart from "../components/common/Barchart";
 import SquareLink from "../components/common/SquareLink";
 
-import Certification from "../components/common/Certification";
+import Certificate from "../components/common/Certificate";
 
 function Home() {
   return (
@@ -38,18 +38,17 @@ function Home() {
         />
       </div>
 
-      <h2>Nettsider</h2>
-      <p className="mb-50">
-        Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som
-        jeg har skrevet litt om.
-      </p>
+      <h2 className="mb-50">Nettsider</h2>
       <WebworkLinks />
+
       <h2 className="mb-50">Grafisk</h2>
       <GraphicworkLinks />
+
       <h2 className="mb-50">Annet</h2>
       <OtherLinks />
-      <h2 className="mb-50">Sertififisering</h2>
-      <Certification />
+
+      <h2 className="mb-50">Sertifikat</h2>
+      <Certificate />
     </>
   );
 }

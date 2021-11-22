@@ -16,10 +16,10 @@ function Dokker() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fas fa-circle-notch"></i> Besøk siden
+        <span className="fas fa-circle-notch"></span> Besøk siden
       </a>
       <span className="link">
-        <i className="fab fa-github"></i> Privat kildekode
+        <span className="fab fa-github"></span> Privat kildekode
       </span>
       <h2>
         Praksisprosjekt hos Learning Moment
@@ -40,7 +40,14 @@ function Dokker() {
         <li>Vurdering av andres kode</li>
         <li>Litt bug-fixing</li>
       </ul>
-
+      <p>Under denne perioden lærte jeg:</p>
+      <ul>
+        <li>React og relaterte verktøy</li>
+        <li>
+          Samarbeid på prosjekt med bruk av <i>issues</i> og{" "}
+          <i>pull requests</i>
+        </li>
+      </ul>
       <h3>Komponentener jeg lagde</h3>
       <div uk-lightbox="animation: slide">
         <Figure
@@ -68,11 +75,7 @@ function Dokker() {
         får de beholde tilgangen til livet ut. Man kan også legge ut vitnemål og
         sertifiseringer.
       </p>
-      <p>
-        Det er mer til Dokker enn det jeg beskrev over, og for videre lesing kan
-        du sjekke ut disse sidene:
-      </p>
-      <h3>Mer om Dokker</h3>
+      <h3>Eksterne ressurser</h3>
       <ul>
         <li>
           <a href="https://www.dokker.com/nb">Dokker appen</a>

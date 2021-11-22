@@ -23,10 +23,10 @@ function Template() {
         <span className="fab fa-github"></span> Kildekode
       </a>
       <span className="link">
-        <i className="fas fa-circle-notch"></i> Ikke tilgjengelig live
+        <span className="fas fa-circle-notch"></span> Ikke tilgjengelig live
       </span>
       <span className="link">
-        <i className="fab fa-github"></i> Privat kildekode
+        <span className="fab fa-github"></span> Privat kildekode
       </span>
       <h2>
         Sammenheng

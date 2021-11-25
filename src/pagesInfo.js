@@ -7,7 +7,7 @@ import { lazy } from "react";
 // home
 import photo from "./images/cvphoto2.jpg";
 // webwork
-import extraopticalImg from "./images/extraoptical/logo/eo-icon.png"
+import extraopticalImg from "./images/extraoptical/logo/eo-icon.png";
 import dokkerImg from "./images/dokker/logo/dokkericon.png";
 import rankingappImg from "./images/rankingapp/rankingapp.png";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.png";
@@ -28,12 +28,12 @@ import galleryImg from "./images/gallery/gallery1.png";
 const Home = lazy(() => import("./pages/Home"));
 // webwork
 const Webwork = lazy(() => import("./pages/Webwork"));
-const Extraoptical = lazy(() => import("./pages/Extraoptical"))
+const Extraoptical = lazy(() => import("./pages/Extraoptical"));
 const Dokker = lazy(() => import("./pages/Dokker"));
 const Rankingapp = lazy(() => import("./pages/Rankingapp"));
 const Videoopplasting = lazy(() => import("./pages/Videoopplasting"));
 const Maclean = lazy(() => import("./pages/Maclean"));
-const Portfolios = lazy(()=> import("./pages/Portfolios"))
+const Portfolios = lazy(() => import("./pages/Portfolios"));
 // graphicwork
 const Graphicwork = lazy(() => import("./pages/Graphicwork"));
 const Artistbooking = lazy(() => import("./pages/Artistbooking"));
@@ -76,7 +76,8 @@ const pagesInfo = [
         page: <Extraoptical />,
         imgSrc: extraopticalImg,
         imgAlt: "Extraoptical logo",
-        tools: ["Magento2", "HTML", "CSS", "Screaming frog"],
+        tools: ["Magento2", "HTML", "CSS"],
+        thereAreMoreTools: true,
       },
       {
         id: 4,

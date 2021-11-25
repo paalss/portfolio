@@ -73,7 +73,7 @@ export function WebworkLinks() {
         <SquareLink desktopEmptySpace />
         <SquareLink desktopEmptySpace />
       </div>
-      <div className="mt-50">
+      <div className="mt-50 center-content">
         <a
           className="link"
           href="https://github.com/paalss?tab=repositories"

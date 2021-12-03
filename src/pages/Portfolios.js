@@ -20,12 +20,19 @@ function Portfolios() {
         </ul>
 
         <p>
-          Den første porteføljen min hvor jeg fokuserer på webutvikling, og som
-          jeg er helt fullstendig fornøyd med. Den forrige fra 2019 (den under)
+          Dette er den første porteføljen min hvor jeg har satt mitt webarbeid
+          mer på "display". Den forrige porteøljen min fra 2019 (den under)
           hadde bare lenker til to nettsider som jeg hadde lagd, lite synlig på
-          "arbeid"-siden. I den nye har jeg lagd et design som putter nettsidene
-          mine mer på "display". De er mer synlige.
+          "arbeid"-siden hvor mitt grafiske arbeid fra videregående tar mest
+          oppmerksomhet.
         </p>
+        {/*
+        <p>
+          Ellers så var jeg misfornøyd med designet og hadde fått tilbakemelding
+          på den forrige porteføljen, så da ble det til at jeg kjørte en{" "}
+          <i>complete redesign</i> av den.
+        </p>
+        */}
 
         <div uk-lightbox="animation: slide">
           <Figure imgSrc={pf5} imgAlt="portefølje 5" caption="portefølje 5" />
@@ -60,8 +67,9 @@ function Portfolios() {
         <p>
           Denne lagde jeg i PHP, mest for å løse for å fikse
           «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så
-          godt på denne tiden, og jeg hadde tilgang på en <i>live</i> server
-          (folk.ntnu.no/paalsst) som støttet PHP.
+          godt på denne tiden, og jeg hadde tilgang på en <i>live server</i>{" "}
+          (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det
+          ikke ble en statisk side.
         </p>
 
         <div uk-lightbox="animation: slide">
@@ -159,9 +167,9 @@ function Portfolios() {
         </ul>
 
         <p>
-          Til en skoleoppgave lagde jeg en tresiders portefølje om meg selv og
-          mitt arbeid. Etter å ha levert denne oppgaven endret jeg litt på
-          layout-et.
+          I 2015 gikk jeg på <i>medier og kommunikasjon</i> på Byåsen VGS. Til
+          en skoleoppgave lagde jeg en tresiders portefølje om meg selv og mitt
+          arbeid. Etter å ha levert denne oppgaven endret jeg litt på layout-et.
         </p>
 
         <div uk-lightbox="animation: slide">

@@ -38,7 +38,11 @@ function Home() {
         />
       </div>
 
-      <h2 className="mb-50">Nettsider</h2>
+      <h2>Nettsider</h2>
+      <p className="mb-50">
+        Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som
+        jeg har skrevet litt om.
+      </p>
       <WebworkLinks />
 
       <h2 className="mb-50">Grafisk</h2>

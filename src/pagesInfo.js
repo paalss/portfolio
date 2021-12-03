@@ -15,7 +15,7 @@ import macleanImg from "./images/maclean/alistairmaclean.png";
 import portfoliosImg from "./images/portfolios/pf5.png";
 // graphicwork
 import artistbookingImg from "./images/artistbooking/Android-Mobile–6.png";
-import jrNmImg from "./images/jr-nm-ski/IMG_2413.JPG";
+import jrNmImg from "./images/jr-nm-ski/IMG_2413-min.JPG";
 // other
 import galleryImg from "./images/gallery/gallery1.png";
 

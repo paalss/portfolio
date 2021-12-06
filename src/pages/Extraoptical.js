@@ -23,8 +23,7 @@ function Extraoptical() {
         <span className="subtitle">2021 november–</span>
       </h2>
       <ul className="tools">
-        Verktøy: <li>Magento2</li> <li>HTML</li> <li>CSS</li>{" "}
-        <li>Screaming Frog</li>
+        Verktøy: <li>Magento2</li> <li>PHTML</li> <li>CSS</li>
       </ul>
       <p>
         I dennne praksisen jobbet jeg med nettbutikken Extra Optical. Det har

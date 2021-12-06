@@ -76,8 +76,7 @@ const pagesInfo = [
         page: <Extraoptical />,
         imgSrc: extraopticalImg,
         imgAlt: "Extraoptical logo",
-        tools: ["Magento2", "HTML", "CSS"],
-        thereAreMoreTools: true,
+        tools: ["Magento2", "PHTML", "CSS"]
       },
       {
         id: 4,
@@ -86,7 +85,7 @@ const pagesInfo = [
         page: <Dokker />,
         imgSrc: dokkerImg,
         imgAlt: "Dokker logo",
-        tools: ["React", "TypeScript", "HTML", "CSS"],
+        tools: ["React", "TypeScript", "JSX", "CSS"],
       },
       {
         id: 5,
@@ -106,7 +105,7 @@ const pagesInfo = [
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
         imgAlt: "Videoopplasting app",
-        tools: ["PHP", "JavaScript", "LitElement"],
+        tools: ["PHP", "LitElement", "JavaScript"],
         thereAreMoreTools: true,
       },
       {
@@ -126,7 +125,7 @@ const pagesInfo = [
         page: <Portfolios />,
         imgSrc: portfoliosImg,
         imgAlt: "porteføljer side",
-        tools: ["React", "HTML", "CSS"],
+        tools: ["React", "JavaScript", "JSX", "CSS"],
         thereAreMoreTools: true,
       },
     ],

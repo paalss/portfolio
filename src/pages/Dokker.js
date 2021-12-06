@@ -26,7 +26,7 @@ function Dokker() {
         <span className="subtitle">2021 april–september</span>
       </h2>
       <ul className="tools">
-        Verktøy: <li>React</li> <li>TypeScript</li> <li>HTML</li> <li>CSS</li>
+        Verktøy: <li>React</li> <li>TypeScript</li> <li>JSX</li> <li>CSS</li>
       </ul>
       <p>
         Under denne fem-måneders praksisen bidro jeg i utviklingen av
@@ -70,12 +70,12 @@ function Dokker() {
       <p>
         Dokker kan minne om en fusjon av ItsLearning (eller Blackboard/Fronter)
         og vitnemålsportalen: I Dokker kan f.eks. lærere legge ut oppgaver, og
-        elever kan levere inn besvarelser sammen med selvvurderinger. <br />
+        elever kan levere inn besvarelser og selvvurderinger. <br />
         Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den
         får de beholde tilgangen til livet ut. Man kan også legge ut vitnemål og
-        sertifiseringer.
+        sertifikater.
       </p>
-      <h3>Eksterne ressurser</h3>
+      <h3>Videre lesing</h3>
       <ul>
         <li>
           <a href="https://www.dokker.com/nb">Dokker appen</a>

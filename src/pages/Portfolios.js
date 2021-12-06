@@ -16,23 +16,15 @@ function Portfolios() {
           <span className="subtitle">2020 desember–</span>
         </h2>
         <ul className="tools">
-          Verktøy: <li>React</li> <li>JavaScript</li> <li>HTML</li> <li>CSS</li>
+          Verktøy: <li>React</li> <li>JavaScript</li> <li>JSX</li> <li>CSS</li>
         </ul>
 
         <p>
-          Dette er den første porteføljen min hvor jeg har satt mitt webarbeid
-          mer på "display". Den forrige porteøljen min fra 2019 (den under)
-          hadde bare lenker til to nettsider som jeg hadde lagd, lite synlig på
-          "arbeid"-siden hvor mitt grafiske arbeid fra videregående tar mest
-          oppmerksomhet.
+          Denne porteføljen lagde jeg fordi jeg var ufornøyd med den forrige (se
+          under). Den hadde litt for dårlig design og hadde lite fokus på
+          nettsider jeg hadde laget, så da begynte jeg liksågodt på en helt ny
+          portefølje.
         </p>
-        {/*
-        <p>
-          Ellers så var jeg misfornøyd med designet og hadde fått tilbakemelding
-          på den forrige porteføljen, så da ble det til at jeg kjørte en{" "}
-          <i>complete redesign</i> av den.
-        </p>
-        */}
 
         <div uk-lightbox="animation: slide">
           <Figure imgSrc={pf5} imgAlt="portefølje 5" caption="portefølje 5" />
@@ -60,9 +52,11 @@ function Portfolios() {
         </ul>
 
         <p>
-          Portenføljen jeg lagde før denne, (den under fra 2016), var veldig
-          mangelfull. I denne nye porteføljen forsøkte jeg å dekke så mye som
-          mulig av det jeg hadde gjort.
+          Porteføljene jeg hadde lagd før denne (se under) var enten for
+          mangelfull av informasjon om mitt arbeid eller hadde for dårlig kode,
+          så da begynte jeg heller på denne. I denne forsøkte jeg å dekke så mye
+          som mulig av det arbeidet jeg hadde gjort, alt grafisk og 
+          koderelatert.
         </p>
         <p>
           Denne lagde jeg i PHP, mest for å løse for å fikse

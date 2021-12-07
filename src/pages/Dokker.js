@@ -75,6 +75,16 @@ function Dokker() {
         får de beholde tilgangen til livet ut. Man kan også legge ut vitnemål og
         sertifikater.
       </p>
+      {/*
+      <p>
+        Dokker er en kommunikasjonsportal mellom f.eks. lærere og elever, hvor
+        lærere kan legge ut forelesninger og oppgaver mens elever kan gi
+        leveranser og selvvurderinger. Man kan også legge ut vitnemål,
+        sertifikater og annen dokumentasjon. <br />
+        Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den
+        får de beholde tilgangen til livet ut.
+      </p>
+      */}
       <h3>Videre lesing</h3>
       <ul>
         <li>

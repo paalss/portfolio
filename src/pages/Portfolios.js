@@ -20,10 +20,23 @@ function Portfolios() {
         </ul>
 
         <p>
-          Denne porteføljen lagde jeg fordi jeg var ufornøyd med den forrige (se
-          under). Den hadde litt for dårlig design og hadde lite fokus på
-          nettsider jeg hadde laget, så da begynte jeg liksågodt på en helt ny
-          portefølje.
+          Før jeg lagde denne porteføljen har jeg lagd massevis av tidligere
+          versjoner. Denne porteføljen ble til fordi jeg var ufornøyd med den
+          forrige (se under). <br />
+          Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg
+          hadde laget, så da begynte jeg liksågodt på en helt ny portefølje.
+        </p>
+        <h3>Hvorfor React?</h3>
+        <p>
+          Etter hvert som nettsiden ble større og koden mer uoversiktlig, hadde
+          jeg større behov for struktur. Jeg syntes jeg kunne ordne opp i dette
+          ved å lage en kompoent-basert nettside, og React var det
+          komponentbaserte verktøyet jeg hadde mest erfaring med.
+          
+          {/* <br />
+          Dessuten gjør React det veldig enkelt for meg å hente data fra web API
+          med <i>serverside JavaScript</i> og sende dette direkte til{" "}
+          <i>klient-siden</i>. */}
         </p>
 
         <div uk-lightbox="animation: slide">
@@ -55,7 +68,7 @@ function Portfolios() {
           Porteføljene jeg hadde lagd før denne (se under) var enten for
           mangelfull av informasjon om mitt arbeid eller hadde for dårlig kode,
           så da begynte jeg heller på denne. I denne forsøkte jeg å dekke så mye
-          som mulig av det arbeidet jeg hadde gjort, alt grafisk og 
+          som mulig av det arbeidet jeg hadde gjort, alt grafisk og
           koderelatert.
         </p>
         <p>

@@ -10,9 +10,9 @@ function Home() {
   return (
     <>
       <h2>Kompetanse</h2>
-      <p className="mb-50">
+      <div className="mb-50">
         Jeg har erfaring innen webutvikling og grafisk design.
-      </p>
+      </div>
       <div id="skills-placeholder" className="skills-placeholder mb-130">
         <Barchart
           web={[
@@ -39,10 +39,10 @@ function Home() {
       </div>
 
       <h2>Nettsider</h2>
-      <p className="mb-50">
+      <div className="mb-50">
         Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som
         jeg har skrevet litt om.
-      </p>
+      </div>
       <WebworkLinks />
 
       <h2 className="mb-50">Grafisk</h2>

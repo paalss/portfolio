@@ -21,7 +21,7 @@ function Rankingapp() {
       </a>
       <h2>
         Ranking app
-        <span className="subtitle">2020 høst–</span>
+        <span className="subtitle">2020 høst–2021 september</span>
       </h2>
       <ul className="tools">
         Verktøy: <li>JavaScript</li> <li>TypeScript</li> <li>PHP</li>{" "}

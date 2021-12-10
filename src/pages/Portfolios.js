@@ -13,7 +13,7 @@ function Portfolios() {
       <>
         <h2>
           Fritidsprosjekt etter studiene
-          <span className="subtitle">2020 desember–</span>
+          <span className="subtitle">2020 desember–nå</span>
         </h2>
         <ul className="tools">
           Verktøy: <li>React</li> <li>JavaScript</li> <li>JSX</li> <li>CSS</li>
@@ -28,16 +28,21 @@ function Portfolios() {
         </p>
         <h3>Hvorfor React?</h3>
         <p>
-          Etter hvert som nettsiden ble større og koden mer uoversiktlig, hadde
-          jeg større behov for struktur. Jeg syntes jeg kunne ordne opp i dette
-          ved å lage en kompoent-basert nettside, og React var det
-          komponentbaserte verktøyet jeg hadde mest erfaring med.
-          
-          {/* <br />
+          Før jeg brukte React til porteføljen brukte jeg JavaScript til å skape
+          en komponent-basert arkitektur. Det var fordi noen elementer måtte
+          gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes
+          bort fra index.html (søylediagrammet).
+        </p>
+        <p>
+          Å lage komponenter for disse med "vanilla JavaScript" ble ganske
+          uelegant etter hvert som koden ble større. Jeg gikk derfor over til
+          React, da det var et verktøy jeg hadde god kjennskap til.
+        </p>
+        {/*<p>
           Dessuten gjør React det veldig enkelt for meg å hente data fra web API
           med <i>serverside JavaScript</i> og sende dette direkte til{" "}
-          <i>klient-siden</i>. */}
-        </p>
+          <i>klient-siden</i>.
+        </p> */}
 
         <div uk-lightbox="animation: slide">
           <Figure imgSrc={pf5} imgAlt="portefølje 5" caption="portefølje 5" />

@@ -6,17 +6,19 @@ https://paalss.github.io/portfolio/
 
 ### Serve
 
-`yarn start` / `npm start`
+`yarn start`
 
 ### Deploy til Github pages
 
-`yarn deploy` / `npm run deploy`
+`yarn build`
+
+`yarn deploy`
 
 https://create-react-app.dev/docs/deployment#github-pages
 
 ### Dark mode
 
-Aktiver `import "./darkmode.css"` i **index.js**
+Browser addon 'Dark Reader' funker veldig godt til denne.
 
 ### Create React App README
 

@@ -24,8 +24,16 @@ function JRNM() {
       </p>
       <p>
         Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i
-        den ferdige logoen, med norskeflagg og alt. Jeg hadde også en grå tekst
-        under hvor det sto «Jr NM på ski 2015».
+        den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange
+        forskjellige fargevariasjoner av den, deriblant den med
+        norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015»
+        med grå tekst.
+      </p>
+      <p>
+        I den logoen som ble brukt i arrangementet hadde den grå teksten
+        heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre
+        ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere
+        ut da jeg så at den på arrangementet.
       </p>
       <p>
         Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at
@@ -33,19 +41,13 @@ function JRNM() {
         visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle
         piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg
         prøvde ut logoen i masse forskjellige farger, og man kunne se
-        restepiksler fra tidligere fargefyll.
-      </p>
-      <p>
-        I den ferdige logoen som ble brukt i arrangementet hadde den grå teksten
-        heldigvis blitt byttet ut med en blå tekst, som ser mye bedre ut.
-        Mistenker også at de har vektorisert den, siden logoen så mye renere ut
-        da jeg så at den på arrangementet.
+        restepiksler fra tidligere fargefyll i de forskjellige utkastene.
       </p>
       <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={JRNMImg2}
           imgAlt="Logo for Junior NM på ski 2015"
-          caption="Logo som ble brukt. Den er bearbeidet etter jeg leverte den i 2013"
+          caption="Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
         />
         <Figure imgSrc={JRNMImg3} imgAlt="plakat med logo" caption="Plakat" />
       </div>

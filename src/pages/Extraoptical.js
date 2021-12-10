@@ -20,7 +20,7 @@ function Extraoptical() {
       </span>
       <h2>
         Praksis hos Extra Optical
-        <span className="subtitle">2021 november–</span>
+        <span className="subtitle">2021 november–nå</span>
       </h2>
       <ul className="tools">
         Verktøy: <li>Magento2</li> <li>PHTML</li> <li>CSS</li>
@@ -45,7 +45,8 @@ function Extraoptical() {
           {/* <ul>
             <li>
               <T>/a</T>-tags som manglet starting tag. Og{" "}
-              <T>strong</T> tags som manglet ending tag
+              <T>strong</T> tags som manglet ending tag. Slike
+              "manglende matching pair" feil var det mye av
             </li>
             <li>
               <T>h1</T> og <T>div</T> som var{" "}
@@ -58,6 +59,9 @@ function Extraoptical() {
               ukonsistent bruk av heading-tags brukt over tre tekstkolonner side
               om side
             </li>
+            <li>
+              Kunne også se koden: <code><T>p</T><T>h3</T><T>strong</T><T>/strong</T>
+              <T>/h3</T><T>/p</T></code></li> et sted
           </ul> */}
         </li>
         <li>

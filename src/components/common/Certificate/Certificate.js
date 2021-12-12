@@ -1,5 +1,5 @@
 import "./Certificate.css";
-import reactCertificate from "../../../images/certificates/react-certificate.jpg";
+import reactCertificate from "../../../images/certificates/react-certificate.webp";
 import { useEffect } from "react";
 
 function Certification() {

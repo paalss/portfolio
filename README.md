@@ -12,6 +12,8 @@ https://paalss.github.io/portfolio/
 
 `yarn build`
 
+`yarn postbuild`
+
 `yarn deploy`
 
 https://create-react-app.dev/docs/deployment#github-pages

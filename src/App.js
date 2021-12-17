@@ -32,6 +32,9 @@ function App() {
                     </Route>
                   );
                 })}
+                <Route path="*">
+                  <h1>404 - Page not found</h1>
+                </Route>
               </Switch>
             </div>
           </Header>

@@ -1,9 +1,9 @@
-import pf5 from "../images/portfolios/pf5.png";
-import pf4 from "../images/portfolios/pf4.png";
-import pf3 from "../images/portfolios/pf3.png";
-import pf2 from "../images/portfolios/pf2-full2.png";
-import pf1v2 from "../images/portfolios/pf1-2.png";
-import pf1v1 from "../images/portfolios/pf1-1.jpg";
+import pf5 from "../images/portfolios/pf5.webp";
+import pf4 from "../images/portfolios/pf4.webp";
+import pf3 from "../images/portfolios/pf3.webp";
+import pf2 from "../images/portfolios/pf2-full2.webp";
+import pf1v2 from "../images/portfolios/pf1-2.webp";
+import pf1v1 from "../images/portfolios/pf1-1.webp";
 
 import Figure from "../components/common/Figure";
 
@@ -20,11 +20,10 @@ function Portfolios() {
         </ul>
 
         <p>
-          Før jeg lagde denne porteføljen har jeg lagd massevis av tidligere
+          Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere
           versjoner. Denne porteføljen ble til fordi jeg var ufornøyd med den
-          forrige (se under). <br />
-          Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg
-          hadde laget, så da begynte jeg liksågodt på en helt ny portefølje.
+          forrige (se under): Den hadde litt for dårlig design og hadde lite
+          fokus på nettsider jeg hadde laget.
         </p>
         <h3>Hvorfor React?</h3>
         <p>
@@ -34,9 +33,9 @@ function Portfolios() {
           bort fra index.html (søylediagrammet).
         </p>
         <p>
-          Å lage komponenter for disse med "vanilla JavaScript" ble ganske
-          uelegant etter hvert som koden ble større. Jeg gikk derfor over til
-          React, da det var et verktøy jeg hadde god kjennskap til.
+          Å lage komponenter med "vanilla JavaScript" ble ganske uelegant etter
+          hvert som koden ble større. Jeg gikk derfor over til React da det var
+          et verktøy jeg hadde god kjennskap til.
         </p>
         {/*<p>
           Dessuten gjør React det veldig enkelt for meg å hente data fra web API
@@ -45,7 +44,13 @@ function Portfolios() {
         </p> */}
 
         <div uk-lightbox="animation: slide">
-          <Figure imgSrc={pf5} imgAlt="portefølje 5" caption="portefølje 5" />
+          <Figure
+            imgSrc={pf5}
+            imgWidth={1229}
+            imgHeight={7013}
+            imgAlt="portefølje 5"
+            caption="portefølje 5"
+          />
         </div>
         <span className="link">
           <span className="fas fa-circle-notch"></span> Du er på siden
@@ -85,7 +90,13 @@ function Portfolios() {
         </p>
 
         <div uk-lightbox="animation: slide">
-          <Figure imgSrc={pf4} imgAlt="portefølje 4" caption="portefølje 4" />
+          <Figure
+            imgSrc={pf4}
+            imgWidth={973}
+            imgHeight={1057}
+            imgAlt="portefølje 4"
+            caption="portefølje 4"
+          />
         </div>
         <span className="link">
           <span className="fas fa-circle-notch"></span> Ikke tilgjengelig live
@@ -110,7 +121,13 @@ function Portfolios() {
         </ul>
 
         <div uk-lightbox="animation: slide">
-          <Figure imgSrc={pf3} imgAlt="portefølje 3" caption="portefølje 3" />
+          <Figure
+            imgSrc={pf3}
+            imgWidth={1280}
+            imgHeight={623}
+            imgAlt="portefølje 3"
+            caption="portefølje 3"
+          />
         </div>
         <a
           className="link"
@@ -147,6 +164,8 @@ function Portfolios() {
         <div uk-lightbox="animation: slide">
           <Figure
             imgSrc={pf2}
+            imgWidth={1331}
+            imgHeight={752}
             imgAlt="portefølje 2"
             caption="Fritidsprosjekt som aldri ble fullført"
           />
@@ -183,15 +202,18 @@ function Portfolios() {
           en skoleoppgave lagde jeg en tresiders portefølje om meg selv og mitt
           arbeid. Etter å ha levert denne oppgaven endret jeg litt på layout-et.
         </p>
-
         <div uk-lightbox="animation: slide">
           <Figure
             imgSrc={pf1v2}
+            imgWidth={1280}
+            imgHeight={622}
             imgAlt="portefølje 1 versjon 2"
             caption="Videreutvikling: nye farger og noe endret layout"
           />
           <Figure
             imgSrc={pf1v1}
+            imgWidth={723}
+            imgHeight={437}
             imgAlt="portefølje 1 versjon 1"
             caption="Innleveringsoppgave på medier og kommunikasjon"
           />

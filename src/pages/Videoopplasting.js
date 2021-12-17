@@ -1,7 +1,7 @@
-import videoOgTranskriptImg from "../images/www-teknologi/2-video-og-transkript.png";
-import videosideImg from "../images/www-teknologi/prosjekt2-5-videoside.png";
-import videolisteImg from "../images/www-teknologi/prosjekt2-7-videoliste.png";
-import videoopplastingImg from "../images/www-teknologi/prosjekt2-8-videoopplasting.png";
+import videoOgTranskriptImg from "../images/www-teknologi/2-video-og-transkript.webp";
+import videosideImg from "../images/www-teknologi/prosjekt2-5-videoside.webp";
+import videolisteImg from "../images/www-teknologi/prosjekt2-7-videoliste.webp";
+import videoopplastingImg from "../images/www-teknologi/prosjekt2-8-videoopplasting.webp";
 import Figure from "../components/common/Figure";
 
 function Videoopplasting() {
@@ -66,6 +66,15 @@ function Videoopplasting() {
         <li>MySQL</li> <li>Relasjonsdatabase</li> <li>HTML</li> <li>CSS</li>{" "}
         <li>Docker</li>
       </ul>
+
+      <dl>
+        <dt>LitElement</dt>
+        <dd>
+          Verktøy for å bygge komponent-baserte nettsider. LitElement skiller
+          seg fra React ved at den bruker HTML som sitt templating språk (og
+          ikke JSX) Ellers så har LitElement kun class-based components.
+        </dd>
+      </dl>
 
       <p>
         Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det

@@ -1,13 +1,18 @@
 import rankingappGif from "../images/rankingapp/app-recording1.gif";
-import overviewImg from "../images/rankingapp/overview.png";
-import topNovelsImg from "../images/rankingapp/top-novels2.png";
-import bestMetroidvaniasImg from "../images/rankingapp/best-metroidvanias.png";
+import overviewImg from "../images/rankingapp/overview.webp";
+import topNovelsImg from "../images/rankingapp/top-novels2.webp";
+import bestMetroidvaniasImg from "../images/rankingapp/best-metroidvanias.webp";
 import Figure from "../components/common/Figure";
 
 function Rankingapp() {
   return (
     <>
-      <img src={rankingappGif} alt="ranking app interface" />
+      <img
+        src={rankingappGif}
+        width={1296}
+        height={616}
+        alt="ranking app interface"
+      />
       <span className="link">
         <span className="fas fa-circle-notch"></span> Ikke tilgjengelig live
       </span>

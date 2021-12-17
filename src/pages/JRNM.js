@@ -1,7 +1,7 @@
-import JRNMImg from "../images/jr-nm-ski/IMG_2413-min.JPG";
-import JRNMImg2 from "../images/jr-nm-ski/JrNM-logo-web.jpg";
-import JRNMImg3 from "../images/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.jpg";
-// import remake from "../images/jr-nm-ski/jrnmlogo-ai-remake.png";
+import JRNMImg from "../images/jr-nm-ski/IMG_2413-min.webp";
+import JRNMImg2 from "../images/jr-nm-ski/JrNM-logo-web.webp";
+import JRNMImg3 from "../images/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp";
+// import remake from "../images/jr-nm-ski/jrnmlogo-ai-remake.webp";
 
 import Figure from "../components/common/Figure";
 

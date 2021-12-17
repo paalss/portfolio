@@ -8,7 +8,7 @@ import { lazy } from "react";
 import photo from "./images/cvphoto2.webp";
 // webwork
 import extraopticalImg from "./images/extraoptical/logo/eo-icon.webp";
-import dokkerImg from "./images/dokker/logo/dokkericon.png";
+import dokkerImg from "./images/dokker/logo/dokkericon.webp";
 import rankingappImg from "./images/rankingapp/rankingapp.webp";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.webp";
 import macleanImg from "./images/maclean/alistairmaclean.webp";

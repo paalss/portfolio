@@ -1,15 +1,15 @@
-import dokkerInterface from "../images/dokker/dashboard/latest-document-assignment.png";
-import followupcardImg from "../images/dokker/follow-up-card/followupcard.png";
-import newcardsImg from "../images/dokker/news-card/newscards.png";
-// import newcardImg from "../images/dokker/news-card/wip3-2021-06-30-at-08.58.07.png";
-// import noelementsfoundImg from "../images/dokker/no-elements-found/empty-state-for-your-assignments.png";
+import dokkerInterface from "../images/dokker/dashboard/latest-document-assignment.webp";
+import followupcardImg from "../images/dokker/follow-up-card/followupcard.webp";
+import newcardsImg from "../images/dokker/news-card/newscards.webp";
+// import newcardImg from "../images/dokker/news-card/wip3-2021-06-30-at-08.58.07.webp";
+// import noelementsfoundImg from "../images/dokker/no-elements-found/empty-state-for-your-assignments.webp";
 
 import Figure from "../components/common/Figure";
 
 function Dokker() {
   return (
     <>
-      <img src={dokkerInterface} alt="Dokker logo" />
+      <img src={dokkerInterface} alt="Dokker logo" width={2880} height={1534} />
       <a
         className="link"
         href="https://www.dokker.com/nb/"
@@ -58,7 +58,7 @@ function Dokker() {
         <Figure
           imgSrc={newcardsImg}
           imgAlt="NewsCard"
-          caption="Et kort for recent-atcivities-delen av dashboard"
+          caption="Et kort for recent-activities-delen av dashboard"
         />
         {/* <Figure
           imgSrc={noelementsfoundImg}

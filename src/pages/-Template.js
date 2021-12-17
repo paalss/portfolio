@@ -1,4 +1,4 @@
-import img from "../images/tmplt/t.png";
+import img from "../images/tmplt/t.webp";
 
 import Figure from "../components/common/Figure";
 

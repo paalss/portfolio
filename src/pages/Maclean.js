@@ -1,9 +1,9 @@
-import macleanImg from "../images/maclean/alistairmaclean-full.png";
+import macleanImg from "../images/maclean/alistairmaclean-full.webp";
 
 function Maclean() {
   return (
     <>
-      <img src={macleanImg} alt="maclean nettside" />
+      <img src={macleanImg} alt="maclean nettside" width={837} height={556} />
       <a
         className="link"
         href="https://paalss.github.io/Alistair-MacLean-portfolio-redesign/"
@@ -38,7 +38,7 @@ function Maclean() {
 
       <h3>Verktøy</h3>
       <p>
-        Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript. Logoen lagde
+        Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript (ikke så mye å skryte av). Logoen lagde
         jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av
         eget modellfly oppå noen T-skjorter.
       </p>

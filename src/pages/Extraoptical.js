@@ -1,4 +1,4 @@
-import img from "../images/extraoptical/sider/front-page.png";
+import img from "../images/extraoptical/sider/front-page.webp";
 
 // import Figure from "../components/common/Figure";
 // import T from "../components/common/HtmlTag";
@@ -6,7 +6,7 @@ import img from "../images/extraoptical/sider/front-page.png";
 function Extraoptical() {
   return (
     <>
-      <img src={img} alt="img" />
+      <img src={img} alt="img" width={1920} height={1044} />
       <a
         className="link"
         href="https://extraoptical.no/"
@@ -25,6 +25,13 @@ function Extraoptical() {
       <ul className="tools">
         Verktøy: <li>Magento2</li> <li>PHTML</li> <li>CSS</li>
       </ul>
+      <dl>
+        <dt>PHTML</dt>
+        <dd>
+          Et HTML templating språk (HTML som aksepterer variabler og
+          expressions) i likhet med Twig og Handlebars.
+        </dd>
+      </dl>
       <p>
         I dennne praksisen jobbet jeg med nettbutikken Extra Optical. Det har
         for det meste gått i den norske versjonen, men har også gjort noe på de
@@ -80,6 +87,7 @@ function Extraoptical() {
           for mobilvisning
         </li>
         <li>Lagd undersider ut fra tilsendte bilder og tekst</li>
+        <li>Fikset på Extra Opticals Zendesk Help center</li>
         <li>
           Fikset layout
           {/* <ul>
@@ -99,6 +107,7 @@ function Extraoptical() {
             </li>
           </ul>
         </li> */}
+        <li>Bygd noen sider på den nye nettsiden (en Progressive Web App)</li>
       </ul>
       . . .
       {/*

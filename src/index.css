@@ -176,6 +176,7 @@
     justify-content: center;
   }
   main img {
+    height: auto; /*nødvendig for å overskrive height attribute */
     width: 100%;
   }
   main a.link,

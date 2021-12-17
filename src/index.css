@@ -294,7 +294,7 @@
   .index-header-flex {
     justify-content: flex-start;
   }
-  main .container p,
+  main .container p, main .container dl,
   main .container .normal-list li,
   blockquote {
     width: 630px;

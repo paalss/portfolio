@@ -16,7 +16,7 @@ function Portfolios() {
           <span className="subtitle">2020 desember–nå</span>
         </h2>
         <ul className="tools">
-          Verktøy: <li>React</li> <li>JavaScript</li> <li>JSX</li> <li>CSS</li>
+          Verktøy: <li>React</li> &shy;<li>JavaScript</li> &shy;<li>JSX</li> &shy;<li>CSS</li>
         </ul>
 
         <p>
@@ -71,7 +71,7 @@ function Portfolios() {
           <span className="subtitle">2019</span>
         </h2>
         <ul className="tools">
-          Verktøy: <li>PHP</li> <li>HTML</li> <li>CSS</li>
+          Verktøy: <li>PHP</li> &shy;<li>HTML</li> &shy;<li>CSS</li>
         </ul>
 
         <p>
@@ -84,7 +84,7 @@ function Portfolios() {
         <p>
           Denne lagde jeg i PHP, mest for å løse for å fikse
           «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så
-          godt på denne tiden, og jeg hadde tilgang på en <i>live server</i>{" "}
+          godt på denne tiden, og jeg hadde tilgang på en <i>live server</i> &shy;
           (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det
           ikke ble en statisk side.
         </p>
@@ -117,7 +117,7 @@ function Portfolios() {
           <span className="subtitle">2016 høst</span>
         </h2>
         <ul className="tools">
-          Verktøy: <li>HTML</li> <li>CSS</li>
+          Verktøy: <li>HTML</li> &shy;<li>CSS</li>
         </ul>
 
         <div uk-lightbox="animation: slide">
@@ -153,7 +153,7 @@ function Portfolios() {
           <span className="subtitle">2016</span>
         </h2>
         <ul className="tools">
-          Verktøy: <li>HTML</li> <li>CSS</li>
+          Verktøy: <li>HTML</li> &shy;<li>CSS</li>
         </ul>
 
         <p>
@@ -194,7 +194,7 @@ function Portfolios() {
           <span className="subtitle">2015</span>
         </h2>
         <ul className="tools">
-          Verktøy: <li>HTML</li> <li>CSS</li>
+          Verktøy: <li>HTML</li> &shy;<li>CSS</li>
         </ul>
 
         <p>

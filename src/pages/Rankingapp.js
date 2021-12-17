@@ -29,9 +29,9 @@ function Rankingapp() {
         <span className="subtitle">2020 høst–2021 september</span>
       </h2>
       <ul className="tools">
-        Verktøy: <li>JavaScript</li> <li>TypeScript</li> <li>PHP</li>{" "}
-        <li>MySQL</li> <li>Relasjonsdatabase&nbsp;(MariaDB)</li> <li>HTML</li>{" "}
-        <li>CSS</li> <li>Docker</li> <li>Jest</li>
+        Verktøy: <li>JavaScript</li> &shy;<li>TypeScript</li> &shy;<li>PHP</li> &shy;
+        <li>MySQL</li> &shy;<li>Relasjonsdatabase&nbsp;(MariaDB)</li> &shy;<li>HTML</li> &shy;
+        <li>CSS</li> &shy;<li>Docker</li> &shy;<li>Jest</li>
       </ul>
       Prosjektet er foreløpig satt på pause.
       <p>

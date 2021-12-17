@@ -26,7 +26,8 @@ function Dokker() {
         <span className="subtitle">2021 april–september</span>
       </h2>
       <ul className="tools">
-        Verktøy: <li>React</li> <li>TypeScript</li> <li>JSX</li> <li>CSS</li>
+        Verktøy: <li>React</li> &shy;<li>TypeScript</li> &shy;<li>JSX</li> &shy;
+        <li>CSS</li>
       </ul>
       <p>
         Under denne fem-måneders praksisen bidro jeg i utviklingen av

@@ -22,7 +22,10 @@ function SquareLink({
             tools.map((tech, i) => {
               return (
                 <span key={i}>
-                  <li>{tech}</li>{" "}
+                  {/* &shy; med space foran er en hack for å oppnå wrap mellom
+                  list elements på mobile browsers: Chrome og Samsung Internet.
+                  {" "} som mellomrom var nok for desktop, men ikke for mobil. */}
+                  <li>{tech}</li> &shy;
                 </span>
               );
             })}

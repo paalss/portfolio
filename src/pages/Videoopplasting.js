@@ -29,8 +29,8 @@ function Videoopplasting() {
 
       <h2>Første prosjekt</h2>
       <ul className="tools">
-        Verktøy: <li>Twig</li> <li>PHP</li> <li>MySQL</li>{" "}
-        <li>Relasjonsdatabase</li> <li>HTML</li> <li>Docker</li>
+        Verktøy: <li>Twig</li> &shy;<li>PHP</li> &shy;<li>MySQL</li> &shy;
+        <li>Relasjonsdatabase</li> &shy;<li>HTML</li> &shy;<li>Docker</li>
       </ul>
 
       <p>
@@ -62,8 +62,8 @@ function Videoopplasting() {
 
       <h2>Andre prosjekt</h2>
       <ul className="tools">
-        Verktøy: <li>LitElement</li> <li>JavaScript</li> <li>PHP</li>{" "}
-        <li>MySQL</li> <li>Relasjonsdatabase</li> <li>HTML</li> <li>CSS</li>{" "}
+        Verktøy: <li>LitElement</li> &shy;<li>JavaScript</li> &shy;<li>PHP</li> &shy;
+        <li>MySQL</li> &shy;<li>Relasjonsdatabase</li> &shy;<li>HTML</li> &shy;<li>CSS</li> &shy;
         <li>Docker</li>
       </ul>
 

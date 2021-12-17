@@ -25,7 +25,7 @@ function Maclean() {
         <span className="subtitle">2015</span>
       </h2>
       <ul className="tools">
-        Verktøy: <li>HTML</li> <li>CSS</li> <li>Photoshop</li>{" "}
+        Verktøy: <li>HTML</li> &shy;<li>CSS</li> &shy;<li>Photoshop</li> &shy;
         <li>Illustrator</li>
       </ul>
       <p>
@@ -38,9 +38,9 @@ function Maclean() {
 
       <h3>Verktøy</h3>
       <p>
-        Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript (ikke så mye å skryte av). Logoen lagde
-        jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av
-        eget modellfly oppå noen T-skjorter.
+        Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript (ikke så mye
+        å skryte av). Logoen lagde jeg i Illustrator og header-bildet lagde jeg
+        ved photoshoppe et bilde av eget modellfly oppå noen T-skjorter.
       </p>
     </>
   );

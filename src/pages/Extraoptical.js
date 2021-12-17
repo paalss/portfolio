@@ -23,7 +23,7 @@ function Extraoptical() {
         <span className="subtitle">2021 november–nå</span>
       </h2>
       <ul className="tools">
-        Verktøy: <li>Magento2</li> <li>PHTML</li> <li>CSS</li>
+        Verktøy: <li>Magento2</li> &shy;<li>PHTML</li> &shy;<li>CSS</li>
       </ul>
       <dl>
         <dt>PHTML</dt>
@@ -38,7 +38,7 @@ function Extraoptical() {
         andre språkene.
       </p>
       {/* <p>
-        Arbeidsflyten har stort sett vært at jeg logger inn i <i>magento admin</i>{" "}
+        Arbeidsflyten har stort sett vært at jeg logger inn i <i>magento admin</i> &shy;
         web-appen, åpner en <i>page</i>, <i>block</i> eller meny, og fikser på
         HTML-koden som er der. Oftest oppretter jeg nye filer lokalt i VSCode og
         limer inn HTML-koden som var der fra før inn i den, for backup. Jeg gjør

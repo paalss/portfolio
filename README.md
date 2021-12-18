@@ -6,13 +6,15 @@ https://paalss.github.io/portfolio/
 
 ### Serve
 
-`yarn start`
+`npm start` / `yarn start`
 
-### Deploy til Github pages
+### Deploy
 
-`yarn build`
+`npm run deploy`
 
-`yarn postbuild`
+eller:
+
+`yarn predeploy`
 
 `yarn deploy`
 

@@ -216,15 +216,6 @@
   main span.link {
     background-color: #444;
   }
-  ul.tools {
-    padding: 0;
-  }
-  ul.tools li {
-    display: inline;
-    border-radius: 20px;
-    border: 2px solid #3b3b3b;
-    padding: 2px 7px;
-  }
   .center-content-fullscreen {
     height: 80vh;
     margin: 3rem auto;

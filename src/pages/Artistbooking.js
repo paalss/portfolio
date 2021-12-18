@@ -6,6 +6,7 @@ import destopImg from "../images/artistbooking/Web-1280–4.webp";
 // import screenshotImg from "../images/artistbooking/Screenshot_20191126-120019.webp";
 
 import Figure from "../components/common/Figure";
+import ToolList from "../components/common/ToolList";
 
 function Artistbooking() {
   return (
@@ -14,9 +15,8 @@ function Artistbooking() {
         Prosjekt i studiene
         <span className="subtitle">2019 høst</span>
       </h2>
-      <ul className="tools">
-        Verktøy: <li>Adobe XD</li>
-      </ul>
+      <ToolList tools={["Adobe XD"]} toolsText={true} />
+
       <p>
         I faget "grafiske verktøy, prinsipper og metoder" skulle vi lage en
         klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert,

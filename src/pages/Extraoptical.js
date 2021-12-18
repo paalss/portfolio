@@ -1,3 +1,4 @@
+import ToolList from "../components/common/ToolList";
 import img from "../images/extraoptical/sider/front-page.webp";
 
 // import Figure from "../components/common/Figure";
@@ -22,9 +23,7 @@ function Extraoptical() {
         Praksis hos Extra Optical
         <span className="subtitle">2021 november–nå</span>
       </h2>
-      <ul className="tools">
-        Verktøy: <li>Magento2</li> &shy;<li>PHTML</li> &shy;<li>CSS</li>
-      </ul>
+      <ToolList tools={["Magento2", "PHTML", "CSS"]} toolsText={true} />
       <dl>
         <dt>PHTML</dt>
         <dd>

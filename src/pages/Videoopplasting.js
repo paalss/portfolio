@@ -3,6 +3,7 @@ import videosideImg from "../images/www-teknologi/prosjekt2-5-videoside.webp";
 import videolisteImg from "../images/www-teknologi/prosjekt2-7-videoliste.webp";
 import videoopplastingImg from "../images/www-teknologi/prosjekt2-8-videoopplasting.webp";
 import Figure from "../components/common/Figure";
+import ToolList from "../components/common/ToolList";
 
 function Videoopplasting() {
   return (
@@ -13,8 +14,8 @@ function Videoopplasting() {
       </h2>
       <p>
         Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle
-        lage nettapplikasjoner for videoopplasting og -visning. Altså mye det
-        samme som det f.eks. Youtube, Udemy og Edx.
+        lage nettapplikasjoner for videoopplasting og &#8209;visning. Altså mye
+        det samme som det f.eks. Youtube, Udemy og Edx.
       </p>
       <p>
         Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp
@@ -28,17 +29,17 @@ function Videoopplasting() {
       </p>
 
       <h2>Første prosjekt</h2>
-      <ul className="tools">
-        Verktøy: <li>Twig</li> &shy;<li>PHP</li> &shy;<li>MySQL</li> &shy;
-        <li>Relasjonsdatabase</li> &shy;<li>HTML</li> &shy;<li>Docker</li>
-      </ul>
+      <ToolList
+        tools={["Twig", "PHP", "MySQL", "Relasjonsdatabase", "HTML", "Docker"]}
+        toolsText={true}
+      />
 
       <p>
         Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med
-        videoopplasting, -redigering og -visning. I tillegg gjorde jeg det
-        spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens
-        interaksjon med databasen, databasestrukturen og nedlasting av videoer
-        til filsystemet. Jeg jobbet også litt med kommentarer.
+        videoopplasting, &#8209;redigering og &#8209;visning. I tillegg gjorde
+        jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med
+        appens interaksjon med databasen, databasestrukturen og nedlasting av
+        videoer til filsystemet. Jeg jobbet også litt med kommentarer.
       </p>
       <p>
         Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre
@@ -63,11 +64,19 @@ function Videoopplasting() {
       </span>
 
       <h2>Andre prosjekt</h2>
-      <ul className="tools">
-        Verktøy: <li>LitElement</li> &shy;<li>JavaScript</li> &shy;<li>PHP</li> &shy;
-        <li>MySQL</li> &shy;<li>Relasjonsdatabase</li> &shy;<li>HTML</li> &shy;<li>CSS</li> &shy;
-        <li>Docker</li>
-      </ul>
+      <ToolList
+        tools={[
+          "LitElement",
+          "JavaScript",
+          "PHP",
+          "MySQL",
+          "Relasjonsdatabase",
+          "HTML",
+          "CSS",
+          "Docker",
+        ]}
+        toolsText={true}
+      />
 
       <dl>
         <dt>LitElement</dt>
@@ -108,9 +117,9 @@ function Videoopplasting() {
       </p>
       <p>
         I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for,
-        var å få til videoopplasting, -visning og -oversikt. Jeg lagde også
-        mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev
-        også med litt CSS styling.
+        var å få til videoopplasting, &#8209;visning og &#8209;oversikt. Jeg
+        lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere.
+        Jeg drev også med litt CSS styling.
       </p>
       <p>
         Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det

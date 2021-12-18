@@ -6,6 +6,7 @@ import pf1v2 from "../images/portfolios/pf1-2.webp";
 import pf1v1 from "../images/portfolios/pf1-1.webp";
 
 import Figure from "../components/common/Figure";
+import ToolList from "../components/common/ToolList";
 
 function Portfolios() {
   return (
@@ -15,9 +16,10 @@ function Portfolios() {
           Fritidsprosjekt etter studiene
           <span className="subtitle">2020 desember–nå</span>
         </h2>
-        <ul className="tools">
-          Verktøy: <li>React</li> &shy;<li>JavaScript</li> &shy;<li>JSX</li> &shy;<li>CSS</li>
-        </ul>
+        <ToolList
+          tools={["React", "JavaScript", "JSX", "CSS"]}
+          toolsText={true}
+        />
 
         <p>
           Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere
@@ -70,9 +72,7 @@ function Portfolios() {
           Fritidsprosjekt under studiene
           <span className="subtitle">2019</span>
         </h2>
-        <ul className="tools">
-          Verktøy: <li>PHP</li> &shy;<li>HTML</li> &shy;<li>CSS</li>
-        </ul>
+        <ToolList tools={["PHP", "HTML", "CSS"]} toolsText={true} />
 
         <p>
           Porteføljene jeg hadde lagd før denne (se under) var enten for
@@ -84,9 +84,9 @@ function Portfolios() {
         <p>
           Denne lagde jeg i PHP, mest for å løse for å fikse
           «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så
-          godt på denne tiden, og jeg hadde tilgang på en <i>live server</i> &shy;
-          (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det
-          ikke ble en statisk side.
+          godt på denne tiden, og jeg hadde tilgang på en <i>live server</i>{" "}
+          &shy; (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at
+          det ikke ble en statisk side.
         </p>
 
         <div uk-lightbox="animation: slide">
@@ -116,9 +116,7 @@ function Portfolios() {
           Eksamensinnlevering i webkoding
           <span className="subtitle">2016 høst</span>
         </h2>
-        <ul className="tools">
-          Verktøy: <li>HTML</li> &shy;<li>CSS</li>
-        </ul>
+        <ToolList tools={["HTML", "CSS"]} toolsText={true} />
 
         <div uk-lightbox="animation: slide">
           <Figure
@@ -152,9 +150,7 @@ function Portfolios() {
           En portefølje påbegynt like før studiene
           <span className="subtitle">2016</span>
         </h2>
-        <ul className="tools">
-          Verktøy: <li>HTML</li> &shy;<li>CSS</li>
-        </ul>
+        <ToolList tools={["HTML", "CSS"]} toolsText={true} />
 
         <p>
           Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har
@@ -193,9 +189,7 @@ function Portfolios() {
           Innlevering på VGS og videreutvikling etter det
           <span className="subtitle">2015</span>
         </h2>
-        <ul className="tools">
-          Verktøy: <li>HTML</li> &shy;<li>CSS</li>
-        </ul>
+        <ToolList tools={["HTML", "CSS"]} toolsText={true} />
 
         <p>
           I 2015 gikk jeg på <i>medier og kommunikasjon</i> på Byåsen VGS. Til

@@ -5,6 +5,7 @@ import newcardsImg from "../images/dokker/news-card/newscards.webp";
 // import noelementsfoundImg from "../images/dokker/no-elements-found/empty-state-for-your-assignments.webp";
 
 import Figure from "../components/common/Figure";
+import ToolList from "../components/common/ToolList";
 
 function Dokker() {
   return (
@@ -25,10 +26,11 @@ function Dokker() {
         Praksisprosjekt hos Learning Moment
         <span className="subtitle">2021 april–september</span>
       </h2>
-      <ul className="tools">
-        Verktøy: <li>React</li> &shy;<li>TypeScript</li> &shy;<li>JSX</li> &shy;
-        <li>CSS</li>
-      </ul>
+      <ToolList
+        tools={["React", "TypeScript", "JSX", "CSS"]}
+        toolsText={true}
+      />
+
       <p>
         Under denne fem-måneders praksisen bidro jeg i utviklingen av
         web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et

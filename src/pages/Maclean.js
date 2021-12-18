@@ -1,3 +1,4 @@
+import ToolList from "../components/common/ToolList";
 import macleanImg from "../images/maclean/alistairmaclean-full.webp";
 
 function Maclean() {
@@ -24,10 +25,11 @@ function Maclean() {
         Innlevering på videregående
         <span className="subtitle">2015</span>
       </h2>
-      <ul className="tools">
-        Verktøy: <li>HTML</li> &shy;<li>CSS</li> &shy;<li>Photoshop</li> &shy;
-        <li>Illustrator</li>
-      </ul>
+      <ToolList
+        tools={["HTML", "CSS", "Photoshop", "Illustrator"]}
+        toolsText={true}
+      />
+
       <p>
         I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å
         redesigne <i>alistairmaclean.com</i> sitt GUI. Grunnen var at jeg

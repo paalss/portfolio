@@ -1,0 +1,14 @@
+ul.tools {
+  padding: 0;
+}
+ul.tools li {
+  display: inline;
+}
+ul.tools .tool {
+  border-radius: 20px;
+  border: 2px solid #3b3b3b;
+  padding: 2px 7px;
+}
+span.invisible {
+  visibility: hidden;
+}

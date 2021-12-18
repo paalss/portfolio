@@ -3,6 +3,7 @@ import overviewImg from "../images/rankingapp/overview.webp";
 import topNovelsImg from "../images/rankingapp/top-novels2.webp";
 import bestMetroidvaniasImg from "../images/rankingapp/best-metroidvanias.webp";
 import Figure from "../components/common/Figure";
+import ToolList from "../components/common/ToolList";
 
 function Rankingapp() {
   return (
@@ -28,11 +29,20 @@ function Rankingapp() {
         Ranking app
         <span className="subtitle">2020 høst–2021 september</span>
       </h2>
-      <ul className="tools">
-        Verktøy: <li>JavaScript</li> &shy;<li>TypeScript</li> &shy;<li>PHP</li> &shy;
-        <li>MySQL</li> &shy;<li>Relasjonsdatabase&nbsp;(MariaDB)</li> &shy;<li>HTML</li> &shy;
-        <li>CSS</li> &shy;<li>Docker</li> &shy;<li>Jest</li>
-      </ul>
+      <ToolList
+        tools={[
+          "JavaScript",
+          "TypeScript",
+          "Jest",
+          "PHP",
+          "MySQL",
+          "Relasjonsdatabase",
+          "HTML",
+          "CSS",
+          "Docker",
+        ]}
+        toolsText={true}
+      />
       Prosjektet er foreløpig satt på pause.
       <p>
         I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere

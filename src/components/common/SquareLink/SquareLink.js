@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ToolList from "../ToolList/ToolList";
 import classes from "./SquareLink.module.css";
 
 function SquareLink({
@@ -17,20 +18,7 @@ function SquareLink({
           <img src={imgSrc} alt={imgAlt} />
         </div>
         <h3>{title}</h3>
-        <ul className="tools">
-          {tools &&
-            tools.map((tech, i) => {
-              return (
-                <span key={i}>
-                  {/* &shy; med space foran er en hack for å oppnå wrap mellom
-                  list elements på mobile browsers: Chrome og Samsung Internet.
-                  {" "} som mellomrom var nok for desktop, men ikke for mobil. */}
-                  <li>{tech}</li> &shy;
-                </span>
-              );
-            })}
-          {thereAreMoreTools && <>.&nbsp;.&nbsp;.</>}
-        </ul>
+        <ToolList tools={tools} thereAreMoreTools={thereAreMoreTools} />
       </Link>
     );
   } else {

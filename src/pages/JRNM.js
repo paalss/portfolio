@@ -4,6 +4,7 @@ import JRNMImg3 from "../images/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp";
 // import remake from "../images/jr-nm-ski/jrnmlogo-ai-remake.webp";
 
 import Figure from "../components/common/Figure";
+import ToolList from "../components/common/ToolList";
 
 function JRNM() {
   return (
@@ -12,15 +13,13 @@ function JRNM() {
         src={JRNMImg}
         width={5184}
         height={3456}
-        alt="Artist booking app grensesnitt"
+        alt="Junior NM på ski logo på skilt"
       />
       <h2>
         Praksisplass
         <span className="subtitle">2013</span>
       </h2>
-      <ul className="tools">
-        Verktøy <li>Photoshop</li>
-      </ul>
+      <ToolList tools={["Photoshop"]} toolsText={true} />
       <p>
         I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette
         var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg

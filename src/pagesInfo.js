@@ -9,15 +9,15 @@ import photo from "./images/cvphoto2.webp";
 // webwork
 import extraopticalImg from "./images/extraoptical/logo/eo-icon.webp";
 import dokkerImg from "./images/dokker/logo/dokkericon.webp";
-import rankingappImg from "./images/rankingapp/rankingapp.webp";
-import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside.webp";
+import rankingappImg from "./images/rankingapp/rankingapp-small.webp";
+import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside-small.webp";
 import macleanImg from "./images/maclean/alistairmaclean.webp";
 import portfoliosImg from "./images/portfolios/pf5.webp";
 // graphicwork
 import artistbookingImg from "./images/artistbooking/Android-Mobile–1.webp";
-import jrNmImg from "./images/jr-nm-ski/IMG_2413-min.webp";
+import jrNmImg from "./images/jr-nm-ski/IMG_2413-min-small.webp";
 // other
-import galleryImg from "./images/gallery/gallery1.webp";
+import galleryImg from "./images/gallery/gallery1-small.webp";
 
 // ---------------
 // PAGES

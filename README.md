@@ -12,6 +12,8 @@ https://paalss.github.io/portfolio/
 
 `npm run deploy`
 
+`yarn deploy`
+
 eller:
 
 `yarn predeploy`

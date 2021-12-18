@@ -1,4 +1,4 @@
-import scratchLogo from "../../../images/scratchlogo-transparent-white.webp";
+import scratchLogo from "../../../images/scratchlogo-transparent-white-small.webp";
 import classes from "./Footer.module.css"
 
 function Footer() {

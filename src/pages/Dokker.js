@@ -9,7 +9,7 @@ import Figure from "../components/common/Figure";
 function Dokker() {
   return (
     <>
-      <img src={dokkerInterface} alt="Dokker logo" width={2880} height={1534} />
+      <img src={dokkerInterface} width={2880} height={1534} alt="Dokker logo" />
       <a
         className="link"
         href="https://www.dokker.com/nb/"
@@ -53,19 +53,18 @@ function Dokker() {
       <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={followupcardImg}
+          imgWidth={694}
+          imgHeight={159}
           imgAlt="FollowUpCard"
           caption="Et kort for keep-up-delen av dashboard"
         />
         <Figure
           imgSrc={newcardsImg}
+          imgWidth={693}
+          imgHeight={525}
           imgAlt="NewsCard"
           caption="Et kort for recent-activities-delen av dashboard"
         />
-        {/* <Figure
-          imgSrc={noelementsfoundImg}
-          imgAlt="NoElementsFound"
-          caption="Et ikon og melding som allerede fantes direkte i andre komponenter, men som jeg fikk pakke inn i et eget komponent. Her er komponentet brukt på assignments-listen"
-        /> */}
       </div>
       <h3>Litt om Dokker</h3>
       <p>

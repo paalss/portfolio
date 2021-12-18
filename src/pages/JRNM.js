@@ -8,7 +8,12 @@ import Figure from "../components/common/Figure";
 function JRNM() {
   return (
     <>
-      <img src={JRNMImg} alt="Artist booking app grensesnitt" />
+      <img
+        src={JRNMImg}
+        width={5184}
+        height={3456}
+        alt="Artist booking app grensesnitt"
+      />
       <h2>
         Praksisplass
         <span className="subtitle">2013</span>
@@ -26,14 +31,14 @@ function JRNM() {
         Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i
         den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange
         forskjellige fargevariasjoner av den, deriblant den med
-        norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015»
-        med grå tekst.
+        norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på
+        ski 2015» med grå tekst.
       </p>
       <p>
         I den logoen som ble brukt i arrangementet hadde den grå teksten
         heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre
-        ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere
-        ut da jeg så at den på arrangementet.
+        ut. Mistenker også at noen har vektorisert den, siden logoen så mye
+        renere ut da jeg så at den på arrangementet.
       </p>
       <p>
         Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at
@@ -46,6 +51,8 @@ function JRNM() {
       <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={JRNMImg2}
+          imgWidth={640}
+          imgHeight={480}
           imgAlt="Logo for Junior NM på ski 2015"
           caption="Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
         />

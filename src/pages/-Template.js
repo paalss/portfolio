@@ -5,7 +5,7 @@ import Figure from "../components/common/Figure";
 function Template() {
   return (
     <>
-      <img src={img} alt="img" />
+      <img src={img} width={0} height={0} alt="img" />
       <a
         className="link"
         href="https://paalss.github.io/repo/"
@@ -37,8 +37,20 @@ function Template() {
       </ul>
       <p>Beskrivelse</p>
       <div uk-lightbox="animation: slide" className="flex wrap">
-        <Figure imgSrc={img} imgAlt="bilde1" caption="bilde1" />
-        <Figure imgSrc={img} imgAlt="bilde2" caption="bilde2" />
+        <Figure
+          imgSrc={img}
+          imgWidth={0}
+          imgHeight={0}
+          imgAlt="bilde1"
+          caption="bilde1"
+        />
+        <Figure
+          imgSrc={img}
+          imgWidth={0}
+          imgHeight={0}
+          imgAlt="bilde2"
+          caption="bilde2"
+        />
       </div>
     </>
   );

@@ -6,7 +6,7 @@ import img from "../images/extraoptical/sider/front-page.webp";
 function Extraoptical() {
   return (
     <>
-      <img src={img} alt="img" width={1920} height={1044} />
+      <img src={img} width={1920} height={1044} alt="img" />
       <a
         className="link"
         href="https://extraoptical.no/"

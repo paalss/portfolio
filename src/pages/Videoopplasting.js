@@ -48,6 +48,8 @@ function Videoopplasting() {
       <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={videoOgTranskriptImg}
+          imgWidth={1319}
+          imgHeight={945}
           imgAlt="videosiden i første prosjekt"
           caption="Videoside i første prosjekt"
           group="videoopplasting1"
@@ -118,16 +120,22 @@ function Videoopplasting() {
       <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={videosideImg}
+          imgWidth={1920}
+          imgHeight={1017}
           imgAlt="videosiden i andre prosjekt"
           caption="Videoside i andre prosjekt"
         />
         <Figure
           imgSrc={videolisteImg}
+          imgWidth={1920}
+          imgHeight={1018}
           imgAlt="videolistesiden"
           caption="Videooversikt"
         />
         <Figure
           imgSrc={videoopplastingImg}
+          imgWidth={1917}
+          imgHeight={866}
           imgAlt="videoopplastingssiden"
           caption="«Last opp video»-siden"
         />

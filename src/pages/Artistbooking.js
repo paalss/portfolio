@@ -26,20 +26,38 @@ function Artistbooking() {
       </p>
       <h3>Noen utvalgte bilder</h3>
       <div uk-lightbox="animation: slide" className="flex wrap">
-        <Figure imgSrc={mobileImg1} imgAlt="Startside" caption="Startside" />
-        <Figure imgSrc={mobileImg2} imgAlt="Søkefelt" caption="Søkefelt" />
+        <Figure
+          imgSrc={mobileImg1}
+          imgWidth={360}
+          imgHeight={646}
+          imgAlt="Startside"
+          caption="Startside"
+        />
+        <Figure
+          imgSrc={mobileImg2}
+          imgWidth={360}
+          imgHeight={640}
+          imgAlt="Søkefelt"
+          caption="Søkefelt"
+        />
         <Figure
           imgSrc={mobileImg3}
+          imgWidth={360}
+          imgHeight={864}
           imgAlt="Søkeresultater"
           caption="Søkeresultater"
         />
         <Figure
           imgSrc={mobileImg4}
+          imgWidth={360}
+          imgHeight={1027}
           imgAlt="Artistprofil"
           caption="Artistprofil"
         />
         <Figure
           imgSrc={destopImg}
+          imgWidth={1280}
+          imgHeight={848}
           imgAlt="En desktopside"
           caption="En desktopside"
         />

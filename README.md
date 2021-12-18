@@ -20,10 +20,6 @@ eller:
 
 https://create-react-app.dev/docs/deployment#github-pages
 
-### Dark mode
-
-Browser addon 'Dark Reader' funker veldig godt til denne.
-
 ### Create React App README
 
 [CRA-README.md](CRA-README.md)

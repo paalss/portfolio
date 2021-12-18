@@ -49,6 +49,8 @@ function Certification() {
         >
           <img
             src={reactCertificate}
+            width={1600}
+            height={1190}
             alt="Certificate of completion. React - The Complete Guide (incl Hooks, React Router, Redux)"
           />
         </a>

@@ -3,7 +3,7 @@ import macleanImg from "../images/maclean/alistairmaclean-full.webp";
 function Maclean() {
   return (
     <>
-      <img src={macleanImg} alt="maclean nettside" width={837} height={556} />
+      <img src={macleanImg} width={837} height={556} alt="maclean nettside" />
       <a
         className="link"
         href="https://paalss.github.io/Alistair-MacLean-portfolio-redesign/"

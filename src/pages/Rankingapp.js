@@ -67,16 +67,22 @@ function Rankingapp() {
       <div uk-lightbox="animation: slide">
         <Figure
           imgSrc={overviewImg}
+          imgWidth={493}
+          imgHeight={401}
           imgAlt="oversikt over lister eksempel"
           caption="Lag egne lister"
         />
         <Figure
           imgSrc={bestMetroidvaniasImg}
+          imgWidth={906}
+          imgHeight={604}
           imgAlt="beste metroidvanias listeeksempel"
           caption="Sett inn egne elementer, tilpass etter behov"
         />
         <Figure
           imgSrc={topNovelsImg}
+          imgWidth={964}
+          imgHeight={763}
           imgAlt="beste bøker listeeksempel"
           caption="Få pene og oversiktlige lister"
         />

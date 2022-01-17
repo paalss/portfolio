@@ -1,7 +1,6 @@
 import React from "react";
 import { hydrate, render } from "react-dom";
 import "./index.css";
-// import "./darkmode.css"
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

@@ -1,6 +1,11 @@
 import { Suspense } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { flatPagesInfo } from "./pagesInfo";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+import { flatPagesInfo, routePathsWithoutLangParam } from "./pagesInfo";
 // import GA from "./utils/GoogleAnalytics";
 
 // components
@@ -13,6 +18,11 @@ import LoadingSpinner from "./components/layout/LoadingSpinner";
 function App() {
   return (
     <Router basename="portfolio">
+      {routePathsWithoutLangParam.map((path) => (
+        <Route exact path={path}>
+          <Redirect to={`/no${path}`} />
+        </Route>
+      ))}
       {/* { GA.init() && <GA.RouteTracker /> } */}
       <Suspense
         fallback={
@@ -25,13 +35,7 @@ function App() {
           <Header>
             <div className="container">
               <Switch>
-                {flatPagesInfo.map((page) => {
-                  return (
-                    <Route key={page.id} path={page.path} exact={page.exact}>
-                      {page.heading ? page.heading : <h1>{page.title}</h1>}
-                    </Route>
-                  );
-                })}
+                <HeaderRoutes />
                 <Route path="*">
                   <h1>404 - Page not found</h1>
                 </Route>
@@ -42,13 +46,7 @@ function App() {
           <Main>
             <div className="container">
               <Switch>
-                {flatPagesInfo.map((page) => {
-                  return (
-                    <Route key={page.id} path={page.path} exact={page.exact}>
-                      {page.page}
-                    </Route>
-                  );
-                })}
+                <MainRoutes />
               </Switch>
             </div>
           </Main>
@@ -57,6 +55,22 @@ function App() {
       </Suspense>
     </Router>
   );
+}
+
+function HeaderRoutes() {
+  return flatPagesInfo.map((page) => (
+    <Route key={page.id} path={`/:lang(no|en)${page.path}`} exact={page.exact}>
+      {page.heading ? page.heading : <h1>{page.title}</h1>}
+    </Route>
+  ));
+}
+
+function MainRoutes() {
+  return flatPagesInfo.map((page) => (
+    <Route key={page.id} path={`/:lang(no|en)${page.path}`} exact={page.exact}>
+      {page.page}
+    </Route>
+  ));
 }
 
 export default App;

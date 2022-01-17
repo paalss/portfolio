@@ -248,6 +248,37 @@ export const flatPagesInfo = [...pagesInfo, ...subpages];
 
 /*
 =============================
+Liste over route paths som ikke inneholder language parameters
+=============================
+
+F.eks. Dette er uten lang param: "/webwork/extraoptical"
+Dette er med lang param:         "/no/webwork/extraoptical"
+
+Etter flerspråkelige oppdateringen av nettsiden har det blitt obligatorisk
+å prefixe hver route med "/no" eller "/en".
+I tilfelle noen prøver å følge lenka til den gamle porteføljen, må de
+bli automatisk redirected til de nye. App component sørger for å
+redirecte gamle routes til nye, men trenger denne arrayen for å vite
+hvordan de uten lang param ser ut
+*/
+export const routePathsWithoutLangParam = [
+  "/",
+  "/webwork",
+  "/webwork/extraoptical",
+  "/webwork/dokker",
+  "/webwork/rankingapp",
+  "/webwork/videoopplasting",
+  "/webwork/maclean",
+  "/webwork/portfolios",
+  "/graphicwork",
+  "/graphicwork/artistbooking",
+  "/graphicwork/jrnm",
+  "/gallery",
+];
+
+
+/*
+=============================
 Hent pages for Home
 =============================
 

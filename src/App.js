@@ -10,6 +10,7 @@ import Footer from "./components/layout/Footer";
 import Main from "./components/layout/Main";
 import LoadingSpinner from "./components/layout/LoadingSpinner";
 
+
 function App() {
   return (
     <Router basename="portfolio">

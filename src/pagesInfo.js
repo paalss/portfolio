@@ -1,4 +1,5 @@
 import { lazy } from "react";
+import { defineMessage, Trans, t } from "@lingui/macro";
 
 // ---------------
 // IMAGES
@@ -41,32 +42,45 @@ const JRNM = lazy(() => import("./pages/JRNM"));
 // other
 const Gallery = lazy(() => import("./pages/Gallery"));
 
+// react lingui
+const externalLinks = {
+  semerpagithub: defineMessage({ message: "Se mer på Github" }),
+  besoksiden: defineMessage({ message: "Besøk siden" }),
+  privatkildekode: defineMessage({ message: "Privat kildekode" }),
+  ikkelive: t`ikke tilgjengelig live`
+};
+const technologies = {
+  autotesting: defineMessage({ message: "Automatisk testing" }),
+};
+
 const pagesInfo = [
   {
     id: 1,
     path: "/",
     exact: true,
     exactActiveClassName: true,
-    title: "Hjem",
+    title: t`Hjem`,
     heading: (
       <div className="index-header-flex">
         <div>
           <h1>Pål Stakvik</h1>
-          <p className="tagline">Utdannet web&shy;utvikler</p>
+          <p className="tagline">
+            <Trans>Utdannet web&shy;utvikler</Trans>
+          </p>
         </div>
         <div className="circle-frame">
           <img src={photo} alt="Pål Stakvik" />
         </div>
       </div>
     ),
-    page: <Home />,
+    page: <Home externalLinks={externalLinks} technologies={technologies} />,
   },
   {
     id: 2,
     path: "/webwork",
     exact: true, // naviger til Webwork kun om path er eksakt "/webwork"
     exactActiveClassName: false, // uthev nav-link om path inneholder "/webwork"
-    title: "Nettsider",
+    title: t`Nettsider`,
     page: <Webwork />,
     subpages: [
       {
@@ -76,13 +90,15 @@ const pagesInfo = [
         page: <Extraoptical />,
         imgSrc: extraopticalImg,
         imgAlt: "Extraoptical logo",
-        tools: ["Magento2", "PHTML", "CSS"]
+        tools: ["Magento2", "PHTML", "CSS"],
       },
       {
         id: 4,
         path: "/webwork/dokker",
         title: "Dokker",
-        page: <Dokker />,
+        page: (
+          <Dokker externalLinks={externalLinks} technologies={technologies} />
+        ),
         imgSrc: dokkerImg,
         imgAlt: "Dokker logo",
         tools: ["React", "TypeScript", "JSX", "CSS"],
@@ -121,7 +137,7 @@ const pagesInfo = [
       {
         id: 8,
         path: "/webwork/portfolios",
-        title: "Portefølje (og tidligere versjoner)",
+        title: "Denne porteføljen",
         page: <Portfolios />,
         imgSrc: portfoliosImg,
         imgAlt: "porteføljer side",

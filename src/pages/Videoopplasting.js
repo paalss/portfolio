@@ -110,7 +110,7 @@ function Videoopplasting() {
       </ul>
 
       <p>
-        Nettappen skulle også være en Single page application, men dette fikk vi
+        Nettappen skulle også være en <i>Single page application</i>, men dette fikk vi
         til bare delvis. (Hvis man klikker på en video i oversikten, tar siden
         en automatisk refresh. Man må også refreshe etter å ha lastet opp video
         eller gjort andre permanente endringer.)

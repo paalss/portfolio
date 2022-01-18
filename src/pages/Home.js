@@ -3,16 +3,21 @@ import { galleryInfo, graphicworkInfo, webworkInfo } from "../pagesInfo";
 // components
 import Barchart from "../components/common/Barchart";
 import SquareLink from "../components/common/SquareLink";
-
 import Certificate from "../components/common/Certificate";
 
-function Home() {
+// react lingui
+import { Trans } from "@lingui/macro";
+import { i18n } from "@lingui/core";
+
+function Home({externalLinks, technologies}) {
   return (
     <>
-      <h2>Kompetanse</h2>
-      <div className="mb-50">
-        Jeg har erfaring innen webutvikling og grafisk design.
-      </div>
+      <Trans>
+        <h2>Kompetanse</h2>
+        <div className="mb-50">
+          Jeg har erfaring innen webutvikling og grafisk design.
+        </div>
+      </Trans>
       <div id="skills-placeholder" className="skills-placeholder mb-130">
         <Barchart
           web={[
@@ -20,12 +25,16 @@ function Home() {
             { tech: "JavaScript", level: "3" },
             {
               // &shy; === soft hyphen
-              tech: <>MySQL &amp; relasjons&shy;databaser</>,
+              tech: (
+                <>
+                  MySQL &amp; <Trans>relasjons&shy;databaser</Trans>
+                </>
+              ),
               level: "3",
             },
             { tech: "React", level: "2" },
             { tech: "PHP", level: "2" },
-            { tech: "Automatisk testing", level: "1" },
+            { tech: i18n._(technologies.autotesting.id), level: "1" },
             { tech: "NodeJS", level: "1" },
             { tech: "Docker", level: "1" },
           ]}
@@ -38,94 +47,98 @@ function Home() {
         />
       </div>
 
-      <h2>Nettsider</h2>
-      <div className="mb-50">
-        Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som
-        jeg har skrevet litt om.
-      </div>
-      <WebworkLinks />
+      <Trans>
+        <h2>Nettsider</h2>
+        <div className="mb-50">
+          Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og
+          som jeg har skrevet litt om.
+        </div>
+      </Trans>
+      <WebworkLinks word={externalLinks} />
 
-      <h2 className="mb-50">Grafisk</h2>
+      <h2 className="mb-50">
+        <Trans>Grafisk</Trans>
+      </h2>
+
       <GraphicworkLinks />
 
-      <h2 className="mb-50">Annet</h2>
+      <h2 className="mb-50">
+        <Trans>Annet</Trans>
+      </h2>
       <OtherLinks />
 
-      <h2 className="mb-50">Sertifikat</h2>
+      <h2 className="mb-50">
+        <Trans>Sertifikat</Trans>
+      </h2>
       <Certificate />
     </>
   );
 }
 
-export function WebworkLinks() {
-  return (
-    <>
-      <div className="squarelinks-flex">
-        {webworkInfo.map((page) => {
-          return (
-            <SquareLink
-              key={page.id}
-              link={page.path}
-              imgSrc={page.imgSrc}
-              imgAlt={page.imgAlt}
-              title={page.title}
-              tools={page.tools}
-              thereAreMoreTools={page.thereAreMoreTools}
-            />
-          );
-        })}
-        <SquareLink desktopEmptySpace />
-        <SquareLink desktopEmptySpace />
-      </div>
-      <div className="mt-50 center-content">
-        <a
-          className="link"
-          href="https://github.com/paalss?tab=repositories"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="fab fa-github"></span> Se mer på Github
-        </a>
-      </div>
-    </>
-  );
-}
-
-export function GraphicworkLinks() {
-  return (
-    <>
-      <div className="squarelinks-flex">
-        {graphicworkInfo.map((page) => {
-          return (
-            <SquareLink
-              key={page.id}
-              link={page.path}
-              imgSrc={page.imgSrc}
-              imgAlt={page.imgAlt}
-              title={page.title}
-              tools={page.tools}
-              thereAreMoreTools={page.thereAreMoreTools}
-            />
-          );
-        })}
-        <SquareLink desktopEmptySpace />
-        <SquareLink desktopEmptySpace />
-      </div>
-    </>
-  );
-}
-
-export function OtherLinks() {
-  return (
+export const WebworkLinks = ({ word }) => (
+  <>
     <div className="squarelinks-flex">
-      <SquareLink
-        link={galleryInfo.path}
-        imgSrc={galleryInfo.imgSrc}
-        imgAlt={galleryInfo.imgAlt}
-        title={galleryInfo.title}
-      />
+      {webworkInfo.map((page) => {
+        return (
+          <SquareLink
+            key={page.id}
+            link={page.path}
+            imgSrc={page.imgSrc}
+            imgAlt={page.imgAlt}
+            title={page.title}
+            tools={page.tools}
+            thereAreMoreTools={page.thereAreMoreTools}
+          />
+        );
+      })}
+      <SquareLink desktopEmptySpace />
+      <SquareLink desktopEmptySpace />
     </div>
-  );
-}
+    <div className="mt-50 center-content">
+      <a
+        className="link"
+        href="https://github.com/paalss?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span className="fab fa-github"></span>{" "}
+        <Trans id={word.semerpagithub.id} />
+      </a>
+    </div>
+  </>
+);
+
+export const GraphicworkLinks = () => (
+  <>
+    <div className="squarelinks-flex">
+      {graphicworkInfo.map((page) => {
+        return (
+          <SquareLink
+            key={page.id}
+            link={page.path}
+            imgSrc={page.imgSrc}
+            imgAlt={page.imgAlt}
+            title={page.title}
+            tools={page.tools}
+            thereAreMoreTools={page.thereAreMoreTools}
+          />
+        );
+      })}
+      <SquareLink desktopEmptySpace />
+      <SquareLink desktopEmptySpace />
+    </div>
+  </>
+);
+
+export const OtherLinks = () => (
+  <div className="squarelinks-flex">
+    <SquareLink
+      link={galleryInfo.path}
+      imgSrc={galleryInfo.imgSrc}
+      imgAlt={galleryInfo.imgAlt}
+      title={galleryInfo.title}
+    />
+  </div>
+);
 
 export default Home;

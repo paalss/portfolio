@@ -5,44 +5,51 @@ import bestMetroidvaniasImg from "../images/rankingapp/best-metroidvanias.webp";
 import Figure from "../components/common/Figure";
 import ToolList from "../components/common/ToolList";
 
-function Rankingapp() {
-  return (
-    <>
-      <img
-        src={rankingappGif}
-        width={1296}
-        height={616}
-        alt="ranking app interface"
-      />
-      <span className="link">
-        <span className="fas fa-circle-notch"></span> Ikke tilgjengelig live
-      </span>
-      <a
-        className="link"
-        href="https://github.com/paalss/Ranking-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="fab fa-github"></span> Kildekode
-      </a>
-      <h2>
+// react lingui
+import { Trans, t } from "@lingui/macro";
+
+const Rankingapp = () => (
+  <>
+    <img
+      src={rankingappGif}
+      width={1296}
+      height={616}
+      alt="Ranking app interface"
+    />
+    <span className="link">
+      <span className="fas fa-circle-notch"></span>
+      <Trans>Ikke tilgjengelig live</Trans>
+    </span>
+    <a
+      className="link"
+      href="https://github.com/paalss/Ranking-app"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span className="fab fa-github"></span>
+      <Trans>Kildekode</Trans>
+    </a>
+    <h2>
+      <Trans>
         Ranking app
         <span className="subtitle">2020 høst–2021 september</span>
-      </h2>
-      <ToolList
-        tools={[
-          "JavaScript",
-          "TypeScript",
-          "Jest",
-          "PHP",
-          "MySQL",
-          "Relasjonsdatabase",
-          "HTML",
-          "CSS",
-          "Docker",
-        ]}
-        toolsText={true}
-      />
+      </Trans>
+    </h2>
+    <ToolList
+      tools={[
+        "JavaScript",
+        "TypeScript",
+        "Jest",
+        "PHP",
+        "MySQL",
+        t`Relasjonsdatabase`,
+        "HTML",
+        "CSS",
+        "Docker",
+      ]}
+      toolsText={true}
+    />
+    <Trans>
       Prosjektet er foreløpig satt på pause.
       <p>
         I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere
@@ -74,31 +81,31 @@ function Rankingapp() {
         Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det
         i seg selv er jo motivasjon nok til å fortsette med det.
       </p>
-      <div uk-lightbox="animation: slide">
-        <Figure
-          imgSrc={overviewImg}
-          imgWidth={493}
-          imgHeight={401}
-          imgAlt="oversikt over lister eksempel"
-          caption="Lag egne lister"
-        />
-        <Figure
-          imgSrc={bestMetroidvaniasImg}
-          imgWidth={906}
-          imgHeight={604}
-          imgAlt="beste metroidvanias listeeksempel"
-          caption="Sett inn egne elementer, tilpass etter behov"
-        />
-        <Figure
-          imgSrc={topNovelsImg}
-          imgWidth={964}
-          imgHeight={763}
-          imgAlt="beste bøker listeeksempel"
-          caption="Få pene og oversiktlige lister"
-        />
-      </div>
-    </>
-  );
-}
+    </Trans>
+    <div uk-lightbox="animation: slide">
+      <Figure
+        imgSrc={overviewImg}
+        imgWidth={493}
+        imgHeight={401}
+        imgAlt={t`Oversikt over lister eksempel`}
+        caption={t`Lag egne lister`}
+      />
+      <Figure
+        imgSrc={bestMetroidvaniasImg}
+        imgWidth={906}
+        imgHeight={604}
+        imgAlt={t`Beste metroidvanias listeeksempel`}
+        caption={t`Sett inn egne elementer, tilpass etter behov`}
+      />
+      <Figure
+        imgSrc={topNovelsImg}
+        imgWidth={964}
+        imgHeight={763}
+        imgAlt={t`Beste bøker listeeksempel`}
+        caption={t`Få pene og oversiktlige lister`}
+      />
+    </div>
+  </>
+);
 
 export default Rankingapp;

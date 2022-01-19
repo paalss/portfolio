@@ -5,88 +5,99 @@ import videoopplastingImg from "../images/www-teknologi/prosjekt2-8-videoopplast
 import Figure from "../components/common/Figure";
 import ToolList from "../components/common/ToolList";
 
-function Videoopplasting() {
-  return (
-    <>
-      <h2>
+// react lingui
+import { Trans, t } from "@lingui/macro";
+
+const Videoopplasting = () => (
+  <>
+    <h2>
+      <Trans>
         To studie&shy;proskekter
         <span className="subtitle">2020 vår</span>
-      </h2>
-      <p>
-        Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle
-        lage nettapplikasjoner for videoopplasting og &#8209;visning. Altså mye
-        det samme som det f.eks. Youtube, Udemy og Edx.
-      </p>
-      <p>
-        Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp
-        videoer, se på dem, legge til et interaktivt transkript ved siden av
-        videoen, endre videodetaljene, legge dem til i spillelister, abonnere på
-        spillelister.
-      </p>
-      <p>
-        Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av
-        kravspesifikasjonen.
-      </p>
+      </Trans>
+    </h2>
+    <p>
+      Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle
+      lage nettapplikasjoner for videoopplasting og &#8209;visning. Altså mye
+      det samme som det f.eks. Youtube, Udemy og Edx.
+    </p>
+    <p>
+      Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp
+      videoer, se på dem, legge til et interaktivt transkript ved siden av
+      videoen, endre videodetaljene, legge dem til i spillelister, abonnere på
+      spillelister.
+    </p>
+    <p>
+      Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av
+      kravspesifikasjonen.
+    </p>
 
-      <h2>Første prosjekt</h2>
-      <ToolList
-        tools={["Twig", "PHP", "MySQL", "Relasjonsdatabase", "HTML", "Docker"]}
-        toolsText={true}
+    <h2>Første prosjekt</h2>
+    <ToolList
+      tools={["Twig", "PHP", "MySQL", "Relasjonsdatabase", "HTML", "Docker"]}
+      toolsText={true}
+    />
+
+    <p>
+      Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med
+      videoopplasting, &#8209;redigering og &#8209;visning. I tillegg gjorde jeg
+      det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens
+      interaksjon med databasen, databasestrukturen og nedlasting av videoer til
+      filsystemet. Jeg jobbet også litt med kommentarer.
+    </p>
+    <p>
+      Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre
+      html-sidene.
+    </p>
+
+    <div uk-lightbox="animation: slide">
+      <Figure
+        imgSrc={videoOgTranskriptImg}
+        imgWidth={1319}
+        imgHeight={945}
+        imgAlt={t`videosiden i første prosjekt`}
+        caption={t`Videoside i første prosjekt`}
+        group="videoopplasting1"
       />
+    </div>
+    <span className="link">
+      <span className="fas fa-circle-notch"></span>
 
-      <p>
-        Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med
-        videoopplasting, &#8209;redigering og &#8209;visning. I tillegg gjorde
-        jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med
-        appens interaksjon med databasen, databasestrukturen og nedlasting av
-        videoer til filsystemet. Jeg jobbet også litt med kommentarer.
-      </p>
-      <p>
-        Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre
-        html-sidene.
-      </p>
+      <Trans>Ikke tilgjengelig live</Trans>
+    </span>
+    <span className="link">
+      <span className="fab fa-github"></span>
 
-      <div uk-lightbox="animation: slide">
-        <Figure
-          imgSrc={videoOgTranskriptImg}
-          imgWidth={1319}
-          imgHeight={945}
-          imgAlt="videosiden i første prosjekt"
-          caption="Videoside i første prosjekt"
-          group="videoopplasting1"
-        />
-      </div>
-      <span className="link">
-        <span className="fas fa-circle-notch"></span> Ikke tilgjengelig live
-      </span>
-      <span className="link">
-        <span className="fab fa-github"></span> Privat kildekode
-      </span>
+      <Trans>Privat kildekode</Trans>
+    </span>
 
-      <h2>Andre prosjekt</h2>
-      <ToolList
-        tools={[
-          "LitElement",
-          "JavaScript",
-          "PHP",
-          "MySQL",
-          "Relasjonsdatabase",
-          "HTML",
-          "CSS",
-          "Docker",
-        ]}
-        toolsText={true}
-      />
+    <h2>Andre prosjekt</h2>
+    <ToolList
+      tools={[
+        "LitElement",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "Relasjonsdatabase",
+        "HTML",
+        "CSS",
+        "Docker",
+      ]}
+      toolsText={true}
+    />
 
-      <dl>
-        <dt>LitElement</dt>
-        <dd>
+    <dl>
+      <dt>LitElement</dt>
+      <dd>
+        <Trans>
           Verktøy for å bygge komponent-baserte nettsider. LitElement skiller
           seg fra React ved at den bruker HTML som sitt templating språk (og
-          ikke JSX) Ellers så har LitElement kun class-based components.
-        </dd>
-      </dl>
+          ikke JSX). Ellers så har LitElement kun <i>class-based</i> components.
+        </Trans>
+      </dd>
+    </dl>
 
+    <Trans>
       <p>
         Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det
         også skilles mellom ulike brukertyper, som var <i>admin</i>,{" "}
@@ -110,10 +121,10 @@ function Videoopplasting() {
       </ul>
 
       <p>
-        Nettappen skulle også være en <i>Single page application</i>, men dette fikk vi
-        til bare delvis. (Hvis man klikker på en video i oversikten, tar siden
-        en automatisk refresh. Man må også refreshe etter å ha lastet opp video
-        eller gjort andre permanente endringer.)
+        Nettappen skulle også være en <i>Single page application</i>, men dette
+        fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar
+        siden en automatisk refresh. Man må også refreshe etter å ha lastet opp
+        video eller gjort andre permanente endringer.)
       </p>
       <p>
         I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for,
@@ -125,38 +136,40 @@ function Videoopplasting() {
         Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det
         meste lagde selv.
       </p>
+    </Trans>
 
-      <div uk-lightbox="animation: slide">
-        <Figure
-          imgSrc={videosideImg}
-          imgWidth={1920}
-          imgHeight={1017}
-          imgAlt="videosiden i andre prosjekt"
-          caption="Videoside i andre prosjekt"
-        />
-        <Figure
-          imgSrc={videolisteImg}
-          imgWidth={1920}
-          imgHeight={1018}
-          imgAlt="videolistesiden"
-          caption="Videooversikt"
-        />
-        <Figure
-          imgSrc={videoopplastingImg}
-          imgWidth={1917}
-          imgHeight={866}
-          imgAlt="videoopplastingssiden"
-          caption="«Last opp video»-siden"
-        />
-      </div>
-      <span className="link">
-        <span className="fas fa-circle-notch"></span> Ikke tilgjengelig live
-      </span>
-      <span className="link">
-        <span className="fab fa-github"></span> Privat kildekode
-      </span>
-    </>
-  );
-}
+    <div uk-lightbox="animation: slide">
+      <Figure
+        imgSrc={videosideImg}
+        imgWidth={1920}
+        imgHeight={1017}
+        imgAlt={t`videosiden i andre prosjekt`}
+        caption={t`Videoside i andre prosjekt`}
+      />
+      <Figure
+        imgSrc={videolisteImg}
+        imgWidth={1920}
+        imgHeight={1018}
+        imgAlt={t`videolistesiden`}
+        caption={t`Videooversikt`}
+      />
+      <Figure
+        imgSrc={videoopplastingImg}
+        imgWidth={1917}
+        imgHeight={866}
+        imgAlt={t`videoopplastingssiden`}
+        caption={t`«Last opp video»-siden`}
+      />
+    </div>
+    <span className="link">
+      <span className="fas fa-circle-notch"></span>{" "}
+      <Trans>Ikke tilgjengelig live</Trans>
+    </span>
+    <span className="link">
+      <span className="fab fa-github"></span>{" "}
+      <Trans>Privat kildekode</Trans>
+    </span>
+  </>
+);
 
 export default Videoopplasting;

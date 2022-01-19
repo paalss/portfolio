@@ -1,5 +1,5 @@
 import { lazy } from "react";
-import { defineMessage, Trans, t } from "@lingui/macro";
+import { Trans, t } from "@lingui/macro";
 
 // ---------------
 // IMAGES
@@ -42,17 +42,6 @@ const JRNM = lazy(() => import("./pages/JRNM"));
 // other
 const Gallery = lazy(() => import("./pages/Gallery"));
 
-// react lingui
-const externalLinks = {
-  semerpagithub: defineMessage({ message: "Se mer på Github" }),
-  besoksiden: defineMessage({ message: "Besøk siden" }),
-  privatkildekode: defineMessage({ message: "Privat kildekode" }),
-  ikkelive: t`ikke tilgjengelig live`
-};
-const technologies = {
-  autotesting: defineMessage({ message: "Automatisk testing" }),
-};
-
 const pagesInfo = [
   {
     id: 1,
@@ -73,7 +62,7 @@ const pagesInfo = [
         </div>
       </div>
     ),
-    page: <Home externalLinks={externalLinks} technologies={technologies} />,
+    page: <Home />,
   },
   {
     id: 2,
@@ -97,7 +86,7 @@ const pagesInfo = [
         path: "/webwork/dokker",
         title: "Dokker",
         page: (
-          <Dokker externalLinks={externalLinks} technologies={technologies} />
+          <Dokker />
         ),
         imgSrc: dokkerImg,
         imgAlt: "Dokker logo",
@@ -130,7 +119,7 @@ const pagesInfo = [
         title: "Alistair MacLean nettside redesign",
         page: <Maclean />,
         imgSrc: macleanImg,
-        imgAlt: "MacLean page",
+        imgAlt: t`MacLean side`,
         tools: ["HTML", "CSS", "Photoshop"],
         thereAreMoreTools: true,
       },
@@ -140,7 +129,7 @@ const pagesInfo = [
         title: "Denne porteføljen",
         page: <Portfolios />,
         imgSrc: portfoliosImg,
-        imgAlt: "porteføljer side",
+        imgAlt: t`porteføljer side`,
         tools: ["React", "JavaScript", "JSX", "CSS"],
         thereAreMoreTools: true,
       },

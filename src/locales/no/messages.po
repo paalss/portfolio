@@ -13,78 +13,456 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/Dokker.js:34
-msgid "2021 april–september"
-msgstr "2021 april–september"
+#: src/pages/Dokker.js:35
+#~ msgid "2021 april–september"
+#~ msgstr "2021 april–september"
 
-#: src/pages/Home.js:15
+#: src/pages/Videoopplasting.js:85
+#~ msgid "<0><1>LitElement</1><2>Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX) Ellers så har LitElement kun class-based components.</2></0>"
+#~ msgstr "<0><1>LitElement</1><2>Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX) Ellers så har LitElement kun class-based components.</2></0>"
+
+#: src/pages/JRNM.js:27
+msgid "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
+msgstr "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
+
+#: src/pages/Maclean.js:34
+msgid "<0>I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å redesigne <1>alistairmaclean.com</1> sitt GUI. Grunnen var at jeg tidligere hadde jeg sett og vært skuffet over hvordan den så ut. MacLean skrev nesten utelukkende bøker med action og spenning, og det syntes jeg ikke nettsiden reflekterte noe av.</0><2>Verktøy</2><3>Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript (ikke så mye å skryte av). Logoen lagde jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av eget modellfly oppå noen T-skjorter.</3>"
+msgstr "<0>I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å redesigne <1>alistairmaclean.com</1> sitt GUI. Grunnen var at jeg tidligere hadde jeg sett og vært skuffet over hvordan den så ut. MacLean skrev nesten utelukkende bøker med action og spenning, og det syntes jeg ikke nettsiden reflekterte noe av.</0><2>Verktøy</2><3>Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript (ikke så mye å skryte av). Logoen lagde jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av eget modellfly oppå noen T-skjorter.</3>"
+
+#: src/pages/Home.js:13
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 msgstr "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 
-#: src/pages/Dokker.js:81
+#: src/pages/Videoopplasting.js:100
+msgid "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det meste lagde selv.</14>"
+msgstr "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det meste lagde selv.</14>"
+
+#: src/pages/Dokker.js:75
 msgid "<0>Litt om Dokker</0><1>Dokker kan minne om en fusjon av ItsLearning (eller Blackboard/Fronter) og vitnemålsportalen: I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den får de beholde tilgangen til livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 msgstr "<0>Litt om Dokker</0><1>Dokker kan minne om en fusjon av ItsLearning (eller Blackboard/Fronter) og vitnemålsportalen: I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den får de beholde tilgangen til livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 
-#: src/pages/Home.js:50
+#: src/pages/Home.js:48
 msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som jeg har skrevet litt om.</1>"
 msgstr "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som jeg har skrevet litt om.</1>"
 
-#: src/pages/Dokker.js:42
+#: src/pages/Dokker.js:36
 msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
 msgstr "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
 
-#: src/pages/Home.js:66
+#: src/pages/Home.js:64
 msgid "Annet"
 msgstr "Annet"
 
-#: src/pagesInfo.js:51
+#: src/pages/Artistbooking.js:60
+#: src/pages/Artistbooking.js:61
+msgid "Artistprofil"
+msgstr "Artistprofil"
+
+#: src/pages/Home.js:35
 msgid "Automatisk testing"
 msgstr "Automatisk testing"
 
-#: src/pagesInfo.js:47
+#: src/pages/-Template.js:42
+msgid "Beskrivelse"
+msgstr "Beskrivelse"
+
+#: src/pages/Rankingapp.js:104
+msgid "Beste bøker listeeksempel"
+msgstr "Beste bøker listeeksempel"
+
+#: src/pages/Rankingapp.js:97
+msgid "Beste metroidvanias listeeksempel"
+msgstr "Beste metroidvanias listeeksempel"
+
+#: src/pages/-Template.js:17
+#: src/pages/Dokker.js:23
+#: src/pages/Maclean.js:15
+#: src/pages/Portfolios.js:179
+#: src/pages/Portfolios.js:228
 msgid "Besøk siden"
 msgstr "Besøk siden"
 
-#: src/pages/Dokker.js:71
+#: src/pages/Extraoptical.js:47
+msgid "Bidrag"
+msgstr "Bidrag"
+
+#: src/pages/Extraoptical.js:123
+msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
+msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
+
+#: src/pages/Dokker.js:99
+msgid "Dokker appen"
+msgstr "Dokker appen"
+
+#: src/pages/Dokker.js:104
+msgid "Dokker blogg"
+msgstr "Dokker blogg"
+
+#: src/pages/Portfolios.js:61
+msgid "Du er på siden"
+msgstr "Du er på siden"
+
+#: src/pages/Artistbooking.js:67
+#: src/pages/Artistbooking.js:68
+msgid "En desktopside"
+msgstr "En desktopside"
+
+#: src/pages/Extraoptical.js:32
+msgid "Et HTML templating språk (HTML som aksepterer variabler og expressions). Det er ikke så ulikt Twig og Handlebars."
+msgstr "Et HTML templating språk (HTML som aksepterer variabler og expressions). Det er ikke så ulikt Twig og Handlebars."
+
+#: src/pages/Dokker.js:65
 msgid "Et kort for keep-up-delen av dashboard"
 msgstr "Et kort for keep-up-delen av dashboard"
 
-#: src/pages/Dokker.js:78
+#: src/pages/Dokker.js:72
 msgid "Et kort for recent-activities-delen av dashboard"
 msgstr "Et kort for recent-activities-delen av dashboard"
 
-#: src/pages/Home.js:60
+#: src/pages/Gallery/Gallery.js:40
+msgid "Fant ingen bilder"
+msgstr "Fant ingen bilder"
+
+#: src/pages/Extraoptical.js:51
+msgid "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
+msgstr "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
+
+#: src/pages/Extraoptical.js:91
+msgid "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
+msgstr "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
+
+#: src/pages/Extraoptical.js:88
+msgid "Fikset på Extra Opticals Zendesk Help center."
+msgstr "Fikset på Extra Opticals Zendesk Help center."
+
+#: src/pages/Portfolios.js:169
+msgid "Fritidsprosjekt som aldri ble fullført"
+msgstr "Fritidsprosjekt som aldri ble fullført"
+
+#: src/pages/Rankingapp.js:105
+msgid "Få pene og oversiktlige lister"
+msgstr "Få pene og oversiktlige lister"
+
+#: src/pages/Home.js:58
 msgid "Grafisk"
 msgstr "Grafisk"
 
-#: src/pagesInfo.js:60
+#: src/pagesInfo.js:51
 msgid "Hjem"
 msgstr "Hjem"
 
-#: src/pagesInfo.js:81
+#: src/pages/Extraoptical.js:39
+msgid "I dennne praksisen jobbet jeg med nettbutikken Extra Optical (frontend). EO skulle gå over til å bygge nettsiden sin på nytt i en <0>page builder</0> da jeg hadde vært der i ca. 2 måneder, så jeg har fått jobbet på både ny og gammel versjon."
+msgstr "I dennne praksisen jobbet jeg med nettbutikken Extra Optical (frontend). EO skulle gå over til å bygge nettsiden sin på nytt i en <0>page builder</0> da jeg hadde vært der i ca. 2 måneder, så jeg har fått jobbet på både ny og gammel versjon."
+
+#: src/pages/Artistbooking.js:25
+msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
+msgstr "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
+
+#: src/pages/-Template.js:29
+#: src/pages/Rankingapp.js:21
+#: src/pages/Videoopplasting.js:66
+#: src/pages/Videoopplasting.js:166
+msgid "Ikke tilgjengelig live"
+msgstr "Ikke tilgjengelig live"
+
+#: src/pages/Portfolios.js:217
+msgid "Innleveringsoppgave på medier og kommunikasjon"
+msgstr "Innleveringsoppgave på medier og kommunikasjon"
+
+#: src/pages/-Template.js:25
+#: src/pages/Maclean.js:23
+#: src/pages/Portfolios.js:70
+#: src/pages/Portfolios.js:188
+#: src/pages/Portfolios.js:237
+#: src/pages/Rankingapp.js:30
+msgid "Kildekode"
+msgstr "Kildekode"
+
+#: src/pages/Rankingapp.js:91
+msgid "Lag egne lister"
+msgstr "Lag egne lister"
+
+#: src/pages/Extraoptical.js:85
+msgid "Lagd undersider"
+msgstr "Lagd undersider"
+
+#: src/pages/Gallery/Gallery.js:65
+msgid "Laster inn..."
+msgstr "Laster inn..."
+
+#: src/pages/JRNM.js:61
+msgid "Logo for Junior NM på ski 2015"
+msgstr "Logo for Junior NM på ski 2015"
+
+#: src/pages/JRNM.js:62
+msgid "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
+msgstr "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
+
+#: src/pagesInfo.js:122
+msgid "MacLean side"
+msgstr "MacLean side"
+
+#: src/pagesInfo.js:72
 msgid "Nettsider"
 msgstr "Nettsider"
 
-#: src/pages/Dokker.js:32
-msgid "Praksisprosjekt hos Learning Moment Technologies"
-msgstr "Praksisprosjekt hos Learning Moment Technologies"
+#: src/pages/Rankingapp.js:90
+msgid "Oversikt over lister eksempel"
+msgstr "Oversikt over lister eksempel"
 
-#: src/pagesInfo.js:48
+#: src/pages/JRNM.js:67
+msgid "Plakat"
+msgstr "Plakat"
+
+#: src/pages/JRNM.js:21
+msgid "Praksisplass<0>2013</0>"
+msgstr "Praksisplass<0>2013</0>"
+
+#: src/pages/Dokker.js:33
+#~ msgid "Praksisprosjekt hos Learning Moment Technologies"
+#~ msgstr "Praksisprosjekt hos Learning Moment Technologies"
+
+#: src/pages/Dokker.js:29
+msgid "Praksisprosjekt hos Learning Moment Technologies<0>2021 april–september</0>"
+msgstr "Praksisprosjekt hos Learning Moment Technologies<0>2021 april–september</0>"
+
+#: src/pages/-Template.js:32
+#: src/pages/Dokker.js:26
+#: src/pages/Videoopplasting.js:71
+#: src/pages/Videoopplasting.js:170
 msgid "Privat kildekode"
 msgstr "Privat kildekode"
 
-#: src/pagesInfo.js:46
+#: src/pages/Artistbooking.js:17
+msgid "Prosjekt i studiene<0>2019 høst</0>"
+msgstr "Prosjekt i studiene<0>2019 høst</0>"
+
+#: src/pages/Rankingapp.js:52
+msgid "Prosjektet er foreløpig satt på pause.<0>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</0><1>Motivasjon til prosjektet</1>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.<2>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</2><3>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</3><4>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</4>"
+msgstr "Prosjektet er foreløpig satt på pause.<0>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</0><1>Motivasjon til prosjektet</1>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.<2>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</2><3>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</3><4>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</4>"
+
+#: src/pages/Rankingapp.js:17
+#~ msgid "Ranking app interface"
+#~ msgstr "Ranking app interface"
+
+#: src/pages/Rankingapp.js:33
+msgid "Ranking app<0>2020 høst–2021 september</0>"
+msgstr "Ranking app<0>2020 høst–2021 september</0>"
+
+#: src/pages/Rankingapp.js:45
+msgid "Relasjonsdatabase"
+msgstr "Relasjonsdatabase"
+
+#: src/pages/Extraoptical.js:80
+msgid "Rettet opp / fjernet <0>broken links</0>"
+msgstr "Rettet opp / fjernet <0>broken links</0>"
+
+#: src/pages/Home.js:101
 msgid "Se mer på Github"
 msgstr "Se mer på Github"
 
-#: src/pages/Home.js:71
+#: src/pages/Home.js:69
 msgid "Sertifikat"
 msgstr "Sertifikat"
 
-#: src/pagesInfo.js:66
+#: src/pages/Rankingapp.js:98
+msgid "Sett inn egne elementer, tilpass etter behov"
+msgstr "Sett inn egne elementer, tilpass etter behov"
+
+#: src/pages/Artistbooking.js:39
+#: src/pages/Artistbooking.js:40
+msgid "Startside"
+msgstr "Startside"
+
+#: src/pages/Artistbooking.js:46
+#: src/pages/Artistbooking.js:47
+msgid "Søkefelt"
+msgstr "Søkefelt"
+
+#: src/pages/Artistbooking.js:53
+#: src/pages/Artistbooking.js:54
+msgid "Søkeresultater"
+msgstr "Søkeresultater"
+
+#: src/pages/Videoopplasting.js:14
+msgid "To studie­proskekter<0>2020 vår</0>"
+msgstr "To studie­proskekter<0>2020 vår</0>"
+
+#: src/pagesInfo.js:57
 msgid "Utdannet web­utvikler"
 msgstr "Utdannet web­utvikler"
 
-#: src/pages/Home.js:30
+#: src/pages/Videoopplasting.js:92
+#~ msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX) Ellers så har LitElement kun class-based components."
+#~ msgstr "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX) Ellers så har LitElement kun class-based components."
+
+#: src/pages/Videoopplasting.js:92
+msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
+msgstr "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
+
+#: src/pages/Videoopplasting.js:154
+msgid "Videooversikt"
+msgstr "Videooversikt"
+
+#: src/pages/Videoopplasting.js:147
+msgid "Videoside i andre prosjekt"
+msgstr "Videoside i andre prosjekt"
+
+#: src/pages/Videoopplasting.js:59
+msgid "Videoside i første prosjekt"
+msgstr "Videoside i første prosjekt"
+
+#: src/pages/Dokker.js:94
+msgid "Videre lesing"
+msgstr "Videre lesing"
+
+#: src/pages/Portfolios.js:210
+msgid "Videreutvikling: nye farger og noe endret layout"
+msgstr "Videreutvikling: nye farger og noe endret layout"
+
+#: src/pages/-Template.js:17
+#~ msgid "_Besøk siden"
+#~ msgstr "_Besøk siden"
+
+#: src/pages/-Template.js:29
+#~ msgid "_Ikke tilgjengelig live"
+#~ msgstr "_Ikke tilgjengelig live"
+
+#: src/pages/-Template.js:25
+#~ msgid "_Kildekode"
+#~ msgstr "_Kildekode"
+
+#: src/pages/-Template.js:32
+#~ msgid "_Privat kildekode"
+#~ msgstr "_Privat kildekode"
+
+#: src/pages/-Template.js:35
+msgid "_Sammenheng<0>_semester</0>"
+msgstr "_Sammenheng<0>_semester</0>"
+
+#: src/pages/-Template.js:10
+msgid "_bilde"
+msgstr "_bilde"
+
+#: src/pages/-Template.js:49
+#: src/pages/-Template.js:50
+msgid "_bilde1"
+msgstr "_bilde1"
+
+#: src/pages/-Template.js:56
+#: src/pages/-Template.js:57
+msgid "_bilde2"
+msgstr "_bilde2"
+
+#: src/pages/Rankingapp.js:17
+#~ msgid "anking app interfac"
+#~ msgstr "anking app interfac"
+
+#: src/pages/Rankingapp.js:104
+#~ msgid "beste bøker listeeksempel"
+#~ msgstr "beste bøker listeeksempel"
+
+#: src/pages/Rankingapp.js:97
+#~ msgid "beste metroidvanias listeeksempel"
+#~ msgstr "beste metroidvanias listeeksempel"
+
+#: src/pagesInfo.js:50
+#~ msgid "ikke tilgjengelig live"
+#~ msgstr "ikke tilgjengelig live"
+
+#: src/pages/Maclean.js:8
+msgid "maclean nettside"
+msgstr "maclean nettside"
+
+#: src/pages/Rankingapp.js:90
+#~ msgid "oversikt over lister eksempel"
+#~ msgstr "oversikt over lister eksempel"
+
+#: src/pages/JRNM.js:66
+msgid "plakat med logo"
+msgstr "plakat med logo"
+
+#: src/pages/Portfolios.js:216
+msgid "portefølje 1 versjon 1"
+msgstr "portefølje 1 versjon 1"
+
+#: src/pages/Portfolios.js:209
+msgid "portefølje 1 versjon 2"
+msgstr "portefølje 1 versjon 2"
+
+#: src/pages/Portfolios.js:168
+msgid "portefølje 2"
+msgstr "portefølje 2"
+
+#: src/pages/Portfolios.js:129
+#: src/pages/Portfolios.js:130
+msgid "portefølje 3"
+msgstr "portefølje 3"
+
+#: src/pages/Portfolios.js:100
+#: src/pages/Portfolios.js:101
+msgid "portefølje 4"
+msgstr "portefølje 4"
+
+#: src/pages/Portfolios.js:55
+#: src/pages/Portfolios.js:56
+msgid "portefølje 5"
+msgstr "portefølje 5"
+
+#: src/pagesInfo.js:132
+msgid "porteføljer side"
+msgstr "porteføljer side"
+
+#: src/pages/-Template.js:32
+#: src/pages/Videoopplasting.js:170
+#~ msgid "private"
+#~ msgstr "Privat kildekode"
+
+#: src/pages/Home.js:28
 msgid "relasjons­databaser"
 msgstr "relasjons­databaser"
+
+#: src/pages/-Template.js:25
+#: src/pages/Maclean.js:23
+#: src/pages/Portfolios.js:70
+#: src/pages/Portfolios.js:188
+#: src/pages/Portfolios.js:237
+#: src/pages/Rankingapp.js:30
+#~ msgid "source"
+#~ msgstr "Kildekode"
+
+#: src/pages/-Template.js:29
+#~ msgid "unavailable"
+#~ msgstr "Ikke tilgjengelig live"
+
+#: src/pages/Rankingapp.js:21
+#: src/pages/Videoopplasting.js:166
+#~ msgid "unaviable"
+#~ msgstr "Ikke tilgjengelig live"
+
+#: src/pages/Videoopplasting.js:153
+msgid "videolistesiden"
+msgstr "videolistesiden"
+
+#: src/pages/Videoopplasting.js:160
+msgid "videoopplastingssiden"
+msgstr "videoopplastingssiden"
+
+#: src/pages/Videoopplasting.js:146
+msgid "videosiden i andre prosjekt"
+msgstr "videosiden i andre prosjekt"
+
+#: src/pages/Videoopplasting.js:58
+msgid "videosiden i første prosjekt"
+msgstr "videosiden i første prosjekt"
+
+#: src/pages/-Template.js:17
+#: src/pages/Portfolios.js:179
+#: src/pages/Portfolios.js:228
+#~ msgid "visit"
+#~ msgstr "visit"
+
+#: src/pages/Videoopplasting.js:161
+msgid "«Last opp video»-siden"
+msgstr "«Last opp video»-siden"

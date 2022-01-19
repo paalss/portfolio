@@ -6,76 +6,73 @@ import SquareLink from "../components/common/SquareLink";
 import Certificate from "../components/common/Certificate";
 
 // react lingui
-import { Trans } from "@lingui/macro";
-import { i18n } from "@lingui/core";
+import { Trans, t } from "@lingui/macro";
 
-function Home({externalLinks, technologies}) {
-  return (
-    <>
-      <Trans>
-        <h2>Kompetanse</h2>
-        <div className="mb-50">
-          Jeg har erfaring innen webutvikling og grafisk design.
-        </div>
-      </Trans>
-      <div id="skills-placeholder" className="skills-placeholder mb-130">
-        <Barchart
-          web={[
-            { tech: "HTML & CSS", level: "3" },
-            { tech: "JavaScript", level: "3" },
-            {
-              // &shy; === soft hyphen
-              tech: (
-                <>
-                  MySQL &amp; <Trans>relasjons&shy;databaser</Trans>
-                </>
-              ),
-              level: "3",
-            },
-            { tech: "React", level: "2" },
-            { tech: "PHP", level: "2" },
-            { tech: i18n._(technologies.autotesting.id), level: "1" },
-            { tech: "NodeJS", level: "1" },
-            { tech: "Docker", level: "1" },
-          ]}
-          design={[
-            {
-              tech: "Adobe XD, Photoshop, Illustrator & InDesign",
-              level: "2",
-            },
-          ]}
-        />
+const Home = () => (
+  <>
+    <Trans>
+      <h2>Kompetanse</h2>
+      <div className="mb-50">
+        Jeg har erfaring innen webutvikling og grafisk design.
       </div>
+    </Trans>
+    <div id="skills-placeholder" className="skills-placeholder mb-130">
+      <Barchart
+        web={[
+          { tech: "HTML & CSS", level: "3" },
+          { tech: "JavaScript", level: "3" },
+          {
+            // &shy; === soft hyphen
+            tech: (
+              <>
+                MySQL &amp; <Trans>relasjons&shy;databaser</Trans>
+              </>
+            ),
+            level: "3",
+          },
+          { tech: "React", level: "2" },
+          { tech: "PHP", level: "2" },
+          { tech: t`Automatisk testing`, level: "1" },
+          { tech: "NodeJS", level: "1" },
+          { tech: "Docker", level: "1" },
+        ]}
+        design={[
+          {
+            tech: "Adobe XD, Photoshop, Illustrator & InDesign",
+            level: "2",
+          },
+        ]}
+      />
+    </div>
 
-      <Trans>
-        <h2>Nettsider</h2>
-        <div className="mb-50">
-          Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og
-          som jeg har skrevet litt om.
-        </div>
-      </Trans>
-      <WebworkLinks word={externalLinks} />
+    <Trans>
+      <h2>Nettsider</h2>
+      <div className="mb-50">
+        Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som
+        jeg har skrevet litt om.
+      </div>
+    </Trans>
+    <WebworkLinks />
 
-      <h2 className="mb-50">
-        <Trans>Grafisk</Trans>
-      </h2>
+    <h2 className="mb-50">
+      <Trans>Grafisk</Trans>
+    </h2>
 
-      <GraphicworkLinks />
+    <GraphicworkLinks />
 
-      <h2 className="mb-50">
-        <Trans>Annet</Trans>
-      </h2>
-      <OtherLinks />
+    <h2 className="mb-50">
+      <Trans>Annet</Trans>
+    </h2>
+    <OtherLinks />
 
-      <h2 className="mb-50">
-        <Trans>Sertifikat</Trans>
-      </h2>
-      <Certificate />
-    </>
-  );
-}
+    <h2 className="mb-50">
+      <Trans>Sertifikat</Trans>
+    </h2>
+    <Certificate />
+  </>
+);
 
-export const WebworkLinks = ({ word }) => (
+export const WebworkLinks = () => (
   <>
     <div className="squarelinks-flex">
       {webworkInfo.map((page) => {
@@ -101,8 +98,7 @@ export const WebworkLinks = ({ word }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="fab fa-github"></span>{" "}
-        <Trans id={word.semerpagithub.id} />
+        <span className="fab fa-github"></span> <Trans>Se mer på Github</Trans>
       </a>
     </div>
   </>

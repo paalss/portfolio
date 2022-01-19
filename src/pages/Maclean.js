@@ -1,35 +1,37 @@
 import ToolList from "../components/common/ToolList";
 import macleanImg from "../images/maclean/alistairmaclean-full.webp";
 
-function Maclean() {
-  return (
-    <>
-      <img src={macleanImg} width={837} height={556} alt="maclean nettside" />
-      <a
-        className="link"
-        href="https://paalss.github.io/Alistair-MacLean-portfolio-redesign/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="fas fa-circle-notch"></span> Besøk siden
-      </a>
-      <a
-        className="link"
-        href="https://github.com/paalss/Alistair-MacLean-portfolio-redesign"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="fab fa-github"></span> Kildekode
-      </a>
-      <h2>
-        Innlevering på videregående
-        <span className="subtitle">2015</span>
-      </h2>
-      <ToolList
-        tools={["HTML", "CSS", "Photoshop", "Illustrator"]}
-        toolsText={true}
-      />
+import { Trans, t } from "@lingui/macro";
 
+const Maclean = () => (
+  <>
+    <img src={macleanImg} width={837} height={556} alt={t`maclean nettside`} />
+    <a
+      className="link"
+      href="https://paalss.github.io/Alistair-MacLean-portfolio-redesign/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span className="fas fa-circle-notch"></span> <Trans>Besøk siden</Trans>
+    </a>
+    <a
+      className="link"
+      href="https://github.com/paalss/Alistair-MacLean-portfolio-redesign"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span className="fab fa-github"></span> <Trans>Kildekode</Trans>
+    </a>
+    <h2>
+      Innlevering på videregående
+      <span className="subtitle">2015</span>
+    </h2>
+    <ToolList
+      tools={["HTML", "CSS", "Photoshop", "Illustrator"]}
+      toolsText={true}
+    />
+
+    <Trans>
       <p>
         I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å
         redesigne <i>alistairmaclean.com</i> sitt GUI. Grunnen var at jeg
@@ -44,8 +46,8 @@ function Maclean() {
         å skryte av). Logoen lagde jeg i Illustrator og header-bildet lagde jeg
         ved photoshoppe et bilde av eget modellfly oppå noen T-skjorter.
       </p>
-    </>
-  );
-}
+    </Trans>
+  </>
+);
 
 export default Maclean;

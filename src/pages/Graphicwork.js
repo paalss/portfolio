@@ -1,7 +1,5 @@
 import { GraphicworkLinks } from "./Home";
 
-function Graphicwork() {
-  return <GraphicworkLinks />;
-}
+const Graphicwork = () => <GraphicworkLinks />;
 
 export default Graphicwork;

@@ -2,7 +2,9 @@ import { useCallback, useEffect, useState } from "react";
 import LightboxImage from "../../components/common/LightboxImage";
 import classes from "./Gallery.module.css";
 
-function Gallery() {
+import { Trans } from "@lingui/macro";
+
+const Gallery = () => {
   const [instaMedia, setInstaMedia] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -33,7 +35,11 @@ function Gallery() {
     fetchMediaHandler();
   }, [fetchMediaHandler]);
 
-  let content = <p>Fant ingen bilder</p>;
+  let content = (
+    <p>
+      <Trans>Fant ingen bilder</Trans>
+    </p>
+  );
 
   if (instaMedia.length > 0) {
     content = instaMedia.map((i) => {
@@ -54,7 +60,11 @@ function Gallery() {
   }
 
   if (isLoading) {
-    content = <p>Laster inn...</p>;
+    content = (
+      <p>
+        <Trans>Laster inn...</Trans>
+      </p>
+    );
   }
 
   return (
@@ -62,6 +72,6 @@ function Gallery() {
       <div className={classes.galleryFlex}>{content}</div>
     </div>
   );
-}
+};
 
 export default Gallery;

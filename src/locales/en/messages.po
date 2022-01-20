@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/App.js:38
+msgid "404 - Siden finnes ikke"
+msgstr "404 - Page not found"
+
 #: src/pages/JRNM.js:27
 msgid "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
 msgstr "<0>In 2013 I had a one-week internship at Orega in Lade, Trondheim. Here I was set to design a logo for Junior NM on ski 2015.</0>"
@@ -41,6 +45,10 @@ msgstr "<0>Web pages</0><1>Here's some web pages I'm proud of having made / cont
 msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
 msgstr "<0>During this five months practice I contributed to Dokker, an web application by Learning Moment. I also took a React course to get the necessary React development competence. I got to contribute with:</0><1><2>New components</2><3>Refactoring</3><4>Reviews of other's code</4><5>Some bug-fixing</5></1><6>During this practice I learned:</6><7><8>React and related technologies</8><9>Cooperation with the use of Github <10>issues</10> and <11>pull requests</11></9></7><12>Components I've made</12>"
 
+#: src/pagesInfo.js:121
+msgid "Alistair MacLean nettside redesign"
+msgstr "Alistair MacLean webpage redesign"
+
 #: src/pages/Home.js:64
 msgid "Annet"
 msgstr "Other"
@@ -53,6 +61,20 @@ msgstr "Artist profile"
 #: src/pages/Home.js:35
 msgid "Automatisk testing"
 msgstr "Automatic testing"
+
+#: src/components/common/Barchart/Barchart-utkast.js:22
+#: src/components/common/Barchart/Barchart.js:54
+msgid "Behersker godt"
+msgstr "Masters well"
+
+#: src/components/common/Barchart/Barchart-utkast.js:68
+#: src/components/common/Barchart/Barchart.js:20
+msgid "Behersker {tech} godt"
+msgstr "Masters {tech} well"
+
+#: src/components/common/Barchart/Barchart.js:68
+#~ msgid "Behersker {tech} godt {eeeee}"
+#~ msgstr "Masters {tech} well {eeeee}"
 
 #: src/pages/-Template.js:42
 msgid "Beskrivelse"
@@ -82,6 +104,10 @@ msgstr "Contribution"
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Built some sites on the new webpage (a Progressive Web App)"
 
+#: src/pagesInfo.js:131
+msgid "Denne porteføljen"
+msgstr "This portfolio"
+
 #: src/pages/Dokker.js:99
 msgid "Dokker appen"
 msgstr "Dokker app"
@@ -98,6 +124,11 @@ msgstr "You are on the site"
 #: src/pages/Artistbooking.js:68
 msgid "En desktopside"
 msgstr "A desktop page"
+
+#: src/components/common/Barchart/Barchart-utkast.js:12
+#: src/components/common/Barchart/Barchart.js:44
+msgid "Erfaring"
+msgstr "Experience"
 
 #: src/pages/Extraoptical.js:32
 msgid "Et HTML templating språk (HTML som aksepterer variabler og expressions). Det er ikke så ulikt Twig og Handlebars."
@@ -135,9 +166,30 @@ msgstr "Spare-time project which I never finished"
 msgid "Få pene og oversiktlige lister"
 msgstr "Get nice and pretty lists"
 
+#: src/components/common/Barchart/Barchart-utkast.js:27
+#: src/components/common/Barchart/Barchart.js:59
+msgid "Ganske god på"
+msgstr "Pretty good at"
+
+#: src/components/common/Barchart/Barchart-utkast.js:72
+#: src/components/common/Barchart/Barchart.js:24
+msgid "Ganske god på {tech}"
+msgstr "Pretty good at {tech}"
+
 #: src/pages/Home.js:58
+#: src/pagesInfo.js:145
 msgid "Grafisk"
 msgstr "Graphic work"
+
+#: src/components/common/Barchart/Barchart-utkast.js:42
+#: src/components/common/Barchart/Barchart.js:74
+msgid "Grafisk design"
+msgstr "Graphic design"
+
+#: src/components/common/Barchart/Barchart-utkast.js:17
+#: src/components/common/Barchart/Barchart.js:49
+msgid "Grunn­leggende"
+msgstr "Basics"
 
 #: src/pagesInfo.js:51
 msgid "Hjem"
@@ -162,6 +214,20 @@ msgstr "Unavailable live"
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Assignment at media and communiocation"
 
+#: src/pagesInfo.js:163
+msgid "Jr NM på ski logo"
+msgstr "Jr NM on ski logo"
+
+#: src/components/common/Barchart/Barchart-utkast.js:64
+#: src/components/common/Barchart/Barchart.js:16
+msgid "Kan grunnleggende {tech}"
+msgstr "Know the basics of {tech}"
+
+#: src/components/common/Barchart/Barchart-utkast.js:60
+#: src/components/common/Barchart/Barchart.js:12
+msgid "Kan litt {tech}"
+msgstr "Know some {tech}"
+
 #: src/pages/-Template.js:25
 #: src/pages/Maclean.js:23
 #: src/pages/Portfolios.js:70
@@ -170,6 +236,10 @@ msgstr "Assignment at media and communiocation"
 #: src/pages/Rankingapp.js:30
 msgid "Kildekode"
 msgstr "Source code"
+
+#: src/pagesInfo.js:171
+msgid "Kunst"
+msgstr "Art"
 
 #: src/pages/Rankingapp.js:91
 msgid "Lag egne lister"
@@ -191,7 +261,7 @@ msgstr "Logo for Junior NM on ski 2015"
 msgid "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 msgstr "Logo that was used"
 
-#: src/pagesInfo.js:122
+#: src/pagesInfo.js:124
 msgid "MacLean side"
 msgstr "MacLean site"
 
@@ -235,6 +305,7 @@ msgid "Ranking app<0>2020 høst–2021 september</0>"
 msgstr "Ranking app<0>2020 fall—2021 September</0>"
 
 #: src/pages/Rankingapp.js:45
+#: src/pagesInfo.js:100
 msgid "Relasjonsdatabase"
 msgstr "Relational database"
 
@@ -242,7 +313,7 @@ msgstr "Relational database"
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 
-#: src/pages/Home.js:101
+#: src/pages/Home.js:99
 msgid "Se mer på Github"
 msgstr "See more on Github"
 
@@ -281,6 +352,10 @@ msgstr "Educated web developer"
 msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
 msgstr "Tool for creating component-based webpages. LitElement differs from React by using HTML templating literals as its templating language (and not JSX). LitElement has only class-based components."
 
+#: src/pagesInfo.js:114
+msgid "Videoopplastingsapp"
+msgstr "Video uploading app"
+
 #: src/pages/Videoopplasting.js:154
 msgid "Videooversikt"
 msgstr "Video overview"
@@ -293,6 +368,11 @@ msgstr "Video page in second project"
 msgid "Videoside i første prosjekt"
 msgstr "Video page in first project"
 
+#: src/pagesInfo.js:106
+#: src/pagesInfo.js:109
+msgid "Video­opplastings­apper"
+msgstr "Video uploading apps"
+
 #: src/pages/Dokker.js:94
 msgid "Videre lesing"
 msgstr "Further reading"
@@ -300,6 +380,11 @@ msgstr "Further reading"
 #: src/pages/Portfolios.js:210
 msgid "Videreutvikling: nye farger og noe endret layout"
 msgstr "Further work: some new colors and changed layout"
+
+#: src/components/common/Barchart/Barchart-utkast.js:35
+#: src/components/common/Barchart/Barchart.js:67
+msgid "Webutvikling"
+msgstr "Web development"
 
 #: src/pages/-Template.js:35
 msgid "_Sammenheng<0>_semester</0>"
@@ -354,7 +439,7 @@ msgstr "portfolio 4"
 msgid "portefølje 5"
 msgstr "portfolio 5"
 
-#: src/pagesInfo.js:132
+#: src/pagesInfo.js:134
 msgid "porteføljer side"
 msgstr "portfolios page"
 

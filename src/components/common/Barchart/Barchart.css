@@ -203,7 +203,7 @@ li:nth-child(odd) .chart__label {
     padding-left: 100px;
   }
   .line__label {
-    width: 100px;
+    width: 108px;
     font-size: 1rem;
     right: -50px;
   }

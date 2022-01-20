@@ -75,19 +75,17 @@ const Home = () => (
 export const WebworkLinks = () => (
   <>
     <div className="squarelinks-flex">
-      {webworkInfo.map((page) => {
-        return (
-          <SquareLink
-            key={page.id}
-            link={page.path}
-            imgSrc={page.imgSrc}
-            imgAlt={page.imgAlt}
-            title={page.title}
-            tools={page.tools}
-            thereAreMoreTools={page.thereAreMoreTools}
-          />
-        );
-      })}
+      {webworkInfo.map((page) => (
+        <SquareLink
+          key={page.id}
+          link={page.path}
+          imgSrc={page.imgSrc}
+          imgAlt={page.imgAlt}
+          title={page.title}
+          tools={page.tools}
+          thereAreMoreTools={page.thereAreMoreTools}
+        />
+      ))}
       <SquareLink desktopEmptySpace />
       <SquareLink desktopEmptySpace />
     </div>

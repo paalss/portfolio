@@ -10,6 +10,8 @@ import Footer from "./components/layout/Footer";
 import Main from "./components/layout/Main";
 import LoadingSpinner from "./components/layout/LoadingSpinner";
 
+// react lingui
+import { Trans } from "@lingui/macro";
 
 function App() {
   return (
@@ -26,15 +28,15 @@ function App() {
           <Header>
             <div className="container">
               <Switch>
-                {flatPagesInfo.map((page) => {
-                  return (
-                    <Route key={page.id} path={page.path} exact={page.exact}>
-                      {page.heading ? page.heading : <h1>{page.title}</h1>}
-                    </Route>
-                  );
-                })}
+                {flatPagesInfo.map((page) => (
+                  <Route key={page.id} path={page.path} exact={page.exact}>
+                    {page.heading ? page.heading : <h1>{page.title}</h1>}
+                  </Route>
+                ))}
                 <Route path="*">
-                  <h1>404 - Page not found</h1>
+                  <h1>
+                    <Trans>404 - Siden finnes ikke</Trans>
+                  </h1>
                 </Route>
               </Switch>
             </div>
@@ -43,13 +45,11 @@ function App() {
           <Main>
             <div className="container">
               <Switch>
-                {flatPagesInfo.map((page) => {
-                  return (
-                    <Route key={page.id} path={page.path} exact={page.exact}>
-                      {page.page}
-                    </Route>
-                  );
-                })}
+                {flatPagesInfo.map((page) => (
+                  <Route key={page.id} path={page.path} exact={page.exact}>
+                    {page.page}
+                  </Route>
+                ))}
               </Switch>
             </div>
           </Main>

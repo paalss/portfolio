@@ -17,6 +17,10 @@ msgstr ""
 #~ msgid "2021 april–september"
 #~ msgstr "2021 april–september"
 
+#: src/App.js:38
+msgid "404 - Siden finnes ikke"
+msgstr "404 - Siden finnes ikke"
+
 #: src/pages/Videoopplasting.js:85
 #~ msgid "<0><1>LitElement</1><2>Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX) Ellers så har LitElement kun class-based components.</2></0>"
 #~ msgstr "<0><1>LitElement</1><2>Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX) Ellers så har LitElement kun class-based components.</2></0>"
@@ -49,6 +53,10 @@ msgstr "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget
 msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
 msgstr "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
 
+#: src/pagesInfo.js:121
+msgid "Alistair MacLean nettside redesign"
+msgstr "Alistair MacLean nettside redesign"
+
 #: src/pages/Home.js:64
 msgid "Annet"
 msgstr "Annet"
@@ -61,6 +69,20 @@ msgstr "Artistprofil"
 #: src/pages/Home.js:35
 msgid "Automatisk testing"
 msgstr "Automatisk testing"
+
+#: src/components/common/Barchart/Barchart-utkast.js:22
+#: src/components/common/Barchart/Barchart.js:54
+msgid "Behersker godt"
+msgstr "Behersker godt"
+
+#: src/components/common/Barchart/Barchart-utkast.js:68
+#: src/components/common/Barchart/Barchart.js:20
+msgid "Behersker {tech} godt"
+msgstr "Behersker {tech} godt"
+
+#: src/components/common/Barchart/Barchart.js:68
+#~ msgid "Behersker {tech} godt {eeeee}"
+#~ msgstr "Behersker {tech} godt {eeeee}"
 
 #: src/pages/-Template.js:42
 msgid "Beskrivelse"
@@ -90,6 +112,10 @@ msgstr "Bidrag"
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 
+#: src/pagesInfo.js:131
+msgid "Denne porteføljen"
+msgstr "Denne porteføljen"
+
 #: src/pages/Dokker.js:99
 msgid "Dokker appen"
 msgstr "Dokker appen"
@@ -106,6 +132,11 @@ msgstr "Du er på siden"
 #: src/pages/Artistbooking.js:68
 msgid "En desktopside"
 msgstr "En desktopside"
+
+#: src/components/common/Barchart/Barchart-utkast.js:12
+#: src/components/common/Barchart/Barchart.js:44
+msgid "Erfaring"
+msgstr "Erfaring"
 
 #: src/pages/Extraoptical.js:32
 msgid "Et HTML templating språk (HTML som aksepterer variabler og expressions). Det er ikke så ulikt Twig og Handlebars."
@@ -143,9 +174,30 @@ msgstr "Fritidsprosjekt som aldri ble fullført"
 msgid "Få pene og oversiktlige lister"
 msgstr "Få pene og oversiktlige lister"
 
+#: src/components/common/Barchart/Barchart-utkast.js:27
+#: src/components/common/Barchart/Barchart.js:59
+msgid "Ganske god på"
+msgstr "Ganske god på"
+
+#: src/components/common/Barchart/Barchart-utkast.js:72
+#: src/components/common/Barchart/Barchart.js:24
+msgid "Ganske god på {tech}"
+msgstr "Ganske god på {tech}"
+
 #: src/pages/Home.js:58
+#: src/pagesInfo.js:145
 msgid "Grafisk"
 msgstr "Grafisk"
+
+#: src/components/common/Barchart/Barchart-utkast.js:42
+#: src/components/common/Barchart/Barchart.js:74
+msgid "Grafisk design"
+msgstr "Grafisk design"
+
+#: src/components/common/Barchart/Barchart-utkast.js:17
+#: src/components/common/Barchart/Barchart.js:49
+msgid "Grunn­leggende"
+msgstr "Grunn­leggende"
 
 #: src/pagesInfo.js:51
 msgid "Hjem"
@@ -170,6 +222,28 @@ msgstr "Ikke tilgjengelig live"
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Innleveringsoppgave på medier og kommunikasjon"
 
+#: src/pagesInfo.js:163
+#~ msgid "Jr NM on ski logo"
+#~ msgstr "Jr NM on ski logo"
+
+#: src/pagesInfo.js:163
+msgid "Jr NM på ski logo"
+msgstr "Jr NM på ski logo"
+
+#: src/pagesInfo.js:160
+#~ msgid "Jr NM ski 2015 logo"
+#~ msgstr "Jr NM ski 2015 logo"
+
+#: src/components/common/Barchart/Barchart-utkast.js:64
+#: src/components/common/Barchart/Barchart.js:16
+msgid "Kan grunnleggende {tech}"
+msgstr "Kan grunnleggende {tech}"
+
+#: src/components/common/Barchart/Barchart-utkast.js:60
+#: src/components/common/Barchart/Barchart.js:12
+msgid "Kan litt {tech}"
+msgstr "Kan litt {tech}"
+
 #: src/pages/-Template.js:25
 #: src/pages/Maclean.js:23
 #: src/pages/Portfolios.js:70
@@ -178,6 +252,10 @@ msgstr "Innleveringsoppgave på medier og kommunikasjon"
 #: src/pages/Rankingapp.js:30
 msgid "Kildekode"
 msgstr "Kildekode"
+
+#: src/pagesInfo.js:171
+msgid "Kunst"
+msgstr "Kunst"
 
 #: src/pages/Rankingapp.js:91
 msgid "Lag egne lister"
@@ -199,7 +277,7 @@ msgstr "Logo for Junior NM på ski 2015"
 msgid "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 msgstr "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 
-#: src/pagesInfo.js:122
+#: src/pagesInfo.js:124
 msgid "MacLean side"
 msgstr "MacLean side"
 
@@ -251,6 +329,7 @@ msgid "Ranking app<0>2020 høst–2021 september</0>"
 msgstr "Ranking app<0>2020 høst–2021 september</0>"
 
 #: src/pages/Rankingapp.js:45
+#: src/pagesInfo.js:100
 msgid "Relasjonsdatabase"
 msgstr "Relasjonsdatabase"
 
@@ -258,7 +337,7 @@ msgstr "Relasjonsdatabase"
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Rettet opp / fjernet <0>broken links</0>"
 
-#: src/pages/Home.js:101
+#: src/pages/Home.js:99
 msgid "Se mer på Github"
 msgstr "Se mer på Github"
 
@@ -301,6 +380,14 @@ msgstr "Utdannet web­utvikler"
 msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
 msgstr "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
 
+#: src/pagesInfo.js:114
+#~ msgid "Videoopplasting app"
+#~ msgstr "Videoopplasting app"
+
+#: src/pagesInfo.js:114
+msgid "Videoopplastingsapp"
+msgstr "Videoopplastingsapp"
+
 #: src/pages/Videoopplasting.js:154
 msgid "Videooversikt"
 msgstr "Videooversikt"
@@ -313,6 +400,11 @@ msgstr "Videoside i andre prosjekt"
 msgid "Videoside i første prosjekt"
 msgstr "Videoside i første prosjekt"
 
+#: src/pagesInfo.js:106
+#: src/pagesInfo.js:109
+msgid "Video­opplastings­apper"
+msgstr "Video­opplastings­apper"
+
 #: src/pages/Dokker.js:94
 msgid "Videre lesing"
 msgstr "Videre lesing"
@@ -320,6 +412,11 @@ msgstr "Videre lesing"
 #: src/pages/Portfolios.js:210
 msgid "Videreutvikling: nye farger og noe endret layout"
 msgstr "Videreutvikling: nye farger og noe endret layout"
+
+#: src/components/common/Barchart/Barchart-utkast.js:35
+#: src/components/common/Barchart/Barchart.js:67
+msgid "Webutvikling"
+msgstr "Webutvikling"
 
 #: src/pages/-Template.js:17
 #~ msgid "_Besøk siden"
@@ -410,7 +507,7 @@ msgstr "portefølje 4"
 msgid "portefølje 5"
 msgstr "portefølje 5"
 
-#: src/pagesInfo.js:132
+#: src/pagesInfo.js:134
 msgid "porteføljer side"
 msgstr "porteføljer side"
 

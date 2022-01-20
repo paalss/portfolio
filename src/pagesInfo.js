@@ -1,5 +1,5 @@
 import { lazy } from "react";
-import { Trans, t } from "@lingui/macro";
+import { Trans } from "@lingui/macro";
 
 // ---------------
 // IMAGES
@@ -48,7 +48,7 @@ const pagesInfo = [
     path: "/",
     exact: true,
     exactActiveClassName: true,
-    title: t`Hjem`,
+    title: <Trans>Hjem</Trans>,
     heading: (
       <div className="index-header-flex">
         <div>
@@ -69,7 +69,7 @@ const pagesInfo = [
     path: "/webwork",
     exact: true, // naviger til Webwork kun om path er eksakt "/webwork"
     exactActiveClassName: false, // uthev nav-link om path inneholder "/webwork"
-    title: t`Nettsider`,
+    title: <Trans>Nettsider</Trans>,
     page: <Webwork />,
     subpages: [
       {
@@ -85,12 +85,10 @@ const pagesInfo = [
         id: 4,
         path: "/webwork/dokker",
         title: "Dokker",
-        page: (
-          <Dokker />
-        ),
+        page: <Dokker />,
         imgSrc: dokkerImg,
         imgAlt: "Dokker logo",
-        tools: ["React", "TypeScript", "JSX", "CSS"],
+        tools: ["React", "TypeScript", "CSS"],
       },
       {
         id: 5,
@@ -99,38 +97,42 @@ const pagesInfo = [
         page: <Rankingapp />,
         imgSrc: rankingappImg,
         imgAlt: "Ranking app",
-        tools: ["TypeScript", "PHP", "Relasjonsdatabase", "MySQL"],
+        tools: ["TypeScript", "PHP", <Trans>Relasjonsdatabase</Trans>, "MySQL"],
         thereAreMoreTools: true,
       },
       {
         id: 6,
         path: "/webwork/videoopplasting",
-        title: <>Video&shy;opplastings&shy;apper</>,
-        heading: <h1>Video&shy;opplastings&shy;apper</h1>,
+        title: <Trans>Video&shy;opplastings&shy;apper</Trans>,
+        heading: (
+          <h1>
+            <Trans>Video&shy;opplastings&shy;apper</Trans>
+          </h1>
+        ),
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
-        imgAlt: "Videoopplasting app",
+        imgAlt: <Trans>Videoopplastingsapp</Trans>,
         tools: ["PHP", "LitElement", "JavaScript"],
         thereAreMoreTools: true,
       },
       {
         id: 7,
         path: "/webwork/maclean",
-        title: "Alistair MacLean nettside redesign",
+        title: <Trans>Alistair MacLean nettside redesign</Trans>,
         page: <Maclean />,
         imgSrc: macleanImg,
-        imgAlt: t`MacLean side`,
+        imgAlt: <Trans>MacLean side</Trans>,
         tools: ["HTML", "CSS", "Photoshop"],
         thereAreMoreTools: true,
       },
       {
         id: 8,
         path: "/webwork/portfolios",
-        title: "Denne porteføljen",
+        title: <Trans>Denne porteføljen</Trans>,
         page: <Portfolios />,
         imgSrc: portfoliosImg,
-        imgAlt: t`porteføljer side`,
-        tools: ["React", "JavaScript", "JSX", "CSS"],
+        imgAlt: <Trans>porteføljer side</Trans>,
+        tools: ["React", "JavaScript", "React-lingui"],
         thereAreMoreTools: true,
       },
     ],
@@ -140,7 +142,7 @@ const pagesInfo = [
     path: "/graphicwork",
     exact: true,
     exactActiveClassName: false,
-    title: "Grafisk",
+    title: <Trans>Grafisk</Trans>,
     page: <Graphicwork />,
     subpages: [
       {
@@ -158,7 +160,7 @@ const pagesInfo = [
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,
         imgSrc: jrNmImg,
-        imgAlt: "Jr NM på ski logo",
+        imgAlt: <Trans>Jr NM på ski logo</Trans>,
         tools: ["Photoshop"],
       },
     ],
@@ -166,7 +168,7 @@ const pagesInfo = [
   {
     id: 12,
     path: "/gallery",
-    title: "Kunst",
+    title: <Trans>Kunst</Trans>,
     page: <Gallery />,
     imgSrc: galleryImg,
     imgAlt: "gallery",
@@ -243,9 +245,7 @@ flatPagesInfo =
 */
 
 // pakk ut subPages der det finnes
-let subpages = pagesInfo.flatMap((page) => {
-  return page.subpages ? page.subpages : "no subpages";
-});
+let subpages = pagesInfo.flatMap((page) => page.subpages ? page.subpages : "no subpages")
 // fjern pages som ikke hadde noen subpages, nå står vi igjen med kun subpages
 subpages = subpages.filter((e) => e !== "no subpages");
 

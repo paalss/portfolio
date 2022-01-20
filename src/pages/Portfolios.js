@@ -19,7 +19,7 @@ const Portfolios = () => (
         <span className="subtitle">2020 desember–nå</span>
       </h2>
       <ToolList
-        tools={["React", "JavaScript", "JSX", "CSS"]}
+        tools={["React", "JavaScript", "JSX", "CSS", "React Lingui"]}
         toolsText={true}
       />
 

@@ -2,13 +2,12 @@ import "./Certificate.css";
 import reactCertificate from "../../../images/certificates/react-certificate-small.webp";
 import { useEffect } from "react";
 
-function Certification() {
+const Certification = () => {
   useEffect(() => {
-    function map(val, minA, maxA, minB, maxB) {
-      return minB + ((val - minA) * (maxB - minB)) / (maxA - minA);
-    }
+    const map = (val, minA, maxA, minB, maxB) =>
+      minB + ((val - minA) * (maxB - minB)) / (maxA - minA);
 
-    function Card3D(card, ev) {
+    const Card3D = (card, ev) => {
       let img = card.querySelector("img");
       let mouseX = ev.offsetX;
       let mouseY = ev.offsetY;
@@ -20,7 +19,7 @@ function Certification() {
       img.style.filter = `brightness(${brightness})`;
     }
 
-    var cards = document.querySelectorAll(".card3d");
+    const cards = document.querySelectorAll(".card3d");
 
     cards.forEach((card) => {
       card.addEventListener("mousemove", (ev) => {
@@ -57,6 +56,6 @@ function Certification() {
       </div>
     </>
   );
-}
+};
 
 export default Certification;

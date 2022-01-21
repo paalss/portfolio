@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import ToolList from "../ToolList/ToolList";
 import classes from "./SquareLink.module.css";
 
-function SquareLink({
+const SquareLink = ({
   link,
   imgSrc,
   imgAlt,
@@ -10,7 +10,7 @@ function SquareLink({
   tools,
   thereAreMoreTools = false,
   desktopEmptySpace = false,
-}) {
+}) => {
   if (!desktopEmptySpace) {
     return (
       <Link to={link} className={classes.squareLink}>
@@ -24,6 +24,6 @@ function SquareLink({
   } else {
     return <div className={classes.desktopEmptySpace}></div>;
   }
-}
+};
 
 export default SquareLink;

@@ -13,51 +13,49 @@ import LoadingSpinner from "./components/layout/LoadingSpinner";
 // react lingui
 import { Trans } from "@lingui/macro";
 
-function App() {
-  return (
-    <Router basename="portfolio">
-      {/* { GA.init() && <GA.RouteTracker /> } */}
-      <Suspense
-        fallback={
-          <div className="center-content-fullscreen">
-            <LoadingSpinner />
-          </div>
-        }
-      >
-        <div className="oldbody">
-          <Header>
-            <div className="container">
-              <Switch>
-                {flatPagesInfo.map((page) => (
-                  <Route key={page.id} path={page.path} exact={page.exact}>
-                    {page.heading ? page.heading : <h1>{page.title}</h1>}
-                  </Route>
-                ))}
-                <Route path="*">
-                  <h1>
-                    <Trans>404 - Siden finnes ikke</Trans>
-                  </h1>
-                </Route>
-              </Switch>
-            </div>
-          </Header>
-          <Nav />
-          <Main>
-            <div className="container">
-              <Switch>
-                {flatPagesInfo.map((page) => (
-                  <Route key={page.id} path={page.path} exact={page.exact}>
-                    {page.page}
-                  </Route>
-                ))}
-              </Switch>
-            </div>
-          </Main>
-          <Footer />
+const App = () => (
+  <Router basename="portfolio">
+    {/* { GA.init() && <GA.RouteTracker /> } */}
+    <Suspense
+      fallback={
+        <div className="center-content-fullscreen">
+          <LoadingSpinner />
         </div>
-      </Suspense>
-    </Router>
-  );
-}
+      }
+    >
+      <div className="oldbody">
+        <Header>
+          <div className="container">
+            <Switch>
+              {flatPagesInfo.map((page) => (
+                <Route key={page.id} path={page.path} exact={page.exact}>
+                  {page.heading ? page.heading : <h1>{page.title}</h1>}
+                </Route>
+              ))}
+              <Route path="*">
+                <h1>
+                  <Trans>404 - Siden finnes ikke</Trans>
+                </h1>
+              </Route>
+            </Switch>
+          </div>
+        </Header>
+        <Nav />
+        <Main>
+          <div className="container">
+            <Switch>
+              {flatPagesInfo.map((page) => (
+                <Route key={page.id} path={page.path} exact={page.exact}>
+                  {page.page}
+                </Route>
+              ))}
+            </Switch>
+          </div>
+        </Main>
+        <Footer />
+      </div>
+    </Suspense>
+  </Router>
+);
 
 export default App;

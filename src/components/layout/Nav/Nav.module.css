@@ -89,13 +89,15 @@ nav a, nav button {
 nav button {
   border: none;
   height: 100%;
+  width: 100%;
+  text-align: start;
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
   cursor: pointer;
 }
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 800px) {
   .nav ul.ul {
     display: flex;
     padding: 0;

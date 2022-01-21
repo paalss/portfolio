@@ -22,8 +22,10 @@ const Home = () => (
           { tech: "HTML & CSS", level: "3" },
           { tech: "JavaScript", level: "3" },
           {
+            tech: t`MySQL & relasjonsdatabaser`,
             // &shy; === soft hyphen
-            tech: <Trans>MySQL &amp; relasjons&shy;databaser</Trans>,
+            // trenger en HTML-versjon med soft hyphen (&shy;), slik at ordet kan orddeles ved linjeskift
+            techHtmlEntities: <Trans>MySQL &amp; relasjons&shy;databaser</Trans>,
             level: "3",
           },
           { tech: "React", level: "2" },

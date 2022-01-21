@@ -3,8 +3,6 @@ import "./Barchart.css";
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
-
-
 const Barchart = ({ web, design }) => (
   <>
     <div className="skills">
@@ -52,8 +50,7 @@ const Barchart = ({ web, design }) => (
 
 const createBars = (topics) =>
   topics.map((topic) => {
-    const { tech, level } = topic;
-    console.log(tech);
+    const { tech, techHtmlEntities, level } = topic;
 
     let title = "";
     let width = "";
@@ -76,7 +73,11 @@ const createBars = (topics) =>
     return (
       <li title={title} key={tech}>
         <div className="flex-li">
-          <span className="chart__label">{tech}</span>
+          <span className="chart__label">
+            {/* hvis topic har en HTML-entities versjon av tech, så bruk det.
+            Relasjonsdatabaser er et ord som trenger å brytes opp */}
+            {techHtmlEntities ? techHtmlEntities : tech}
+          </span>
           <div className="chart__bar" style={{ width: width }}></div>
         </div>
       </li>

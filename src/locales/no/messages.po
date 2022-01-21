@@ -45,7 +45,7 @@ msgstr "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle de
 msgid "<0>Litt om Dokker</0><1>Dokker kan minne om en fusjon av ItsLearning (eller Blackboard/Fronter) og vitnemålsportalen: I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den får de beholde tilgangen til livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 msgstr "<0>Litt om Dokker</0><1>Dokker kan minne om en fusjon av ItsLearning (eller Blackboard/Fronter) og vitnemålsportalen: I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den får de beholde tilgangen til livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 
-#: src/pages/Home.js:44
+#: src/pages/Home.js:46
 msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som jeg har skrevet litt om.</1>"
 msgstr "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som jeg har skrevet litt om.</1>"
 
@@ -57,7 +57,7 @@ msgstr "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-ap
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean nettside redesign"
 
-#: src/pages/Home.js:60
+#: src/pages/Home.js:62
 msgid "Annet"
 msgstr "Annet"
 
@@ -66,17 +66,17 @@ msgstr "Annet"
 msgid "Artistprofil"
 msgstr "Artistprofil"
 
-#: src/pages/Home.js:31
+#: src/pages/Home.js:33
 msgid "Automatisk testing"
 msgstr "Automatisk testing"
 
 #: src/components/common/Barchart/Barchart-utkast.js:22
-#: src/components/common/Barchart/Barchart.js:24
+#: src/components/common/Barchart/Barchart.js:22
 msgid "Behersker godt"
 msgstr "Behersker godt"
 
 #: src/components/common/Barchart/Barchart-utkast.js:68
-#: src/components/common/Barchart/Barchart.js:69
+#: src/components/common/Barchart/Barchart.js:66
 msgid "Behersker {tech} godt"
 msgstr "Behersker {tech} godt"
 
@@ -135,7 +135,7 @@ msgid "En desktopside"
 msgstr "En desktopside"
 
 #: src/components/common/Barchart/Barchart-utkast.js:12
-#: src/components/common/Barchart/Barchart.js:14
+#: src/components/common/Barchart/Barchart.js:12
 msgid "Erfaring"
 msgstr "Erfaring"
 
@@ -176,27 +176,27 @@ msgid "Få pene og oversiktlige lister"
 msgstr "Få pene og oversiktlige lister"
 
 #: src/components/common/Barchart/Barchart-utkast.js:27
-#: src/components/common/Barchart/Barchart.js:29
+#: src/components/common/Barchart/Barchart.js:27
 msgid "Ganske god på"
 msgstr "Ganske god på"
 
 #: src/components/common/Barchart/Barchart-utkast.js:72
-#: src/components/common/Barchart/Barchart.js:73
+#: src/components/common/Barchart/Barchart.js:70
 msgid "Ganske god på {tech}"
 msgstr "Ganske god på {tech}"
 
-#: src/pages/Home.js:54
+#: src/pages/Home.js:56
 #: src/pagesInfo.js:145
 msgid "Grafisk"
 msgstr "Grafisk"
 
 #: src/components/common/Barchart/Barchart-utkast.js:42
-#: src/components/common/Barchart/Barchart.js:44
+#: src/components/common/Barchart/Barchart.js:42
 msgid "Grafisk design"
 msgstr "Grafisk design"
 
 #: src/components/common/Barchart/Barchart-utkast.js:17
-#: src/components/common/Barchart/Barchart.js:19
+#: src/components/common/Barchart/Barchart.js:17
 msgid "Grunn­leggende"
 msgstr "Grunn­leggende"
 
@@ -236,12 +236,12 @@ msgstr "Jr NM på ski logo"
 #~ msgstr "Jr NM ski 2015 logo"
 
 #: src/components/common/Barchart/Barchart-utkast.js:64
-#: src/components/common/Barchart/Barchart.js:65
+#: src/components/common/Barchart/Barchart.js:62
 msgid "Kan grunnleggende {tech}"
 msgstr "Kan grunnleggende {tech}"
 
 #: src/components/common/Barchart/Barchart-utkast.js:60
-#: src/components/common/Barchart/Barchart.js:61
+#: src/components/common/Barchart/Barchart.js:58
 msgid "Kan litt {tech}"
 msgstr "Kan litt {tech}"
 
@@ -282,7 +282,11 @@ msgstr "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 msgid "MacLean side"
 msgstr "MacLean side"
 
-#: src/pages/Home.js:26
+#: src/pages/Home.js:25
+msgid "MySQL & relasjonsdatabaser"
+msgstr "MySQL & relasjonsdatabaser"
+
+#: src/pages/Home.js:28
 msgid "MySQL & relasjons­databaser"
 msgstr "MySQL & relasjons­databaser"
 
@@ -346,11 +350,11 @@ msgstr "Relasjonsdatabase"
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Rettet opp / fjernet <0>broken links</0>"
 
-#: src/pages/Home.js:95
+#: src/pages/Home.js:97
 msgid "Se mer på Github"
 msgstr "Se mer på Github"
 
-#: src/pages/Home.js:65
+#: src/pages/Home.js:67
 msgid "Sertifikat"
 msgstr "Sertifikat"
 
@@ -423,7 +427,7 @@ msgid "Videreutvikling: nye farger og noe endret layout"
 msgstr "Videreutvikling: nye farger og noe endret layout"
 
 #: src/components/common/Barchart/Barchart-utkast.js:35
-#: src/components/common/Barchart/Barchart.js:37
+#: src/components/common/Barchart/Barchart.js:35
 msgid "Webutvikling"
 msgstr "Webutvikling"
 

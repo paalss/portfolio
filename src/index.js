@@ -9,6 +9,10 @@ import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
 import { messages as noMessages } from "./locales/no/messages";
 import { messages as enMessages } from "./locales/en/messages";
+import { no, en } from "make-plural/plurals"
+
+i18n.loadLocaleData("no", {plurals: no})
+i18n.loadLocaleData("en", {plurals: en})
 
 i18n.load({
   no: noMessages,

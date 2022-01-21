@@ -20,10 +20,10 @@ const Dokker = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <span className="fas fa-circle-notch"></span> <Trans>Besøk siden</Trans>
+      <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
     </a>
     <span className="link">
-      <span className="fab fa-github"></span> <Trans>Privat kildekode</Trans>
+      <span className="fab fa-github"></span> {t`Privat kildekode`}
     </span>
     <h2>
       <Trans>
@@ -75,11 +75,10 @@ const Dokker = () => (
     <Trans>
       <h3>Litt om Dokker</h3>
       <p>
-        Dokker kan minne om en fusjon av ItsLearning (eller Blackboard/Fronter)
-        og vitnemålsportalen: I Dokker kan f.eks. lærere legge ut oppgaver, og
-        elever kan levere inn besvarelser og selvvurderinger. <br />
-        Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den
-        får de beholde tilgangen til livet ut. De kan også legge ut vitnemål og
+        Dokker er en kommunikasjonsplatform for studenter og lærere i skole og
+        lignende. I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan
+        levere inn besvarelser og selvvurderinger. <br />
+        Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også legge ut vitnemål og
         sertifikater.
       </p>
     </Trans>

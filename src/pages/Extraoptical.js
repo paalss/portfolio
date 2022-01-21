@@ -4,7 +4,7 @@ import img from "../images/extraoptical/sider/front-page.webp";
 // import T from "../components/common/HtmlTag";
 
 // react lingui
-import { Trans } from "@lingui/macro";
+import { Trans, t } from "@lingui/macro";
 
 
 const Extraoptical = () => (
@@ -16,10 +16,10 @@ const Extraoptical = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <span className="fas fa-circle-notch"></span> <Trans>Besøk siden</Trans> 
+      <span className="fas fa-circle-notch"></span> {t`Besøk siden`} 
     </a>
     <span className="link">
-      <span className="fab fa-github"></span> <Trans>Privat Kildekode</Trans>
+      <span className="fab fa-github"></span> {t`Privat kildekode`}
     </span>
     <h2>
       Praksis hos Extra Optical

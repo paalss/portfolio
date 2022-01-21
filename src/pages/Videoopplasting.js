@@ -16,39 +16,43 @@ const Videoopplasting = () => (
         <span className="subtitle">2020 vår</span>
       </Trans>
     </h2>
-    <p>
-      Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle
-      lage nettapplikasjoner for videoopplasting og &#8209;visning. Altså mye
-      det samme som det f.eks. Youtube, Udemy og Edx.
-    </p>
-    <p>
-      Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp
-      videoer, se på dem, legge til et interaktivt transkript ved siden av
-      videoen, endre videodetaljene, legge dem til i spillelister, abonnere på
-      spillelister.
-    </p>
-    <p>
-      Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av
-      kravspesifikasjonen.
-    </p>
+    <Trans>
+      <p>
+        Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle
+        lage nettapplikasjoner for videoopplasting og &#8209;visning. Altså mye
+        det samme som det f.eks. Youtube, Udemy og Edx tilbyr.
+      </p>
+      <p>
+        Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp
+        videoer, se på dem, legge til et interaktivt transkript ved siden av
+        videoen, endre videodetaljene, legge dem til i spillelister og abonnere
+        på spillelister.
+      </p>
+      <p>
+        Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av
+        kravspesifikasjonen.
+      </p>
 
-    <h2>Første prosjekt</h2>
+      <h2>Første prosjekt</h2>
+    </Trans>
     <ToolList
       tools={["Twig", "PHP", "MySQL", "Relasjonsdatabase", "HTML", "Docker"]}
       toolsText={true}
     />
 
-    <p>
-      Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med
-      videoopplasting, &#8209;redigering og &#8209;visning. I tillegg gjorde jeg
-      det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens
-      interaksjon med databasen, databasestrukturen og nedlasting av videoer til
-      filsystemet. Jeg jobbet også litt med kommentarer.
-    </p>
-    <p>
-      Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre
-      html-sidene.
-    </p>
+    <Trans>
+      <p>
+        Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med
+        videoopplasting, &#8209;redigering og &#8209;visning. I tillegg gjorde
+        jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med
+        appens interaksjon med databasen, databasestrukturen og nedlasting av
+        videoer til filsystemet. Jeg jobbet også litt med kommentarer.
+      </p>
+      <p>
+        Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre
+        html-sidene.
+      </p>
+    </Trans>
 
     <div uk-lightbox="animation: slide">
       <Figure
@@ -61,14 +65,10 @@ const Videoopplasting = () => (
       />
     </div>
     <span className="link">
-      <span className="fas fa-circle-notch"></span>
-
-      <Trans>Ikke tilgjengelig live</Trans>
+      <span className="fas fa-circle-notch"></span> {t`Ikke tilgjengelig live`}
     </span>
     <span className="link">
-      <span className="fab fa-github"></span>
-
-      <Trans>Privat kildekode</Trans>
+      <span className="fab fa-github"></span> {t`Privat kildekode`}
     </span>
 
     <h2>Andre prosjekt</h2>
@@ -162,12 +162,10 @@ const Videoopplasting = () => (
       />
     </div>
     <span className="link">
-      <span className="fas fa-circle-notch"></span>{" "}
-      <Trans>Ikke tilgjengelig live</Trans>
+      <span className="fas fa-circle-notch"></span> {t`Ikke tilgjengelig live`}
     </span>
     <span className="link">
-      <span className="fab fa-github"></span>{" "}
-      <Trans>Privat kildekode</Trans>
+      <span className="fab fa-github"></span> {t`Privat kildekode`}
     </span>
   </>
 );

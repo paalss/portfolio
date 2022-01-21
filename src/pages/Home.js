@@ -16,15 +16,16 @@ const Home = () => (
         Jeg har erfaring innen webutvikling og grafisk design.
       </div>
     </Trans>
+
     <div id="skills-placeholder" className="skills-placeholder mb-130">
       <Barchart
         web={[
           { tech: "HTML & CSS", level: "3" },
           { tech: "JavaScript", level: "3" },
           {
+            // denne string'en passer for bar title, men ikke som label innerhtml...
             tech: t`MySQL & relasjonsdatabaser`,
-            // &shy; === soft hyphen
-            // trenger en HTML-versjon med soft hyphen (&shy;), slik at ordet kan orddeles ved linjeskift
+            // ...label trenger en HTML-versjon med soft hyphen (&shy;), slik at ordet kan orddeles ved linjeskift
             techHtmlEntities: (
               <Trans>MySQL &amp; relasjons&shy;databaser</Trans>
             ),

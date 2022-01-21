@@ -17,8 +17,7 @@ const Rankingapp = () => (
       alt="Ranking app interface"
     />
     <span className="link">
-      <span className="fas fa-circle-notch"></span>
-      <Trans>Ikke tilgjengelig live</Trans>
+      <span className="fas fa-circle-notch"></span> {t`Ikke tilgjengelig live`}
     </span>
     <a
       className="link"
@@ -26,8 +25,7 @@ const Rankingapp = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <span className="fab fa-github"></span>
-      <Trans>Kildekode</Trans>
+      <span className="fab fa-github"></span> {t`Kildekode`}
     </a>
     <h2>
       <Trans>

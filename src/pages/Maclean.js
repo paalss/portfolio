@@ -12,7 +12,7 @@ const Maclean = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <span className="fas fa-circle-notch"></span> <Trans>Besøk siden</Trans>
+      <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
     </a>
     <a
       className="link"
@@ -20,11 +20,13 @@ const Maclean = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <span className="fab fa-github"></span> <Trans>Kildekode</Trans>
+      <span className="fab fa-github"></span> {t`Kildekode`}
     </a>
     <h2>
-      Innlevering på videregående
-      <span className="subtitle">2015</span>
+      <Trans>
+        Innlevering på videregående
+        <span className="subtitle">2015</span>
+      </Trans>
     </h2>
     <ToolList
       tools={["HTML", "CSS", "Photoshop", "Illustrator"]}

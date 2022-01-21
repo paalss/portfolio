@@ -14,7 +14,7 @@ const Template = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <span className="fas fa-circle-notch"></span> <Trans>Besøk siden</Trans>
+      <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
     </a>
     <a
       className="link"
@@ -22,14 +22,13 @@ const Template = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <span className="fab fa-github"></span> <Trans>Kildekode</Trans>
+      <span className="fab fa-github"></span> {t`Kildekode`}
     </a>
     <span className="link">
-      <span className="fas fa-circle-notch"></span>{" "}
-      <Trans>Ikke tilgjengelig live</Trans>
+      <span className="fas fa-circle-notch"></span> {t`Ikke tilgjengelig live`}
     </span>
     <span className="link">
-      <span className="fab fa-github"></span> <Trans>Privat kildekode</Trans>
+      <span className="fab fa-github"></span> {t`Privat kildekode`}
     </span>
     <h2>
       <Trans>

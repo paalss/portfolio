@@ -180,7 +180,7 @@ msgstr "Pretty good at {tech}"
 #: src/pages/Home.js:56
 #: src/pagesInfo.js:145
 msgid "Grafisk"
-msgstr "Graphic work"
+msgstr "Graphic"
 
 #: src/components/common/Barchart/Barchart-utkast.js:42
 #: src/components/common/Barchart/Barchart.js:42

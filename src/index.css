@@ -154,7 +154,7 @@
     padding-top: 75px;
     padding-bottom: 50px;
     background-color: #fff;
-    /* .work main skal ha nav-bar som ligger ved siden av main. nav-bar skal
+    /* .work main skal h{a }nav-bar som ligger ved siden av main. nav-bar skal
     «kaste skygge» over på main, lag derfor en invers skygge på main. */
     -webkit-box-shadow: inset 0px 4px 32px -16px #000000;
     box-shadow: inset 0px 4px 32px -16px #000000;

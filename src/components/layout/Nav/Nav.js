@@ -2,12 +2,20 @@ import { NavLink } from "react-router-dom";
 import pagesInfo from "../../../pagesInfo";
 import classes from "./Nav.module.css";
 
-const Nav = () => (
-  <nav className={classes.nav}>
-    <div className="container">
-      <ul className={classes.ul}>
-        {pagesInfo.map((page) => {
-          return (
+// react lingui
+import { useLingui } from "@lingui/react";
+// import { i18n } from "@lingui/core";
+
+
+const Nav = () => {
+  const { i18n } = useLingui();
+  const activeLanguage = i18n.locale;
+
+  return (
+    <nav className={classes.nav}>
+      <div className="container">
+        <ul className={classes.ul}>
+          {pagesInfo.map((page) => (
             <li key={page.id}>
               <NavLink
                 to={page.path}
@@ -18,26 +26,31 @@ const Nav = () => (
               </NavLink>
               {page.subpages && (
                 <ul className="website-links">
-                  {page.subpages.map((subpage) => {
-                    return (
-                      <li key={subpage.id}>
-                        <NavLink
-                          to={subpage.path}
-                          activeClassName={classes.selected}
-                        >
-                          {subpage.title}
-                        </NavLink>
-                      </li>
-                    );
-                  })}
+                  {page.subpages.map((subpage) => (
+                    <li key={subpage.id}>
+                      <NavLink
+                        to={subpage.path}
+                        activeClassName={classes.selected}
+                      >
+                        {subpage.title}
+                      </NavLink>
+                    </li>
+                  ))}
                 </ul>
               )}
             </li>
-          );
-        })}
-      </ul>
-    </div>
-  </nav>
-);
+          ))}
+          <li>
+            {activeLanguage === "en" ? (
+              <button onClick={()=>i18n.activate("no")}>Norsk</button>
+            ) : (
+              <button onClick={()=>i18n.activate("en")}>English</button>
+            )}
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
 
 export default Nav;

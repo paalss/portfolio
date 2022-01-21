@@ -3,6 +3,8 @@ import "./Barchart.css";
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
+
+
 const Barchart = ({ web, design }) => (
   <>
     <div className="skills">

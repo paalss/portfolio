@@ -23,11 +23,7 @@ const Home = () => (
           { tech: "JavaScript", level: "3" },
           {
             // &shy; === soft hyphen
-            tech: (
-              <>
-                MySQL &amp; <Trans>relasjons&shy;databaser</Trans>
-              </>
-            ),
+            tech: <Trans>MySQL &amp; relasjons&shy;databaser</Trans>,
             level: "3",
           },
           { tech: "React", level: "2" },

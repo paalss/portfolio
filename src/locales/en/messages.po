@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.js:38
+#: src/App.js:37
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Page not found"
 
@@ -37,7 +37,7 @@ msgstr "<0>The assignment specification was much like that of the first project.
 msgid "<0>Litt om Dokker</0><1>Dokker kan minne om en fusjon av ItsLearning (eller Blackboard/Fronter) og vitnemålsportalen: I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den får de beholde tilgangen til livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 msgstr "<0>Some info about Dokker</0><1>Dokker is a communication platform for students, teachers in schools and the like. In Dokker teachers can eg. publish assignments, to which students can submit their work and also submit self-assessment & ranking of their own work. <2/>As the students gradually uses the app, they gather different documentation of their experience, which can be assignment feedback, uploaded diplomas or certificates. One major selling point in Dokker is that the students will still have access to their Dokker user and their experience documentation, even after they've finished the school were they achieved said experience.</1>"
 
-#: src/pages/Home.js:48
+#: src/pages/Home.js:44
 msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som jeg har skrevet litt om.</1>"
 msgstr "<0>Web pages</0><1>Here's some web pages I'm proud of having made / contributed to.</1>"
 
@@ -49,7 +49,7 @@ msgstr "<0>During this five months practice I contributed to Dokker, an web appl
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
-#: src/pages/Home.js:64
+#: src/pages/Home.js:60
 msgid "Annet"
 msgstr "Other"
 
@@ -58,17 +58,17 @@ msgstr "Other"
 msgid "Artistprofil"
 msgstr "Artist profile"
 
-#: src/pages/Home.js:35
+#: src/pages/Home.js:31
 msgid "Automatisk testing"
 msgstr "Automatic testing"
 
 #: src/components/common/Barchart/Barchart-utkast.js:22
-#: src/components/common/Barchart/Barchart.js:54
+#: src/components/common/Barchart/Barchart.js:24
 msgid "Behersker godt"
 msgstr "Masters well"
 
 #: src/components/common/Barchart/Barchart-utkast.js:68
-#: src/components/common/Barchart/Barchart.js:20
+#: src/components/common/Barchart/Barchart.js:69
 msgid "Behersker {tech} godt"
 msgstr "Masters {tech} well"
 
@@ -90,6 +90,7 @@ msgstr "Best metroidvanias list example"
 
 #: src/pages/-Template.js:17
 #: src/pages/Dokker.js:23
+#: src/pages/Extraoptical.js:19
 #: src/pages/Maclean.js:15
 #: src/pages/Portfolios.js:179
 #: src/pages/Portfolios.js:228
@@ -126,7 +127,7 @@ msgid "En desktopside"
 msgstr "A desktop page"
 
 #: src/components/common/Barchart/Barchart-utkast.js:12
-#: src/components/common/Barchart/Barchart.js:44
+#: src/components/common/Barchart/Barchart.js:14
 msgid "Erfaring"
 msgstr "Experience"
 
@@ -167,27 +168,27 @@ msgid "Få pene og oversiktlige lister"
 msgstr "Get nice and pretty lists"
 
 #: src/components/common/Barchart/Barchart-utkast.js:27
-#: src/components/common/Barchart/Barchart.js:59
+#: src/components/common/Barchart/Barchart.js:29
 msgid "Ganske god på"
 msgstr "Pretty good at"
 
 #: src/components/common/Barchart/Barchart-utkast.js:72
-#: src/components/common/Barchart/Barchart.js:24
+#: src/components/common/Barchart/Barchart.js:73
 msgid "Ganske god på {tech}"
 msgstr "Pretty good at {tech}"
 
-#: src/pages/Home.js:58
+#: src/pages/Home.js:54
 #: src/pagesInfo.js:145
 msgid "Grafisk"
 msgstr "Graphic work"
 
 #: src/components/common/Barchart/Barchart-utkast.js:42
-#: src/components/common/Barchart/Barchart.js:74
+#: src/components/common/Barchart/Barchart.js:44
 msgid "Grafisk design"
 msgstr "Graphic design"
 
 #: src/components/common/Barchart/Barchart-utkast.js:17
-#: src/components/common/Barchart/Barchart.js:49
+#: src/components/common/Barchart/Barchart.js:19
 msgid "Grunn­leggende"
 msgstr "Basics"
 
@@ -219,12 +220,12 @@ msgid "Jr NM på ski logo"
 msgstr "Jr NM on ski logo"
 
 #: src/components/common/Barchart/Barchart-utkast.js:64
-#: src/components/common/Barchart/Barchart.js:16
+#: src/components/common/Barchart/Barchart.js:65
 msgid "Kan grunnleggende {tech}"
 msgstr "Know the basics of {tech}"
 
 #: src/components/common/Barchart/Barchart-utkast.js:60
-#: src/components/common/Barchart/Barchart.js:12
+#: src/components/common/Barchart/Barchart.js:61
 msgid "Kan litt {tech}"
 msgstr "Know some {tech}"
 
@@ -265,6 +266,10 @@ msgstr "Logo that was used"
 msgid "MacLean side"
 msgstr "MacLean site"
 
+#: src/pages/Home.js:26
+msgid "MySQL & relasjons­databaser"
+msgstr "MySQL & relational databases"
+
 #: src/pagesInfo.js:72
 msgid "Nettsider"
 msgstr "Websites"
@@ -284,6 +289,10 @@ msgstr "Practice<0>2013</0>"
 #: src/pages/Dokker.js:29
 msgid "Praksisprosjekt hos Learning Moment Technologies<0>2021 april–september</0>"
 msgstr "Practice project at Learning Moment Technologies<0>2021 April—September</0>"
+
+#: src/pages/Extraoptical.js:22
+msgid "Privat Kildekode"
+msgstr "Private source code"
 
 #: src/pages/-Template.js:32
 #: src/pages/Dokker.js:26
@@ -313,11 +322,11 @@ msgstr "Relational database"
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 
-#: src/pages/Home.js:99
+#: src/pages/Home.js:95
 msgid "Se mer på Github"
 msgstr "See more on Github"
 
-#: src/pages/Home.js:69
+#: src/pages/Home.js:65
 msgid "Sertifikat"
 msgstr "Certificate"
 
@@ -382,7 +391,7 @@ msgid "Videreutvikling: nye farger og noe endret layout"
 msgstr "Further work: some new colors and changed layout"
 
 #: src/components/common/Barchart/Barchart-utkast.js:35
-#: src/components/common/Barchart/Barchart.js:67
+#: src/components/common/Barchart/Barchart.js:37
 msgid "Webutvikling"
 msgstr "Web development"
 
@@ -444,8 +453,8 @@ msgid "porteføljer side"
 msgstr "portfolios page"
 
 #: src/pages/Home.js:28
-msgid "relasjons­databaser"
-msgstr "relational databases"
+#~ msgid "relasjons­databaser"
+#~ msgstr "relational databases"
 
 #: src/pages/Videoopplasting.js:153
 msgid "videolistesiden"

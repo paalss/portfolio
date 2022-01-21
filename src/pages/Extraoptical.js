@@ -16,10 +16,10 @@ const Extraoptical = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <span className="fas fa-circle-notch"></span> <Trans></Trans> Besøk siden
+      <span className="fas fa-circle-notch"></span> <Trans>Besøk siden</Trans> 
     </a>
     <span className="link">
-      <span className="fab fa-github"></span> Privat Kildekode
+      <span className="fab fa-github"></span> <Trans>Privat Kildekode</Trans>
     </span>
     <h2>
       Praksis hos Extra Optical

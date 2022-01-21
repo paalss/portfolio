@@ -6,7 +6,7 @@ nav ul {
   padding: 0;
   list-style-type: none;
 }
-nav a {
+nav a, nav button {
   display: block;
   background: #fff;
   text-decoration: none;
@@ -78,11 +78,16 @@ nav a {
 .nav a:hover,
 .nav a:active,
 .nav a:focus,
-.nav a.selected {
+.nav a.selected,
+.nav button:hover {
   font-weight: 900;
 }
 .gray {
   color: #929292;
+}
+
+nav button {
+  border: none;
 }
 
 @media only screen and (min-width: 700px) {
@@ -94,7 +99,7 @@ nav a {
     border-bottom: none;
     border-right: 2px solid #bbb;
   } */
-  .nav .ul li a {
+  .nav .ul li a, .nav .ul li button {
     padding: 16px 40px;
   }
 }

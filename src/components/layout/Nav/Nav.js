@@ -4,12 +4,20 @@ import classes from "./Nav.module.css";
 
 // react lingui
 import { useLingui } from "@lingui/react";
-// import { i18n } from "@lingui/core";
-
 
 const Nav = () => {
   const { i18n } = useLingui();
   const activeLanguage = i18n.locale;
+
+  const toggleLang = (activeLang) => {
+    if (activeLang === "no") {
+      i18n.activate("en");
+      localStorage.setItem('lang', 'en')
+    } else {
+      i18n.activate("no");
+      localStorage.setItem('lang', 'no')
+    }
+  };
 
   return (
     <nav className={classes.nav}>
@@ -41,11 +49,9 @@ const Nav = () => {
             </li>
           ))}
           <li>
-            {activeLanguage === "en" ? (
-              <button onClick={()=>i18n.activate("no")}>Norsk</button>
-            ) : (
-              <button onClick={()=>i18n.activate("en")}>English</button>
-            )}
+            <button onClick={()=>toggleLang(activeLanguage)}>
+              {activeLanguage === "no" ? "English" : "Norsk"}
+            </button>
           </li>
         </ul>
       </div>

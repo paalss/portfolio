@@ -14,11 +14,14 @@ import { no, en } from "make-plural/plurals"
 i18n.loadLocaleData("no", {plurals: no})
 i18n.loadLocaleData("en", {plurals: en})
 
+const activeLang = localStorage.getItem('lang');
+// activeLang: null | "no" | "en"
+
 i18n.load({
   no: noMessages,
   en: enMessages,
 });
-i18n.activate("en");
+i18n.activate(activeLang==="en" ? "en" : "no");
 
 const LinguiApp = () => (
   <I18nProvider i18n={i18n}>

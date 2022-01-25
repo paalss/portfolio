@@ -26,8 +26,12 @@ msgstr "404 - Siden finnes ikke"
 #~ msgstr "<0><1>LitElement</1><2>Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX) Ellers så har LitElement kun class-based components.</2></0>"
 
 #: src/pages/Portfolios.js:28
-msgid "<0>Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere versjoner. Denne porteføljen ble til fordi jeg var ufornøyd med den forrige (se under): Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg hadde laget.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å skape en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var et verktøy jeg hadde god kjennskap til.</3>"
-msgstr "<0>Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere versjoner. Denne porteføljen ble til fordi jeg var ufornøyd med den forrige (se under): Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg hadde laget.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å skape en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var et verktøy jeg hadde god kjennskap til.</3>"
+#~ msgid "<0>Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere versjoner. Denne porteføljen ble til fordi jeg var ufornøyd med den forrige (se under): Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg hadde laget.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å skape en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var et verktøy jeg hadde god kjennskap til.</3>"
+#~ msgstr "<0>Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere versjoner. Denne porteføljen ble til fordi jeg var ufornøyd med den forrige (se under): Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg hadde laget.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å skape en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var et verktøy jeg hadde god kjennskap til.</3>"
+
+#: src/pages/Portfolios.js:28
+msgid "<0>Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere versjoner. Denne versjonen ble til fordi jeg var ufornøyd med den forrige (se under): Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg hadde laget.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baesrte verktøyet jeg hadde tidligere erfaring med.</3>"
+msgstr "<0>Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere versjoner. Denne versjonen ble til fordi jeg var ufornøyd med den forrige (se under): Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg hadde laget.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baesrte verktøyet jeg hadde tidligere erfaring med.</3>"
 
 #: src/pages/JRNM.js:27
 msgid "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
@@ -45,7 +49,7 @@ msgstr "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videooppla
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 msgstr "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 
-#: src/pages/Videoopplasting.js:102
+#: src/pages/Videoopplasting.js:100
 msgid "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det meste lagde selv.</14>"
 msgstr "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det meste lagde selv.</14>"
 
@@ -58,10 +62,14 @@ msgstr "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studente
 #~ msgstr "<0>Litt om Dokker</0><1>Dokker kan minne om en fusjon av ItsLearning (eller Blackboard/Fronter) og vitnemålsportalen: I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den får de beholde tilgangen til livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 
 #: src/pages/Home.js:49
-msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som jeg har skrevet litt om.</1>"
-msgstr "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som jeg har skrevet litt om.</1>"
+#~ msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som jeg har skrevet litt om.</1>"
+#~ msgstr "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som jeg har skrevet litt om.</1>"
 
-#: src/pages/Portfolios.js:85
+#: src/pages/Home.js:49
+msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
+msgstr "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
+
+#: src/pages/Portfolios.js:84
 msgid "<0>Porteføljene jeg hadde lagd før denne (se under) var enten for mangelfull av informasjon om mitt arbeid eller hadde for dårlig kode, så da begynte jeg heller på denne. I denne forsøkte jeg å dekke så mye som mulig av det arbeidet jeg hadde gjort, alt grafisk og koderelatert.</0><1>Denne lagde jeg i PHP, mest for å løse for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så godt på denne tiden, og jeg hadde tilgang på en <2>live server</2> ­ (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det ikke ble en statisk side.</1>"
 msgstr "<0>Porteføljene jeg hadde lagd før denne (se under) var enten for mangelfull av informasjon om mitt arbeid eller hadde for dårlig kode, så da begynte jeg heller på denne. I denne forsøkte jeg å dekke så mye som mulig av det arbeidet jeg hadde gjort, alt grafisk og koderelatert.</0><1>Denne lagde jeg i PHP, mest for å løse for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så godt på denne tiden, og jeg hadde tilgang på en <2>live server</2> ­ (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det ikke ble en statisk side.</1>"
 
@@ -108,15 +116,15 @@ msgstr "Behersker {tech} godt"
 #~ msgid "Behersker {tech} godt {eeeee}"
 #~ msgstr "Behersker {tech} godt {eeeee}"
 
-#: src/pages/-Template.js:42
+#: src/pages/-Template.js:41
 msgid "Beskrivelse"
 msgstr "Beskrivelse"
 
-#: src/pages/Rankingapp.js:104
+#: src/pages/Rankingapp.js:102
 msgid "Beste bøker listeeksempel"
 msgstr "Beste bøker listeeksempel"
 
-#: src/pages/Rankingapp.js:97
+#: src/pages/Rankingapp.js:95
 msgid "Beste metroidvanias listeeksempel"
 msgstr "Beste metroidvanias listeeksempel"
 
@@ -124,9 +132,9 @@ msgstr "Beste metroidvanias listeeksempel"
 #: src/pages/Dokker.js:23
 #: src/pages/Extraoptical.js:19
 #: src/pages/Maclean.js:15
-#: src/pages/Portfolios.js:149
-#: src/pages/Portfolios.js:190
-#: src/pages/Portfolios.js:241
+#: src/pages/Portfolios.js:148
+#: src/pages/Portfolios.js:188
+#: src/pages/Portfolios.js:238
 msgid "Besøk siden"
 msgstr "Besøk siden"
 
@@ -146,7 +154,7 @@ msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 #~ "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har\n"
 #~ "ingen undersider og index-siden er halvferdig."
 
-#: src/pages/Portfolios.js:171
+#: src/pages/Portfolios.js:170
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 
@@ -162,11 +170,11 @@ msgstr "Dokker appen"
 msgid "Dokker blogg"
 msgstr "Dokker blogg"
 
-#: src/pages/Portfolios.js:65
+#: src/pages/Portfolios.js:64
 msgid "Du er på siden"
 msgstr "Du er på siden"
 
-#: src/pages/Portfolios.js:127
+#: src/pages/Portfolios.js:126
 msgid "Eksamensinnlevering i webkoding<0>2016 høst</0>"
 msgstr "Eksamensinnlevering i webkoding<0>2016 høst</0>"
 
@@ -175,7 +183,7 @@ msgstr "Eksamensinnlevering i webkoding<0>2016 høst</0>"
 msgid "En desktopside"
 msgstr "En desktopside"
 
-#: src/pages/Portfolios.js:163
+#: src/pages/Portfolios.js:162
 msgid "En portefølje påbegynt like før studiene<0>2016</0>"
 msgstr "En portefølje påbegynt like før studiene<0>2016</0>"
 
@@ -216,11 +224,11 @@ msgstr "Fikset på Extra Opticals Zendesk Help center."
 msgid "Fritidsprosjekt etter studiene<0>2020 desember–nå</0>"
 msgstr "Fritidsprosjekt etter studiene<0>2020 desember–nå</0>"
 
-#: src/pages/Portfolios.js:180
+#: src/pages/Portfolios.js:179
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Fritidsprosjekt som aldri ble fullført"
 
-#: src/pages/Rankingapp.js:105
+#: src/pages/Rankingapp.js:103
 msgid "Få pene og oversiktlige lister"
 msgstr "Få pene og oversiktlige lister"
 
@@ -253,7 +261,7 @@ msgstr "Grunn­leggende"
 msgid "Hjem"
 msgstr "Hjem"
 
-#: src/pages/Portfolios.js:212
+#: src/pages/Portfolios.js:210
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 
@@ -269,15 +277,15 @@ msgstr "I dennne praksisen jobbet jeg med nettbutikken Extra Optical (frontend).
 msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 msgstr "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 
-#: src/pages/-Template.js:29
-#: src/pages/Portfolios.js:113
-#: src/pages/Rankingapp.js:21
-#: src/pages/Videoopplasting.js:69
-#: src/pages/Videoopplasting.js:168
+#: src/pages/-Template.js:28
+#: src/pages/Portfolios.js:112
+#: src/pages/Rankingapp.js:20
+#: src/pages/Videoopplasting.js:68
+#: src/pages/Videoopplasting.js:165
 msgid "Ikke tilgjengelig live"
 msgstr "Ikke tilgjengelig live"
 
-#: src/pages/Portfolios.js:204
+#: src/pages/Portfolios.js:202
 msgid "Innlevering på VGS og videreutvikling etter det<0>2015</0>"
 msgstr "Innlevering på VGS og videreutvikling etter det<0>2015</0>"
 
@@ -285,7 +293,7 @@ msgstr "Innlevering på VGS og videreutvikling etter det<0>2015</0>"
 msgid "Innlevering på videregående<0>2015</0>"
 msgstr "Innlevering på videregående<0>2015</0>"
 
-#: src/pages/Portfolios.js:231
+#: src/pages/Portfolios.js:229
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Innleveringsoppgave på medier og kommunikasjon"
 
@@ -313,12 +321,12 @@ msgstr "Kan litt {tech}"
 
 #: src/pages/-Template.js:25
 #: src/pages/Maclean.js:23
-#: src/pages/Portfolios.js:74
-#: src/pages/Portfolios.js:121
-#: src/pages/Portfolios.js:157
-#: src/pages/Portfolios.js:198
-#: src/pages/Portfolios.js:250
-#: src/pages/Rankingapp.js:30
+#: src/pages/Portfolios.js:73
+#: src/pages/Portfolios.js:120
+#: src/pages/Portfolios.js:156
+#: src/pages/Portfolios.js:196
+#: src/pages/Portfolios.js:246
+#: src/pages/Rankingapp.js:28
 msgid "Kildekode"
 msgstr "Kildekode"
 
@@ -326,7 +334,7 @@ msgstr "Kildekode"
 msgid "Kunst"
 msgstr "Kunst"
 
-#: src/pages/Rankingapp.js:91
+#: src/pages/Rankingapp.js:89
 msgid "Lag egne lister"
 msgstr "Lag egne lister"
 
@@ -362,7 +370,7 @@ msgstr "MySQL & relasjons­databaser"
 msgid "Nettsider"
 msgstr "Nettsider"
 
-#: src/pages/Rankingapp.js:90
+#: src/pages/Rankingapp.js:88
 msgid "Oversikt over lister eksempel"
 msgstr "Oversikt over lister eksempel"
 
@@ -386,11 +394,11 @@ msgstr "Praksisprosjekt hos Learning Moment Technologies<0>2021 april–septembe
 #~ msgid "Privat Kildekode"
 #~ msgstr "Privat Kildekode"
 
-#: src/pages/-Template.js:32
+#: src/pages/-Template.js:31
 #: src/pages/Dokker.js:26
 #: src/pages/Extraoptical.js:22
-#: src/pages/Videoopplasting.js:73
-#: src/pages/Videoopplasting.js:171
+#: src/pages/Videoopplasting.js:71
+#: src/pages/Videoopplasting.js:168
 msgid "Privat kildekode"
 msgstr "Privat kildekode"
 
@@ -398,7 +406,7 @@ msgstr "Privat kildekode"
 msgid "Prosjekt i studiene<0>2019 høst</0>"
 msgstr "Prosjekt i studiene<0>2019 høst</0>"
 
-#: src/pages/Rankingapp.js:52
+#: src/pages/Rankingapp.js:50
 msgid "Prosjektet er foreløpig satt på pause.<0>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</0><1>Motivasjon til prosjektet</1>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.<2>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</2><3>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</3><4>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</4>"
 msgstr "Prosjektet er foreløpig satt på pause.<0>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</0><1>Motivasjon til prosjektet</1>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.<2>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</2><3>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</3><4>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</4>"
 
@@ -406,11 +414,11 @@ msgstr "Prosjektet er foreløpig satt på pause.<0>I slutten av juli 2020 begynt
 #~ msgid "Ranking app interface"
 #~ msgstr "Ranking app interface"
 
-#: src/pages/Rankingapp.js:33
+#: src/pages/Rankingapp.js:31
 msgid "Ranking app<0>2020 høst–2021 september</0>"
 msgstr "Ranking app<0>2020 høst–2021 september</0>"
 
-#: src/pages/Rankingapp.js:45
+#: src/pages/Rankingapp.js:43
 #: src/pagesInfo.js:100
 msgid "Relasjonsdatabase"
 msgstr "Relasjonsdatabase"
@@ -427,7 +435,7 @@ msgstr "Se mer på Github"
 msgid "Sertifikat"
 msgstr "Sertifikat"
 
-#: src/pages/Rankingapp.js:98
+#: src/pages/Rankingapp.js:96
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Sett inn egne elementer, tilpass etter behov"
 
@@ -458,7 +466,7 @@ msgstr "Utdannet web­utvikler"
 #~ msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX) Ellers så har LitElement kun class-based components."
 #~ msgstr "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX) Ellers så har LitElement kun class-based components."
 
-#: src/pages/Videoopplasting.js:94
+#: src/pages/Videoopplasting.js:92
 msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
 msgstr "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
 
@@ -470,11 +478,11 @@ msgstr "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller se
 msgid "Videoopplastingsapp"
 msgstr "Videoopplastingsapp"
 
-#: src/pages/Videoopplasting.js:156
+#: src/pages/Videoopplasting.js:154
 msgid "Videooversikt"
 msgstr "Videooversikt"
 
-#: src/pages/Videoopplasting.js:149
+#: src/pages/Videoopplasting.js:147
 msgid "Videoside i andre prosjekt"
 msgstr "Videoside i andre prosjekt"
 
@@ -491,7 +499,7 @@ msgstr "Video­opplastings­apper"
 msgid "Videre lesing"
 msgstr "Videre lesing"
 
-#: src/pages/Portfolios.js:224
+#: src/pages/Portfolios.js:222
 msgid "Videreutvikling etter leveranse: nye farger og noe endret layout"
 msgstr "Videreutvikling etter leveranse: nye farger og noe endret layout"
 
@@ -520,7 +528,7 @@ msgstr "Webutvikling"
 #~ msgid "_Privat kildekode"
 #~ msgstr "_Privat kildekode"
 
-#: src/pages/-Template.js:35
+#: src/pages/-Template.js:34
 msgid "_Sammenheng<0>_semester</0>"
 msgstr "_Sammenheng<0>_semester</0>"
 
@@ -528,13 +536,13 @@ msgstr "_Sammenheng<0>_semester</0>"
 msgid "_bilde"
 msgstr "_bilde"
 
+#: src/pages/-Template.js:48
 #: src/pages/-Template.js:49
-#: src/pages/-Template.js:50
 msgid "_bilde1"
 msgstr "_bilde1"
 
+#: src/pages/-Template.js:55
 #: src/pages/-Template.js:56
-#: src/pages/-Template.js:57
 msgid "_bilde2"
 msgstr "_bilde2"
 
@@ -566,25 +574,25 @@ msgstr "maclean nettside"
 msgid "plakat med logo"
 msgstr "plakat med logo"
 
-#: src/pages/Portfolios.js:230
+#: src/pages/Portfolios.js:228
 msgid "portefølje 1 versjon 1"
 msgstr "portefølje 1 versjon 1"
 
-#: src/pages/Portfolios.js:223
+#: src/pages/Portfolios.js:221
 msgid "portefølje 1 versjon 2"
 msgstr "portefølje 1 versjon 2"
 
-#: src/pages/Portfolios.js:179
+#: src/pages/Portfolios.js:178
 msgid "portefølje 2"
 msgstr "portefølje 2"
 
+#: src/pages/Portfolios.js:138
 #: src/pages/Portfolios.js:139
-#: src/pages/Portfolios.js:140
 msgid "portefølje 3"
 msgstr "portefølje 3"
 
+#: src/pages/Portfolios.js:106
 #: src/pages/Portfolios.js:107
-#: src/pages/Portfolios.js:108
 msgid "portefølje 4"
 msgstr "portefølje 4"
 
@@ -624,15 +632,15 @@ msgstr "porteføljer side"
 #~ msgid "unaviable"
 #~ msgstr "Ikke tilgjengelig live"
 
-#: src/pages/Videoopplasting.js:155
+#: src/pages/Videoopplasting.js:153
 msgid "videolistesiden"
 msgstr "videolistesiden"
 
-#: src/pages/Videoopplasting.js:162
+#: src/pages/Videoopplasting.js:160
 msgid "videoopplastingssiden"
 msgstr "videoopplastingssiden"
 
-#: src/pages/Videoopplasting.js:148
+#: src/pages/Videoopplasting.js:146
 msgid "videosiden i andre prosjekt"
 msgstr "videosiden i andre prosjekt"
 
@@ -646,6 +654,6 @@ msgstr "videosiden i første prosjekt"
 #~ msgid "visit"
 #~ msgstr "visit"
 
-#: src/pages/Videoopplasting.js:163
+#: src/pages/Videoopplasting.js:161
 msgid "«Last opp video»-siden"
 msgstr "«Last opp video»-siden"

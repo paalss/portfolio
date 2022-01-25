@@ -148,10 +148,10 @@ const pagesInfo = [
       {
         id: 10,
         path: "/graphicwork/artistbooking",
-        title: "Artist booking app",
+        title: "Artist booking prototype",
         page: <Artistbooking />,
         imgSrc: artistbookingImg,
-        imgAlt: "Artist booking app",
+        imgAlt: "Artist booking hi-fi prototype",
         tools: ["Adobe XD"],
       },
       {

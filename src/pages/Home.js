@@ -49,7 +49,7 @@ const Home = () => (
     <Trans>
       <h2>Nettsider</h2>
       <div className="mb-50">
-        Her er noen nettsider som jeg er stolt av å ha laget / bidratt på og som
+        Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som
         jeg har skrevet litt om.
       </div>
     </Trans>

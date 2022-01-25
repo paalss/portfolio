@@ -28,21 +28,21 @@ const Portfolios = () => (
       <Trans>
         <p>
           Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere
-          versjoner. Denne porteføljen ble til fordi jeg var ufornøyd med den
+          versjoner. Denne versjonen ble til fordi jeg var ufornøyd med den
           forrige (se under): Den hadde litt for dårlig design og hadde lite
           fokus på nettsider jeg hadde laget.
         </p>
         <h3>Hvorfor React?</h3>
         <p>
-          Før jeg brukte React til porteføljen brukte jeg JavaScript til å skape
-          en komponent-basert arkitektur. Det var fordi noen elementer måtte
-          gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes
-          bort fra index.html (søylediagrammet).
+          Før jeg brukte React til porteføljen brukte jeg JavaScript til å
+          etterligne en komponent-basert arkitektur. Det var fordi noen
+          elementer måtte gjenbrukes på hver side (Nav og Footer) og et element
+          måtte ryddes bort fra index.html (søylediagrammet).
         </p>
         <p>
           Å lage komponenter med "vanilla JavaScript" ble ganske uelegant etter
           hvert som koden ble større. Jeg gikk derfor over til React da det var
-          et verktøy jeg hadde god kjennskap til.
+          det komponent-baesrte verktøyet jeg hadde tidligere erfaring med.
         </p>
       </Trans>
       {/*<p>

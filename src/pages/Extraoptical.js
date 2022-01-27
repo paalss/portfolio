@@ -6,7 +6,6 @@ import img from "../images/extraoptical/sider/front-page.webp";
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
-
 const Extraoptical = () => (
   <>
     <img src={img} width={1920} height={1044} alt="img" />
@@ -16,14 +15,16 @@ const Extraoptical = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <span className="fas fa-circle-notch"></span> {t`Besøk siden`} 
+      <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
     </a>
     <span className="link">
       <span className="fab fa-github"></span> {t`Privat kildekode`}
     </span>
     <h2>
-      Praksis hos Extra Optical
-      <span className="subtitle">2021 november–nå</span>
+      <Trans>
+        Praksis hos Extra Optical
+        <span className="subtitle">2021 november–nå</span>
+      </Trans>
     </h2>
     <ToolList tools={["Magento2", "PHTML", "CSS"]} toolsText={true} />
     <dl>

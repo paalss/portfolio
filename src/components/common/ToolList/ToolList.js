@@ -1,8 +1,10 @@
 import classes from "./ToolList.module.css";
 
+import { t } from "@lingui/macro";
+
 const ToolList = ({ tools, thereAreMoreTools = false, toolsText = false }) => (
   <ul className={classes.tools}>
-    {toolsText && "Verktøy: "}
+    {toolsText && (t`Verktøy:` + " ")}
     {tools &&
       tools.map((tech, i) => {
         return (

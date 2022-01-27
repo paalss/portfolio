@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.js:37
+#: src/App.js:38
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Page not found"
 
@@ -45,10 +45,6 @@ msgstr "<0>The assignment specification was much like that of the first project.
 msgid "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studenter og lærere i skole og lignende. I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 msgstr "<0>Some info about Dokker</0><1>Dokker is a communication platform for students, teachers in schools and the like. In Dokker teachers can eg. publish assignments, to which students can submit their work and also submit self-assessment & ranking of their own work. <2/>As the students gradually uses the app, they gather different documentation of their experience, which can be assignment feedback, uploaded diplomas or certificates. One major selling point in Dokker is that the students will still have access to their Dokker user and their experience documentation, even after they've finished the school were they achieved said experience.</1>"
 
-#: src/pages/Dokker.js:75
-#~ msgid "<0>Litt om Dokker</0><1>Dokker kan minne om en fusjon av ItsLearning (eller Blackboard/Fronter) og vitnemålsportalen: I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og den får de beholde tilgangen til livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
-#~ msgstr "<0>Some info about Dokker</0><1>Dokker is a communication platform for students, teachers in schools and the like. In Dokker teachers can eg. publish assignments, to which students can submit their work and also submit self-assessment & ranking of their own work. <2/>As the students gradually uses the app, they gather different documentation of their experience, which can be assignment feedback, uploaded diplomas or certificates. One major selling point in Dokker is that the students will still have access to their Dokker user and their experience documentation, even after they've finished the school were they achieved said experience.</1>"
-
 #: src/pages/Home.js:49
 msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
 msgstr "<0>Web pages</0><1>Here's some web pages I'm proud of having made myself / contributed to.</1>"
@@ -59,15 +55,11 @@ msgstr "<0>The portfolios I made before this one (see below) was either too defi
 
 #: src/pages/Dokker.js:36
 msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
-msgstr "<0>During this five months practice I contributed to Dokker, an web application by Learning Moment. I also took a React course to get the necessary React development competence. I got to contribute with:</0><1><2>New components</2><3>Refactoring</3><4>Reviews of other's code</4><5>Some bug-fixing</5></1><6>During this practice I learned:</6><7><8>React and related technologies</8><9>Cooperation with the use of Github <10>issues</10> and <11>pull requests</11></9></7><12>Components I've made</12>"
+msgstr "<0>During this five months internship I contributed to Dokker, an web application by Learning Moment. I also took a React course to get the necessary React development competence. I got to contribute with:</0><1><2>New components</2><3>Refactoring</3><4>Reviews of other's code</4><5>Some bug-fixing</5></1><6>During this practice I learned:</6><7><8>React and related technologies</8><9>Cooperation with the use of Github <10>issues</10> and <11>pull requests</11></9></7><12>Components I've made</12>"
 
 #: src/pages/Videoopplasting.js:19
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2><3>Første prosjekt</3>"
 msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we set to make web apps for uploading and watching videos. That is, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
-
-#: src/pages/Videoopplasting.js:19
-#~ msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister, abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2><3>Første prosjekt</3>"
-#~ msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we set to make web apps for uploading and watching videos. That is, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
 #: src/pagesInfo.js:121
 msgid "Alistair MacLean nettside redesign"
@@ -110,7 +102,7 @@ msgstr "Best metroidvanias list example"
 
 #: src/pages/-Template.js:17
 #: src/pages/Dokker.js:23
-#: src/pages/Extraoptical.js:19
+#: src/pages/Extraoptical.js:18
 #: src/pages/Maclean.js:15
 #: src/pages/Portfolios.js:148
 #: src/pages/Portfolios.js:188
@@ -118,11 +110,11 @@ msgstr "Best metroidvanias list example"
 msgid "Besøk siden"
 msgstr "Visit site"
 
-#: src/pages/Extraoptical.js:47
+#: src/pages/Extraoptical.js:48
 msgid "Bidrag"
 msgstr "Contribution"
 
-#: src/pages/Extraoptical.js:123
+#: src/pages/Extraoptical.js:124
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Built some sites on the new webpage (a Progressive Web App)"
 
@@ -157,14 +149,14 @@ msgstr "A desktop page"
 
 #: src/pages/Portfolios.js:162
 msgid "En portefølje påbegynt like før studiene<0>2016</0>"
-msgstr "A portfolio started just before I started my studies"
+msgstr "A portfolio started just before I started my studies<0>2016</0>"
 
 #: src/components/common/Barchart/Barchart-utkast.js:12
 #: src/components/common/Barchart/Barchart.js:12
 msgid "Erfaring"
 msgstr "Experience"
 
-#: src/pages/Extraoptical.js:32
+#: src/pages/Extraoptical.js:33
 msgid "Et HTML templating språk (HTML som aksepterer variabler og expressions). Det er ikke så ulikt Twig og Handlebars."
 msgstr "A HTML templating language (HTML that accepts variables and expressions). It's not so different to Twig and Handlebars."
 
@@ -180,21 +172,21 @@ msgstr "A card for the recent-activites part of dashboard"
 msgid "Fant ingen bilder"
 msgstr "Found no images"
 
-#: src/pages/Extraoptical.js:51
+#: src/pages/Extraoptical.js:52
 msgid "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 msgstr "Fixed errors and code negligence in HTML. For example there were many <0>opening/closing</0>-HTML-tags that missed matching pair"
 
-#: src/pages/Extraoptical.js:91
+#: src/pages/Extraoptical.js:92
 msgid "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 msgstr "Fixed layout on bottom text and made a site available for mobile sizes"
 
-#: src/pages/Extraoptical.js:88
+#: src/pages/Extraoptical.js:89
 msgid "Fikset på Extra Opticals Zendesk Help center."
 msgstr "Fixed Extra Optical's Zendesk Help center"
 
 #: src/pages/Portfolios.js:18
 msgid "Fritidsprosjekt etter studiene<0>2020 desember–nå</0>"
-msgstr "Spare time project after the studies<0>2020 December–now</0>"
+msgstr "Spare time project made after the studies<0>2020 December–now</0>"
 
 #: src/pages/Portfolios.js:179
 msgid "Fritidsprosjekt som aldri ble fullført"
@@ -217,7 +209,7 @@ msgstr "Pretty good at {tech}"
 #: src/pages/Home.js:59
 #: src/pagesInfo.js:145
 msgid "Grafisk"
-msgstr "Graphic"
+msgstr "Graphics"
 
 #: src/components/common/Barchart/Barchart-utkast.js:42
 #: src/components/common/Barchart/Barchart.js:42
@@ -237,7 +229,7 @@ msgstr "Home"
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "In 2015 i attended <0>media and communication</0> on Byåsen VGS (highschool), were I got the task to make a three-page portfolio about myself. After delivering this I improved it in my spare time."
 
-#: src/pages/Extraoptical.js:39
+#: src/pages/Extraoptical.js:40
 msgid "I dennne praksisen jobbet jeg med nettbutikken Extra Optical (frontend). EO skulle gå over til å bygge nettsiden sin på nytt i en <0>page builder</0> da jeg hadde vært der i ca. 2 måneder, så jeg har fått jobbet på både ny og gammel versjon."
 msgstr "In this internship i worked on the online store Extra Optical (frontend). EO was about to re-rebuild their webpage in a page builder when I had been there in ca. 2 months, which means I got to work on two versions of the site."
 
@@ -259,7 +251,7 @@ msgstr "Assignment at VGS and further development after that<0>2015</0>"
 
 #: src/pages/Maclean.js:26
 msgid "Innlevering på videregående<0>2015</0>"
-msgstr "Assignment at videregående<0>2015</0>"
+msgstr "Assignment at high school<0>2015</0>"
 
 #: src/pages/Portfolios.js:229
 msgid "Innleveringsoppgave på medier og kommunikasjon"
@@ -298,7 +290,7 @@ msgstr "Art"
 msgid "Lag egne lister"
 msgstr "Create your own lists"
 
-#: src/pages/Extraoptical.js:85
+#: src/pages/Extraoptical.js:86
 msgid "Lagd undersider"
 msgstr "Made subpages"
 
@@ -338,21 +330,21 @@ msgstr "Overview of lists example"
 msgid "Plakat"
 msgstr "Poster"
 
+#: src/pages/Extraoptical.js:24
+msgid "Praksis hos Extra Optical<0>2021 november–nå</0>"
+msgstr "Internship at Extra Optical<0>2021 November–now</0>"
+
 #: src/pages/JRNM.js:21
 msgid "Praksisplass<0>2013</0>"
-msgstr "Practice<0>2013</0>"
+msgstr "Internship<0>2013</0>"
 
 #: src/pages/Dokker.js:29
 msgid "Praksisprosjekt hos Learning Moment Technologies<0>2021 april–september</0>"
-msgstr "Practice project at Learning Moment Technologies<0>2021 April—September</0>"
-
-#: src/pages/Extraoptical.js:22
-#~ msgid "Privat Kildekode"
-#~ msgstr "Private source code"
+msgstr "Internship project at Learning Moment Technologies<0>2021 April—September</0>"
 
 #: src/pages/-Template.js:31
 #: src/pages/Dokker.js:26
-#: src/pages/Extraoptical.js:22
+#: src/pages/Extraoptical.js:21
 #: src/pages/Videoopplasting.js:71
 #: src/pages/Videoopplasting.js:168
 msgid "Privat kildekode"
@@ -364,18 +356,22 @@ msgstr "Project at university<0>2019 fall</0>"
 
 #: src/pages/Rankingapp.js:50
 msgid "Prosjektet er foreløpig satt på pause.<0>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</0><1>Motivasjon til prosjektet</1>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.<2>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</2><3>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</3><4>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</4>"
-msgstr "This project is in hiatus<0>At the end of July 2020 I began to make this web app for ranking stuff. I don't know how much I will be able to add to this app, but it would have been nice if the users could share/show their lists with other's, contribute to a public shared list and import list elements directly from web API</0><1>Motivation to this project</1> I wanted to make what ranker.com should have been, and because I wanted to just have a web project to work on."
+msgstr "This project is currently in hiatus<0>At the end of July 2020 I began to make this web app for ranking stuff. I don't know how much I will be able to add to this app, but it would have been nice if the users could share/show their lists with other's, contribute to a public shared list and import list elements directly from web API</0><1>Motivation for this project</1> I wanted to make what ranker.com should have been, and because I wanted to just have a web project to work on."
 
 #: src/pages/Rankingapp.js:31
 msgid "Ranking app<0>2020 høst–2021 september</0>"
 msgstr "Ranking app<0>2020 fall—2021 September</0>"
+
+#: src/pages/Home.js:70
+msgid "React sertifikat"
+msgstr "React certificate"
 
 #: src/pages/Rankingapp.js:43
 #: src/pagesInfo.js:100
 msgid "Relasjonsdatabase"
 msgstr "Relational database"
 
-#: src/pages/Extraoptical.js:80
+#: src/pages/Extraoptical.js:81
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 
@@ -383,13 +379,9 @@ msgstr "Corrected / removed broken links"
 msgid "Se mer på Github"
 msgstr "See more on Github"
 
-#: src/pages/Home.js:70
-msgid "Sertifikat"
-msgstr "Certificate"
-
 #: src/pages/Rankingapp.js:96
 msgid "Sett inn egne elementer, tilpass etter behov"
-msgstr "Incert your own elements, customize to your needs"
+msgstr "Insert your own elements, customize to your needs"
 
 #: src/pages/Artistbooking.js:39
 #: src/pages/Artistbooking.js:40
@@ -417,6 +409,10 @@ msgstr "Educated web developer"
 #: src/pages/Videoopplasting.js:92
 msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
 msgstr "Tool for creating component-based webpages. LitElement differs from React by using HTML templating literals as its templating language (and not JSX). LitElement has only class-based components."
+
+#: src/components/common/ToolList/ToolList.js:7
+msgid "Verktøy:"
+msgstr "Tools:"
 
 #: src/pagesInfo.js:114
 msgid "Videoopplastingsapp"
@@ -446,10 +442,6 @@ msgstr "Further reading"
 #: src/pages/Portfolios.js:222
 msgid "Videreutvikling etter leveranse: nye farger og noe endret layout"
 msgstr "Further development after delivery: added new colors and somewhat changed layout"
-
-#: src/pages/Portfolios.js:225
-#~ msgid "Videreutvikling: nye farger og noe endret layout"
-#~ msgstr "Further work: some new colors and changed layout"
 
 #: src/components/common/Barchart/Barchart-utkast.js:35
 #: src/components/common/Barchart/Barchart.js:35
@@ -512,10 +504,6 @@ msgstr "portfolio 5"
 #: src/pagesInfo.js:134
 msgid "porteføljer side"
 msgstr "portfolios page"
-
-#: src/pages/Home.js:28
-#~ msgid "relasjons­databaser"
-#~ msgstr "relational databases"
 
 #: src/pages/Videoopplasting.js:153
 msgid "videolistesiden"

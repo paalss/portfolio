@@ -27,6 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "extract": "lingui extract",
+    "clean": "lingui extract --clean",
     "compile": "lingui compile"
   },
   "eslintConfig": {

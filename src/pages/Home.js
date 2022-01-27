@@ -67,7 +67,7 @@ const Home = () => (
     <OtherLinks />
 
     <h2 className="mb-50">
-      <Trans>Sertifikat</Trans>
+      <Trans>React sertifikat</Trans>
     </h2>
     <Certificate />
   </>

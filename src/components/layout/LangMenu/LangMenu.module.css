@@ -17,7 +17,9 @@
   margin-right: 10px;
 }
 
-@media screen and (min-width: 944px) {
+/* norsk: tagline tekst blir to linjer under 980px viewport */
+/* engelsk: tagline tekst blir to linjer under 1090px viewport */
+@media screen and (min-width: 1090px) {
   .moveUp {
     margin-top: -23px;
   }

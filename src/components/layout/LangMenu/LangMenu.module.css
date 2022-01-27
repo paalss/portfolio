@@ -1,8 +1,9 @@
-.container {
-  margin-top: 5px;
+.moveUp {
+  margin-top: -23px;
 }
 
 .button {
+  color: #fff;
   padding: 10px 15px;
   background-color: transparent;
   border: none;

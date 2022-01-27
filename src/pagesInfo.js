@@ -53,9 +53,9 @@ const pagesInfo = [
       <div className="index-header-flex">
         <div>
           <h1>Pål Stakvik</h1>
-          <p className="tagline">
+          <span className="tagline">
             <Trans>Utdannet web&shy;utvikler</Trans>
-          </p>
+          </span>
         </div>
         <div className="circle-frame">
           <img src={photo} alt="Pål Stakvik" />

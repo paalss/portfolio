@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { flatPagesInfo } from "./pagesInfo";
+import { flatPagesInfo as pagesInfo } from "./pagesInfo";
 // import GA from "./utils/GoogleAnalytics";
 
 // components
@@ -9,6 +9,7 @@ import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import Main from "./components/layout/Main";
 import LoadingSpinner from "./components/layout/LoadingSpinner";
+import LangMenu from "./components/layout/LangMenu"
 
 // react lingui
 import { Trans } from "@lingui/macro";
@@ -27,7 +28,7 @@ const App = () => (
         <Header>
           <div className="container">
             <Switch>
-              {flatPagesInfo.map((page) => (
+              {pagesInfo.map((page) => (
                 <Route key={page.id} path={page.path} exact={page.exact}>
                   {page.heading ? page.heading : <h1>{page.title}</h1>}
                 </Route>
@@ -38,13 +39,14 @@ const App = () => (
                 </h1>
               </Route>
             </Switch>
+            <LangMenu/>
           </div>
         </Header>
         <Nav />
         <Main>
           <div className="container">
             <Switch>
-              {flatPagesInfo.map((page) => (
+              {pagesInfo.map((page) => (
                 <Route key={page.id} path={page.path} exact={page.exact}>
                   {page.page}
                 </Route>

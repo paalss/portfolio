@@ -1,0 +1,21 @@
+.container {
+  margin-top: 5px;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.flag {
+  width: 20px;
+  margin-right: 10px;
+}

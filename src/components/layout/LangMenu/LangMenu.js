@@ -11,6 +11,11 @@ const LangMenu = () => {
   const { i18n } = useLingui();
   const activeLang = i18n.locale;
 
+  const toggleLang = () => {
+    if (activeLang === "no") activate("en");
+    if (activeLang === "en") activate("no");
+  };
+  
   const activate = (lang) => {
     i18n.activate(lang);
     localStorage.setItem("lang", lang);
@@ -22,7 +27,7 @@ const LangMenu = () => {
   return (
     <div className={classes.moveUp}>
       <button
-        onClick={() => activate("no")}
+        onClick={() => toggleLang()}
         className={classes.button + " " + activeClass("no")}
       >
         <img
@@ -33,10 +38,10 @@ const LangMenu = () => {
         Norsk
       </button>
       <button
-        onClick={() => activate("en")}
+        onClick={() => toggleLang()}
         className={classes.button + " " + activeClass("en")}
       >
-        <img className={classes.flag} src={usFlag} alt="United stated flag" />
+        <img className={classes.flag} src={usFlag} alt="United states flag" />
         English
       </button>
     </div>

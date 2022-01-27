@@ -1,47 +1,59 @@
 import ToolList from "../components/common/ToolList";
 import img from "../images/extraoptical/sider/front-page.webp";
-
 // import Figure from "../components/common/Figure";
 // import T from "../components/common/HtmlTag";
 
-function Extraoptical() {
-  return (
-    <>
-      <img src={img} width={1920} height={1044} alt="img" />
-      <a
-        className="link"
-        href="https://extraoptical.no/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="fas fa-circle-notch"></span> Besøk siden
-      </a>
-      <span className="link">
-        <span className="fab fa-github"></span> Privat Kildekode
-      </span>
-      <h2>
+// react lingui
+import { Trans, t } from "@lingui/macro";
+
+const Extraoptical = () => (
+  <>
+    <img src={img} width={1920} height={1044} alt="img" />
+    <a
+      className="link"
+      href="https://extraoptical.no/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
+    </a>
+    <span className="link">
+      <span className="fab fa-github"></span> {t`Privat kildekode`}
+    </span>
+    <h2>
+      <Trans>
         Praksis hos Extra Optical
         <span className="subtitle">2021 november–nå</span>
-      </h2>
-      <ToolList tools={["Magento2", "PHTML", "CSS"]} toolsText={true} />
-      <dl>
-        <dt>PHTML</dt>
-        <dd>
+      </Trans>
+    </h2>
+    <ToolList tools={["Magento2", "PHTML", "CSS"]} toolsText={true} />
+    <dl>
+      <dt>PHTML</dt>
+      <dd>
+        <Trans>
           Et HTML templating språk (HTML som aksepterer variabler og
           expressions). Det er ikke så ulikt Twig og Handlebars.
-        </dd>
-      </dl>
-      <p>
+        </Trans>
+      </dd>
+    </dl>
+    <p>
+      <Trans>
         I dennne praksisen jobbet jeg med nettbutikken Extra Optical (frontend).
-        EO skulle gå over til å bygge nettsiden sin på nytt i en <i>page builder</i> da jeg hadde vært
-        der i ca. 2 måneder, så jeg har fått jobbet på både ny og gammel versjon.
-      </p>
-      <h3>Bidrag</h3>
-      <ul className="normal-list">
-        <li>
+        EO skulle gå over til å bygge nettsiden sin på nytt i en{" "}
+        <i>page builder</i> da jeg hadde vært der i ca. 2 måneder, så jeg har
+        fått jobbet på både ny og gammel versjon.
+      </Trans>
+    </p>
+    <h3>
+      <Trans>Bidrag</Trans>
+    </h3>
+    <ul className="normal-list">
+      <li>
+        <Trans>
           Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige{" "}
           <i>opening/closing</i>-HTML-tags som manglet <i>matching pair</i>.
-          {/* <ul>
+        </Trans>
+        {/* <ul>
             <li>
               <T>/a</T>-tags som manglet starting tag. Og{" "}
               <T>strong</T> tags som manglet ending tag. Slike
@@ -64,15 +76,23 @@ function Extraoptical() {
               <p><h3><strong></strong></h3></p>
               <p><img style="float: left; margin-right: 50px;" src="{{media url=wysiwyg/knowledgecenter/round-pic.jpg}}" width="200" /><strong></strong></p>
           </ul> */}
-        </li>
-        <li>
+      </li>
+      <li>
+        <Trans>
           Rettet opp / fjernet <i>broken links</i>
-        </li>
-        <li>Lagd undersider {/*ut fra tilsendte bilder og tekst*/}</li>
-        <li>Fikset på Extra Opticals Zendesk Help center.</li>
-        <li>
+        </Trans>
+      </li>
+      <li>
+        <Trans>Lagd undersider {/*ut fra tilsendte bilder og tekst*/}</Trans>
+      </li>
+      <li>
+        <Trans>Fikset på Extra Opticals Zendesk Help center.</Trans>
+      </li>
+      <li>
+        <Trans>
           Fikset layout på bunntekst og ordnet en side for mobilstørrelser
-          {/* <ul>
+        </Trans>
+        {/* <ul>
             <li>Kopiert styling over flere undersider</li>
             <li>
               fjernet unødvendig bruk av flere <T>h1</T> pr sidedokumentet
@@ -89,9 +109,9 @@ function Extraoptical() {
               for mobilvisning
             </li>
           </ul> */}
-        </li>
+      </li>
 
-        {/* <li>
+      {/* <li>
           Rettet opp i ting som ikke gir helt mening{" "}
           <ul>
             <li>
@@ -100,10 +120,14 @@ function Extraoptical() {
             </li>
           </ul>
         </li> */}
-        <li>Bygd noen sider på den nye nettsiden (en Progressive Web App)</li>
-      </ul>
-      . . .
-      {/*
+      <li>
+        <Trans>
+          Bygd noen sider på den nye nettsiden (en Progressive Web App)
+        </Trans>
+      </li>
+    </ul>
+    . . .
+    {/*
       <h3>Ting jeg har reagert på i koden</h3>
       <p>
         Det var mye tull i koden som møtte meg da jeg startet, her er en liste
@@ -167,12 +191,11 @@ function Extraoptical() {
         </li>
       </ul>
       */}
-      {/* <div uk-lightbox="animation: slide" className="flex wrap">
+    {/* <div uk-lightbox="animation: slide" className="flex wrap">
         <Figure imgSrc={img} imgAlt="bilde1" caption="bilde1" />
         <Figure imgSrc={img} imgAlt="bilde2" caption="bilde2" />
       </div> */}
-    </>
-  );
-}
+  </>
+);
 
 export default Extraoptical;

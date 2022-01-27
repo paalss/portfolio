@@ -1,7 +1,7 @@
-import "./Barchart.css";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
+
+import "./Barchart.css";
 
 const Barchart = ({ web, design }) => (
   <>
@@ -50,38 +50,49 @@ const Barchart = ({ web, design }) => (
 
 const createBars = (topics) =>
   topics.map((topic) => {
-    const { tech, techHtmlEntities, level } = topic;
-
+    const { tech, level } = topic;
     let title = "";
     let width = "";
+
+    // const eeeee = convertAnyHTMLToPlainText(tech)
+
     if (level === "0") {
-      title = t`Kan litt ${tech}`;
+      title = <Trans>Kan litt {tech}</Trans>;
       width = "16.5%";
     }
     if (level === "1") {
-      title = t`Kan grunnleggende ${tech}`;
+      title = <Trans>Kan grunnleggende {tech}</Trans>;
       width = "33%";
     }
     if (level === "2") {
-      title = t`Behersker ${tech} godt`;
+      title = <Trans>Behersker {tech} godt</Trans>;
       width = "66%";
     }
     if (level === "3") {
-      title = t`Ganske god på ${tech}`;
+      title = <Trans>Ganske god på {tech}</Trans>;
       width = "100%";
     }
     return (
       <li title={title} key={tech}>
         <div className="flex-li">
-          <span className="chart__label">
-            {/* hvis topic har en HTML-entities versjon av tech, så bruk det.
-            Relasjonsdatabaser er et ord som trenger å brytes opp */}
-            {techHtmlEntities ? techHtmlEntities : tech}
-          </span>
+          <span className="chart__label">{tech}</span>
           <div className="chart__bar" style={{ width: width }}></div>
         </div>
       </li>
     );
   });
+
+// const convertAnyHTMLToPlainText = (tech)=>{
+//   if (typeof tech === "object") {
+//     console.log(
+//       true,
+//       " MySQL &amp; <Trans>relasjons&shy;databaser</Trans> ER FUNNET. konverterer det"
+//     );
+//     const element = document.createElement("p");
+//     element.innerHTML = <>{tech}</>;
+//     console.log(element.textContent);
+//     return element.textContent;
+//   }
+// }
 
 export default Barchart;

@@ -1,14 +1,14 @@
 import LazyLoad from "react-lazyload";
 import classes from "./LightboxImage.module.css";
 
-function LightboxImage({
+const LightboxImage = ({
   imgSrc,
   imgWidth,
   imgHeight,
   imgAlt,
   title,
   gallery = false,
-}) {
+}) => {
   if (gallery) {
     return (
       <a href={imgSrc} data-caption={title} className={classes.listItem}>
@@ -34,6 +34,6 @@ function LightboxImage({
       </a>
     );
   }
-}
+};
 
 export default LightboxImage;

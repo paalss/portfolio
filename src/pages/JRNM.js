@@ -6,20 +6,25 @@ import JRNMImg3 from "../images/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp";
 import Figure from "../components/common/Figure";
 import ToolList from "../components/common/ToolList";
 
-function JRNM() {
-  return (
-    <>
-      <img
-        src={JRNMImg}
-        width={5184}
-        height={3456}
-        alt="Junior NM på ski logo på skilt"
-      />
-      <h2>
+// react lingui
+import { Trans, t } from "@lingui/macro";
+
+const JRNM = () => (
+  <>
+    <img
+      src={JRNMImg}
+      width={5184}
+      height={3456}
+      alt="Junior NM på ski logo på skilt"
+    />
+    <h2>
+      <Trans>
         Praksisplass
         <span className="subtitle">2013</span>
-      </h2>
-      <ToolList tools={["Photoshop"]} toolsText={true} />
+      </Trans>
+    </h2>
+    <ToolList tools={["Photoshop"]} toolsText={true} />
+    <Trans>
       <p>
         I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette
         var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg
@@ -47,18 +52,22 @@ function JRNM() {
         prøvde ut logoen i masse forskjellige farger, og man kunne se
         restepiksler fra tidligere fargefyll i de forskjellige utkastene.
       </p>
-      <div uk-lightbox="animation: slide">
-        <Figure
-          imgSrc={JRNMImg2}
-          imgWidth={640}
-          imgHeight={480}
-          imgAlt="Logo for Junior NM på ski 2015"
-          caption="Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
-        />
-        <Figure imgSrc={JRNMImg3} imgAlt="plakat med logo" caption="Plakat" />
-      </div>
-    </>
-  );
-}
+    </Trans>
+    <div uk-lightbox="animation: slide">
+      <Figure
+        imgSrc={JRNMImg2}
+        imgWidth={640}
+        imgHeight={480}
+        imgAlt={t`Logo for Junior NM på ski 2015`}
+        caption={t`Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013`}
+      />
+      <Figure
+        imgSrc={JRNMImg3}
+        imgAlt={t`plakat med logo`}
+        caption={t`Plakat`}
+      />
+    </div>
+  </>
+);
 
 export default JRNM;

@@ -1,7 +1,5 @@
 import { WebworkLinks } from "./Home";
 
-function Webwork() {
-  return <WebworkLinks />;
-}
+const Webwork = () => <WebworkLinks />;
 
 export default Webwork;

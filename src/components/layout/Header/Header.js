@@ -1,9 +1,3 @@
-function Header({ children }) {
-  return (
-    <header>
-      {children}
-    </header>
-  );
-}
+const Header = ({ children }) => <header>{children}</header>;
 
 export default Header;

@@ -8,62 +8,67 @@ import destopImg from "../images/artistbooking/Web-1280–4.webp";
 import Figure from "../components/common/Figure";
 import ToolList from "../components/common/ToolList";
 
-function Artistbooking() {
-  return (
-    <>
-      <h2>
+// react lingui
+import { Trans, t } from "@lingui/macro";
+
+const Artistbooking = () => (
+  <>
+    <h2>
+      <Trans>
         Prosjekt i studiene
         <span className="subtitle">2019 høst</span>
-      </h2>
-      <ToolList tools={["Adobe XD"]} toolsText={true} />
+      </Trans>
+    </h2>
+    <ToolList tools={["Adobe XD"]} toolsText={true} />
 
-      <p>
+    <p>
+      <Trans>
         I faget "grafiske verktøy, prinsipper og metoder" skulle vi lage en
         klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert,
         så det endte opp med å bli en app for privatpersoner og musikkartister
         som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage
         mobil- og desktop-visning av alle sidene.
-      </p>
-      <h3>Noen utvalgte bilder</h3>
-      <div uk-lightbox="animation: slide" className="flex wrap">
-        <Figure
-          imgSrc={mobileImg1}
-          imgWidth={360}
-          imgHeight={646}
-          imgAlt="Startside"
-          caption="Startside"
-        />
-        <Figure
-          imgSrc={mobileImg2}
-          imgWidth={360}
-          imgHeight={640}
-          imgAlt="Søkefelt"
-          caption="Søkefelt"
-        />
-        <Figure
-          imgSrc={mobileImg3}
-          imgWidth={360}
-          imgHeight={864}
-          imgAlt="Søkeresultater"
-          caption="Søkeresultater"
-        />
-        <Figure
-          imgSrc={mobileImg4}
-          imgWidth={360}
-          imgHeight={1027}
-          imgAlt="Artistprofil"
-          caption="Artistprofil"
-        />
-        <Figure
-          imgSrc={destopImg}
-          imgWidth={1280}
-          imgHeight={848}
-          imgAlt="En desktopside"
-          caption="En desktopside"
-        />
-      </div>
-    </>
-  );
-}
+      </Trans>
+    </p>
+    <h3>Noen utvalgte bilder</h3>
+    <div uk-lightbox="animation: slide" className="flex wrap">
+      <Figure
+        imgSrc={mobileImg1}
+        imgWidth={360}
+        imgHeight={646}
+        imgAlt={t`Startside`}
+        caption={t`Startside`}
+      />
+      <Figure
+        imgSrc={mobileImg2}
+        imgWidth={360}
+        imgHeight={640}
+        imgAlt={t`Søkefelt`}
+        caption={t`Søkefelt`}
+      />
+      <Figure
+        imgSrc={mobileImg3}
+        imgWidth={360}
+        imgHeight={864}
+        imgAlt={t`Søkeresultater`}
+        caption={t`Søkeresultater`}
+      />
+      <Figure
+        imgSrc={mobileImg4}
+        imgWidth={360}
+        imgHeight={1027}
+        imgAlt={t`Artistprofil`}
+        caption={t`Artistprofil`}
+      />
+      <Figure
+        imgSrc={destopImg}
+        imgWidth={1280}
+        imgHeight={848}
+        imgAlt={t`En desktopside`}
+        caption={t`En desktopside`}
+      />
+    </div>
+  </>
+);
 
 export default Artistbooking;

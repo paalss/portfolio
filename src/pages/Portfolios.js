@@ -21,7 +21,7 @@ const Portfolios = () => (
         </Trans>
       </h2>
       <ToolList
-        tools={["React", "JavaScript", "JSX", "CSS", "React Lingui"]}
+        tools={["React", "JavaScript", "JSX", "CSS", <>React&#8209;lingui</>]}
         toolsText={true}
       />
 
@@ -69,8 +69,7 @@ const Portfolios = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="fab fa-github"></span>
-        {t`Kildekode`}
+        <span className="fab fa-github"></span> {t`Kildekode`}
       </a>
     </>
 

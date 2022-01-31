@@ -132,7 +132,7 @@ const pagesInfo = [
         page: <Portfolios />,
         imgSrc: portfoliosImg,
         imgAlt: <Trans>porteføljer side</Trans>,
-        tools: ["React", "JavaScript", "React-lingui"],
+        tools: ["React", "JavaScript", <>React&#8209;lingui</>],
         thereAreMoreTools: true,
       },
     ],

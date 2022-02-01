@@ -49,7 +49,7 @@ msgstr "<0>Some info about Dokker</0><1>Dokker is a communication platform for s
 msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
 msgstr "<0>Web pages</0><1>Here's some web pages I'm proud of having made myself / contributed to.</1>"
 
-#: src/pages/Portfolios.js:84
+#: src/pages/Portfolios.js:83
 msgid "<0>Porteføljene jeg hadde lagd før denne (se under) var enten for mangelfull av informasjon om mitt arbeid eller hadde for dårlig kode, så da begynte jeg heller på denne. I denne forsøkte jeg å dekke så mye som mulig av det arbeidet jeg hadde gjort, alt grafisk og koderelatert.</0><1>Denne lagde jeg i PHP, mest for å løse for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så godt på denne tiden, og jeg hadde tilgang på en <2>live server</2> ­ (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det ikke ble en statisk side.</1>"
 msgstr "<0>The portfolios I made before this one (see below) was either too deficient of showcasing my web work, too ugly or its code was too bad. Therefore I scrapped them and began this one. In this portfolio I tried to cover as much as possible of the web and graphic work I had done.</0>"
 
@@ -104,9 +104,9 @@ msgstr "Best metroidvanias list example"
 #: src/pages/Dokker.js:23
 #: src/pages/Extraoptical.js:18
 #: src/pages/Maclean.js:15
-#: src/pages/Portfolios.js:148
-#: src/pages/Portfolios.js:188
-#: src/pages/Portfolios.js:238
+#: src/pages/Portfolios.js:147
+#: src/pages/Portfolios.js:187
+#: src/pages/Portfolios.js:237
 msgid "Besøk siden"
 msgstr "Visit site"
 
@@ -118,7 +118,7 @@ msgstr "Contribution"
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Built some sites on the new webpage (a Progressive Web App)"
 
-#: src/pages/Portfolios.js:170
+#: src/pages/Portfolios.js:169
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "This site was abandoned half-finished and has no sub-pages."
 
@@ -138,7 +138,7 @@ msgstr "Dokker blog"
 msgid "Du er på siden"
 msgstr "You are on the site"
 
-#: src/pages/Portfolios.js:126
+#: src/pages/Portfolios.js:125
 msgid "Eksamensinnlevering i webkoding<0>2016 høst</0>"
 msgstr "Exam delivery in web coding<0>2016 fall</0>"
 
@@ -147,7 +147,7 @@ msgstr "Exam delivery in web coding<0>2016 fall</0>"
 msgid "En desktopside"
 msgstr "A desktop page"
 
-#: src/pages/Portfolios.js:162
+#: src/pages/Portfolios.js:161
 msgid "En portefølje påbegynt like før studiene<0>2016</0>"
 msgstr "A portfolio started just before I started my studies<0>2016</0>"
 
@@ -188,7 +188,7 @@ msgstr "Fixed Extra Optical's Zendesk Help center"
 msgid "Fritidsprosjekt etter studiene<0>2020 desember–nå</0>"
 msgstr "Spare time project made after the studies<0>2020 December–now</0>"
 
-#: src/pages/Portfolios.js:179
+#: src/pages/Portfolios.js:178
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Spare-time project which I never finished"
 
@@ -221,11 +221,15 @@ msgstr "Graphic design"
 msgid "Grunn­leggende"
 msgstr "Basics"
 
+#: src/pagesInfo.js:154
+msgid "High-fidelity prototype av en artist booking app"
+msgstr "High-fidelity prototype of an artist booking app"
+
 #: src/pagesInfo.js:51
 msgid "Hjem"
 msgstr "Home"
 
-#: src/pages/Portfolios.js:210
+#: src/pages/Portfolios.js:209
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "In 2015 i attended <0>media and communication</0> on Byåsen VGS (highschool), were I got the task to make a three-page portfolio about myself. After delivering this I improved it in my spare time."
 
@@ -238,14 +242,14 @@ msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en kl
 msgstr "In the course \"Graphic Tools, Principles and Methods\" we made a clickable hi-fi prototype for an app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 
 #: src/pages/-Template.js:28
-#: src/pages/Portfolios.js:112
+#: src/pages/Portfolios.js:111
 #: src/pages/Rankingapp.js:20
 #: src/pages/Videoopplasting.js:68
 #: src/pages/Videoopplasting.js:165
 msgid "Ikke tilgjengelig live"
 msgstr "Unavailable live"
 
-#: src/pages/Portfolios.js:202
+#: src/pages/Portfolios.js:201
 msgid "Innlevering på VGS og videreutvikling etter det<0>2015</0>"
 msgstr "Assignment at VGS and further development after that<0>2015</0>"
 
@@ -253,7 +257,7 @@ msgstr "Assignment at VGS and further development after that<0>2015</0>"
 msgid "Innlevering på videregående<0>2015</0>"
 msgstr "Assignment at high school<0>2015</0>"
 
-#: src/pages/Portfolios.js:229
+#: src/pages/Portfolios.js:228
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Assignment at media and communiocation"
 
@@ -273,11 +277,11 @@ msgstr "Know some {tech}"
 
 #: src/pages/-Template.js:25
 #: src/pages/Maclean.js:23
-#: src/pages/Portfolios.js:73
-#: src/pages/Portfolios.js:120
-#: src/pages/Portfolios.js:156
-#: src/pages/Portfolios.js:196
-#: src/pages/Portfolios.js:246
+#: src/pages/Portfolios.js:72
+#: src/pages/Portfolios.js:119
+#: src/pages/Portfolios.js:155
+#: src/pages/Portfolios.js:195
+#: src/pages/Portfolios.js:245
 #: src/pages/Rankingapp.js:28
 msgid "Kildekode"
 msgstr "Source code"
@@ -439,7 +443,7 @@ msgstr "Video uploading apps"
 msgid "Videre lesing"
 msgstr "Further reading"
 
-#: src/pages/Portfolios.js:222
+#: src/pages/Portfolios.js:221
 msgid "Videreutvikling etter leveranse: nye farger og noe endret layout"
 msgstr "Further development after delivery: added new colors and somewhat changed layout"
 
@@ -474,25 +478,25 @@ msgstr "maclean webpage"
 msgid "plakat med logo"
 msgstr "poster with logo"
 
-#: src/pages/Portfolios.js:228
+#: src/pages/Portfolios.js:227
 msgid "portefølje 1 versjon 1"
 msgstr "portfolio 1 version 1"
 
-#: src/pages/Portfolios.js:221
+#: src/pages/Portfolios.js:220
 msgid "portefølje 1 versjon 2"
 msgstr "portfolio 1 version 2"
 
-#: src/pages/Portfolios.js:178
+#: src/pages/Portfolios.js:177
 msgid "portefølje 2"
 msgstr "portfolio 2"
 
+#: src/pages/Portfolios.js:137
 #: src/pages/Portfolios.js:138
-#: src/pages/Portfolios.js:139
 msgid "portefølje 3"
 msgstr "portfolio 3"
 
+#: src/pages/Portfolios.js:105
 #: src/pages/Portfolios.js:106
-#: src/pages/Portfolios.js:107
 msgid "portefølje 4"
 msgstr "portfolio 4"
 

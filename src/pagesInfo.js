@@ -1,5 +1,5 @@
 import { lazy } from "react";
-import { Trans } from "@lingui/macro";
+import { Trans, t } from "@lingui/macro";
 
 // ---------------
 // IMAGES
@@ -48,7 +48,7 @@ const pagesInfo = [
     path: "/",
     exact: true,
     exactActiveClassName: true,
-    title: <Trans>Hjem</Trans>,
+    title: t`Hjem`,
     heading: (
       <div className="index-header-flex">
         <div>
@@ -69,7 +69,7 @@ const pagesInfo = [
     path: "/webwork",
     exact: true, // naviger til Webwork kun om path er eksakt "/webwork"
     exactActiveClassName: false, // uthev nav-link om path inneholder "/webwork"
-    title: <Trans>Nettsider</Trans>,
+    title: t`Nettsider`,
     page: <Webwork />,
     subpages: [
       {
@@ -97,7 +97,7 @@ const pagesInfo = [
         page: <Rankingapp />,
         imgSrc: rankingappImg,
         imgAlt: "Ranking app",
-        tools: ["TypeScript", "PHP", <Trans>Relasjonsdatabase</Trans>, "MySQL"],
+        tools: ["TypeScript", "PHP", t`Relasjonsdatabase`, "MySQL"],
         thereAreMoreTools: true,
       },
       {
@@ -111,27 +111,27 @@ const pagesInfo = [
         ),
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
-        imgAlt: <Trans>Videoopplastingsapp</Trans>,
+        imgAlt: t`Videoopplastingsapp`,
         tools: ["PHP", "LitElement", "JavaScript"],
         thereAreMoreTools: true,
       },
       {
         id: 7,
         path: "/webwork/maclean",
-        title: <Trans>Alistair MacLean nettside redesign</Trans>,
+        title: t`Alistair MacLean nettside redesign`,
         page: <Maclean />,
         imgSrc: macleanImg,
-        imgAlt: <Trans>MacLean side</Trans>,
+        imgAlt: t`MacLean side`,
         tools: ["HTML", "CSS", "Photoshop"],
         thereAreMoreTools: true,
       },
       {
         id: 8,
         path: "/webwork/portfolios",
-        title: <Trans>Denne porteføljen</Trans>,
+        title: t`Denne porteføljen`,
         page: <Portfolios />,
         imgSrc: portfoliosImg,
-        imgAlt: <Trans>porteføljer side</Trans>,
+        imgAlt: t`porteføljer side`,
         tools: ["React", "JavaScript", <>React&#8209;lingui</>],
         thereAreMoreTools: true,
       },
@@ -142,16 +142,16 @@ const pagesInfo = [
     path: "/graphicwork",
     exact: true,
     exactActiveClassName: false,
-    title: <Trans>Grafisk</Trans>,
+    title: t`Grafisk`,
     page: <Graphicwork />,
     subpages: [
       {
         id: 10,
         path: "/graphicwork/artistbooking",
-        title: "Artist booking prototype",
+        title: "Artist booking app prototype",
         page: <Artistbooking />,
         imgSrc: artistbookingImg,
-        imgAlt: "Artist booking hi-fi prototype",
+        imgAlt: t`High-fidelity prototype av en artist booking app`,
         tools: ["Adobe XD"],
       },
       {
@@ -160,7 +160,7 @@ const pagesInfo = [
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,
         imgSrc: jrNmImg,
-        imgAlt: <Trans>Jr NM på ski logo</Trans>,
+        imgAlt: t`Jr NM på ski logo`,
         tools: ["Photoshop"],
       },
     ],
@@ -168,7 +168,7 @@ const pagesInfo = [
   {
     id: 12,
     path: "/gallery",
-    title: <Trans>Kunst</Trans>,
+    title: t`Kunst`,
     page: <Gallery />,
     imgSrc: galleryImg,
     imgAlt: "gallery",
@@ -245,7 +245,9 @@ flatPagesInfo =
 */
 
 // pakk ut subPages der det finnes
-let subpages = pagesInfo.flatMap((page) => page.subpages ? page.subpages : "no subpages")
+let subpages = pagesInfo.flatMap((page) =>
+  page.subpages ? page.subpages : "no subpages"
+);
 // fjern pages som ikke hadde noen subpages, nå står vi igjen med kun subpages
 subpages = subpages.filter((e) => e !== "no subpages");
 

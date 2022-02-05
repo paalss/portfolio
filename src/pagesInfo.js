@@ -1,5 +1,5 @@
 import { lazy } from "react";
-import { Trans, t } from "@lingui/macro";
+import { Trans } from "@lingui/macro";
 
 // ---------------
 // IMAGES
@@ -48,7 +48,7 @@ const pagesInfo = [
     path: "/",
     exact: true,
     exactActiveClassName: true,
-    title: t`Hjem`,
+    title: <Trans>Hjem</Trans>,
     heading: (
       <div className="index-header-flex">
         <div>
@@ -69,7 +69,7 @@ const pagesInfo = [
     path: "/webwork",
     exact: true, // naviger til Webwork kun om path er eksakt "/webwork"
     exactActiveClassName: false, // uthev nav-link om path inneholder "/webwork"
-    title: t`Nettsider`,
+    title: <Trans>Nettsider</Trans>,
     page: <Webwork />,
     subpages: [
       {
@@ -97,7 +97,7 @@ const pagesInfo = [
         page: <Rankingapp />,
         imgSrc: rankingappImg,
         imgAlt: "Ranking app",
-        tools: ["TypeScript", "PHP", t`Relasjonsdatabase`, "MySQL"],
+        tools: ["TypeScript", "PHP", <Trans>Relasjonsdatabase</Trans>, "MySQL"],
         thereAreMoreTools: true,
       },
       {
@@ -111,27 +111,27 @@ const pagesInfo = [
         ),
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
-        imgAlt: t`Videoopplastingsapp`,
+        imgAlt: "Video uploading app",
         tools: ["PHP", "LitElement", "JavaScript"],
         thereAreMoreTools: true,
       },
       {
         id: 7,
         path: "/webwork/maclean",
-        title: t`Alistair MacLean nettside redesign`,
+        title: <Trans>Alistair MacLean nettside redesign</Trans>,
         page: <Maclean />,
         imgSrc: macleanImg,
-        imgAlt: t`MacLean side`,
+        imgAlt: "MacLean page",
         tools: ["HTML", "CSS", "Photoshop"],
         thereAreMoreTools: true,
       },
       {
         id: 8,
         path: "/webwork/portfolios",
-        title: t`Denne porteføljen`,
+        title: <Trans>Denne porteføljen</Trans>,
         page: <Portfolios />,
         imgSrc: portfoliosImg,
-        imgAlt: t`porteføljer side`,
+        imgAlt: "Portfolio page",
         tools: ["React", "JavaScript", <>React&#8209;lingui</>],
         thereAreMoreTools: true,
       },
@@ -142,7 +142,7 @@ const pagesInfo = [
     path: "/graphicwork",
     exact: true,
     exactActiveClassName: false,
-    title: t`Grafisk`,
+    title: <Trans>Grafisk</Trans>,
     page: <Graphicwork />,
     subpages: [
       {
@@ -151,7 +151,7 @@ const pagesInfo = [
         title: "Artist booking app prototype",
         page: <Artistbooking />,
         imgSrc: artistbookingImg,
-        imgAlt: t`High-fidelity prototype av en artist booking app`,
+        imgAlt: "High-fidelity prototype of an artist booking app",
         tools: ["Adobe XD"],
       },
       {
@@ -160,7 +160,7 @@ const pagesInfo = [
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,
         imgSrc: jrNmImg,
-        imgAlt: t`Jr NM på ski logo`,
+        imgAlt: "Jr NM ski logo",
         tools: ["Photoshop"],
       },
     ],
@@ -168,7 +168,7 @@ const pagesInfo = [
   {
     id: 12,
     path: "/gallery",
-    title: t`Kunst`,
+    title: <Trans>Kunst</Trans>,
     page: <Gallery />,
     imgSrc: galleryImg,
     imgAlt: "gallery",

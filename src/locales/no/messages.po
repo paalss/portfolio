@@ -226,8 +226,8 @@ msgid "Grunn­leggende"
 msgstr "Grunn­leggende"
 
 #: src/pagesInfo.js:154
-msgid "High-fidelity prototype av en artist booking app"
-msgstr "High-fidelity prototype av en artist booking app"
+#~ msgid "High-fidelity prototype av en artist booking app"
+#~ msgstr "High-fidelity prototype av en artist booking app"
 
 #: src/pagesInfo.js:51
 msgid "Hjem"
@@ -266,8 +266,8 @@ msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Innleveringsoppgave på medier og kommunikasjon"
 
 #: src/pagesInfo.js:163
-msgid "Jr NM på ski logo"
-msgstr "Jr NM på ski logo"
+#~ msgid "Jr NM på ski logo"
+#~ msgstr "Jr NM på ski logo"
 
 #: src/components/common/Barchart/Barchart-utkast.js:64
 #: src/components/common/Barchart/Barchart.js:62
@@ -315,8 +315,8 @@ msgid "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 msgstr "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 
 #: src/pagesInfo.js:124
-msgid "MacLean side"
-msgstr "MacLean side"
+#~ msgid "MacLean side"
+#~ msgstr "MacLean side"
 
 #: src/pages/Home.js:27
 msgid "MySQL & relasjonsdatabaser"
@@ -423,8 +423,8 @@ msgid "Verktøy:"
 msgstr "Verktøy:"
 
 #: src/pagesInfo.js:114
-msgid "Videoopplastingsapp"
-msgstr "Videoopplastingsapp"
+#~ msgid "Videoopplastingsapp"
+#~ msgstr "Videoopplastingsapp"
 
 #: src/pages/Videoopplasting.js:154
 msgid "Videooversikt"
@@ -510,8 +510,8 @@ msgid "portefølje 5"
 msgstr "portefølje 5"
 
 #: src/pagesInfo.js:134
-msgid "porteføljer side"
-msgstr "porteføljer side"
+#~ msgid "porteføljer side"
+#~ msgstr "porteføljer side"
 
 #: src/pages/Videoopplasting.js:153
 msgid "videolistesiden"

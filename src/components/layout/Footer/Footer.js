@@ -1,10 +1,13 @@
 import scratchLogo from "../../../images/scratchlogo-transparent-white-small.webp";
 import classes from "./Footer.module.css";
 
+// react lingui
+import { t } from "@lingui/macro";
+
 const Footer = () => (
   <footer className={classes.footer}>
     <div className="container">
-      <b>Du finner meg på:</b>
+      <b>{t`Du finner meg på:`}</b>
       <ul>
         <li>
           <a

@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 import pagesInfo from "../../../pagesInfo";
+import LangMenu from "../../common/LangMenu";
+import DarkmodeSwitch from "../../common/DarkmodeSwitch";
+
 import classes from "./Nav.module.css";
 
 const Nav = () => (
@@ -31,6 +34,12 @@ const Nav = () => (
             )}
           </li>
         ))}
+        <li>
+          <LangMenu />
+        </li>
+        <li className={classes.switch}>
+          <DarkmodeSwitch />
+        </li>
       </ul>
     </div>
   </nav>

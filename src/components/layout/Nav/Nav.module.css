@@ -6,7 +6,7 @@ nav ul {
   padding: 0;
   list-style-type: none;
 }
-nav a, nav button {
+nav a, nav button, nav .switch {
   display: block;
   background: #fff;
   text-decoration: none;
@@ -69,12 +69,6 @@ nav a, nav button {
   /* border-right-color: orange; */
   right: 10px;
 }
-/* nav ul.ul>li {
-    border-bottom: 2px solid #bbb;
-  }
-  nav ul.ul>li:last-child {
-    border: none;
-  } */
 .nav a:hover,
 .nav a:active,
 .nav a:focus,
@@ -97,16 +91,18 @@ nav button {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 620px) {
-  .nav ul.ul {
+@media only screen and (min-width: 1000px) {
+  nav ul.ul {
     display: flex;
     padding: 0;
+    align-items: center;
   }
-  /* nav ul.ul>li {
-    border-bottom: none;
-    border-right: 2px solid #bbb;
-  } */
-  .nav .ul li a, .nav .ul li button {
+  nav a, nav .switch {
     padding: 16px 40px;
+  }
+  nav button {
+    padding: 16px 0;
+    text-align: center;
+    min-width: 120px;
   }
 }

@@ -15,7 +15,7 @@ const LangMenu = () => {
     if (activeLang === "no") activate("en");
     if (activeLang === "en") activate("no");
   };
-  
+
   const activate = (lang) => {
     i18n.activate(lang);
     localStorage.setItem("lang", lang);
@@ -25,26 +25,31 @@ const LangMenu = () => {
   const activeClass = (lang) => activeLang === lang && classes.active;
 
   return (
-    <div className={classes.moveUp}>
-      <button
-        onClick={() => toggleLang()}
-        className={classes.button + " " + activeClass("no")}
-      >
-        <img
-          className={classes.flag}
-          src={norwegianFlag}
-          alt="Norwegian flag"
-        />
-        Norsk
-      </button>
-      <button
-        onClick={() => toggleLang()}
-        className={classes.button + " " + activeClass("en")}
-      >
-        <img className={classes.flag} src={usFlag} alt="United states flag" />
-        English
-      </button>
-    </div>
+    <>
+      {activeLang === "no" && (
+        <button
+          onClick={() => toggleLang()}
+          className={classes.button + " " + activeClass("en")}
+        >
+          <img className={classes.flag} src={usFlag} alt="United states flag" />
+          English
+        </button>
+      )}
+
+      {activeLang === "en" && (
+        <button
+          onClick={() => toggleLang()}
+          className={classes.button + " " + activeClass("no")}
+        >
+          <img
+            className={classes.flag}
+            src={norwegianFlag}
+            alt="Norwegian flag"
+          />
+          Norsk
+        </button>
+      )}
+    </>
   );
 };
 

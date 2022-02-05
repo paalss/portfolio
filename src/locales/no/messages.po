@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.js:38
+#: src/App.js:37
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Siden finnes ikke"
 
@@ -137,6 +137,10 @@ msgstr "Dokker blogg"
 #: src/pages/Portfolios.js:64
 msgid "Du er på siden"
 msgstr "Du er på siden"
+
+#: src/components/layout/Footer/Footer.js:10
+msgid "Du finner meg på:"
+msgstr "Du finner meg på:"
 
 #: src/pages/Portfolios.js:125
 msgid "Eksamensinnlevering i webkoding<0>2016 høst</0>"

@@ -5680,6 +5680,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"darkreader@npm:^4.9.26":
+  version: 4.9.44
+  resolution: "darkreader@npm:4.9.44"
+  checksum: f6a9ad3467abfd887aa410e45b99d8892ede3ba082dbd734a2c62c5d15074edaa43938b8d4af7e11358812f9c7aa80fa6486aea9a652577626ad23f2ab4ea689
+  languageName: node
+  linkType: hard
+
 "dashdash@npm:^1.12.0":
   version: 1.14.1
   resolution: "dashdash@npm:1.14.1"
@@ -12004,6 +12011,7 @@ __metadata:
     "@testing-library/user-event": ^12.1.10
     gh-pages: ^3.2.3
     react: ^17.0.2
+    react-darkreader: ^1.5.6
     react-dom: ^17.0.2
     react-ga: ^3.3.0
     react-lazyload: ^3.2.0
@@ -13255,6 +13263,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-darkreader@npm:^1.5.6":
+  version: 1.5.6
+  resolution: "react-darkreader@npm:1.5.6"
+  dependencies:
+    darkreader: ^4.9.26
+    react-switch: ^6.0.0
+  peerDependencies:
+    react: ^16.8.6
+  checksum: 57352843968885e4cd8847b0c61063b2b3d158178f721b6461b11a29ed54a217a978444a3ec5f7fbee6f6403843b8bbaedfd0b32c27f5ac4af75fd9dc92d99bb
+  languageName: node
+  linkType: hard
+
 "react-dev-utils@npm:^11.0.3":
   version: 11.0.4
   resolution: "react-dev-utils@npm:11.0.4"
@@ -13480,6 +13500,18 @@ __metadata:
   bin:
     react-snap: ./run.js
   checksum: f24a441ea350f00b5ac8939f3f189c1ac9887ae26f3cc0fef50b1b5fc42aa09f3bb07b1de09c2bda4fa4fb55ff1783dc0923a2dfe3aafe58a3c14012109da374
+  languageName: node
+  linkType: hard
+
+"react-switch@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "react-switch@npm:6.0.0"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^15.3.0 || ^16.0.0 || ^17.0.0
+    react-dom: ^15.3.0 || ^16.0.0 || ^17.0.0
+  checksum: 216f3f7bb6ba367a4e8bba10c823a6269a961fd74a0d49a82460b4cf516567f72344d4222930d7eb2e0e610562fad264dd26c95e32cac1dc553a8b7eed4b43f0
   languageName: node
   linkType: hard
 

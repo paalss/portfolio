@@ -9,7 +9,6 @@ import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import Main from "./components/layout/Main";
 import LoadingSpinner from "./components/layout/LoadingSpinner";
-import LangMenu from "./components/layout/LangMenu";
 
 // react lingui
 import { Trans } from "@lingui/macro";
@@ -39,9 +38,6 @@ const App = () => (
                 </h1>
               </Route>
             </Switch>
-            <Route path="/" exact>
-              <LangMenu />
-            </Route>
           </div>
         </Header>
         <Nav />

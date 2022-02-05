@@ -160,7 +160,7 @@
     «kaste skygge» over på main, lag derfor en invers skygge på main. */
     -webkit-box-shadow: inset 0px 4px 32px -16px #000000;
     box-shadow: inset 0px 4px 32px -16px #000000;
-    min-height: 80vh; /* mest for å forhindre at footer hopper langt opp på galleri siden, mens bildene lastes inn. */
+    min-height: 40vh; /* mest for å forhindre at footer hopper langt opp på galleri siden, mens bildene lastes inn. */
   }
   /* det første elementet i main trenger ikke margin-top, da main tar seg av dette  */
   main .container > :first-child {

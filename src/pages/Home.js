@@ -94,7 +94,6 @@ export const WebworkLinks = () => (
       <a
         className="link"
         href="https://github.com/paalss?tab=repositories"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <span className="fab fa-github"></span> <Trans>Se mer på Github</Trans>

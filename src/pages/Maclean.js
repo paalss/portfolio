@@ -9,7 +9,6 @@ const Maclean = () => (
     <a
       className="link"
       href="https://paalss.github.io/Alistair-MacLean-portfolio-redesign/"
-      target="_blank"
       rel="noopener noreferrer"
     >
       <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
@@ -17,7 +16,6 @@ const Maclean = () => (
     <a
       className="link"
       href="https://github.com/paalss/Alistair-MacLean-portfolio-redesign"
-      target="_blank"
       rel="noopener noreferrer"
     >
       <span className="fab fa-github"></span> {t`Kildekode`}

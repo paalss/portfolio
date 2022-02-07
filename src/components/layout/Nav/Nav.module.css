@@ -69,11 +69,11 @@ nav a, nav button, nav .switch {
   /* border-right-color: orange; */
   right: 10px;
 }
-.nav a:hover,
-.nav a:active,
-.nav a:focus,
-.nav a.selected,
-.nav button:hover {
+nav a:hover,
+nav a:active,
+nav a:focus,
+nav a.selected,
+nav button:hover {
   font-weight: 900;
 }
 .gray {

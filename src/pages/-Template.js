@@ -11,7 +11,6 @@ const Template = () => (
     <a
       className="link"
       href="https://paalss.github.io/repo/"
-      target="_blank"
       rel="noopener noreferrer"
     >
       <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
@@ -19,7 +18,6 @@ const Template = () => (
     <a
       className="link"
       href="https://github.com/paalss/repo"
-      target="_blank"
       rel="noopener noreferrer"
     >
       <span className="fab fa-github"></span> {t`Kildekode`}

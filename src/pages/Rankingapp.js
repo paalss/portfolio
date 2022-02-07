@@ -22,7 +22,6 @@ const Rankingapp = () => (
     <a
       className="link"
       href="https://github.com/paalss/Ranking-app"
-      target="_blank"
       rel="noopener noreferrer"
     >
       <span className="fab fa-github"></span> {t`Kildekode`}

@@ -12,7 +12,6 @@ const Extraoptical = () => (
     <a
       className="link"
       href="https://extraoptical.no/"
-      target="_blank"
       rel="noopener noreferrer"
     >
       <span className="fas fa-circle-notch"></span> {t`Besøk siden`}

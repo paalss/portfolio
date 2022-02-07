@@ -6,9 +6,10 @@ import DarkmodeSwitch from "../../common/DarkmodeSwitch";
 import classes from "./Nav.module.css";
 
 const Nav = () => (
-  <nav className={classes.nav}>
+  <nav>
     <div className="container">
       <ul className={classes.ul}>
+        {/* linker til subpages */}
         {pagesInfo.map((page) => (
           <li key={page.id}>
             <NavLink
@@ -34,6 +35,7 @@ const Nav = () => (
             )}
           </li>
         ))}
+        {/* knapper for innstillinger */}
         <li>
           <LangMenu />
         </li>

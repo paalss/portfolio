@@ -17,7 +17,6 @@ const Dokker = () => (
     <a
       className="link"
       href="https://www.dokker.com/nb/"
-      target="_blank"
       rel="noopener noreferrer"
     >
       <span className="fas fa-circle-notch"></span> {t`Besøk siden`}

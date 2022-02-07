@@ -66,7 +66,6 @@ const Portfolios = () => (
       <a
         className="link"
         href="https://github.com/paalss/portfolio"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <span className="fab fa-github"></span> {t`Kildekode`}
@@ -113,7 +112,6 @@ const Portfolios = () => (
       <a
         className="link"
         href="https://github.com/paalss/portfolio-2019-fritid"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <span className="fab fa-github"></span> {t`Kildekode`}
@@ -141,7 +139,6 @@ const Portfolios = () => (
       <a
         className="link"
         href="https://paalss.github.io/portfolio-2016-2-webkoding-final-delivery/"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
@@ -149,7 +146,6 @@ const Portfolios = () => (
       <a
         className="link"
         href="https://github.com/paalss/portfolio-2016-2-webkoding-final-delivery"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <span className="fab fa-github"></span> {t`Kildekode`}
@@ -181,7 +177,6 @@ const Portfolios = () => (
       <a
         className="link"
         href="https://paalss.github.io/portfolio-2016-1-fritid/"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
@@ -189,7 +184,6 @@ const Portfolios = () => (
       <a
         className="link"
         href="https://github.com/paalss/portfolio-2016-1-fritid"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <span className="fab fa-github"></span> {t`Kildekode`}
@@ -231,7 +225,6 @@ const Portfolios = () => (
       <a
         className="link"
         href="https://paalss.github.io/portfolio-2015-2-etter-innlevering/"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
@@ -239,7 +232,6 @@ const Portfolios = () => (
       <a
         className="link"
         href="https://github.com/paalss/portfolio-2015-2-etter-innlevering"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <span className="fab fa-github"></span> {t`Kildekode`}

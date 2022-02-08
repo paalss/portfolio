@@ -42,17 +42,15 @@ const Gallery = () => {
   );
 
   if (instaMedia.length > 0) {
-    content = instaMedia.map((i) => {
-      return (
-        <LightboxImage
-          key={i.id}
-          imgSrc={i.media_url}
-          imgAlt={i.caption}
-          title={i.caption}
-          gallery={true}
-        />
-      );
-    });
+    content = instaMedia.map((i) => (
+      <LightboxImage
+        key={i.id}
+        imgSrc={i.media_url}
+        imgAlt={i.caption}
+        title={i.caption}
+        gallery={true}
+      />
+    ));
   }
 
   if (error) {

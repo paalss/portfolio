@@ -4,6 +4,10 @@ https://paalss.github.io/portfolio/
 
 ## Notater for development
 
+### Installer depencencies
+
+`yarn`
+
 ### Serve
 
 `yarn start`

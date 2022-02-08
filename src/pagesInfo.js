@@ -27,18 +27,21 @@ import galleryImg from "./images/gallery/gallery1-small.webp";
 
 // home
 const Home = lazy(() => import("./pages/Home"));
+
 // webwork
 const Webwork = lazy(() => import("./pages/Webwork"));
-const Extraoptical = lazy(() => import("./pages/Extraoptical"));
-const Dokker = lazy(() => import("./pages/Dokker"));
-const Rankingapp = lazy(() => import("./pages/Rankingapp"));
-const Videoopplasting = lazy(() => import("./pages/Videoopplasting"));
-const Maclean = lazy(() => import("./pages/Maclean"));
-const Portfolios = lazy(() => import("./pages/Portfolios"));
+const Extraoptical = lazy(() => import("./pages/webwork/Extraoptical"));
+const Dokker = lazy(() => import("./pages/webwork/Dokker"));
+const Rankingapp = lazy(() => import("./pages/webwork/Rankingapp"));
+const Videoopplasting = lazy(() => import("./pages/webwork/Videoopplasting"));
+const Maclean = lazy(() => import("./pages/webwork/Maclean"));
+const Portfolios = lazy(() => import("./pages/webwork/Portfolios"));
+
 // graphicwork
 const Graphicwork = lazy(() => import("./pages/Graphicwork"));
-const Artistbooking = lazy(() => import("./pages/Artistbooking"));
-const JRNM = lazy(() => import("./pages/JRNM"));
+const Artistbooking = lazy(() => import("./pages/graphicwork/Artistbooking"));
+const JRNM = lazy(() => import("./pages/graphicwork/JRNM"));
+
 // other
 const Gallery = lazy(() => import("./pages/Gallery"));
 

@@ -1,9 +1,9 @@
-import videoOgTranskriptImg from "../images/www-teknologi/2-video-og-transkript.webp";
-import videosideImg from "../images/www-teknologi/prosjekt2-5-videoside.webp";
-import videolisteImg from "../images/www-teknologi/prosjekt2-7-videoliste.webp";
-import videoopplastingImg from "../images/www-teknologi/prosjekt2-8-videoopplasting.webp";
-import Figure from "../components/common/Figure";
-import ToolList from "../components/common/ToolList";
+import videoOgTranskriptImg from "../../images/www-teknologi/2-video-og-transkript.webp";
+import videosideImg from "../../images/www-teknologi/prosjekt2-5-videoside.webp";
+import videolisteImg from "../../images/www-teknologi/prosjekt2-7-videoliste.webp";
+import videoopplastingImg from "../../images/www-teknologi/prosjekt2-8-videoopplasting.webp";
+import Figure from "../../components/common/Figure";
+import ToolList from "../../components/common/ToolList";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";

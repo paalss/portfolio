@@ -1,5 +1,5 @@
-import ToolList from "../components/common/ToolList";
-import macleanImg from "../images/maclean/alistairmaclean-full.webp";
+import ToolList from "../../components/common/ToolList";
+import macleanImg from "../../images/maclean/alistairmaclean-full.webp";
 
 import { Trans, t } from "@lingui/macro";
 

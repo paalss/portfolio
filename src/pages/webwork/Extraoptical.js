@@ -1,7 +1,5 @@
-import ToolList from "../components/common/ToolList";
-import img from "../images/extraoptical/sider/front-page.webp";
-// import Figure from "../components/common/Figure";
-// import T from "../components/common/HtmlTag";
+import ToolList from "../../components/common/ToolList";
+import img from "../../images/extraoptical/sider/front-page.webp";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";

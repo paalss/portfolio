@@ -1,12 +1,12 @@
-import mobileImg1 from "../images/artistbooking/Android-Mobile–1.webp";
-import mobileImg2 from "../images/artistbooking/Android-Mobile–2.webp";
-import mobileImg3 from "../images/artistbooking/Android-Mobile–3.webp";
-import mobileImg4 from "../images/artistbooking/Android-Mobile–4.webp";
-import destopImg from "../images/artistbooking/Web-1280–4.webp";
-// import screenshotImg from "../images/artistbooking/Screenshot_20191126-120019.webp";
+import mobileImg1 from "../../images/artistbooking/Android-Mobile–1.webp";
+import mobileImg2 from "../../images/artistbooking/Android-Mobile–2.webp";
+import mobileImg3 from "../../images/artistbooking/Android-Mobile–3.webp";
+import mobileImg4 from "../../images/artistbooking/Android-Mobile–4.webp";
+import destopImg from "../../images/artistbooking/Web-1280–4.webp";
+// import screenshotImg from "../../images/artistbooking/Screenshot_20191126-120019.webp";
 
-import Figure from "../components/common/Figure";
-import ToolList from "../components/common/ToolList";
+import Figure from "../../components/common/Figure";
+import ToolList from "../../components/common/ToolList";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";

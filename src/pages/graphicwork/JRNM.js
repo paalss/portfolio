@@ -1,10 +1,10 @@
-import JRNMImg from "../images/jr-nm-ski/IMG_2413-min.webp";
-import JRNMImg2 from "../images/jr-nm-ski/JrNM-logo-web.webp";
-import JRNMImg3 from "../images/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp";
-// import remake from "../images/jr-nm-ski/jrnmlogo-ai-remake.webp";
+import JRNMImg from "../../images/jr-nm-ski/IMG_2413-min.webp";
+import JRNMImg2 from "../../images/jr-nm-ski/JrNM-logo-web.webp";
+import JRNMImg3 from "../../images/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp";
+// import remake from "../../images/jr-nm-ski/jrnmlogo-ai-remake.webp";
 
-import Figure from "../components/common/Figure";
-import ToolList from "../components/common/ToolList";
+import Figure from "../../components/common/Figure";
+import ToolList from "../../components/common/ToolList";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";

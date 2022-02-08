@@ -17,6 +17,7 @@ import portfoliosImg from "./images/portfolios/pf5.webp";
 // graphicwork
 import artistbookingImg from "./images/artistbooking/Android-Mobile–1.webp";
 import jrNmImg from "./images/jr-nm-ski/IMG_2413-min-small.webp";
+import fagstoffImg from "./images/fagstoff/fagstoff-small.webp";
 // other
 import galleryImg from "./images/gallery/gallery1-small.webp";
 
@@ -34,8 +35,9 @@ const Extraoptical = lazy(() => import("./pages/webwork/Extraoptical"));
 const Dokker = lazy(() => import("./pages/webwork/Dokker"));
 const Rankingapp = lazy(() => import("./pages/webwork/Rankingapp"));
 const Videoopplasting = lazy(() => import("./pages/webwork/Videoopplasting"));
-const Maclean = lazy(() => import("./pages/webwork/Maclean"));
 const Portfolios = lazy(() => import("./pages/webwork/Portfolios"));
+const Maclean = lazy(() => import("./pages/webwork/Maclean"));
+const Fagstoff = lazy(() => import("./pages/webwork/Fagstoff"));
 
 // graphicwork
 const Graphicwork = lazy(() => import("./pages/Graphicwork"));
@@ -120,6 +122,16 @@ const pagesInfo = [
       },
       {
         id: 7,
+        path: "/webwork/portfolios",
+        title: <Trans>Denne porteføljen</Trans>,
+        page: <Portfolios />,
+        imgSrc: portfoliosImg,
+        imgAlt: "Portfolio page",
+        tools: ["React", "JavaScript", <>React&#8209;lingui</>],
+        thereAreMoreTools: true,
+      },
+      {
+        id: 8,
         path: "/webwork/maclean",
         title: <Trans>Alistair MacLean nettside redesign</Trans>,
         page: <Maclean />,
@@ -129,19 +141,18 @@ const pagesInfo = [
         thereAreMoreTools: true,
       },
       {
-        id: 8,
-        path: "/webwork/portfolios",
-        title: <Trans>Denne porteføljen</Trans>,
-        page: <Portfolios />,
-        imgSrc: portfoliosImg,
-        imgAlt: "Portfolio page",
-        tools: ["React", "JavaScript", <>React&#8209;lingui</>],
-        thereAreMoreTools: true,
+        id: 9,
+        path: "/webwork/fagstoff",
+        title: <Trans>Fagstoff</Trans>,
+        page: <Fagstoff />,
+        imgSrc: fagstoffImg,
+        imgAlt: "Subject matter",
+        tools: ["HTML", "CSS"],
       },
     ],
   },
   {
-    id: 9,
+    id: 10,
     path: "/graphicwork",
     exact: true,
     exactActiveClassName: false,
@@ -149,7 +160,7 @@ const pagesInfo = [
     page: <Graphicwork />,
     subpages: [
       {
-        id: 10,
+        id: 11,
         path: "/graphicwork/artistbooking",
         title: "Artist booking app prototype",
         page: <Artistbooking />,
@@ -158,7 +169,7 @@ const pagesInfo = [
         tools: ["Adobe XD"],
       },
       {
-        id: 11,
+        id: 12,
         path: "/graphicwork/jrnm",
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,
@@ -169,7 +180,7 @@ const pagesInfo = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     path: "/gallery",
     title: <Trans>Kunst</Trans>,
     page: <Gallery />,

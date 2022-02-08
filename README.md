@@ -37,6 +37,13 @@ https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
 
 https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-profiles-and-media
 
+### Konverter png og jpg bilder til webp-filer
+
+[How to convert my photos to webp format of Google in windows 8.1?](https://stackoverflow.com/questions/24484272/how-to-convert-my-photos-to-webp-format-of-google-in-windows-8-1) se svaret til pldg. Det funker for windows 10 Education også
+
+### Forminsk webp bilder (for SquareLink bilder)
+https://www.xconvert.com/compress-webp
+
 ### Kilder
 
 [kilder.md](kilder.md)

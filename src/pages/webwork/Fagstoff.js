@@ -1,4 +1,4 @@
-import fagstoffImg from "../../images/fagstoff/fagstoff.webp";
+import fagstoffImg from "../../images/webwork/fagstoff/fagstoff.webp";
 import ToolList from "../../components/common/ToolList";
 
 // react lingui

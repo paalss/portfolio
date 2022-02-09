@@ -1,7 +1,8 @@
-import rankingappGif from "../../images/rankingapp/app-recording1.gif";
-import overviewImg from "../../images/rankingapp/overview.webp";
-import topNovelsImg from "../../images/rankingapp/top-novels2.webp";
-import bestMetroidvaniasImg from "../../images/rankingapp/best-metroidvanias.webp";
+import rankingappGif from "../../images/webwork/rankingapp/app-recording1.gif";
+import overviewImg from "../../images/webwork/rankingapp/overview.webp";
+import topNovelsImg from "../../images/webwork/rankingapp/top-novels2.webp";
+import bestMetroidvaniasImg from "../../images/webwork/rankingapp/best-metroidvanias.webp";
+
 import Figure from "../../components/common/Figure";
 import ToolList from "../../components/common/ToolList";
 

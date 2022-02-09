@@ -1,7 +1,7 @@
-import videoOgTranskriptImg from "../../images/www-teknologi/2-video-og-transkript.webp";
-import videosideImg from "../../images/www-teknologi/prosjekt2-5-videoside.webp";
-import videolisteImg from "../../images/www-teknologi/prosjekt2-7-videoliste.webp";
-import videoopplastingImg from "../../images/www-teknologi/prosjekt2-8-videoopplasting.webp";
+import videoOgTranskriptImg from "../../images/webwork/www-teknologi/2-video-og-transkript.webp";
+import videosideImg from "../../images/webwork/www-teknologi/prosjekt2-5-videoside.webp";
+import videolisteImg from "../../images/webwork/www-teknologi/prosjekt2-7-videoliste.webp";
+import videoopplastingImg from "../../images/webwork/www-teknologi/prosjekt2-8-videoopplasting.webp";
 import Figure from "../../components/common/Figure";
 import ToolList from "../../components/common/ToolList";
 

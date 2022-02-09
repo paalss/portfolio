@@ -1,8 +1,6 @@
-import dokkerInterface from "../../images/dokker/dashboard/latest-document-assignment.webp";
-import followupcardImg from "../../images/dokker/follow-up-card/followupcard.webp";
-import newcardsImg from "../../images/dokker/news-card/newscards.webp";
-// import newcardImg from "../../images/dokker/news-card/wip3-2021-06-30-at-08.58.07.webp";
-// import noelementsfoundImg from "../../images/dokker/no-elements-found/empty-state-for-your-assignments.webp";
+import dokkerInterface from "../../images/webwork/dokker/dashboard/latest-document-assignment.webp";
+import followupcardImg from "../../images/webwork/dokker/follow-up-card/followupcard.webp";
+import newcardsImg from "../../images/webwork/dokker/news-card/newscards.webp";
 
 // components
 import Figure from "../../components/common/Figure";

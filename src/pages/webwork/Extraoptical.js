@@ -1,12 +1,12 @@
 import ToolList from "../../components/common/ToolList";
-import img from "../../images/extraoptical/sider/front-page.webp";
+import extraopticalImg from "../../images/webwork/extraoptical/sider/front-page.webp";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
 const Extraoptical = () => (
   <>
-    <img src={img} width={1920} height={1044} alt="img" />
+    <img src={extraopticalImg} width={1920} height={1044} alt={t`Extra Optical forside`} />
     <a
       className="link"
       href="https://extraoptical.no/"

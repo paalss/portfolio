@@ -1,9 +1,9 @@
-import pf5 from "../../images/portfolios/pf5.webp";
-import pf4 from "../../images/portfolios/pf4.webp";
-import pf3 from "../../images/portfolios/pf3.webp";
-import pf2 from "../../images/portfolios/pf2-full2.webp";
-import pf1v2 from "../../images/portfolios/pf1-2.webp";
-import pf1v1 from "../../images/portfolios/pf1-1.webp";
+import pf5 from "../../images/webwork/portfolios/pf5.webp";
+import pf4 from "../../images/webwork/portfolios/pf4.webp";
+import pf3 from "../../images/webwork/portfolios/pf3.webp";
+import pf2 from "../../images/webwork/portfolios/pf2-full2.webp";
+import pf1v2 from "../../images/webwork/portfolios/pf1-2.webp";
+import pf1v1 from "../../images/webwork/portfolios/pf1-1.webp";
 
 import Figure from "../../components/common/Figure";
 import ToolList from "../../components/common/ToolList";

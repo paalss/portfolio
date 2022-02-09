@@ -1,5 +1,5 @@
-import flaviaprocessImg from "../../images/flaviadeluce/flavia.webp";
-import flaviabannerImg from "../../images/flaviadeluce/flavia-cropped.webp";
+import flaviaprocessImg from "../../images/graphicwork/flaviadeluce/flavia.webp";
+import flaviabannerImg from "../../images/graphicwork/flaviadeluce/flavia-cropped.webp";
 
 import ToolList from "../../components/common/ToolList";
 import Figure from "../../components/common/Figure";

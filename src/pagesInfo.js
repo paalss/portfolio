@@ -9,18 +9,18 @@ import { Trans } from "@lingui/macro";
 import photo from "./images/cvphoto2.webp";
 
 // webwork
-import extraopticalImg from "./images/extraoptical/logo/eo-icon.webp";
-import dokkerImg from "./images/dokker/logo/dokkericon.webp";
-import rankingappImg from "./images/rankingapp/rankingapp-small.webp";
-import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside-small.webp";
-import fagstoffImg from "./images/fagstoff/fagstoff-small.webp";
-import macleanImg from "./images/maclean/alistairmaclean.webp";
-import portfoliosImg from "./images/portfolios/pf5.webp";
+import extraopticalImg from "./images/webwork/extraoptical/logo/eo-icon.webp";
+import dokkerImg from "./images/webwork/dokker/logo/dokkericon.webp";
+import rankingappImg from "./images/webwork/rankingapp/rankingapp-small.webp";
+import videoopplastingImg from "./images/webwork/www-teknologi/prosjekt2-5-videoside-small.webp";
+import fagstoffImg from "./images/webwork/fagstoff/fagstoff-small.webp";
+import macleanImg from "./images/webwork/maclean/alistairmaclean.webp";
+import portfoliosImg from "./images/webwork/portfolios/pf5.webp";
 
 // graphicwork
-import artistbookingImg from "./images/artistbooking/Android-Mobile–1.webp";
-import jrNmImg from "./images/jr-nm-ski/IMG_2413-min-small.webp";
-import flaviaImg from "./images/flaviadeluce/flavia-cropped-hode.webp"
+import artistbookingImg from "./images/graphicwork/artistbooking/Android-Mobile–1.webp";
+import jrNmImg from "./images/graphicwork/jr-nm-ski/IMG_2413-min-small.webp";
+import flaviaImg from "./images/graphicwork/flaviadeluce/flavia-cropped-hode.webp"
 
 // other
 import galleryImg from "./images/gallery/gallery1-small.webp";

@@ -7,17 +7,21 @@ import { Trans } from "@lingui/macro";
 
 // home
 import photo from "./images/cvphoto2.webp";
+
 // webwork
 import extraopticalImg from "./images/extraoptical/logo/eo-icon.webp";
 import dokkerImg from "./images/dokker/logo/dokkericon.webp";
 import rankingappImg from "./images/rankingapp/rankingapp-small.webp";
 import videoopplastingImg from "./images/www-teknologi/prosjekt2-5-videoside-small.webp";
+import fagstoffImg from "./images/fagstoff/fagstoff-small.webp";
 import macleanImg from "./images/maclean/alistairmaclean.webp";
 import portfoliosImg from "./images/portfolios/pf5.webp";
+
 // graphicwork
 import artistbookingImg from "./images/artistbooking/Android-Mobile–1.webp";
 import jrNmImg from "./images/jr-nm-ski/IMG_2413-min-small.webp";
-import fagstoffImg from "./images/fagstoff/fagstoff-small.webp";
+import flaviaImg from "./images/flaviadeluce/flavia-cropped-hode.webp"
+
 // other
 import galleryImg from "./images/gallery/gallery1-small.webp";
 
@@ -43,6 +47,7 @@ const Fagstoff = lazy(() => import("./pages/webwork/Fagstoff"));
 const Graphicwork = lazy(() => import("./pages/Graphicwork"));
 const Artistbooking = lazy(() => import("./pages/graphicwork/Artistbooking"));
 const JRNM = lazy(() => import("./pages/graphicwork/JRNM"));
+const Flaviadeluce = lazy(() => import("./pages/graphicwork/Flaviadeluce"));
 
 // other
 const Gallery = lazy(() => import("./pages/Gallery"));
@@ -170,6 +175,15 @@ const pagesInfo = [
       },
       {
         id: 12,
+        path: "/graphicwork/flaviadeluce",
+        title: <Trans>Bok web-banner</Trans>,
+        page: <Flaviadeluce />,
+        imgSrc: flaviaImg,
+        imgAlt: "Bok webbanner",
+        tools: ["Photoshop", "Illustrator"],
+      },
+      {
+        id: 13,
         path: "/graphicwork/jrnm",
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,
@@ -180,7 +194,7 @@ const pagesInfo = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     path: "/gallery",
     title: <Trans>Kunst</Trans>,
     page: <Gallery />,

@@ -21,10 +21,6 @@ msgstr "404 - Siden finnes ikke"
 msgid "<0>Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med.</0>"
 msgstr "<0>Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med.</0>"
 
-#: src/pages/Portfolios.js:28
-#~ msgid "<0>Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere versjoner. Denne versjonen ble til fordi jeg var ufornøyd med den forrige (se under): Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg hadde laget.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baesrte verktøyet jeg hadde tidligere erfaring med.</3>"
-#~ msgstr "<0>Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere versjoner. Denne versjonen ble til fordi jeg var ufornøyd med den forrige (se under): Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg hadde laget.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baesrte verktøyet jeg hadde tidligere erfaring med.</3>"
-
 #: src/pages/graphicwork/JRNM.js:27
 msgid "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
 msgstr "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
@@ -69,7 +65,7 @@ msgstr "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-ap
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2><3>Første prosjekt</3>"
 msgstr "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2><3>Første prosjekt</3>"
 
-#: src/pagesInfo.js:136
+#: src/pagesInfo.js:141
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean nettside redesign"
 
@@ -123,6 +119,10 @@ msgstr "Besøk siden"
 msgid "Bidrag"
 msgstr "Bidrag"
 
+#: src/pagesInfo.js:179
+msgid "Bok web-banner"
+msgstr "Bok web-banner"
+
 #: src/pages/webwork/Extraoptical.js:121
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
@@ -131,9 +131,13 @@ msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 
-#: src/pagesInfo.js:126
+#: src/pagesInfo.js:131
 msgid "Denne porteføljen"
 msgstr "Denne porteføljen"
+
+#: src/pages/graphicwork/Flaviadeluce.js:21
+msgid "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim og mysterier-bokserie som tar plass i et 50-talls england. Hovedpersonen er en 12-år gammel kjeminerd, og det ville jeg få frem i dette banneret. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg. (Det er fortsatt bare en skoleoppgave, ikke et 'ordentlig' oppdrag, altså)"
+msgstr "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim og mysterier-bokserie som tar plass i et 50-talls england. Hovedpersonen er en 12-år gammel kjeminerd, og det ville jeg få frem i dette banneret. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg. (Det er fortsatt bare en skoleoppgave, ikke et 'ordentlig' oppdrag, altså)"
 
 #: src/pages/webwork/Dokker.js:97
 msgid "Dokker appen"
@@ -185,7 +189,7 @@ msgstr "Et kort for keep-up-delen av dashboard"
 msgid "Et kort for recent-activities-delen av dashboard"
 msgstr "Et kort for recent-activities-delen av dashboard"
 
-#: src/pagesInfo.js:146
+#: src/pagesInfo.js:151
 msgid "Fagstoff"
 msgstr "Fagstoff"
 
@@ -232,7 +236,7 @@ msgid "Ganske god på {tech}"
 msgstr "Ganske god på {tech}"
 
 #: src/pages/Home.js:59
-#: src/pagesInfo.js:159
+#: src/pagesInfo.js:164
 msgid "Grafisk"
 msgstr "Grafisk"
 
@@ -241,12 +245,16 @@ msgstr "Grafisk"
 msgid "Grafisk design"
 msgstr "Grafisk design"
 
+#: src/pages/graphicwork/Flaviadeluce.js:14
+msgid "Grafisk skoleoppgave<0>2015?</0>"
+msgstr "Grafisk skoleoppgave<0>2015?</0>"
+
 #: src/components/common/Barchart/Barchart-utkast.js:17
 #: src/components/common/Barchart/Barchart.js:17
 msgid "Grunn­leggende"
 msgstr "Grunn­leggende"
 
-#: src/pagesInfo.js:56
+#: src/pagesInfo.js:61
 msgid "Hjem"
 msgstr "Hjem"
 
@@ -304,7 +312,7 @@ msgstr "Kan litt {tech}"
 msgid "Kildekode"
 msgstr "Kildekode"
 
-#: src/pagesInfo.js:185
+#: src/pagesInfo.js:199
 msgid "Kunst"
 msgstr "Kunst"
 
@@ -340,7 +348,7 @@ msgstr "MySQL & relasjons­databaser"
 msgid "Nettside med overskriften 'fagstoff'"
 msgstr "Nettside med overskriften 'fagstoff'"
 
-#: src/pagesInfo.js:77
+#: src/pagesInfo.js:82
 msgid "Nettsider"
 msgstr "Nettsider"
 
@@ -389,7 +397,7 @@ msgid "React sertifikat"
 msgstr "React sertifikat"
 
 #: src/pages/webwork/Rankingapp.js:42
-#: src/pagesInfo.js:105
+#: src/pagesInfo.js:110
 msgid "Relasjonsdatabase"
 msgstr "Relasjonsdatabase"
 
@@ -424,9 +432,13 @@ msgstr "Søkeresultater"
 msgid "To studie­proskekter<0>2020 vår</0>"
 msgstr "To studie­proskekter<0>2020 vår</0>"
 
-#: src/pagesInfo.js:62
+#: src/pagesInfo.js:67
 msgid "Utdannet web­utvikler"
 msgstr "Utdannet web­utvikler"
+
+#: src/pages/graphicwork/Flaviadeluce.js:36
+msgid "Utkast og skisser til web-banneret oppe til venstre. Jeg har desverre ikke tatt vare på et mer høyoppløselig bilde av det."
+msgstr "Utkast og skisser til web-banneret oppe til venstre. Jeg har desverre ikke tatt vare på et mer høyoppløselig bilde av det."
 
 #: src/pages/webwork/Videoopplasting.js:92
 msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
@@ -448,8 +460,8 @@ msgstr "Videoside i andre prosjekt"
 msgid "Videoside i første prosjekt"
 msgstr "Videoside i første prosjekt"
 
-#: src/pagesInfo.js:111
-#: src/pagesInfo.js:114
+#: src/pagesInfo.js:116
+#: src/pagesInfo.js:119
 msgid "Video­opplastings­apper"
 msgstr "Video­opplastings­apper"
 
@@ -483,6 +495,10 @@ msgstr "_bilde1"
 #: src/pages/-Template.js:54
 msgid "_bilde2"
 msgstr "_bilde2"
+
+#: src/pages/graphicwork/Flaviadeluce.js:35
+msgid "flere bilder med flavia de luce motiver"
+msgstr "flere bilder med flavia de luce motiver"
 
 #: src/pages/webwork/Maclean.js:8
 msgid "maclean nettside"

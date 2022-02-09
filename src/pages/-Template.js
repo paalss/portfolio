@@ -1,13 +1,13 @@
-import img from "../images/tmplt/t.webp";
-import ToolList from "../components/common/ToolList";
-import Figure from "../components/common/Figure";
+import projImg from "../../images/tmplt/t.webp";
+import ToolList from "../../components/common/ToolList";
+import Figure from "../../components/common/Figure";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
 const Template = () => (
   <>
-    <img src={img} width={0} height={0} alt={t`_bilde`} />
+    <img src={projImg} width={0} height={0} alt={t`_bilde`} />
     <a
       className="link"
       href="https://paalss.github.io/repo/"
@@ -40,14 +40,14 @@ const Template = () => (
     </p>
     <div uk-lightbox="animation: slide" className="flex wrap">
       <Figure
-        imgSrc={img}
+        imgSrc={projImg}
         imgWidth={0}
         imgHeight={0}
         imgAlt={t`_bilde1`}
         caption={t`_bilde1`}
       />
       <Figure
-        imgSrc={img}
+        imgSrc={projImg}
         imgWidth={0}
         imgHeight={0}
         imgAlt={t`_bilde2`}

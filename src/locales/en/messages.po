@@ -21,10 +21,6 @@ msgstr "404 - Page not found"
 msgid "<0>Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med.</0>"
 msgstr "<0>This isn't the first time I've made my own portfolio. Below you can se the earlier onces, which I never felt quite satisfied with.</0>"
 
-#: src/pages/Portfolios.js:28
-#~ msgid "<0>Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere versjoner. Denne versjonen ble til fordi jeg var ufornøyd med den forrige (se under): Den hadde litt for dårlig design og hadde lite fokus på nettsider jeg hadde laget.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baesrte verktøyet jeg hadde tidligere erfaring med.</3>"
-#~ msgstr "<0>Before I made this portfolio I've made many different versions. The reason for making this version was because I was dissatisfied with the last one (see below): That one had too small of a focus on my web work, the design wasn't set up for this kind of content and the overall design was pretty ugly.</0><1>Why React?</1><2>Before I implemented React into this porfolio, I used plain (vanilla) JavaScript to emulate component-based architecture. This was because some elements had to be re-used on multiple page (Nav and Footer) and one that had to be cleared away from index.html (barchart)</2><3>Making components with plain JavaScript proved to be very inelegant gradually as the codebase grew bigger. I converted it to React because it was a compoent-based framework I already had existing knowledge of.</3>"
-
 #: src/pages/graphicwork/JRNM.js:27
 msgid "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
 msgstr "<0>In 2013 I had a one-week internship at Orega in Lade, Trondheim. Here I was set to design a logo for Junior NM on ski 2015.</0>"
@@ -69,7 +65,7 @@ msgstr "<0>During this five months internship I contributed to Dokker, an web ap
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2><3>Første prosjekt</3>"
 msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we set to make web apps for uploading and watching videos. That is, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
-#: src/pagesInfo.js:136
+#: src/pagesInfo.js:141
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
@@ -123,6 +119,10 @@ msgstr "Visit site"
 msgid "Bidrag"
 msgstr "Contribution"
 
+#: src/pagesInfo.js:179
+msgid "Bok web-banner"
+msgstr "Book web-banner"
+
 #: src/pages/webwork/Extraoptical.js:121
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Built some sites on the new webpage (a Progressive Web App)"
@@ -131,9 +131,13 @@ msgstr "Built some sites on the new webpage (a Progressive Web App)"
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "This site was abandoned half-finished and has no sub-pages."
 
-#: src/pagesInfo.js:126
+#: src/pagesInfo.js:131
 msgid "Denne porteføljen"
 msgstr "This portfolio"
+
+#: src/pages/graphicwork/Flaviadeluce.js:21
+msgid "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim og mysterier-bokserie som tar plass i et 50-talls england. Hovedpersonen er en 12-år gammel kjeminerd, og det ville jeg få frem i dette banneret. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg. (Det er fortsatt bare en skoleoppgave, ikke et 'ordentlig' oppdrag, altså)"
+msgstr "This is a book banner I made featuring Flavia de Luce, a crime and mystery book series that takes place in England in the fifties."
 
 #: src/pages/webwork/Dokker.js:97
 msgid "Dokker appen"
@@ -185,7 +189,7 @@ msgstr "A card for the keep-up part of dashboard"
 msgid "Et kort for recent-activities-delen av dashboard"
 msgstr "A card for the recent-activites part of dashboard"
 
-#: src/pagesInfo.js:146
+#: src/pagesInfo.js:151
 msgid "Fagstoff"
 msgstr "Subject matter"
 
@@ -232,7 +236,7 @@ msgid "Ganske god på {tech}"
 msgstr "Pretty good at {tech}"
 
 #: src/pages/Home.js:59
-#: src/pagesInfo.js:159
+#: src/pagesInfo.js:164
 msgid "Grafisk"
 msgstr "Graphics"
 
@@ -241,12 +245,16 @@ msgstr "Graphics"
 msgid "Grafisk design"
 msgstr "Graphic design"
 
+#: src/pages/graphicwork/Flaviadeluce.js:14
+msgid "Grafisk skoleoppgave<0>2015?</0>"
+msgstr "Graphic school assignment<0>2015?</0>"
+
 #: src/components/common/Barchart/Barchart-utkast.js:17
 #: src/components/common/Barchart/Barchart.js:17
 msgid "Grunn­leggende"
 msgstr "Basics"
 
-#: src/pagesInfo.js:56
+#: src/pagesInfo.js:61
 msgid "Hjem"
 msgstr "Home"
 
@@ -304,7 +312,7 @@ msgstr "Know some {tech}"
 msgid "Kildekode"
 msgstr "Source code"
 
-#: src/pagesInfo.js:185
+#: src/pagesInfo.js:199
 msgid "Kunst"
 msgstr "Art"
 
@@ -340,7 +348,7 @@ msgstr "MySQL & relational databases"
 msgid "Nettside med overskriften 'fagstoff'"
 msgstr "Webpage with its heading reading 'subject matter'"
 
-#: src/pagesInfo.js:77
+#: src/pagesInfo.js:82
 msgid "Nettsider"
 msgstr "Websites"
 
@@ -389,7 +397,7 @@ msgid "React sertifikat"
 msgstr "React certificate"
 
 #: src/pages/webwork/Rankingapp.js:42
-#: src/pagesInfo.js:105
+#: src/pagesInfo.js:110
 msgid "Relasjonsdatabase"
 msgstr "Relational database"
 
@@ -424,9 +432,13 @@ msgstr "Search results"
 msgid "To studie­proskekter<0>2020 vår</0>"
 msgstr "Two university projects<0>2020 spring</0>"
 
-#: src/pagesInfo.js:62
+#: src/pagesInfo.js:67
 msgid "Utdannet web­utvikler"
 msgstr "Educated web developer"
+
+#: src/pages/graphicwork/Flaviadeluce.js:36
+msgid "Utkast og skisser til web-banneret oppe til venstre. Jeg har desverre ikke tatt vare på et mer høyoppløselig bilde av det."
+msgstr "Drafts and sketches for the web-banner top left."
 
 #: src/pages/webwork/Videoopplasting.js:92
 msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
@@ -448,8 +460,8 @@ msgstr "Video page in second project"
 msgid "Videoside i første prosjekt"
 msgstr "Video page in first project"
 
-#: src/pagesInfo.js:111
-#: src/pagesInfo.js:114
+#: src/pagesInfo.js:116
+#: src/pagesInfo.js:119
 msgid "Video­opplastings­apper"
 msgstr "Video uploading apps"
 
@@ -483,6 +495,10 @@ msgstr "_img1"
 #: src/pages/-Template.js:54
 msgid "_bilde2"
 msgstr "_img2"
+
+#: src/pages/graphicwork/Flaviadeluce.js:35
+msgid "flere bilder med flavia de luce motiver"
+msgstr "multiple pages with flavia de luce motives"
 
 #: src/pages/webwork/Maclean.js:8
 msgid "maclean nettside"

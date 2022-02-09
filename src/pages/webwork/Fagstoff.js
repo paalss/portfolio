@@ -6,7 +6,7 @@ import { Trans, t } from "@lingui/macro";
 
 const Fagstoff = () => (
   <>
-    <img src={fagstoffImg} width={1893} height={543} alt={t`Nettside med ordet "fagstoff" som overskrift`} />
+    <img src={fagstoffImg} width={1893} height={543} alt={t`Nettside med overskriften 'fagstoff'`} />
     <a
       className="link"
       href="https://paalss.github.io/fagstoff/"

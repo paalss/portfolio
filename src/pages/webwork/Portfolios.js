@@ -27,12 +27,13 @@ const Portfolios = () => (
 
       <Trans>
         <p>
-          Før jeg lagde denne porteføljen hadde jeg lagd massevis av tidligere
-          versjoner. Denne versjonen ble til fordi jeg var ufornøyd med den
-          forrige (se under): Den hadde litt for dårlig design og hadde lite
-          fokus på nettsider jeg hadde laget.
+          Jeg startet på denne siden desember 2020, og jeg designet den
+          spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle
+          fungere som et supplement til CV i forbindelse med jobbsøking. I
+          senere tid har jeg lagt til mer innhold og forbedret etter SEO. Jeg er
+          veldig fornøyd med designet, kodekvaliteten og valg av verktøy.
         </p>
-        <h3>Hvorfor React?</h3>
+        <h3>Valg av React</h3>
         <p>
           Før jeg brukte React til porteføljen brukte jeg JavaScript til å
           etterligne en komponent-basert arkitektur. Det var fordi noen
@@ -42,14 +43,9 @@ const Portfolios = () => (
         <p>
           Å lage komponenter med "vanilla JavaScript" ble ganske uelegant etter
           hvert som koden ble større. Jeg gikk derfor over til React da det var
-          det komponent-baesrte verktøyet jeg hadde tidligere erfaring med.
+          det komponent-baserte verktøyet jeg hadde tidligere erfaring med.
         </p>
       </Trans>
-      {/*<p>
-          Dessuten gjør React det veldig enkelt for meg å hente data fra web API
-          med <i>serverside JavaScript</i> og sende dette direkte til{" "}
-          <i>klient-siden</i>.
-        </p> */}
 
       <div uk-lightbox="animation: slide">
         <Figure
@@ -70,6 +66,14 @@ const Portfolios = () => (
       >
         <span className="fab fa-github"></span> {t`Kildekode`}
       </a>
+      <p>
+        <Trans>
+          <p>
+            Dette er ikke første gang jeg har lagd en egen portefølje. Under kan
+            du se mine tidligere, som jeg aldri ble helt fornøyd med.
+          </p>
+        </Trans>
+      </p>
     </>
 
     <>

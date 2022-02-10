@@ -1,5 +1,5 @@
-import flaviaprocessImg from "../../images/graphicwork/flaviadeluce/flavia.webp";
-import flaviabannerImg from "../../images/graphicwork/flaviadeluce/flavia-cropped.webp";
+import flaviaProcessImg from "../../images/graphicwork/flaviadeluce/flavia.webp";
+import flaviaBannerImg from "../../images/graphicwork/flaviadeluce/flavia-cropped.webp";
 
 import ToolList from "../../components/common/ToolList";
 import Figure from "../../components/common/Figure";
@@ -9,7 +9,7 @@ import { Trans, t } from "@lingui/macro";
 
 const Flaviadeluce = () => (
   <>
-    <img src={flaviabannerImg} width={0} height={0} alt="web-banner" />
+    <img src={flaviaBannerImg} width={0} height={0} alt="web-banner" />
     <h2>
       <Trans>
         Grafisk skoleoppgave
@@ -29,7 +29,7 @@ const Flaviadeluce = () => (
     </p>
     <div uk-lightbox="animation: slide" className="flex wrap">
       <Figure
-        imgSrc={flaviaprocessImg}
+        imgSrc={flaviaProcessImg}
         imgWidth={1024}
         imgHeight={725}
         imgAlt={t`flere bilder med flavia de luce motiver`}

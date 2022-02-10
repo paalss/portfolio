@@ -33,7 +33,7 @@ const Portfolios = () => (
           senere tid har jeg lagt til mer innhold og forbedret etter SEO. Jeg er
           veldig fornøyd med designet, kodekvaliteten og valg av verktøy.
         </p>
-        <h3>Valg av React</h3>
+        <h3>Hvorfor React?</h3>
         <p>
           Før jeg brukte React til porteføljen brukte jeg JavaScript til å
           etterligne en komponent-basert arkitektur. Det var fordi noen

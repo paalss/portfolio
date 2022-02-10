@@ -19,8 +19,9 @@ import portfoliosImg from "./images/webwork/portfolios/pf5.webp";
 
 // graphicwork
 import artistbookingImg from "./images/graphicwork/artistbooking/Android-Mobile–1.webp";
-import jrNmImg from "./images/graphicwork/jr-nm-ski/IMG_2413-min-small.webp";
+import mpoeImg from "./images/graphicwork/mpoe/mpoe-cropped-forside.webp"
 import flaviaImg from "./images/graphicwork/flaviadeluce/flavia-cropped-hode.webp"
+import jrNmImg from "./images/graphicwork/jr-nm-ski/IMG_2413-min-small.webp";
 
 // other
 import galleryImg from "./images/gallery/gallery1-small.webp";
@@ -46,8 +47,9 @@ const Fagstoff = lazy(() => import("./pages/webwork/Fagstoff"));
 // graphicwork
 const Graphicwork = lazy(() => import("./pages/Graphicwork"));
 const Artistbooking = lazy(() => import("./pages/graphicwork/Artistbooking"));
-const JRNM = lazy(() => import("./pages/graphicwork/JRNM"));
+const MPOE = lazy(() => import("./pages/graphicwork/MPOE"));
 const Flaviadeluce = lazy(() => import("./pages/graphicwork/Flaviadeluce"));
+const JRNM = lazy(() => import("./pages/graphicwork/JRNM"));
 
 // other
 const Gallery = lazy(() => import("./pages/Gallery"));
@@ -179,11 +181,20 @@ const pagesInfo = [
         title: <Trans>Bok web-banner</Trans>,
         page: <Flaviadeluce />,
         imgSrc: flaviaImg,
-        imgAlt: "Bok webbanner",
+        imgAlt: "Book webbanner",
         tools: ["Photoshop", "Illustrator"],
       },
       {
         id: 13,
+        path: "/graphicwork/mpoe",
+        title: <Trans>Bokcover o.l.</Trans>,
+        page: <MPOE />,
+        imgSrc: mpoeImg,
+        imgAlt: "Book cover",
+        tools: ["Photoshop", "Illustrator", "InDesign"],
+      },
+      {
+        id: 14,
         path: "/graphicwork/jrnm",
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,
@@ -194,7 +205,7 @@ const pagesInfo = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     path: "/gallery",
     title: <Trans>Kunst</Trans>,
     page: <Gallery />,

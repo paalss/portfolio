@@ -6,7 +6,13 @@ import { Trans, t } from "@lingui/macro";
 
 const Extraoptical = () => (
   <>
-    <img src={extraopticalImg} width={1920} height={1044} alt={t`Extra Optical forside`} />
+    Sist oppdatert 16. januar 2022. Innholdet er litt utdatert.
+    <img
+      src={extraopticalImg}
+      width={1920}
+      height={1044}
+      alt={t`Extra Optical forside`}
+    />
     <a
       className="link"
       href="https://extraoptical.no/"

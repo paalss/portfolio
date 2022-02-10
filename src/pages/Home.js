@@ -1,8 +1,9 @@
-import { galleryInfo, graphicworkInfo, webworkInfo } from "../pagesInfo";
+import OtherworkLinks from "./Otherwork";
+import WebworkLinks from "./Webwork";
+import GraphicworkLinks from "./Graphicwork";
 
 // components
 import Barchart from "../components/common/Barchart";
-import SquareLink from "../components/common/SquareLink";
 import Certificate from "../components/common/Certificate";
 
 // react lingui
@@ -64,7 +65,7 @@ const Home = () => (
     <h2 className="mb-50">
       <Trans>Annet</Trans>
     </h2>
-    <OtherLinks />
+    <OtherworkLinks />
 
     <h2 className="mb-50">
       <Trans>React sertifikat</Trans>
@@ -73,66 +74,5 @@ const Home = () => (
   </>
 );
 
-export const WebworkLinks = () => (
-  <>
-    <div className="squarelinks-flex">
-      {webworkInfo.map((page) => (
-        <SquareLink
-          key={page.id}
-          link={page.path}
-          imgSrc={page.imgSrc}
-          imgAlt={page.imgAlt}
-          title={page.title}
-          tools={page.tools}
-          thereAreMoreTools={page.thereAreMoreTools}
-        />
-      ))}
-      <SquareLink desktopEmptySpace />
-      <SquareLink desktopEmptySpace />
-    </div>
-    <div className="mt-50 center-content">
-      <a
-        className="link"
-        href="https://github.com/paalss?tab=repositories"
-        rel="noopener noreferrer"
-      >
-        <span className="fab fa-github"></span> <Trans>Se mer på Github</Trans>
-      </a>
-    </div>
-  </>
-);
-
-export const GraphicworkLinks = () => (
-  <>
-    <div className="squarelinks-flex">
-      {graphicworkInfo.map((page) => {
-        return (
-          <SquareLink
-            key={page.id}
-            link={page.path}
-            imgSrc={page.imgSrc}
-            imgAlt={page.imgAlt}
-            title={page.title}
-            tools={page.tools}
-            thereAreMoreTools={page.thereAreMoreTools}
-          />
-        );
-      })}
-      <SquareLink desktopEmptySpace />
-      <SquareLink desktopEmptySpace />
-    </div>
-  </>
-);
-
-export const OtherLinks = () => (
-  <div className="squarelinks-flex">
-    <SquareLink
-      link={galleryInfo.path}
-      imgSrc={galleryInfo.imgSrc}
-      imgAlt={galleryInfo.imgAlt}
-      title={galleryInfo.title}
-    />
-  </div>
-);
 
 export default Home;

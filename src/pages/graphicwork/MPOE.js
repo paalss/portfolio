@@ -47,13 +47,13 @@ const MPOE = () => (
         imgWidth={0}
         imgHeight={0}
         imgAlt={t`utkast til bokcover`}
-        caption={t`Flere utkast`}
+        caption={t`utkast`}
       />
       <Figure
         imgSrc={mpoePosterImg}
         imgWidth={0}
         imgHeight={0}
-        imgAlt={t`poster`}
+        imgAlt="poster"
         caption={t`Et poster jeg også lagde`}
       />
     </div>

@@ -225,10 +225,6 @@ msgstr "Fixed layout on bottom text and made a site available for mobile sizes"
 msgid "Fikset på Extra Opticals Zendesk Help center."
 msgstr "Fixed Extra Optical's Zendesk Help center"
 
-#: src/pages/graphicwork/MPOE.js:50
-msgid "Flere utkast"
-msgstr "More drafts"
-
 #: src/pages/webwork/Portfolios.js:18
 msgid "Fritidsprosjekt etter studiene<0>2020 desember–nå</0>"
 msgstr "Spare time project made after the studies<0>2020 December–now</0>"
@@ -568,9 +564,9 @@ msgstr "portfolio 4"
 msgid "portefølje 5"
 msgstr "portfolio 5"
 
-#: src/pages/graphicwork/MPOE.js:56
-msgid "poster"
-msgstr "poster"
+#: src/pages/graphicwork/MPOE.js:50
+msgid "utkast"
+msgstr "drafts"
 
 #: src/pages/graphicwork/MPOE.js:49
 msgid "utkast til bokcover"

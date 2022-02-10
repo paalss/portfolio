@@ -234,8 +234,8 @@ msgid "Fikset på Extra Opticals Zendesk Help center."
 msgstr "Fikset på Extra Opticals Zendesk Help center."
 
 #: src/pages/graphicwork/MPOE.js:50
-msgid "Flere utkast"
-msgstr "Flere utkast"
+#~ msgid "Flere utkast"
+#~ msgstr "Flere utkast"
 
 #: src/pages/webwork/Portfolios.js:18
 msgid "Fritidsprosjekt etter studiene<0>2020 desember–nå</0>"
@@ -577,8 +577,12 @@ msgid "portefølje 5"
 msgstr "portefølje 5"
 
 #: src/pages/graphicwork/MPOE.js:56
-msgid "poster"
-msgstr "poster"
+#~ msgid "poster"
+#~ msgstr "poster"
+
+#: src/pages/graphicwork/MPOE.js:50
+msgid "utkast"
+msgstr "utkast"
 
 #: src/pages/graphicwork/MPOE.js:49
 msgid "utkast til bokcover"

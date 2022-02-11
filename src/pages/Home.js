@@ -13,7 +13,7 @@ const Home = () => (
   <>
     <Trans>
       <h2>Kompetanse</h2>
-      <div className="mb-50">
+      <div className="mb-50 deployer-her har-fjernet-package-lock-og-fjernet-dot-yarn-mappa">
         Jeg har erfaring innen webutvikling og grafisk design.
       </div>
     </Trans>

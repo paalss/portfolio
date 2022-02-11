@@ -20,6 +20,10 @@ https://paalss.github.io/portfolio/
 
 https://create-react-app.dev/docs/deployment#github-pages
 
+OBS! Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg husker ikke hva for å serve appen, så kan det hende at du ikke får predeployet som normalt og ikke deployet i det hele tatt når du er tilbake på siste master-versjon igjen. Har notert løsningen her:
+
+[deploy-problemer.md](deploy-problemer.md)
+
 ### Oversett innhold
 
 1. wrap tekst i `<Trans>__</Trans>` eller `t`\`\_\_`
@@ -37,11 +41,18 @@ https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
 
 https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-profiles-and-media
 
-### Konverter png og jpg bilder til webp-filer
+dupliser .env.example og navngi ny fil .env:
+`cp .env.example .env`
 
-[How to convert my photos to webp format of Google in windows 8.1?](https://stackoverflow.com/questions/24484272/how-to-convert-my-photos-to-webp-format-of-google-in-windows-8-1) se svaret til pldg. Det funker for windows 10 Education også
+og lim inn long lived access token og tracking id
+
+### Konverter bilder til webp
+
+Konverter alle png og jpg bilder i en mappe til webp-filer:
+[How to convert my photos to webp format of Google in windows 8.1?](https://stackoverflow.com/questions/24484272/how-to-convert-my-photos-to-webp-format-of-google-in-windows-8-1) se svaret til pldg. libwebp-1.2.1-windows-x64 funker for windows 10 Education
 
 ### Forminsk webp bilder (for SquareLink bilder)
+
 https://www.xconvert.com/compress-webp
 
 ### Kilder

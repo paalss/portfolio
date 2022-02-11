@@ -1,4 +1,4 @@
-.certification-bg {
+.certificate-bg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@
 }
 
 @media only screen and (min-width: 900px) {
-  .certification-bg {
+  .certificate-bg {
     justify-content: flex-start;
   }
   .card3d {

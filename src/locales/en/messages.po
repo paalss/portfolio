@@ -37,7 +37,7 @@ msgstr "<0>In this I worked in a group with two others. My responsibilities was 
 msgid "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret etter SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 msgstr "<0>I started making this December 2020, it was made to present the web projects that I've made. I was to be used in job searching. Eventually I added more content and improved SEO. I'm very satisfied with its design, code quality and choice of web development tools.</0>"
 
-#: src/pages/Home.js:13
+#: src/pages/Home.js:14
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 msgstr "<0>Competence</0><1>I have experience in web development and graphic design.</1>"
 
@@ -49,7 +49,7 @@ msgstr "<0>The assignment specification was much like that of the first project.
 msgid "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studenter og lærere i skole og lignende. I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 msgstr "<0>Some info about Dokker</0><1>Dokker is a communication platform for students, teachers in schools and the like. In Dokker teachers can eg. publish assignments, to which students can submit their work and also submit self-assessment & ranking of their own work. <2/>As the students gradually uses the app, they gather different documentation of their experience, which can be assignment feedback, uploaded diplomas or certificates. One major selling point in Dokker is that the students will still have access to their Dokker user and their experience documentation, even after they've finished the school were they achieved said experience.</1>"
 
-#: src/pages/Home.js:49
+#: src/pages/Home.js:50
 msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
 msgstr "<0>Web pages</0><1>Here's some web pages I'm proud of having made myself / contributed to.</1>"
 
@@ -69,7 +69,7 @@ msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects wh
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
-#: src/pages/Home.js:65
+#: src/pages/Home.js:66
 msgid "Annet"
 msgstr "Other"
 
@@ -78,7 +78,7 @@ msgstr "Other"
 msgid "Artistprofil"
 msgstr "Artist profile"
 
-#: src/pages/Home.js:36
+#: src/pages/Home.js:37
 msgid "Automatisk testing"
 msgstr "Automatic testing"
 
@@ -251,7 +251,7 @@ msgstr "Pretty good at"
 msgid "Ganske god på {tech}"
 msgstr "Pretty good at {tech}"
 
-#: src/pages/Home.js:59
+#: src/pages/Home.js:60
 #: src/pagesInfo.js:166
 msgid "Grafisk"
 msgstr "Graphics"
@@ -356,11 +356,11 @@ msgstr "Logo for Junior NM on ski 2015"
 msgid "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 msgstr "Logo that was used"
 
-#: src/pages/Home.js:27
+#: src/pages/Home.js:28
 msgid "MySQL & relasjonsdatabaser"
 msgstr "MySQL & relational databases"
 
-#: src/pages/Home.js:30
+#: src/pages/Home.js:31
 msgid "MySQL & relasjons­databaser"
 msgstr "MySQL & relational databases"
 
@@ -412,7 +412,7 @@ msgstr "This project is currently in hiatus<0>At the end of July 2020 I began to
 msgid "Ranking app<0>2020 høst–2021 september</0>"
 msgstr "Ranking app<0>2020 fall—2021 September</0>"
 
-#: src/pages/Home.js:70
+#: src/pages/Home.js:71
 msgid "React sertifikat"
 msgstr "React certificate"
 
@@ -425,13 +425,17 @@ msgstr "Relational database"
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 
-#: src/pages/Home.js:99
+#: src/pages/Webwork.js:28
 msgid "Se mer på Github"
 msgstr "See more on Github"
 
 #: src/pages/webwork/Rankingapp.js:96
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Insert your own elements, customize to your needs"
+
+#: src/pages/webwork/Extraoptical.js:9
+msgid "Sist oppdatert 16. januar 2022. Innholdet er litt utdatert."
+msgstr "Last updated at 16th of January 2022"
 
 #: src/pages/graphicwork/Artistbooking.js:39
 #: src/pages/graphicwork/Artistbooking.js:40
@@ -591,3 +595,7 @@ msgstr "video page in first project"
 #: src/pages/webwork/Videoopplasting.js:162
 msgid "«Last opp video»-siden"
 msgstr "“upload video”-page"
+
+#: src/components/common/Certificate/Certificate.js:49
+msgid "Åpne Udemy siden for dette sertifikatet"
+msgstr "Open the Udemy page for this certificate"

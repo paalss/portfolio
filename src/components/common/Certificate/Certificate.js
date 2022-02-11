@@ -2,7 +2,9 @@ import "./Certificate.css";
 import reactCertificate from "../../../images/certificates/react-certificate-small.webp";
 import { useEffect } from "react";
 
-const Certification = () => {
+import { t } from "@lingui/macro";
+
+const Certificate = () => {
   useEffect(() => {
     const map = (val, minA, maxA, minB, maxB) =>
       minB + ((val - minA) * (maxB - minB)) / (maxA - minA);
@@ -17,7 +19,7 @@ const Certification = () => {
 
       img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
       img.style.filter = `brightness(${brightness})`;
-    }
+    };
 
     const cards = document.querySelectorAll(".card3d");
 
@@ -38,13 +40,13 @@ const Certification = () => {
   return (
     <>
       {/* https://codepen.io/nelsonr/pen/WNQaZPb */}
-      <div className="certification-bg">
+      <div className="certificate-bg">
         <a
           href="https://www.udemy.com/certificate/UC-0f5eb1d1-16ce-43f4-87ef-f0c9b09a9e04/"
           target="_blank"
           rel="noopener noreferrer"
           className="card3d"
-          title="Åpne Udemy siden for dette sertifikatet"
+          title={t`Åpne Udemy siden for dette sertifikatet`}
         >
           <img
             src={reactCertificate}
@@ -58,4 +60,4 @@ const Certification = () => {
   );
 };
 
-export default Certification;
+export default Certificate;

@@ -6,7 +6,7 @@ import { Trans, t } from "@lingui/macro";
 
 const Extraoptical = () => (
   <>
-    Sist oppdatert 16. januar 2022. Innholdet er litt utdatert.
+    {t`Sist oppdatert 16. januar 2022. Innholdet er litt utdatert.`}
     <img
       src={extraopticalImg}
       width={1920}

@@ -41,7 +41,7 @@ msgstr "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesif
 #~ msgid "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret etter SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Valg av React</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 #~ msgstr "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret etter SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Valg av React</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 
-#: src/pages/Home.js:13
+#: src/pages/Home.js:14
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 msgstr "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 
@@ -53,7 +53,7 @@ msgstr "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle de
 msgid "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studenter og lærere i skole og lignende. I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 msgstr "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studenter og lærere i skole og lignende. I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 
-#: src/pages/Home.js:49
+#: src/pages/Home.js:50
 msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
 msgstr "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
 
@@ -73,7 +73,7 @@ msgstr "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi sk
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean nettside redesign"
 
-#: src/pages/Home.js:65
+#: src/pages/Home.js:66
 msgid "Annet"
 msgstr "Annet"
 
@@ -82,7 +82,7 @@ msgstr "Annet"
 msgid "Artistprofil"
 msgstr "Artistprofil"
 
-#: src/pages/Home.js:36
+#: src/pages/Home.js:37
 msgid "Automatisk testing"
 msgstr "Automatisk testing"
 
@@ -263,7 +263,7 @@ msgstr "Ganske god på"
 msgid "Ganske god på {tech}"
 msgstr "Ganske god på {tech}"
 
-#: src/pages/Home.js:59
+#: src/pages/Home.js:60
 #: src/pagesInfo.js:166
 msgid "Grafisk"
 msgstr "Grafisk"
@@ -368,11 +368,11 @@ msgstr "Logo for Junior NM på ski 2015"
 msgid "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 msgstr "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 
-#: src/pages/Home.js:27
+#: src/pages/Home.js:28
 msgid "MySQL & relasjonsdatabaser"
 msgstr "MySQL & relasjonsdatabaser"
 
-#: src/pages/Home.js:30
+#: src/pages/Home.js:31
 msgid "MySQL & relasjons­databaser"
 msgstr "MySQL & relasjons­databaser"
 
@@ -424,7 +424,7 @@ msgstr "Prosjektet er foreløpig satt på pause.<0>I slutten av juli 2020 begynt
 msgid "Ranking app<0>2020 høst–2021 september</0>"
 msgstr "Ranking app<0>2020 høst–2021 september</0>"
 
-#: src/pages/Home.js:70
+#: src/pages/Home.js:71
 msgid "React sertifikat"
 msgstr "React sertifikat"
 
@@ -437,13 +437,17 @@ msgstr "Relasjonsdatabase"
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Rettet opp / fjernet <0>broken links</0>"
 
-#: src/pages/Home.js:99
+#: src/pages/Webwork.js:28
 msgid "Se mer på Github"
 msgstr "Se mer på Github"
 
 #: src/pages/webwork/Rankingapp.js:96
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Sett inn egne elementer, tilpass etter behov"
+
+#: src/pages/webwork/Extraoptical.js:9
+msgid "Sist oppdatert 16. januar 2022. Innholdet er litt utdatert."
+msgstr "Sist oppdatert 16. januar 2022. Innholdet er litt utdatert."
 
 #: src/pages/graphicwork/Artistbooking.js:39
 #: src/pages/graphicwork/Artistbooking.js:40
@@ -607,3 +611,7 @@ msgstr "videosiden i første prosjekt"
 #: src/pages/webwork/Videoopplasting.js:162
 msgid "«Last opp video»-siden"
 msgstr "«Last opp video»-siden"
+
+#: src/components/common/Certificate/Certificate.js:49
+msgid "Åpne Udemy siden for dette sertifikatet"
+msgstr "Åpne Udemy siden for dette sertifikatet"

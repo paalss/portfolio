@@ -28,16 +28,12 @@
   margin-top: 0;
   margin-left: 0;
   padding-left: 0;
-}
-.footer ul li a {
   min-width: 500px;
   font-weight: 400;
-  /* brukes på .text */
 }
 .footer ul li a:hover,
 .footer ul li a:focus {
   font-weight: 600;
-  /* brukes på .text */
 }
 .footer ul li .icon {
   min-width: 3rem;

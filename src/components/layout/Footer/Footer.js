@@ -1,3 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import scratchLogo from "../../../images/scratchlogo-transparent-white-small.webp";
 import classes from "./Footer.module.css";
 
@@ -15,7 +22,7 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className={classes.icon + " fab fa-github"}></span>
+            <FontAwesomeIcon className={classes.icon} icon={faGithub} />
             <span className={classes.text}>Github (paalss)</span>
           </a>
         </li>
@@ -25,7 +32,7 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className={classes.icon + " fab fa-linkedin"}></span>
+            <FontAwesomeIcon className={classes.icon} icon={faLinkedin} />
             <span className={classes.text}>Linkedin</span>
           </a>
         </li>
@@ -35,7 +42,7 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className={classes.icon + " fab fa-instagram"}></span>
+            <FontAwesomeIcon className={classes.icon} icon={faInstagram} />
             <span className={classes.text}>Instagram (gassosaman)</span>
           </a>
         </li>
@@ -53,13 +60,17 @@ const Footer = () => (
         </li>
       </ul>
 
-      <b>Mail:</b>
+      <b>{t`Info:`}</b>
       <ul>
         <li>
           <a href="mailto:paalss94@gmail.com">
-            <span className={classes.icon + " fas fa-envelope"}></span>
+            <FontAwesomeIcon className={classes.icon} icon={faEnvelope} />
             <span className={classes.text}>paalss94@gmail.com</span>
           </a>
+        </li>
+        <li>
+          <FontAwesomeIcon className={classes.icon} icon={faLocationDot} />Bosatt
+          i Trondheim
         </li>
       </ul>
     </div>

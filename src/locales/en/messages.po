@@ -155,7 +155,7 @@ msgstr "Dokker blog"
 msgid "Du er på siden"
 msgstr "You are on the site"
 
-#: src/components/layout/Footer/Footer.js:10
+#: src/components/layout/Footer/Footer.js:17
 msgid "Du finner meg på:"
 msgstr "I'm available on:"
 

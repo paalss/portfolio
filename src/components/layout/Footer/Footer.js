@@ -23,7 +23,7 @@ const Footer = () => (
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon className={classes.icon} icon={faGithub} />
-            <span className={classes.text}>Github (paalss)</span>
+            <span className={classes.linkText}>Github (paalss)</span>
           </a>
         </li>
         <li>
@@ -33,7 +33,7 @@ const Footer = () => (
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon className={classes.icon} icon={faLinkedin} />
-            <span className={classes.text}>Linkedin</span>
+            <span className={classes.linkText}>Linkedin</span>
           </a>
         </li>
         <li>
@@ -43,7 +43,7 @@ const Footer = () => (
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon className={classes.icon} icon={faInstagram} />
-            <span className={classes.text}>Instagram (gassosaman)</span>
+            <span className={classes.linkText}>Instagram (gassosaman)</span>
           </a>
         </li>
         <li>
@@ -52,20 +52,20 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className={classes.icon + " fab fa"}>
+            <span className={classes.icon}>
               <img src={scratchLogo} alt="Scratch logo" />
             </span>
-            <span className={classes.text}>Scratch (pa0110)</span>
+            <span className={classes.linkText}>Scratch (pa0110)</span>
           </a>
         </li>
       </ul>
 
-      <b>{t`Info:`}</b>
+      <b>Info:</b>
       <ul>
         <li>
           <a href="mailto:paalss94@gmail.com">
             <FontAwesomeIcon className={classes.icon} icon={faEnvelope} />
-            <span className={classes.text}>paalss94@gmail.com</span>
+            <span className={classes.linkText}>paalss94@gmail.com</span>
           </a>
         </li>
         <li>

@@ -22,7 +22,7 @@ https://create-react-app.dev/docs/deployment#github-pages
 
 OBS! Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg husker ikke hva for å serve appen, så kan det hende at du ikke får predeployet som normalt og ikke deployet i det hele tatt når du er tilbake på siste master-versjon igjen. Har notert løsningen her:
 
-[checkout-forarsaket-problem.md](checkout-forarsaket-problem.md)
+[deploy-problem-losning.md](deploy-problem-losning.md)
 
 ### Oversett innhold
 
@@ -41,10 +41,11 @@ https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
 
 https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-profiles-and-media
 
-dupliser .env.example og navngi ny fil .env:
+1. Dupliser .env.example og navngi ny fil .env:
 `cp .env.example .env`
+(.env.example ligger i prosjektrota)
 
-og lim inn long lived access token og tracking id
+2. Lim inn long lived access token og tracking id
 
 ### Konverter bilder til webp
 

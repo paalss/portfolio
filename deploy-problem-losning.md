@@ -1,4 +1,6 @@
-# deploy problemer
+# Løsning på predeploy-kluss og deploying
+
+Problemet som kommer på master-branch etter å ha checkoutet til en tidligere commit (den med cra-portfolio5-start tag) og endret på yarn-instillingene for å serve appen.
 
 ## slett greier
 

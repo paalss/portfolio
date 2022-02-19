@@ -69,8 +69,8 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <FontAwesomeIcon className={classes.icon} icon={faLocationDot} />Bosatt
-          i Trondheim
+          <FontAwesomeIcon className={classes.icon} icon={faLocationDot} />
+          {t`Bosatt i Trondheim`}
         </li>
       </ul>
     </div>

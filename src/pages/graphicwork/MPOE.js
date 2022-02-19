@@ -30,8 +30,8 @@ const MPOE = () => (
     />
     <p>
       <Trans>
-        Et bokcover jeg lagde for boka "Mord på orientekspressen" av Agatha Christie.
-        Jeg lagde også et poster og andre design med samme motiv.
+        Et bokcover jeg lagde for boka "Mord på orientekspressen" av Agatha
+        Christie. Jeg lagde også et poster og andre design med samme motiv.
       </Trans>
     </p>
     <div uk-lightbox="animation: slide" className="flex wrap">

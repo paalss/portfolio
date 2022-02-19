@@ -42,10 +42,13 @@ const Maclean = () => (
     <Trans>
       <p>
         I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å
-        redesigne <i>alistairmaclean.com</i> sitt GUI. Grunnen var at jeg
-        tidligere hadde jeg sett og vært skuffet over hvordan den så ut. MacLean
-        skrev nesten utelukkende bøker med action og spenning, og det syntes jeg
-        ikke nettsiden reflekterte noe av.
+        redesigne{" "}
+        <a href="alistairmaclean.com" target="_blank" rel="noopener noreferrer">
+          alistairmaclean.com
+        </a>{" "}
+        sitt GUI. Grunnen var at jeg tidligere hadde jeg sett og vært skuffet
+        over hvordan den så ut. MacLean skrev nesten utelukkende bøker med
+        action og spenning, og det syntes jeg ikke nettsiden reflekterte noe av.
       </p>
 
       <h3>Verktøy</h3>

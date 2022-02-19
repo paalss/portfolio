@@ -50,8 +50,8 @@ const Home = () => (
     <Trans>
       <h2>Nettsider</h2>
       <div className="mb-50">
-        Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som
-        jeg har skrevet litt om.
+        Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på
+        og som jeg har skrevet litt om.
       </div>
     </Trans>
     <WebworkLinks />
@@ -73,6 +73,5 @@ const Home = () => (
     <Certificate />
   </>
 );
-
 
 export default Home;

@@ -26,11 +26,7 @@ const paalssInfo = {
     },
   ],
   knowsAbout: ["webutvikling"],
-  hasOccupation: {
-    "@type": "Occupation",
-    name: "webutvikler",
-    skills: ["HTML & CSS", "JavaScript", "React"],
-  },
+  jobTitle: "webutvikler",
   sameAs: [
     "https://github.com/paalss",
     "https://www.linkedin.com/in/pal-stakvik/",

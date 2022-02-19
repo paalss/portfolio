@@ -2,6 +2,11 @@ import projImg from "../../images/tmplt/t.webp";
 import ToolList from "../../components/common/ToolList";
 import Figure from "../../components/common/Figure";
 
+// icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
+
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -13,20 +18,20 @@ const Template = () => (
       href="https://paalss.github.io/repo/"
       rel="noopener noreferrer"
     >
-      <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
+      <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
     </a>
     <a
       className="link"
       href="https://github.com/paalss/repo"
       rel="noopener noreferrer"
     >
-      <span className="fab fa-github"></span> {t`Kildekode`}
+      <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
     </a>
     <span className="link">
-      <span className="fas fa-circle-notch"></span> {t`Ikke tilgjengelig live`}
+      <FontAwesomeIcon icon={faCircleNotch} /> {t`Ikke tilgjengelig live`}
     </span>
     <span className="link">
-      <span className="fab fa-github"></span> {t`Privat kildekode`}
+      <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
     </span>
     <h2>
       <Trans>

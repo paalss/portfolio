@@ -3,8 +3,14 @@ import overviewImg from "../../images/webwork/rankingapp/overview.webp";
 import topNovelsImg from "../../images/webwork/rankingapp/top-novels2.webp";
 import bestMetroidvaniasImg from "../../images/webwork/rankingapp/best-metroidvanias.webp";
 
+// components
 import Figure from "../../components/common/Figure";
 import ToolList from "../../components/common/ToolList";
+
+// icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
@@ -18,14 +24,14 @@ const Rankingapp = () => (
       alt="Ranking app interface"
     />
     <span className="link">
-      <span className="fas fa-circle-notch"></span> {t`Ikke tilgjengelig live`}
+      <FontAwesomeIcon icon={faCircleNotch} /> {t`Ikke tilgjengelig live`}
     </span>
     <a
       className="link"
       href="https://github.com/paalss/Ranking-app"
       rel="noopener noreferrer"
     >
-      <span className="fab fa-github"></span> {t`Kildekode`}
+      <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
     </a>
     <h2>
       <Trans>

@@ -1,5 +1,12 @@
 import fagstoffImg from "../../images/webwork/fagstoff/fagstoff.webp";
+
+// components
 import ToolList from "../../components/common/ToolList";
+
+// icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
@@ -12,14 +19,14 @@ const Fagstoff = () => (
       href="https://paalss.github.io/fagstoff/"
       rel="noopener noreferrer"
     >
-      <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
+      <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
     </a>
     <a
       className="link"
       href="https://github.com/paalss/fagstoff"
       rel="noopener noreferrer"
     >
-      <span className="fab fa-github"></span> {t`Kildekode`}
+      <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
     </a>
     <h2>
       <Trans>

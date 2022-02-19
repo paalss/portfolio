@@ -1,5 +1,13 @@
-import SquareLink from "../components/common/SquareLink";
 import { webworkInfo } from "../pagesInfo";
+
+// components
+import SquareLink from "../components/common/SquareLink";
+
+// icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+// react lingui
 import { Trans } from "@lingui/macro";
 
 const Webwork = () => (
@@ -25,7 +33,7 @@ const Webwork = () => (
         href="https://github.com/paalss?tab=repositories"
         rel="noopener noreferrer"
       >
-        <span className="fab fa-github"></span> <Trans>Se mer på Github</Trans>
+        <FontAwesomeIcon icon={faGithub} /> <Trans>Se mer på Github</Trans>
       </a>
     </div>
   </>

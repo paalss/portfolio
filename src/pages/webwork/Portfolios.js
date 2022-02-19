@@ -5,8 +5,14 @@ import pf2 from "../../images/webwork/portfolios/pf2-full2.webp";
 import pf1v2 from "../../images/webwork/portfolios/pf1-2.webp";
 import pf1v1 from "../../images/webwork/portfolios/pf1-1.webp";
 
+// components
 import Figure from "../../components/common/Figure";
 import ToolList from "../../components/common/ToolList";
+
+// icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
@@ -57,14 +63,14 @@ const Portfolios = () => (
         />
       </div>
       <span className="link">
-        <span className="fas fa-circle-notch"></span> {t`Du er på siden`}
+        <FontAwesomeIcon icon={faCircleNotch} /> {t`Du er på siden`}
       </span>
       <a
         className="link"
         href="https://github.com/paalss/portfolio"
         rel="noopener noreferrer"
       >
-        <span className="fab fa-github"></span> {t`Kildekode`}
+        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
       </a>
       <p>
         <Trans>
@@ -110,7 +116,7 @@ const Portfolios = () => (
         />
       </div>
       <span className="link">
-        <span className="fas fa-circle-notch"></span>{" "}
+        <FontAwesomeIcon icon={faCircleNotch} />{" "}
         {t`Ikke tilgjengelig live`}
       </span>
       <a
@@ -118,7 +124,7 @@ const Portfolios = () => (
         href="https://github.com/paalss/portfolio-2019-fritid"
         rel="noopener noreferrer"
       >
-        <span className="fab fa-github"></span> {t`Kildekode`}
+        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
       </a>
     </>
 
@@ -145,14 +151,14 @@ const Portfolios = () => (
         href="https://paalss.github.io/portfolio-2016-2-webkoding-final-delivery/"
         rel="noopener noreferrer"
       >
-        <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
+        <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
       </a>
       <a
         className="link"
         href="https://github.com/paalss/portfolio-2016-2-webkoding-final-delivery"
         rel="noopener noreferrer"
       >
-        <span className="fab fa-github"></span> {t`Kildekode`}
+        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
       </a>
     </>
 
@@ -183,14 +189,14 @@ const Portfolios = () => (
         href="https://paalss.github.io/portfolio-2016-1-fritid/"
         rel="noopener noreferrer"
       >
-        <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
+        <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
       </a>
       <a
         className="link"
         href="https://github.com/paalss/portfolio-2016-1-fritid"
         rel="noopener noreferrer"
       >
-        <span className="fab fa-github"></span> {t`Kildekode`}
+        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
       </a>
     </>
 
@@ -231,14 +237,14 @@ const Portfolios = () => (
         href="https://paalss.github.io/portfolio-2015-2-etter-innlevering/"
         rel="noopener noreferrer"
       >
-        <span className="fas fa-circle-notch"></span> {t`Besøk siden`}
+        <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
       </a>
       <a
         className="link"
         href="https://github.com/paalss/portfolio-2015-2-etter-innlevering"
         rel="noopener noreferrer"
       >
-        <span className="fab fa-github"></span> {t`Kildekode`}
+        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
       </a>
     </>
   </>

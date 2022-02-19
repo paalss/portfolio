@@ -3,8 +3,14 @@ import videosideImg from "../../images/webwork/www-teknologi/prosjekt2-5-videosi
 import videolisteImg from "../../images/webwork/www-teknologi/prosjekt2-7-videoliste.webp";
 import videoopplastingImg from "../../images/webwork/www-teknologi/prosjekt2-8-videoopplasting.webp";
 
+// components
 import Figure from "../../components/common/Figure";
 import ToolList from "../../components/common/ToolList";
+
+// icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
@@ -66,10 +72,10 @@ const Videoopplasting = () => (
       />
     </div>
     <span className="link">
-      <span className="fas fa-circle-notch"></span> {t`Ikke tilgjengelig live`}
+      <FontAwesomeIcon icon={faCircleNotch} /> {t`Ikke tilgjengelig live`}
     </span>
     <span className="link">
-      <span className="fab fa-github"></span> {t`Privat kildekode`}
+      <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
     </span>
 
     <h2>Andre prosjekt</h2>
@@ -163,10 +169,10 @@ const Videoopplasting = () => (
       />
     </div>
     <span className="link">
-      <span className="fas fa-circle-notch"></span> {t`Ikke tilgjengelig live`}
+      <FontAwesomeIcon icon={faCircleNotch} /> {t`Ikke tilgjengelig live`}
     </span>
     <span className="link">
-      <span className="fab fa-github"></span> {t`Privat kildekode`}
+      <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
     </span>
   </>
 );

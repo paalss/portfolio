@@ -84,27 +84,22 @@ const Portfolios = () => (
 
     <>
       <h2>
-        Fritidsprosjekt under studiene
-        <span className="subtitle">2019</span>
+        <Trans>
+          Fritidsprosjekt under studiene
+          <span className="subtitle">2019</span>
+        </Trans>
       </h2>
       <ToolList tools={["PHP", "HTML", "CSS"]} toolsText={true} />
 
-      <Trans>
-        <p>
-          Porteføljene jeg hadde lagd før denne (se under) var enten for
-          mangelfull av informasjon om mitt arbeid eller hadde for dårlig kode,
-          så da begynte jeg heller på denne. I denne forsøkte jeg å dekke så mye
-          som mulig av det arbeidet jeg hadde gjort, alt grafisk og
-          koderelatert.
-        </p>
-        <p>
+      <p>
+        <Trans>
           Denne lagde jeg i PHP, mest for å løse for å fikse
           «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så
           godt på denne tiden, og jeg hadde tilgang på en <i>live server</i>{" "}
           &shy; (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at
           det ikke ble en statisk side.
-        </p>
-      </Trans>
+        </Trans>
+      </p>
 
       <div uk-lightbox="animation: slide">
         <Figure
@@ -116,8 +111,7 @@ const Portfolios = () => (
         />
       </div>
       <span className="link">
-        <FontAwesomeIcon icon={faCircleNotch} />{" "}
-        {t`Ikke tilgjengelig live`}
+        <FontAwesomeIcon icon={faCircleNotch} /> {t`Ikke tilgjengelig live`}
       </span>
       <a
         className="link"

@@ -19,7 +19,7 @@ msgstr "404 - Page not found"
 
 #: src/pages/webwork/Portfolios.js:76
 msgid "<0>Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med.</0>"
-msgstr "<0>This isn't the first time I've made my own portfolio. Below you can se the earlier onces, which I never felt quite satisfied with.</0>"
+msgstr "<0>This isn't the first time I've made my own portfolio. Below you can se the earlier versions, which I never felt quite satisfied with.</0>"
 
 #: src/pages/graphicwork/JRNM.js:27
 msgid "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
@@ -35,7 +35,7 @@ msgstr "<0>In this I worked in a group with two others. My responsibilities was 
 
 #: src/pages/webwork/Portfolios.js:34
 msgid "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret etter SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
-msgstr "<0>I started making this December 2020, it was made to present the web projects that I've made. I was to be used in job searching. Eventually I added more content and improved SEO. I'm very satisfied with its design, code quality and choice of web development tools.</0>"
+msgstr "<0>I started making this December 2020, it was made to present the web projects that I've made. It was to be used in job searching. Eventually I added more content and improved SEO. I'm very satisfied with its design, code quality and choice of web development tools.</0>"
 
 #: src/pages/Home.js:14
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
@@ -52,10 +52,6 @@ msgstr "<0>Some info about Dokker</0><1>Dokker is a communication platform for s
 #: src/pages/Home.js:50
 msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
 msgstr "<0>Web pages</0><1>Here's some web pages I'm proud of having made myself / contributed to.</1>"
-
-#: src/pages/webwork/Portfolios.js:92
-msgid "<0>Porteføljene jeg hadde lagd før denne (se under) var enten for mangelfull av informasjon om mitt arbeid eller hadde for dårlig kode, så da begynte jeg heller på denne. I denne forsøkte jeg å dekke så mye som mulig av det arbeidet jeg hadde gjort, alt grafisk og koderelatert.</0><1>Denne lagde jeg i PHP, mest for å løse for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så godt på denne tiden, og jeg hadde tilgang på en <2>live server</2> ­ (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det ikke ble en statisk side.</1>"
-msgstr "<0>The portfolios I made before this one (see below) was either too deficient of showcasing my web work, too ugly or its code was too bad. Therefore I scrapped them and began this one. In this portfolio I tried to cover as much as possible of the web and graphic work I had done.</0>"
 
 #: src/pages/webwork/Dokker.js:38
 msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
@@ -109,9 +105,9 @@ msgstr "Best metroidvanias list example"
 #: src/pages/webwork/Extraoptical.js:28
 #: src/pages/webwork/Fagstoff.js:22
 #: src/pages/webwork/Maclean.js:22
-#: src/pages/webwork/Portfolios.js:154
-#: src/pages/webwork/Portfolios.js:192
-#: src/pages/webwork/Portfolios.js:240
+#: src/pages/webwork/Portfolios.js:148
+#: src/pages/webwork/Portfolios.js:186
+#: src/pages/webwork/Portfolios.js:234
 msgid "Besøk siden"
 msgstr "Visit site"
 
@@ -135,9 +131,13 @@ msgstr "Resident in Trondheim"
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Built some sites on the new webpage (a Progressive Web App)"
 
-#: src/pages/webwork/Portfolios.js:175
+#: src/pages/webwork/Portfolios.js:169
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "This site was abandoned half-finished and has no sub-pages."
+
+#: src/pages/webwork/Portfolios.js:95
+msgid "Denne lagde jeg i PHP, mest for å løse for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så godt på denne tiden, og jeg hadde tilgang på en <0>live server</0> ­ (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det ikke ble en statisk side."
+msgstr "This I made in PHP, mostly for solving “same-header-and-footer-on-all-pages”. I didn't have much JavaScript experience at this time, and had access to a <0>live server</0> (folk.ntnu.no/paalsst) that supported PHP. So that's the reason this didn't become a static page."
 
 #: src/pagesInfo.js:133
 msgid "Denne porteføljen"
@@ -163,7 +163,7 @@ msgstr "You are on the site"
 msgid "Du finner meg på:"
 msgstr "I'm available on:"
 
-#: src/pages/webwork/Portfolios.js:133
+#: src/pages/webwork/Portfolios.js:127
 msgid "Eksamensinnlevering i webkoding<0>2016 høst</0>"
 msgstr "Exam delivery in web coding<0>2016 fall</0>"
 
@@ -176,7 +176,7 @@ msgstr "A desktop page"
 msgid "En nettside som jeg førte opp webkoding-notater i. Sist oppdatert 02.11.16"
 msgstr "A webpage that I made to write down subject matter in the course web coding. Last updated at 2016 November 2."
 
-#: src/pages/webwork/Portfolios.js:167
+#: src/pages/webwork/Portfolios.js:161
 msgid "En portefølje påbegynt like før studiene<0>2016</0>"
 msgstr "A portfolio started just before I started my studies<0>2016</0>"
 
@@ -233,9 +233,13 @@ msgstr "Fixed Extra Optical's Zendesk Help center"
 msgid "Fritidsprosjekt etter studiene<0>2020 desember–nå</0>"
 msgstr "Spare time project made after the studies<0>2020 December–now</0>"
 
-#: src/pages/webwork/Portfolios.js:184
+#: src/pages/webwork/Portfolios.js:178
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Spare-time project which I never finished"
+
+#: src/pages/webwork/Portfolios.js:87
+msgid "Fritidsprosjekt under studiene<0>2019</0>"
+msgstr "Spare time project made during my studies<0>2019</0>"
 
 #: src/pages/webwork/Fagstoff.js:32
 msgid "Fritidsprosjekt<0>2016 høst</0>"
@@ -282,7 +286,7 @@ msgstr "Basics"
 msgid "Hjem"
 msgstr "Home"
 
-#: src/pages/webwork/Portfolios.js:213
+#: src/pages/webwork/Portfolios.js:207
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "In 2015 i attended <0>media and communication</0> on Byåsen VGS (highschool), were I got the task to make a three-page portfolio about myself. After delivering this I improved it in my spare time."
 
@@ -295,14 +299,14 @@ msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en kl
 msgstr "In the course \"Graphic Tools, Principles and Methods\" we made a clickable hi-fi prototype for an app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 
 #: src/pages/-Template.js:31
-#: src/pages/webwork/Portfolios.js:120
+#: src/pages/webwork/Portfolios.js:114
 #: src/pages/webwork/Rankingapp.js:27
 #: src/pages/webwork/Videoopplasting.js:75
 #: src/pages/webwork/Videoopplasting.js:172
 msgid "Ikke tilgjengelig live"
 msgstr "Unavailable live"
 
-#: src/pages/webwork/Portfolios.js:205
+#: src/pages/webwork/Portfolios.js:199
 msgid "Innlevering på VGS og videreutvikling etter det<0>2015</0>"
 msgstr "Assignment at VGS and further development after that<0>2015</0>"
 
@@ -310,9 +314,9 @@ msgstr "Assignment at VGS and further development after that<0>2015</0>"
 msgid "Innlevering på videregående<0>2015</0>"
 msgstr "Assignment at high school<0>2015</0>"
 
-#: src/pages/webwork/Portfolios.js:232
+#: src/pages/webwork/Portfolios.js:226
 msgid "Innleveringsoppgave på medier og kommunikasjon"
-msgstr "Assignment at media and communiocation"
+msgstr "Assignment at media and communication"
 
 #: src/components/common/Barchart/Barchart-utkast.js:64
 #: src/components/common/Barchart/Barchart.js:62
@@ -328,10 +332,10 @@ msgstr "Know some {tech}"
 #: src/pages/webwork/Fagstoff.js:29
 #: src/pages/webwork/Maclean.js:29
 #: src/pages/webwork/Portfolios.js:73
-#: src/pages/webwork/Portfolios.js:127
-#: src/pages/webwork/Portfolios.js:161
-#: src/pages/webwork/Portfolios.js:199
-#: src/pages/webwork/Portfolios.js:247
+#: src/pages/webwork/Portfolios.js:121
+#: src/pages/webwork/Portfolios.js:155
+#: src/pages/webwork/Portfolios.js:193
+#: src/pages/webwork/Portfolios.js:241
 #: src/pages/webwork/Rankingapp.js:34
 msgid "Kildekode"
 msgstr "Source code"
@@ -439,7 +443,7 @@ msgstr "Insert your own elements, customize to your needs"
 
 #: src/pages/webwork/Extraoptical.js:16
 msgid "Sist oppdatert 16. januar 2022. Innholdet er litt utdatert."
-msgstr "Last updated at 16th of January 2022"
+msgstr "Last updated at 16th of January 2022. The contents of this page is a little outdated."
 
 #: src/pages/graphicwork/Artistbooking.js:39
 #: src/pages/graphicwork/Artistbooking.js:40
@@ -497,9 +501,9 @@ msgstr "Video uploading apps"
 msgid "Videre lesing"
 msgstr "Further reading"
 
-#: src/pages/webwork/Portfolios.js:225
+#: src/pages/webwork/Portfolios.js:219
 msgid "Videreutvikling etter leveranse: nye farger og noe endret layout"
-msgstr "Further development after delivery: added new colors and somewhat changed layout"
+msgstr "Further development after delivery: added new colors and changed some of the layout"
 
 #: src/components/common/Barchart/Barchart-utkast.js:35
 #: src/components/common/Barchart/Barchart.js:35
@@ -545,25 +549,25 @@ msgstr "murder on the Orient Express book cover"
 msgid "plakat med logo"
 msgstr "poster with logo"
 
-#: src/pages/webwork/Portfolios.js:231
+#: src/pages/webwork/Portfolios.js:225
 msgid "portefølje 1 versjon 1"
 msgstr "portfolio 1 version 1"
 
-#: src/pages/webwork/Portfolios.js:224
+#: src/pages/webwork/Portfolios.js:218
 msgid "portefølje 1 versjon 2"
 msgstr "portfolio 1 version 2"
 
-#: src/pages/webwork/Portfolios.js:183
+#: src/pages/webwork/Portfolios.js:177
 msgid "portefølje 2"
 msgstr "portfolio 2"
 
-#: src/pages/webwork/Portfolios.js:145
-#: src/pages/webwork/Portfolios.js:146
+#: src/pages/webwork/Portfolios.js:139
+#: src/pages/webwork/Portfolios.js:140
 msgid "portefølje 3"
 msgstr "portfolio 3"
 
-#: src/pages/webwork/Portfolios.js:114
-#: src/pages/webwork/Portfolios.js:115
+#: src/pages/webwork/Portfolios.js:109
+#: src/pages/webwork/Portfolios.js:110
 msgid "portefølje 4"
 msgstr "portfolio 4"
 

@@ -1,5 +1,6 @@
 import LazyLoad from "react-lazyload";
 import classes from "./LightboxImage.module.css";
+import "./uikit-lightbox-related.css";
 
 const LightboxImage = ({
   imgSrc,

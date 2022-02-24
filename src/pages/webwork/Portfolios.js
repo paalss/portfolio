@@ -74,10 +74,8 @@ const Portfolios = () => (
       </a>
       <p>
         <Trans>
-          <p>
-            Dette er ikke første gang jeg har lagd en egen portefølje. Under kan
-            du se mine tidligere, som jeg aldri ble helt fornøyd med.
-          </p>
+          Dette er ikke første gang jeg har lagd en egen portefølje. Under kan
+          du se mine tidligere, som jeg aldri ble helt fornøyd med.
         </Trans>
       </p>
     </>

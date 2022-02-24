@@ -13,13 +13,13 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.js:42
+#: src/App.js:41
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Siden finnes ikke"
 
 #: src/pages/webwork/Portfolios.js:76
-msgid "<0>Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med.</0>"
-msgstr "<0>Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med.</0>"
+#~ msgid "<0>Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med.</0>"
+#~ msgstr "<0>Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med.</0>"
 
 #: src/pages/graphicwork/JRNM.js:27
 msgid "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
@@ -109,9 +109,9 @@ msgstr "Beste metroidvanias listeeksempel"
 #: src/pages/webwork/Extraoptical.js:28
 #: src/pages/webwork/Fagstoff.js:22
 #: src/pages/webwork/Maclean.js:22
-#: src/pages/webwork/Portfolios.js:148
-#: src/pages/webwork/Portfolios.js:186
-#: src/pages/webwork/Portfolios.js:234
+#: src/pages/webwork/Portfolios.js:146
+#: src/pages/webwork/Portfolios.js:184
+#: src/pages/webwork/Portfolios.js:232
 msgid "Besøk siden"
 msgstr "Besøk siden"
 
@@ -135,11 +135,11 @@ msgstr "Bosatt i Trondheim"
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 
-#: src/pages/webwork/Portfolios.js:169
+#: src/pages/webwork/Portfolios.js:167
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 
-#: src/pages/webwork/Portfolios.js:95
+#: src/pages/webwork/Portfolios.js:93
 msgid "Denne lagde jeg i PHP, mest for å løse for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så godt på denne tiden, og jeg hadde tilgang på en <0>live server</0> ­ (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det ikke ble en statisk side."
 msgstr "Denne lagde jeg i PHP, mest for å løse for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så godt på denne tiden, og jeg hadde tilgang på en <0>live server</0> ­ (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det ikke ble en statisk side."
 
@@ -150,6 +150,10 @@ msgstr "Denne porteføljen"
 #: src/pages/graphicwork/Flaviadeluce.js:21
 msgid "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim og mysterier-bokserie som tar plass i et 50-talls england. Hovedpersonen er en 12-år gammel kjeminerd, og det ville jeg få frem i dette banneret. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg. (Det er fortsatt bare en skoleoppgave, ikke et 'ordentlig' oppdrag, altså)"
 msgstr "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim og mysterier-bokserie som tar plass i et 50-talls england. Hovedpersonen er en 12-år gammel kjeminerd, og det ville jeg få frem i dette banneret. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg. (Det er fortsatt bare en skoleoppgave, ikke et 'ordentlig' oppdrag, altså)"
+
+#: src/pages/webwork/Portfolios.js:76
+msgid "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
+msgstr "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 
 #: src/pages/webwork/Dokker.js:100
 msgid "Dokker appen"
@@ -167,7 +171,7 @@ msgstr "Du er på siden"
 msgid "Du finner meg på:"
 msgstr "Du finner meg på:"
 
-#: src/pages/webwork/Portfolios.js:127
+#: src/pages/webwork/Portfolios.js:125
 msgid "Eksamensinnlevering i webkoding<0>2016 høst</0>"
 msgstr "Eksamensinnlevering i webkoding<0>2016 høst</0>"
 
@@ -180,7 +184,7 @@ msgstr "En desktopside"
 msgid "En nettside som jeg førte opp webkoding-notater i. Sist oppdatert 02.11.16"
 msgstr "En nettside som jeg førte opp webkoding-notater i. Sist oppdatert 02.11.16"
 
-#: src/pages/webwork/Portfolios.js:161
+#: src/pages/webwork/Portfolios.js:159
 msgid "En portefølje påbegynt like før studiene<0>2016</0>"
 msgstr "En portefølje påbegynt like før studiene<0>2016</0>"
 
@@ -237,11 +241,11 @@ msgstr "Fikset på Extra Opticals Zendesk Help center."
 msgid "Fritidsprosjekt etter studiene<0>2020 desember–nå</0>"
 msgstr "Fritidsprosjekt etter studiene<0>2020 desember–nå</0>"
 
-#: src/pages/webwork/Portfolios.js:178
+#: src/pages/webwork/Portfolios.js:176
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Fritidsprosjekt som aldri ble fullført"
 
-#: src/pages/webwork/Portfolios.js:87
+#: src/pages/webwork/Portfolios.js:85
 msgid "Fritidsprosjekt under studiene<0>2019</0>"
 msgstr "Fritidsprosjekt under studiene<0>2019</0>"
 
@@ -290,7 +294,7 @@ msgstr "Grunn­leggende"
 msgid "Hjem"
 msgstr "Hjem"
 
-#: src/pages/webwork/Portfolios.js:207
+#: src/pages/webwork/Portfolios.js:205
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 
@@ -303,14 +307,14 @@ msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en kl
 msgstr "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 
 #: src/pages/-Template.js:31
-#: src/pages/webwork/Portfolios.js:114
+#: src/pages/webwork/Portfolios.js:112
 #: src/pages/webwork/Rankingapp.js:27
 #: src/pages/webwork/Videoopplasting.js:75
 #: src/pages/webwork/Videoopplasting.js:172
 msgid "Ikke tilgjengelig live"
 msgstr "Ikke tilgjengelig live"
 
-#: src/pages/webwork/Portfolios.js:199
+#: src/pages/webwork/Portfolios.js:197
 msgid "Innlevering på VGS og videreutvikling etter det<0>2015</0>"
 msgstr "Innlevering på VGS og videreutvikling etter det<0>2015</0>"
 
@@ -318,7 +322,7 @@ msgstr "Innlevering på VGS og videreutvikling etter det<0>2015</0>"
 msgid "Innlevering på videregående<0>2015</0>"
 msgstr "Innlevering på videregående<0>2015</0>"
 
-#: src/pages/webwork/Portfolios.js:226
+#: src/pages/webwork/Portfolios.js:224
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Innleveringsoppgave på medier og kommunikasjon"
 
@@ -336,10 +340,10 @@ msgstr "Kan litt {tech}"
 #: src/pages/webwork/Fagstoff.js:29
 #: src/pages/webwork/Maclean.js:29
 #: src/pages/webwork/Portfolios.js:73
-#: src/pages/webwork/Portfolios.js:121
-#: src/pages/webwork/Portfolios.js:155
-#: src/pages/webwork/Portfolios.js:193
-#: src/pages/webwork/Portfolios.js:241
+#: src/pages/webwork/Portfolios.js:119
+#: src/pages/webwork/Portfolios.js:153
+#: src/pages/webwork/Portfolios.js:191
+#: src/pages/webwork/Portfolios.js:239
 #: src/pages/webwork/Rankingapp.js:34
 msgid "Kildekode"
 msgstr "Kildekode"
@@ -505,7 +509,7 @@ msgstr "Video­opplastings­apper"
 msgid "Videre lesing"
 msgstr "Videre lesing"
 
-#: src/pages/webwork/Portfolios.js:219
+#: src/pages/webwork/Portfolios.js:217
 msgid "Videreutvikling etter leveranse: nye farger og noe endret layout"
 msgstr "Videreutvikling etter leveranse: nye farger og noe endret layout"
 
@@ -553,25 +557,25 @@ msgstr "mord på orienteksekspressen bokcover"
 msgid "plakat med logo"
 msgstr "plakat med logo"
 
-#: src/pages/webwork/Portfolios.js:225
+#: src/pages/webwork/Portfolios.js:223
 msgid "portefølje 1 versjon 1"
 msgstr "portefølje 1 versjon 1"
 
-#: src/pages/webwork/Portfolios.js:218
+#: src/pages/webwork/Portfolios.js:216
 msgid "portefølje 1 versjon 2"
 msgstr "portefølje 1 versjon 2"
 
-#: src/pages/webwork/Portfolios.js:177
+#: src/pages/webwork/Portfolios.js:175
 msgid "portefølje 2"
 msgstr "portefølje 2"
 
-#: src/pages/webwork/Portfolios.js:139
-#: src/pages/webwork/Portfolios.js:140
+#: src/pages/webwork/Portfolios.js:137
+#: src/pages/webwork/Portfolios.js:138
 msgid "portefølje 3"
 msgstr "portefølje 3"
 
-#: src/pages/webwork/Portfolios.js:109
-#: src/pages/webwork/Portfolios.js:110
+#: src/pages/webwork/Portfolios.js:107
+#: src/pages/webwork/Portfolios.js:108
 msgid "portefølje 4"
 msgstr "portefølje 4"
 

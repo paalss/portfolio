@@ -43,9 +43,7 @@ nav a, nav button, nav .switch {
   padding-top: 5px;
   min-width: 100%;
 }
-/* .ul > li li ul {  border-left:1px solid #fff;} */
 .ul > li li:hover > ul {
-  /* margin-left: 1px */
   left: 100%;
   top: -1px;
 }
@@ -69,17 +67,13 @@ nav a, nav button, nav .switch {
   /* border-right-color: orange; */
   right: 10px;
 }
-nav a:hover,
+nav a.selected,
 nav a:active,
 nav a:focus,
-nav a.selected,
+nav a:hover,
 nav button:hover {
   font-weight: 900;
 }
-.gray {
-  color: #929292;
-}
-
 nav button {
   border: none;
   height: 100%;
@@ -90,7 +84,6 @@ nav button {
   font-weight: inherit;
   cursor: pointer;
 }
-
 @media only screen and (min-width: 1000px) {
   nav ul.ul {
     display: flex;

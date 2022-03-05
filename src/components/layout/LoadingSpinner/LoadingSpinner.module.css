@@ -14,11 +14,23 @@
   border-color: #7f017f transparent #7f017f transparent;
   animation: spinner 1.2s linear infinite;
 }
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
 @keyframes spinner {
   0% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
   }
-  100% {
-    transform: rotate(360deg);
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
   }
 }

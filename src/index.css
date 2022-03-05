@@ -2,7 +2,7 @@
   html {
     font-size: 100%;
     /* 16px */
-    font-family: "Raleway", sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 600;
     line-height: 2rem;
     scrollbar-color: #999 #fff;
@@ -14,7 +14,7 @@
     background-color: #230d9b;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("images/black_explosion.webp");
+    background-image: url(images/black_explosion.webp);
     background-blend-mode: multiply;
     background-position: 230% -135px;
     background-size: 130%;
@@ -40,18 +40,15 @@
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 3rem;
-    letter-spacing: 0.1rem;
     margin-bottom: 15px;
+  }
+  h1,
+  h2 {
+    letter-spacing: 0.1rem;
   }
   h2 {
     margin-top: 7rem;
     font-size: 2rem;
-    letter-spacing: 0.1rem;
-  }
-  .work h3 {
-    color: #3b3b3b;
-    font-size: 1.3rem;
-    margin-top: 3rem;
   }
   .tagline {
     font-size: 2.2rem;
@@ -70,8 +67,7 @@
   header {
     padding-top: 70px;
     color: #fff;
-    /* border-bottom: 6px solid #000; */
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+    text-shadow: 0 1px 0 #000;
     background: rgba(255, 51, 51, 0.5);
     background: -webkit-linear-gradient(
       right,
@@ -88,14 +84,20 @@
       rgba(255, 51, 51, 0.5),
       rgba(255, 255, 255, 0)
     );
-  }
-  header {
     padding-bottom: 20px;
   }
-  .work header,
   .gallery header {
     padding-bottom: 50px;
   }
+  header:before {
+    background: rgba(127, 1, 127, 0.5);
+    background: linear-gradient(
+      to bottom right,
+      rgba(127, 1, 127, 0.5),
+      rgba(1, 1, 31, 0.5)
+    );
+  }
+  header:after,
   header:before {
     content: " ";
     width: 100%;
@@ -104,43 +106,20 @@
     z-index: -1;
     top: 0;
     left: 0;
-    background: rgba(127, 1, 127, 0.5);
-    background: -webkit-linear-gradient(
-      top left,
-      rgba(127, 1, 127, 0.5),
-      rgba(1, 1, 31, 0.5)
-    );
-    background: -moz-linear-gradient(
-      top left,
-      rgba(127, 1, 127, 0.5),
-      rgba(1, 1, 31, 0.5)
-    );
-    background: linear-gradient(
-      to bottom right,
-      rgba(127, 1, 127, 0.5),
-      rgba(1, 1, 31, 0.5)
-    );
   }
   header:after {
-    content: " ";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 1);
+    background: #000;
     background: -webkit-linear-gradient(
       bottom,
-      rgba(0, 0, 0, 1),
+      #000,
       rgba(127, 1, 127, 0)
     );
     background: -moz-linear-gradient(
       bottom,
-      rgba(0, 0, 0, 1),
+      #000,
       rgba(127, 1, 127, 0)
     );
-    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(127, 1, 127, 0));
+    background: linear-gradient(0deg, #000, rgba(127, 1, 127, 0));
   }
   header .circle-frame {
     display: none;
@@ -152,10 +131,8 @@
     padding-top: 75px;
     padding-bottom: 50px;
     background-color: #fff;
-    /* .work main skal h{a }nav-bar som ligger ved siden av main. nav-bar skal
-    «kaste skygge» over på main, lag derfor en invers skygge på main. */
     -webkit-box-shadow: inset 0px 4px 32px -16px #000000;
-    box-shadow: inset 0px 4px 32px -16px #000000;
+    box-shadow: inset 0 4px 32px -16px #000;
     min-height: 40vh; /* mest for å forhindre at footer hopper langt opp på galleri siden, mens bildene lastes inn. */
   }
   /* det første elementet i main trenger ikke margin-top, da main tar seg av dette  */
@@ -199,17 +176,13 @@
       rgba(127, 1, 127, 1),
       rgba(1, 1, 31, 1)
     );
-    background: linear-gradient(
-      to bottom right,
-      rgba(127, 1, 127, 1),
-      rgba(1, 1, 31, 1)
-    );
+    background: linear-gradient(to bottom right, #7f017f, #01011f);
   }
-  main a.link:hover,
-  main a.link:focus {
+  main a.link:focus,
+  main a.link:hover {
     color: #000;
     background: #fff;
-    box-shadow: inset 0px 0px 0px 3px #000;
+    box-shadow: inset 0 0 0 3px #000;
   }
   main span.link {
     background-color: #444;
@@ -229,14 +202,9 @@
     justify-content: center;
     align-items: center;
   }
-  /* blockquote {
-    padding: 5px;
-    background-color: #eee;
-  } */
   /* ––––––––––––––––––––– Footer  ––––––––––––––––––––– */
   /* Se CSS module */
 }
-
 @media only screen and (min-width: 700px) {
   .oldbody > * {
     padding-left: 14%;
@@ -260,7 +228,8 @@
   header .circle-frame img {
     height: 135%;
     object-fit: cover;
-    transform: translateX(0px) translateY(-35px);
+    -webkit-transform: translateX(0) translateY(-35px);
+    transform: translateX(0) translateY(-35px);
   }
   .index-header-flex {
     display: flex;
@@ -270,7 +239,6 @@
     justify-content: space-between;
   }
 }
-
 @media only screen and (min-width: 900px) {
   .container {
     margin-left: auto;
@@ -278,21 +246,13 @@
     max-width: 1000px;
   }
   header .circle-frame {
-    /* margin-left: 100px; */
     margin-left: 18%;
   }
   .index-header-flex {
     justify-content: flex-start;
   }
-  main .container p, main .container dl,
   main .container .normal-list li,
-  blockquote {
+  main .container p, main .container dl {
     width: 630px;
   }
 }
-
-/* @media only screen and (min-width: 1300px) {
-  header .circle-frame {
-    margin-left: 18%;
-  }
-} */

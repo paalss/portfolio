@@ -27,7 +27,7 @@ const Portfolios = () => (
         </Trans>
       </h2>
       <ToolList
-        tools={["React", "JavaScript", "JSX", "CSS", <>React&#8209;lingui</>]}
+        tools={["React", "JavaScript", "JSX", "CSS", <>React&#8209;lingui</>, "Schema.org"]}
         toolsText={true}
       />
 

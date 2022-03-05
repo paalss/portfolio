@@ -16,7 +16,7 @@ const Flaviadeluce = () => (
         <span className="subtitle">2015?</span>
       </Trans>
     </h2>
-    <ToolList tools={["verktøy"]} toolsText={true} />
+    <ToolList tools={["Photoshop", "Illustrator"]} toolsText={true} />
     <p>
       <Trans>
         Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim og

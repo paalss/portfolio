@@ -57,13 +57,17 @@ msgstr "<0>During this five months internship I contributed to Dokker, an web ap
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2><3>Første prosjekt</3>"
 msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we set to make web apps for uploading and watching videos. That is, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
-#: src/pagesInfo.js:143
+#: src/pagesInfo.js:154
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
 #: src/pages/Home.js:66
 msgid "Annet"
 msgstr "Other"
+
+#: src/pages/webwork/Fakturanett.js:27
+msgid "Ansatt hos Invoice Club<0>2022 februar–nå</0>"
+msgstr "Employed at Invoice Club<0>2022 February–now</0>"
 
 #: src/pages/graphicwork/Artistbooking.js:60
 #: src/pages/graphicwork/Artistbooking.js:61
@@ -74,12 +78,10 @@ msgstr "Artist profile"
 msgid "Automatisk testing"
 msgstr "Automatic testing"
 
-#: src/components/common/Barchart/Barchart-utkast.js:22
 #: src/components/common/Barchart/Barchart.js:22
 msgid "Behersker godt"
 msgstr "Masters well"
 
-#: src/components/common/Barchart/Barchart-utkast.js:68
 #: src/components/common/Barchart/Barchart.js:66
 msgid "Behersker {tech} godt"
 msgstr "Masters {tech} well"
@@ -100,6 +102,7 @@ msgstr "Best metroidvanias list example"
 #: src/pages/webwork/Dokker.js:25
 #: src/pages/webwork/Extraoptical.js:28
 #: src/pages/webwork/Fagstoff.js:22
+#: src/pages/webwork/Fakturanett.js:21
 #: src/pages/webwork/Maclean.js:22
 #: src/pages/webwork/Portfolios.js:146
 #: src/pages/webwork/Portfolios.js:184
@@ -111,11 +114,11 @@ msgstr "Visit site"
 msgid "Bidrag"
 msgstr "Contribution"
 
-#: src/pagesInfo.js:181
+#: src/pagesInfo.js:192
 msgid "Bok web-banner"
 msgstr "Book web-banner"
 
-#: src/pagesInfo.js:190
+#: src/pagesInfo.js:201
 msgid "Bokcover o.l."
 msgstr "Book cover and the like"
 
@@ -135,7 +138,7 @@ msgstr "This site was abandoned half-finished and has no sub-pages."
 msgid "Denne lagde jeg i PHP, mest for å løse for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så godt på denne tiden, og jeg hadde tilgang på en <0>live server</0> ­ (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det ikke ble en statisk side."
 msgstr "This I made in PHP, mostly for solving “same-header-and-footer-on-all-pages”. I didn't have much JavaScript experience at this time, and had access to a <0>live server</0> (folk.ntnu.no/paalsst) that supported PHP. So that's the reason this didn't become a static page."
 
-#: src/pagesInfo.js:133
+#: src/pagesInfo.js:144
 msgid "Denne porteføljen"
 msgstr "This portfolio"
 
@@ -180,7 +183,6 @@ msgstr "A webpage that I made to write down subject matter in the course web cod
 msgid "En portefølje påbegynt like før studiene<0>2016</0>"
 msgstr "A portfolio started just before I started my studies<0>2016</0>"
 
-#: src/components/common/Barchart/Barchart-utkast.js:12
 #: src/components/common/Barchart/Barchart.js:12
 msgid "Erfaring"
 msgstr "Experience"
@@ -209,7 +211,7 @@ msgstr "A poster which I also made"
 msgid "Extra Optical forside"
 msgstr "Extra Optical front page"
 
-#: src/pagesInfo.js:153
+#: src/pagesInfo.js:164
 msgid "Fagstoff"
 msgstr "Subject matter"
 
@@ -249,22 +251,19 @@ msgstr "Spare time project<0>2016 Fall</0>"
 msgid "Få pene og oversiktlige lister"
 msgstr "Get nice and pretty lists"
 
-#: src/components/common/Barchart/Barchart-utkast.js:27
 #: src/components/common/Barchart/Barchart.js:27
 msgid "Ganske god på"
 msgstr "Pretty good at"
 
-#: src/components/common/Barchart/Barchart-utkast.js:72
 #: src/components/common/Barchart/Barchart.js:70
 msgid "Ganske god på {tech}"
 msgstr "Pretty good at {tech}"
 
 #: src/pages/Home.js:60
-#: src/pagesInfo.js:166
+#: src/pagesInfo.js:177
 msgid "Grafisk"
 msgstr "Graphics"
 
-#: src/components/common/Barchart/Barchart-utkast.js:42
 #: src/components/common/Barchart/Barchart.js:42
 msgid "Grafisk design"
 msgstr "Graphic design"
@@ -277,12 +276,11 @@ msgstr "Graphic school assignment<0>2015?</0>"
 msgid "Grafisk skoleoppgave<0>2016</0>"
 msgstr "Graphic school assignment<0>2016</0>"
 
-#: src/components/common/Barchart/Barchart-utkast.js:17
 #: src/components/common/Barchart/Barchart.js:17
 msgid "Grunn­leggende"
 msgstr "Basics"
 
-#: src/pagesInfo.js:63
+#: src/pagesInfo.js:65
 msgid "Hjem"
 msgstr "Home"
 
@@ -318,12 +316,10 @@ msgstr "Assignment at high school<0>2015</0>"
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Assignment at media and communication"
 
-#: src/components/common/Barchart/Barchart-utkast.js:64
 #: src/components/common/Barchart/Barchart.js:62
 msgid "Kan grunnleggende {tech}"
 msgstr "Know the basics of {tech}"
 
-#: src/components/common/Barchart/Barchart-utkast.js:60
 #: src/components/common/Barchart/Barchart.js:58
 msgid "Kan litt {tech}"
 msgstr "Know some {tech}"
@@ -340,7 +336,7 @@ msgstr "Know some {tech}"
 msgid "Kildekode"
 msgstr "Source code"
 
-#: src/pagesInfo.js:210
+#: src/pagesInfo.js:221
 msgid "Kunst"
 msgstr "Art"
 
@@ -376,7 +372,7 @@ msgstr "MySQL & relational databases"
 msgid "Nettside med overskriften 'fagstoff'"
 msgstr "Webpage with its heading reading 'subject matter'"
 
-#: src/pagesInfo.js:84
+#: src/pagesInfo.js:86
 msgid "Nettsider"
 msgstr "Websites"
 
@@ -403,6 +399,7 @@ msgstr "Internship project at Learning Moment Technologies<0>2021 April—Septem
 #: src/pages/-Template.js:34
 #: src/pages/webwork/Dokker.js:28
 #: src/pages/webwork/Extraoptical.js:31
+#: src/pages/webwork/Fakturanett.js:24
 #: src/pages/webwork/Videoopplasting.js:78
 #: src/pages/webwork/Videoopplasting.js:175
 msgid "Privat kildekode"
@@ -411,6 +408,10 @@ msgstr "Private source code"
 #: src/pages/graphicwork/Artistbooking.js:17
 msgid "Prosjekt i studiene<0>2019 høst</0>"
 msgstr "Project at university<0>2019 fall</0>"
+
+#: src/pages/webwork/Fakturanett.js:34
+msgid "Prosjektbeskrivelse kommer senere."
+msgstr "Project description is coming later."
 
 #: src/pages/webwork/Rankingapp.js:56
 msgid "Prosjektet er foreløpig satt på pause.<0>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</0><1>Motivasjon til prosjektet</1>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.<2>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</2><3>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</3><4>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</4>"
@@ -425,7 +426,7 @@ msgid "React sertifikat"
 msgstr "React certificate"
 
 #: src/pages/webwork/Rankingapp.js:49
-#: src/pagesInfo.js:112
+#: src/pagesInfo.js:123
 msgid "Relasjonsdatabase"
 msgstr "Relational database"
 
@@ -464,7 +465,7 @@ msgstr "Search results"
 msgid "To studie­proskekter<0>2020 vår</0>"
 msgstr "Two university projects<0>2020 spring</0>"
 
-#: src/pagesInfo.js:69
+#: src/pagesInfo.js:71
 msgid "Utdannet web­utvikler"
 msgstr "Educated web developer"
 
@@ -492,8 +493,8 @@ msgstr "Video page in second project"
 msgid "Videoside i første prosjekt"
 msgstr "Video page in first project"
 
-#: src/pagesInfo.js:118
-#: src/pagesInfo.js:121
+#: src/pagesInfo.js:129
+#: src/pagesInfo.js:132
 msgid "Video­opplastings­apper"
 msgstr "Video uploading apps"
 
@@ -505,7 +506,6 @@ msgstr "Further reading"
 msgid "Videreutvikling etter leveranse: nye farger og noe endret layout"
 msgstr "Further development after delivery: added new colors and changed some of the layout"
 
-#: src/components/common/Barchart/Barchart-utkast.js:35
 #: src/components/common/Barchart/Barchart.js:35
 msgid "Webutvikling"
 msgstr "Web development"

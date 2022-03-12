@@ -9,6 +9,7 @@ import { Trans } from "@lingui/macro";
 import photo from "./images/cvphoto2.webp";
 
 // webwork
+import fakturanettImg from "./images/webwork/fakturanett/fakturanett-icon.png"
 import extraopticalImg from "./images/webwork/extraoptical/logo/eo-icon.webp";
 import dokkerImg from "./images/webwork/dokker/logo/dokkericon.webp";
 import rankingappImg from "./images/webwork/rankingapp/rankingapp-small.webp";
@@ -36,6 +37,7 @@ const Home = lazy(() => import("./pages/Home"));
 
 // webwork
 const Webwork = lazy(() => import("./pages/Webwork"));
+const Fakturanett = lazy(() => import("./pages/webwork/Fakturanett"));
 const Extraoptical = lazy(() => import("./pages/webwork/Extraoptical"));
 const Dokker = lazy(() => import("./pages/webwork/Dokker"));
 const Rankingapp = lazy(() => import("./pages/webwork/Rankingapp"));
@@ -85,7 +87,16 @@ const pagesInfo = [
     page: <Webwork />,
     subpages: [
       {
-        id: 3,
+        id: 10,
+        path: "/webwork/fakturanett",
+        title: "Fakturanett",
+        page: <Fakturanett />,
+        imgSrc: fakturanettImg,
+        imgAlt: "Fakturanett ikon",
+        tools: ["PHP", "HTML", "CSS"],
+      },
+      {
+        id: 9,
         path: "/webwork/extraoptical",
         title: "Extra Optical",
         page: <Extraoptical />,
@@ -94,7 +105,7 @@ const pagesInfo = [
         tools: ["Magento2", "PHTML", "CSS"],
       },
       {
-        id: 4,
+        id: 8,
         path: "/webwork/dokker",
         title: "Dokker",
         page: <Dokker />,
@@ -103,7 +114,7 @@ const pagesInfo = [
         tools: ["React", "TypeScript", "CSS"],
       },
       {
-        id: 5,
+        id: 7,
         path: "/webwork/rankingapp",
         title: "Ranking app",
         page: <Rankingapp />,
@@ -128,7 +139,7 @@ const pagesInfo = [
         thereAreMoreTools: true,
       },
       {
-        id: 7,
+        id: 5,
         path: "/webwork/portfolios",
         title: <Trans>Denne porteføljen</Trans>,
         page: <Portfolios />,
@@ -138,7 +149,7 @@ const pagesInfo = [
         thereAreMoreTools: true,
       },
       {
-        id: 8,
+        id: 4,
         path: "/webwork/maclean",
         title: <Trans>Alistair MacLean nettside redesign</Trans>,
         page: <Maclean />,
@@ -148,7 +159,7 @@ const pagesInfo = [
         thereAreMoreTools: true,
       },
       {
-        id: 9,
+        id: 3,
         path: "/webwork/fagstoff",
         title: <Trans>Fagstoff</Trans>,
         page: <Fagstoff />,
@@ -167,7 +178,7 @@ const pagesInfo = [
     page: <Graphicwork />,
     subpages: [
       {
-        id: 11,
+        id: 14,
         path: "/graphicwork/artistbooking",
         title: "Artist booking app prototype",
         page: <Artistbooking />,
@@ -176,7 +187,7 @@ const pagesInfo = [
         tools: ["Adobe XD"],
       },
       {
-        id: 12,
+        id: 13,
         path: "/graphicwork/flaviadeluce",
         title: <Trans>Bok web-banner</Trans>,
         page: <Flaviadeluce />,
@@ -185,7 +196,7 @@ const pagesInfo = [
         tools: ["Photoshop", "Illustrator"],
       },
       {
-        id: 13,
+        id: 12,
         path: "/graphicwork/mpoe",
         title: <Trans>Bokcover o.l.</Trans>,
         page: <MPOE />,
@@ -194,7 +205,7 @@ const pagesInfo = [
         tools: ["Photoshop", "Illustrator", "InDesign"],
       },
       {
-        id: 14,
+        id: 11,
         path: "/graphicwork/jrnm",
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,

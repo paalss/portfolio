@@ -18,6 +18,7 @@ const LangMenu = () => {
 
   const activate = (lang) => {
     i18n.activate(lang);
+    document.documentElement.lang = i18n.locale; // endre html-tag sin lang-verdi
     localStorage.setItem("lang", lang);
   };
 

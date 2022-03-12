@@ -23,6 +23,7 @@ i18n.load({
   en: enMessages,
 });
 i18n.activate(activeLang==="en" ? "en" : "no");
+document.documentElement.lang = i18n.locale
 
 const LinguiApp = () => (
   <I18nProvider i18n={i18n}>

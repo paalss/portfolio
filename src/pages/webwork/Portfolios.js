@@ -81,12 +81,12 @@ const Portfolios = () => (
     </>
 
     <>
-      <h2>
+      <h3 className="big-h3">
         <Trans>
           Fritidsprosjekt under studiene
           <span className="subtitle">2019</span>
         </Trans>
-      </h2>
+      </h3>
       <ToolList tools={["PHP", "HTML", "CSS"]} toolsText={true} />
 
       <p>
@@ -121,12 +121,12 @@ const Portfolios = () => (
     </>
 
     <>
-      <h2>
+      <h3 className="big-h3">
         <Trans>
           Eksamensinnlevering i webkoding
           <span className="subtitle">2016 høst</span>
         </Trans>
-      </h2>
+      </h3>
       <ToolList tools={["HTML", "CSS"]} toolsText={true} />
 
       <div uk-lightbox="animation: slide">
@@ -155,12 +155,12 @@ const Portfolios = () => (
     </>
 
     <>
-      <h2>
+      <h3 className="big-h3">
         <Trans>
           En portefølje påbegynt like før studiene
           <span className="subtitle">2016</span>
         </Trans>
-      </h2>
+      </h3>
       <ToolList tools={["HTML", "CSS"]} toolsText={true} />
 
       <p>
@@ -193,12 +193,12 @@ const Portfolios = () => (
     </>
 
     <>
-      <h2>
+      <h3 className="big-h3">
         <Trans>
           Innlevering på VGS og videreutvikling etter det
           <span className="subtitle">2015</span>
         </Trans>
-      </h2>
+      </h3>
       <ToolList tools={["HTML", "CSS"]} toolsText={true} />
 
       <p>

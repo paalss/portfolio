@@ -37,7 +37,7 @@ msgstr "<0>I started making this December 2020, it was made to present the web p
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 msgstr "<0>Competence</0><1>I have experience in web development and graphic design.</1>"
 
-#: src/pages/webwork/Videoopplasting.js:107
+#: src/pages/webwork/Videoopplasting.js:106
 msgid "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det meste lagde selv.</14>"
 msgstr "<0>The assignment specification was much like that of the first project. In this assignment we had to make different user types, which was <1>admin</1>, <2>teacher</2> og <3>students</3>, each with their own set of permissions:</0><4><5><6>students</6> should be able to wach videos, comment, insert video into playlists etc.</5><7><8>teachers</8> should have the same permissions as students, plus ability to upload videos</7><9><10>admin</10> should have all the persmissions of the preceding roles, plus permission to change the user type for other users. (To registrate a teacher user, one has to start with a student account, and then send a wants-to-get-teacher-user request to admin.)</9></4><11>The web app should also be a <12>Single page application</12>.</11><13>In this project I worked with one other student. My responsibility was to make video uploading, -playing and ‑overview functionality. I also made most of the user editing functionality for admins. I also did some CSS styling.</13><14>The app was made using LitElement-based components that we for the most part made ourselves.</14>"
 
@@ -54,10 +54,10 @@ msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-app
 msgstr "<0>During this five months internship I contributed to Dokker, an web application by Learning Moment. I also took a React course to get the necessary React development competence. I got to contribute with:</0><1><2>New components</2><3>Refactoring</3><4>Reviews of other's code</4><5>Some bug-fixing</5></1><6>During this practice I learned:</6><7><8>React and related technologies</8><9>Cooperation using Github <10>issues</10> and <11>pull requests</11></9></7><12>Components I've made</12>"
 
 #: src/pages/webwork/Videoopplasting.js:26
-msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2><3>Første prosjekt</3>"
+msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2>"
 msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we set to make web apps for uploading and watching videos. That is, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
-#: src/pagesInfo.js:154
+#: src/pagesInfo.js:164
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
@@ -110,15 +110,15 @@ msgstr "Best metroidvanias list example"
 msgid "Besøk siden"
 msgstr "Visit site"
 
-#: src/pages/webwork/Extraoptical.js:58
+#: src/pages/webwork/Extraoptical.js:88
 msgid "Bidrag"
 msgstr "Contribution"
 
-#: src/pagesInfo.js:192
+#: src/pagesInfo.js:193
 msgid "Bok web-banner"
 msgstr "Book web-banner"
 
-#: src/pagesInfo.js:201
+#: src/pagesInfo.js:202
 msgid "Bokcover o.l."
 msgstr "Book cover and the like"
 
@@ -126,7 +126,7 @@ msgstr "Book cover and the like"
 msgid "Bosatt i Trondheim"
 msgstr "Resident in Trondheim"
 
-#: src/pages/webwork/Extraoptical.js:134
+#: src/pages/webwork/Extraoptical.js:114
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Built some sites on the new webpage (a Progressive Web App)"
 
@@ -138,9 +138,13 @@ msgstr "This site was abandoned half-finished and has no sub-pages."
 msgid "Denne lagde jeg i PHP, mest for å løse for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så godt på denne tiden, og jeg hadde tilgang på en <0>live server</0> ­ (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at det ikke ble en statisk side."
 msgstr "This I made in PHP, mostly for solving “same-header-and-footer-on-all-pages”. I didn't have much JavaScript experience at this time, and had access to a <0>live server</0> (folk.ntnu.no/paalsst) that supported PHP. So that's the reason this didn't become a static page."
 
-#: src/pagesInfo.js:144
+#: src/pagesInfo.js:120
 msgid "Denne porteføljen"
 msgstr "This portfolio"
+
+#: src/pages/webwork/Extraoptical.js:69
+msgid "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
+msgstr "This version of the web page was launched February 2022. I also had internship at Extra Opticla before this, so I've worked on the older version of the site as well."
 
 #: src/pages/graphicwork/Flaviadeluce.js:21
 msgid "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim og mysterier-bokserie som tar plass i et 50-talls england. Hovedpersonen er en 12-år gammel kjeminerd, og det ville jeg få frem i dette banneret. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg. (Det er fortsatt bare en skoleoppgave, ikke et 'ordentlig' oppdrag, altså)"
@@ -187,13 +191,17 @@ msgstr "A portfolio started just before I started my studies<0>2016</0>"
 msgid "Erfaring"
 msgstr "Experience"
 
-#: src/pages/webwork/Extraoptical.js:43
-msgid "Et HTML templating språk (HTML som aksepterer variabler og expressions). Det er ikke så ulikt Twig og Handlebars."
-msgstr "A HTML templating language (HTML that accepts variables and expressions). It's not so different to Twig and Handlebars."
+#: src/pages/webwork/Extraoptical.js:55
+msgid "Et HTML templating språk (HTML hvor man kan bruke variabler og expressions). Ikke så ulikt Twig og Handlebars."
+msgstr "A HTML templating language (HTML where you can use variables and expressions). Not so different to Twig and Handlebars."
 
 #: src/pages/graphicwork/MPOE.js:32
 msgid "Et bokcover jeg lagde for boka \"Mord på orientekspressen\" av Agatha Christie. Jeg lagde også et poster og andre design med samme motiv."
 msgstr "A book cover I made for the book \"Murder on the Orient Express\" by Agata Christie. I also made a poster and some other designs."
+
+#: src/pages/webwork/Extraoptical.js:46
+msgid "Et eCommerce CMS hvor nettsideadministratorer kan legge til egne undersider og byggeklosser."
+msgstr "A eCommerce CMS where webpage admins may create their own subpages and building blocks."
 
 #: src/pages/webwork/Dokker.js:67
 msgid "Et kort for keep-up-delen av dashboard"
@@ -211,7 +219,11 @@ msgstr "A poster which I also made"
 msgid "Extra Optical forside"
 msgstr "Extra Optical front page"
 
-#: src/pagesInfo.js:164
+#: src/pages/webwork/Extraoptical.js:34
+msgid "Extra Opticals nettbutikk<0>2022 november–nå</0>"
+msgstr "Extra Optical's online store<0>2022 November–now</0>"
+
+#: src/pagesInfo.js:155
 msgid "Fagstoff"
 msgstr "Subject matter"
 
@@ -219,15 +231,15 @@ msgstr "Subject matter"
 msgid "Fant ingen bilder"
 msgstr "Found no images"
 
-#: src/pages/webwork/Extraoptical.js:62
+#: src/pages/webwork/Extraoptical.js:92
 msgid "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 msgstr "Fixed errors and code negligence in HTML. For example there were many <0>opening/closing</0>-HTML-tags that missed matching pair"
 
-#: src/pages/webwork/Extraoptical.js:102
+#: src/pages/webwork/Extraoptical.js:109
 msgid "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 msgstr "Fixed layout on bottom text and made a site available for mobile sizes"
 
-#: src/pages/webwork/Extraoptical.js:99
+#: src/pages/webwork/Extraoptical.js:106
 msgid "Fikset på Extra Opticals Zendesk Help center."
 msgstr "Fixed Extra Optical's Zendesk Help center"
 
@@ -251,6 +263,10 @@ msgstr "Spare time project<0>2016 Fall</0>"
 msgid "Få pene og oversiktlige lister"
 msgstr "Get nice and pretty lists"
 
+#: src/pages/webwork/Extraoptical.js:76
+msgid "Gammel side (før februar 2022)"
+msgstr "Old page (before February 2022)"
+
 #: src/components/common/Barchart/Barchart.js:27
 msgid "Ganske god på"
 msgstr "Pretty good at"
@@ -260,7 +276,7 @@ msgid "Ganske god på {tech}"
 msgstr "Pretty good at {tech}"
 
 #: src/pages/Home.js:60
-#: src/pagesInfo.js:177
+#: src/pagesInfo.js:178
 msgid "Grafisk"
 msgstr "Graphics"
 
@@ -288,7 +304,7 @@ msgstr "Home"
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "In 2015 i attended <0>media and communication</0> on Byåsen VGS (highschool), were I got the task to make a three-page portfolio about myself. After delivering this I improved it in my spare time."
 
-#: src/pages/webwork/Extraoptical.js:50
+#: src/pages/webwork/Extraoptical.js:80
 msgid "I dennne praksisen jobbet jeg med nettbutikken Extra Optical (frontend). EO skulle gå over til å bygge nettsiden sin på nytt i en <0>page builder</0> da jeg hadde vært der i ca. 2 måneder, så jeg har fått jobbet på både ny og gammel versjon."
 msgstr "In this internship i worked on the online store Extra Optical (frontend). EO was about to re-rebuild their webpage in a page builder when I had been there in ca. 2 months, which means I got to work on two versions of the site."
 
@@ -299,8 +315,8 @@ msgstr "In the course \"Graphic Tools, Principles and Methods\" we made a clicka
 #: src/pages/-Template.js:31
 #: src/pages/webwork/Portfolios.js:112
 #: src/pages/webwork/Rankingapp.js:27
-#: src/pages/webwork/Videoopplasting.js:75
-#: src/pages/webwork/Videoopplasting.js:172
+#: src/pages/webwork/Videoopplasting.js:74
+#: src/pages/webwork/Videoopplasting.js:171
 msgid "Ikke tilgjengelig live"
 msgstr "Unavailable live"
 
@@ -336,7 +352,7 @@ msgstr "Know some {tech}"
 msgid "Kildekode"
 msgstr "Source code"
 
-#: src/pagesInfo.js:221
+#: src/pagesInfo.js:222
 msgid "Kunst"
 msgstr "Art"
 
@@ -344,13 +360,17 @@ msgstr "Art"
 msgid "Lag egne lister"
 msgstr "Create your own lists"
 
-#: src/pages/webwork/Extraoptical.js:96
+#: src/pages/webwork/Extraoptical.js:103
 msgid "Lagd undersider"
 msgstr "Made subpages"
 
 #: src/pages/Gallery/Gallery.js:63
 msgid "Laster inn..."
 msgstr "Loading..."
+
+#: src/pages/webwork/Videoopplasting.js:80
+msgid "LitElement-prosjekt"
+msgstr "LitElement-project"
 
 #: src/pages/graphicwork/JRNM.js:61
 msgid "Logo for Junior NM på ski 2015"
@@ -380,13 +400,13 @@ msgstr "Websites"
 msgid "Oversikt over lister eksempel"
 msgstr "Overview of lists example"
 
+#: src/pages/webwork/Videoopplasting.js:43
+msgid "PHP-prosjekt"
+msgstr "PHP-project"
+
 #: src/pages/graphicwork/JRNM.js:67
 msgid "Plakat"
 msgstr "Poster"
-
-#: src/pages/webwork/Extraoptical.js:34
-msgid "Praksis hos Extra Optical<0>2021 november–nå</0>"
-msgstr "Internship at Extra Optical<0>2021 November–now</0>"
 
 #: src/pages/graphicwork/JRNM.js:21
 msgid "Praksisplass<0>2013</0>"
@@ -400,8 +420,8 @@ msgstr "Internship project at Learning Moment Technologies<0>2021 April—Septem
 #: src/pages/webwork/Dokker.js:28
 #: src/pages/webwork/Extraoptical.js:31
 #: src/pages/webwork/Fakturanett.js:24
-#: src/pages/webwork/Videoopplasting.js:78
-#: src/pages/webwork/Videoopplasting.js:175
+#: src/pages/webwork/Videoopplasting.js:77
+#: src/pages/webwork/Videoopplasting.js:174
 msgid "Privat kildekode"
 msgstr "Private source code"
 
@@ -417,6 +437,10 @@ msgstr "Project description is coming later."
 msgid "Prosjektet er foreløpig satt på pause.<0>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</0><1>Motivasjon til prosjektet</1>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.<2>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</2><3>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</3><4>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</4>"
 msgstr "This project is currently in hiatus<0>At the end of July 2020 I began to make this web app for ranking stuff. I don't know how much I will be able to add to this app, but it would have been nice if the users could share/show their lists with other's, contribute to a public shared list and import list elements directly from web API</0><1>Motivation for this project</1> I wanted to make what ranker.com should have been, and because I wanted to just have a web project to work on."
 
+#: src/pages/webwork/Extraoptical.js:62
+msgid "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
+msgstr "On the new webpage I hade worked in both Magento PWA builder and in the source code."
+
 #: src/pages/webwork/Rankingapp.js:37
 msgid "Ranking app<0>2020 høst–2021 september</0>"
 msgstr "Ranking app<0>2020 fall—2021 September</0>"
@@ -426,11 +450,10 @@ msgid "React sertifikat"
 msgstr "React certificate"
 
 #: src/pages/webwork/Rankingapp.js:49
-#: src/pagesInfo.js:123
 msgid "Relasjonsdatabase"
 msgstr "Relational database"
 
-#: src/pages/webwork/Extraoptical.js:91
+#: src/pages/webwork/Extraoptical.js:98
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 
@@ -441,10 +464,6 @@ msgstr "See more on Github"
 #: src/pages/webwork/Rankingapp.js:102
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Insert your own elements, customize to your needs"
-
-#: src/pages/webwork/Extraoptical.js:16
-msgid "Sist oppdatert 16. januar 2022. Innholdet er litt utdatert."
-msgstr "Last updated at 16th of January 2022. The contents of this page is a little outdated."
 
 #: src/pages/graphicwork/Artistbooking.js:39
 #: src/pages/graphicwork/Artistbooking.js:40
@@ -473,7 +492,7 @@ msgstr "Educated web developer"
 msgid "Utkast og skisser til web-banneret oppe til venstre. Jeg har desverre ikke tatt vare på et mer høyoppløselig bilde av det."
 msgstr "Drafts and sketches for the web-banner top left."
 
-#: src/pages/webwork/Videoopplasting.js:99
+#: src/pages/webwork/Videoopplasting.js:98
 msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
 msgstr "Tool for creating component-based webpages. LitElement differs from React by using HTML templating literals as its templating language (and not JSX). LitElement has only class-based components."
 
@@ -481,20 +500,16 @@ msgstr "Tool for creating component-based webpages. LitElement differs from Reac
 msgid "Verktøy:"
 msgstr "Tools:"
 
-#: src/pages/webwork/Videoopplasting.js:161
+#: src/pages/webwork/Videoopplasting.js:160
 msgid "Videooversikt"
 msgstr "Video overview"
 
-#: src/pages/webwork/Videoopplasting.js:154
-msgid "Videoside i andre prosjekt"
-msgstr "Video page in second project"
+#: src/pages/webwork/Videoopplasting.js:153
+msgid "Videoside"
+msgstr "Video page"
 
-#: src/pages/webwork/Videoopplasting.js:70
-msgid "Videoside i første prosjekt"
-msgstr "Video page in first project"
-
-#: src/pagesInfo.js:129
-#: src/pagesInfo.js:132
+#: src/pagesInfo.js:140
+#: src/pagesInfo.js:143
 msgid "Video­opplastings­apper"
 msgstr "Video uploading apps"
 
@@ -576,6 +591,10 @@ msgstr "portfolio 4"
 msgid "portefølje 5"
 msgstr "portfolio 5"
 
+#: src/pages/webwork/Videoopplasting.js:152
+msgid "side med videospiller, meny og transkript"
+msgstr "page with video player, menu and transcript"
+
 #: src/pages/graphicwork/MPOE.js:50
 msgid "utkast"
 msgstr "drafts"
@@ -584,23 +603,23 @@ msgstr "drafts"
 msgid "utkast til bokcover"
 msgstr "drafts to book cover"
 
-#: src/pages/webwork/Videoopplasting.js:160
-msgid "videolistesiden"
-msgstr "video list page"
+#: src/pages/webwork/Videoopplasting.js:166
+msgid "videoopplastingsside"
+msgstr "video uploading page"
 
-#: src/pages/webwork/Videoopplasting.js:167
-msgid "videoopplastingssiden"
-msgstr "video upload page"
+#: src/pages/webwork/Videoopplasting.js:159
+msgid "videooversikt"
+msgstr "video overview"
 
-#: src/pages/webwork/Videoopplasting.js:153
-msgid "videosiden i andre prosjekt"
-msgstr "video page in other projects"
+#: src/pages/webwork/Videoopplasting.js:70
+msgid "videoside i PHP-prosjekt"
+msgstr "video overview in PHP-project"
 
 #: src/pages/webwork/Videoopplasting.js:69
-msgid "videosiden i første prosjekt"
-msgstr "video page in first project"
+msgid "videospiller og transkript"
+msgstr "video player and transcript"
 
-#: src/pages/webwork/Videoopplasting.js:168
+#: src/pages/webwork/Videoopplasting.js:167
 msgid "«Last opp video»-siden"
 msgstr "“upload video”-page"
 

@@ -39,9 +39,9 @@ const Videoopplasting = () => (
         Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av
         kravspesifikasjonen.
       </p>
-
-      <h2>Første prosjekt</h2>
     </Trans>
+    <h3 className="big-h3">{t`PHP-prosjekt`}</h3>
+
     <ToolList
       tools={["Twig", "PHP", "MySQL", "Relasjonsdatabase", "HTML", "Docker"]}
       toolsText={true}
@@ -66,9 +66,8 @@ const Videoopplasting = () => (
         imgSrc={videoOgTranskriptImg}
         imgWidth={1319}
         imgHeight={945}
-        imgAlt={t`videosiden i første prosjekt`}
-        caption={t`Videoside i første prosjekt`}
-        group="videoopplasting1"
+        imgAlt={t`videospiller og transkript`}
+        caption={t`videoside i PHP-prosjekt`}
       />
     </div>
     <span className="link">
@@ -78,7 +77,7 @@ const Videoopplasting = () => (
       <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
     </span>
 
-    <h2>Andre prosjekt</h2>
+    <h3 className="big-h3">{t`LitElement-prosjekt`}</h3>
     <ToolList
       tools={[
         "LitElement",
@@ -150,21 +149,21 @@ const Videoopplasting = () => (
         imgSrc={videosideImg}
         imgWidth={1920}
         imgHeight={1017}
-        imgAlt={t`videosiden i andre prosjekt`}
-        caption={t`Videoside i andre prosjekt`}
+        imgAlt={t`side med videospiller, meny og transkript`}
+        caption={t`Videoside`}
       />
       <Figure
         imgSrc={videolisteImg}
         imgWidth={1920}
         imgHeight={1018}
-        imgAlt={t`videolistesiden`}
+        imgAlt={t`videooversikt`}
         caption={t`Videooversikt`}
       />
       <Figure
         imgSrc={videoopplastingImg}
         imgWidth={1917}
         imgHeight={866}
-        imgAlt={t`videoopplastingssiden`}
+        imgAlt={t`videoopplastingsside`}
         caption={t`«Last opp video»-siden`}
       />
     </div>

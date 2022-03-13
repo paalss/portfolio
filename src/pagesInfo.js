@@ -9,7 +9,7 @@ import { Trans } from "@lingui/macro";
 import photo from "./images/cvphoto2.webp";
 
 // webwork
-import fakturanettImg from "./images/webwork/fakturanett/fakturanett-icon.png"
+import fakturanettImg from "./images/webwork/fakturanett/fakturanett-icon.png";
 import extraopticalImg from "./images/webwork/extraoptical/logo/eo-icon.webp";
 import dokkerImg from "./images/webwork/dokker/logo/dokkericon.webp";
 import rankingappImg from "./images/webwork/rankingapp/rankingapp-small.webp";
@@ -20,8 +20,8 @@ import portfoliosImg from "./images/webwork/portfolios/pf5.webp";
 
 // graphicwork
 import artistbookingImg from "./images/graphicwork/artistbooking/Android-Mobile–1.webp";
-import mpoeImg from "./images/graphicwork/mpoe/mpoe-cropped-forside.webp"
-import flaviaImg from "./images/graphicwork/flaviadeluce/flavia-cropped-hode.webp"
+import mpoeImg from "./images/graphicwork/mpoe/mpoe-cropped-forside.webp";
+import flaviaImg from "./images/graphicwork/flaviadeluce/flavia-cropped-hode.webp";
 import jrNmImg from "./images/graphicwork/jr-nm-ski/IMG_2413-min-small.webp";
 
 // other
@@ -102,7 +102,8 @@ const pagesInfo = [
         page: <Extraoptical />,
         imgSrc: extraopticalImg,
         imgAlt: "Extraoptical logo",
-        tools: ["Magento2", "PHTML", "CSS"],
+        tools: ["React", "Linux", "Magento2"],
+        thereAreMoreTools: true,
       },
       {
         id: 8,
@@ -115,16 +116,26 @@ const pagesInfo = [
       },
       {
         id: 7,
+        path: "/webwork/portfolios",
+        title: <Trans>Denne porteføljen</Trans>,
+        page: <Portfolios />,
+        imgSrc: portfoliosImg,
+        imgAlt: "Portfolio page",
+        tools: ["React", "JavaScript", <>React&#8209;lingui</>],
+        thereAreMoreTools: true,
+      },
+      {
+        id: 6,
         path: "/webwork/rankingapp",
         title: "Ranking app",
         page: <Rankingapp />,
         imgSrc: rankingappImg,
         imgAlt: "Ranking app",
-        tools: ["TypeScript", "PHP", <Trans>Relasjonsdatabase</Trans>, "MySQL"],
+        tools: ["TypeScript", "PHP", "MySQL"],
         thereAreMoreTools: true,
       },
       {
-        id: 6,
+        id: 5,
         path: "/webwork/videoopplasting",
         title: <Trans>Video&shy;opplastings&shy;apper</Trans>,
         heading: (
@@ -139,17 +150,16 @@ const pagesInfo = [
         thereAreMoreTools: true,
       },
       {
-        id: 5,
-        path: "/webwork/portfolios",
-        title: <Trans>Denne porteføljen</Trans>,
-        page: <Portfolios />,
-        imgSrc: portfoliosImg,
-        imgAlt: "Portfolio page",
-        tools: ["React", "JavaScript", <>React&#8209;lingui</>],
-        thereAreMoreTools: true,
+        id: 4,
+        path: "/webwork/fagstoff",
+        title: <Trans>Fagstoff</Trans>,
+        page: <Fagstoff />,
+        imgSrc: fagstoffImg,
+        imgAlt: "Subject matter",
+        tools: ["HTML", "CSS"],
       },
       {
-        id: 4,
+        id: 3,
         path: "/webwork/maclean",
         title: <Trans>Alistair MacLean nettside redesign</Trans>,
         page: <Maclean />,
@@ -157,15 +167,6 @@ const pagesInfo = [
         imgAlt: "MacLean page",
         tools: ["HTML", "CSS", "Photoshop"],
         thereAreMoreTools: true,
-      },
-      {
-        id: 3,
-        path: "/webwork/fagstoff",
-        title: <Trans>Fagstoff</Trans>,
-        page: <Fagstoff />,
-        imgSrc: fagstoffImg,
-        imgAlt: "Subject matter",
-        tools: ["HTML", "CSS"],
       },
     ],
   },

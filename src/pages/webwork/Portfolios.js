@@ -5,17 +5,13 @@ import pf2 from "../../images/webwork/portfolios/pf2-full2.webp";
 import pf1v2 from "../../images/webwork/portfolios/pf1-2.webp";
 import pf1v1 from "../../images/webwork/portfolios/pf1-1.webp";
 
+// react lingui
+import { Trans, t } from "@lingui/macro";
+
 // components
 import Figure from "../../components/common/Figure";
 import ToolList from "../../components/common/ToolList";
-
-// icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
-
-// react lingui
-import { Trans, t } from "@lingui/macro";
+import WorkLinks from "../../components/common/WorkLinks";
 
 const Portfolios = () => (
   <>
@@ -27,7 +23,14 @@ const Portfolios = () => (
         </Trans>
       </h2>
       <ToolList
-        tools={["React", "JavaScript", "JSX", "CSS", <>React&#8209;lingui</>, "Schema.org"]}
+        tools={[
+          "React",
+          "JavaScript",
+          "JSX",
+          "CSS",
+          <>React&#8209;lingui</>,
+          "Schema.org",
+        ]}
         toolsText={true}
       />
 
@@ -36,7 +39,7 @@ const Portfolios = () => (
           Jeg startet på denne siden desember 2020, og jeg designet den
           spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle
           fungere som et supplement til CV i forbindelse med jobbsøking. I
-          senere tid har jeg lagt til mer innhold og forbedret etter SEO. Jeg er
+          senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er
           veldig fornøyd med designet, kodekvaliteten og valg av verktøy.
         </p>
         <h3>Hvorfor React?</h3>
@@ -62,16 +65,10 @@ const Portfolios = () => (
           caption={t`portefølje 5`}
         />
       </div>
-      <span className="link">
-        <FontAwesomeIcon icon={faCircleNotch} /> {t`Du er på siden`}
-      </span>
-      <a
-        className="link"
-        href="https://github.com/paalss/portfolio"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
-      </a>
+      <WorkLinks
+        siteMsg={t`Du er på siden`}
+        repo="https://github.com/paalss/portfolio"
+      />
       <p>
         <Trans>
           Dette er ikke første gang jeg har lagd en egen portefølje. Under kan
@@ -108,16 +105,7 @@ const Portfolios = () => (
           caption={t`portefølje 4`}
         />
       </div>
-      <span className="link">
-        <FontAwesomeIcon icon={faCircleNotch} /> {t`Ikke tilgjengelig live`}
-      </span>
-      <a
-        className="link"
-        href="https://github.com/paalss/portfolio-2019-fritid"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
-      </a>
+      <WorkLinks repo="https://github.com/paalss/portfolio-2019-fritid" />
     </>
 
     <>
@@ -138,20 +126,10 @@ const Portfolios = () => (
           caption={t`portefølje 3`}
         />
       </div>
-      <a
-        className="link"
-        href="https://paalss.github.io/portfolio-2016-2-webkoding-final-delivery/"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
-      </a>
-      <a
-        className="link"
-        href="https://github.com/paalss/portfolio-2016-2-webkoding-final-delivery"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
-      </a>
+      <WorkLinks
+        site="https://paalss.github.io/portfolio-2016-2-webkoding-final-delivery"
+        repo="https://github.com/paalss/portfolio-2016-2-webkoding-final-delivery"
+      />
     </>
 
     <>
@@ -176,20 +154,10 @@ const Portfolios = () => (
           caption={t`Fritidsprosjekt som aldri ble fullført`}
         />
       </div>
-      <a
-        className="link"
-        href="https://paalss.github.io/portfolio-2016-1-fritid/"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
-      </a>
-      <a
-        className="link"
-        href="https://github.com/paalss/portfolio-2016-1-fritid"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
-      </a>
+      <WorkLinks
+        site="https://paalss.github.io/portfolio-2016-1-fritid"
+        repo="https://github.com/paalss/portfolio-2016-1-fritid"
+      />
     </>
 
     <>
@@ -224,20 +192,10 @@ const Portfolios = () => (
           caption={t`Innleveringsoppgave på medier og kommunikasjon`}
         />
       </div>
-      <a
-        className="link"
-        href="https://paalss.github.io/portfolio-2015-2-etter-innlevering/"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
-      </a>
-      <a
-        className="link"
-        href="https://github.com/paalss/portfolio-2015-2-etter-innlevering"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
-      </a>
+      <WorkLinks
+        site="https://paalss.github.io/portfolio-2015-2-etter-innlevering"
+        repo="https://github.com/paalss/portfolio-2015-2-etter-innlevering"
+      />
     </>
   </>
 );

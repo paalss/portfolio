@@ -1,33 +1,20 @@
+// images
 import macleanImg from "../../images/webwork/maclean/alistairmaclean-full.webp";
-
-// components
-import ToolList from "../../components/common/ToolList";
-
-// icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
+// components
+import ToolList from "../../components/common/ToolList";
+import WorkLinks from "../../components/common/WorkLinks";
+
 const Maclean = () => (
   <>
     <img src={macleanImg} width={837} height={556} alt={t`maclean nettside`} />
-    <a
-      className="link"
-      href="https://paalss.github.io/Alistair-MacLean-portfolio-redesign/"
-      rel="noopener noreferrer"
-    >
-      <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
-    </a>
-    <a
-      className="link"
-      href="https://github.com/paalss/Alistair-MacLean-portfolio-redesign"
-      rel="noopener noreferrer"
-    >
-      <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
-    </a>
+    <WorkLinks
+      site="https://paalss.github.io/Alistair-MacLean-portfolio-redesign"
+      repo="https://github.com/paalss/Alistair-MacLean-portfolio-redesign"
+    />
     <h2>
       <Trans>
         Innlevering på videregående

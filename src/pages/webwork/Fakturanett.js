@@ -1,28 +1,18 @@
-// import projImg from "../../images/tmplt/t.webp";
-import ToolList from "../../components/common/ToolList";
-// import Figure from "../../components/common/Figure";
-
-// icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
+// images
+import webappImg from "../../images/webwork/fakturanett/page.png";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
+// components
+import ToolList from "../../components/common/ToolList";
+import WorkLinks from "../../components/common/WorkLinks";
+// import Figure from "../../components/common/Figure";
+
 const Fakturanett = () => (
   <>
-    {/* <img src={projImg} width={0} height={0} alt={t`_bilde`} /> */}
-    <a
-      className="link"
-      href="https://www.fakturanett.no/"
-      rel="noopener noreferrer"
-    >
-      <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
-    </a>
-    <span className="link">
-      <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
-    </span>
+    <img src={webappImg} width={1294} height={665} alt={t`fakturanett forside`} />
+    <WorkLinks site="https://www.fakturanett.no/" />
     <h2>
       <Trans>
         Ansatt hos Invoice Club

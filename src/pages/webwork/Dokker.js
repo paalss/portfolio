@@ -1,32 +1,20 @@
+// images
 import dokkerInterface from "../../images/webwork/dokker/dashboard/latest-document-assignment.webp";
 import followupcardImg from "../../images/webwork/dokker/follow-up-card/followupcard.webp";
 import newcardsImg from "../../images/webwork/dokker/news-card/newscards.webp";
 
+// react lingui
+import { Trans, t } from "@lingui/macro";
+
 // components
 import Figure from "../../components/common/Figure";
 import ToolList from "../../components/common/ToolList";
-
-// icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
-
-// react lingui
-import { Trans, t } from "@lingui/macro";
+import WorkLinks from "../../components/common/WorkLinks";
 
 const Dokker = () => (
   <>
     <img src={dokkerInterface} width={2880} height={1534} alt="Dokker logo" />
-    <a
-      className="link"
-      href="https://www.dokker.com/nb/"
-      rel="noopener noreferrer"
-    >
-      <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
-    </a>
-    <span className="link">
-      <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
-    </span>
+    <WorkLinks site="https://www.dokker.com/nb/" />
     <h2>
       <Trans>
         Praksisprosjekt hos Learning Moment Technologies
@@ -80,8 +68,10 @@ const Dokker = () => (
         Dokker er en kommunikasjonsplatform for studenter og lærere i skole og
         lignende. I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan
         levere inn besvarelser og selvvurderinger. <br />
-        Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også legge ut vitnemål og
-        sertifikater.
+        Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og
+        dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling
+        point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også
+        legge ut vitnemål og sertifikater.
       </p>
     </Trans>
     {/*

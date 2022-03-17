@@ -1,19 +1,16 @@
+// images
 import videoOgTranskriptImg from "../../images/webwork/www-teknologi/2-video-og-transkript.webp";
 import videosideImg from "../../images/webwork/www-teknologi/prosjekt2-5-videoside.webp";
 import videolisteImg from "../../images/webwork/www-teknologi/prosjekt2-7-videoliste.webp";
 import videoopplastingImg from "../../images/webwork/www-teknologi/prosjekt2-8-videoopplasting.webp";
 
+// react lingui
+import { Trans, t } from "@lingui/macro";
+
 // components
 import Figure from "../../components/common/Figure";
 import ToolList from "../../components/common/ToolList";
-
-// icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
-
-// react lingui
-import { Trans, t } from "@lingui/macro";
+import WorkLinks from "../../components/common/WorkLinks";
 
 const Videoopplasting = () => (
   <>
@@ -70,12 +67,7 @@ const Videoopplasting = () => (
         caption={t`videoside i PHP-prosjekt`}
       />
     </div>
-    <span className="link">
-      <FontAwesomeIcon icon={faCircleNotch} /> {t`Ikke tilgjengelig live`}
-    </span>
-    <span className="link">
-      <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
-    </span>
+    <WorkLinks />
 
     <h3 className="big-h3">{t`LitElement-prosjekt`}</h3>
     <ToolList
@@ -167,12 +159,7 @@ const Videoopplasting = () => (
         caption={t`«Last opp video»-siden`}
       />
     </div>
-    <span className="link">
-      <FontAwesomeIcon icon={faCircleNotch} /> {t`Ikke tilgjengelig live`}
-    </span>
-    <span className="link">
-      <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
-    </span>
+    <WorkLinks />
   </>
 );
 

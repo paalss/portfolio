@@ -1,16 +1,14 @@
-import frontpageImg from "../../images/webwork/extraoptical/sider/front-page.webp";
+// images
+// import frontpageImg from "../../images/webwork/extraoptical/sider/front-page.webp";
 import frontpagePwaImg from "../../images/webwork/extraoptical/sider/front-page-pwa.png";
-
-// components
-import ToolList from "../../components/common/ToolList";
-
-// icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
+
+// components
+import ToolList from "../../components/common/ToolList";
+import WorkLinks from "../../components/common/WorkLinks";
+
 
 const Extraoptical = () => (
   <>
@@ -20,16 +18,7 @@ const Extraoptical = () => (
       height={909}
       alt={t`Extra Optical forside`}
     />
-    <a
-      className="link"
-      href="https://extraoptical.no/"
-      rel="noopener noreferrer"
-    >
-      <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
-    </a>
-    <span className="link">
-      <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
-    </span>
+    <WorkLinks site="https://extraoptical.no/" />
     <h2>
       <Trans>
         Extra Opticals nettbutikk

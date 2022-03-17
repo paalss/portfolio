@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/pages/webwork/Dokker.js:19
+msgid "2021 april–september"
+msgstr "2021 april–september"
+
 #: src/App.js:41
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Siden finnes ikke"
@@ -29,7 +33,7 @@ msgstr "<0>I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg val
 msgid "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting, ‑redigering og ‑visning. I tillegg gjorde jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting av videoer til filsystemet. Jeg jobbet også litt med kommentarer.</0><1>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</1>"
 msgstr "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting, ‑redigering og ‑visning. I tillegg gjorde jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting av videoer til filsystemet. Jeg jobbet også litt med kommentarer.</0><1>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</1>"
 
-#: src/pages/webwork/Portfolios.js:37
+#: src/pages/webwork/Portfolios.js:40
 msgid "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 msgstr "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 
@@ -45,7 +49,7 @@ msgstr "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk desig
 msgid "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det meste lagde selv.</14>"
 msgstr "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det meste lagde selv.</14>"
 
-#: src/pages/webwork/Dokker.js:65
+#: src/pages/webwork/Dokker.js:70
 msgid "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studenter og lærere i skole og lignende. I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 msgstr "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studenter og lærere i skole og lignende. I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
 
@@ -53,7 +57,7 @@ msgstr "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studente
 msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
 msgstr "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
 
-#: src/pages/webwork/Dokker.js:26
+#: src/pages/webwork/Dokker.js:31
 msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
 msgstr "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
 
@@ -150,17 +154,17 @@ msgstr "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim og mys
 msgid "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 msgstr "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 
-#: src/pages/webwork/Dokker.js:90
+#: src/pages/webwork/Dokker.js:95
 msgid "Dokker appen"
 msgstr "Dokker appen"
 
-#: src/pages/webwork/Dokker.js:95
+#: src/pages/webwork/Dokker.js:100
 msgid "Dokker blogg"
 msgstr "Dokker blogg"
 
 #: src/pages/webwork/Portfolios.js:69
-msgid "Du er på siden"
-msgstr "Du er på siden"
+#~ msgid "Du er på siden"
+#~ msgstr "Du er på siden"
 
 #: src/components/layout/Footer/Footer.js:17
 msgid "Du finner meg på:"
@@ -199,11 +203,11 @@ msgstr "Et bokcover jeg lagde for boka \"Mord på orientekspressen\" av Agatha C
 msgid "Et eCommerce CMS hvor nettsideadministratorer kan legge til egne undersider og byggeklosser."
 msgstr "Et eCommerce CMS hvor nettsideadministratorer kan legge til egne undersider og byggeklosser."
 
-#: src/pages/webwork/Dokker.js:55
+#: src/pages/webwork/Dokker.js:60
 msgid "Et kort for keep-up-delen av dashboard"
 msgstr "Et kort for keep-up-delen av dashboard"
 
-#: src/pages/webwork/Dokker.js:62
+#: src/pages/webwork/Dokker.js:67
 msgid "Et kort for recent-activities-delen av dashboard"
 msgstr "Et kort for recent-activities-delen av dashboard"
 
@@ -215,7 +219,7 @@ msgstr "Et poster jeg også lagde"
 msgid "Extra Optical forside"
 msgstr "Extra Optical forside"
 
-#: src/pages/webwork/Extraoptical.js:23
+#: src/pages/webwork/Extraoptical.js:22
 msgid "Extra Opticals nettbutikk<0>2022 november–nå</0>"
 msgstr "Extra Opticals nettbutikk<0>2022 november–nå</0>"
 
@@ -309,8 +313,8 @@ msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en kl
 msgstr "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 
 #: src/components/common/WorkLinks/WorkLinks.js:21
-msgid "Ikke tilgjengelig live"
-msgstr "Ikke tilgjengelig live"
+#~ msgid "Ikke tilgjengelig live"
+#~ msgstr "Ikke tilgjengelig live"
 
 #: src/pages/webwork/Portfolios.js:165
 msgid "Innlevering på VGS og videreutvikling etter det<0>2015</0>"
@@ -332,7 +336,7 @@ msgstr "Kan grunnleggende {tech}"
 msgid "Kan litt {tech}"
 msgstr "Kan litt {tech}"
 
-#: src/components/common/WorkLinks/WorkLinks.js:26
+#: src/components/common/WorkLinks/WorkLinks.js:21
 msgid "Kildekode"
 msgstr "Kildekode"
 
@@ -397,12 +401,16 @@ msgid "Praksisplass<0>2013</0>"
 msgstr "Praksisplass<0>2013</0>"
 
 #: src/pages/webwork/Dokker.js:19
-msgid "Praksisprosjekt hos Learning Moment Technologies<0>2021 april–september</0>"
-msgstr "Praksisprosjekt hos Learning Moment Technologies<0>2021 april–september</0>"
+#~ msgid "Praksisprosjekt hos Learning Moment Technologies<0>2021 april–september</0>"
+#~ msgstr "Praksisprosjekt hos Learning Moment Technologies<0>2021 april–september</0>"
+
+#: src/pages/webwork/Dokker.js:18
+msgid "Praksis­prosjekt hos Learning Moment Technologies"
+msgstr "Praksis­prosjekt hos Learning Moment Technologies"
 
 #: src/components/common/WorkLinks/WorkLinks.js:30
-msgid "Privat kildekode"
-msgstr "Privat kildekode"
+#~ msgid "Privat kildekode"
+#~ msgstr "Privat kildekode"
 
 #: src/pages/graphicwork/Artistbooking.js:17
 msgid "Prosjekt i studiene<0>2019 høst</0>"
@@ -492,7 +500,7 @@ msgstr "Videoside"
 msgid "Video­opplastings­apper"
 msgstr "Video­opplastings­apper"
 
-#: src/pages/webwork/Dokker.js:85
+#: src/pages/webwork/Dokker.js:90
 msgid "Videre lesing"
 msgstr "Videre lesing"
 
@@ -569,8 +577,8 @@ msgstr "portefølje 3"
 msgid "portefølje 4"
 msgstr "portefølje 4"
 
-#: src/pages/webwork/Portfolios.js:64
-#: src/pages/webwork/Portfolios.js:65
+#: src/pages/webwork/Portfolios.js:67
+#: src/pages/webwork/Portfolios.js:68
 msgid "portefølje 5"
 msgstr "portefølje 5"
 

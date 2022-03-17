@@ -29,7 +29,7 @@ const Webwork = () => (
     </div>
     <div className="mt-50 center-content">
       <a
-        className="link"
+        className="button"
         href="https://github.com/paalss?tab=repositories"
         rel="noopener noreferrer"
       >

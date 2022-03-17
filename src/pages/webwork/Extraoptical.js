@@ -6,9 +6,7 @@ import frontpagePwaImg from "../../images/webwork/extraoptical/sider/front-page-
 import { Trans, t } from "@lingui/macro";
 
 // components
-import ToolList from "../../components/common/ToolList";
-import WorkLinks from "../../components/common/WorkLinks";
-
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const Extraoptical = () => (
   <>
@@ -18,16 +16,18 @@ const Extraoptical = () => (
       height={909}
       alt={t`Extra Optical forside`}
     />
-    <WorkLinks site="https://extraoptical.no/" />
-    <h2>
-      <Trans>
-        Extra Opticals nettbutikk
-        <span className="subtitle">2022 november–nå</span>
-      </Trans>
-    </h2>
-    <ToolList
+    <WorkHeading
+      headingInfo={{
+        heading: (
+          <Trans>Extra Opticals nye nettbutikk</Trans>
+        ),
+        timespan: t`2022 februar–nå`,
+        hx: "h2",
+      }}
+      siteInfo={{
+        site: "https://extraoptical.no/",
+      }}
       tools={["React", "Linux", "JSX", "CSS", "Magento PWA builder", "PHTML"]}
-      toolsText={true}
     />
     <dl>
       <dt>Magento PWA builder</dt>
@@ -62,17 +62,16 @@ const Extraoptical = () => (
       </Trans>
     </p>
 
-    <h3 className="big-h3">{t`Gammel side (før februar 2022)`}</h3>
-
-    <ToolList tools={["Magento2", "PHTML", "CSS"]} toolsText={true} />
-    <p>
-      <Trans>
-        I dennne praksisen jobbet jeg med nettbutikken Extra Optical (frontend).
-        EO skulle gå over til å bygge nettsiden sin på nytt i en{" "}
-        <i>page builder</i> da jeg hadde vært der i ca. 2 måneder, så jeg har
-        fått jobbet på både ny og gammel versjon.
-      </Trans>
-    </p>
+    <WorkHeading
+      headingInfo={{
+        heading: (
+          <Trans>Gammel side</Trans>
+        ),
+        timespan: t`2022 november–februar`,
+        hx: "h2",
+      }}
+      tools={["Magento2", "PHTML", "CSS"]}
+    />
     <h4>
       <Trans>Bidrag</Trans>
     </h4>

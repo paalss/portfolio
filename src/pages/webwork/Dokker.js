@@ -8,20 +8,25 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import Figure from "../../components/common/Figure";
-import ToolList from "../../components/common/ToolList";
-import WorkLinks from "../../components/common/WorkLinks";
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const Dokker = () => (
   <>
     <img src={dokkerInterface} width={2880} height={1534} alt="Dokker logo" />
-    <WorkLinks site="https://www.dokker.com/nb/" />
-    <h2>
-      <Trans>
-        Praksisprosjekt hos Learning Moment Technologies
-        <span className="subtitle">2021 april–september</span>
-      </Trans>
-    </h2>
-    <ToolList tools={["React", "TypeScript", "JSX", "CSS"]} toolsText={true} />
+    <WorkHeading
+      headingInfo={{
+        heading: <Trans>Praksis&shy;prosjekt hos Learning Moment Technologies</Trans>,
+        timespan: t`2021 april–september`,
+        hx: "h2",
+      }}
+      siteInfo={{
+        site: "https://www.dokker.com/nb",
+      }}
+      toolsInfo={{
+        tools: ["React", "TypeScript", "JSX", "CSS"],
+        toolsText: true,
+      }}
+    />
 
     <Trans>
       <p>

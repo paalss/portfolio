@@ -5,8 +5,8 @@ import fagstoffImg from "../../images/webwork/fagstoff/fagstoff.webp";
 import { Trans, t } from "@lingui/macro";
 
 // components
-import ToolList from "../../components/common/ToolList";
 import WorkLinks from "../../components/common/WorkLinks";
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const Fagstoff = () => (
   <>
@@ -16,9 +16,24 @@ const Fagstoff = () => (
       height={543}
       alt={t`Nettside med overskriften 'fagstoff'`}
     />
+    <WorkHeading
+      headingInfo={{
+        heading: (
+          <Trans>_Sammenheng</Trans>
+        ),
+        timespan: t`2022 tidsspann`,
+        hx: "h2",
+      }}
+      siteInfo={{
+        site: "https://paalss.github.io/fagstoff",
+        repo: "https://github.com/paalss/fagstoff"
+      }}
+      tools={["HTML", "CSS"]
+      }
+    />
     <WorkLinks
-      site="https://paalss.github.io/fagstoff/"
-      repo="https://github.com/paalss/fagstoff"
+      site="https://paalss.github.io/fagstoff"
+      repo=""
     />
     <h2>
       <Trans>
@@ -26,7 +41,6 @@ const Fagstoff = () => (
         <span className="subtitle">2016 høst</span>
       </Trans>
     </h2>
-    <ToolList tools={["HTML", "CSS"]} toolsText={true} />
     <p>
       <Trans>
         En nettside som jeg førte opp webkoding-notater i. Sist oppdatert

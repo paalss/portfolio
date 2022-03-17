@@ -22,6 +22,9 @@ const Portfolios = () => (
           <span className="subtitle">2020 desember–nå</span>
         </Trans>
       </h2>
+      <WorkLinks
+        repo="https://github.com/paalss/portfolio"
+      />
       <ToolList
         tools={[
           "React",
@@ -65,10 +68,7 @@ const Portfolios = () => (
           caption={t`portefølje 5`}
         />
       </div>
-      <WorkLinks
-        siteMsg={t`Du er på siden`}
-        repo="https://github.com/paalss/portfolio"
-      />
+
       <p>
         <Trans>
           Dette er ikke første gang jeg har lagd en egen portefølje. Under kan
@@ -78,12 +78,12 @@ const Portfolios = () => (
     </>
 
     <>
-      <h3 className="big-h3">
+      <h2>
         <Trans>
           Fritidsprosjekt under studiene
           <span className="subtitle">2019</span>
         </Trans>
-      </h3>
+      </h2>
       <ToolList tools={["PHP", "HTML", "CSS"]} toolsText={true} />
 
       <p>
@@ -109,12 +109,12 @@ const Portfolios = () => (
     </>
 
     <>
-      <h3 className="big-h3">
+      <h2>
         <Trans>
           Eksamensinnlevering i webkoding
           <span className="subtitle">2016 høst</span>
         </Trans>
-      </h3>
+      </h2>
       <ToolList tools={["HTML", "CSS"]} toolsText={true} />
 
       <div uk-lightbox="animation: slide">
@@ -133,12 +133,12 @@ const Portfolios = () => (
     </>
 
     <>
-      <h3 className="big-h3">
+      <h2>
         <Trans>
           En portefølje påbegynt like før studiene
           <span className="subtitle">2016</span>
         </Trans>
-      </h3>
+      </h2>
       <ToolList tools={["HTML", "CSS"]} toolsText={true} />
 
       <p>
@@ -161,12 +161,12 @@ const Portfolios = () => (
     </>
 
     <>
-      <h3 className="big-h3">
+      <h2>
         <Trans>
           Innlevering på VGS og videreutvikling etter det
           <span className="subtitle">2015</span>
         </Trans>
-      </h3>
+      </h2>
       <ToolList tools={["HTML", "CSS"]} toolsText={true} />
 
       <p>

@@ -37,7 +37,7 @@ const Videoopplasting = () => (
         kravspesifikasjonen.
       </p>
     </Trans>
-    <h3 className="big-h3">{t`PHP-prosjekt`}</h3>
+    <h2>{t`PHP-prosjekt`}</h2>
 
     <ToolList
       tools={["Twig", "PHP", "MySQL", "Relasjonsdatabase", "HTML", "Docker"]}
@@ -69,7 +69,7 @@ const Videoopplasting = () => (
     </div>
     <WorkLinks />
 
-    <h3 className="big-h3">{t`LitElement-prosjekt`}</h3>
+    <h2>{t`LitElement-prosjekt`}</h2>
     <ToolList
       tools={[
         "LitElement",

@@ -1,4 +1,4 @@
-// import classes from WorkLinks
+import classes from "./WorkLinks.module.css"
 
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,27 +8,18 @@ import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 // react lingui
 import { t } from "@lingui/macro";
 
-const WorkLinks = ({ site = false, repo = false, siteMsg = false }) => {
+const WorkLinks = ({ site = false, repo = false }) => {
   return (
     <>
-      {site ? (
-        <a className="link" href={site} rel="noopener noreferrer">
+      {site && (
+        <a className={classes.link} href={site} rel="noopener noreferrer">
           <FontAwesomeIcon icon={faCircleNotch} /> {t`Besøk siden`}
         </a>
-      ) : (
-        <span className="link">
-          <FontAwesomeIcon icon={faCircleNotch} />{" "}
-          {!siteMsg ? t`Ikke tilgjengelig live` : siteMsg}
-        </span>
       )}
-      {repo ? (
-        <a className="link" href={repo} rel="noopener noreferrer">
+      {repo && (
+        <a className={classes.link} href={repo} rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} /> {t`Kildekode`}
         </a>
-      ) : (
-        <span className="link">
-          <FontAwesomeIcon icon={faGithub} /> {t`Privat kildekode`}
-        </span>
       )}
     </>
   );

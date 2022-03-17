@@ -1,25 +1,32 @@
 // images
 import projImg from "../../images/tmplt/t.webp";
-import ToolList from "../../components/common/ToolList";
-import Figure from "../../components/common/Figure";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
 // components
-import WorkLinks from "../../components/common/WorkLinks";
+import Figure from "../../components/common/Figure";
+import WorkHeading from "../components/common/WorkHeading/WorkHeading";
 
 const Template = () => (
   <>
     <img src={projImg} width={0} height={0} alt={t`_bilde`} />
-    <WorkLinks site="" repo="" />
-    <h2>
-      <Trans>
-        _Sammenheng
-        <span className="subtitle">_semester</span>
-      </Trans>
-    </h2>
-    <ToolList tools={["verktøy"]} toolsText={true} />
+    <WorkHeading
+      headingInfo={{
+        heading: (
+          <Trans>_Sammenheng</Trans>
+        ),
+        timespan: t`2022 tidsspann`,
+        hx: "h2",
+      }}
+      siteInfo={{
+        site: "_link",
+        repo: "_link"
+      }}
+      tools={
+        ["verktøy"]
+      }
+    />
     <p>
       <Trans>Beskrivelse</Trans>
     </p>

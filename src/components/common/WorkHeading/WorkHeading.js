@@ -14,7 +14,7 @@ const WorkHeading = ({
   const { site = false, repo = false } = siteInfo && siteInfo;
   const marginTopClass = extraSpaceAbove ? classes.extraSpace : classes.defaultSpace;
   return (
-    <div className={classes.root + " " + marginTopClass}>
+    <div className={classes.root + " work-heading " + marginTopClass}>
       <h2 className={classes.heading}>{heading}</h2>
       <span className="subtitle">{timespan}</span>
       <WorkLinks site={site} repo={repo} />

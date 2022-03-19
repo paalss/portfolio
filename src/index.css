@@ -19,9 +19,9 @@
     background-position: 230% -135px;
     background-size: 130%;
   }
-  .oldbody > * {
-    padding-left: 10%;
-    padding-right: 10%;
+  .container > *:not(main img):not(main .work-heading) {
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .mb-50 {
     margin-bottom: 50px;

@@ -38,9 +38,9 @@ const Rankingapp = () => (
         "Docker",
       ]}
     />
-    
+
     <Trans>
-      Prosjektet er foreløpig satt på pause.
+      <p>Prosjektet er foreløpig satt på pause.</p>
       <p>
         I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere
         ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet
@@ -50,8 +50,10 @@ const Rankingapp = () => (
         (med web API).
       </p>
       <h3>Motivasjon til prosjektet</h3>
-      Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å
-      ha et kodeprosjekt å drive på med.
+      <p>
+        Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å
+        ha et kodeprosjekt å drive på med.
+      </p>
       <p>
         Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som
         jeg nevnte over. Jeg likte det, og det var derfor skuffende da

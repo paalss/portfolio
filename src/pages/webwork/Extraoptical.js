@@ -23,9 +23,16 @@ const Extraoptical = () => (
       siteInfo={{
         site: "https://extraoptical.no/",
       }}
-      tools={["React", "JSX", "CSS", "Magento PWA builder", "PHTML", "Linux"]}
+      tools={[
+        "React",
+        "JSX",
+        "CSS",
+        <>Magento&nbsp;PWA&nbsp;builder</>,
+        "PHTML",
+        "Linux",
+      ]}
     />
-    
+
     <dl>
       <dt>Magento PWA builder</dt>
       <dd>

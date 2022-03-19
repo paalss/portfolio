@@ -16,7 +16,7 @@ import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 const Artistbooking = () => (
   <>
     <WorkHeading
-      heading={t`Artistbooking prototype`}
+      heading="Artistbooking prototype"
       timespan={t`2019 høst`}
       tools={["Adobe XD"]}
     />

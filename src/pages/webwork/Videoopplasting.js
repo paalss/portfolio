@@ -63,7 +63,7 @@ const Videoopplasting = () => (
 
     <WorkHeading
       heading={t`LitElement-prosjekt`}
-      timespan={t`2022 tidsspann`}
+      timespan={t`2020 vår`}
       tools={[
         "LitElement",
         "JavaScript",

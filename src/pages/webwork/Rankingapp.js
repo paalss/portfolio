@@ -22,7 +22,7 @@ const Rankingapp = () => (
 
     <WorkHeading
       heading={t`Ranking app`}
-      timespan={t`2020 høst – 2021 september`}
+      timespan="2020–2021"
       siteInfo={{
         repo: "https://github.com/paalss/Ranking-app",
       }}

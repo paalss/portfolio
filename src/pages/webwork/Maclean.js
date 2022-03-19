@@ -12,7 +12,7 @@ const Maclean = () => (
     <img src={macleanImg} width={837} height={556} alt={t`maclean nettside`} />
     
     <WorkHeading
-      heading={t`Alistair MacLean portfolio redesign`}
+      heading={t`Alistair MacLean portefølje redesign`}
       timespan="2015"
       siteInfo={{
         site: "https://paalss.github.io/Alistair-MacLean-portfolio-redesign",

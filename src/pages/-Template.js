@@ -12,13 +12,13 @@ const Template = () => (
   <>
     <img src={projImg} width={0} height={0} alt={t`_bilde`} />
     <WorkHeading
-      heading={t`_Sammenheng`}
+      heading={t`h1-tittel eller oppdelt`}
       timespan={t`2022 tidsspann`}
       siteInfo={{
         site: "",
         repo: "",
       }}
-      tools={["verktøy"]}
+      tools={[]}
     />
     <p>
       <Trans>Beskrivelse</Trans>

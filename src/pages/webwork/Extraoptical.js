@@ -16,6 +16,7 @@ const Extraoptical = () => (
       height={909}
       alt={t`Extra Optical forside`}
     />
+
     <WorkHeading
       heading={t`Extra Opticals nye netbutikk fra februar`}
       timespan={t`2022 februar–nå`}
@@ -24,6 +25,7 @@ const Extraoptical = () => (
       }}
       tools={["React", "JSX", "CSS", "Magento PWA builder", "PHTML", "Linux"]}
     />
+    
     <dl>
       <dt>Magento PWA builder</dt>
       <dd>

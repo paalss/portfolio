@@ -11,6 +11,7 @@ import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 const Fakturanett = () => (
   <>
     <img src={webappImg} width={1294} height={665} alt={t`fakturanett forside`} />
+
     <WorkHeading
       heading={t`Fakturanett`}
       timespan={t`2022 februar–nå`}
@@ -19,6 +20,7 @@ const Fakturanett = () => (
       }}
       tools={["PHP", "HTML", "CSS"]}
     />
+    
     <p>
       {/* <Trans>Jobber med å optimalisere koden, fjerne unødvendige filer. Skal jobbe med å bygge nettsiden med Vue etter hvert</Trans> */}
     </p>

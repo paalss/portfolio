@@ -30,6 +30,7 @@ const Videoopplasting = () => (
         kravspesifikasjonen.
       </p>
     </Trans>
+    
     <WorkHeading
       heading={t`PHP-prosjekt`}
       timespan={t`2020 vår`}

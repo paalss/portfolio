@@ -199,7 +199,7 @@ const pagesInfo = [
       {
         id: 12,
         path: "/graphicwork/mpoe",
-        title: <Trans>Bokcover o.l.</Trans>,
+        title: <Trans>Bok-cover o.l.</Trans>,
         page: <MPOE />,
         imgSrc: mpoeImg,
         imgAlt: "Book cover",

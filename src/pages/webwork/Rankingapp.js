@@ -19,6 +19,7 @@ const Rankingapp = () => (
       height={616}
       alt="Ranking app interface"
     />
+
     <WorkHeading
       heading={t`Ranking app`}
       timespan={t`2020 høst – 2021 september`}
@@ -37,6 +38,7 @@ const Rankingapp = () => (
         "Docker",
       ]}
     />
+    
     <Trans>
       Prosjektet er foreløpig satt på pause.
       <p>

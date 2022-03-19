@@ -15,6 +15,7 @@ const Fagstoff = () => (
       height={543}
       alt={t`Nettside med overskriften 'fagstoff'`}
     />
+
     <WorkHeading
       heading={t`Fagstoff`}
       timespan={t`2016 høst`}
@@ -24,6 +25,7 @@ const Fagstoff = () => (
       }}
       tools={["HTML", "CSS"]}
     />
+    
     <p>
       <Trans>
         En nettside som jeg førte opp webkoding-notater i. Sist oppdatert

@@ -1,13 +1,15 @@
+// images
 import JRNMImg from "../../images/graphicwork/jr-nm-ski/IMG_2413-min.webp";
 import JRNMImg2 from "../../images/graphicwork/jr-nm-ski/JrNM-logo-web.webp";
 import JRNMImg3 from "../../images/graphicwork/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp";
 // import remake from "../../images/graphicwork/jr-nm-ski/jrnmlogo-ai-remake.webp";
 
-import Figure from "../../components/common/Figure";
-import ToolList from "../../components/common/ToolList";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
+
+// components
+import Figure from "../../components/common/Figure";
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const JRNM = () => (
   <>
@@ -17,13 +19,11 @@ const JRNM = () => (
       height={3456}
       alt="Junior NM på ski logo på skilt"
     />
-    <h2>
-      <Trans>
-        Praksisplass
-        <span className="subtitle">2013</span>
-      </Trans>
-    </h2>
-    <ToolList tools={["Photoshop"]} toolsText={true} />
+    <WorkHeading
+      heading={t`Logo for Jr NM på ski 2015`}
+      timespan="2013"
+      tools={["Photoshop"]}
+    />
     <Trans>
       <p>
         I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette

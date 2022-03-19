@@ -1,3 +1,4 @@
+// images
 import mobileImg1 from "../../images/graphicwork/artistbooking/Android-Mobile–1.webp";
 import mobileImg2 from "../../images/graphicwork/artistbooking/Android-Mobile–2.webp";
 import mobileImg3 from "../../images/graphicwork/artistbooking/Android-Mobile–3.webp";
@@ -5,21 +6,20 @@ import mobileImg4 from "../../images/graphicwork/artistbooking/Android-Mobile–
 import destopImg from "../../images/graphicwork/artistbooking/Web-1280–4.webp";
 // import screenshotImg from "../../images/graphicwork/artistbooking/Screenshot_20191126-120019.webp";
 
-import Figure from "../../components/common/Figure";
-import ToolList from "../../components/common/ToolList";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
+// components
+import Figure from "../../components/common/Figure";
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
+
 const Artistbooking = () => (
   <>
-    <h2>
-      <Trans>
-        Prosjekt i studiene
-        <span className="subtitle">2019 høst</span>
-      </Trans>
-    </h2>
-    <ToolList tools={["Adobe XD"]} toolsText={true} />
+    <WorkHeading
+      heading={t`Artistbooking prototype`}
+      timespan={t`2019 høst`}
+      tools={["Adobe XD"]}
+    />
 
     <p>
       <Trans>

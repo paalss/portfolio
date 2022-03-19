@@ -1,30 +1,30 @@
+// images
 import flaviaProcessImg from "../../images/graphicwork/flaviadeluce/flavia.webp";
 import flaviaBannerImg from "../../images/graphicwork/flaviadeluce/flavia-cropped.webp";
-
-import ToolList from "../../components/common/ToolList";
-import Figure from "../../components/common/Figure";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
+// components
+import Figure from "../../components/common/Figure";
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
+
+
 const Flaviadeluce = () => (
   <>
     <img src={flaviaBannerImg} width={0} height={0} alt="web-banner" />
-    <h2>
-      <Trans>
-        Grafisk skoleoppgave
-        <span className="subtitle">2015?</span>
-      </Trans>
-    </h2>
-    <ToolList tools={["Photoshop", "Illustrator"]} toolsText={true} />
+    <WorkHeading
+      heading={t`Flavia de Luce serien web-banner`}
+      timespan="2015?"
+      tools={["Photoshop", "Illustrator"]}
+    />
     <p>
       <Trans>
-        Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim og
-        mysterier-bokserie som tar plass i et 50-talls england. Hovedpersonen er
-        en 12-år gammel kjeminerd, og det ville jeg få frem i dette banneret.
+        Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim- og
+        mysterier-bokserie som tar plass i england på 50-tallet.
         Bokbanneret er ment for å passe til å bli brukt på en
-        bokhandel-nettside, ark.no, tror jeg. (Det er fortsatt bare en
-        skoleoppgave, ikke et 'ordentlig' oppdrag, altså)
+        bokhandel-nettside, ark.no, tror jeg det var. (Det er fortsatt bare en
+        skoleoppgave og ikke et 'ordentlig' oppdrag, altså.)
       </Trans>
     </p>
     <div uk-lightbox="animation: slide" className="flex wrap">

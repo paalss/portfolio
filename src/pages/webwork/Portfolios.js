@@ -15,8 +15,14 @@ import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 const Portfolios = () => (
   <>
     <>
+      <img
+        src={pf5}
+        alt={t`portefølje med foto og ferdigheter`}
+        width={1229}
+        height={7013}
+      />
       <WorkHeading
-        heading={t`Portefølje 5, web-orientert`}
+        heading={t`Portefølje`}
         timespan={t`2022 desember–nå`}
         siteInfo={{
           repo: "https://github.com/paalss/portfolio",
@@ -53,15 +59,6 @@ const Portfolios = () => (
         </p>
       </Trans>
 
-      <div uk-lightbox="animation: slide">
-        <Figure
-          imgSrc={pf5}
-          imgWidth={1229}
-          imgHeight={7013}
-          imgAlt={t`portefølje 5`}
-          caption={t`portefølje 5`}
-        />
-      </div>
       <br />
       <p>
         <Trans>
@@ -74,7 +71,7 @@ const Portfolios = () => (
     <>
       <WorkHeading
         extraSpaceAbove={true}
-        heading={t`Portefølje 4`}
+        heading={t`Tidligere portefølje`}
         timespan="2019"
         siteInfo={{
           repo: "https://github.com/paalss/portfolio-2019-fritid",
@@ -84,11 +81,18 @@ const Portfolios = () => (
 
       <p>
         <Trans>
-          Denne lagde jeg i PHP, mest for å løse for å fikse
-          «samme-header-og-footer-på-alle-sidene». Jeg kunne ikke JavaScript så
-          godt på denne tiden, og jeg hadde tilgang på en <i>live server</i>{" "}
-          &shy; (folk.ntnu.no/paalsst) som støttet PHP. Så det er grunnen til at
-          det ikke ble en statisk side.
+          Dette var en portefølje jeg lagde under studiene. Etter et år ble
+          informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd
+          med desginet og måten jeg hadde kodet det på. Derfor skrotet jeg denne
+          og begynte på siden du er på nå.
+        </Trans>
+      </p>
+      <p>
+        <Trans>
+          Jeg lagde denne i PHP, mest for å fikse
+          «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke
+          JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke
+          brukte det.
         </Trans>
       </p>
 
@@ -106,7 +110,7 @@ const Portfolios = () => (
     <>
       <WorkHeading
         extraSpaceAbove={true}
-        heading={t`Portefølje 3`}
+        heading={t`Portefølje 3, innlevering i webkoding`}
         timespan={t`2016 høst`}
         siteInfo={{
           site: "https://paalss.github.io/portfolio-2016-2-webkoding-final-delivery",
@@ -175,18 +179,18 @@ const Portfolios = () => (
       </p>
       <div uk-lightbox="animation: slide">
         <Figure
-          imgSrc={pf1v2}
-          imgWidth={1280}
-          imgHeight={622}
-          imgAlt={t`portefølje 1 versjon 2`}
-          caption={t`Videreutvikling etter leveranse: nye farger og noe endret layout`}
-        />
-        <Figure
           imgSrc={pf1v1}
           imgWidth={723}
           imgHeight={437}
           imgAlt={t`portefølje 1 versjon 1`}
           caption={t`Innleveringsoppgave på medier og kommunikasjon`}
+        />
+        <Figure
+          imgSrc={pf1v2}
+          imgWidth={1280}
+          imgHeight={622}
+          imgAlt={t`portefølje 1 versjon 2`}
+          caption={t`Videreutvikling etter leveranse: nye farger og noe endret layout`}
         />
       </div>
     </>

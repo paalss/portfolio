@@ -14,18 +14,12 @@ const Dokker = () => (
   <>
     <img src={dokkerInterface} width={2880} height={1534} alt="Dokker logo" />
     <WorkHeading
-      headingInfo={{
-        heading: <Trans>Praksis&shy;prosjekt hos Learning Moment Technologies</Trans>,
-        timespan: t`2021 april–september`,
-        hx: "h2",
-      }}
+      heading="Dokker"
+      timespan={t`2021 april–september`}
       siteInfo={{
         site: "https://www.dokker.com/nb",
       }}
-      toolsInfo={{
-        tools: ["React", "TypeScript", "JSX", "CSS"],
-        toolsText: true,
-      }}
+      tools={["React", "TypeScript", "JSX", "CSS"]}
     />
 
     <Trans>

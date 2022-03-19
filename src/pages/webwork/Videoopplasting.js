@@ -9,17 +9,10 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import Figure from "../../components/common/Figure";
-import ToolList from "../../components/common/ToolList";
-import WorkLinks from "../../components/common/WorkLinks";
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const Videoopplasting = () => (
   <>
-    <h2>
-      <Trans>
-        To studie&shy;proskekter
-        <span className="subtitle">2020 vår</span>
-      </Trans>
-    </h2>
     <Trans>
       <p>
         Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle
@@ -37,11 +30,10 @@ const Videoopplasting = () => (
         kravspesifikasjonen.
       </p>
     </Trans>
-    <h2>{t`PHP-prosjekt`}</h2>
-
-    <ToolList
+    <WorkHeading
+      heading={t`PHP-prosjekt`}
+      timespan={t`2020 vår`}
       tools={["Twig", "PHP", "MySQL", "Relasjonsdatabase", "HTML", "Docker"]}
-      toolsText={true}
     />
 
     <Trans>
@@ -67,10 +59,10 @@ const Videoopplasting = () => (
         caption={t`videoside i PHP-prosjekt`}
       />
     </div>
-    <WorkLinks />
 
-    <h2>{t`LitElement-prosjekt`}</h2>
-    <ToolList
+    <WorkHeading
+      heading={t`LitElement-prosjekt`}
+      timespan={t`2022 tidsspann`}
       tools={[
         "LitElement",
         "JavaScript",
@@ -81,7 +73,6 @@ const Videoopplasting = () => (
         "CSS",
         "Docker",
       ]}
-      toolsText={true}
     />
 
     <dl>
@@ -159,7 +150,6 @@ const Videoopplasting = () => (
         caption={t`«Last opp video»-siden`}
       />
     </div>
-    <WorkLinks />
   </>
 );
 

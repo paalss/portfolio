@@ -7,6 +7,14 @@
   padding: 40px 40px 15px 40px;
 }
 
+.defaultSpace {
+  margin-top: 2rem;
+}
+
+.extraSpace {
+  margin-top: 7rem;
+}
+
 .heading {
   margin: 0;
 }

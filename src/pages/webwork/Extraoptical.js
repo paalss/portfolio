@@ -17,17 +17,12 @@ const Extraoptical = () => (
       alt={t`Extra Optical forside`}
     />
     <WorkHeading
-      headingInfo={{
-        heading: (
-          <Trans>Extra Opticals nye nettbutikk</Trans>
-        ),
-        timespan: t`2022 februar–nå`,
-        hx: "h2",
-      }}
+      heading={t`Extra Opticals nye netbutikk fra februar`}
+      timespan={t`2022 februar–nå`}
       siteInfo={{
         site: "https://extraoptical.no/",
       }}
-      tools={["React", "Linux", "JSX", "CSS", "Magento PWA builder", "PHTML"]}
+      tools={["React", "JSX", "CSS", "Magento PWA builder", "PHTML", "Linux"]}
     />
     <dl>
       <dt>Magento PWA builder</dt>
@@ -63,13 +58,9 @@ const Extraoptical = () => (
     </p>
 
     <WorkHeading
-      headingInfo={{
-        heading: (
-          <Trans>Gammel side</Trans>
-        ),
-        timespan: t`2022 november–februar`,
-        hx: "h2",
-      }}
+      extraSpaceAbove={true}
+      heading={t`Extra Opticals eldre side`}
+      timespan={t`2022 november–februar`}
       tools={["Magento2", "PHTML", "CSS"]}
     />
     <h4>

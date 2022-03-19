@@ -5,25 +5,19 @@ import macleanImg from "../../images/webwork/maclean/alistairmaclean-full.webp";
 import { Trans, t } from "@lingui/macro";
 
 // components
-import ToolList from "../../components/common/ToolList";
-import WorkLinks from "../../components/common/WorkLinks";
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const Maclean = () => (
   <>
     <img src={macleanImg} width={837} height={556} alt={t`maclean nettside`} />
-    <WorkLinks
-      site="https://paalss.github.io/Alistair-MacLean-portfolio-redesign"
-      repo="https://github.com/paalss/Alistair-MacLean-portfolio-redesign"
-    />
-    <h2>
-      <Trans>
-        Innlevering på videregående
-        <span className="subtitle">2015</span>
-      </Trans>
-    </h2>
-    <ToolList
-      tools={["HTML", "CSS", "Photoshop", "Illustrator"]}
-      toolsText={true}
+    <WorkHeading
+      heading={t`Alistair MacLean portfolio redesign`}
+      timespan="2015"
+      siteInfo={{
+        site: "https://paalss.github.io/Alistair-MacLean-portfolio-redesign",
+        repo: "https://github.com/paalss/Alistair-MacLean-portfolio-redesign",
+      }}
+      tools={["HTML", "CSS", "JavaScript", "Photoshop", "Illustrator"]}
     />
 
     <Trans>

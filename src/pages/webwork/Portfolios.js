@@ -10,22 +10,17 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import Figure from "../../components/common/Figure";
-import ToolList from "../../components/common/ToolList";
-import WorkLinks from "../../components/common/WorkLinks";
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const Portfolios = () => (
   <>
     <>
-      <h2>
-        <Trans>
-          Fritidsprosjekt etter studiene
-          <span className="subtitle">2020 desember–nå</span>
-        </Trans>
-      </h2>
-      <WorkLinks
-        repo="https://github.com/paalss/portfolio"
-      />
-      <ToolList
+      <WorkHeading
+        heading={t`Portefølje 5, web-orientert`}
+        timespan={t`2022 desember–nå`}
+        siteInfo={{
+          repo: "https://github.com/paalss/portfolio",
+        }}
         tools={[
           "React",
           "JavaScript",
@@ -34,7 +29,6 @@ const Portfolios = () => (
           <>React&#8209;lingui</>,
           "Schema.org",
         ]}
-        toolsText={true}
       />
 
       <Trans>
@@ -68,7 +62,7 @@ const Portfolios = () => (
           caption={t`portefølje 5`}
         />
       </div>
-
+      <br />
       <p>
         <Trans>
           Dette er ikke første gang jeg har lagd en egen portefølje. Under kan
@@ -78,13 +72,15 @@ const Portfolios = () => (
     </>
 
     <>
-      <h2>
-        <Trans>
-          Fritidsprosjekt under studiene
-          <span className="subtitle">2019</span>
-        </Trans>
-      </h2>
-      <ToolList tools={["PHP", "HTML", "CSS"]} toolsText={true} />
+      <WorkHeading
+        extraSpaceAbove={true}
+        heading={t`Portefølje 4`}
+        timespan="2019"
+        siteInfo={{
+          repo: "https://github.com/paalss/portfolio-2019-fritid",
+        }}
+        tools={["PHP", "CSS"]}
+      />
 
       <p>
         <Trans>
@@ -105,17 +101,19 @@ const Portfolios = () => (
           caption={t`portefølje 4`}
         />
       </div>
-      <WorkLinks repo="https://github.com/paalss/portfolio-2019-fritid" />
     </>
 
     <>
-      <h2>
-        <Trans>
-          Eksamensinnlevering i webkoding
-          <span className="subtitle">2016 høst</span>
-        </Trans>
-      </h2>
-      <ToolList tools={["HTML", "CSS"]} toolsText={true} />
+      <WorkHeading
+        extraSpaceAbove={true}
+        heading={t`Portefølje 3`}
+        timespan={t`2016 høst`}
+        siteInfo={{
+          site: "https://paalss.github.io/portfolio-2016-2-webkoding-final-delivery",
+          repo: "https://github.com/paalss/portfolio-2016-2-webkoding-final-delivery",
+        }}
+        tools={["HTML", "CSS"]}
+      />
 
       <div uk-lightbox="animation: slide">
         <Figure
@@ -126,20 +124,19 @@ const Portfolios = () => (
           caption={t`portefølje 3`}
         />
       </div>
-      <WorkLinks
-        site="https://paalss.github.io/portfolio-2016-2-webkoding-final-delivery"
-        repo="https://github.com/paalss/portfolio-2016-2-webkoding-final-delivery"
-      />
     </>
 
     <>
-      <h2>
-        <Trans>
-          En portefølje påbegynt like før studiene
-          <span className="subtitle">2016</span>
-        </Trans>
-      </h2>
-      <ToolList tools={["HTML", "CSS"]} toolsText={true} />
+      <WorkHeading
+        extraSpaceAbove={true}
+        heading={t`Portefølje 2`}
+        timespan="2016"
+        siteInfo={{
+          site: "https://paalss.github.io/portfolio-2016-1-fritid",
+          repo: "https://github.com/paalss/portfolio-2016-1-fritid",
+        }}
+        tools={["HTML", "CSS"]}
+      />
 
       <p>
         {t`Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig.`}
@@ -154,22 +151,22 @@ const Portfolios = () => (
           caption={t`Fritidsprosjekt som aldri ble fullført`}
         />
       </div>
-      <WorkLinks
-        site="https://paalss.github.io/portfolio-2016-1-fritid"
-        repo="https://github.com/paalss/portfolio-2016-1-fritid"
-      />
     </>
 
     <>
-      <h2>
-        <Trans>
-          Innlevering på VGS og videreutvikling etter det
-          <span className="subtitle">2015</span>
-        </Trans>
-      </h2>
-      <ToolList tools={["HTML", "CSS"]} toolsText={true} />
+      <WorkHeading
+        extraSpaceAbove={true}
+        heading={t`Portefølje 1`}
+        timespan="2015"
+        siteInfo={{
+          site: "https://paalss.github.io/portfolio-2015-2-etter-innlevering",
+          repo: "https://github.com/paalss/portfolio-2015-2-etter-innlevering",
+        }}
+        tools={["HTML", "CSS"]}
+      />
 
       <p>
+        {/* Skoleoppgave portefølje + etterarbeid */}
         <Trans>
           I 2015 gikk jeg på <i>medier og kommunikasjon</i> på Byåsen VGS. Der
           hadde jeg en oppgave i å lage en tresiders portefølje om meg selv.
@@ -192,10 +189,6 @@ const Portfolios = () => (
           caption={t`Innleveringsoppgave på medier og kommunikasjon`}
         />
       </div>
-      <WorkLinks
-        site="https://paalss.github.io/portfolio-2015-2-etter-innlevering"
-        repo="https://github.com/paalss/portfolio-2015-2-etter-innlevering"
-      />
     </>
   </>
 );

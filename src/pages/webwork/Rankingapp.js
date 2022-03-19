@@ -9,10 +9,7 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import Figure from "../../components/common/Figure";
-import ToolList from "../../components/common/ToolList";
-import WorkLinks from "../../components/common/WorkLinks";
-
-
+import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const Rankingapp = () => (
   <>
@@ -22,14 +19,12 @@ const Rankingapp = () => (
       height={616}
       alt="Ranking app interface"
     />
-    <WorkLinks repo="https://github.com/paalss/Ranking-app" />
-    <h2>
-      <Trans>
-        Ranking app
-        <span className="subtitle">2020 høst–2021 september</span>
-      </Trans>
-    </h2>
-    <ToolList
+    <WorkHeading
+      heading={t`Ranking app`}
+      timespan={t`2020 høst – 2021 september`}
+      siteInfo={{
+        repo: "https://github.com/paalss/Ranking-app",
+      }}
       tools={[
         "JavaScript",
         "TypeScript",
@@ -41,7 +36,6 @@ const Rankingapp = () => (
         "CSS",
         "Docker",
       ]}
-      toolsText={true}
     />
     <Trans>
       Prosjektet er foreløpig satt på pause.

@@ -19,7 +19,12 @@
     background-position: 230% -135px;
     background-size: 130%;
   }
-  .container > *:not(main img):not(main .work-heading) {
+  .container > *:not(main img):not(.full-width):not(.normal-list) {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+  .normal-list {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -202,6 +207,16 @@
   .oldbody > * {
     padding-left: 14%;
     padding-right: 14%;
+  }
+  .container > *:not(main img):not(.full-width):not(.normal-list) {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+  }
+  main .container > *:not(main img):not(.full-width):not(.normal-list) {
+    margin-left: 5%;
+    margin-right: 5%;
+    /* width: 90%; */
   }
   h1 {
     font-size: 3rem;

@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #: src/pages/webwork/Fagstoff.js:21
-#: src/pages/webwork/Portfolios.js:114
+#: src/pages/webwork/Portfolios.js:131
 msgid "2016 høst"
 msgstr "2016 høst"
 
@@ -31,7 +31,7 @@ msgstr "2020 vår"
 msgid "2021 april–september"
 msgstr "2021 april–september"
 
-#: src/pages/webwork/Portfolios.js:26
+#: src/pages/webwork/Portfolios.js:28
 msgid "2022 desember–nå"
 msgstr "2022 desember–nå"
 
@@ -60,13 +60,17 @@ msgstr "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dett
 msgid "<0>I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å redesigne <1>alistairmaclean.com</1> sitt GUI. Grunnen var at jeg tidligere hadde jeg sett og vært skuffet over hvordan den så ut. MacLean skrev nesten utelukkende bøker med action og spenning, og det syntes jeg ikke nettsiden reflekterte noe av.</0><2>Verktøy</2><3>Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript (ikke så mye å skryte av). Logoen lagde jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av eget modellfly oppå noen T-skjorter.</3>"
 msgstr "<0>I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å redesigne <1>alistairmaclean.com</1> sitt GUI. Grunnen var at jeg tidligere hadde jeg sett og vært skuffet over hvordan den så ut. MacLean skrev nesten utelukkende bøker med action og spenning, og det syntes jeg ikke nettsiden reflekterte noe av.</0><2>Verktøy</2><3>Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript (ikke så mye å skryte av). Logoen lagde jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av eget modellfly oppå noen T-skjorter.</3>"
 
+#: src/pages/webwork/Portfolios.js:60
+msgid "<0>I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
+msgstr "<0>I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
+
 #: src/pages/webwork/Videoopplasting.js:40
 msgid "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting, ‑redigering og ‑visning. I tillegg gjorde jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting av videoer til filsystemet. Jeg jobbet også litt med kommentarer.</0><1>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</1>"
 msgstr "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting, ‑redigering og ‑visning. I tillegg gjorde jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting av videoer til filsystemet. Jeg jobbet også litt med kommentarer.</0><1>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</1>"
 
 #: src/pages/webwork/Portfolios.js:40
-msgid "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
-msgstr "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
+#~ msgid "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
+#~ msgstr "<0>Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking. I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 
 #: src/pages/Home.js:14
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
@@ -162,7 +166,7 @@ msgstr "Bosatt i Trondheim"
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 
-#: src/pages/webwork/Portfolios.js:146
+#: src/pages/webwork/Portfolios.js:163
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 
@@ -178,11 +182,11 @@ msgstr "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også p
 msgid "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim- og mysterier-bokserie som tar plass i england på 50-tallet. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg det var. (Det er fortsatt bare en skoleoppgave og ikke et 'ordentlig' oppdrag, altså.)"
 msgstr "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim- og mysterier-bokserie som tar plass i england på 50-tallet. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg det var. (Det er fortsatt bare en skoleoppgave og ikke et 'ordentlig' oppdrag, altså.)"
 
-#: src/pages/webwork/Portfolios.js:64
+#: src/pages/webwork/Portfolios.js:81
 msgid "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 msgstr "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 
-#: src/pages/webwork/Portfolios.js:83
+#: src/pages/webwork/Portfolios.js:100
 msgid "Dette var en portefølje jeg lagde under studiene. Etter et år ble informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd med desginet og måten jeg hadde kodet det på. Derfor skrotet jeg denne og begynte på siden du er på nå."
 msgstr "Dette var en portefølje jeg lagde under studiene. Etter et år ble informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd med desginet og måten jeg hadde kodet det på. Derfor skrotet jeg denne og begynte på siden du er på nå."
 
@@ -272,7 +276,7 @@ msgstr "Fikset på Extra Opticals Zendesk Help center."
 msgid "Flavia de Luce serien web-banner"
 msgstr "Flavia de Luce serien web-banner"
 
-#: src/pages/webwork/Portfolios.js:155
+#: src/pages/webwork/Portfolios.js:172
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Fritidsprosjekt som aldri ble fullført"
 
@@ -305,7 +309,7 @@ msgstr "Grunn­leggende"
 msgid "Hjem"
 msgstr "Hjem"
 
-#: src/pages/webwork/Portfolios.js:174
+#: src/pages/webwork/Portfolios.js:191
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 
@@ -313,13 +317,17 @@ msgstr "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der 
 msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 msgstr "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 
-#: src/pages/webwork/Portfolios.js:186
+#: src/pages/webwork/Portfolios.js:203
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Innleveringsoppgave på medier og kommunikasjon"
 
-#: src/pages/webwork/Portfolios.js:91
+#: src/pages/webwork/Portfolios.js:108
 msgid "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
 msgstr "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
+
+#: src/pages/webwork/Portfolios.js:43
+msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
+msgstr "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 
 #: src/components/common/Barchart/Barchart.js:62
 msgid "Kan grunnleggende {tech}"
@@ -393,19 +401,19 @@ msgstr "PHP-prosjekt"
 msgid "Plakat"
 msgstr "Plakat"
 
-#: src/pages/webwork/Portfolios.js:25
+#: src/pages/webwork/Portfolios.js:27
 msgid "Portefølje"
 msgstr "Portefølje"
 
-#: src/pages/webwork/Portfolios.js:163
+#: src/pages/webwork/Portfolios.js:180
 msgid "Portefølje 1"
 msgstr "Portefølje 1"
 
-#: src/pages/webwork/Portfolios.js:136
+#: src/pages/webwork/Portfolios.js:153
 msgid "Portefølje 2"
 msgstr "Portefølje 2"
 
-#: src/pages/webwork/Portfolios.js:113
+#: src/pages/webwork/Portfolios.js:130
 msgid "Portefølje 3, innlevering i webkoding"
 msgstr "Portefølje 3, innlevering i webkoding"
 
@@ -448,7 +456,7 @@ msgstr "Søkefelt"
 msgid "Søkeresultater"
 msgstr "Søkeresultater"
 
-#: src/pages/webwork/Portfolios.js:74
+#: src/pages/webwork/Portfolios.js:91
 msgid "Tidligere portefølje"
 msgstr "Tidligere portefølje"
 
@@ -485,7 +493,7 @@ msgstr "Video­opplastings­apper"
 msgid "Videre lesing"
 msgstr "Videre lesing"
 
-#: src/pages/webwork/Portfolios.js:193
+#: src/pages/webwork/Portfolios.js:210
 msgid "Videreutvikling etter leveranse: nye farger og noe endret layout"
 msgstr "Videreutvikling etter leveranse: nye farger og noe endret layout"
 
@@ -536,31 +544,39 @@ msgstr "mord på orienteksekspressen bok-cover"
 msgid "plakat med logo"
 msgstr "plakat med logo"
 
-#: src/pages/webwork/Portfolios.js:185
+#: src/pages/webwork/Portfolios.js:202
 msgid "portefølje 1 versjon 1"
 msgstr "portefølje 1 versjon 1"
 
-#: src/pages/webwork/Portfolios.js:192
+#: src/pages/webwork/Portfolios.js:209
 msgid "portefølje 1 versjon 2"
 msgstr "portefølje 1 versjon 2"
 
-#: src/pages/webwork/Portfolios.js:154
+#: src/pages/webwork/Portfolios.js:171
 msgid "portefølje 2"
 msgstr "portefølje 2"
 
-#: src/pages/webwork/Portfolios.js:127
-#: src/pages/webwork/Portfolios.js:128
+#: src/pages/webwork/Portfolios.js:144
+#: src/pages/webwork/Portfolios.js:145
 msgid "portefølje 3"
 msgstr "portefølje 3"
 
-#: src/pages/webwork/Portfolios.js:104
-#: src/pages/webwork/Portfolios.js:105
+#: src/pages/webwork/Portfolios.js:121
+#: src/pages/webwork/Portfolios.js:122
 msgid "portefølje 4"
 msgstr "portefølje 4"
 
-#: src/pages/webwork/Portfolios.js:20
+#: src/pages/webwork/Portfolios.js:22
 msgid "portefølje med foto og ferdigheter"
 msgstr "portefølje med foto og ferdigheter"
+
+#: src/pages/webwork/Portfolios.js:55
+msgid "portefølje med prosjekter"
+msgstr "portefølje med prosjekter"
+
+#: src/pages/webwork/Portfolios.js:56
+msgid "porteføljen slik den så ut 9. desember 2020"
+msgstr "porteføljen slik den så ut 9. desember 2020"
 
 #: src/pages/webwork/Videoopplasting.js:136
 msgid "side med videospiller, meny og transkript"

@@ -1,4 +1,6 @@
+// images
 import pf5 from "../../images/webwork/portfolios/pf5.webp";
+import p5Old from "../../images/webwork/portfolios/pf5-1-9desember-2020.png";
 import pf4 from "../../images/webwork/portfolios/pf4.webp";
 import pf3 from "../../images/webwork/portfolios/pf3.webp";
 import pf2 from "../../images/webwork/portfolios/pf2-full2.webp";
@@ -37,12 +39,27 @@ const Portfolios = () => (
         ]}
       />
 
-      <Trans>
-        <p>
+      <p>
+        <Trans>
           Jeg startet på denne siden desember 2020, og jeg designet den
           spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle
-          fungere som et supplement til CV i forbindelse med jobbsøking. I
-          senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er
+          fungere som et supplement til CV i forbindelse med jobbsøking.
+        </Trans>
+      </p>
+
+      <div uk-lightbox="animation: slide">
+        <Figure
+          imgSrc={p5Old}
+          imgWidth={1918}
+          imgHeight={920}
+          imgAlt={t`portefølje med prosjekter`}
+          caption={t`porteføljen slik den så ut 9. desember 2020`}
+        />
+      </div>
+
+      <Trans>
+        <p>
+          I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er
           veldig fornøyd med designet, kodekvaliteten og valg av verktøy.
         </p>
         <h3>Hvorfor React?</h3>

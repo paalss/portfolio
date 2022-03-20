@@ -38,7 +38,7 @@ const MPOE = () => (
         imgWidth={0}
         imgHeight={0}
         imgAlt={t`bok-cover`}
-        caption={t`bokc-over`}
+        caption={t`bok-cover`}
       />
       <Figure
         imgSrc={mpoeProcessImg2}

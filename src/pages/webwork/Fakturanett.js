@@ -13,7 +13,7 @@ const Fakturanett = () => (
     <img src={webappImg} width={1294} height={665} alt={t`fakturanett forside`} />
 
     <WorkHeading
-      heading={t`Fakturanett`}
+      heading="Fakturanett"
       timespan={t`2022 februar–nå`}
       siteInfo={{
         site: "https://www.fakturanett.no/"

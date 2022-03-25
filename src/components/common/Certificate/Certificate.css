@@ -5,6 +5,10 @@
   align-content: center;
   flex-wrap: wrap;
 }
+.certificate-bg img {
+  width: 100%;
+  height: auto;
+}
 .card3d {
   width: 90%;
   -webkit-transform: scale(1);

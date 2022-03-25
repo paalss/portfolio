@@ -19,6 +19,7 @@ const Portfolios = () => (
     <>
       <img
         src={pf5}
+        className="work-heading-img"
         alt={t`portefølje med foto og ferdigheter`}
         width={1229}
         height={7013}

@@ -31,7 +31,7 @@ const LightboxImage = ({
     return (
       // data-type="image" er nødvendig for at UIkit lightbox alltid skal funke
       <a href={imgSrc} data-caption={title} data-type="image">
-        <img src={imgSrc} width={imgWidth} height={imgHeight} alt={imgAlt} />
+        <img src={imgSrc} width={imgWidth} height={imgHeight} alt={imgAlt} className={classes.img} />
       </a>
     );
   }

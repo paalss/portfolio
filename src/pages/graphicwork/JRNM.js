@@ -15,6 +15,7 @@ const JRNM = () => (
   <>
     <img
       src={JRNMImg}
+      className="work-heading-img"
       width={5184}
       height={3456}
       alt="Junior NM på ski logo på skilt"

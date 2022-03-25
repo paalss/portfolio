@@ -9,10 +9,15 @@ import { Trans, t } from "@lingui/macro";
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
-
 const Flaviadeluce = () => (
   <>
-    <img src={flaviaBannerImg} width={0} height={0} alt="web-banner" />
+    <img
+      src={flaviaBannerImg}
+      className="work-heading-img"
+      width={0}
+      height={0}
+      alt="web-banner"
+    />
     <WorkHeading
       heading={t`Flavia de Luce serien web-banner`}
       timespan="2015?"
@@ -21,10 +26,10 @@ const Flaviadeluce = () => (
     <p>
       <Trans>
         Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim- og
-        mysterier-bokserie som tar plass i england på 50-tallet.
-        Bokbanneret er ment for å passe til å bli brukt på en
-        bokhandel-nettside, ark.no, tror jeg det var. (Det er fortsatt bare en
-        skoleoppgave og ikke et 'ordentlig' oppdrag, altså.)
+        mysterier-bokserie som tar plass i england på 50-tallet. Bokbanneret er
+        ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror
+        jeg det var. (Det er fortsatt bare en skoleoppgave og ikke et
+        'ordentlig' oppdrag, altså.)
       </Trans>
     </p>
     <div uk-lightbox="animation: slide" className="flex wrap">

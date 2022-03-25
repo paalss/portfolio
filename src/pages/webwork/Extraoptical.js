@@ -12,6 +12,7 @@ const Extraoptical = () => (
   <>
     <img
       src={frontpagePwaImg}
+      className="work-heading-img"
       width={1504}
       height={909}
       alt={t`Extra Optical forside`}
@@ -25,7 +26,7 @@ const Extraoptical = () => (
       }}
       tools={["React", "JSX", "CSS", "Magento PWA builder", "PHTML", "Linux"]}
     />
-    
+
     <dl>
       <dt>Magento PWA builder</dt>
       <dd>

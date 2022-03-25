@@ -11,6 +11,7 @@ const Fagstoff = () => (
   <>
     <img
       src={fagstoffImg}
+      className="work-heading-img"
       width={1893}
       height={543}
       alt={t`Nettside med overskriften 'fagstoff'`}

@@ -10,7 +10,13 @@ import WorkHeading from "../components/common/WorkHeading/WorkHeading";
 
 const Template = () => (
   <>
-    <img src={projImg} width={0} height={0} alt={t`_bilde`} />
+    <img
+      src={projImg}
+      className="work-heading-img"
+      width={0}
+      height={0}
+      alt={t`_bilde`}
+    />
     <WorkHeading
       heading={t`h1-tittel eller oppdelt`}
       timespan={t`2022 tidsspann`}

@@ -21,6 +21,10 @@
   transition: 0.2s;
 }
 
+.img {
+  height: auto;
+}
+
 .galleryImg:hover {
   transform: scale(1.1);
   transition: 0.2s;

@@ -15,6 +15,7 @@ const Rankingapp = () => (
   <>
     <img
       src={rankingappGif}
+      className="work-heading-img"
       width={1296}
       height={616}
       alt="Ranking app interface"

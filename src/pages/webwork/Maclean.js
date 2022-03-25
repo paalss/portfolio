@@ -9,8 +9,14 @@ import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const Maclean = () => (
   <>
-    <img src={macleanImg} width={837} height={556} alt={t`maclean nettside`} />
-    
+    <img
+      src={macleanImg}
+      className="work-heading-img"
+      width={837}
+      height={556}
+      alt={t`maclean nettside`}
+    />
+
     <WorkHeading
       heading={t`Alistair MacLean portefølje redesign`}
       timespan="2015"

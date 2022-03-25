@@ -19,9 +19,10 @@
     background-position: 230% -135px;
     background-size: 130%;
   }
-  .container > *:not(main img):not(main .work-heading) {
-    margin-left: 5%;
-    margin-right: 5%;
+  /* oppdaterer du dette, må du også oppdatere main img her og  */
+  .oldbody > * {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .mb-50 {
     margin-bottom: 50px;
@@ -143,9 +144,12 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  main img {
+  main .work-heading-img {
     height: auto; /*nødvendig for å overskrive height attribute */
-    width: 100%;
+    /* må synces med .oldbody > * */
+    width: 120%;
+    margin-left: -10%;
+    margin-right: -10%;
   }
   main a.button,
   main span.button {
@@ -202,6 +206,13 @@
   .oldbody > * {
     padding-left: 14%;
     padding-right: 14%;
+  }
+  main .work-heading-img {
+    height: auto; /*nødvendig for å overskrive height attribute */
+    /* trekk bilde ut av container, og legg til på bredde */
+    width: 106%;
+    margin-left: -3%;
+    margin-right: -3%;
   }
   h1 {
     font-size: 3rem;

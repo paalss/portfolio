@@ -3,7 +3,10 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   background-color: #eee;
-  padding: 5% 40px 15px 5%;
+  /* må venstre og høyre må synces med index.css .oldbody > * */
+  padding: 40px 10% 15px 10%;
+  margin-right: -10%;
+  margin-left: -10%;
 }
 
 .defaultSpace {
@@ -16,4 +19,14 @@
 
 .heading {
   margin: 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .root {
+    /* trekk bilde ut av container, og legg til på bredde */
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: -3%;
+    margin-right: -3%;
+  }
 }

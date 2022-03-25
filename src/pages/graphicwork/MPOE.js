@@ -15,6 +15,7 @@ const MPOE = () => (
   <>
     <img
       src={mpoeCoverImg}
+      className="work-heading-img"
       width={961}
       height={446}
       alt={t`mord på orienteksekspressen bok-cover`}

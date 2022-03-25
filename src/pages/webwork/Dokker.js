@@ -12,8 +12,14 @@ import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
 
 const Dokker = () => (
   <>
-    <img src={dokkerInterface} width={2880} height={1534} alt="Dokker logo" />
-    
+    <img
+      src={dokkerInterface}
+      className="work-heading-img"
+      width={2880}
+      height={1534}
+      alt="Dokker logo"
+    />
+
     <WorkHeading
       heading="Dokker"
       timespan={t`2021 april–september`}

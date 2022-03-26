@@ -77,7 +77,6 @@ const Portfolios = () => (
         </p>
       </Trans>
 
-      <br />
       <p>
         <Trans>
           Dette er ikke første gang jeg har lagd en egen portefølje. Under kan
@@ -128,7 +127,7 @@ const Portfolios = () => (
     <>
       <WorkHeading
         extraSpaceAbove={true}
-        heading={t`Portefølje 3, innlevering i webkoding`}
+        heading={t`Innlevering i webkoding`}
         timespan={t`2016 høst`}
         siteInfo={{
           site: "https://paalss.github.io/portfolio-2016-2-webkoding-final-delivery",
@@ -151,7 +150,7 @@ const Portfolios = () => (
     <>
       <WorkHeading
         extraSpaceAbove={true}
-        heading={t`Portefølje 2`}
+        heading={t`Enda tidligere portefølje`}
         timespan="2016"
         siteInfo={{
           site: "https://paalss.github.io/portfolio-2016-1-fritid",
@@ -178,7 +177,7 @@ const Portfolios = () => (
     <>
       <WorkHeading
         extraSpaceAbove={true}
-        heading={t`Portefølje 1`}
+        heading={t`Innleveringsoppgave`}
         timespan="2015"
         siteInfo={{
           site: "https://paalss.github.io/portfolio-2015-2-etter-innlevering",

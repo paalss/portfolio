@@ -35,12 +35,12 @@ msgstr "2021 April–September"
 msgid "2022 desember–nå"
 msgstr "2022 December–now"
 
-#: src/pages/webwork/Extraoptical.js:23
+#: src/pages/webwork/Extraoptical.js:24
 #: src/pages/webwork/Fakturanett.js:23
 msgid "2022 februar–nå"
 msgstr "2022 February–now"
 
-#: src/pages/webwork/Extraoptical.js:73
+#: src/pages/webwork/Extraoptical.js:74
 msgid "2022 november–februar"
 msgstr "2022 November–February"
 
@@ -141,7 +141,7 @@ msgstr "Best metroidvanias list example"
 msgid "Besøk siden"
 msgstr "Visit site"
 
-#: src/pages/webwork/Extraoptical.js:77
+#: src/pages/webwork/Extraoptical.js:78
 msgid "Bidrag"
 msgstr "Contribution"
 
@@ -158,7 +158,7 @@ msgstr "Book-cover and similar"
 msgid "Bosatt i Trondheim"
 msgstr "Resident in Trondheim"
 
-#: src/pages/webwork/Extraoptical.js:103
+#: src/pages/webwork/Extraoptical.js:104
 msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgstr "Built some sites on the new webpage (a Progressive Web App)"
 
@@ -170,7 +170,7 @@ msgstr "This site was abandoned half-finished and has no sub-pages."
 msgid "Denne porteføljen"
 msgstr "This portfolio"
 
-#: src/pages/webwork/Extraoptical.js:63
+#: src/pages/webwork/Extraoptical.js:64
 msgid "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
 msgstr "This version of the web page was launched February 2022. I also had internship at Extra Opticla before this, so I've worked on the older version of the site as well."
 
@@ -215,7 +215,7 @@ msgstr "Yet another earlier portfolio"
 msgid "Erfaring"
 msgstr "Experience"
 
-#: src/pages/webwork/Extraoptical.js:49
+#: src/pages/webwork/Extraoptical.js:50
 msgid "Et HTML templating språk (HTML hvor man kan bruke variabler og expressions). Ikke så ulikt Twig og Handlebars."
 msgstr "A HTML templating language (HTML where you can use variables and expressions). Not so different to Twig and Handlebars."
 
@@ -223,9 +223,9 @@ msgstr "A HTML templating language (HTML where you can use variables and express
 msgid "Et bok-cover jeg lagde for boka \"Mord på orientekspressen\" av Agatha Christie. Jeg lagde også et poster og andre design med samme motiv."
 msgstr "A book cover I made for the book \"Murder on the Orient Express\" by Agata Christie. I also made a poster and some other designs."
 
-#: src/pages/webwork/Extraoptical.js:40
-msgid "Et eCommerce CMS hvor nettsideadministratorer kan legge til egne undersider og byggeklosser."
-msgstr "A eCommerce CMS where webpage admins may create their own subpages and building blocks."
+#: src/pages/webwork/Extraoptical.js:41
+msgid "Et eCommerce CMS hvor administratorer kan legge til egne undersider og byggeklosser med drag and drop interface. Kildekoden kan hente inn disse byggeklossene med <0>CmsBlock/</0>"
+msgstr "A eCommerce CMS where admins may create their own subpages and building blocks."
 
 #: src/pages/webwork/Dokker.js:61
 msgid "Et kort for keep-up-delen av dashboard"
@@ -239,17 +239,21 @@ msgstr "A card for the recent-activites part of dashboard"
 msgid "Et poster jeg også lagde"
 msgstr "A poster which I also made"
 
-#: src/pages/webwork/Extraoptical.js:18
+#: src/pages/webwork/Extraoptical.js:19
 msgid "Extra Optical forside"
 msgstr "Extra Optical front page"
 
-#: src/pages/webwork/Extraoptical.js:72
+#: src/pages/webwork/Extraoptical.js:73
 msgid "Extra Opticals eldre side"
 msgstr "Extra Optical's older page"
 
 #: src/pages/webwork/Extraoptical.js:22
-msgid "Extra Opticals nye netbutikk fra februar"
-msgstr "Extra Optocal's new webshop from February"
+#~ msgid "Extra Opticals nye netbutikk fra februar"
+#~ msgstr "Extra Optocal's new webshop from February"
+
+#: src/pages/webwork/Extraoptical.js:23
+msgid "Extra Opticals nye nettbutikk"
+msgstr "Extra Optical's new online store"
 
 #: src/pages/webwork/Fagstoff.js:21
 #: src/pagesInfo.js:155
@@ -260,15 +264,15 @@ msgstr "Subject matter"
 msgid "Fant ingen bilder"
 msgstr "Found no images"
 
-#: src/pages/webwork/Extraoptical.js:81
+#: src/pages/webwork/Extraoptical.js:82
 msgid "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 msgstr "Fixed errors and code negligence in HTML. For example there were many <0>opening/closing</0>-HTML-tags that missed matching pair"
 
-#: src/pages/webwork/Extraoptical.js:98
+#: src/pages/webwork/Extraoptical.js:99
 msgid "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 msgstr "Fixed layout on bottom text and made a site available for mobile sizes"
 
-#: src/pages/webwork/Extraoptical.js:95
+#: src/pages/webwork/Extraoptical.js:96
 msgid "Fikset på Extra Opticals Zendesk Help center."
 msgstr "Fixed Extra Optical's Zendesk Help center"
 
@@ -357,7 +361,7 @@ msgstr "Art"
 msgid "Lag egne lister"
 msgstr "Create your own lists"
 
-#: src/pages/webwork/Extraoptical.js:92
+#: src/pages/webwork/Extraoptical.js:93
 msgid "Lagd undersider"
 msgstr "Made subpages"
 
@@ -413,7 +417,7 @@ msgstr "Poster"
 msgid "Portefølje"
 msgstr "Portfolio"
 
-#: src/pages/webwork/Extraoptical.js:56
+#: src/pages/webwork/Extraoptical.js:57
 msgid "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
 msgstr "On the new webpage I hade worked in both Magento PWA builder and in the source code."
 
@@ -425,7 +429,7 @@ msgstr "React certificate"
 msgid "Relasjonsdatabase"
 msgstr "Relational database"
 
-#: src/pages/webwork/Extraoptical.js:87
+#: src/pages/webwork/Extraoptical.js:88
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 

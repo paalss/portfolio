@@ -5,7 +5,7 @@ import macleanImg from "../../images/webwork/maclean/alistairmaclean-full.webp";
 import { Trans, t } from "@lingui/macro";
 
 // components
-import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
+import WorkHeading from "../../components/common/WorkHeading";
 
 const Maclean = () => (
   <>

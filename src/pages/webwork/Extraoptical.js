@@ -6,7 +6,8 @@ import frontpagePwaImg from "../../images/webwork/extraoptical/sider/front-page-
 import { Trans, t } from "@lingui/macro";
 
 // components
-import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
+import WorkHeading from "../../components/common/WorkHeading";
+import HT from "../../components/common/HtmlTag"
 
 const Extraoptical = () => (
   <>
@@ -19,7 +20,7 @@ const Extraoptical = () => (
     />
 
     <WorkHeading
-      heading={t`Extra Opticals nye netbutikk fra februar`}
+      heading={t`Extra Opticals nye nettbutikk`}
       timespan={t`2022 februar–nå`}
       siteInfo={{
         site: "https://extraoptical.no/",
@@ -38,8 +39,8 @@ const Extraoptical = () => (
       <dt>Magento PWA builder</dt>
       <dd>
         <Trans>
-          Et eCommerce CMS hvor nettsideadministratorer kan legge til egne
-          undersider og byggeklosser.
+          Et eCommerce CMS hvor administratorer kan legge til egne
+          undersider og byggeklosser med drag and drop interface. Kildekoden kan hente inn disse byggeklossene med <HT>CmsBlock/</HT>
         </Trans>
       </dd>
     </dl>

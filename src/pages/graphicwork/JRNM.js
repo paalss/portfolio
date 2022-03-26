@@ -9,7 +9,7 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import Figure from "../../components/common/Figure";
-import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
+import WorkHeading from "../../components/common/WorkHeading";
 
 const JRNM = () => (
   <>

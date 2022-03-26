@@ -2,25 +2,26 @@
 
 https://paalss.github.io/portfolio/
 
-## Notater for development
+## Utvikling
 
-### Installer depencencies
-
-`yarn`
-
-### Serve
-
-`yarn start`
-
-### Deploy
-
-1. `yarn predeploy`
-
-2. `yarn deploy`
-
+**Installer dependencies**
+```
+yarn
+```
+**Serve**
+```
+yarn start
+```
+**Deploy**
+```
+yarn predeploy
+yarn deploy
+```
 https://create-react-app.dev/docs/deployment#github-pages
 
-OBS! Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg husker ikke hva for å serve appen, så kan det hende at du ikke får predeployet som normalt og ikke deployet i det hele tatt når du er tilbake på siste master-versjon igjen. Har notert løsningen her:
+### Deploy-problemer etter checkout
+
+Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg husker ikke hva for å serve appen, så kan det hende at du ikke får predeployet som normalt og ikke deployet i det hele tatt når du er tilbake på siste master-versjon igjen. Har notert løsningen her:
 
 [deploy-problem-losning.md](deploy-problem-losning.md)
 
@@ -35,6 +36,33 @@ Ikke bruk `t` for tekst i pagesInfo.js, det oppdateres kun når det er JSX (`<Tr
 
 https://lingui.js.org/tutorials/react.html
 
+### AVIF / webp bildekonvertering
+
+#### Med Squoosh CLI (avif/webp)
+
+**Eksempler**
+
+* `npx @squoosh/cli --avif auto test.png`
+  
+* `npx @squoosh/cli --webp auto test.png`
+
+* `npx @squoosh/cli --avif auto mappe-med-bilder/`
+
+Se mer:
+
+https://github.com/GoogleChromeLabs/squoosh/tree/dev/cli
+
+https://squoosh.app/
+
+#### Med Cwebp binaries (webp)
+
+Konverter alle png og jpg bilder i en mappe til webp-filer:
+[How to convert my photos to webp format of Google in windows 8.1?](https://stackoverflow.com/questions/24484272/how-to-convert-my-photos-to-webp-format-of-google-in-windows-8-1) se svaret til pldg. libwebp-1.2.1-windows-x64 funker for windows 10 Education
+
+### Forminsk webp bilder (for SquareLink bilder)
+
+https://www.xconvert.com/compress-webp
+
 ### Instagram-galleri API ressurser
 
 https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
@@ -46,15 +74,6 @@ https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-
 (.env.example ligger i prosjektrota)
 
 2. Lim inn long lived access token og tracking id
-
-### Konverter bilder til webp
-
-Konverter alle png og jpg bilder i en mappe til webp-filer:
-[How to convert my photos to webp format of Google in windows 8.1?](https://stackoverflow.com/questions/24484272/how-to-convert-my-photos-to-webp-format-of-google-in-windows-8-1) se svaret til pldg. libwebp-1.2.1-windows-x64 funker for windows 10 Education
-
-### Forminsk webp bilder (for SquareLink bilder)
-
-https://www.xconvert.com/compress-webp
 
 ### Kilder
 

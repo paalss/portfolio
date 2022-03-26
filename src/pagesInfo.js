@@ -9,7 +9,7 @@ import { Trans } from "@lingui/macro";
 import photo from "./images/cvphoto2.webp";
 
 // webwork
-import fakturanettImg from "./images/webwork/fakturanett/fakturanett-icon.png";
+import fakturanettImg from "./images/webwork/fakturanett/fakturanett-icon.avif";
 import extraopticalImg from "./images/webwork/extraoptical/logo/eo-icon.webp";
 import dokkerImg from "./images/webwork/dokker/logo/dokkericon.webp";
 import rankingappImg from "./images/webwork/rankingapp/rankingapp-small.webp";

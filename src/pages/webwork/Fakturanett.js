@@ -1,11 +1,11 @@
 // images
-import webappImg from "../../images/webwork/fakturanett/page.png";
+import webappImg from "../../images/webwork/fakturanett/page.avif";
 
 // react lingui
 import { t } from "@lingui/macro";
 
 // components
-import WorkHeading from "../../components/common/WorkHeading/WorkHeading";
+import WorkHeading from "../../components/common/WorkHeading";
 // import Figure from "../../components/common/Figure";
 
 const Fakturanett = () => (

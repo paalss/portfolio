@@ -321,6 +321,14 @@ msgstr "In 2015 i attended <0>media and communication</0> on Byåsen VGS (highsc
 msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 msgstr "In the course \"Graphic Tools, Principles and Methods\" we made a clickable hi-fi prototype for an app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 
+#: src/pages/Gallery/Gallery.js:76
+msgid "Innlasting av bilder mislyktes. Du kan prøve å:<0><1>Slå av utvidet sporingsbeskyttelse for dette nettstedet</1><2>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</2></0>Ellers så kan du gå til <3>min Instagram-konto</3> og de samme bildene der."
+msgstr "Loading of images failed. You can try to:<0><1>Turn off Enhanced Tracking Protection for this site</1><2>Open this webpage in Google Chrome or Microsoft Edge</2></0>Or else you can go to <3>my Instagram-account</3> and see the same images there."
+
+#: src/pages/Gallery/Gallery.js:61
+msgid "Innlasting av bilder mislyktes. Men du kan alltids se innholdet på <0>min Instagram-konto</0>."
+msgstr "Loading of images failed. But you can alway see the same content at <0>my Instagram-account</0>."
+
 #: src/pages/webwork/Portfolios.js:130
 msgid "Innlevering i webkoding"
 msgstr "Assignment in web coding"
@@ -365,7 +373,7 @@ msgstr "Create your own lists"
 msgid "Lagd undersider"
 msgstr "Made subpages"
 
-#: src/pages/Gallery/Gallery.js:63
+#: src/pages/Gallery/Gallery.js:97
 msgid "Laster inn..."
 msgstr "Loading..."
 

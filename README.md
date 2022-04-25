@@ -19,6 +19,8 @@ yarn deploy
 ```
 https://create-react-app.dev/docs/deployment#github-pages
 
+Ikke bruk WSL. Bruk git bash. React-snap klikker på WSL
+
 ### Deploy-problemer etter checkout
 
 Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg husker ikke hva for å serve appen, så kan det hende at du ikke får predeployet som normalt og ikke deployet i det hele tatt når du er tilbake på siste master-versjon igjen. Har notert løsningen her:

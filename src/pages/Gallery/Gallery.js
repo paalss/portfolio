@@ -54,7 +54,41 @@ const Gallery = () => {
   }
 
   if (error) {
-    content = <p>{error}</p>;
+    content = (
+      <>
+        <p>{error}</p>
+        <p>
+          <Trans>
+            Innlasting av bilder mislyktes. Men du kan alltids se innholdet på{" "}
+            <a href="https://www.instagram.com/gassosaman/">
+              min Instagram-konto
+            </a>
+            .
+          </Trans>
+        </p>
+      </>
+    );
+    if (error === "NetworkError when attempting to fetch resource.") {
+      content = (
+        <>
+          <p>{error}</p>
+          <p>
+            <Trans>
+              Innlasting av bilder mislyktes. Du kan prøve å:
+              <ul>
+                <li>Slå av utvidet sporingsbeskyttelse for dette nettstedet</li>
+                <li>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</li>
+              </ul>
+              Ellers så kan du gå til{" "}
+              <a href="https://www.instagram.com/gassosaman/">
+                min Instagram-konto
+              </a>{" "}
+              og de samme bildene der.
+            </Trans>
+          </p>
+        </>
+      );
+    }
   }
 
   if (isLoading) {

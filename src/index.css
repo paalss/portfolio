@@ -144,7 +144,6 @@
   .squarelinks-flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
   }
   main .work-heading-img {
     height: auto; /*nødvendig for å overskrive height attribute */

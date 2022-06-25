@@ -16,12 +16,7 @@ const Webwork = () => (
       {webworkInfo.map((page) => (
         <SquareLink
           key={page.id}
-          link={page.path}
-          imgSrc={page.imgSrc}
-          imgAlt={page.imgAlt}
-          title={page.title}
-          tools={page.tools}
-          thereAreMoreTools={page.thereAreMoreTools}
+          {...page}
         />
       ))}
       <SquareLink desktopEmptySpace />

@@ -59,7 +59,7 @@ const Gallery = lazy(() => import("./pages/Gallery"));
 const pagesInfo = [
   {
     id: 1,
-    path: "/",
+    link: "/",
     exact: true,
     exactActiveClassName: true,
     title: <Trans>Hjem</Trans>,
@@ -80,16 +80,18 @@ const pagesInfo = [
   },
   {
     id: 2,
-    path: "/webwork",
-    exact: true, // naviger til Webwork kun om path er eksakt "/webwork"
-    exactActiveClassName: false, // uthev nav-link om path inneholder "/webwork"
+    link: "/webwork",
+    exact: true, // naviger til Webwork kun om link er eksakt "/webwork"
+    exactActiveClassName: false, // uthev nav-link om link inneholder "/webwork"
     title: <Trans>Nettsider</Trans>,
     page: <Webwork />,
     subpages: [
       {
         id: 10,
-        path: "/webwork/fakturanett",
+        link: "/webwork/fakturanett",
+        web: "https://fakturanett.no/",
         title: "Fakturanett",
+        subtitle: "Jobb",
         page: <Fakturanett />,
         imgSrc: fakturanettImg,
         imgAlt: "Fakturanett ikon",
@@ -97,8 +99,10 @@ const pagesInfo = [
       },
       {
         id: 9,
-        path: "/webwork/extraoptical",
+        link: "/webwork/extraoptical",
+        web: "https://extraoptical.no/",
         title: "Extra Optical",
+        subtitle: "Praksis & jobb",
         page: <Extraoptical />,
         imgSrc: extraopticalImg,
         imgAlt: "Extraoptical logo",
@@ -107,8 +111,10 @@ const pagesInfo = [
       },
       {
         id: 8,
-        path: "/webwork/dokker",
+        link: "/webwork/dokker",
+        web: "https://www.dokker.com/nb",
         title: "Dokker",
+        subtitle: "Praksis",
         page: <Dokker />,
         imgSrc: dokkerImg,
         imgAlt: "Dokker logo",
@@ -116,8 +122,10 @@ const pagesInfo = [
       },
       {
         id: 7,
-        path: "/webwork/portfolios",
+        link: "/webwork/portfolios",
+        repo: "https://github.com/paalss/portfolio",
         title: <Trans>Denne porteføljen</Trans>,
+        subtitle: "Fritid",
         page: <Portfolios />,
         imgSrc: portfoliosImg,
         imgAlt: "Portfolio page",
@@ -126,8 +134,10 @@ const pagesInfo = [
       },
       {
         id: 6,
-        path: "/webwork/rankingapp",
+        link: "/webwork/rankingapp",
+        repo: "https://github.com/paalss/ranking-app",
         title: "Ranking app",
+        subtitle: "Fritid",
         page: <Rankingapp />,
         imgSrc: rankingappImg,
         imgAlt: "Ranking app",
@@ -136,8 +146,9 @@ const pagesInfo = [
       },
       {
         id: 5,
-        path: "/webwork/videoopplasting",
+        link: "/webwork/videoopplasting",
         title: <Trans>Video&shy;opplastings&shy;apper</Trans>,
+        subtitle: "Studier",
         heading: (
           <h1>
             <Trans>Video&shy;opplastings&shy;apper</Trans>
@@ -151,8 +162,10 @@ const pagesInfo = [
       },
       {
         id: 4,
-        path: "/webwork/fagstoff",
+        link: "/webwork/fagstoff",
+        repo: "https://github.com/paalss/fagstoff",
         title: <Trans>Fagstoff</Trans>,
+        subtitle: "Fritid",
         page: <Fagstoff />,
         imgSrc: fagstoffImg,
         imgAlt: "Subject matter",
@@ -160,8 +173,11 @@ const pagesInfo = [
       },
       {
         id: 3,
-        path: "/webwork/maclean",
+        link: "/webwork/maclean",
+        web: "https://paalss.github.io/Alistair-MacLean-portfolio-redesign/",
+        repo: "https://github.com/paalss/Alistair-MacLean-portfolio-redesign",
         title: <Trans>Alistair MacLean nettside redesign</Trans>,
+        subtitle: "Skole",
         page: <Maclean />,
         imgSrc: macleanImg,
         imgAlt: "MacLean page",
@@ -172,7 +188,7 @@ const pagesInfo = [
   },
   {
     id: 10,
-    path: "/graphicwork",
+    link: "/graphicwork",
     exact: true,
     exactActiveClassName: false,
     title: <Trans>Grafisk</Trans>,
@@ -180,7 +196,7 @@ const pagesInfo = [
     subpages: [
       {
         id: 14,
-        path: "/graphicwork/artistbooking",
+        link: "/graphicwork/artistbooking",
         title: "Artist booking app prototype",
         page: <Artistbooking />,
         imgSrc: artistbookingImg,
@@ -189,7 +205,7 @@ const pagesInfo = [
       },
       {
         id: 13,
-        path: "/graphicwork/flaviadeluce",
+        link: "/graphicwork/flaviadeluce",
         title: <Trans>Bok web-banner</Trans>,
         page: <Flaviadeluce />,
         imgSrc: flaviaImg,
@@ -198,7 +214,7 @@ const pagesInfo = [
       },
       {
         id: 12,
-        path: "/graphicwork/mpoe",
+        link: "/graphicwork/mpoe",
         title: <Trans>Bok-cover o.l.</Trans>,
         page: <MPOE />,
         imgSrc: mpoeImg,
@@ -207,7 +223,7 @@ const pagesInfo = [
       },
       {
         id: 11,
-        path: "/graphicwork/jrnm",
+        link: "/graphicwork/jrnm",
         title: "Jr NM ski 2015 logo",
         page: <JRNM />,
         imgSrc: jrNmImg,
@@ -218,7 +234,7 @@ const pagesInfo = [
   },
   {
     id: 15,
-    path: "/gallery",
+    link: "/gallery",
     title: <Trans>Kunst</Trans>,
     page: <Gallery />,
     imgSrc: galleryImg,
@@ -242,22 +258,22 @@ pagesInfo =
 [
   {
     id: 1,
-    path: "/",
+    link: "/",
     title: "Hjem",
   },
   {
     id: 2,
-    path: "/webwork",
+    link: "/webwork",
     title: "Nettsider",
     subpages: [
       {
         id: 3,
-        path: "/webwork/rankingapp",
+        link: "/webwork/rankingapp",
         title: "Ranking app",
       },
       {
         id: 4,
-        path: "/webwork/videoopplasting",
+        link: "/webwork/videoopplasting",
         title: "Videoopplastingsapper",
       }
       ...
@@ -272,23 +288,23 @@ flatPagesInfo =
 [
   {
     id: 1,
-    path: "/",
+    link: "/",
     title: "Hjem",
   },
   {
     id: 2,
-    path: "/webwork",
+    link: "/webwork",
     title: "Nettsider",
     subpages: [...],
   },
   {
     id: 3,
-    path: "/webwork/rankingapp",
+    link: "/webwork/rankingapp",
     title: "Ranking app",
   },
   {
     id: 4,
-    path: "/webwork/videoopplasting",
+    link: "/webwork/videoopplasting",
     title: "Videoopplastingsapper",
   }
   ...
@@ -313,13 +329,13 @@ Home trenger pages for å generere <SquareLink>-er
 */
 
 export const webworkInfo = pagesInfo.find(
-  (element) => element.path === "/webwork"
+  (element) => element.link === "/webwork"
 ).subpages;
 export const graphicworkInfo = pagesInfo.find(
-  (element) => element.path === "/graphicwork"
+  (element) => element.link === "/graphicwork"
 ).subpages;
 export const galleryInfo = pagesInfo.find(
-  (element) => element.path === "/gallery"
+  (element) => element.link === "/gallery"
 );
 
 export default pagesInfo;

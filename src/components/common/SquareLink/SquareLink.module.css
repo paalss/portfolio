@@ -26,6 +26,36 @@ div.desktopEmptySpace {
   width: 0;
   height: 0;
 }
+.root h3 {
+  margin: 20px 0 0 0;
+}
+.root h4 {
+  margin: 0 0 5px 0;
+  color: #414141;
+  display: inline-block;
+}
+.externalLinks {
+  display: flex;
+}
+.externalLinks a {
+  flex-grow: 1;
+  color: #fff;
+  border-radius: 40px;
+  background-color: #1d1d1d;
+  text-align: center;
+  text-decoration: none;
+  border: 0.2px solid #fff;
+}
+.externalLinks a:hover,
+.externalLinks a:focus {
+  color: #1d1d1d;
+  background-color: #fff;
+  border: 0.2px solid #1d1d1d;
+}
+/* placeholder */
+.externalLinks span {
+  width: 50%;
+}
 @media only screen and (min-width: 700px) {
   .root,
   div.desktopEmptySpace {

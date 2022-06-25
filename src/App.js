@@ -32,7 +32,7 @@ const App = () => (
             <div className="container">
               <Switch>
                 {pagesInfo.map((page) => (
-                  <Route key={page.id} path={page.path} exact={page.exact}>
+                  <Route key={page.id} path={page.link} exact={page.exact}>
                     {page.heading ? page.heading : <h1>{page.title}</h1>}
                   </Route>
                 ))}
@@ -49,7 +49,7 @@ const App = () => (
             <div className="container">
               <Switch>
                 {pagesInfo.map((page) => (
-                  <Route key={page.id} path={page.path} exact={page.exact}>
+                  <Route key={page.id} path={page.link} exact={page.exact}>
                     {page.page}
                   </Route>
                 ))}

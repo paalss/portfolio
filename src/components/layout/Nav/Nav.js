@@ -13,7 +13,7 @@ const Nav = () => (
         {pagesInfo.map((page) => (
           <li key={page.id}>
             <NavLink
-              to={page.path}
+              to={page.link}
               activeClassName={classes.selected}
               exact={page.exact ? page.exactActiveClassName : false}
             >
@@ -24,7 +24,7 @@ const Nav = () => (
                 {page.subpages.map((subpage) => (
                   <li key={subpage.id}>
                     <NavLink
-                      to={subpage.path}
+                      to={subpage.link}
                       activeClassName={classes.selected}
                     >
                       {subpage.title}

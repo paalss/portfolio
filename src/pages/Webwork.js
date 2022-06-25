@@ -30,10 +30,10 @@ const Webwork = () => (
     <div className="mt-50 center-content">
       <a
         className="button"
-        href="https://github.com/paalss?tab=repositories"
+        href="https://github.com/paalss"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faGithub} /> <Trans>Se mer på Github</Trans>
+        <FontAwesomeIcon icon={faGithub} /> <Trans>Besøk min Github-profil</Trans>
       </a>
     </div>
   </>

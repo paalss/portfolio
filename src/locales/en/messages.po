@@ -137,6 +137,10 @@ msgstr "Best books list example"
 msgid "Beste metroidvanias listeeksempel"
 msgstr "Best metroidvanias list example"
 
+#: src/pages/Webwork.js:36
+msgid "Besøk min Github-profil"
+msgstr "Visit my Github-profile"
+
 #: src/components/common/WorkLinks/WorkLinks.js:16
 msgid "Besøk siden"
 msgstr "Visit site"
@@ -442,8 +446,8 @@ msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 
 #: src/pages/Webwork.js:36
-msgid "Se mer på Github"
-msgstr "See more on Github"
+#~ msgid "Se mer på Github"
+#~ msgstr "See more on Github"
 
 #: src/pages/webwork/Rankingapp.js:91
 msgid "Sett inn egne elementer, tilpass etter behov"

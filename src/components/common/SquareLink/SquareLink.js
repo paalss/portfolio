@@ -13,7 +13,7 @@ const SquareLink = ({
 }) => {
   if (!desktopEmptySpace) {
     return (
-      <Link to={link} className={classes.squareLink}>
+      <Link to={link} className={classes.root}>
         <div className={classes.frame}>
           <img src={imgSrc} alt={imgAlt} />
         </div>

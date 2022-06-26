@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import ToolList from "../ToolList/ToolList";
 import classes from "./SquareLink.module.css";
@@ -5,6 +6,9 @@ import classes from "./SquareLink.module.css";
 // icons
 import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
 import { faGlobe, faCode } from "@fortawesome/free-solid-svg-icons";
+
+// react lingui
+import { t } from "@lingui/macro";
 
 const SquareLink = ({
   link,
@@ -32,14 +36,14 @@ const SquareLink = ({
           <div className={classes.externalLinks}>
             {site ? (
               <a href={site}>
-                <Fa icon={faGlobe} /> Nett
+                <Fa icon={faGlobe} /> {t`Nett`}
               </a>
             ): (
               <span></span>
             )}
             {repo ? (
               <a href={repo}>
-                <Fa icon={faCode} /> Kode
+                <Fa icon={faCode} /> {t`Kode`}
               </a>
             ): (
               <span></span>

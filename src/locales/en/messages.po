@@ -48,6 +48,14 @@ msgstr "2022 November–February"
 msgid "2022 tidsspann"
 msgstr "_"
 
+#: src/pages/webwork/Ohmyaliases.js:22
+msgid "2022 vår"
+msgstr "2022 spring"
+
+#: src/pages/webwork/Ytwrapped.js:22
+msgid "2022 vår–nå"
+msgstr "2022 spring–now"
+
 #: src/App.js:41
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Page not found"
@@ -96,7 +104,7 @@ msgstr "<0>During this five months internship I contributed to Dokker, an web ap
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2>"
 msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we set to make web apps for uploading and watching videos. That is, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
-#: src/pagesInfo.js:164
+#: src/pagesInfo.js:194
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
@@ -137,11 +145,11 @@ msgstr "Best books list example"
 msgid "Beste metroidvanias listeeksempel"
 msgstr "Best metroidvanias list example"
 
-#: src/pages/Webwork.js:36
+#: src/pages/Webwork.js:31
 msgid "Besøk min Github-profil"
 msgstr "Visit my Github-profile"
 
-#: src/components/common/WorkLinks/WorkLinks.js:16
+#: src/components/common/WorkLinks/WorkLinks.js:15
 msgid "Besøk siden"
 msgstr "Visit site"
 
@@ -149,12 +157,12 @@ msgstr "Visit site"
 msgid "Bidrag"
 msgstr "Contribution"
 
-#: src/pagesInfo.js:193
+#: src/pagesInfo.js:236
 msgid "Bok web-banner"
 msgstr "Book web-banner"
 
 #: src/pages/graphicwork/MPOE.js:24
-#: src/pagesInfo.js:202
+#: src/pagesInfo.js:245
 msgid "Bok-cover o.l."
 msgstr "Book-cover and similar"
 
@@ -170,7 +178,7 @@ msgstr "Built some sites on the new webpage (a Progressive Web App)"
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "This site was abandoned half-finished and has no sub-pages."
 
-#: src/pagesInfo.js:120
+#: src/pagesInfo.js:154
 msgid "Denne porteføljen"
 msgstr "This portfolio"
 
@@ -260,7 +268,7 @@ msgid "Extra Opticals nye nettbutikk"
 msgstr "Extra Optical's new online store"
 
 #: src/pages/webwork/Fagstoff.js:21
-#: src/pagesInfo.js:155
+#: src/pagesInfo.js:182
 msgid "Fagstoff"
 msgstr "Subject matter"
 
@@ -284,6 +292,18 @@ msgstr "Fixed Extra Optical's Zendesk Help center"
 msgid "Flavia de Luce serien web-banner"
 msgstr "Web banner for the Flavia de Luce series"
 
+#: src/pages/webwork/Ytwrapped.js:36
+msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogged på youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
+msgstr "To use this app it is assumed that you have watched the videos while logged in. Otherwise you wouldn't be able to get these data and upload them to this app."
+
+#: src/pagesInfo.js:98
+#: src/pagesInfo.js:110
+#: src/pagesInfo.js:155
+#: src/pagesInfo.js:183
+#: src/pagesInfo.js:207
+msgid "Fritid"
+msgstr "Spare time"
+
 #: src/pages/webwork/Portfolios.js:172
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Spare-time project which I never finished"
@@ -301,7 +321,7 @@ msgid "Ganske god på {tech}"
 msgstr "Pretty good at {tech}"
 
 #: src/pages/Home.js:60
-#: src/pagesInfo.js:178
+#: src/pagesInfo.js:221
 msgid "Grafisk"
 msgstr "Graphics"
 
@@ -313,7 +333,7 @@ msgstr "Graphic design"
 msgid "Grunn­leggende"
 msgstr "Basics"
 
-#: src/pagesInfo.js:65
+#: src/pagesInfo.js:69
 msgid "Hjem"
 msgstr "Home"
 
@@ -353,6 +373,10 @@ msgstr "This was made using PHP, mostly for achieving 'same-header-and-footer-on
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 msgstr "I started making this December 2020, it was made to present the web projects that I've made. It was to be used in job searching."
 
+#: src/pagesInfo.js:121
+msgid "Jobb"
+msgstr "Work"
+
 #: src/components/common/Barchart/Barchart.js:62
 msgid "Kan grunnleggende {tech}"
 msgstr "Know the basics of {tech}"
@@ -361,11 +385,15 @@ msgstr "Know the basics of {tech}"
 msgid "Kan litt {tech}"
 msgstr "Know some {tech}"
 
-#: src/components/common/WorkLinks/WorkLinks.js:21
+#: src/components/common/WorkLinks/WorkLinks.js:20
 msgid "Kildekode"
 msgstr "Source code"
 
-#: src/pagesInfo.js:222
+#: src/components/common/SquareLink/SquareLink.js:46
+msgid "Kode"
+msgstr "Code"
+
+#: src/pagesInfo.js:265
 msgid "Kunst"
 msgstr "Art"
 
@@ -405,11 +433,19 @@ msgstr "MySQL & relational databases"
 msgid "MySQL & relasjons­databaser"
 msgstr "MySQL & relational databases"
 
+#: src/pages/webwork/Ohmyaliases.js:30
+msgid "Måtte lære meg aliasene til oh my bash. Så jeg lagde denne oppslagsverk-appen for å raskt kunne se aliasene for mine ofte brukte kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh."
+msgstr "Had to learn the aliases of Oh my bash. So I made this app so that I could quickly find the aliases for my most used commands. The aliases are by the way the same for Oh my bash and -zsh."
+
+#: src/components/common/SquareLink/SquareLink.js:39
+msgid "Nett"
+msgstr "Web"
+
 #: src/pages/webwork/Fagstoff.js:17
 msgid "Nettside med overskriften 'fagstoff'"
 msgstr "Webpage with its heading reading 'subject matter'"
 
-#: src/pagesInfo.js:86
+#: src/pagesInfo.js:90
 msgid "Nettsider"
 msgstr "Websites"
 
@@ -428,6 +464,14 @@ msgstr "Poster"
 #: src/pages/webwork/Portfolios.js:28
 msgid "Portefølje"
 msgstr "Portfolio"
+
+#: src/pagesInfo.js:144
+msgid "Praksis"
+msgstr "Internship"
+
+#: src/pagesInfo.js:132
+msgid "Praksis & jobb"
+msgstr "Internship & work"
 
 #: src/pages/webwork/Extraoptical.js:57
 msgid "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
@@ -453,10 +497,22 @@ msgstr "Corrected / removed broken links"
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Insert your own elements, customize to your needs"
 
+#: src/pagesInfo.js:195
+msgid "Skole"
+msgstr "School"
+
 #: src/pages/graphicwork/Artistbooking.js:39
 #: src/pages/graphicwork/Artistbooking.js:40
 msgid "Startside"
 msgstr "Front page"
+
+#: src/pagesInfo.js:166
+msgid "Studier"
+msgstr "Studies"
+
+#: src/pages/webwork/Ytwrapped.js:29
+msgid "Syntes det var synd at Youtube ikke hadde samme års-sammendrag slik som Spotify har, hvor man kan se hva man har spilt av mest i løpet av et år. Så da måtte jeg nesten lage noe slikt selv."
+msgstr "I thought it was a shame that Youtube doesn't have a kind of year-summary like Spotify has, where you van see what you've played the most in the course of a year. Therefore I just had to make something like this myself."
 
 #: src/pages/graphicwork/Artistbooking.js:46
 #: src/pages/graphicwork/Artistbooking.js:47
@@ -472,7 +528,7 @@ msgstr "Search results"
 msgid "Tidligere portefølje"
 msgstr "Earlier portfolio"
 
-#: src/pagesInfo.js:71
+#: src/pagesInfo.js:75
 msgid "Utdannet web­utvikler"
 msgstr "Educated web developer"
 
@@ -496,8 +552,8 @@ msgstr "Video overview"
 msgid "Videoside"
 msgstr "Video page"
 
-#: src/pagesInfo.js:140
-#: src/pagesInfo.js:143
+#: src/pagesInfo.js:165
+#: src/pagesInfo.js:169
 msgid "Video­opplastings­apper"
 msgstr "Video uploading apps"
 
@@ -543,6 +599,14 @@ msgstr "multiple pages with flavia de luce motives"
 #: src/pages/-Template.js:21
 msgid "h1-tittel eller oppdelt"
 msgstr "_"
+
+#: src/pages/webwork/Ohmyaliases.js:18
+msgid "liste over aliaser"
+msgstr "list of aliases"
+
+#: src/pages/webwork/Ytwrapped.js:18
+msgid "liste over videoer"
+msgstr "list of videos"
 
 #: src/pages/webwork/Maclean.js:17
 msgid "maclean nettside"

@@ -48,6 +48,14 @@ msgstr "2022 november–februar"
 msgid "2022 tidsspann"
 msgstr "2022 tidsspann"
 
+#: src/pages/webwork/Ohmyaliases.js:22
+msgid "2022 vår"
+msgstr "2022 vår"
+
+#: src/pages/webwork/Ytwrapped.js:22
+msgid "2022 vår–nå"
+msgstr "2022 vår–nå"
+
 #: src/App.js:41
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Siden finnes ikke"
@@ -96,7 +104,7 @@ msgstr "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-ap
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2>"
 msgstr "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2>"
 
-#: src/pagesInfo.js:164
+#: src/pagesInfo.js:194
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean nettside redesign"
 
@@ -137,11 +145,11 @@ msgstr "Beste bøker listeeksempel"
 msgid "Beste metroidvanias listeeksempel"
 msgstr "Beste metroidvanias listeeksempel"
 
-#: src/pages/Webwork.js:36
+#: src/pages/Webwork.js:31
 msgid "Besøk min Github-profil"
 msgstr "Besøk min Github-profil"
 
-#: src/components/common/WorkLinks/WorkLinks.js:16
+#: src/components/common/WorkLinks/WorkLinks.js:15
 msgid "Besøk siden"
 msgstr "Besøk siden"
 
@@ -149,12 +157,12 @@ msgstr "Besøk siden"
 msgid "Bidrag"
 msgstr "Bidrag"
 
-#: src/pagesInfo.js:193
+#: src/pagesInfo.js:236
 msgid "Bok web-banner"
 msgstr "Bok web-banner"
 
 #: src/pages/graphicwork/MPOE.js:24
-#: src/pagesInfo.js:202
+#: src/pagesInfo.js:245
 msgid "Bok-cover o.l."
 msgstr "Bok-cover o.l."
 
@@ -170,7 +178,7 @@ msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 
-#: src/pagesInfo.js:120
+#: src/pagesInfo.js:154
 msgid "Denne porteføljen"
 msgstr "Denne porteføljen"
 
@@ -264,7 +272,7 @@ msgid "Extra Opticals nye nettbutikk"
 msgstr "Extra Opticals nye nettbutikk"
 
 #: src/pages/webwork/Fagstoff.js:21
-#: src/pagesInfo.js:155
+#: src/pagesInfo.js:182
 msgid "Fagstoff"
 msgstr "Fagstoff"
 
@@ -288,6 +296,22 @@ msgstr "Fikset på Extra Opticals Zendesk Help center."
 msgid "Flavia de Luce serien web-banner"
 msgstr "Flavia de Luce serien web-banner"
 
+#: src/pages/webwork/Ytwrapped.js:36
+#~ msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogged på youtube mens du har sett videoene, slik at man kan eksportere disse datene og laste dem opp i denne appen."
+#~ msgstr "For å bruke denne applikasjonen så forutsetter det at du har vært innlogged på youtube mens du har sett videoene, slik at man kan eksportere disse datene og laste dem opp i denne appen."
+
+#: src/pages/webwork/Ytwrapped.js:36
+msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogged på youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
+msgstr "For å bruke denne applikasjonen så forutsetter det at du har vært innlogged på youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
+
+#: src/pagesInfo.js:98
+#: src/pagesInfo.js:110
+#: src/pagesInfo.js:155
+#: src/pagesInfo.js:183
+#: src/pagesInfo.js:207
+msgid "Fritid"
+msgstr "Fritid"
+
 #: src/pages/webwork/Portfolios.js:172
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Fritidsprosjekt som aldri ble fullført"
@@ -305,7 +329,7 @@ msgid "Ganske god på {tech}"
 msgstr "Ganske god på {tech}"
 
 #: src/pages/Home.js:60
-#: src/pagesInfo.js:178
+#: src/pagesInfo.js:221
 msgid "Grafisk"
 msgstr "Grafisk"
 
@@ -317,7 +341,7 @@ msgstr "Grafisk design"
 msgid "Grunn­leggende"
 msgstr "Grunn­leggende"
 
-#: src/pagesInfo.js:65
+#: src/pagesInfo.js:69
 msgid "Hjem"
 msgstr "Hjem"
 
@@ -361,6 +385,10 @@ msgstr "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-al
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 msgstr "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 
+#: src/pagesInfo.js:121
+msgid "Jobb"
+msgstr "Jobb"
+
 #: src/components/common/Barchart/Barchart.js:62
 msgid "Kan grunnleggende {tech}"
 msgstr "Kan grunnleggende {tech}"
@@ -369,11 +397,15 @@ msgstr "Kan grunnleggende {tech}"
 msgid "Kan litt {tech}"
 msgstr "Kan litt {tech}"
 
-#: src/components/common/WorkLinks/WorkLinks.js:21
+#: src/components/common/WorkLinks/WorkLinks.js:20
 msgid "Kildekode"
 msgstr "Kildekode"
 
-#: src/pagesInfo.js:222
+#: src/components/common/SquareLink/SquareLink.js:46
+msgid "Kode"
+msgstr "Kode"
+
+#: src/pagesInfo.js:265
 msgid "Kunst"
 msgstr "Kunst"
 
@@ -413,11 +445,19 @@ msgstr "MySQL & relasjonsdatabaser"
 msgid "MySQL & relasjons­databaser"
 msgstr "MySQL & relasjons­databaser"
 
+#: src/pages/webwork/Ohmyaliases.js:30
+msgid "Måtte lære meg aliasene til oh my bash. Så jeg lagde denne oppslagsverk-appen for å raskt kunne se aliasene for mine ofte brukte kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh."
+msgstr "Måtte lære meg aliasene til oh my bash. Så jeg lagde denne oppslagsverk-appen for å raskt kunne se aliasene for mine ofte brukte kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh."
+
+#: src/components/common/SquareLink/SquareLink.js:39
+msgid "Nett"
+msgstr "Nett"
+
 #: src/pages/webwork/Fagstoff.js:17
 msgid "Nettside med overskriften 'fagstoff'"
 msgstr "Nettside med overskriften 'fagstoff'"
 
-#: src/pagesInfo.js:86
+#: src/pagesInfo.js:90
 msgid "Nettsider"
 msgstr "Nettsider"
 
@@ -436,6 +476,14 @@ msgstr "Plakat"
 #: src/pages/webwork/Portfolios.js:28
 msgid "Portefølje"
 msgstr "Portefølje"
+
+#: src/pagesInfo.js:144
+msgid "Praksis"
+msgstr "Praksis"
+
+#: src/pagesInfo.js:132
+msgid "Praksis & jobb"
+msgstr "Praksis & jobb"
 
 #: src/pages/webwork/Extraoptical.js:57
 msgid "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
@@ -461,10 +509,22 @@ msgstr "Rettet opp / fjernet <0>broken links</0>"
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Sett inn egne elementer, tilpass etter behov"
 
+#: src/pagesInfo.js:195
+msgid "Skole"
+msgstr "Skole"
+
 #: src/pages/graphicwork/Artistbooking.js:39
 #: src/pages/graphicwork/Artistbooking.js:40
 msgid "Startside"
 msgstr "Startside"
+
+#: src/pagesInfo.js:166
+msgid "Studier"
+msgstr "Studier"
+
+#: src/pages/webwork/Ytwrapped.js:29
+msgid "Syntes det var synd at Youtube ikke hadde samme års-sammendrag slik som Spotify har, hvor man kan se hva man har spilt av mest i løpet av et år. Så da måtte jeg nesten lage noe slikt selv."
+msgstr "Syntes det var synd at Youtube ikke hadde samme års-sammendrag slik som Spotify har, hvor man kan se hva man har spilt av mest i løpet av et år. Så da måtte jeg nesten lage noe slikt selv."
 
 #: src/pages/graphicwork/Artistbooking.js:46
 #: src/pages/graphicwork/Artistbooking.js:47
@@ -480,7 +540,7 @@ msgstr "Søkeresultater"
 msgid "Tidligere portefølje"
 msgstr "Tidligere portefølje"
 
-#: src/pagesInfo.js:71
+#: src/pagesInfo.js:75
 msgid "Utdannet web­utvikler"
 msgstr "Utdannet web­utvikler"
 
@@ -504,8 +564,8 @@ msgstr "Videooversikt"
 msgid "Videoside"
 msgstr "Videoside"
 
-#: src/pagesInfo.js:140
-#: src/pagesInfo.js:143
+#: src/pagesInfo.js:165
+#: src/pagesInfo.js:169
 msgid "Video­opplastings­apper"
 msgstr "Video­opplastings­apper"
 
@@ -551,6 +611,14 @@ msgstr "flere bilder med flavia de luce motiver"
 #: src/pages/-Template.js:21
 msgid "h1-tittel eller oppdelt"
 msgstr "h1-tittel eller oppdelt"
+
+#: src/pages/webwork/Ohmyaliases.js:18
+msgid "liste over aliaser"
+msgstr "liste over aliaser"
+
+#: src/pages/webwork/Ytwrapped.js:18
+msgid "liste over videoer"
+msgstr "liste over videoer"
 
 #: src/pages/webwork/Maclean.js:17
 msgid "maclean nettside"

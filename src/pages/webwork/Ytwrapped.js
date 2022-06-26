@@ -36,7 +36,7 @@ const Ytwrapped = () => (
       <Trans>
         For å bruke denne applikasjonen så forutsetter det at du har vært
         innlogged på youtube mens du har sett videoene, slik at man kan
-        eksportere disse datene og laste dem opp i denne appen.
+        skaffe disse datene og laste dem opp i denne appen.
       </Trans>
     </p>
     {/* <div uk-lightbox="animation: slide" className="flex wrap">

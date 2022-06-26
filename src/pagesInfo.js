@@ -10,6 +10,8 @@ import photo from "./images/cvphoto2.webp";
 
 // webwork
 import fakturanettImg from "./images/webwork/fakturanett/fakturanett-icon.avif";
+import ytWrappedImg from "./images/webwork/yt-wrapped/img.png";
+import ohmyaliasesImg from "./images/webwork/ohmyaliases/img.png"
 import extraopticalImg from "./images/webwork/extraoptical/logo/eo-icon.webp";
 import dokkerImg from "./images/webwork/dokker/logo/dokkericon.webp";
 import rankingappImg from "./images/webwork/rankingapp/rankingapp-small.webp";
@@ -37,6 +39,8 @@ const Home = lazy(() => import("./pages/Home"));
 
 // webwork
 const Webwork = lazy(() => import("./pages/Webwork"));
+const Ohmyaliases = lazy(()=> import("./pages/webwork/Ohmyaliases"));
+const Ytwrapped = lazy(()=> import("./pages/webwork/Ytwrapped"));
 const Fakturanett = lazy(() => import("./pages/webwork/Fakturanett"));
 const Extraoptical = lazy(() => import("./pages/webwork/Extraoptical"));
 const Dokker = lazy(() => import("./pages/webwork/Dokker"));
@@ -87,9 +91,32 @@ const pagesInfo = [
     page: <Webwork />,
     subpages: [
       {
+        id: 12,
+        link: "/webwork/yt-wrapped",
+        repo: "https://github.com/paalss/youtube-wrapped",
+        title: "Youtube-wrapped",
+        subtitle: "Fritid",
+        page: <Ytwrapped />,
+        imgSrc: ytWrappedImg,
+        imgAlt: "youtube-wrapped UI",
+        tools: ["React", "JavaScript", "JSX"],
+      },
+      {
+        id: 11,
+        link: "/webwork/ohmyaliases",
+        site: "https://paalss.github.io/oh-my-aliases/",
+        repo: "https://github.com/paalss/oh-my-aliases",
+        title: "Oh my aliases",
+        subtitle: "Fritid",
+        page: <Ohmyaliases />,
+        imgSrc: ohmyaliasesImg,
+        imgAlt: "oh my aliases UI",
+        tools: ["React", "JavaScript", "JSX"],
+      },
+      {
         id: 10,
         link: "/webwork/fakturanett",
-        web: "https://fakturanett.no/",
+        site: "https://fakturanett.no/",
         title: "Fakturanett",
         subtitle: "Jobb",
         page: <Fakturanett />,
@@ -100,7 +127,7 @@ const pagesInfo = [
       {
         id: 9,
         link: "/webwork/extraoptical",
-        web: "https://extraoptical.no/",
+        site: "https://extraoptical.no/",
         title: "Extra Optical",
         subtitle: "Praksis & jobb",
         page: <Extraoptical />,
@@ -112,7 +139,7 @@ const pagesInfo = [
       {
         id: 8,
         link: "/webwork/dokker",
-        web: "https://www.dokker.com/nb",
+        site: "https://www.dokker.com/nb",
         title: "Dokker",
         subtitle: "Praksis",
         page: <Dokker />,
@@ -130,18 +157,6 @@ const pagesInfo = [
         imgSrc: portfoliosImg,
         imgAlt: "Portfolio page",
         tools: ["React", "JavaScript", <>React&#8209;lingui</>],
-        thereAreMoreTools: true,
-      },
-      {
-        id: 6,
-        link: "/webwork/rankingapp",
-        repo: "https://github.com/paalss/ranking-app",
-        title: "Ranking app",
-        subtitle: "Fritid",
-        page: <Rankingapp />,
-        imgSrc: rankingappImg,
-        imgAlt: "Ranking app",
-        tools: ["TypeScript", "PHP", "MySQL"],
         thereAreMoreTools: true,
       },
       {
@@ -174,7 +189,7 @@ const pagesInfo = [
       {
         id: 3,
         link: "/webwork/maclean",
-        web: "https://paalss.github.io/Alistair-MacLean-portfolio-redesign/",
+        site: "https://paalss.github.io/Alistair-MacLean-portfolio-redesign/",
         repo: "https://github.com/paalss/Alistair-MacLean-portfolio-redesign",
         title: <Trans>Alistair MacLean nettside redesign</Trans>,
         subtitle: "Skole",
@@ -182,6 +197,18 @@ const pagesInfo = [
         imgSrc: macleanImg,
         imgAlt: "MacLean page",
         tools: ["HTML", "CSS", "Photoshop"],
+        thereAreMoreTools: true,
+      },
+      {
+        id: 6,
+        link: "/webwork/rankingapp",
+        repo: "https://github.com/paalss/ranking-app",
+        title: "Ranking app",
+        subtitle: "Fritid",
+        page: <Rankingapp />,
+        imgSrc: rankingappImg,
+        imgAlt: "Ranking app",
+        tools: ["TypeScript", "PHP", "MySQL"],
         thereAreMoreTools: true,
       },
     ],

@@ -4,12 +4,11 @@ import classes from "./SquareLink.module.css";
 
 // icons
 import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe, faCode } from "@fortawesome/free-solid-svg-icons";
 
 const SquareLink = ({
   link,
-  web,
+  site,
   repo,
   imgSrc,
   imgAlt,
@@ -29,18 +28,18 @@ const SquareLink = ({
           <h3>{title}</h3>
           <h4>{subtitle}</h4>
         </Link>
-        {(web || repo) && (
+        {(site || repo) && (
           <div className={classes.externalLinks}>
-            {web ? (
-              <a href={web}>
-                <Fa icon={faCircleNotch} /> Web
+            {site ? (
+              <a href={site}>
+                <Fa icon={faGlobe} /> Nett
               </a>
             ): (
               <span></span>
             )}
             {repo ? (
               <a href={repo}>
-                <Fa icon={faGithub} /> Kode
+                <Fa icon={faCode} /> Kode
               </a>
             ): (
               <span></span>

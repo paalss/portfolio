@@ -67,6 +67,18 @@ https://www.xconvert.com/compress-webp
 
 ### Instagram-galleri API ressurser
 
+#### Har token gått ut på dato?
+
+1. finn app-code (se postman)
+2. Sett inn app-code i denne URL-en: `https://api.instagram.com/oauth/authorize?client_id={app-id}&redirect_uri=https://paalss.github.io/portfolio/&scope=user_profile,user_media&response_type=code`
+3. Lim inn URL i nettleser, logg inn og gi tilgang
+4. Når du har kommet til din porteføje, kopier koden som har dukket opp i URL. `code=` (begynn tekstmarkering) `[code]` (avslutt markering) `#_`
+5. lim inn kode i code variabelen i postman (Klikk Insta api > Variables)
+6. Hent access_token med auth token
+7. osv.
+
+#### Opprette ny
+
 https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
 
 https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-profiles-and-media

@@ -24,7 +24,7 @@ const Ohmyaliases = () => (
         site: "https://paalss.github.io/oh-my-aliases/",
         repo: "https://github.com/paalss/oh-my-aliases",
       }}
-      tools={["React", "JavaScript", "JSX"]}
+      tools={["React", "JavaScript", "JSX", "CSS"]}
     />
     <p>
       <Trans>

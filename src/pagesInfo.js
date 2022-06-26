@@ -99,7 +99,7 @@ const pagesInfo = [
         page: <Ytwrapped />,
         imgSrc: ytWrappedImg,
         imgAlt: "youtube-wrapped UI",
-        tools: ["React", "JavaScript", "JSX"],
+        tools: ["React", "JavaScript", "JSX", "CSS"],
       },
       {
         id: 11,
@@ -111,7 +111,7 @@ const pagesInfo = [
         page: <Ohmyaliases />,
         imgSrc: ohmyaliasesImg,
         imgAlt: "oh my aliases UI",
-        tools: ["React", "JavaScript", "JSX"],
+        tools: ["React", "JavaScript", "JSX", "CSS"],
       },
       {
         id: 10,

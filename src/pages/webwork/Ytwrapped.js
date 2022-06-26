@@ -23,7 +23,7 @@ const Ytwrapped = () => (
       siteInfo={{
         repo: "https://github.com/paalss/youtube-wrapped",
       }}
-      tools={["React", "JavaScript", "JSX"]}
+      tools={["React", "JavaScript", "JSX", "CSS"]}
     />
     <p>
       <Trans>

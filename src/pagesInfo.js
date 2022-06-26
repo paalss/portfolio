@@ -93,6 +93,7 @@ const pagesInfo = [
       {
         id: 12,
         link: "/webwork/yt-wrapped",
+        site: "https://paalss.github.io/youtube-wrapped",
         repo: "https://github.com/paalss/youtube-wrapped",
         title: "Youtube-wrapped",
         subtitle: <Trans>Fritid</Trans>,
@@ -104,7 +105,7 @@ const pagesInfo = [
       {
         id: 11,
         link: "/webwork/ohmyaliases",
-        site: "https://paalss.github.io/oh-my-aliases/",
+        site: "https://paalss.github.io/oh-my-aliases",
         repo: "https://github.com/paalss/oh-my-aliases",
         title: "Oh my aliases",
         subtitle: <Trans>Fritid</Trans>,
@@ -178,6 +179,7 @@ const pagesInfo = [
       {
         id: 4,
         link: "/webwork/fagstoff",
+        site: "https://paalss.github.io/fagstoff/",
         repo: "https://github.com/paalss/fagstoff",
         title: <Trans>Fagstoff</Trans>,
         subtitle: <Trans>Fritid</Trans>,

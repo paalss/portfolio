@@ -21,6 +21,7 @@ const Ytwrapped = () => (
       heading="Yt-wrapped"
       timespan={t`2022 vår–nå`}
       siteInfo={{
+        site: "https://paalss.github.io/youtube-wrapped",
         repo: "https://github.com/paalss/youtube-wrapped",
       }}
       tools={["React", "JavaScript", "JSX", "CSS"]}

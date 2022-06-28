@@ -47,13 +47,9 @@ const Home = () => (
       />
     </div>
 
-    <Trans>
-      <h2>Nettsider</h2>
-      <div className="mb-50">
-        Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på
-        og som jeg har skrevet litt om.
-      </div>
-    </Trans>
+    <h2 className="mb-50">
+      <Trans>Nettsider</Trans>
+    </h2>
     <WebworkLinks />
 
     <h2 className="mb-50">

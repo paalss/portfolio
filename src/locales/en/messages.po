@@ -89,8 +89,8 @@ msgid "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studenter
 msgstr "<0>Some info about Dokker</0><1>Dokker is a communication platform for students, teachers in schools and the like. In Dokker teachers can eg. publish assignments, to which students can submit their work and also submit self-assessment & ranking of their own work. <2/>As the students gradually uses the app, they gather different documentation of their experience, which can be assignment feedback, uploaded diplomas or certificates. One major selling point in Dokker is that the students will still have access to their Dokker user and their experience documentation, even after they've finished the school were they achieved said experience.</1>"
 
 #: src/pages/Home.js:50
-msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
-msgstr "<0>Web pages</0><1>Here's some web pages I'm proud of having made myself / contributed to.</1>"
+#~ msgid "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
+#~ msgstr "<0>Web pages</0><1>Here's some web pages I'm proud of having made myself / contributed to.</1>"
 
 #: src/pages/webwork/Rankingapp.js:43
 msgid "<0>Prosjektet er foreløpig satt på pause.</0><1>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</1><2>Motivasjon til prosjektet</2><3>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.</3><4>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</4><5>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</5><6>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</6>"
@@ -104,7 +104,7 @@ msgstr "<0>During this five months internship I contributed to Dokker, an web ap
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2>"
 msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we set to make web apps for uploading and watching videos. That is, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
-#: src/pagesInfo.js:194
+#: src/pagesInfo.js:196
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
@@ -112,7 +112,7 @@ msgstr "Alistair MacLean webpage redesign"
 msgid "Alistair MacLean portefølje redesign"
 msgstr "Alistair MacLean portfolio redesign"
 
-#: src/pages/Home.js:66
+#: src/pages/Home.js:62
 msgid "Annet"
 msgstr "Other"
 
@@ -157,12 +157,12 @@ msgstr "Visit site"
 msgid "Bidrag"
 msgstr "Contribution"
 
-#: src/pagesInfo.js:236
+#: src/pagesInfo.js:238
 msgid "Bok web-banner"
 msgstr "Book web-banner"
 
 #: src/pages/graphicwork/MPOE.js:24
-#: src/pagesInfo.js:245
+#: src/pagesInfo.js:247
 msgid "Bok-cover o.l."
 msgstr "Book-cover and similar"
 
@@ -178,7 +178,7 @@ msgstr "Built some sites on the new webpage (a Progressive Web App)"
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "This site was abandoned half-finished and has no sub-pages."
 
-#: src/pagesInfo.js:154
+#: src/pagesInfo.js:155
 msgid "Denne porteføljen"
 msgstr "This portfolio"
 
@@ -268,7 +268,7 @@ msgid "Extra Opticals nye nettbutikk"
 msgstr "Extra Optical's new online store"
 
 #: src/pages/webwork/Fagstoff.js:21
-#: src/pagesInfo.js:182
+#: src/pagesInfo.js:184
 msgid "Fagstoff"
 msgstr "Subject matter"
 
@@ -292,15 +292,15 @@ msgstr "Fixed Extra Optical's Zendesk Help center"
 msgid "Flavia de Luce serien web-banner"
 msgstr "Web banner for the Flavia de Luce series"
 
-#: src/pages/webwork/Ytwrapped.js:36
+#: src/pages/webwork/Ytwrapped.js:37
 msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogged på youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
 msgstr "To use this app it is assumed that you have watched the videos while logged in. Otherwise you wouldn't be able to get these data and upload them to this app."
 
-#: src/pagesInfo.js:98
-#: src/pagesInfo.js:110
-#: src/pagesInfo.js:155
-#: src/pagesInfo.js:183
-#: src/pagesInfo.js:207
+#: src/pagesInfo.js:99
+#: src/pagesInfo.js:111
+#: src/pagesInfo.js:156
+#: src/pagesInfo.js:185
+#: src/pagesInfo.js:209
 msgid "Fritid"
 msgstr "Spare time"
 
@@ -320,8 +320,8 @@ msgstr "Pretty good at"
 msgid "Ganske god på {tech}"
 msgstr "Pretty good at {tech}"
 
-#: src/pages/Home.js:60
-#: src/pagesInfo.js:221
+#: src/pages/Home.js:56
+#: src/pagesInfo.js:223
 msgid "Grafisk"
 msgstr "Graphics"
 
@@ -373,7 +373,7 @@ msgstr "This was made using PHP, mostly for achieving 'same-header-and-footer-on
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 msgstr "I started making this December 2020, it was made to present the web projects that I've made. It was to be used in job searching."
 
-#: src/pagesInfo.js:121
+#: src/pagesInfo.js:122
 msgid "Jobb"
 msgstr "Work"
 
@@ -393,7 +393,7 @@ msgstr "Source code"
 msgid "Kode"
 msgstr "Code"
 
-#: src/pagesInfo.js:265
+#: src/pagesInfo.js:267
 msgid "Kunst"
 msgstr "Art"
 
@@ -445,6 +445,7 @@ msgstr "Web"
 msgid "Nettside med overskriften 'fagstoff'"
 msgstr "Webpage with its heading reading 'subject matter'"
 
+#: src/pages/Home.js:51
 #: src/pagesInfo.js:90
 msgid "Nettsider"
 msgstr "Websites"
@@ -465,11 +466,11 @@ msgstr "Poster"
 msgid "Portefølje"
 msgstr "Portfolio"
 
-#: src/pagesInfo.js:144
+#: src/pagesInfo.js:145
 msgid "Praksis"
 msgstr "Internship"
 
-#: src/pagesInfo.js:132
+#: src/pagesInfo.js:133
 msgid "Praksis & jobb"
 msgstr "Internship & work"
 
@@ -477,7 +478,7 @@ msgstr "Internship & work"
 msgid "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
 msgstr "On the new webpage I hade worked in both Magento PWA builder and in the source code."
 
-#: src/pages/Home.js:71
+#: src/pages/Home.js:67
 msgid "React sertifikat"
 msgstr "React certificate"
 
@@ -497,7 +498,7 @@ msgstr "Corrected / removed broken links"
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Insert your own elements, customize to your needs"
 
-#: src/pagesInfo.js:195
+#: src/pagesInfo.js:197
 msgid "Skole"
 msgstr "School"
 
@@ -506,11 +507,11 @@ msgstr "School"
 msgid "Startside"
 msgstr "Front page"
 
-#: src/pagesInfo.js:166
+#: src/pagesInfo.js:167
 msgid "Studier"
 msgstr "Studies"
 
-#: src/pages/webwork/Ytwrapped.js:29
+#: src/pages/webwork/Ytwrapped.js:30
 msgid "Syntes det var synd at Youtube ikke hadde samme års-sammendrag slik som Spotify har, hvor man kan se hva man har spilt av mest i løpet av et år. Så da måtte jeg nesten lage noe slikt selv."
 msgstr "I thought it was a shame that Youtube doesn't have a kind of year-summary like Spotify has, where you van see what you've played the most in the course of a year. Therefore I just had to make something like this myself."
 
@@ -552,8 +553,8 @@ msgstr "Video overview"
 msgid "Videoside"
 msgstr "Video page"
 
-#: src/pagesInfo.js:165
-#: src/pagesInfo.js:169
+#: src/pagesInfo.js:166
+#: src/pagesInfo.js:170
 msgid "Video­opplastings­apper"
 msgstr "Video uploading apps"
 

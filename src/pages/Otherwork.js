@@ -4,6 +4,9 @@ import { galleryInfo } from "../pagesInfo";
 const Otherwork = () => (
   <div className="squarelinks-flex">
     <SquareLink {...galleryInfo} />
+    <SquareLink desktopEmptySpace />
+    <SquareLink desktopEmptySpace />
+    <SquareLink desktopEmptySpace />
   </div>
 );
 

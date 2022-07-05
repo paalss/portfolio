@@ -19,7 +19,7 @@
 }
 .footer ul li a:hover,
 .footer ul li a:focus {
-  font-weight: 600;
+  font-weight: 400;
 }
 .footer ul li .icon {
   display: inline-block; /* for span rundt scratch logo */

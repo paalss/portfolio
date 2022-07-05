@@ -1,11 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@400;700&display=swap');
+
 @media only screen and (min-width: 0) {
   html {
-    font-size: 100%;
-    /* 16px */
-    font-family: Raleway, sans-serif;
-    font-weight: 600;
     line-height: 2rem;
     scrollbar-color: #999 #fff;
+    letter-spacing: 0.01em;
+    font-size: 100%;
+    /* 16px */
+
+
+
+
+    font-family: gelasio, serif; font-weight: 400;
+    color: #333;
+    /* font-family: lora, serif; font-weight: 400; */
+    
+    /* font-family: Radley, serif; font-weight: 400; */
+    /* font-family: "Abhaya Libre", serif; font-weight: 400; */
+    /* font-family: "Fanwood Text", serif; font-weight: 400; */
+
+    /* font-family: "Playfair Display", serif; font-weight: 400; */
+    /* font-family: "Cormorant Garamond", serif; font-weight: 600; */
   }
   body {
     margin: 0;
@@ -47,6 +69,15 @@
   h2 {
     letter-spacing: 0.1rem;
   }
+  h1, h2, h3, h4, .subtitle, nav, button, a {
+    font-family: Varta, serif;
+  }
+  h1, h2, h3, h4, .subtitle {
+    font-weight: 700;
+  }
+  nav, button, a {
+    font-weight: 300;
+  }
   h2 {
     margin-top: 7rem;
     font-size: 2rem;
@@ -64,7 +95,7 @@
   .subtitle {
     display: block;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 400;
     margin: 1rem 0;
   }
   /* ––––––––––––––––––––– Header ––––––––––––––––––––– */

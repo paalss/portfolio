@@ -23,7 +23,7 @@ const Artistbooking = () => (
 
     <p>
       <Trans>
-        I faget "grafiske verktøy, prinsipper og metoder" skulle vi lage en
+        I faget “grafiske verktøy, prinsipper og metoder” skulle vi lage en
         klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert,
         så det endte opp med å bli en app for privatpersoner og musikkartister
         som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage

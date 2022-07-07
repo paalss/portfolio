@@ -40,11 +40,14 @@ const Portfolios = () => (
         ]}
       />
 
+      <span class="material-symbols-outlined">
+        code html javascript css language
+      </span>
       <p>
         <Trans>
           Jeg startet på denne siden desember 2020, og jeg designet den
           spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle
-          fungere som et supplement til CV i forbindelse med jobbsøking.
+          fungere som et supplement til <span className="small-caps">cv</span> i forbindelse med jobbsøking.
         </Trans>
       </p>
 
@@ -71,7 +74,7 @@ const Portfolios = () => (
           måtte ryddes bort fra index.html (søylediagrammet).
         </p>
         <p>
-          Å lage komponenter med "vanilla JavaScript" ble ganske uelegant etter
+          Å lage komponenter med “vanilla JavaScript” ble ganske uelegant etter
           hvert som koden ble større. Jeg gikk derfor over til React da det var
           det komponent-baserte verktøyet jeg hadde tidligere erfaring med.
         </p>

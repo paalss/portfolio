@@ -7,7 +7,7 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
-import HT from "../../components/common/HtmlTag"
+import HT from "../../components/common/HtmlTag";
 
 const Extraoptical = () => (
   <>
@@ -39,8 +39,9 @@ const Extraoptical = () => (
       <dt>Magento PWA builder</dt>
       <dd>
         <Trans>
-          Et eCommerce CMS hvor administratorer kan legge til egne
-          undersider og byggeklosser med drag and drop interface. Kildekoden kan hente inn disse byggeklossene med <HT>CmsBlock/</HT>
+          Et eCommerce CMS hvor administratorer kan legge til egne undersider og
+          byggeklosser med drag and drop interface. Kildekoden kan hente inn
+          disse byggeklossene med <HT>CmsBlock/</HT>
         </Trans>
       </dd>
     </dl>
@@ -64,7 +65,7 @@ const Extraoptical = () => (
       <Trans>
         Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også
         praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre
-        versjon av nettsiden også.
+        versjon av nettsiden også:
       </Trans>
     </p>
 
@@ -93,16 +94,11 @@ const Extraoptical = () => (
         <Trans>Lagd undersider</Trans>
       </li>
       <li>
-        <Trans>Fikset på Extra Opticals Zendesk Help center.</Trans>
+        <Trans>Fikset på Extra Opticals Zendesk Help center</Trans>
       </li>
       <li>
         <Trans>
           Fikset layout på bunntekst og ordnet en side for mobilstørrelser
-        </Trans>
-      </li>
-      <li>
-        <Trans>
-          Bygd noen sider på den nye nettsiden (en Progressive Web App)
         </Trans>
       </li>
     </ul>

@@ -52,7 +52,7 @@ nav a, nav button, nav .switch {
   border-top-color: #7f017f;
 }
 .ul > li:hover > a:first-child:nth-last-child(2) {
-  font-weight: 700;
+  font-weight: 900;
 }
 .ul > li:hover > a:first-child:nth-last-child(2):before {
   border: 5px solid transparent;

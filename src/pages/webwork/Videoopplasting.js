@@ -15,9 +15,9 @@ const Videoopplasting = () => (
   <>
     <Trans>
       <p>
-        Våren 2020, i faget <span className="small-caps">www</span>-teknologi, hadde vi to prosjekter hvor vi skulle
+        Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle
         lage nettapplikasjoner for videoopplasting og &#8209;visning. Altså mye
-        det samme som det f.eks. Youtube, Udemy og <span className="small-caps">edx</span> tilbyr.
+        det samme som det f.eks. Youtube, Udemy og Edx tilbyr.
       </p>
       <p>
         Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp

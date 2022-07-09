@@ -1,0 +1,75 @@
+.root {
+  width: 90%;
+  margin: 30px 0;
+  color: #000;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.root .frame {
+  height: 170px;
+  transition: 0.2s;
+}
+.root .frame:hover,
+.root .frame:focus {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+.root img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+div.desktopEmptySpace {
+  width: 0;
+  height: 0;
+}
+.root h3 {
+  margin: 20px 0 0 0;
+}
+.root h4 {
+  margin: 0 0 5px 0;
+  color: #414141;
+  display: inline-block;
+}
+.externalLinks {
+  display: flex;
+}
+.externalLinks a {
+  flex-grow: 1;
+  color: #fff;
+  border-radius: 40px;
+  background-color: #1d1d1d;
+  text-align: center;
+  text-decoration: none;
+  border: 0.2px solid #fff;
+}
+.externalLinks a:hover,
+.externalLinks a:focus {
+  color: #1d1d1d;
+  background-color: #fff;
+  border: 0.2px solid #1d1d1d;
+}
+/* placeholder */
+.externalLinks span {
+  width: 50%;
+}
+@media only screen and (min-width: 570px) { /* !* this value is mirrored in index.css. Keep them in sync. Code: ★ */
+  .root,
+  div.desktopEmptySpace {
+    width: 170px;
+    margin: 6px 2%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .root,
+  div.desktopEmptySpace {
+    width: 190px;
+    margin: 6px 3%;
+  }
+  .root .frame {
+    height: 200px;
+  }
+}

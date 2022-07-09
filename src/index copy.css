@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* * font icons */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varta:wght@400;700&display=swap");
+
+@media only screen and (min-width: 0) {
+  html {
+    line-height: 1.8rem;
+    scrollbar-color: #999 #fff;
+
+    font-size: 100%;
+    /* 16px */
+
+    font-family: Raleway, sans-serif;
+    /* font-family: gelasio, serif; font-weight: 400; letter-spacing: 0.02em; font-size: 102%; */
+    /* font-family: Radley, serif; font-weight: 400; */ /*-- litt mindre enn Gelasio --*/
+    /* font-family: "Abhaya Libre", serif; font-weight: 400; */
+    /* font-family: "Fanwood Text", serif; font-weight: 400; */
+  }
+  .small-caps {
+    /* font-family: 'Alegreya SC', serif; font-weight: 400; */
+    /* font-family: 'Cormorant SC', serif; font-weight: 500; */
+    /* font-family: 'Marcellus SC', serif; font-weight: 400; */
+    font-family: 'Mate SC', serif; font-weight: 400;
+    /* font-feature-settings: "smcp"; */
+
+
+
+
+    /* font-size: 85%; font-weight: 400; */
+  }
+  body {
+    margin: 0;
+  }
+  .oldbody {
+    background-color: #230d9b;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(images/black_explosion.webp);
+    background-blend-mode: multiply;
+    background-position: 230% -135px;
+    background-size: 130%;
+  }
+  /* oppdaterer du dette, må du også oppdatere main img her og  */
+  .oldbody > * {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .mb-50 {
+    margin-bottom: 50px;
+  }
+  .mb-130 {
+    margin-bottom: 130px;
+  }
+  .mt-50 {
+    margin-top: 50px;
+  }
+  .mt-130 {
+    margin-top: 130px;
+  }
+  /* ––––––––––––––––––––– Type ––––––––––––––––––––– */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 60%;
+  }
+  h1 {
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 3rem;
+    margin-bottom: 15px;
+  }
+  h1,
+  h2 {
+    letter-spacing: 0.1rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  h1,  h2,  h3,  h4, .subtitle, .tagline,  nav, button,  a, figure, .skills-placeholder {
+    /* font-family: Varta, sans-serif; */
+    /* font-family: Raleway, sans-serif; */
+    /* font-family: Calistoga, serif; */
+    /* font-family: Canit, serif; */
+
+    /* uprøvd: */
+    /* font-family: Alata, serif; font-weight: 400; */
+    /* font-family: "Quattrocento Sans", serif; font-weight: 400; */
+    /* font-family: "Quattrocento Sans", serif; */
+  }
+  h2, h3, h4, .subtitle, nav, button, a, figure {
+    color: #000;
+  }
+  h1, h2, h3, h4, .subtitle {
+    font-weight: 700;
+  }
+  nav, button, a {
+    font-weight: 300;
+  }
+  h2 {
+    margin-top: 7rem;
+    font-size: 1.5rem;
+  }
+  h3 {
+    margin-top: 2rem;
+  }
+  .tagline {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    /* for tynnere skjermbredder hvor teksten hopper ned på to linjer: */
+    display: block;
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 1rem 0;
+  }
+  p {
+    color: #333;
+    /* font-family: Amiri, serif; font-weight: 400; line-height: 1.7em; font-size: 110%; */
+    font-family: lora, serif; font-weight: 400; letter-spacing: 0.02em; font-size: 100%;
+
+  }
+  /* ––––––––––––––––––––– Header ––––––––––––––––––––– */
+  header {
+    padding-top: 70px;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    background: rgba(255, 51, 51, 0.5);
+    background: -webkit-linear-gradient(
+      right,
+      rgba(255, 51, 51, 0.5),
+      rgba(255, 255, 255, 0)
+    );
+    background: -moz-linear-gradient(
+      right,
+      rgba(255, 51, 51, 0.5),
+      rgba(255, 255, 255, 0)
+    );
+    background: linear-gradient(
+      to left,
+      rgba(255, 51, 51, 0.5),
+      rgba(255, 255, 255, 0)
+    );
+    padding-bottom: 20px;
+  }
+  .gallery header {
+    padding-bottom: 50px;
+  }
+  header:before {
+    background: rgba(127, 1, 127, 0.5);
+    background: linear-gradient(
+      to bottom right,
+      rgba(127, 1, 127, 0.5),
+      rgba(1, 1, 31, 0.5)
+    );
+  }
+  header:after,
+  header:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+  header:after {
+    background: #000;
+    background: -webkit-linear-gradient(bottom, #000, rgba(127, 1, 127, 0));
+    background: -moz-linear-gradient(bottom, #000, rgba(127, 1, 127, 0));
+    background: linear-gradient(0deg, #000, rgba(127, 1, 127, 0));
+  }
+  header .circle-frame {
+    display: none;
+  }
+  /* ––––––––––––––––––––– Nav ––––––––––––––––––––– */
+  /* Se CSS module */
+  /* ––––––––––––––––––––– Main  ––––––––––––––––––––– */
+  main {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 0px 4px 32px -16px #000000;
+    box-shadow: inset 0 4px 32px -16px #000;
+    min-height: 40vh; /* mest for å forhindre at footer hopper langt opp på galleri siden, mens bildene lastes inn. */
+  }
+  /* det første elementet i main trenger ikke margin-top, da main tar seg av dette  */
+  main .container > :first-child {
+    margin-top: 0;
+  }
+  .flex {
+    display: flex;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .squarelinks-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .work-heading-img {
+    height: auto; /*nødvendig for å overskrive height attribute */
+    /* må synces med .oldbody > * */
+    width: 120%;
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+  main a.button,
+  main span.button {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin: 4px 3px;
+    padding: 12px 24px;
+    border-radius: 10px;
+  }
+  main a.button:link,
+  main a.button:visited {
+    background: #7f017f;
+    background: -webkit-linear-gradient(
+      top left,
+      rgba(127, 1, 127, 1),
+      rgba(1, 1, 31, 1)
+    );
+    background: -moz-linear-gradient(
+      top left,
+      rgba(127, 1, 127, 1),
+      rgba(1, 1, 31, 1)
+    );
+    background: linear-gradient(to bottom right, #7f017f, #01011f);
+  }
+  main a.button:focus,
+  main a.button:hover {
+    color: #000;
+    background: #fff;
+    box-shadow: inset 0 0 0 3px #000;
+  }
+  main span.button {
+    background-color: #444;
+  }
+  .center-content-fullscreen {
+    height: 80vh;
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center-content {
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* ––––––––––––––––––––– Footer  ––––––––––––––––––––– */
+  /* Se CSS module */
+}
+@media only screen and (min-width: 570px) {
+  /* !* this value is mirrored in SquareLink.module.css. Keep them in sync. Code: ★ */
+  .oldbody > * {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
+  main .work-heading-img {
+    height: auto; /*nødvendig for å overskrive height attribute */
+    /* trekk bilde ut av container, og legg til på bredde */
+    width: 106%;
+    margin-left: -3%;
+    margin-right: -3%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  header .circle-frame {
+    margin-top: -9px;
+    /* flytt over header's padding-top */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* ^^ align-items: center (default) vil plassere bildet slik at toppen av bildet slettes ved overflow hidden, og header img {…} da ikke vil ha noe å hente  */
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 200px;
+    overflow: hidden;
+  }
+  header .circle-frame img {
+    height: 135%;
+    object-fit: cover;
+    -webkit-transform: translateX(0) translateY(-35px);
+    transform: translateX(0) translateY(-35px);
+  }
+  .index-header-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  .squarelinks-flex {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+  }
+  header .circle-frame {
+    margin-left: 18%;
+  }
+  .index-header-flex {
+    justify-content: flex-start;
+  }
+  main .container .normal-list li,
+  main .container p,
+  main .container dl {
+    width: 630px;
+  }
+}

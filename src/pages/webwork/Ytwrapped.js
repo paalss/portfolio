@@ -36,7 +36,7 @@ const Ytwrapped = () => (
     <p>
       <Trans>
         For å bruke denne applikasjonen så forutsetter det at du har vært
-        innlogged på youtube mens du har sett videoene, slik at man kan
+        innlogget på Youtube mens du har sett videoene, slik at man kan
         skaffe disse datene og laste dem opp i denne appen.
       </Trans>
     </p>

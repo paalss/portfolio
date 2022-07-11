@@ -41,14 +41,13 @@ const Rankingapp = () => (
     />
 
     <Trans>
-      <p>Prosjektet er foreløpig satt på pause.</p>
+      <p>Dette prosjektet er arkivert og jobbes ikke på lenger.</p>
       <p>
         I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere
-        ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet
-        ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde
-        vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra
-        på felles lister og importere listelementer direkte fra andre databaser
-        (med web API).
+        ting, hvor poenggivingen er en sortering fra best til dårligst.
+        Potensielle ideer jeg hadde for appen, var å la brukerne få dele/vise
+        listen sin med andre brukere, bidra på felles lister og importere
+        listelementer direkte fra andre databaser (med web API).
       </p>
       <h3>Motivasjon til prosjektet</h3>
       <p>

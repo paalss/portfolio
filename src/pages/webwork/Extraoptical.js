@@ -7,7 +7,7 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
-import HT from "../../components/common/HtmlTag"
+import HT from "../../components/common/HtmlTag";
 
 const Extraoptical = () => (
   <>
@@ -20,7 +20,7 @@ const Extraoptical = () => (
     />
 
     <WorkHeading
-      heading={t`Extra Opticals nye nettbutikk`}
+      heading={t`Extra Opticals nettbutikk`}
       timespan={t`2022 februar–nå`}
       siteInfo={{
         site: "https://extraoptical.no/",
@@ -39,8 +39,9 @@ const Extraoptical = () => (
       <dt>Magento PWA builder</dt>
       <dd>
         <Trans>
-          Et eCommerce CMS hvor administratorer kan legge til egne
-          undersider og byggeklosser med drag and drop interface. Kildekoden kan hente inn disse byggeklossene med <HT>CmsBlock/</HT>
+          Et eCommerce CMS hvor administratorer kan legge til egne undersider og
+          byggeklosser med drag and drop interface. Kildekoden kan hente inn
+          disse byggeklossene med <HT>CmsBlock/</HT>
         </Trans>
       </dd>
     </dl>
@@ -55,9 +56,9 @@ const Extraoptical = () => (
     </dl>
     <p>
       <Trans>
-        På den nye nettsiden har jeg jobbet både i Magento PWA builder og i
-        kildekoden. Koden er satt opp slik at enkelte deler er satt av til{" "}
-        <i>Magento PWA builder</i> innhold, mens resten er React-komponenter.
+        På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i{" "}
+        CMS-et <i>Magento PWA builder</i>. Koden er satt opp slik at enkelte
+        deler er satt av til CMS-et, mens resten er React-komponenter.
       </Trans>
     </p>
     <p>
@@ -70,7 +71,7 @@ const Extraoptical = () => (
 
     <WorkHeading
       extraSpaceAbove={true}
-      heading={t`Extra Opticals eldre side`}
+      heading={t`Extra Opticals eldre nettbutikk`}
       timespan={t`2022 november–februar`}
       tools={["Magento2", "PHTML", "CSS"]}
     />
@@ -98,11 +99,6 @@ const Extraoptical = () => (
       <li>
         <Trans>
           Fikset layout på bunntekst og ordnet en side for mobilstørrelser
-        </Trans>
-      </li>
-      <li>
-        <Trans>
-          Bygd noen sider på den nye nettsiden (en Progressive Web App)
         </Trans>
       </li>
     </ul>

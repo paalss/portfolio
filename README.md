@@ -31,8 +31,11 @@ Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg
 
 1. wrap tekst i `<Trans>__</Trans>` eller `t`\`\_\_`
 2. `yarn extract` - generer/oppdaterer message catalog med ny tekst og se hvor mye som gjenstår å oversette
-3. gå inn i catalog (locales/\*\*/messages.po) og legg til oversettelse i msgstr
+3. gå inn i catalog (locales/en/messages.po) og legg til oversettelse i msgstr
 4. `yarn compile` - genererer/oppdaterer JS message catalog
+
+#### Valgfritt
+5. `yarn clean` - fjern ubrukte oversettelser - bare husk at engelsk tekst i ubrukte (utdaterte) oversettelser kan føres over i ny oppdatert tekst.
 
 Ikke bruk `t` for tekst i pagesInfo.js, det oppdateres kun når det er JSX (`<Trans>`) og ikke string (`t`). Litt synd med tanke på image alt-attributtene som forblir uoversettet, da.
 

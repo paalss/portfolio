@@ -40,7 +40,7 @@ msgstr "2022 desember–nå"
 msgid "2022 februar–nå"
 msgstr "2022 februar–nå"
 
-#: src/pages/webwork/Extraoptical.js:74
+#: src/pages/webwork/Extraoptical.js:75
 msgid "2022 november–februar"
 msgstr "2022 november–februar"
 
@@ -59,6 +59,10 @@ msgstr "2022 vår–nå"
 #: src/App.js:41
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Siden finnes ikke"
+
+#: src/pages/webwork/Rankingapp.js:43
+msgid "<0>Dette prosjektet er arkivert og jobbes ikke på lenger.</0><1>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Potensielle ideer jeg hadde for appen, var å la brukerne få dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</1><2>Motivasjon til prosjektet</2><3>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.</3><4>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</4><5>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</5><6>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</6>"
+msgstr "<0>Dette prosjektet er arkivert og jobbes ikke på lenger.</0><1>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Potensielle ideer jeg hadde for appen, var å la brukerne få dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</1><2>Motivasjon til prosjektet</2><3>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.</3><4>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</4><5>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</5><6>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</6>"
 
 #: src/pages/graphicwork/JRNM.js:28
 msgid "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
@@ -97,12 +101,12 @@ msgstr "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studente
 #~ msgstr "<0>Nettsider</0><1>Her er noen nettsider som jeg er stolt av å ha laget selv / bidratt på og som jeg har skrevet litt om.</1>"
 
 #: src/pages/webwork/Rankingapp.js:43
-msgid "<0>Prosjektet er foreløpig satt på pause.</0><1>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</1><2>Motivasjon til prosjektet</2><3>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.</3><4>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</4><5>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</5><6>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</6>"
-msgstr "<0>Prosjektet er foreløpig satt på pause.</0><1>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</1><2>Motivasjon til prosjektet</2><3>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.</3><4>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</4><5>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</5><6>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</6>"
+#~ msgid "<0>Prosjektet er foreløpig satt på pause.</0><1>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</1><2>Motivasjon til prosjektet</2><3>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.</3><4>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</4><5>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</5><6>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</6>"
+#~ msgstr "<0>Prosjektet er foreløpig satt på pause.</0><1>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Jeg vet ikke hvor mye jeg vil klare å legge til denne webappen, men det hadde vært gøy om brukerne kunne dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</1><2>Motivasjon til prosjektet</2><3>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.</3><4>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</4><5>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</5><6>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</6>"
 
 #: src/pages/webwork/Dokker.js:32
-msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
-msgstr "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
+msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React-kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
+msgstr "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React-kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
 
 #: src/pages/webwork/Videoopplasting.js:16
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2>"
@@ -141,11 +145,11 @@ msgstr "Behersker {tech} godt"
 msgid "Beskrivelse"
 msgstr "Beskrivelse"
 
-#: src/pages/webwork/Rankingapp.js:97
+#: src/pages/webwork/Rankingapp.js:96
 msgid "Beste bøker listeeksempel"
 msgstr "Beste bøker listeeksempel"
 
-#: src/pages/webwork/Rankingapp.js:90
+#: src/pages/webwork/Rankingapp.js:89
 msgid "Beste metroidvanias listeeksempel"
 msgstr "Beste metroidvanias listeeksempel"
 
@@ -157,9 +161,13 @@ msgstr "Besøk min Github-profil"
 msgid "Besøk siden"
 msgstr "Besøk siden"
 
-#: src/pages/webwork/Extraoptical.js:78
+#: src/pages/webwork/Extraoptical.js:79
 msgid "Bidrag"
 msgstr "Bidrag"
+
+#: src/pages/Gallery/Gallery.js:107
+msgid "Bilder jeg har lagt ut på min Instagram"
+msgstr "Bilder jeg har lagt ut på min Instagram"
 
 #: src/pagesInfo.js:238
 msgid "Bok web-banner"
@@ -175,8 +183,8 @@ msgid "Bosatt i Trondheim"
 msgstr "Bosatt i Trondheim"
 
 #: src/pages/webwork/Extraoptical.js:104
-msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
-msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
+#~ msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
+#~ msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 
 #: src/pages/webwork/Portfolios.js:163
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
@@ -186,7 +194,7 @@ msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har in
 msgid "Denne porteføljen"
 msgstr "Denne porteføljen"
 
-#: src/pages/webwork/Extraoptical.js:64
+#: src/pages/webwork/Extraoptical.js:65
 msgid "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
 msgstr "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
 
@@ -235,7 +243,7 @@ msgstr "Enda tidligere portefølje"
 msgid "Erfaring"
 msgstr "Erfaring"
 
-#: src/pages/webwork/Extraoptical.js:50
+#: src/pages/webwork/Extraoptical.js:51
 msgid "Et HTML templating språk (HTML hvor man kan bruke variabler og expressions). Ikke så ulikt Twig og Handlebars."
 msgstr "Et HTML templating språk (HTML hvor man kan bruke variabler og expressions). Ikke så ulikt Twig og Handlebars."
 
@@ -267,17 +275,25 @@ msgstr "Et poster jeg også lagde"
 msgid "Extra Optical forside"
 msgstr "Extra Optical forside"
 
+#: src/pages/webwork/Extraoptical.js:74
+msgid "Extra Opticals eldre nettbutikk"
+msgstr "Extra Opticals eldre nettbutikk"
+
 #: src/pages/webwork/Extraoptical.js:73
-msgid "Extra Opticals eldre side"
-msgstr "Extra Opticals eldre side"
+#~ msgid "Extra Opticals eldre side"
+#~ msgstr "Extra Opticals eldre side"
+
+#: src/pages/webwork/Extraoptical.js:23
+msgid "Extra Opticals nettbutikk"
+msgstr "Extra Opticals nettbutikk"
 
 #: src/pages/webwork/Extraoptical.js:22
 #~ msgid "Extra Opticals nye netbutikk fra februar"
 #~ msgstr "Extra Opticals nye netbutikk fra februar"
 
 #: src/pages/webwork/Extraoptical.js:23
-msgid "Extra Opticals nye nettbutikk"
-msgstr "Extra Opticals nye nettbutikk"
+#~ msgid "Extra Opticals nye nettbutikk"
+#~ msgstr "Extra Opticals nye nettbutikk"
 
 #: src/pages/webwork/Fagstoff.js:21
 #: src/pagesInfo.js:184
@@ -288,15 +304,15 @@ msgstr "Fagstoff"
 msgid "Fant ingen bilder"
 msgstr "Fant ingen bilder"
 
-#: src/pages/webwork/Extraoptical.js:82
+#: src/pages/webwork/Extraoptical.js:83
 msgid "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 msgstr "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 
-#: src/pages/webwork/Extraoptical.js:99
+#: src/pages/webwork/Extraoptical.js:100
 msgid "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 msgstr "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 
-#: src/pages/webwork/Extraoptical.js:96
+#: src/pages/webwork/Extraoptical.js:97
 msgid "Fikset på Extra Opticals Zendesk Help center."
 msgstr "Fikset på Extra Opticals Zendesk Help center."
 
@@ -309,8 +325,8 @@ msgstr "Flavia de Luce serien web-banner"
 #~ msgstr "For å bruke denne applikasjonen så forutsetter det at du har vært innlogged på youtube mens du har sett videoene, slik at man kan eksportere disse datene og laste dem opp i denne appen."
 
 #: src/pages/webwork/Ytwrapped.js:37
-msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogged på youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
-msgstr "For å bruke denne applikasjonen så forutsetter det at du har vært innlogged på youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
+msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogget på Youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
+msgstr "For å bruke denne applikasjonen så forutsetter det at du har vært innlogget på Youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
 
 #: src/pagesInfo.js:99
 #: src/pagesInfo.js:111
@@ -324,7 +340,7 @@ msgstr "Fritid"
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Fritidsprosjekt som aldri ble fullført"
 
-#: src/pages/webwork/Rankingapp.js:98
+#: src/pages/webwork/Rankingapp.js:97
 msgid "Få pene og oversiktlige lister"
 msgstr "Få pene og oversiktlige lister"
 
@@ -417,15 +433,15 @@ msgstr "Kode"
 msgid "Kunst"
 msgstr "Kunst"
 
-#: src/pages/webwork/Rankingapp.js:84
+#: src/pages/webwork/Rankingapp.js:83
 msgid "Lag egne lister"
 msgstr "Lag egne lister"
 
-#: src/pages/webwork/Extraoptical.js:93
+#: src/pages/webwork/Extraoptical.js:94
 msgid "Lagd undersider"
 msgstr "Lagd undersider"
 
-#: src/pages/Gallery/Gallery.js:97
+#: src/pages/Gallery/Gallery.js:99
 msgid "Laster inn..."
 msgstr "Laster inn..."
 
@@ -445,6 +461,10 @@ msgstr "Logo for Junior NM på ski 2015"
 msgid "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 msgstr "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 
+#: src/pages/Gallery/Gallery.js:106
+msgid "Maleri, tegninger og annet"
+msgstr "Maleri, tegninger og annet"
+
 #: src/pages/Home.js:28
 msgid "MySQL & relasjonsdatabaser"
 msgstr "MySQL & relasjonsdatabaser"
@@ -454,8 +474,8 @@ msgid "MySQL & relasjons­databaser"
 msgstr "MySQL & relasjons­databaser"
 
 #: src/pages/webwork/Ohmyaliases.js:30
-msgid "Måtte lære meg aliasene til oh my bash. Så jeg lagde denne oppslagsverk-appen for å raskt kunne se aliasene for mine ofte brukte kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh."
-msgstr "Måtte lære meg aliasene til oh my bash. Så jeg lagde denne oppslagsverk-appen for å raskt kunne se aliasene for mine ofte brukte kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh."
+msgid "Måtte lære meg aliasene til Oh my bash. Så jeg lagde denne oppslagsverk-appen for å raskt kunne se aliasene for mine ofte brukte kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh."
+msgstr "Måtte lære meg aliasene til Oh my bash. Så jeg lagde denne oppslagsverk-appen for å raskt kunne se aliasene for mine ofte brukte kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh."
 
 #: src/components/common/SquareLink/SquareLink.js:39
 msgid "Nett"
@@ -470,7 +490,7 @@ msgstr "Nettside med overskriften 'fagstoff'"
 msgid "Nettsider"
 msgstr "Nettsider"
 
-#: src/pages/webwork/Rankingapp.js:83
+#: src/pages/webwork/Rankingapp.js:82
 msgid "Oversikt over lister eksempel"
 msgstr "Oversikt over lister eksempel"
 
@@ -486,6 +506,14 @@ msgstr "Plakat"
 msgid "Portefølje"
 msgstr "Portefølje"
 
+#: src/pages/webwork/Portfolios.js:145
+msgid "Portefølje 3"
+msgstr "Portefølje 3"
+
+#: src/pages/webwork/Portfolios.js:57
+msgid "Porteføljen slik den så ut 9. desember 2020"
+msgstr "Porteføljen slik den så ut 9. desember 2020"
+
 #: src/pagesInfo.js:145
 msgid "Praksis"
 msgstr "Praksis"
@@ -495,8 +523,12 @@ msgid "Praksis & jobb"
 msgstr "Praksis & jobb"
 
 #: src/pages/webwork/Extraoptical.js:57
-msgid "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
-msgstr "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
+#~ msgid "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
+#~ msgstr "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
+
+#: src/pages/webwork/Extraoptical.js:58
+msgid "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Koden er satt opp slik at enkelte deler er satt av til CMS-et, mens resten er React-komponenter."
+msgstr "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Koden er satt opp slik at enkelte deler er satt av til CMS-et, mens resten er React-komponenter."
 
 #: src/pages/Home.js:67
 msgid "React sertifikat"
@@ -506,7 +538,7 @@ msgstr "React sertifikat"
 msgid "Relasjonsdatabase"
 msgstr "Relasjonsdatabase"
 
-#: src/pages/webwork/Extraoptical.js:88
+#: src/pages/webwork/Extraoptical.js:89
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Rettet opp / fjernet <0>broken links</0>"
 
@@ -514,7 +546,7 @@ msgstr "Rettet opp / fjernet <0>broken links</0>"
 #~ msgid "Se mer på Github"
 #~ msgstr "Se mer på Github"
 
-#: src/pages/webwork/Rankingapp.js:91
+#: src/pages/webwork/Rankingapp.js:90
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Sett inn egne elementer, tilpass etter behov"
 
@@ -654,7 +686,6 @@ msgid "portefølje 2"
 msgstr "portefølje 2"
 
 #: src/pages/webwork/Portfolios.js:144
-#: src/pages/webwork/Portfolios.js:145
 msgid "portefølje 3"
 msgstr "portefølje 3"
 
@@ -672,8 +703,8 @@ msgid "portefølje med prosjekter"
 msgstr "portefølje med prosjekter"
 
 #: src/pages/webwork/Portfolios.js:57
-msgid "porteføljen slik den så ut 9. desember 2020"
-msgstr "porteføljen slik den så ut 9. desember 2020"
+#~ msgid "porteføljen slik den så ut 9. desember 2020"
+#~ msgstr "porteføljen slik den så ut 9. desember 2020"
 
 #: src/pages/webwork/Videoopplasting.js:136
 msgid "side med videospiller, meny og transkript"

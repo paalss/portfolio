@@ -28,7 +28,7 @@ const Ohmyaliases = () => (
     />
     <p>
       <Trans>
-        Måtte lære meg aliasene til oh my bash. Så jeg lagde denne
+        Måtte lære meg aliasene til Oh my bash. Så jeg lagde denne
         oppslagsverk-appen for å raskt kunne se aliasene for mine ofte brukte
         kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh.
       </Trans>

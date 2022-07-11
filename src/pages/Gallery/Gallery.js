@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import LightboxImage from "../../components/common/LightboxImage";
 import classes from "./Gallery.module.css";
 
-import { Trans } from "@lingui/macro";
+import { t, Trans } from "@lingui/macro";
 
 const Gallery = () => {
   const [instaMedia, setInstaMedia] = useState([]);
@@ -77,7 +77,9 @@ const Gallery = () => {
               Innlasting av bilder mislyktes. Du kan prøve å:
               <ul>
                 <li>Slå av utvidet sporingsbeskyttelse for dette nettstedet</li>
-                <li>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</li>
+                <li>
+                  Åpne denne nettsiden i Google Chrome eller Microsoft Edge
+                </li>
               </ul>
               Ellers så kan du gå til{" "}
               <a href="https://www.instagram.com/gassosaman/">
@@ -100,9 +102,14 @@ const Gallery = () => {
   }
 
   return (
-    <div uk-lightbox="animation: slide">
-      <div className={classes.galleryFlex}>{content}</div>
-    </div>
+    <>
+      <h2>{t`Maleri, tegninger og annet`}</h2>
+      <p>{t`Bilder jeg har lagt ut på min Instagram`}</p>
+
+      <div uk-lightbox="animation: slide">
+        <div className={classes.galleryFlex}>{content}</div>
+      </div>
+    </>
   );
 };
 

@@ -33,7 +33,7 @@ const Dokker = () => (
       <p>
         Under denne fem-måneders praksisen bidro jeg i utviklingen av
         web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et
-        React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk
+        React-kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk
         bidratt med:
       </p>
       <ul className="normal-list">

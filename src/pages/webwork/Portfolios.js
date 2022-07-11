@@ -54,7 +54,7 @@ const Portfolios = () => (
           imgWidth={1918}
           imgHeight={920}
           imgAlt={t`portefølje med prosjekter`}
-          caption={t`porteføljen slik den så ut 9. desember 2020`}
+          caption={t`Porteføljen slik den så ut 9. desember 2020`}
         />
       </div>
 
@@ -142,7 +142,7 @@ const Portfolios = () => (
           imgWidth={1280}
           imgHeight={623}
           imgAlt={t`portefølje 3`}
-          caption={t`portefølje 3`}
+          caption={t`Portefølje 3`}
         />
       </div>
     </>

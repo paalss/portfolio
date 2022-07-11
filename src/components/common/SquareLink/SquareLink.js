@@ -35,14 +35,14 @@ const SquareLink = ({
         {(site || repo) && (
           <div className={classes.externalLinks}>
             {site ? (
-              <a href={site}>
+              <a href={site} target="_blank" rel="noreferrer">
                 <Fa icon={faGlobe} /> {t`Nett`}
               </a>
             ): (
               <span></span>
             )}
             {repo ? (
-              <a href={repo}>
+              <a href={repo} target="_blank" rel="noreferrer">
                 <Fa icon={faCode} /> {t`Kode`}
               </a>
             ): (

@@ -1,7 +1,7 @@
 import React from "react";
 import { hydrate, render } from "react-dom";
 import "./index.css";
-import "./google-font-families.css"
+// import "./google-font-families.css"
 import App from "./App";
 // import reportWebVitals from "./reportWebVitals";
 

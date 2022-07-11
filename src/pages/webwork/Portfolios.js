@@ -71,7 +71,7 @@ const Portfolios = () => (
           måtte ryddes bort fra index.html (søylediagrammet).
         </p>
         <p>
-          Å lage komponenter med "vanilla JavaScript" ble ganske uelegant etter
+          Å lage komponenter med “vanilla JavaScript” ble ganske uelegant etter
           hvert som koden ble større. Jeg gikk derfor over til React da det var
           det komponent-baserte verktøyet jeg hadde tidligere erfaring med.
         </p>
@@ -98,9 +98,9 @@ const Portfolios = () => (
 
       <p>
         <Trans>
-          Dette var en portefølje jeg lagde under studiene. Etter et år ble
+          Dette var en portefølje jeg lagde under studiene. Etter ett år ble
           informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd
-          med desginet og måten jeg hadde kodet det på. Derfor skrotet jeg denne
+          med designet og måten jeg hadde kodet det på. Derfor skrotet jeg denne
           og begynte på siden du er på nå.
         </Trans>
       </p>

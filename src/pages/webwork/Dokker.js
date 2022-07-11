@@ -36,14 +36,14 @@ const Dokker = () => (
         React kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk
         bidratt med:
       </p>
-      <ul>
+      <ul className="normal-list">
         <li>Nye komponenter</li>
         <li>Refaktorering</li>
         <li>Vurdering av andres kode</li>
         <li>Litt bug-fixing</li>
       </ul>
       <p>Under denne perioden lærte jeg:</p>
-      <ul>
+      <ul className="normal-list">
         <li>React og relaterte verktøy</li>
         <li>
           Samarbeid på prosjekt med bruk av <i>issues</i> og{" "}

@@ -78,7 +78,7 @@ msgstr "<0>Since then I added more content and improved SEO. I'm very satisfied 
 
 #: src/pages/webwork/Videoopplasting.js:40
 msgid "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting, ‑redigering og ‑visning. I tillegg gjorde jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting av videoer til filsystemet. Jeg jobbet også litt med kommentarer.</0><1>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</1>"
-msgstr "<0>In this I worked in a group with two others. My responsibilities was most on video uploading, -editing and -playing. Additionaly I did the playlist related stuff. Technically speaking this meant working with the app's integration with the database, database structure and downloading of videos to the filesystem. I also worked a little with the comments.</0><1>The app was made with PHP-files and the templating engine Twig to render the html-pages."
+msgstr "<0>In this I worked in a group with two others. My responsibilities was most on video uploading, -editing and -playing. Additionaly I did the playlist related stuff. Technically speaking this meant working with the app's integration with the database, database structure and downloading of videos to the filesystem. I also worked a little with the comments.</0><1>The app was made with PHP-files and the templating engine Twig to render the html-pages.</1>"
 
 #: src/pages/Home.js:14
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"

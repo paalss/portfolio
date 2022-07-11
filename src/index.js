@@ -9,20 +9,20 @@ import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
 import { messages as noMessages } from "./locales/no/messages";
 import { messages as enMessages } from "./locales/en/messages";
-import { no, en } from "make-plural/plurals"
+import { no, en } from "make-plural/plurals";
 
-i18n.loadLocaleData("no", {plurals: no})
-i18n.loadLocaleData("en", {plurals: en})
+i18n.loadLocaleData("no", { plurals: no });
+i18n.loadLocaleData("en", { plurals: en });
 
-const activeLang = localStorage.getItem('lang');
-// activeLang: null | "no" | "en"
+const activeLang = localStorage.getItem("lang");
 
 i18n.load({
   no: noMessages,
   en: enMessages,
 });
-i18n.activate(activeLang==="en" ? "en" : "no");
-document.documentElement.lang = i18n.locale
+
+i18n.activate(activeLang ? activeLang : "en");
+document.documentElement.lang = i18n.locale;
 
 const LinguiApp = () => (
   <I18nProvider i18n={i18n}>

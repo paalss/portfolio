@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
@@ -22,7 +22,7 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon className={classes.icon} icon={faGithub} />
+            <Fa className={classes.icon} icon={faGithub} />
             <span className={classes.linkText}>Github (paalss)</span>
           </a>
         </li>
@@ -32,7 +32,7 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon className={classes.icon} icon={faLinkedin} />
+            <Fa className={classes.icon} icon={faLinkedin} />
             <span className={classes.linkText}>Linkedin</span>
           </a>
         </li>
@@ -42,7 +42,7 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon className={classes.icon} icon={faInstagram} />
+            <Fa className={classes.icon} icon={faInstagram} />
             <span className={classes.linkText}>Instagram (gassosaman)</span>
           </a>
         </li>
@@ -64,12 +64,12 @@ const Footer = () => (
       <ul>
         <li>
           <a href="mailto:paalss94@gmail.com">
-            <FontAwesomeIcon className={classes.icon} icon={faEnvelope} />
+            <Fa className={classes.icon} icon={faEnvelope} />
             <span className={classes.linkText}>paalss94@gmail.com</span>
           </a>
         </li>
         <li>
-          <FontAwesomeIcon className={classes.icon} icon={faLocationDot} />
+          <Fa className={classes.icon} icon={faLocationDot} />
           {t`Bosatt i Trondheim`}
         </li>
       </ul>

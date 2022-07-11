@@ -1,7 +1,7 @@
 import classes from "./WorkLinks.module.css"
 
 // icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
 import { faGlobe, faCode } from "@fortawesome/free-solid-svg-icons";
 
 // react lingui
@@ -12,12 +12,12 @@ const WorkLinks = ({ site = false, repo = false }) => {
     <>
       {site && (
         <a className={classes.link} href={site} rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGlobe} /> {t`Besøk siden`}
+          <Fa icon={faGlobe} /> {t`Besøk siden`}
         </a>
       )}
       {repo && (
         <a className={classes.link} href={repo} rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faCode} /> {t`Kildekode`}
+          <Fa icon={faCode} /> {t`Kildekode`}
         </a>
       )}
     </>

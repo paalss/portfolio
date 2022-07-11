@@ -4,7 +4,7 @@ import { webworkInfo } from "../pagesInfo";
 import SquareLink from "../components/common/SquareLink";
 
 // icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 // react lingui
@@ -28,7 +28,7 @@ const Webwork = () => (
         href="https://github.com/paalss"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faGithub} /> <Trans>Besøk min Github-profil</Trans>
+        <Fa icon={faGithub} /> <Trans>Besøk min Github-profil</Trans>
       </a>
     </div>
   </>

@@ -1,5 +1,6 @@
 .figure {
-  background-color: #eee;
+  border: 1px solid #7f017f;
+  border-radius: 20px;
   margin: 15px 0;
   padding: 40px 5% 10px 5%;
   width: fit-content;

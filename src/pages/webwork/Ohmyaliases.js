@@ -1,5 +1,5 @@
 // images
-import projImg from "../../images/webwork/ohmyaliases/img.png";
+import projImg from "../../images/webwork/ohmyaliases/img.avif";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";

@@ -4,6 +4,8 @@ https://paalss.github.io/portfolio/
 
 ## Utvikling
 
+**Bruk Git bash for følgende. WSL funker ikke til predeploy (react-snap).**
+
 **Installer dependencies**
 ```
 yarn
@@ -12,14 +14,12 @@ yarn
 ```
 yarn start
 ```
-**Deploy**
+:rocket: **Deploy**
 ```
 yarn predeploy
 yarn deploy
 ```
 https://create-react-app.dev/docs/deployment#github-pages
-
-Ikke bruk WSL. Bruk git bash. React-snap klikker på WSL
 
 ### Deploy-problemer etter checkout
 
@@ -47,6 +47,8 @@ https://lingui.js.org/tutorials/react.html
 
 **Eksempler**
 
+**Bruk WSL, ikke git bash**
+
 * `npx @squoosh/cli --avif auto test.png`
   
 * `npx @squoosh/cli --webp auto test.png`
@@ -64,9 +66,15 @@ https://squoosh.app/
 Konverter alle png og jpg bilder i en mappe til webp-filer:
 [How to convert my photos to webp format of Google in windows 8.1?](https://stackoverflow.com/questions/24484272/how-to-convert-my-photos-to-webp-format-of-google-in-windows-8-1) se svaret til pldg. libwebp-1.2.1-windows-x64 funker for windows 10 Education
 
-### Forminsk webp bilder (for SquareLink bilder)
+### Forminsk bilder (for SquareLink bilder)
+
+#### Forminsk Webp
 
 https://www.xconvert.com/compress-webp
+
+#### Forminsk AVIF?
+
+https://www.compresss.com/compress-avif.html
 
 ### Instagram-galleri API ressurser
 

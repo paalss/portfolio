@@ -1,5 +1,5 @@
 // images
-import projImg from "../../images/webwork/yt-wrapped/img.png";
+import projImg from "../../images/webwork/yt-wrapped/img.avif";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";

@@ -10,8 +10,8 @@ import photo from "./images/cvphoto2.webp";
 
 // webwork
 import fakturanettImg from "./images/webwork/fakturanett/fakturanett-icon.avif";
-import ytWrappedImg from "./images/webwork/yt-wrapped/img.png";
-import ohmyaliasesImg from "./images/webwork/ohmyaliases/img.png"
+import ytWrappedImg from "./images/webwork/yt-wrapped/img.avif";
+import ohmyaliasesImg from "./images/webwork/ohmyaliases/img.avif"
 import extraopticalImg from "./images/webwork/extraoptical/logo/eo-icon.webp";
 import dokkerImg from "./images/webwork/dokker/logo/dokkericon.webp";
 import rankingappImg from "./images/webwork/rankingapp/rankingapp-small.webp";

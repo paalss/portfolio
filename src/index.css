@@ -17,18 +17,6 @@
     margin: 0;
   }
 
-  p, .normal-list, figcaption {
-    color: #333;
-    font-weight: 400;
-    font-family: Lora, serif;
-    letter-spacing: 0.02rem;
-  }
-
-  main .container dl {
-    font-weight: 400;
-    font-style: italic;
-  }
-
   .oldbody {
     background-color: #230d9b;
     background-repeat: no-repeat;
@@ -85,6 +73,17 @@
     font-size: 1.3rem;
     font-weight: 600;
     margin: 1rem 0;
+  }
+  p, .normal-list, figcaption {
+    color: #333;
+    font-weight: 400;
+    font-family: Lora, serif;
+    letter-spacing: 0.02rem;
+  }
+
+  main .container dl {
+    font-weight: 400;
+    font-style: italic;
   }
   /* ––––––––––––––––––––– Header ––––––––––––––––––––– */
   header {

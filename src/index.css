@@ -71,14 +71,17 @@
   .subtitle {
     display: block;
     font-size: 1.3rem;
-    font-weight: 600;
     margin: 1rem 0;
   }
-  p, .normal-list, figcaption {
+  p, .normal-list {
     color: #333;
     font-weight: 400;
     font-family: Lora, serif;
     letter-spacing: 0.02rem;
+  }
+
+  figcaption {
+    font-weight: 400;
   }
 
   main .container dl {

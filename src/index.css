@@ -10,7 +10,7 @@
     /* 16px */
     font-family: Raleway, sans-serif;
     font-weight: 600;
-    line-height: 2rem;
+    line-height: 1.8rem;
     scrollbar-color: #999 #fff;
   }
   body {
@@ -225,6 +225,9 @@
   /* Se CSS module */
 }
 @media only screen and (min-width: 570px) { /* !* this value is mirrored in SquareLink.module.css. Keep them in sync. Code: ★ */
+  html {
+    line-height: 2rem;
+  }
   .oldbody > * {
     padding-left: 14%;
     padding-right: 14%;

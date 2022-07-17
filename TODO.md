@@ -8,7 +8,7 @@
 - [ ] kjør siden på https://pagespeed.web.dev/ og gjør forbedringer
 
 ## design
-- [ ] litt mindre enn 2rem på linjehøyde for mobil
+- [x] litt mindre enn 2rem på linjehøyde for mobil
 
 ## Innhold
 - [ ] legg til nextjs ferdighet i barchart

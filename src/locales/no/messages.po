@@ -169,12 +169,12 @@ msgstr "Bidrag"
 msgid "Bilder jeg har lagt ut på min Instagram"
 msgstr "Bilder jeg har lagt ut på min Instagram"
 
-#: src/pagesInfo.js:238
+#: src/pagesInfo.js:239
 msgid "Bok web-banner"
 msgstr "Bok web-banner"
 
 #: src/pages/graphicwork/MPOE.js:24
-#: src/pagesInfo.js:247
+#: src/pagesInfo.js:249
 msgid "Bok-cover o.l."
 msgstr "Bok-cover o.l."
 
@@ -333,6 +333,7 @@ msgstr "For å bruke denne applikasjonen så forutsetter det at du har vært inn
 #: src/pagesInfo.js:156
 #: src/pagesInfo.js:185
 #: src/pagesInfo.js:209
+#: src/pagesInfo.js:272
 msgid "Fritid"
 msgstr "Fritid"
 
@@ -429,7 +430,7 @@ msgstr "Kildekode"
 msgid "Kode"
 msgstr "Kode"
 
-#: src/pagesInfo.js:267
+#: src/pagesInfo.js:271
 msgid "Kunst"
 msgstr "Kunst"
 
@@ -515,6 +516,7 @@ msgid "Porteføljen slik den så ut 9. desember 2020"
 msgstr "Porteføljen slik den så ut 9. desember 2020"
 
 #: src/pagesInfo.js:145
+#: src/pagesInfo.js:260
 msgid "Praksis"
 msgstr "Praksis"
 
@@ -551,6 +553,8 @@ msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Sett inn egne elementer, tilpass etter behov"
 
 #: src/pagesInfo.js:197
+#: src/pagesInfo.js:240
+#: src/pagesInfo.js:250
 msgid "Skole"
 msgstr "Skole"
 
@@ -560,6 +564,7 @@ msgid "Startside"
 msgstr "Startside"
 
 #: src/pagesInfo.js:167
+#: src/pagesInfo.js:230
 msgid "Studier"
 msgstr "Studier"
 

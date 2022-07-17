@@ -157,12 +157,12 @@ msgstr "Contribution"
 msgid "Bilder jeg har lagt ut på min Instagram"
 msgstr "Images which I've published on my Instagram"
 
-#: src/pagesInfo.js:238
+#: src/pagesInfo.js:239
 msgid "Bok web-banner"
 msgstr "Book web-banner"
 
 #: src/pages/graphicwork/MPOE.js:24
-#: src/pagesInfo.js:247
+#: src/pagesInfo.js:249
 msgid "Bok-cover o.l."
 msgstr "Book-cover and similar"
 
@@ -309,6 +309,7 @@ msgstr "To use this app it is assumed that you have watched the videos while log
 #: src/pagesInfo.js:156
 #: src/pagesInfo.js:185
 #: src/pagesInfo.js:209
+#: src/pagesInfo.js:272
 msgid "Fritid"
 msgstr "Spare time"
 
@@ -401,7 +402,7 @@ msgstr "Source code"
 msgid "Kode"
 msgstr "Code"
 
-#: src/pagesInfo.js:267
+#: src/pagesInfo.js:271
 msgid "Kunst"
 msgstr "Art"
 
@@ -487,6 +488,7 @@ msgid "Porteføljen slik den så ut 9. desember 2020"
 msgstr "The portfolio as of 9. December 2020"
 
 #: src/pagesInfo.js:145
+#: src/pagesInfo.js:260
 msgid "Praksis"
 msgstr "Internship"
 
@@ -523,6 +525,8 @@ msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Insert your own elements, customize to your needs"
 
 #: src/pagesInfo.js:197
+#: src/pagesInfo.js:240
+#: src/pagesInfo.js:250
 msgid "Skole"
 msgstr "School"
 
@@ -532,6 +536,7 @@ msgid "Startside"
 msgstr "Front page"
 
 #: src/pagesInfo.js:167
+#: src/pagesInfo.js:230
 msgid "Studier"
 msgstr "Studies"
 

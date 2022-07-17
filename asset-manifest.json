@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8224e3be.css",
-    "main.js": "/portfolio/static/js/main.592bd90f.js",
+    "main.css": "/portfolio/static/css/main.2114390b.css",
+    "main.js": "/portfolio/static/js/main.d6c346fc.js",
     "static/css/4.2689b9e3.chunk.css": "/portfolio/static/css/4.2689b9e3.chunk.css",
     "static/js/4.a9d82ec8.chunk.js": "/portfolio/static/js/4.a9d82ec8.chunk.js",
     "static/css/435.3cdfdee0.chunk.css": "/portfolio/static/css/435.3cdfdee0.chunk.css",
@@ -95,8 +95,8 @@
     "index.html": "/portfolio/index.html",
     "static/media/fakturanett-icon.avif": "/portfolio/static/media/fakturanett-icon.580e54c108df51fa0bea.avif",
     "static/media/no.svg": "/portfolio/static/media/no.0f44f1143dff461dc734523408912908.svg",
-    "main.8224e3be.css.map": "/portfolio/static/css/main.8224e3be.css.map",
-    "main.592bd90f.js.map": "/portfolio/static/js/main.592bd90f.js.map",
+    "main.2114390b.css.map": "/portfolio/static/css/main.2114390b.css.map",
+    "main.d6c346fc.js.map": "/portfolio/static/js/main.d6c346fc.js.map",
     "4.2689b9e3.chunk.css.map": "/portfolio/static/css/4.2689b9e3.chunk.css.map",
     "4.a9d82ec8.chunk.js.map": "/portfolio/static/js/4.a9d82ec8.chunk.js.map",
     "435.3cdfdee0.chunk.css.map": "/portfolio/static/css/435.3cdfdee0.chunk.css.map",
@@ -137,7 +137,7 @@
     "238.04fd627e.chunk.js.map": "/portfolio/static/js/238.04fd627e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8224e3be.css",
-    "static/js/main.592bd90f.js"
+    "static/css/main.2114390b.css",
+    "static/js/main.d6c346fc.js"
   ]
 }

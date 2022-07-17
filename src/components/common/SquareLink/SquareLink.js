@@ -1,6 +1,6 @@
-
-import { Link } from "react-router-dom";
+import { Link } from "next/link";
 import ToolList from "../ToolList/ToolList";
+import React from "react";
 import classes from "./SquareLink.module.css";
 
 // icons
@@ -25,12 +25,14 @@ const SquareLink = ({
   if (!desktopEmptySpace) {
     return (
       <div className={classes.root}>
-        <Link to={link} className={classes.root}>
-          <div className={classes.frame}>
-            <img src={imgSrc} alt={imgAlt} />
-          </div>
-          <h3>{title}</h3>
-          <h4>{subtitle}</h4>
+        <Link href={link} className={classes.root}>
+          <a>
+            <div className={classes.frame}>
+              <img src={imgSrc} alt={imgAlt} />
+            </div>
+            <h3>{title}</h3>
+            <h4>{subtitle}</h4>
+          </a>
         </Link>
         {(site || repo) && (
           <div className={classes.externalLinks}>
@@ -38,14 +40,14 @@ const SquareLink = ({
               <a href={site} target="_blank" rel="noreferrer">
                 <Fa icon={faGlobe} /> {t`Nett`}
               </a>
-            ): (
+            ) : (
               <span></span>
             )}
             {repo ? (
               <a href={repo} target="_blank" rel="noreferrer">
                 <Fa icon={faCode} /> {t`Kode`}
               </a>
-            ): (
+            ) : (
               <span></span>
             )}
           </div>

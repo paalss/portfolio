@@ -1,9 +1,3 @@
-// images
-import mpoeCoverImg from "../../images/graphicwork/mpoe/mpoe-cropped.webp";
-import mpoeProcessImg from "../../images/graphicwork/mpoe/mpoe.webp";
-import mpoeProcessImg2 from "../../images/graphicwork/mpoe/mpoe-utkast.webp";
-import mpoePosterImg from "../../images/graphicwork/mpoe/mpoe-poster.webp";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -14,7 +8,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const MPOE = () => (
   <>
     <img
-      src={mpoeCoverImg}
+      src="images/graphicwork/mpoe/mpoe-cropped.webp"
       className="work-heading-img"
       width={961}
       height={446}
@@ -35,21 +29,21 @@ const MPOE = () => (
 
     <div uk-lightbox="animation: slide" className="flex wrap">
       <Figure
-        imgSrc={mpoeProcessImg}
+        imgSrc="images/graphicwork/mpoe/mpoe.webp"
         imgWidth={0}
         imgHeight={0}
         imgAlt={t`bok-cover`}
         caption={t`bok-cover`}
       />
       <Figure
-        imgSrc={mpoeProcessImg2}
+        imgSrc="images/graphicwork/mpoe/mpoe-utkast.webp"
         imgWidth={0}
         imgHeight={0}
         imgAlt={t`utkast til bok-cover`}
         caption={t`utkast`}
       />
       <Figure
-        imgSrc={mpoePosterImg}
+        imgSrc="images/graphicwork/mpoe/mpoe-poster.webp"
         imgWidth={0}
         imgHeight={0}
         imgAlt="poster"

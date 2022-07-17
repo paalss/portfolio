@@ -1,7 +1,3 @@
-// images
-// import frontpageImg from "../../images/webwork/extraoptical/sider/front-page.webp";
-import frontpagePwaImg from "../../images/webwork/extraoptical/sider/front-page-pwa.png";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -12,7 +8,7 @@ import HT from "../../components/common/HtmlTag";
 const Extraoptical = () => (
   <>
     <img
-      src={frontpagePwaImg}
+      src="images/webwork/extraoptical/sider/front-page-pwa.png"
       className="work-heading-img"
       width={1504}
       height={909}

@@ -1,6 +1,3 @@
-// images
-import fagstoffImg from "../../images/webwork/fagstoff/fagstoff.webp";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -10,7 +7,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Fagstoff = () => (
   <>
     <img
-      src={fagstoffImg}
+      src="images/webwork/fagstoff/fagstoff.webp"
       className="work-heading-img"
       width={1893}
       height={543}

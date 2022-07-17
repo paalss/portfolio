@@ -1,9 +1,3 @@
-// images
-import JRNMImg from "../../images/graphicwork/jr-nm-ski/IMG_2413-min.webp";
-import JRNMImg2 from "../../images/graphicwork/jr-nm-ski/JrNM-logo-web.webp";
-import JRNMImg3 from "../../images/graphicwork/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp";
-// import remake from "../../images/graphicwork/jr-nm-ski/jrnmlogo-ai-remake.webp";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -14,7 +8,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const JRNM = () => (
   <>
     <img
-      src={JRNMImg}
+      src="images/graphicwork/jr-nm-ski/IMG_2413-min.webp"
       className="work-heading-img"
       width={5184}
       height={3456}
@@ -56,14 +50,14 @@ const JRNM = () => (
     </Trans>
     <div uk-lightbox="animation: slide">
       <Figure
-        imgSrc={JRNMImg2}
+        imgSrc="images/graphicwork/jr-nm-ski/JrNM-logo-web.webp"
         imgWidth={640}
         imgHeight={480}
         imgAlt={t`Logo for Junior NM på ski 2015`}
         caption={t`Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013`}
       />
       <Figure
-        imgSrc={JRNMImg3}
+        imgSrc="images/graphicwork/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp"
         imgAlt={t`plakat med logo`}
         caption={t`Plakat`}
       />

@@ -1,4 +1,5 @@
 import LightboxImage from "../LightboxImage";
+import React from "react";
 import classes from "./Figure.module.css";
 
 const Figure = ({ imgSrc, imgWidth, imgHeight, imgAlt, caption }) => (

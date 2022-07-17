@@ -1,7 +1,6 @@
-import "./Certificate.css";
-import reactCertificate from "../../../images/certificates/react-certificate-small.webp";
-import { useEffect } from "react";
-
+import classes from "./Certificate.module.css";
+import React, { useEffect } from "react";
+import Image from "next/image";
 import { t } from "@lingui/macro";
 
 const Certificate = () => {
@@ -40,7 +39,7 @@ const Certificate = () => {
   return (
     <>
       {/* https://codepen.io/nelsonr/pen/WNQaZPb */}
-      <div className="certificate-bg">
+      <div className={classes.certificateBg}>
         <a
           href="https://www.udemy.com/certificate/UC-0f5eb1d1-16ce-43f4-87ef-f0c9b09a9e04/"
           target="_blank"
@@ -48,8 +47,8 @@ const Certificate = () => {
           className="card3d"
           title={t`Åpne Udemy siden for dette sertifikatet`}
         >
-          <img
-            src={reactCertificate}
+          <Image
+            src="images/certificates/react-certificate-small.webp"
             width={1600}
             height={1190}
             alt="Certificate of completion. React - The Complete Guide (incl Hooks, React Router, Redux)"

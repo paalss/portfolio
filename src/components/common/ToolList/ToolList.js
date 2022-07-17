@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./ToolList.module.css";
 
 import { t } from "@lingui/macro";

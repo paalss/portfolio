@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./HtmlTag.module.css";
 
 const HtmlTag = ({ children }) => (

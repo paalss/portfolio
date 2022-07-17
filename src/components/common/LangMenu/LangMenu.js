@@ -1,11 +1,10 @@
+import React from "react";
 import classes from "./LangMenu.module.css";
 
 // react lingui
 import { useLingui } from "@lingui/react";
 
-// images
-import norwegianFlag from "../../../images/flags/4x3/no.svg";
-import usFlag from "../../../images/flags/4x3/us.svg";
+import Image from "next/image";
 
 const LangMenu = () => {
   const { i18n } = useLingui();
@@ -32,7 +31,7 @@ const LangMenu = () => {
           onClick={() => toggleLang()}
           className={classes.button + " " + activeClass("en")}
         >
-          <img className={classes.flag} src={usFlag} alt="United states flag" />
+          <img className={classes.flag} src="images/flags/4x3/us.svg" alt="United states flag" />
           English
         </button>
       )}
@@ -42,9 +41,9 @@ const LangMenu = () => {
           onClick={() => toggleLang()}
           className={classes.button + " " + activeClass("no")}
         >
-          <img
+          <Image
             className={classes.flag}
-            src={norwegianFlag}
+            src="images/flags/4x3/no.svg"
             alt="Norwegian flag"
           />
           Norsk

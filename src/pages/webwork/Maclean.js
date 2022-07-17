@@ -1,6 +1,3 @@
-// images
-import macleanImg from "../../images/webwork/maclean/alistairmaclean-full.webp";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -10,7 +7,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Maclean = () => (
   <>
     <img
-      src={macleanImg}
+      src="images/webwork/maclean/alistairmaclean-full.webp"
       className="work-heading-img"
       width={837}
       height={556}

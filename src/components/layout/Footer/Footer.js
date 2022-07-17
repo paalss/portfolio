@@ -5,16 +5,18 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import scratchLogo from "../../../images/scratchlogo-transparent-white-small.webp";
+import React from "react";
 import classes from "./Footer.module.css";
+import Image from "next/image";
 
 // react lingui
-import { t } from "@lingui/macro";
+// import { t } from "@lingui/macro";
 
 const Footer = () => (
   <footer className={classes.footer}>
     <div className="container">
-      <b>{t`Du finner meg på:`}</b>
+      <b>Du finner meg på:</b>
+      {/* <b>{t`Du finner meg på:`}</b> */}
       <ul>
         <li>
           <a
@@ -53,7 +55,7 @@ const Footer = () => (
             rel="noopener noreferrer"
           >
             <span className={classes.icon}>
-              <img src={scratchLogo} alt="Scratch logo" />
+              <Image src="images/scratchlogo-transparent-white-small.webp" alt="Scratch logo" />
             </span>
             <span className={classes.linkText}>Scratch (pa0110)</span>
           </a>
@@ -70,7 +72,8 @@ const Footer = () => (
         </li>
         <li>
           <Fa className={classes.icon} icon={faLocationDot} />
-          {t`Bosatt i Trondheim`}
+          Bosatt i Trondheim
+          {/* {t`Bosatt i Trondheim`} */}
         </li>
       </ul>
     </div>

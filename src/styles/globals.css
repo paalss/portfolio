@@ -21,7 +21,7 @@
     background-color: #230d9b;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(images/black_explosion.webp);
+    background-image: url(/images/black_explosion.webp);
     background-blend-mode: multiply;
     background-position: 230% -135px;
     background-size: 130%;

@@ -1,11 +1,12 @@
-import "./Barchart.css";
+import React from "react";
+import classes from "./Barchart.module.css";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
 const Barchart = ({ web, design }) => (
   <>
-    <div className="skills">
+    <div className={classes.skills}>
       <ul className="lines">
         <li className="line l--0">
           <span className="line__label title">

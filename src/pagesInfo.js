@@ -1,33 +1,6 @@
-import { lazy } from "react";
+import React, { lazy } from "react";
+import Image from "next/image"
 import { Trans } from "@lingui/macro";
-
-// ---------------
-// IMAGES
-// ---------------
-
-// home
-import photo from "./images/cvphoto2.webp";
-
-// webwork
-import fakturanettImg from "./images/webwork/fakturanett/fakturanett-icon.avif";
-import ytWrappedImg from "./images/webwork/yt-wrapped/img.avif";
-import ohmyaliasesImg from "./images/webwork/ohmyaliases/img.avif"
-import extraopticalImg from "./images/webwork/extraoptical/logo/eo-icon.webp";
-import dokkerImg from "./images/webwork/dokker/logo/dokkericon.webp";
-import rankingappImg from "./images/webwork/rankingapp/rankingapp-small.webp";
-import videoopplastingImg from "./images/webwork/www-teknologi/prosjekt2-5-videoside-small.webp";
-import fagstoffImg from "./images/webwork/fagstoff/fagstoff-small.webp";
-import macleanImg from "./images/webwork/maclean/alistairmaclean.webp";
-import portfoliosImg from "./images/webwork/portfolios/pf5.webp";
-
-// graphicwork
-import artistbookingImg from "./images/graphicwork/artistbooking/Android-Mobile–1.webp";
-import mpoeImg from "./images/graphicwork/mpoe/mpoe-cropped-forside.webp";
-import flaviaImg from "./images/graphicwork/flaviadeluce/flavia-cropped-hode.webp";
-import jrNmImg from "./images/graphicwork/jr-nm-ski/IMG_2413-min-small.webp";
-
-// other
-import galleryImg from "./images/gallery/gallery1-small.webp";
 
 // ---------------
 // PAGES
@@ -35,7 +8,7 @@ import galleryImg from "./images/gallery/gallery1-small.webp";
 // ---------------
 
 // home
-const Home = lazy(() => import("./pages/Home"));
+const Home = lazy(() => import("./pages/Index"));
 
 // webwork
 const Webwork = lazy(() => import("./pages/Webwork"));
@@ -76,7 +49,7 @@ const pagesInfo = [
           </span>
         </div>
         <div className="circle-frame">
-          <img src={photo} alt="Pål Stakvik" />
+          <Image src="images/cvphoto2.webp" alt="Pål Stakvik" />
         </div>
       </div>
     ),
@@ -98,7 +71,7 @@ const pagesInfo = [
         title: "Youtube-wrapped",
         subtitle: <Trans>Fritid</Trans>,
         page: <Ytwrapped />,
-        imgSrc: ytWrappedImg,
+        imgSrc: "./images/webwork/fakturanett/fakturanett-icon.avif",
         imgAlt: "youtube-wrapped UI",
         tools: ["React", "JavaScript", "JSX", "CSS"],
       },
@@ -110,7 +83,7 @@ const pagesInfo = [
         title: "Oh my aliases",
         subtitle: <Trans>Fritid</Trans>,
         page: <Ohmyaliases />,
-        imgSrc: ohmyaliasesImg,
+        imgSrc: "./images/webwork/yt-wrapped/img.avif",
         imgAlt: "oh my aliases UI",
         tools: ["React", "JavaScript", "JSX", "CSS"],
       },
@@ -121,7 +94,7 @@ const pagesInfo = [
         title: "Fakturanett",
         subtitle: <Trans>Jobb</Trans>,
         page: <Fakturanett />,
-        imgSrc: fakturanettImg,
+        imgSrc: "./images/webwork/ohmyaliases/img.avi",
         imgAlt: "Fakturanett ikon",
         tools: ["PHP", "HTML", "CSS"],
       },
@@ -132,7 +105,7 @@ const pagesInfo = [
         title: "Extra Optical",
         subtitle: <Trans>Praksis & jobb</Trans>,
         page: <Extraoptical />,
-        imgSrc: extraopticalImg,
+        imgSrc: "./images/webwork/extraoptical/logo/eo-icon.webp",
         imgAlt: "Extraoptical logo",
         tools: ["React", "Linux", "Magento2"],
         thereAreMoreTools: true,
@@ -144,7 +117,7 @@ const pagesInfo = [
         title: "Dokker",
         subtitle: <Trans>Praksis</Trans>,
         page: <Dokker />,
-        imgSrc: dokkerImg,
+        imgSrc: "./images/webwork/dokker/logo/dokkericon.webp",
         imgAlt: "Dokker logo",
         tools: ["React", "TypeScript", "CSS"],
       },
@@ -155,7 +128,7 @@ const pagesInfo = [
         title: <Trans>Denne porteføljen</Trans>,
         subtitle: <Trans>Fritid</Trans>,
         page: <Portfolios />,
-        imgSrc: portfoliosImg,
+        imgSrc: "./images/webwork/rankingapp/rankingapp-small.webp",
         imgAlt: "Portfolio page",
         tools: ["React", "JavaScript", <>React&#8209;lingui</>],
         thereAreMoreTools: true,
@@ -171,7 +144,7 @@ const pagesInfo = [
           </h1>
         ),
         page: <Videoopplasting />,
-        imgSrc: videoopplastingImg,
+        imgSrc: "./images/webwork/www-teknologi/prosjekt2-5-videoside-small.webp",
         imgAlt: "Video uploading app",
         tools: ["PHP", "LitElement", "JavaScript"],
         thereAreMoreTools: true,
@@ -184,7 +157,7 @@ const pagesInfo = [
         title: <Trans>Fagstoff</Trans>,
         subtitle: <Trans>Fritid</Trans>,
         page: <Fagstoff />,
-        imgSrc: fagstoffImg,
+        imgSrc: "./images/webwork/fagstoff/fagstoff-small.webp",
         imgAlt: "Subject matter",
         tools: ["HTML", "CSS"],
       },
@@ -196,7 +169,7 @@ const pagesInfo = [
         title: <Trans>Alistair MacLean nettside redesign</Trans>,
         subtitle: <Trans>Skole</Trans>,
         page: <Maclean />,
-        imgSrc: macleanImg,
+        imgSrc: "./images/webwork/maclean/alistairmaclean.webp",
         imgAlt: "MacLean page",
         tools: ["HTML", "CSS", "Photoshop"],
         thereAreMoreTools: true,
@@ -208,7 +181,7 @@ const pagesInfo = [
         title: "Ranking app",
         subtitle: <Trans>Fritid</Trans>,
         page: <Rankingapp />,
-        imgSrc: rankingappImg,
+        imgSrc: "./images/webwork/portfolios/pf5.webp",
         imgAlt: "Ranking app",
         tools: ["TypeScript", "PHP", "MySQL"],
         thereAreMoreTools: true,
@@ -229,7 +202,7 @@ const pagesInfo = [
         title: "Artist booking app prototype",
         subtitle: <Trans>Studier</Trans>,
         page: <Artistbooking />,
-        imgSrc: artistbookingImg,
+        imgSrc: "./images/graphicwork/artistbooking/Android-Mobile–1.webp",
         imgAlt: "High-fidelity prototype of an artist booking app",
         tools: ["Adobe XD"],
       },
@@ -239,7 +212,7 @@ const pagesInfo = [
         title: <Trans>Bok web-banner</Trans>,
         subtitle: <Trans>Skole</Trans>,
         page: <Flaviadeluce />,
-        imgSrc: flaviaImg,
+        imgSrc: "./images/graphicwork/mpoe/mpoe-cropped-forside.webp",
         imgAlt: "Book webbanner",
         tools: ["Photoshop", "Illustrator"],
       },
@@ -249,7 +222,7 @@ const pagesInfo = [
         title: <Trans>Bok-cover o.l.</Trans>,
         subtitle: <Trans>Skole</Trans>,
         page: <MPOE />,
-        imgSrc: mpoeImg,
+        imgSrc: "./images/graphicwork/flaviadeluce/flavia-cropped-hode.webp",
         imgAlt: "Book cover",
         tools: ["Photoshop", "Illustrator", "InDesign"],
       },
@@ -259,7 +232,7 @@ const pagesInfo = [
         title: "Jr NM ski 2015 logo",
         subtitle: <Trans>Praksis</Trans>,
         page: <JRNM />,
-        imgSrc: jrNmImg,
+        imgSrc: "./images/graphicwork/jr-nm-ski/IMG_2413-min-small.webp",
         imgAlt: "Jr NM ski logo",
         tools: ["Photoshop"],
       },
@@ -271,7 +244,7 @@ const pagesInfo = [
     title: <Trans>Kunst</Trans>,
     subtitle: <Trans>Fritid</Trans>,
     page: <Gallery />,
-    imgSrc: galleryImg,
+    imgSrc: "./images/gallery/gallery1-small.webp",
     imgAlt: "gallery",
   },
 ];

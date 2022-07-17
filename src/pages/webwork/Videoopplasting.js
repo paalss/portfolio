@@ -1,9 +1,3 @@
-// images
-import videoOgTranskriptImg from "../../images/webwork/www-teknologi/2-video-og-transkript.webp";
-import videosideImg from "../../images/webwork/www-teknologi/prosjekt2-5-videoside.webp";
-import videolisteImg from "../../images/webwork/www-teknologi/prosjekt2-7-videoliste.webp";
-import videoopplastingImg from "../../images/webwork/www-teknologi/prosjekt2-8-videoopplasting.webp";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -53,7 +47,7 @@ const Videoopplasting = () => (
 
     <div uk-lightbox="animation: slide">
       <Figure
-        imgSrc={videoOgTranskriptImg}
+        imgSrc="images/webwork/www-teknologi/2-video-og-transkript.webp"
         imgWidth={1319}
         imgHeight={945}
         imgAlt={t`videospiller og transkript`}
@@ -130,21 +124,21 @@ const Videoopplasting = () => (
 
     <div uk-lightbox="animation: slide">
       <Figure
-        imgSrc={videosideImg}
+        imgSrc="images/webwork/www-teknologi/prosjekt2-5-videoside.webp"
         imgWidth={1920}
         imgHeight={1017}
         imgAlt={t`side med videospiller, meny og transkript`}
         caption={t`Videoside`}
       />
       <Figure
-        imgSrc={videolisteImg}
+        imgSrc="images/webwork/www-teknologi/prosjekt2-7-videoliste.webp"
         imgWidth={1920}
         imgHeight={1018}
         imgAlt={t`videooversikt`}
         caption={t`Videooversikt`}
       />
       <Figure
-        imgSrc={videoopplastingImg}
+        imgSrc="images/webwork/www-teknologi/prosjekt2-8-videoopplasting.webp"
         imgWidth={1917}
         imgHeight={866}
         imgAlt={t`videoopplastingsside`}

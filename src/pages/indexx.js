@@ -1,25 +1,22 @@
-import { Suspense } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { flatPagesInfo as pagesInfo } from "./pagesInfo";
-import paalssInfo from "./jsonLdSchema";
-// import GA from "./utils/GoogleAnalytics";
+import React, { Suspense } from "react";
+import { flatPagesInfo as pagesInfo } from "../pagesInfo";
+import paalssInfo from "../jsonLdSchema";
 
 // components
-import Nav from "./components/layout/Nav";
-import Header from "./components/layout/Header";
-import Footer from "./components/layout/Footer";
-import Main from "./components/layout/Main";
-import LoadingSpinner from "./components/layout/LoadingSpinner";
+import Nav from "../components/layout/Nav";
+import Header from "../components/layout/Header";
+import Footer from "../components/layout/Footer";
+import Main from "../components/layout/Main";
+import LoadingSpinner from "../components/layout/LoadingSpinner";
 
 // react lingui
 import { Trans } from "@lingui/macro";
 
-const App = () => (
+const Indexx = () => (
   <>
     {/* plasser JSON LD (med schema.org) inn i dokumentet: */}
     <script type="application/ld+json">{JSON.stringify(paalssInfo)}</script>
     <Router basename="portfolio">
-      {/* { GA.init() && <GA.RouteTracker /> } */}
       <Suspense
         fallback={
           <div className="center-content-fullscreen">
@@ -63,4 +60,4 @@ const App = () => (
   </>
 );
 
-export default App;
+export default Indexx;

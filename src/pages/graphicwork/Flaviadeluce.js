@@ -1,7 +1,3 @@
-// images
-import flaviaProcessImg from "../../images/graphicwork/flaviadeluce/flavia.webp";
-import flaviaBannerImg from "../../images/graphicwork/flaviadeluce/flavia-cropped.webp";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -12,7 +8,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Flaviadeluce = () => (
   <>
     <img
-      src={flaviaBannerImg}
+      src="images/graphicwork/flaviadeluce/flavia.webp"
       className="work-heading-img"
       width={0}
       height={0}
@@ -34,7 +30,7 @@ const Flaviadeluce = () => (
     </p>
     <div uk-lightbox="animation: slide" className="flex wrap">
       <Figure
-        imgSrc={flaviaProcessImg}
+        imgSrc="images/graphicwork/flaviadeluce/flavia-cropped.webp"
         imgWidth={1024}
         imgHeight={725}
         imgAlt={t`flere bilder med flavia de luce motiver`}

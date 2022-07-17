@@ -12,7 +12,7 @@ yarn
 ```
 **Serve**
 ```
-yarn start
+yarn run dev
 ```
 :rocket: **Deploy**
 ```

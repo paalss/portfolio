@@ -1,12 +1,3 @@
-// images
-import pf5 from "../../images/webwork/portfolios/pf5.webp";
-import p5Old from "../../images/webwork/portfolios/pf5-1-9desember-2020.png";
-import pf4 from "../../images/webwork/portfolios/pf4.webp";
-import pf3 from "../../images/webwork/portfolios/pf3.webp";
-import pf2 from "../../images/webwork/portfolios/pf2-full2.webp";
-import pf1v2 from "../../images/webwork/portfolios/pf1-2.webp";
-import pf1v1 from "../../images/webwork/portfolios/pf1-1.webp";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -18,7 +9,7 @@ const Portfolios = () => (
   <>
     <>
       <img
-        src={pf5}
+        src="images/webwork/portfolios/pf5.webp"
         className="work-heading-img"
         alt={t`portefølje med foto og ferdigheter`}
         width={1229}
@@ -50,7 +41,7 @@ const Portfolios = () => (
 
       <div uk-lightbox="animation: slide">
         <Figure
-          imgSrc={p5Old}
+          imgSrc="images/webwork/portfolios/pf5-1-9desember-2020.png"
           imgWidth={1918}
           imgHeight={920}
           imgAlt={t`portefølje med prosjekter`}
@@ -115,7 +106,7 @@ const Portfolios = () => (
 
       <div uk-lightbox="animation: slide">
         <Figure
-          imgSrc={pf4}
+          imgSrc="images/webwork/portfolios/pf4.webp"
           imgWidth={973}
           imgHeight={1057}
           imgAlt={t`portefølje 4`}
@@ -138,7 +129,7 @@ const Portfolios = () => (
 
       <div uk-lightbox="animation: slide">
         <Figure
-          imgSrc={pf3}
+          imgSrc="images/webwork/portfolios/pf3.webp"
           imgWidth={1280}
           imgHeight={623}
           imgAlt={t`portefølje 3`}
@@ -165,7 +156,7 @@ const Portfolios = () => (
 
       <div uk-lightbox="animation: slide">
         <Figure
-          imgSrc={pf2}
+          imgSrc="images/webwork/portfolios/pf2-full2.webp"
           imgWidth={1331}
           imgHeight={752}
           imgAlt={t`portefølje 2`}
@@ -196,14 +187,14 @@ const Portfolios = () => (
       </p>
       <div uk-lightbox="animation: slide">
         <Figure
-          imgSrc={pf1v1}
+          imgSrc="images/webwork/portfolios/pf1-2.webp"
           imgWidth={723}
           imgHeight={437}
           imgAlt={t`portefølje 1 versjon 1`}
           caption={t`Innleveringsoppgave på medier og kommunikasjon`}
         />
         <Figure
-          imgSrc={pf1v2}
+          imgSrc="images/webwork/portfolios/pf1-1.webp"
           imgWidth={1280}
           imgHeight={622}
           imgAlt={t`portefølje 1 versjon 2`}

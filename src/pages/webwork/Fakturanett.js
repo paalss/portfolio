@@ -1,6 +1,3 @@
-// images
-import webappImg from "../../images/webwork/fakturanett/page.avif";
-
 // react lingui
 import { t } from "@lingui/macro";
 
@@ -11,7 +8,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Fakturanett = () => (
   <>
     <img
-      src={webappImg}
+      src="images/webwork/fakturanett/page.avif"
       className="work-heading-img"
       width={1294}
       height={665}

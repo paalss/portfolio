@@ -1,9 +1,3 @@
-// images
-import rankingappGif from "../../images/webwork/rankingapp/app-recording1.gif";
-import overviewImg from "../../images/webwork/rankingapp/overview.webp";
-import topNovelsImg from "../../images/webwork/rankingapp/top-novels2.webp";
-import bestMetroidvaniasImg from "../../images/webwork/rankingapp/best-metroidvanias.webp";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -14,7 +8,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Rankingapp = () => (
   <>
     <img
-      src={rankingappGif}
+      src="images/webwork/rankingapp/app-recording1.gif"
       className="work-heading-img"
       width={1296}
       height={616}
@@ -76,21 +70,21 @@ const Rankingapp = () => (
     </Trans>
     <div uk-lightbox="animation: slide">
       <Figure
-        imgSrc={overviewImg}
+        imgSrc="images/webwork/rankingapp/overview.webp"
         imgWidth={493}
         imgHeight={401}
         imgAlt={t`Oversikt over lister eksempel`}
         caption={t`Lag egne lister`}
       />
       <Figure
-        imgSrc={bestMetroidvaniasImg}
+        imgSrc="images/webwork/rankingapp/top-novels2.webp"
         imgWidth={906}
         imgHeight={604}
         imgAlt={t`Beste metroidvanias listeeksempel`}
         caption={t`Sett inn egne elementer, tilpass etter behov`}
       />
       <Figure
-        imgSrc={topNovelsImg}
+        imgSrc="images/webwork/rankingapp/best-metroidvanias.webp"
         imgWidth={964}
         imgHeight={763}
         imgAlt={t`Beste bøker listeeksempel`}

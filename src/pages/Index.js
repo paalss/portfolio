@@ -1,3 +1,4 @@
+import Head from "next/head";
 import OtherworkLinks from "./Otherwork";
 import WebworkLinks from "./Webwork";
 import GraphicworkLinks from "./Graphicwork";
@@ -9,8 +10,11 @@ import Certificate from "../components/common/Certificate";
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
-const Home = () => (
+const Index = () => (
   <>
+    <Head>
+      <title>Pål Stakvik | Web dev</title>
+    </Head>
     <Trans>
       <h2>Kompetanse</h2>
       <div className="mb-50">
@@ -70,4 +74,4 @@ const Home = () => (
   </>
 );
 
-export default Home;
+export default Index;

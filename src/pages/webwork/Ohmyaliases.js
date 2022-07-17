@@ -1,17 +1,13 @@
-// images
-import projImg from "../../images/webwork/ohmyaliases/img.avif";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
 // components
-// import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
 
 const Ohmyaliases = () => (
   <>
     <img
-      src={projImg}
+      src="images/webwork/ohmyaliases/img.avif"
       className="work-heading-img"
       // width={0}
       // height={0}
@@ -33,22 +29,6 @@ const Ohmyaliases = () => (
         kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh.
       </Trans>
     </p>
-    {/* <div uk-lightbox="animation: slide" className="flex wrap">
-      <Figure
-        imgSrc={projImg}
-        imgWidth={0}
-        imgHeight={0}
-        imgAlt={t`_bilde1`}
-        caption={t`_bilde1`}
-      />
-      <Figure
-        imgSrc={projImg}
-        imgWidth={0}
-        imgHeight={0}
-        imgAlt={t`_bilde2`}
-        caption={t`_bilde2`}
-      />
-    </div> */}
   </>
 );
 

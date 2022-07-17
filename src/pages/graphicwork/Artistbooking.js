@@ -1,11 +1,3 @@
-// images
-import mobileImg1 from "../../images/graphicwork/artistbooking/Android-Mobile–1.webp";
-import mobileImg2 from "../../images/graphicwork/artistbooking/Android-Mobile–2.webp";
-import mobileImg3 from "../../images/graphicwork/artistbooking/Android-Mobile–3.webp";
-import mobileImg4 from "../../images/graphicwork/artistbooking/Android-Mobile–4.webp";
-import destopImg from "../../images/graphicwork/artistbooking/Web-1280–4.webp";
-// import screenshotImg from "../../images/graphicwork/artistbooking/Screenshot_20191126-120019.webp";
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -33,35 +25,35 @@ const Artistbooking = () => (
     <h3>Noen utvalgte bilder</h3>
     <div uk-lightbox="animation: slide" className="flex wrap">
       <Figure
-        imgSrc={mobileImg1}
+        imgSrc="images/graphicwork/artistbooking/Android-Mobile–1.webp"
         imgWidth={360}
         imgHeight={646}
         imgAlt={t`Startside`}
         caption={t`Startside`}
       />
       <Figure
-        imgSrc={mobileImg2}
+        imgSrc="images/graphicwork/artistbooking/Android-Mobile–2.webp"
         imgWidth={360}
         imgHeight={640}
         imgAlt={t`Søkefelt`}
         caption={t`Søkefelt`}
       />
       <Figure
-        imgSrc={mobileImg3}
+        imgSrc="images/graphicwork/artistbooking/Android-Mobile–3.webp"
         imgWidth={360}
         imgHeight={864}
         imgAlt={t`Søkeresultater`}
         caption={t`Søkeresultater`}
       />
       <Figure
-        imgSrc={mobileImg4}
+        imgSrc="images/graphicwork/artistbooking/Android-Mobile–4.webp"
         imgWidth={360}
         imgHeight={1027}
         imgAlt={t`Artistprofil`}
         caption={t`Artistprofil`}
       />
       <Figure
-        imgSrc={destopImg}
+        imgSrc="images/graphicwork/artistbooking/Web-1280–4.webp"
         imgWidth={1280}
         imgHeight={848}
         imgAlt={t`En desktopside`}

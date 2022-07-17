@@ -1,12 +1,12 @@
-nav {
+.nav {
   background-color: #fff;
 }
-nav ul {
+.nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-nav a, nav button, nav .switch {
+.nav a, .nav button, nav .switch {
   display: block;
   background: #fff;
   text-decoration: none;
@@ -67,14 +67,14 @@ nav a, nav button, nav .switch {
   /* border-right-color: orange; */
   right: 10px;
 }
-nav a.selected,
-nav a:active,
-nav a:focus,
-nav a:hover,
-nav button:hover {
+.nav a.selected,
+.nav a:active,
+.nav a:focus,
+.nav a:hover,
+.nav button:hover {
   font-weight: 900;
 }
-nav button {
+.nav button {
   border: none;
   height: 100%;
   width: 100%;
@@ -90,10 +90,10 @@ nav button {
     padding: 0;
     align-items: center;
   }
-  nav a, nav .switch {
+  .nav a, .nav .switch { /* ! TODO HÆH er dette riktig? */
     padding: 16px 40px;
   }
-  nav button {
+  .nav button {
     padding: 16px 0;
     text-align: center;
     min-width: 120px;

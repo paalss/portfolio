@@ -22,6 +22,10 @@ msgstr "2016 høst"
 msgid "2019 høst"
 msgstr "2019 høst"
 
+#: src/pages/webwork/Portfolios.js:29
+msgid "2020 desember–nå"
+msgstr "2020 desember–nå"
+
 #: src/pages/webwork/Videoopplasting.js:36
 #: src/pages/webwork/Videoopplasting.js:66
 msgid "2020 vår"
@@ -32,8 +36,8 @@ msgid "2021 april–september"
 msgstr "2021 april–september"
 
 #: src/pages/webwork/Portfolios.js:29
-msgid "2022 desember–nå"
-msgstr "2022 desember–nå"
+#~ msgid "2022 desember–nå"
+#~ msgstr "2022 desember–nå"
 
 #: src/pages/webwork/Extraoptical.js:24
 #: src/pages/webwork/Fakturanett.js:23

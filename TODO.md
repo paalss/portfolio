@@ -26,9 +26,6 @@
 - [ ] behold den mindre linjehøyden for desktop også. Det du har nå er i hvert fall fort stort. Bare se på porteføljesiden og "hvorfor react?"-teksten
 
 ## Innhold
-- [ ] Typos:
-  - [ ] "Logo for Jr NM on on ski 2015"
-  - [ ] "Portefølje 2022 desember–nå" Skal være 2020, din idiot!
 - [ ] legg til nextjs ferdighet i barchart
 - [ ] still inn ferdigheter i portfolio squarelink med nextjs
 - [ ] sett inn lenke til din howiusevscode profil

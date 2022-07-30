@@ -22,6 +22,10 @@ msgstr "2016 fall"
 msgid "2019 høst"
 msgstr "2019 fall"
 
+#: src/pages/webwork/Portfolios.js:29
+msgid "2020 desember–nå"
+msgstr "2020 December–now"
+
 #: src/pages/webwork/Videoopplasting.js:36
 #: src/pages/webwork/Videoopplasting.js:66
 msgid "2020 vår"
@@ -30,10 +34,6 @@ msgstr "2020 spring"
 #: src/pages/webwork/Dokker.js:25
 msgid "2021 april–september"
 msgstr "2021 April–September"
-
-#: src/pages/webwork/Portfolios.js:29
-msgid "2022 desember–nå"
-msgstr "2022 December–now"
 
 #: src/pages/webwork/Extraoptical.js:24
 #: src/pages/webwork/Fakturanett.js:23
@@ -259,21 +259,9 @@ msgstr "Extra Optical front page"
 msgid "Extra Opticals eldre nettbutikk"
 msgstr "Extra Optical's older online site"
 
-#: src/pages/webwork/Extraoptical.js:73
-#~ msgid "Extra Opticals eldre side"
-#~ msgstr "Extra Optical's older store page"
-
 #: src/pages/webwork/Extraoptical.js:23
 msgid "Extra Opticals nettbutikk"
 msgstr "Extra Optical's online store"
-
-#: src/pages/webwork/Extraoptical.js:22
-#~ msgid "Extra Opticals nye netbutikk fra februar"
-#~ msgstr "Extra Optocal's new webshop from February"
-
-#: src/pages/webwork/Extraoptical.js:23
-#~ msgid "Extra Opticals nye nettbutikk"
-#~ msgstr "Extra Optical's new online store"
 
 #: src/pages/webwork/Fagstoff.js:21
 #: src/pagesInfo.js:184
@@ -424,7 +412,7 @@ msgstr "LitElement-project"
 
 #: src/pages/graphicwork/JRNM.js:24
 msgid "Logo for Jr NM på ski 2015"
-msgstr "Logo for Jr NM on on ski 2015"
+msgstr "Logo for Jr NM on ski 2015"
 
 #: src/pages/graphicwork/JRNM.js:62
 msgid "Logo for Junior NM på ski 2015"
@@ -496,10 +484,6 @@ msgstr "Internship"
 msgid "Praksis & jobb"
 msgstr "Internship & work"
 
-#: src/pages/webwork/Extraoptical.js:57
-#~ msgid "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
-#~ msgstr "On the new webpage I had worked in both Magento PWA builder and in the source code."
-
 #: src/pages/webwork/Extraoptical.js:58
 msgid "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Koden er satt opp slik at enkelte deler er satt av til CMS-et, mens resten er React-komponenter."
 msgstr "On this webpage I've mostly worked with the source code (React), but I've also done some in the CMS <0>Magento PWA builder</0>."
@@ -515,10 +499,6 @@ msgstr "Relational database"
 #: src/pages/webwork/Extraoptical.js:89
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
-
-#: src/pages/Webwork.js:36
-#~ msgid "Se mer på Github"
-#~ msgstr "See more on Github"
 
 #: src/pages/webwork/Rankingapp.js:90
 msgid "Sett inn egne elementer, tilpass etter behov"
@@ -678,10 +658,6 @@ msgstr "portfolio with photo and skills"
 #: src/pages/webwork/Portfolios.js:56
 msgid "portefølje med prosjekter"
 msgstr "portfolio with projects"
-
-#: src/pages/webwork/Portfolios.js:57
-#~ msgid "porteføljen slik den så ut 9. desember 2020"
-#~ msgstr "the portfolio as it looked like 9th of December 2020"
 
 #: src/pages/webwork/Videoopplasting.js:136
 msgid "side med videospiller, meny og transkript"

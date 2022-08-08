@@ -41,8 +41,21 @@ msgstr "2021 april–september"
 
 #: src/pages/webwork/Extraoptical.js:24
 #: src/pages/webwork/Fakturanett.js:23
-msgid "2022 februar–nå"
-msgstr "2022 februar–nå"
+msgid "2022 februar–august"
+msgstr "2022 februar–august"
+
+#: src/pages/webwork/Extraoptical.js:24
+#: src/pages/webwork/Fakturanett.js:23
+#~ msgid "2022 februar–nå"
+#~ msgstr "2022 februar–nå"
+
+#: src/pages/webwork/Ytwrapped.js:22
+msgid "2022 januar–nå"
+msgstr "2022 januar–nå"
+
+#: src/pages/webwork/Ohmyaliases.js:22
+msgid "2022 mai–juni"
+msgstr "2022 mai–juni"
 
 #: src/pages/webwork/Extraoptical.js:75
 msgid "2022 november–februar"
@@ -53,12 +66,12 @@ msgid "2022 tidsspann"
 msgstr "2022 tidsspann"
 
 #: src/pages/webwork/Ohmyaliases.js:22
-msgid "2022 vår"
-msgstr "2022 vår"
+#~ msgid "2022 vår"
+#~ msgstr "2022 vår"
 
 #: src/pages/webwork/Ytwrapped.js:22
-msgid "2022 vår–nå"
-msgstr "2022 vår–nå"
+#~ msgid "2022 vår–nå"
+#~ msgstr "2022 vår–nå"
 
 #: src/App.js:41
 msgid "404 - Siden finnes ikke"

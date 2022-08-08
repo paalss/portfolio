@@ -19,7 +19,7 @@ const Ohmyaliases = () => (
     />
     <WorkHeading
       heading="Oh my aliases"
-      timespan={t`2022 vår`}
+      timespan={t`2022 mai–juni`}
       siteInfo={{
         site: "https://paalss.github.io/oh-my-aliases/",
         repo: "https://github.com/paalss/oh-my-aliases",

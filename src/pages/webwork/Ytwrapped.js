@@ -19,7 +19,7 @@ const Ytwrapped = () => (
     />
     <WorkHeading
       heading="Yt-wrapped"
-      timespan={t`2022 vår–nå`}
+      timespan={t`2022 januar–nå`}
       siteInfo={{
         site: "https://paalss.github.io/youtube-wrapped",
         repo: "https://github.com/paalss/youtube-wrapped",

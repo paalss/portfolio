@@ -21,7 +21,7 @@ const Extraoptical = () => (
 
     <WorkHeading
       heading={t`Extra Opticals nettbutikk`}
-      timespan={t`2022 februar–nå`}
+      timespan={t`2022 februar–august`}
       siteInfo={{
         site: "https://extraoptical.no/",
       }}

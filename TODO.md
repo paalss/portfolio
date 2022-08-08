@@ -24,17 +24,20 @@
 ## design
 - [x] litt mindre enn 2rem på linjehøyde for mobil
 - [ ] behold den mindre linjehøyden for desktop også. Det du har nå er i hvert fall fort stort. Bare se på porteføljesiden og "hvorfor react?"-teksten
+- [ ] bruke fancybox som lightbox?
 
 ## Innhold
 - [ ] legg til nextjs ferdighet i barchart
 - [ ] still inn ferdigheter i portfolio squarelink med nextjs
-- [ ] sett inn lenke til din howiusevscode profil
+- [ ] sett inn lenke til din howiusevscode profil?
 - [ ] opprett profil på https://codersrank.io/ og lenk til den??
 - [ ] last opp vannklattbildene du lastet opp på instagram på "kunst"-siden. Kanskje bruk slider-to-bilde-versjoner med https://pepsized.com/wp-content/uploads/2018/09/beerslider/demo/index.html
 - [ ] doing now seksjon. Som raskt forteller folk hvor jeg jobber, evt. fritidsprosjekter jeg driver med. Ser for meg at den kan være et sånn card, med tekst til venstre og en tegning til høyre.
+- [ ] legg til AS-seksjon?
 
 ## tilgjengelighet
 - [ ] bruk `<abbr title="">` for forkortelser som ntnu. Se https://css-tricks.com/html-elements-unite-the-voltron-like-powers-of-combining-elements/
+- [ ] schema.org for datoer?
 
 
 

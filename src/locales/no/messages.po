@@ -141,8 +141,8 @@ msgstr "Alistair MacLean portefølje redesign"
 msgid "Annet"
 msgstr "Annet"
 
-#: src/pages/graphicwork/Artistbooking.js:60
-#: src/pages/graphicwork/Artistbooking.js:61
+#: src/pages/graphicwork/Artistbooking.js:64
+#: src/pages/graphicwork/Artistbooking.js:65
 msgid "Artistprofil"
 msgstr "Artistprofil"
 
@@ -243,8 +243,8 @@ msgstr "Dokker blogg"
 msgid "Du finner meg på:"
 msgstr "Du finner meg på:"
 
-#: src/pages/graphicwork/Artistbooking.js:67
-#: src/pages/graphicwork/Artistbooking.js:68
+#: src/pages/graphicwork/Artistbooking.js:71
+#: src/pages/graphicwork/Artistbooking.js:72
 msgid "En desktopside"
 msgstr "En desktopside"
 
@@ -508,6 +508,10 @@ msgstr "Nettside med overskriften 'fagstoff'"
 msgid "Nettsider"
 msgstr "Nettsider"
 
+#: src/pages/graphicwork/Artistbooking.js:34
+msgid "Noen utvalgte bilder"
+msgstr "Noen utvalgte bilder"
+
 #: src/pages/webwork/Rankingapp.js:82
 msgid "Oversikt over lister eksempel"
 msgstr "Oversikt over lister eksempel"
@@ -575,8 +579,8 @@ msgstr "Sett inn egne elementer, tilpass etter behov"
 msgid "Skole"
 msgstr "Skole"
 
-#: src/pages/graphicwork/Artistbooking.js:39
-#: src/pages/graphicwork/Artistbooking.js:40
+#: src/pages/graphicwork/Artistbooking.js:43
+#: src/pages/graphicwork/Artistbooking.js:44
 msgid "Startside"
 msgstr "Startside"
 
@@ -589,13 +593,13 @@ msgstr "Studier"
 msgid "Syntes det var synd at Youtube ikke hadde samme års-sammendrag slik som Spotify har, hvor man kan se hva man har spilt av mest i løpet av et år. Så da måtte jeg nesten lage noe slikt selv."
 msgstr "Syntes det var synd at Youtube ikke hadde samme års-sammendrag slik som Spotify har, hvor man kan se hva man har spilt av mest i løpet av et år. Så da måtte jeg nesten lage noe slikt selv."
 
-#: src/pages/graphicwork/Artistbooking.js:46
-#: src/pages/graphicwork/Artistbooking.js:47
+#: src/pages/graphicwork/Artistbooking.js:50
+#: src/pages/graphicwork/Artistbooking.js:51
 msgid "Søkefelt"
 msgstr "Søkefelt"
 
-#: src/pages/graphicwork/Artistbooking.js:53
-#: src/pages/graphicwork/Artistbooking.js:54
+#: src/pages/graphicwork/Artistbooking.js:57
+#: src/pages/graphicwork/Artistbooking.js:58
 msgid "Søkeresultater"
 msgstr "Søkeresultater"
 

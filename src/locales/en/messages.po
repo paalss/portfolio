@@ -56,14 +56,6 @@ msgstr "2022 November–February"
 msgid "2022 tidsspann"
 msgstr "_"
 
-#: src/pages/webwork/Ohmyaliases.js:22
-#~ msgid "2022 vår"
-#~ msgstr "2022 spring"
-
-#: src/pages/webwork/Ytwrapped.js:22
-#~ msgid "2022 vår–nå"
-#~ msgstr "2022 spring–now"
-
 #: src/App.js:41
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Page not found"
@@ -74,19 +66,19 @@ msgstr "<0>This project is archieved and is no longer developed.</0>"
 
 #: src/pages/graphicwork/JRNM.js:28
 msgid "<0>I 2013 hadde jeg en-ukes praksis hos Orega på Lade i Trondheim. Dette var mens jeg gikk interiør og utstillingsdesign på VGS. Der fikk jeg være med på å designe logo for Junior NM på Ski 2015. Det var kjempekult!</0><1>Leveransen min på slutten av uka ble bokstavene «NM» slik som de er i den ferdige logoen. Jeg lagde en sort-hvitt versjon og mange forskjellige fargevariasjoner av den, deriblant den med norskeflagg-fargene. Under «NM»-bokstavene hadde jeg skrevet «Jr NM på ski 2015» med grå tekst.</1><2>I den logoen som ble brukt i arrangementet hadde den grå teksten heldigvis blitt byttet ut med en blå tekst (bilde), som ser mye bedre ut. Mistenker også at noen har vektorisert den, siden logoen så mye renere ut da jeg så at den på arrangementet.</2><3>Til å designe logoen brukte jeg Photoshop. I ettertid har jeg skjønt at jeg heller burde ha brukt et vektorprogram som Illustrator, men dette visste jeg ikke da. En konsekvens av å bruke Photoshop var at ikke alle piksler ville henge med når man endrer farge med paint-bucket-tool. Jeg prøvde ut logoen i masse forskjellige farger, og man kunne se restepiksler fra tidligere fargefyll i de forskjellige utkastene.</3>"
-msgstr "<0>In 2013 I had a one-week internship at Orega in Lade, Trondheim. Here I was set to design a logo for Junior NM on ski 2015.</0>"
+msgstr "<0>In 2013 I had a one-week internship at Orega in Lade, Trondheim. Here I was set to design a logo for Junior NM on ski 2015. This was while I attended “Interior and display design” at high school. During this internship I got to contribute to designing the logo for “Junior NM on ski 2015”. It was awesome!</0><1>My delivery at the end of the week was like the finished logo (see image), but without the blue text over and below the “NM”-letters. Someone else made those.</1>"
 
 #: src/pages/webwork/Maclean.js:30
 msgid "<0>I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å redesigne <1>alistairmaclean.com</1> sitt GUI. Grunnen var at jeg tidligere hadde jeg sett og vært skuffet over hvordan den så ut. MacLean skrev nesten utelukkende bøker med action og spenning, og det syntes jeg ikke nettsiden reflekterte noe av.</0><2>Verktøy</2><3>Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript (ikke så mye å skryte av). Logoen lagde jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av eget modellfly oppå noen T-skjorter.</3>"
-msgstr "<0>In 2015 I had a project on videregående (equivalent to high school) where I chose to redesign the GUI of <1>alistairmaclean.com</1>. The reason behind this, was that I had previously seen and been dissapointed by it. MacLean almost exclusively books with action and suspense, and I didn't think this site resembled that the slightest.</0><2>Tools</2><3>I built the site using HTML and CSS and a little bit JavaScript. I made the logo in Illustrator and the header image in Photoshop.</3>"
+msgstr "<0>In 2015 I had a project on videregående (equivalent to high school) where I chose to redesign the GUI of <1>alistairmaclean.com</1>. The reason behind this, was that I had previously seen and been dissapointed by it. MacLean almost exclusively books with action and suspense, and I didn’t think this site resembled that the slightest.</0><2>Tools</2><3>I built the site using HTML and CSS and a little bit JavaScript. I made the logo in Illustrator and the header image in Photoshop.</3>"
 
 #: src/pages/webwork/Portfolios.js:61
 msgid "<0>I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med “vanilla JavaScript” ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
-msgstr "<0>Since then I added more content and improved SEO. I'm very satisfied with its design, code quality and choice of web development tools.</0>"
+msgstr "<0>Since then I added more content and improved SEO. I’m very satisfied with its design, code quality and choice of web development tools.</0>"
 
 #: src/pages/webwork/Videoopplasting.js:40
 msgid "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting, ‑redigering og ‑visning. I tillegg gjorde jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting av videoer til filsystemet. Jeg jobbet også litt med kommentarer.</0><1>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</1>"
-msgstr "<0>In this I worked in a group with two others. My responsibilities was most on video uploading, -editing and -playing. Additionaly I did the playlist related stuff. Technically speaking this meant working with the app's integration with the database, database structure and downloading of videos to the filesystem. I also worked a little with the comments.</0><1>The app was made with PHP-files and the templating engine Twig to render the html-pages.</1>"
+msgstr "<0>In this I worked in a group with two others. My responsibilities was most on video uploading, -editing and -playing. Additionaly I did the playlist related stuff. Technically speaking this meant working with the app’s integration with the database, database structure and downloading of videos to the filesystem. I also worked a little with the comments.</0><1>The app was made with PHP-files and the templating engine Twig to render the html-pages.</1>"
 
 #: src/pages/Home.js:14
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
@@ -98,15 +90,15 @@ msgstr "<0>The assignment specification was much like that of the first project.
 
 #: src/pages/webwork/Dokker.js:71
 msgid "<0>Litt om Dokker</0><1>Dokker er en kommunikasjonsplatform for studenter og lærere i skole og lignende. I Dokker kan f.eks. lærere legge ut oppgaver, og elever kan levere inn besvarelser og selvvurderinger. <2/>Elevene får samlet opp dokumentasjon av egen kunnskap på Dokker, og dette kabn de vise frem til fremtidige arbeidsgivere. Det er et selling point at de behoolder tilgangen på dokumentasjonen livet ut. De kan også legge ut vitnemål og sertifikater.</1>"
-msgstr "<0>Some info about Dokker</0><1>Dokker is a communication platform for students, teachers in schools and the like. In Dokker teachers can eg. publish assignments, to which students can submit their work and also submit self-assessment & ranking of their own work. <2/>As the students gradually uses the app, they gather different documentation of their experience, which could be assignment feedback, uploaded diplomas or certificates. One major selling point in Dokker is that the students will still have access to their Dokker user and their experience documentation, even after they've finished the school were they achieved said experience.</1>"
+msgstr "<0>Some info about Dokker</0><1>Dokker is a communication platform for students, teachers in schools and the like. In Dokker teachers can eg. publish assignments, to which students can submit their work and also submit self-assessment & ranking of their own work. <2/>As the students gradually uses the app, they gather different documentation of their experience, which could be assignment feedback, uploaded diplomas or certificates. One major selling point in Dokker is that the students will still have access to their Dokker user and their experience documentation, even after they’ve finished the school where they achieved said experience.</1>"
 
 #: src/pages/webwork/Dokker.js:32
 msgid "<0>Under denne fem-måneders praksisen bidro jeg i utviklingen av web-applikasjonen Dokker, produktet til Learning Moment. Jeg tok også et React-kurs for å få den nødvendige kunnskapen jeg trengte. Jeg fikk bidratt med:</0><1><2>Nye komponenter</2><3>Refaktorering</3><4>Vurdering av andres kode</4><5>Litt bug-fixing</5></1><6>Under denne perioden lærte jeg:</6><7><8>React og relaterte verktøy</8><9>Samarbeid på prosjekt med bruk av <10>issues</10> og <11>pull requests</11></9></7><12>Komponentener jeg lagde</12>"
-msgstr "<0>During this five months internship I contributed to Dokker, an web application by Learning Moment. I also took a React course to get the necessary React development competence. I got to contribute with:</0><1><2>New components</2><3>Refactoring</3><4>Reviews of other's code</4><5>Some bug-fixing</5></1><6>During this practice I learned:</6><7><8>React and related technologies</8><9>Cooperation using Github <10>issues</10> and <11>pull requests</11></9></7><12>Components I've made</12>"
+msgstr "<0>During this five months internship I contributed to Dokker, an web application by Learning Moment. I also took a React course to get the necessary React development competence. I got to contribute with:</0><1><2>New components</2><3>Refactoring</3><4>Reviews of other’s code</4><5>Some bug-fixing</5></1><6>During this practice I learned:</6><7><8>React and related technologies</8><9>Cooperation using Github <10>issues</10> and <11>pull requests</11></9></7><12>Components I’ve made</12>"
 
 #: src/pages/webwork/Videoopplasting.js:16
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2>"
-msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we set to make web apps for uploading and watching videos. Put simply, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
+msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we were set to make web apps for uploading and watching videos. Put simply, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
 #: src/pagesInfo.js:196
 msgid "Alistair MacLean nettside redesign"
@@ -120,8 +112,8 @@ msgstr "Alistair MacLean portfolio redesign"
 msgid "Annet"
 msgstr "Other"
 
-#: src/pages/graphicwork/Artistbooking.js:60
-#: src/pages/graphicwork/Artistbooking.js:61
+#: src/pages/graphicwork/Artistbooking.js:64
+#: src/pages/graphicwork/Artistbooking.js:65
 msgid "Artistprofil"
 msgstr "Artist profile"
 
@@ -163,7 +155,7 @@ msgstr "Contribution"
 
 #: src/pages/Gallery/Gallery.js:107
 msgid "Bilder jeg har lagt ut på min Instagram"
-msgstr "Images which I've published on my Instagram"
+msgstr "Images which I’ve published on my Instagram"
 
 #: src/pagesInfo.js:239
 msgid "Bok web-banner"
@@ -178,10 +170,6 @@ msgstr "Book-cover and similar"
 msgid "Bosatt i Trondheim"
 msgstr "Resident in Trondheim"
 
-#: src/pages/webwork/Extraoptical.js:104
-#~ msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
-#~ msgstr "Built some sites on the new webpage (a Progressive Web App)"
-
 #: src/pages/webwork/Portfolios.js:163
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "This site was abandoned half-finished and has no sub-pages."
@@ -192,19 +180,19 @@ msgstr "This portfolio"
 
 #: src/pages/webwork/Extraoptical.js:65
 msgid "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
-msgstr "This version of the web page was launched February 2022. I also had internship at Extra Optical before this, so I've worked on the older version of the site as well."
+msgstr "This version of the web page was launched February 2022. I also had internship at Extra Optical before this, so I’ve worked on the older version of the site as well."
 
 #: src/pages/graphicwork/Flaviadeluce.js:27
 msgid "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim- og mysterier-bokserie som tar plass i england på 50-tallet. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg det var. (Det er fortsatt bare en skoleoppgave og ikke et 'ordentlig' oppdrag, altså.)"
-msgstr "This is a book banner I made for the Flavia de Luce series, a crime- and mysteries book series that takes place in England in the fifties. This banner is meant to fit a book store webpage, ark.no, if I remember correctly. (This was still just a school assignment, not a 'real world' assignment, that is.)"
+msgstr "This is a book banner I made for the Flavia de Luce series, a crime- and mysteries book series that takes place in England in the fifties. This banner is meant to fit a book store webpage, ark.no, if I remember correctly. (This was still just a school assignment, not a “real world” assignment, that is.)"
 
 #: src/pages/webwork/Portfolios.js:81
 msgid "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
-msgstr "This isn't the first time I've made my own portfolio. Below you can se the earlier versions, which I never felt quite satisfied with."
+msgstr "This isn’t the first time I’ve made my own portfolio. Below you can se the earlier versions, which I never felt quite satisfied with."
 
 #: src/pages/webwork/Portfolios.js:100
 msgid "Dette var en portefølje jeg lagde under studiene. Etter ett år ble informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd med designet og måten jeg hadde kodet det på. Derfor skrotet jeg denne og begynte på siden du er på nå."
-msgstr "I made this portfolio during my studies. After one year its information became outdated, and I was dissatisfied with its design and the way I'd coded it. For these reasons I scrapped this portfolio, and began making the one you're looking at now."
+msgstr "I made this portfolio during my studies. After one year its information became outdated, and I was dissatisfied with its design and the way I’d coded it. For these reasons I scrapped this portfolio, and began making the one you’re looking at now."
 
 #: src/pages/webwork/Dokker.js:96
 msgid "Dokker appen"
@@ -216,10 +204,10 @@ msgstr "Dokker blog"
 
 #: src/components/layout/Footer/Footer.js:17
 msgid "Du finner meg på:"
-msgstr "I'm available on:"
+msgstr "I’m available on:"
 
-#: src/pages/graphicwork/Artistbooking.js:67
-#: src/pages/graphicwork/Artistbooking.js:68
+#: src/pages/graphicwork/Artistbooking.js:71
+#: src/pages/graphicwork/Artistbooking.js:72
 msgid "En desktopside"
 msgstr "A desktop page"
 
@@ -241,7 +229,7 @@ msgstr "A HTML templating language (HTML where you can use variables and express
 
 #: src/pages/graphicwork/MPOE.js:30
 msgid "Et bok-cover jeg lagde for boka \"Mord på orientekspressen\" av Agatha Christie. Jeg lagde også et poster og andre design med samme motiv."
-msgstr "A book cover I made for the book \"Murder on the Orient Express\" by Agata Christie. I also made a poster and some other designs."
+msgstr "A book cover I made for the book “Murder on the Orient Express” by Agata Christie. I also made a poster and some other designs."
 
 #: src/pages/webwork/Extraoptical.js:41
 msgid "Et eCommerce CMS hvor administratorer kan legge til egne undersider og byggeklosser med drag and drop interface. Kildekoden kan hente inn disse byggeklossene med <0>CmsBlock/</0>"
@@ -265,11 +253,11 @@ msgstr "Extra Optical front page"
 
 #: src/pages/webwork/Extraoptical.js:74
 msgid "Extra Opticals eldre nettbutikk"
-msgstr "Extra Optical's older online site"
+msgstr "Extra Optical’s older online site"
 
 #: src/pages/webwork/Extraoptical.js:23
 msgid "Extra Opticals nettbutikk"
-msgstr "Extra Optical's online store"
+msgstr "Extra Optical’s online store"
 
 #: src/pages/webwork/Fagstoff.js:21
 #: src/pagesInfo.js:184
@@ -290,7 +278,7 @@ msgstr "Fixed layout on bottom text and made a site available for mobile sizes"
 
 #: src/pages/webwork/Extraoptical.js:97
 msgid "Fikset på Extra Opticals Zendesk Help center."
-msgstr "Fixed Extra Optical's Zendesk Help center"
+msgstr "Fixed Extra Optical’s Zendesk Help center"
 
 #: src/pages/graphicwork/Flaviadeluce.js:22
 msgid "Flavia de Luce serien web-banner"
@@ -298,7 +286,7 @@ msgstr "Web banner for the Flavia de Luce series"
 
 #: src/pages/webwork/Ytwrapped.js:37
 msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogget på Youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
-msgstr "To use this app it is assumed that you have watched the videos while logged in. Otherwise you wouldn't be able to get the data necessary for this app."
+msgstr "To use this app it is assumed that you watched the videos while logged in to Youtube. Otherwise you wouldn’t be able to get the data necessary for this app."
 
 #: src/pagesInfo.js:99
 #: src/pagesInfo.js:111
@@ -319,11 +307,11 @@ msgstr "Get nice and pretty lists"
 
 #: src/components/common/Barchart/Barchart.js:27
 msgid "Ganske god på"
-msgstr "Pretty good at"
+msgstr "Very good at"
 
 #: src/components/common/Barchart/Barchart.js:70
 msgid "Ganske god på {tech}"
-msgstr "Pretty good at {tech}"
+msgstr "Very good at {tech}"
 
 #: src/pages/Home.js:56
 #: src/pagesInfo.js:223
@@ -344,11 +332,11 @@ msgstr "Home"
 
 #: src/pages/webwork/Portfolios.js:191
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
-msgstr "In 2015 i attended <0>media and communication</0> on Byåsen VGS (highschool), were I got the task to make a three-page portfolio about myself. After delivering this I improved it in my spare time."
+msgstr "In 2015 i attended <0>media and communication</0> on Byåsen VGS (highschool), where I got a task to make a three-page portfolio about myself. After delivering this I improved it in my spare time."
 
 #: src/pages/graphicwork/Artistbooking.js:25
 msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
-msgstr "In the course \"Graphic Tools, Principles and Methods\" we made a clickable hi-fi prototype for an app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
+msgstr "In the course “Graphic Tools, Principles and Methods” we made a clickable hi-fi prototype for an app. The app should be music related, so it ended up being an app for private citizens and music artists where they could get in contact and and arrange gigs. I decided to make both mobile and desktop view of all the pages."
 
 #: src/pages/Gallery/Gallery.js:76
 msgid "Innlasting av bilder mislyktes. Du kan prøve å:<0><1>Slå av utvidet sporingsbeskyttelse for dette nettstedet</1><2>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</2></0>Ellers så kan du gå til <3>min Instagram-konto</3> og de samme bildene der."
@@ -372,11 +360,11 @@ msgstr "Assignment at media and communication"
 
 #: src/pages/webwork/Portfolios.js:108
 msgid "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
-msgstr "This was made using PHP, mostly for achieving 'same-header-and-footer-on-all-pages'. I didn't know much JavaScript at the time, so that's the reason I didn't use that."
+msgstr "This was made using PHP, mostly for achieving “same-header-and-footer-on-all-pages”. I didn’t know much JavaScript at the time, so that’s the reason I didn’t use that."
 
 #: src/pages/webwork/Portfolios.js:44
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
-msgstr "I started making this December 2020, it was made to present the web projects that I've made. It was to be used in job searching."
+msgstr "I started making this December 2020, it was made to present the web projects that I’ve made. It was to be used in job searching."
 
 #: src/pagesInfo.js:122
 msgid "Jobb"
@@ -452,12 +440,16 @@ msgstr "Web"
 
 #: src/pages/webwork/Fagstoff.js:17
 msgid "Nettside med overskriften 'fagstoff'"
-msgstr "Webpage with its heading reading 'subject matter'"
+msgstr "Webpage with its heading reading “subject matter”"
 
 #: src/pages/Home.js:51
 #: src/pagesInfo.js:90
 msgid "Nettsider"
 msgstr "Websites"
+
+#: src/pages/graphicwork/Artistbooking.js:34
+msgid "Noen utvalgte bilder"
+msgstr "Some selected images"
 
 #: src/pages/webwork/Rankingapp.js:82
 msgid "Oversikt over lister eksempel"
@@ -494,7 +486,7 @@ msgstr "Internship & work"
 
 #: src/pages/webwork/Extraoptical.js:58
 msgid "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Koden er satt opp slik at enkelte deler er satt av til CMS-et, mens resten er React-komponenter."
-msgstr "On this webpage I've mostly worked with the source code (React), but I've also done some in the CMS <0>Magento PWA builder</0>."
+msgstr "On this webpage I’ve mostly worked with the source code (React), but I’ve also done some in the CMS <0>Magento PWA builder</0>."
 
 #: src/pages/Home.js:67
 msgid "React sertifikat"
@@ -518,8 +510,8 @@ msgstr "Insert your own elements, customize to your needs"
 msgid "Skole"
 msgstr "School"
 
-#: src/pages/graphicwork/Artistbooking.js:39
-#: src/pages/graphicwork/Artistbooking.js:40
+#: src/pages/graphicwork/Artistbooking.js:43
+#: src/pages/graphicwork/Artistbooking.js:44
 msgid "Startside"
 msgstr "Front page"
 
@@ -530,15 +522,15 @@ msgstr "Studies"
 
 #: src/pages/webwork/Ytwrapped.js:30
 msgid "Syntes det var synd at Youtube ikke hadde samme års-sammendrag slik som Spotify har, hvor man kan se hva man har spilt av mest i løpet av et år. Så da måtte jeg nesten lage noe slikt selv."
-msgstr "I thought it was a shame that Youtube doesn't have a year-summary like Spotify has, where you van see what you've played the most in the course of a year. Therefore I just had to make something like this myself."
+msgstr "I thought it was a shame that Youtube doesn’t have a year-summary like that of Spotify, where you van see what you’ve played the most in the course of a year. Therefore I just had to make something like this myself."
 
-#: src/pages/graphicwork/Artistbooking.js:46
-#: src/pages/graphicwork/Artistbooking.js:47
+#: src/pages/graphicwork/Artistbooking.js:50
+#: src/pages/graphicwork/Artistbooking.js:51
 msgid "Søkefelt"
 msgstr "Search bar"
 
-#: src/pages/graphicwork/Artistbooking.js:53
-#: src/pages/graphicwork/Artistbooking.js:54
+#: src/pages/graphicwork/Artistbooking.js:57
+#: src/pages/graphicwork/Artistbooking.js:58
 msgid "Søkeresultater"
 msgstr "Search results"
 

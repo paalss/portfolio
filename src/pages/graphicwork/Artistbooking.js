@@ -30,7 +30,11 @@ const Artistbooking = () => (
         mobil- og desktop-visning av alle sidene.
       </Trans>
     </p>
-    <h3>Noen utvalgte bilder</h3>
+    <h3>
+      <Trans>
+        Noen utvalgte bilder
+      </Trans>
+    </h3>
     <div uk-lightbox="animation: slide" className="flex wrap">
       <Figure
         imgSrc={mobileImg1}

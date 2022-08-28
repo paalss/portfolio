@@ -130,11 +130,11 @@ const pagesInfo = [
         link: "/webwork/extraoptical",
         site: "https://extraoptical.no/",
         title: "Extra Optical",
-        subtitle: <Trans>Praksis & jobb</Trans>,
+        subtitle: <Trans>Praksis &amp; jobb</Trans>,
         page: <Extraoptical />,
         imgSrc: extraopticalImg,
         imgAlt: "Extraoptical logo",
-        tools: ["React", "Linux", "Magento2"],
+        tools: ["React", "GraphQL", "Magento2"],
         thereAreMoreTools: true,
       },
       {

@@ -23,7 +23,7 @@
 
 ## design
 - [x] litt mindre enn 2rem på linjehøyde for mobil
-- [ ] behold den mindre linjehøyden for desktop også. Det du har nå er i hvert fall fort stort. Bare se på porteføljesiden og "hvorfor react?"-teksten
+- [x] behold den mindre linjehøyden for desktop også. Det du har nå er i hvert fall fort stort. Bare se på porteføljesiden og "hvorfor react?"-teksten
 - [ ] bruke fancybox som lightbox?
 
 ## Innhold

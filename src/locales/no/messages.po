@@ -57,7 +57,7 @@ msgstr "2022 januar–nå"
 msgid "2022 mai–juni"
 msgstr "2022 mai–juni"
 
-#: src/pages/webwork/Extraoptical.js:75
+#: src/pages/webwork/Extraoptical.js:101
 msgid "2022 november–februar"
 msgstr "2022 november–februar"
 
@@ -178,7 +178,7 @@ msgstr "Besøk min Github-profil"
 msgid "Besøk siden"
 msgstr "Besøk siden"
 
-#: src/pages/webwork/Extraoptical.js:79
+#: src/pages/webwork/Extraoptical.js:105
 msgid "Bidrag"
 msgstr "Bidrag"
 
@@ -195,7 +195,7 @@ msgstr "Bok web-banner"
 msgid "Bok-cover o.l."
 msgstr "Bok-cover o.l."
 
-#: src/components/layout/Footer/Footer.js:73
+#: src/components/layout/Footer/Footer.js:51
 msgid "Bosatt i Trondheim"
 msgstr "Bosatt i Trondheim"
 
@@ -211,7 +211,7 @@ msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har in
 msgid "Denne porteføljen"
 msgstr "Denne porteføljen"
 
-#: src/pages/webwork/Extraoptical.js:65
+#: src/pages/webwork/Extraoptical.js:78
 msgid "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
 msgstr "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
 
@@ -260,7 +260,7 @@ msgstr "Enda tidligere portefølje"
 msgid "Erfaring"
 msgstr "Erfaring"
 
-#: src/pages/webwork/Extraoptical.js:51
+#: src/pages/webwork/Extraoptical.js:52
 msgid "Et HTML templating språk (HTML hvor man kan bruke variabler og expressions). Ikke så ulikt Twig og Handlebars."
 msgstr "Et HTML templating språk (HTML hvor man kan bruke variabler og expressions). Ikke så ulikt Twig og Handlebars."
 
@@ -268,7 +268,7 @@ msgstr "Et HTML templating språk (HTML hvor man kan bruke variabler og expressi
 msgid "Et bok-cover jeg lagde for boka \"Mord på orientekspressen\" av Agatha Christie. Jeg lagde også et poster og andre design med samme motiv."
 msgstr "Et bok-cover jeg lagde for boka \"Mord på orientekspressen\" av Agatha Christie. Jeg lagde også et poster og andre design med samme motiv."
 
-#: src/pages/webwork/Extraoptical.js:41
+#: src/pages/webwork/Extraoptical.js:42
 msgid "Et eCommerce CMS hvor administratorer kan legge til egne undersider og byggeklosser med drag and drop interface. Kildekoden kan hente inn disse byggeklossene med <0>CmsBlock/</0>"
 msgstr "Et eCommerce CMS hvor administratorer kan legge til egne undersider og byggeklosser med drag and drop interface. Kildekoden kan hente inn disse byggeklossene med <0>CmsBlock/</0>"
 
@@ -292,7 +292,7 @@ msgstr "Et poster jeg også lagde"
 msgid "Extra Optical forside"
 msgstr "Extra Optical forside"
 
-#: src/pages/webwork/Extraoptical.js:74
+#: src/pages/webwork/Extraoptical.js:100
 msgid "Extra Opticals eldre nettbutikk"
 msgstr "Extra Opticals eldre nettbutikk"
 
@@ -321,15 +321,15 @@ msgstr "Fagstoff"
 msgid "Fant ingen bilder"
 msgstr "Fant ingen bilder"
 
-#: src/pages/webwork/Extraoptical.js:83
+#: src/pages/webwork/Extraoptical.js:109
 msgid "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 msgstr "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 
-#: src/pages/webwork/Extraoptical.js:100
+#: src/pages/webwork/Extraoptical.js:126
 msgid "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 msgstr "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 
-#: src/pages/webwork/Extraoptical.js:97
+#: src/pages/webwork/Extraoptical.js:123
 msgid "Fikset på Extra Opticals Zendesk Help center."
 msgstr "Fikset på Extra Opticals Zendesk Help center."
 
@@ -383,6 +383,22 @@ msgstr "Grafisk design"
 msgid "Grunn­leggende"
 msgstr "Grunn­leggende"
 
+#: src/pages/webwork/Fakturanett.js:31
+#~ msgid "Her har jeg jobbet med å fikse oppdage og fikse bugs i fakturanett.no sin kildekode. I tillegg har jeg oppgradert kildekoden fra pre-PHP5.5 til PHP7 og fjernet unødvendige filer."
+#~ msgstr "Her har jeg jobbet med å fikse oppdage og fikse bugs i fakturanett.no sin kildekode. I tillegg har jeg oppgradert kildekoden fra pre-PHP5.5 til PHP7 og fjernet unødvendige filer."
+
+#: src/pages/webwork/Fakturanett.js:31
+#~ msgid "Her har jeg jobbet med å fikse oppdage og fikse bugs i fakturanett.no sin kildekode. I tillegg har jeg oppgradert kildekoden til PHP7."
+#~ msgstr "Her har jeg jobbet med å fikse oppdage og fikse bugs i fakturanett.no sin kildekode. I tillegg har jeg oppgradert kildekoden til PHP7."
+
+#: src/pages/webwork/Fakturanett.js:31
+#~ msgid "Her har jeg jobbet med å oppdage og fikse bugs i fakturanett.no sin kildekode. I tillegg har jeg oppgradert kildekoden fra pre-PHP5.5 til PHP7 og fjernet unødvendige filer."
+#~ msgstr "Her har jeg jobbet med å oppdage og fikse bugs i fakturanett.no sin kildekode. I tillegg har jeg oppgradert kildekoden fra pre-PHP5.5 til PHP7 og fjernet unødvendige filer."
+
+#: src/pages/webwork/Extraoptical.js:66
+#~ msgid "Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
+#~ msgstr "Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
+
 #: src/pagesInfo.js:69
 msgid "Hjem"
 msgstr "Hjem"
@@ -419,9 +435,25 @@ msgstr "Innleveringsoppgave"
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Innleveringsoppgave på medier og kommunikasjon"
 
+#: src/pages/webwork/Extraoptical.js:70
+#~ msgid "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den og separere logikk og markup."
+#~ msgstr "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den og separere logikk og markup."
+
+#: src/pages/webwork/Extraoptical.js:71
+msgid "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den. Å separere logikk og markup ble jeg også bedre på."
+msgstr "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den. Å separere logikk og markup ble jeg også bedre på."
+
+#: src/pages/webwork/Extraoptical.js:65
+#~ msgid "Jeg har blitt bedre på å tilrettelegge PR for den som skal se gjennom den og separere logikk og markup."
+#~ msgstr "Jeg har blitt bedre på å tilrettelegge PR for den som skal se gjennom den og separere logikk og markup."
+
 #: src/pages/webwork/Portfolios.js:108
 msgid "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
 msgstr "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
+
+#: src/pages/webwork/Extraoptical.js:66
+msgid "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages (react-slick, react-intl, react-spring)."
+msgstr "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages (react-slick, react-intl, react-spring)."
 
 #: src/pages/webwork/Portfolios.js:44
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
@@ -455,7 +487,7 @@ msgstr "Kunst"
 msgid "Lag egne lister"
 msgstr "Lag egne lister"
 
-#: src/pages/webwork/Extraoptical.js:94
+#: src/pages/webwork/Extraoptical.js:120
 msgid "Lagd undersider"
 msgstr "Lagd undersider"
 
@@ -549,9 +581,13 @@ msgstr "Praksis & jobb"
 #~ msgid "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
 #~ msgstr "På den nye nettsiden har jeg jobbet både i Magento PWA builder og i kildekoden. Koden er satt opp slik at enkelte deler er satt av til <0>Magento PWA builder</0> innhold, mens resten er React-komponenter."
 
-#: src/pages/webwork/Extraoptical.js:58
-msgid "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Koden er satt opp slik at enkelte deler er satt av til CMS-et, mens resten er React-komponenter."
-msgstr "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Koden er satt opp slik at enkelte deler er satt av til CMS-et, mens resten er React-komponenter."
+#: src/pages/webwork/Extraoptical.js:59
+#~ msgid "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Jeg har kodet i React og dokumentert bidrag i egne pull requests. Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
+#~ msgstr "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Jeg har kodet i React og dokumentert bidrag i egne pull requests. Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
+
+#: src/pages/webwork/Extraoptical.js:59
+#~ msgid "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Koden er satt opp slik at enkelte deler er satt av til CMS-et, mens resten er React-komponenter."
+#~ msgstr "På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i CMS-et <0>Magento PWA builder</0>. Koden er satt opp slik at enkelte deler er satt av til CMS-et, mens resten er React-komponenter."
 
 #: src/pages/Home.js:67
 msgid "React sertifikat"
@@ -561,7 +597,7 @@ msgstr "React sertifikat"
 msgid "Relasjonsdatabase"
 msgstr "Relasjonsdatabase"
 
-#: src/pages/webwork/Extraoptical.js:89
+#: src/pages/webwork/Extraoptical.js:115
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Rettet opp / fjernet <0>broken links</0>"
 
@@ -606,6 +642,18 @@ msgstr "Søkeresultater"
 #: src/pages/webwork/Portfolios.js:91
 msgid "Tidligere portefølje"
 msgstr "Tidligere portefølje"
+
+#: src/pages/webwork/Extraoptical.js:73
+#~ msgid "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har kodet i React og dokumentert bidrag i egne pull requests. Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
+#~ msgstr "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har kodet i React og dokumentert bidrag i egne pull requests. Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
+
+#: src/pages/webwork/Extraoptical.js:59
+msgid "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har lagd UI-elementer, hentet data fra serveren og oversatt innhold med React."
+msgstr "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har lagd UI-elementer, hentet data fra serveren og oversatt innhold med React."
+
+#: src/pages/webwork/Fakturanett.js:31
+msgid "Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer."
+msgstr "Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer."
 
 #: src/pagesInfo.js:75
 msgid "Utdannet web­utvikler"

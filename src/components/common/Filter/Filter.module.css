@@ -1,12 +1,12 @@
 .root {
   display: flex;
   column-gap: 5px;
-  row-gap: 10px;
+  row-gap: 5px;
   flex-wrap: wrap;
 }
 
 .option {
-  margin: 0 5px;
+  cursor: pointer;
   padding: 0 20px;
   height: 55px;
   border-radius: 30px;
@@ -16,6 +16,11 @@
   align-items: center;
   width: fit-content;
   column-gap: 10px;
+}
+
+.option.checked {
+  color: #fff;
+  background-color: #1d1d1d;
 }
 
 .option img {

@@ -34,6 +34,7 @@ const Filter = ({ selected, onSelect }) => {
 
   const Checkbox = ({ name, isChecked, onChange }) => {
     const src = findMatchingImage(name);
+    const optionClass = isChecked ? classes.option + ' ' + classes.checked : classes.option
     return (
       <div>
         <input
@@ -44,7 +45,7 @@ const Filter = ({ selected, onSelect }) => {
           onChange={onChange}
           hidden={true}
         />{" "}
-        <label className={classes.option} htmlFor={name}>
+        <label className={optionClass} htmlFor={name}>
           <img src={src} alt="" />
           {name}
         </label>

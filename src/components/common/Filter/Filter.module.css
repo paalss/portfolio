@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  column-gap: 5px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.option {
+  margin: 0 5px;
+  padding: 0 20px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #ececec;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  column-gap: 10px;
+}
+
+.option img {
+  height: 30px;
+}

@@ -52,6 +52,7 @@ const techsToFilterBy = [
   "JavaScript",
   "TypeScript",
   "GraphQL",
+  "MySQL",
   "PHP",
   "HTML",
   "CSS",

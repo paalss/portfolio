@@ -7,6 +7,7 @@ import graphqlLogo from "../../../images/tools/graphql.svg";
 import cssLogo from "../../../images/tools/css-3.svg";
 import htmlLogo from "../../../images/tools/html-5.svg";
 import litLogo from "../../../images/tools/lit-icon.svg";
+import mysqlLogo from "../../../images/tools/mysql-icon.svg";
 
 import classes from "./Filter.module.css";
 
@@ -20,6 +21,7 @@ const findMatchingImage = (name) => {
     cssLogo,
     htmlLogo,
     litLogo,
+    mysqlLogo
   ];
   
   const lowerCaseName = name.toLowerCase();

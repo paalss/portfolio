@@ -10,7 +10,7 @@ import litLogo from "../../../images/tools/lit-icon.svg";
 
 import classes from "./Filter.module.css";
 
-const Filter = ({ selected, onSelect }) => {
+const Filter = ({ filter, onSelect }) => {
   const selectHandler = (event) => {
     onSelect(event.target.name);
   };
@@ -32,22 +32,24 @@ const Filter = ({ selected, onSelect }) => {
     return image;
   };
 
-  const Checkbox = ({ name, isChecked, onChange }) => {
-    const src = findMatchingImage(name);
-    const optionClass = isChecked ? classes.option + ' ' + classes.checked : classes.option
+  const Checkbox = ({ name: techName, isChecked, onChange, amount }) => {
+    const src = findMatchingImage(techName);
+    const optionClass = isChecked
+      ? classes.option + " " + classes.checked
+      : classes.option;
     return (
       <div>
         <input
           type="checkbox"
-          id={name}
-          name={name}
+          id={techName}
+          name={techName}
           checked={isChecked}
           onChange={onChange}
           hidden={true}
         />{" "}
-        <label className={optionClass} htmlFor={name}>
+        <label className={optionClass} htmlFor={techName}>
           <img src={src} alt="" />
-          {name}
+          {techName} ({amount})
         </label>
       </div>
     );
@@ -55,12 +57,13 @@ const Filter = ({ selected, onSelect }) => {
 
   return (
     <div className={classes.root}>
-      {selected.map((e) => (
+      {filter.map((e) => (
         <Checkbox
           key={e.tech}
           isChecked={e.isChecked}
           onChange={selectHandler}
           name={e.tech}
+          amount={e.amount}
         />
       ))}
       {/* <Checkbox isChecked={}>JavaScript</Checkbox>

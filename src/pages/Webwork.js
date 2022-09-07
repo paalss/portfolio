@@ -13,16 +13,29 @@ import { Trans } from "@lingui/macro";
 import Filter from "../components/common/Filter/Filter";
 
 // const filteredWebwork = () => {};
+const countProjectsWith = (tech) => {
+  // count projects using tech
+  let projectsUsingTech = webworkInfo.map((project) => {
+    if (project.tools.includes(tech)) {
+      return project;
+    } else {
+      return null;
+    }
+  });
+  projectsUsingTech = projectsUsingTech.filter((i) => i !== null);
+  return projectsUsingTech.length;
+};
 
 const Webwork = () => {
+
   const [filter, setFilter] = useState([
-    { tech: "React", isChecked: false },
-    { tech: "GraphQL", isChecked: false },
-    { tech: "JavaScript", isChecked: false },
-    { tech: "TypeScript", isChecked: false },
-    { tech: "PHP", isChecked: false },
-    { tech: "HTML", isChecked: false },
-    { tech: "CSS", isChecked: false },
+    { tech: "React", isChecked: false, amount: countProjectsWith("React") },
+    { tech: "GraphQL", isChecked: false, amount: countProjectsWith("GraphQL") },
+    { tech: "JavaScript", isChecked: false, amount: countProjectsWith("JavaScript") },
+    { tech: "TypeScript", isChecked: false, amount: countProjectsWith("TypeScript") },
+    { tech: "PHP", isChecked: false, amount: countProjectsWith("PHP") },
+    { tech: "HTML", isChecked: false, amount: countProjectsWith("HTML") },
+    { tech: "CSS", isChecked: false, amount: countProjectsWith("CSS") },
   ]);
 
   const filterHandler = (tech) => {
@@ -64,7 +77,7 @@ const Webwork = () => {
 
   return (
     <>
-      <Filter selected={filter} onSelect={filterHandler} />
+      <Filter filter={filter} onSelect={filterHandler} />
       <div className="squarelinks-flex">
         {filteredProjects.map((page) => (
           <SquareLink key={page.id} {...page} />

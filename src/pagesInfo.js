@@ -11,7 +11,7 @@ import photo from "./images/cvphoto2.webp";
 // webwork
 import fakturanettImg from "./images/webwork/fakturanett/fakturanett-icon.avif";
 import ytWrappedImg from "./images/webwork/yt-wrapped/img.avif";
-import ohmyaliasesImg from "./images/webwork/ohmyaliases/img.avif"
+import ohmyaliasesImg from "./images/webwork/ohmyaliases/img.avif";
 import extraopticalImg from "./images/webwork/extraoptical/logo/eo-icon.webp";
 import dokkerImg from "./images/webwork/dokker/logo/dokkericon.webp";
 import rankingappImg from "./images/webwork/rankingapp/rankingapp-small.webp";
@@ -39,8 +39,8 @@ const Home = lazy(() => import("./pages/Home"));
 
 // webwork
 const Webwork = lazy(() => import("./pages/Webwork"));
-const Ohmyaliases = lazy(()=> import("./pages/webwork/Ohmyaliases"));
-const Ytwrapped = lazy(()=> import("./pages/webwork/Ytwrapped"));
+const Ohmyaliases = lazy(() => import("./pages/webwork/Ohmyaliases"));
+const Ytwrapped = lazy(() => import("./pages/webwork/Ytwrapped"));
 const Fakturanett = lazy(() => import("./pages/webwork/Fakturanett"));
 const Extraoptical = lazy(() => import("./pages/webwork/Extraoptical"));
 const Dokker = lazy(() => import("./pages/webwork/Dokker"));
@@ -157,7 +157,7 @@ const pagesInfo = [
         page: <Portfolios />,
         imgSrc: portfoliosImg,
         imgAlt: "Portfolio page",
-        tools: ["React", "JavaScript", <>React&#8209;lingui</>],
+        tools: ["React", "JavaScript", "CSS"],
         thereAreMoreTools: true,
       },
       {
@@ -173,7 +173,7 @@ const pagesInfo = [
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
         imgAlt: "Video uploading app",
-        tools: ["PHP", "Lit", "JavaScript"],
+        tools: ["PHP", "Lit", "HTML", "CSS", "JavaScript"],
         thereAreMoreTools: true,
       },
       {
@@ -198,7 +198,7 @@ const pagesInfo = [
         page: <Maclean />,
         imgSrc: macleanImg,
         imgAlt: "MacLean page",
-        tools: ["HTML", "CSS", "Photoshop"],
+        tools: ["HTML", "CSS", "JavaScript"],
         thereAreMoreTools: true,
       },
       {
@@ -210,7 +210,7 @@ const pagesInfo = [
         page: <Rankingapp />,
         imgSrc: rankingappImg,
         imgAlt: "Ranking app",
-        tools: ["TypeScript", "PHP", "MySQL"],
+        tools: ["TypeScript", "PHP", "MySQL", "HTML", "CSS"],
         thereAreMoreTools: true,
       },
     ],

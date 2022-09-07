@@ -173,7 +173,7 @@ const pagesInfo = [
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
         imgAlt: "Video uploading app",
-        tools: ["PHP", "LitElement", "JavaScript"],
+        tools: ["PHP", "Lit", "JavaScript"],
         thereAreMoreTools: true,
       },
       {

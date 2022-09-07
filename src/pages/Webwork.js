@@ -46,21 +46,30 @@ const filterProjects = (filter) => {
   return projects;
 };
 
+const techsToFilterBy = [
+  "React",
+  "Lit",
+  "JavaScript",
+  "TypeScript",
+  "GraphQL",
+  "PHP",
+  "HTML",
+  "CSS",
+];
+
 const Webwork = () => {
-  const [filter, setFilter] = useState([
-    { tech: "React", isChecked: false, amount: countProjectsWith("React") },
-    { tech: "GraphQL", isChecked: false, amount: countProjectsWith("GraphQL") },
-    { tech: "JavaScript", isChecked: false, amount: countProjectsWith("JavaScript") },
-    { tech: "TypeScript", isChecked: false, amount: countProjectsWith("TypeScript") },
-    { tech: "PHP", isChecked: false, amount: countProjectsWith("PHP") },
-    { tech: "HTML", isChecked: false, amount: countProjectsWith("HTML") },
-    { tech: "CSS", isChecked: false, amount: countProjectsWith("CSS") },
-  ]);
+  const [filter, setFilter] = useState(
+    techsToFilterBy.map((e) => ({
+      tech: e,
+      isChecked: false,
+      amount: countProjectsWith(e),
+    }))
+  );
 
   const filterHandler = (tech) => {
     let filterToToggle = filter.find((e) => e.tech === tech);
     filterToToggle.isChecked = !filterToToggle.isChecked;
-  
+
     const newFilter = filter.map((e) =>
       e.tech === filterToToggle.tech ? filterToToggle : e
     );

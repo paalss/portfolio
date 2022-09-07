@@ -16,13 +16,13 @@ import Filter from "../components/common/Filter/Filter";
 
 const Webwork = () => {
   const [filter, setFilter] = useState([
-    { tech: "React", isChecked: true },
-    { tech: "GraphQL", isChecked: true },
-    { tech: "JavaScript", isChecked: true },
-    { tech: "TypeScript", isChecked: true },
-    { tech: "PHP", isChecked: true },
-    { tech: "HTML", isChecked: true },
-    { tech: "CSS", isChecked: true },
+    { tech: "React", isChecked: false },
+    { tech: "GraphQL", isChecked: false },
+    { tech: "JavaScript", isChecked: false },
+    { tech: "TypeScript", isChecked: false },
+    { tech: "PHP", isChecked: false },
+    { tech: "HTML", isChecked: false },
+    { tech: "CSS", isChecked: false },
   ]);
 
   const filterHandler = (tech) => {
@@ -55,7 +55,12 @@ const Webwork = () => {
     return projects;
   };
 
-  const filteredProjects = filterProjects();
+  let filteredProjects = filterProjects();
+
+  // if no filter is set, just render all projects
+  if (filteredProjects.length === 0) {
+    filteredProjects = webworkInfo;
+  }
 
   return (
     <>
@@ -64,6 +69,7 @@ const Webwork = () => {
         {filteredProjects.map((page) => (
           <SquareLink key={page.id} {...page} />
         ))}
+        <SquareLink desktopEmptySpace />
         <SquareLink desktopEmptySpace />
         <SquareLink desktopEmptySpace />
       </div>

@@ -10,11 +10,7 @@ import litLogo from "../../../images/tools/lit-icon.svg";
 
 import classes from "./Filter.module.css";
 
-const Filter = ({ filter, onSelect }) => {
-  const selectHandler = (event) => {
-    onSelect(event.target.name);
-  };
-
+const findMatchingImage = (name) => {
   const images = [
     javascriptLogo,
     typescriptLogo,
@@ -25,34 +21,38 @@ const Filter = ({ filter, onSelect }) => {
     htmlLogo,
     litLogo,
   ];
+  
+  const lowerCaseName = name.toLowerCase();
+  const image = images.find((e) => e.includes(lowerCaseName));
+  return image;
+};
 
-  const findMatchingImage = (name) => {
-    const lowerCaseName = name.toLowerCase();
-    const image = images.find((e) => e.includes(lowerCaseName));
-    return image;
-  };
+const Checkbox = ({ name: techName, isChecked, onChange, amount }) => {
+  const src = findMatchingImage(techName);
+  const optionClass = isChecked
+    ? classes.option + " " + classes.checked
+    : classes.option;
+  return (
+    <div>
+      <input
+        type="checkbox"
+        id={techName}
+        name={techName}
+        checked={isChecked}
+        onChange={onChange}
+        hidden={true}
+      />{" "}
+      <label className={optionClass} htmlFor={techName}>
+        <img src={src} alt="" />
+        {techName} ({amount})
+      </label>
+    </div>
+  );
+};
 
-  const Checkbox = ({ name: techName, isChecked, onChange, amount }) => {
-    const src = findMatchingImage(techName);
-    const optionClass = isChecked
-      ? classes.option + " " + classes.checked
-      : classes.option;
-    return (
-      <div>
-        <input
-          type="checkbox"
-          id={techName}
-          name={techName}
-          checked={isChecked}
-          onChange={onChange}
-          hidden={true}
-        />{" "}
-        <label className={optionClass} htmlFor={techName}>
-          <img src={src} alt="" />
-          {techName} ({amount})
-        </label>
-      </div>
-    );
+const Filter = ({ filter, onSelect }) => {
+  const selectHandler = (event) => {
+    onSelect(event.target.name);
   };
 
   return (
@@ -66,9 +66,6 @@ const Filter = ({ filter, onSelect }) => {
           amount={e.amount}
         />
       ))}
-      {/* <Checkbox isChecked={}>JavaScript</Checkbox>
-      <Checkbox isChecked={}>HTML</Checkbox>
-      <Checkbox isChecked={}>CSS</Checkbox> */}
     </div>
   );
 };

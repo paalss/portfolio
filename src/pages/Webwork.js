@@ -26,8 +26,27 @@ const countProjectsWith = (tech) => {
   return projectsUsingTech.length;
 };
 
-const Webwork = () => {
+const filterProjects = (filter) => {
+  let projects = webworkInfo.map((project) => {
+    const techFoundArray = project.tools.map((tech) => {
+      const techFound = filter.find((filterOpt) => filterOpt.tech === tech);
+      const isTechFound = techFound && techFound.isChecked;
+      return !!isTechFound;
+    });
 
+    if (techFoundArray.includes(true)) {
+      return project;
+    } else {
+      return null;
+    }
+  });
+
+  projects = projects.filter((e) => e !== null);
+
+  return projects;
+};
+
+const Webwork = () => {
   const [filter, setFilter] = useState([
     { tech: "React", isChecked: false, amount: countProjectsWith("React") },
     { tech: "GraphQL", isChecked: false, amount: countProjectsWith("GraphQL") },
@@ -41,34 +60,14 @@ const Webwork = () => {
   const filterHandler = (tech) => {
     let filterToToggle = filter.find((e) => e.tech === tech);
     filterToToggle.isChecked = !filterToToggle.isChecked;
-
+  
     const newFilter = filter.map((e) =>
       e.tech === filterToToggle.tech ? filterToToggle : e
     );
     setFilter(newFilter);
   };
 
-  const filterProjects = () => {
-    let projects = webworkInfo.map((project) => {
-      const techFoundArray = project.tools.map((tech) => {
-        const techFound = filter.find((filterOpt) => filterOpt.tech === tech);
-        const isTechFound = techFound && techFound.isChecked;
-        return !!isTechFound;
-      });
-
-      if (techFoundArray.includes(true)) {
-        return project;
-      } else {
-        return null;
-      }
-    });
-
-    projects = projects.filter((e) => e !== null);
-
-    return projects;
-  };
-
-  let filteredProjects = filterProjects();
+  let filteredProjects = filterProjects(filter);
 
   // if no filter is set, just render all projects
   if (filteredProjects.length === 0) {

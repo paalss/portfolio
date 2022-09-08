@@ -134,7 +134,7 @@ const pagesInfo = [
         page: <Extraoptical />,
         imgSrc: extraopticalImg,
         imgAlt: "Extraoptical logo",
-        tools: ["React", "GraphQL", "Magento2"],
+        tools: ["React", "GraphQL", "Magento2", "CSS"],
         thereAreMoreTools: true,
       },
       {
@@ -173,7 +173,7 @@ const pagesInfo = [
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
         imgAlt: "Video uploading app",
-        tools: ["PHP", "Lit", "HTML", "CSS", "JavaScript"],
+        tools: ["PHP", "Lit", "HTML", "CSS", "JavaScript", "MySQL"],
         thereAreMoreTools: true,
       },
       {

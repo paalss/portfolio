@@ -28,12 +28,10 @@ const Rankingapp = () => (
         repo: "https://github.com/paalss/Ranking-app",
       }}
       tools={[
-        "JavaScript",
         "TypeScript",
         "Jest",
         "PHP",
         "MySQL",
-        t`Relasjonsdatabase`,
         "HTML",
         "CSS",
         "Docker",

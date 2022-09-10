@@ -173,7 +173,7 @@ const pagesInfo = [
         page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
         imgAlt: "Video uploading app",
-        tools: ["PHP", "Lit", "HTML", "CSS", "JavaScript", "MySQL"],
+        tools: ["PHP", "Lit", "HTML", "CSS", "JavaScript", "MySQL", "Docker"],
         thereAreMoreTools: true,
       },
       {
@@ -210,8 +210,7 @@ const pagesInfo = [
         page: <Rankingapp />,
         imgSrc: rankingappImg,
         imgAlt: "Ranking app",
-        tools: ["TypeScript", "PHP", "MySQL", "HTML", "CSS"],
-        thereAreMoreTools: true,
+        tools: ["TypeScript", "PHP", "MySQL", "HTML", "CSS", "Jest", "Docker"]
       },
     ],
   },

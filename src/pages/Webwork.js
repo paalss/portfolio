@@ -51,11 +51,13 @@ const techsToFilterBy = [
   "Lit",
   "JavaScript",
   "TypeScript",
+  "Jest",
   "GraphQL",
   "MySQL",
   "PHP",
   "HTML",
   "CSS",
+  "Docker"
 ];
 
 const Webwork = () => {

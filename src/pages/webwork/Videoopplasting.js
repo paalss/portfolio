@@ -34,7 +34,7 @@ const Videoopplasting = () => (
     <WorkHeading
       heading={t`PHP-prosjekt`}
       timespan={t`2020 vår`}
-      tools={["Twig", "PHP", "MySQL", "Relasjonsdatabase", "HTML", "Docker"]}
+      tools={["Twig", "PHP", "MySQL", "HTML", "Docker"]}
     />
 
     <Trans>

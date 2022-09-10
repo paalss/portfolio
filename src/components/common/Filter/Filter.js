@@ -8,6 +8,8 @@ import cssLogo from "../../../images/tools/css-3.svg";
 import htmlLogo from "../../../images/tools/html-5.svg";
 import litLogo from "../../../images/tools/lit-icon.svg";
 import mysqlLogo from "../../../images/tools/mysql-icon.svg";
+import dockerLogo from "../../../images/tools/docker-icon.svg";
+import jestLogo from "../../../images/tools/jest.svg";
 
 import classes from "./Filter.module.css";
 
@@ -21,9 +23,11 @@ const findMatchingImage = (name) => {
     cssLogo,
     htmlLogo,
     litLogo,
-    mysqlLogo
+    mysqlLogo,
+    dockerLogo,
+    jestLogo
   ];
-  
+
   const lowerCaseName = name.toLowerCase();
   const image = images.find((e) => e.includes(lowerCaseName));
   return image;

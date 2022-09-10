@@ -49,7 +49,7 @@ const Checkbox = ({ name: techName, isChecked, onChange, amount }) => {
         hidden={true}
       />{" "}
       <label className={optionClass} htmlFor={techName}>
-        <img src={src} alt="" />
+        <img src={src} alt={techName} height={30} />
         {techName} ({amount})
       </label>
     </div>

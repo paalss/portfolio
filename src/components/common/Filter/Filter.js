@@ -25,7 +25,7 @@ const findMatchingImage = (name) => {
     litLogo,
     mysqlLogo,
     dockerLogo,
-    jestLogo
+    jestLogo,
   ];
 
   const lowerCaseName = name.toLowerCase();
@@ -40,25 +40,23 @@ const Checkbox = ({ name: techName, isChecked, onChange, amount }) => {
     : classes.option;
   return (
     <div>
-      <input
+      <button
         type="checkbox"
         id={techName}
-        name={techName}
+        className={optionClass}
         checked={isChecked}
-        onChange={onChange}
-        hidden={true}
-      />{" "}
-      <label className={optionClass} htmlFor={techName}>
+        onClick={() => onChange(techName)}
+      >
         <img src={src} alt={techName} height={30} />
         {techName} ({amount})
-      </label>
+      </button>
     </div>
   );
 };
 
 const Filter = ({ filter, onSelect }) => {
-  const selectHandler = (event) => {
-    onSelect(event.target.name);
+  const selectHandler = (techName) => {
+    onSelect(techName);
   };
 
   return (

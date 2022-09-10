@@ -16,6 +16,10 @@
   align-items: center;
   width: fit-content;
   column-gap: 10px;
+  border: none;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 .option.checked {

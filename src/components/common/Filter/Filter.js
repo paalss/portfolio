@@ -41,10 +41,8 @@ const Checkbox = ({ name: techName, isChecked, onChange, amount }) => {
   return (
     <div>
       <button
-        type="checkbox"
         id={techName}
         className={optionClass}
-        checked={isChecked}
         onClick={() => onChange(techName)}
       >
         <img src={src} alt={techName} height={30} />

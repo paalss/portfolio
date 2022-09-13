@@ -8,9 +8,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Flaviadeluce = () => (
-  <>
+  <Fragment>
     <img
       src={flaviaBannerImg}
       className="work-heading-img"
@@ -41,7 +42,7 @@ const Flaviadeluce = () => (
         caption={t`Utkast og skisser til web-banneret oppe til venstre. Jeg har desverre ikke tatt vare på et mer høyoppløselig bilde av det.`}
       />
     </div>
-  </>
+  </Fragment>
 );
 
 export default Flaviadeluce;

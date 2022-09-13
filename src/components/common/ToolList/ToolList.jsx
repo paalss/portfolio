@@ -1,6 +1,7 @@
 import classes from "./ToolList.module.css";
 
 import { t } from "@lingui/macro";
+import { Fragment } from "react";
 
 const ToolList = ({ tools, thereAreMoreTools = false, toolsText = false }) => (
   <ul className={classes.tools}>
@@ -19,7 +20,7 @@ const ToolList = ({ tools, thereAreMoreTools = false, toolsText = false }) => (
           <span className={classes.invisible}> &shy;</span>
         </li>
       ))}
-    {thereAreMoreTools && <>.&nbsp;.&nbsp;.</>}
+    {thereAreMoreTools && <Fragment>.&nbsp;.&nbsp;.</Fragment>}
   </ul>
 );
 

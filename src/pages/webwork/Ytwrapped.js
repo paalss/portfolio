@@ -7,9 +7,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 // import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Ytwrapped = () => (
-  <>
+  <Fragment>
     <img
       src={projImg}
       className="work-heading-img"
@@ -56,7 +57,7 @@ const Ytwrapped = () => (
         caption={t`_bilde2`}
       />
     </div> */}
-  </>
+  </Fragment>
 );
 
 export default Ytwrapped;

@@ -10,9 +10,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const MPOE = () => (
-  <>
+  <Fragment>
     <img
       src={mpoeCoverImg}
       className="work-heading-img"
@@ -56,7 +57,7 @@ const MPOE = () => (
         caption={t`Et poster jeg også lagde`}
       />
     </div>
-  </>
+  </Fragment>
 );
 
 export default MPOE;

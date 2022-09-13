@@ -10,9 +10,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Rankingapp = () => (
-  <>
+  <Fragment>
     <img
       src={rankingappGif}
       className="work-heading-img"
@@ -95,7 +96,7 @@ const Rankingapp = () => (
         caption={t`Få pene og oversiktlige lister`}
       />
     </div>
-  </>
+  </Fragment>
 );
 
 export default Rankingapp;

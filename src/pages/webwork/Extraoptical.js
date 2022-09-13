@@ -8,9 +8,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 import WorkHeading from "../../components/common/WorkHeading";
 import HT from "../../components/common/HtmlTag";
+import { Fragment } from "react";
 
 const Extraoptical = () => (
-  <>
+  <Fragment>
     <img
       src={frontpagePwaImg}
       className="work-heading-img"
@@ -30,7 +31,7 @@ const Extraoptical = () => (
         "GraphQL",
         "JSX",
         "CSS",
-        <>Magento&nbsp;PWA&nbsp;builder</>,
+        <Fragment>Magento&nbsp;PWA&nbsp;builder</Fragment>,
         "PHTML",
         "Linux",
       ]}
@@ -128,7 +129,7 @@ const Extraoptical = () => (
         </Trans>
       </li>
     </ul>
-  </>
+  </Fragment>
 );
 
 export default Extraoptical;

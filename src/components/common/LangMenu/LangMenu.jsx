@@ -6,6 +6,7 @@ import { useLingui } from "@lingui/react";
 // images
 import norwegianFlag from "../../../images/flags/4x3/no.svg";
 import usFlag from "../../../images/flags/4x3/us.svg";
+import { Fragment } from "react";
 
 const LangMenu = () => {
   const { i18n } = useLingui();
@@ -26,7 +27,7 @@ const LangMenu = () => {
   const activeClass = (lang) => activeLang === lang && classes.active;
 
   return (
-    <>
+    <Fragment>
       {activeLang === "no" && (
         <button
           onClick={() => toggleLang()}
@@ -50,7 +51,7 @@ const LangMenu = () => {
           Norsk
         </button>
       )}
-    </>
+    </Fragment>
   );
 };
 

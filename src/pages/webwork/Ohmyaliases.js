@@ -7,9 +7,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 // import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Ohmyaliases = () => (
-  <>
+  <Fragment>
     <img
       src={projImg}
       className="work-heading-img"
@@ -49,7 +50,7 @@ const Ohmyaliases = () => (
         caption={t`_bilde2`}
       />
     </div> */}
-  </>
+  </Fragment>
 );
 
 export default Ohmyaliases;

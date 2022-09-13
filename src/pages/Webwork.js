@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { webworkInfo } from "../pagesInfo";
 
 // components
@@ -87,7 +87,7 @@ const Webwork = () => {
   }
 
   return (
-    <>
+    <Fragment>
       <Filter filter={filter} onSelect={filterHandler} />
       <div className="squarelinks-flex">
         {filteredProjects.map((page) => (
@@ -106,7 +106,7 @@ const Webwork = () => {
           <Fa icon={faGithub} /> <Trans>Besøk min Github-profil</Trans>
         </a>
       </div>
-    </>
+    </Fragment>
   );
 };
 

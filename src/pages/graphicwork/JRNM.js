@@ -10,9 +10,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const JRNM = () => (
-  <>
+  <Fragment>
     <img
       src={JRNMImg}
       className="work-heading-img"
@@ -68,7 +69,7 @@ const JRNM = () => (
         caption={t`Plakat`}
       />
     </div>
-  </>
+  </Fragment>
 );
 
 export default JRNM;

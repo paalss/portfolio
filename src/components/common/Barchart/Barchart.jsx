@@ -2,9 +2,10 @@ import "./Barchart.css";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
+import { Fragment } from "react";
 
 const Barchart = ({ web, design }) => (
-  <>
+  <Fragment>
     <div className="skills">
       <ul className="lines">
         <li className="line l--0">
@@ -45,7 +46,7 @@ const Barchart = ({ web, design }) => (
         </div>
       </div>
     </div>
-  </>
+  </Fragment>
 );
 
 const createBars = (topics) =>

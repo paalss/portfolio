@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { flatPagesInfo as pagesInfo } from "./pagesInfo";
 import paalssInfo from "./jsonLdSchema";
@@ -15,7 +15,7 @@ import LoadingSpinner from "./components/layout/LoadingSpinner";
 import { Trans } from "@lingui/macro";
 
 const App = () => (
-  <>
+  <Fragment>
     {/* plasser JSON LD (med schema.org) inn i dokumentet: */}
     <script type="application/ld+json">{JSON.stringify(paalssInfo)}</script>
     <Router basename="portfolio">
@@ -60,7 +60,7 @@ const App = () => (
         </div>
       </Suspense>
     </Router>
-  </>
+  </Fragment>
 );
 
 export default App;

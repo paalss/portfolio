@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { Fragment, useCallback, useEffect, useState } from "react";
 import LightboxImage from "../../components/common/LightboxImage";
 import classes from "./Gallery.module.css";
 
@@ -55,7 +55,7 @@ const Gallery = () => {
 
   if (error) {
     content = (
-      <>
+      <Fragment>
         <p>{error}</p>
         <p>
           <Trans>
@@ -66,11 +66,11 @@ const Gallery = () => {
             .
           </Trans>
         </p>
-      </>
+      </Fragment>
     );
     if (error === "NetworkError when attempting to fetch resource.") {
       content = (
-        <>
+        <Fragment>
           <p>{error}</p>
           <p>
             <Trans>
@@ -88,7 +88,7 @@ const Gallery = () => {
               og de samme bildene der.
             </Trans>
           </p>
-        </>
+        </Fragment>
       );
     }
   }
@@ -102,14 +102,14 @@ const Gallery = () => {
   }
 
   return (
-    <>
+    <Fragment>
       <h2>{t`Maleri, tegninger og annet`}</h2>
       <p>{t`Bilder jeg har lagt ut på min Instagram`}</p>
 
       <div uk-lightbox="animation: slide">
         <div className={classes.galleryFlex}>{content}</div>
       </div>
-    </>
+    </Fragment>
   );
 };
 

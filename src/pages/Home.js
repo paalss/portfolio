@@ -8,9 +8,10 @@ import Certificate from "../components/common/Certificate";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
+import { Fragment } from "react";
 
 const Home = () => (
-  <>
+  <Fragment>
     <Trans>
       <h2>Kompetanse</h2>
       <div className="mb-50">
@@ -67,7 +68,7 @@ const Home = () => (
       <Trans>React sertifikat</Trans>
     </h2>
     <Certificate />
-  </>
+  </Fragment>
 );
 
 export default Home;

@@ -12,9 +12,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Artistbooking = () => (
-  <>
+  <Fragment>
     <WorkHeading
       heading="Artistbooking prototype"
       timespan={t`2019 høst`}
@@ -72,7 +73,7 @@ const Artistbooking = () => (
         caption={t`En desktopside`}
       />
     </div>
-  </>
+  </Fragment>
 );
 
 export default Artistbooking;

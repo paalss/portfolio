@@ -6,9 +6,10 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Fagstoff = () => (
-  <>
+  <Fragment>
     <img
       src={fagstoffImg}
       className="work-heading-img"
@@ -33,7 +34,7 @@ const Fagstoff = () => (
         02.11.16
       </Trans>
     </p>
-  </>
+  </Fragment>
 );
 
 export default Fagstoff;

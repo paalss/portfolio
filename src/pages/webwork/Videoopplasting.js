@@ -10,9 +10,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Videoopplasting = () => (
-  <>
+  <Fragment>
     <Trans>
       <p>
         Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle
@@ -151,7 +152,7 @@ const Videoopplasting = () => (
         caption={t`«Last opp video»-siden`}
       />
     </div>
-  </>
+  </Fragment>
 );
 
 export default Videoopplasting;

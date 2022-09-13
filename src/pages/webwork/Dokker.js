@@ -9,9 +9,10 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Dokker = () => (
-  <>
+  <Fragment>
     <img
       src={dokkerInterface}
       className="work-heading-img"
@@ -105,7 +106,7 @@ const Dokker = () => (
         <a href="https://learningmoment.tech/">Learning Moment</a>
       </li>
     </ul>
-  </>
+  </Fragment>
 );
 
 export default Dokker;

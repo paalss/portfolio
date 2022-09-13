@@ -6,10 +6,11 @@ import { t, Trans } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 // import Figure from "../../components/common/Figure";
 
 const Fakturanett = () => (
-  <>
+  <Fragment>
     <img
       src={webappImg}
       className="work-heading-img"
@@ -36,7 +37,7 @@ const Fakturanett = () => (
       {/* har lært litt regex */}
       {/* <Trans>Jobber med å optimalisere koden, fjerne unødvendige filer. Skal jobbe med å bygge nettsiden med Vue etter hvert</Trans> */}
     </p>
-  </>
+  </Fragment>
 );
 
 export default Fakturanett;

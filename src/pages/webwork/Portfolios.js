@@ -13,10 +13,11 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Portfolios = () => (
-  <>
-    <>
+  <Fragment>
+    <Fragment>
       <img
         src={pf5}
         className="work-heading-img"
@@ -35,7 +36,7 @@ const Portfolios = () => (
           "JavaScript",
           "JSX",
           "CSS",
-          <>React&#8209;lingui</>,
+          <Fragment>React&#8209;lingui</Fragment>,
           "Schema.org",
         ]}
       />
@@ -83,9 +84,9 @@ const Portfolios = () => (
           du se mine tidligere, som jeg aldri ble helt fornøyd med.
         </Trans>
       </p>
-    </>
+    </Fragment>
 
-    <>
+    <Fragment>
       <WorkHeading
         extraSpaceAbove={true}
         heading={t`Tidligere portefølje`}
@@ -122,9 +123,9 @@ const Portfolios = () => (
           caption={t`portefølje 4`}
         />
       </div>
-    </>
+    </Fragment>
 
-    <>
+    <Fragment>
       <WorkHeading
         extraSpaceAbove={true}
         heading={t`Innlevering i webkoding`}
@@ -145,9 +146,9 @@ const Portfolios = () => (
           caption={t`Portefølje 3`}
         />
       </div>
-    </>
+    </Fragment>
 
-    <>
+    <Fragment>
       <WorkHeading
         extraSpaceAbove={true}
         heading={t`Enda tidligere portefølje`}
@@ -172,9 +173,9 @@ const Portfolios = () => (
           caption={t`Fritidsprosjekt som aldri ble fullført`}
         />
       </div>
-    </>
+    </Fragment>
 
-    <>
+    <Fragment>
       <WorkHeading
         extraSpaceAbove={true}
         heading={t`Innleveringsoppgave`}
@@ -210,8 +211,8 @@ const Portfolios = () => (
           caption={t`Videreutvikling etter leveranse: nye farger og noe endret layout`}
         />
       </div>
-    </>
-  </>
+    </Fragment>
+  </Fragment>
 );
 
 export default Portfolios;

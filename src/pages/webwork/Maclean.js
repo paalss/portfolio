@@ -6,9 +6,10 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
+import { Fragment } from "react";
 
 const Maclean = () => (
-  <>
+  <Fragment>
     <img
       src={macleanImg}
       className="work-heading-img"
@@ -46,7 +47,7 @@ const Maclean = () => (
         ved photoshoppe et bilde av eget modellfly oppå noen T-skjorter.
       </p>
     </Trans>
-  </>
+  </Fragment>
 );
 
 export default Maclean;

@@ -6,10 +6,11 @@ import { faGlobe, faCode } from "@fortawesome/free-solid-svg-icons";
 
 // react lingui
 import { t } from "@lingui/macro";
+import { Fragment } from "react";
 
 const WorkLinks = ({ site = false, repo = false }) => {
   return (
-    <>
+    <Fragment>
       {site && (
         <a className={classes.link} href={site} rel="noopener noreferrer">
           <Fa icon={faGlobe} /> {t`Besøk siden`}
@@ -20,7 +21,7 @@ const WorkLinks = ({ site = false, repo = false }) => {
           <Fa icon={faCode} /> {t`Kildekode`}
         </a>
       )}
-    </>
+    </Fragment>
   );
 };
 

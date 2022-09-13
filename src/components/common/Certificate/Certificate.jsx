@@ -1,6 +1,6 @@
 import "./Certificate.css";
 import reactCertificate from "../../../images/certificates/react-certificate-small.webp";
-import { useEffect } from "react";
+import { Fragment, useEffect } from "react";
 
 import { t } from "@lingui/macro";
 
@@ -38,7 +38,7 @@ const Certificate = () => {
   }, []);
 
   return (
-    <>
+    <Fragment>
       {/* https://codepen.io/nelsonr/pen/WNQaZPb */}
       <div className="certificate-bg">
         <a
@@ -56,7 +56,7 @@ const Certificate = () => {
           />
         </a>
       </div>
-    </>
+    </Fragment>
   );
 };
 

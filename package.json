@@ -8,7 +8,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.0.0",
     "@fortawesome/free-solid-svg-icons": "^6.0.0",
     "@fortawesome/react-fontawesome": "latest",
-    "@lingui/react": "^3.13.0",
+    "@lingui/react": "^3.14.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -52,10 +52,13 @@
   },
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
-    "@lingui/cli": "^3.13.0",
-    "@lingui/macro": "^3.13.0",
+    "@babel/core": "^7.19.1",
+    "@lingui/cli": "^3.14.0",
+    "@lingui/macro": "^3.14.0",
     "@vitejs/plugin-react": "^2.0.1",
+    "babel-plugin-macros": "^3.1.0",
     "react-snap": "^1.23.0",
+    "typescript": "^4.8.3",
     "vite": "^3.0.7"
   }
 }

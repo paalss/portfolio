@@ -5,29 +5,29 @@ import App from "./App";
 // import reportWebVitals from "./reportWebVitals";
 
 // react lingui
-import { i18n } from "@lingui/core";
-import { I18nProvider } from "@lingui/react";
-import { messages as noMessages } from "./locales/no/messages";
-import { messages as enMessages } from "./locales/en/messages";
-import { no, en } from "make-plural/plurals";
+// import { i18n } from "@lingui/core";
+// import { I18nProvider } from "@lingui/react";
+// import { messages as noMessages } from "./locales/no/messages";
+// import { messages as enMessages } from "./locales/en/messages";
+// import { no, en } from "make-plural/plurals";
 
-i18n.loadLocaleData("no", { plurals: no });
-i18n.loadLocaleData("en", { plurals: en });
+// i18n.loadLocaleData("no", { plurals: no });
+// i18n.loadLocaleData("en", { plurals: en });
 
 const activeLang = localStorage.getItem("lang");
 
-i18n.load({
-  no: noMessages,
-  en: enMessages,
-});
+// i18n.load({
+//   no: noMessages,
+//   en: enMessages,
+// });
 
-i18n.activate(activeLang ? activeLang : "en");
-document.documentElement.lang = i18n.locale;
+// i18n.activate(activeLang ? activeLang : "en");
+// document.documentElement.lang = i18n.locale;
 
 const LinguiApp = () => (
-  <I18nProvider i18n={i18n}>
+  // <I18nProvider i18n={i18n}>
     <App />
-  </I18nProvider>
+  // </I18nProvider>
 );
 
 const rootElement = document.getElementById("root");

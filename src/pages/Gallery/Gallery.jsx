@@ -15,7 +15,7 @@ const Gallery = () => {
 
     try {
       const response = await fetch(
-        `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type&access_token=${process.env.REACT_APP_LONG_LIVED_ACCESS_TOKEN}`
+        `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type&access_token=${import.meta.env.VITE_LONG_LIVED_ACCESS_TOKEN}`
       );
       if (!response.ok) {
         throw new Error("Something went wrong!");

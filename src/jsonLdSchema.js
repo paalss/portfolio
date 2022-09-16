@@ -11,7 +11,7 @@ const paalssInfo = {
     postalCode: "7022",
     addressCountry: "Norway",
   },
-  worksFor: ["http://extraoptical.no/", "https://invoiceclub.com/"],
+  worksFor: ["http://extraoptical.no/"],
   alumniOf: "https://www.ntnu.no/gjovik",
   knowsLanguage: [
     {

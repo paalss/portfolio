@@ -98,7 +98,7 @@ const Extraoptical = () => (
     <WorkHeading
       extraSpaceAbove={true}
       heading={t`Extra Opticals eldre nettbutikk`}
-      timespan={t`2022 november–februar`}
+      timespan={t`2021 november – 2022 februar`}
       tools={["Magento2", "PHTML", "CSS"]}
     />
     <h4>

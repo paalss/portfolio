@@ -35,6 +35,10 @@ msgstr "2020 spring"
 msgid "2021 april–september"
 msgstr "2021 April–September"
 
+#: src/pages/webwork/Extraoptical.js:101
+msgid "2021 november – 2022 februar"
+msgstr "2021 November – 2022 February"
+
 #: src/pages/webwork/Extraoptical.js:24
 #: src/pages/webwork/Fakturanett.js:23
 msgid "2022 februar–august"
@@ -48,10 +52,6 @@ msgstr "2022 January–now"
 msgid "2022 mai–juni"
 msgstr "2022 May–June"
 
-#: src/pages/webwork/Extraoptical.js:101
-msgid "2022 november–februar"
-msgstr "2022 November–February"
-
 #: src/pages/-Template.js:22
 msgid "2022 tidsspann"
 msgstr "_"
@@ -60,7 +60,7 @@ msgstr "_"
 msgid "404 - Siden finnes ikke"
 msgstr "404 - Page not found"
 
-#: src/pages/webwork/Rankingapp.js:43
+#: src/pages/webwork/Rankingapp.js:41
 msgid "<0>Dette prosjektet er arkivert og jobbes ikke på lenger.</0><1>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Potensielle ideer jeg hadde for appen, var å la brukerne få dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</1><2>Motivasjon til prosjektet</2><3>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.</3><4>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</4><5>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</5><6>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</6>"
 msgstr "<0>This project is archieved and is no longer developed.</0>"
 
@@ -133,15 +133,15 @@ msgstr "Masters {tech} well"
 msgid "Beskrivelse"
 msgstr "Description"
 
-#: src/pages/webwork/Rankingapp.js:96
+#: src/pages/webwork/Rankingapp.js:94
 msgid "Beste bøker listeeksempel"
 msgstr "Best books list example"
 
-#: src/pages/webwork/Rankingapp.js:89
+#: src/pages/webwork/Rankingapp.js:87
 msgid "Beste metroidvanias listeeksempel"
 msgstr "Best metroidvanias list example"
 
-#: src/pages/Webwork.js:31
+#: src/pages/Webwork.js:106
 msgid "Besøk min Github-profil"
 msgstr "Visit my Github-profile"
 
@@ -157,12 +157,12 @@ msgstr "Contribution"
 msgid "Bilder jeg har lagt ut på min Instagram"
 msgstr "Images which I’ve published on my Instagram"
 
-#: src/pagesInfo.js:239
+#: src/pagesInfo.js:238
 msgid "Bok web-banner"
 msgstr "Book web-banner"
 
 #: src/pages/graphicwork/MPOE.js:24
-#: src/pagesInfo.js:249
+#: src/pagesInfo.js:248
 msgid "Bok-cover o.l."
 msgstr "Book-cover and similar"
 
@@ -293,7 +293,7 @@ msgstr "To use this app it is assumed that you watched the videos while logged i
 #: src/pagesInfo.js:156
 #: src/pagesInfo.js:185
 #: src/pagesInfo.js:209
-#: src/pagesInfo.js:272
+#: src/pagesInfo.js:271
 msgid "Fritid"
 msgstr "Spare time"
 
@@ -301,7 +301,7 @@ msgstr "Spare time"
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Spare-time project which I never finished"
 
-#: src/pages/webwork/Rankingapp.js:97
+#: src/pages/webwork/Rankingapp.js:95
 msgid "Få pene og oversiktlige lister"
 msgstr "Get nice and pretty lists"
 
@@ -314,7 +314,7 @@ msgid "Ganske god på {tech}"
 msgstr "Very good at {tech}"
 
 #: src/pages/Home.js:56
-#: src/pagesInfo.js:223
+#: src/pagesInfo.js:222
 msgid "Grafisk"
 msgstr "Graphics"
 
@@ -414,11 +414,11 @@ msgstr "Source code"
 msgid "Kode"
 msgstr "Code"
 
-#: src/pagesInfo.js:271
+#: src/pagesInfo.js:270
 msgid "Kunst"
 msgstr "Art"
 
-#: src/pages/webwork/Rankingapp.js:83
+#: src/pages/webwork/Rankingapp.js:81
 msgid "Lag egne lister"
 msgstr "Create your own lists"
 
@@ -450,11 +450,11 @@ msgstr "Logo that was used"
 msgid "Maleri, tegninger og annet"
 msgstr "Paintings, drawings and other"
 
-#: src/pages/Home.js:28
+#: src/pages/Home.js:29
 msgid "MySQL & relasjonsdatabaser"
 msgstr "MySQL & relational databases"
 
-#: src/pages/Home.js:31
+#: src/pages/Home.js:32
 msgid "MySQL & relasjons­databaser"
 msgstr "MySQL & relational databases"
 
@@ -479,7 +479,7 @@ msgstr "Websites"
 msgid "Noen utvalgte bilder"
 msgstr "Some selected images"
 
-#: src/pages/webwork/Rankingapp.js:82
+#: src/pages/webwork/Rankingapp.js:80
 msgid "Oversikt over lister eksempel"
 msgstr "Overview of lists example"
 
@@ -504,7 +504,7 @@ msgid "Porteføljen slik den så ut 9. desember 2020"
 msgstr "The portfolio as of 9. December 2020"
 
 #: src/pagesInfo.js:145
-#: src/pagesInfo.js:260
+#: src/pagesInfo.js:259
 msgid "Praksis"
 msgstr "Internship"
 
@@ -521,20 +521,20 @@ msgid "React sertifikat"
 msgstr "React certificate"
 
 #: src/pages/webwork/Rankingapp.js:36
-msgid "Relasjonsdatabase"
-msgstr "Relational database"
+#~ msgid "Relasjonsdatabase"
+#~ msgstr "Relational database"
 
 #: src/pages/webwork/Extraoptical.js:115
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 
-#: src/pages/webwork/Rankingapp.js:90
+#: src/pages/webwork/Rankingapp.js:88
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Insert your own elements, customize to your needs"
 
 #: src/pagesInfo.js:197
-#: src/pagesInfo.js:240
-#: src/pagesInfo.js:250
+#: src/pagesInfo.js:239
+#: src/pagesInfo.js:249
 msgid "Skole"
 msgstr "School"
 
@@ -544,7 +544,7 @@ msgid "Startside"
 msgstr "Front page"
 
 #: src/pagesInfo.js:167
-#: src/pagesInfo.js:230
+#: src/pagesInfo.js:229
 msgid "Studier"
 msgstr "Studies"
 

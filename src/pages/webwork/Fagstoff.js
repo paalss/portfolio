@@ -7,7 +7,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Fagstoff = () => (
   <>
     <img
-      src="images/webwork/fagstoff/fagstoff.webp"
+      src="/images/webwork/fagstoff/fagstoff.webp"
       className="work-heading-img"
       width={1893}
       height={543}

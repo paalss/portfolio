@@ -7,7 +7,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Maclean = () => (
   <>
     <img
-      src="images/webwork/maclean/alistairmaclean-full.webp"
+      src="/images/webwork/maclean/alistairmaclean-full.webp"
       className="work-heading-img"
       width={837}
       height={556}

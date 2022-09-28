@@ -8,7 +8,7 @@ import HT from "../../components/common/HtmlTag";
 const Extraoptical = () => (
   <>
     <img
-      src="images/webwork/extraoptical/sider/front-page-pwa.png"
+      src="/images/webwork/extraoptical/sider/front-page-pwa.png"
       className="work-heading-img"
       width={1504}
       height={909}

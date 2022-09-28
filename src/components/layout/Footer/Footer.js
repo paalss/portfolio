@@ -55,7 +55,7 @@ const Footer = () => (
             rel="noopener noreferrer"
           >
             <span className={classes.icon}>
-              <Image src="images/scratchlogo-transparent-white-small.webp" alt="Scratch logo" />
+              <Image src="/images/scratchlogo-transparent-white-small.webp" width={10} height={10} alt="Scratch logo" />
             </span>
             <span className={classes.linkText}>Scratch (pa0110)</span>
           </a>

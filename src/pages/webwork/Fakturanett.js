@@ -8,7 +8,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Fakturanett = () => (
   <>
     <img
-      src="images/webwork/fakturanett/page.avif"
+      src="/images/webwork/fakturanett/page.avif"
       className="work-heading-img"
       width={1294}
       height={665}

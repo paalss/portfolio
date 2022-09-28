@@ -8,7 +8,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const JRNM = () => (
   <>
     <img
-      src="images/graphicwork/jr-nm-ski/IMG_2413-min.webp"
+      src="/images/graphicwork/jr-nm-ski/IMG_2413-min.webp"
       className="work-heading-img"
       width={5184}
       height={3456}
@@ -50,14 +50,14 @@ const JRNM = () => (
     </Trans>
     <div uk-lightbox="animation: slide">
       <Figure
-        imgSrc="images/graphicwork/jr-nm-ski/JrNM-logo-web.webp"
+        imgSrc="/images/graphicwork/jr-nm-ski/JrNM-logo-web.webp"
         imgWidth={640}
         imgHeight={480}
         imgAlt={t`Logo for Junior NM på ski 2015`}
         caption={t`Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013`}
       />
       <Figure
-        imgSrc="images/graphicwork/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp"
+        imgSrc="/images/graphicwork/jr-nm-ski/velkommen-til-Jr-NM-Jervskogen.webp"
         imgAlt={t`plakat med logo`}
         caption={t`Plakat`}
       />

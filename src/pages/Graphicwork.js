@@ -1,3 +1,4 @@
+import React from 'react';
 import SquareLink from "../components/common/SquareLink";
 import { graphicworkInfo } from "../pagesInfo";
 

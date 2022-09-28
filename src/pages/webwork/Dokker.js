@@ -1,3 +1,5 @@
+import React from 'react';
+
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -8,7 +10,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Dokker = () => (
   <>
     <img
-      src="images/webwork/dokker/dashboard/latest-document-assignment.webp"
+      src="/images/webwork/dokker/dashboard/latest-document-assignment.webp"
       className="work-heading-img"
       width={2880}
       height={1534}
@@ -49,14 +51,14 @@ const Dokker = () => (
     </Trans>
     <div uk-lightbox="animation: slide">
       <Figure
-        imgSrc="images/webwork/dokker/follow-up-card/followupcard.webp"
+        imgSrc="/images/webwork/dokker/follow-up-card/followupcard.webp"
         imgWidth={694}
         imgHeight={159}
         imgAlt="FollowUpCard"
         caption={t`Et kort for keep-up-delen av dashboard`}
       />
       <Figure
-        imgSrc="images/webwork/dokker/news-card/newscards.webp"
+        imgSrc="/images/webwork/dokker/news-card/newscards.webp"
         imgWidth={693}
         imgHeight={525}
         imgAlt="NewsCard"

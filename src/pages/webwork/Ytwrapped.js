@@ -7,7 +7,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Ytwrapped = () => (
   <>
     <img
-      src="images/webwork/yt-wrapped/img.avif"
+      src="/images/webwork/yt-wrapped/img.avif"
       className="work-heading-img"
       // width={0}
       // height={0}

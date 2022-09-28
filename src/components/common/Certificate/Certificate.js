@@ -48,7 +48,7 @@ const Certificate = () => {
           title={t`Åpne Udemy siden for dette sertifikatet`}
         >
           <Image
-            src="images/certificates/react-certificate-small.webp"
+            src="/images/certificates/react-certificate-small.webp"
             width={1600}
             height={1190}
             alt="Certificate of completion. React - The Complete Guide (incl Hooks, React Router, Redux)"

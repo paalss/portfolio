@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "next/link";
+import NavLink from "next/link";
 import pagesInfo from "../../../pagesInfo";
 import LangMenu from "../../common/LangMenu";
 // import DarkmodeSwitch from "../../common/DarkmodeSwitch";
@@ -18,7 +18,7 @@ const Nav = () => (
               activeClassName={classes.selected}
               exact={page.exact ? page.exactActiveClassName : false}
             >
-              {page.title}
+              <a>{page.title}</a>
             </NavLink>
             {page.subpages && (
               <ul className="website-links">
@@ -28,7 +28,7 @@ const Nav = () => (
                       href={subpage.link}
                       activeClassName={classes.selected}
                     >
-                      {subpage.title}
+                      <a>{subpage.title}</a>
                     </NavLink>
                   </li>
                 ))}

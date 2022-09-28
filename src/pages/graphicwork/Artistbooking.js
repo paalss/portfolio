@@ -25,35 +25,35 @@ const Artistbooking = () => (
     <h3>Noen utvalgte bilder</h3>
     <div uk-lightbox="animation: slide" className="flex wrap">
       <Figure
-        imgSrc="images/graphicwork/artistbooking/Android-Mobile–1.webp"
+        imgSrc="/images/graphicwork/artistbooking/Android-Mobile–1.webp"
         imgWidth={360}
         imgHeight={646}
         imgAlt={t`Startside`}
         caption={t`Startside`}
       />
       <Figure
-        imgSrc="images/graphicwork/artistbooking/Android-Mobile–2.webp"
+        imgSrc="/images/graphicwork/artistbooking/Android-Mobile–2.webp"
         imgWidth={360}
         imgHeight={640}
         imgAlt={t`Søkefelt`}
         caption={t`Søkefelt`}
       />
       <Figure
-        imgSrc="images/graphicwork/artistbooking/Android-Mobile–3.webp"
+        imgSrc="/images/graphicwork/artistbooking/Android-Mobile–3.webp"
         imgWidth={360}
         imgHeight={864}
         imgAlt={t`Søkeresultater`}
         caption={t`Søkeresultater`}
       />
       <Figure
-        imgSrc="images/graphicwork/artistbooking/Android-Mobile–4.webp"
+        imgSrc="/images/graphicwork/artistbooking/Android-Mobile–4.webp"
         imgWidth={360}
         imgHeight={1027}
         imgAlt={t`Artistprofil`}
         caption={t`Artistprofil`}
       />
       <Figure
-        imgSrc="images/graphicwork/artistbooking/Web-1280–4.webp"
+        imgSrc="/images/graphicwork/artistbooking/Web-1280–4.webp"
         imgWidth={1280}
         imgHeight={848}
         imgAlt={t`En desktopside`}

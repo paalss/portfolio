@@ -1,7 +1,8 @@
+import React from 'react';
 import Head from "next/head";
-import OtherworkLinks from "./Otherwork";
-import WebworkLinks from "./Webwork";
-import GraphicworkLinks from "./Graphicwork";
+import OtherworkLinks from "./otherwork";
+import WebworkLinks from "./webwork";
+import GraphicworkLinks from "./graphicwork";
 
 // components
 import Barchart from "../components/common/Barchart";

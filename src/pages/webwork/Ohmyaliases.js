@@ -7,7 +7,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Ohmyaliases = () => (
   <>
     <img
-      src="images/webwork/ohmyaliases/img.avif"
+      src="/images/webwork/ohmyaliases/img.avif"
       className="work-heading-img"
       // width={0}
       // height={0}

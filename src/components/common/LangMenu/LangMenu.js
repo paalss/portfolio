@@ -31,7 +31,7 @@ const LangMenu = () => {
           onClick={() => toggleLang()}
           className={classes.button + " " + activeClass("en")}
         >
-          <img className={classes.flag} src="images/flags/4x3/us.svg" alt="United states flag" />
+          <Image className={classes.flag} src="/images/flags/4x3/us.svg" width={10} height={10} alt="United states flag" />
           English
         </button>
       )}
@@ -43,8 +43,10 @@ const LangMenu = () => {
         >
           <Image
             className={classes.flag}
-            src="images/flags/4x3/no.svg"
+            src="/images/flags/4x3/no.svg"
             alt="Norwegian flag"
+            width={10}
+            height={10}
           />
           Norsk
         </button>

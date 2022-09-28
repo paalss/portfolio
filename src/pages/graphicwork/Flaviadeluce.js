@@ -8,7 +8,7 @@ import WorkHeading from "../../components/common/WorkHeading";
 const Flaviadeluce = () => (
   <>
     <img
-      src="images/graphicwork/flaviadeluce/flavia.webp"
+      src="/images/graphicwork/flaviadeluce/flavia.webp"
       className="work-heading-img"
       width={0}
       height={0}
@@ -30,7 +30,7 @@ const Flaviadeluce = () => (
     </p>
     <div uk-lightbox="animation: slide" className="flex wrap">
       <Figure
-        imgSrc="images/graphicwork/flaviadeluce/flavia-cropped.webp"
+        imgSrc="/images/graphicwork/flaviadeluce/flavia-cropped.webp"
         imgWidth={1024}
         imgHeight={725}
         imgAlt={t`flere bilder med flavia de luce motiver`}

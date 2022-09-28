@@ -8,10 +8,10 @@ import { Trans } from "@lingui/macro";
 // ---------------
 
 // home
-const Home = lazy(() => import("./pages/Index"));
+const Home = lazy(() => import("./pages"));
 
 // webwork
-const Webwork = lazy(() => import("./pages/Webwork"));
+const Webwork = lazy(() => import("./pages/webwork"));
 const Ohmyaliases = lazy(()=> import("./pages/webwork/Ohmyaliases"));
 const Ytwrapped = lazy(()=> import("./pages/webwork/Ytwrapped"));
 const Fakturanett = lazy(() => import("./pages/webwork/Fakturanett"));
@@ -24,7 +24,7 @@ const Maclean = lazy(() => import("./pages/webwork/Maclean"));
 const Fagstoff = lazy(() => import("./pages/webwork/Fagstoff"));
 
 // graphicwork
-const Graphicwork = lazy(() => import("./pages/Graphicwork"));
+const Graphicwork = lazy(() => import("./pages/graphicwork"));
 const Artistbooking = lazy(() => import("./pages/graphicwork/Artistbooking"));
 const MPOE = lazy(() => import("./pages/graphicwork/MPOE"));
 const Flaviadeluce = lazy(() => import("./pages/graphicwork/Flaviadeluce"));
@@ -49,7 +49,7 @@ const pagesInfo = [
           </span>
         </div>
         <div className="circle-frame">
-          <Image src="images/cvphoto2.webp" alt="Pål Stakvik" />
+          <Image src="/images/cvphoto2.webp" alt="Pål Stakvik" />
         </div>
       </div>
     ),

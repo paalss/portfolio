@@ -1,4 +1,4 @@
-import { Link } from "next/link";
+import Link from "next/link";
 import ToolList from "../ToolList/ToolList";
 import React from "react";
 import classes from "./SquareLink.module.css";

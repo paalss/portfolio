@@ -4,6 +4,17 @@ https://paalss.github.io/portfolio/
 
 ## Utvikling
 
+```json
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "extract": "lingui extract",
+    "clean": "lingui extract --clean",
+    "compile": "lingui compile"
+  },
+```
+
 **Bruk Git bash for følgende. WSL funker ikke til predeploy (react-snap).**
 
 **Installer dependencies**

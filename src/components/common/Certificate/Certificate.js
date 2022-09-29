@@ -44,10 +44,10 @@ const Certificate = () => {
           href="https://www.udemy.com/certificate/UC-0f5eb1d1-16ce-43f4-87ef-f0c9b09a9e04/"
           target="_blank"
           rel="noopener noreferrer"
-          className="card3d"
+          className={classes.card3d}
           title={t`Åpne Udemy siden for dette sertifikatet`}
         >
-          <Image
+          <img
             src="/images/certificates/react-certificate-small.webp"
             width={1600}
             height={1190}

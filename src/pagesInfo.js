@@ -49,7 +49,7 @@ const pagesInfo = [
           </span>
         </div>
         <div className="circle-frame">
-          <Image src="/images/cvphoto2.webp" alt="Pål Stakvik" />
+          <Image src="/images/cvphoto2.webp" alt="Pål Stakvik" width={200} height={200} />
         </div>
       </div>
     ),

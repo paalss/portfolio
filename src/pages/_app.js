@@ -31,11 +31,7 @@ function App({ Component, pageProps }) {
   return (
     <I18nProvider i18n={i18n}>
       <div className="oldbody">
-        <Header>
-          <div className="container">
-            <h1>PålS</h1>
-          </div>
-        </Header>
+        <Header/>
         <Nav />
         <Main>
           <div className="container">

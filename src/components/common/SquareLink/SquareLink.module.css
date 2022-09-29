@@ -1,9 +1,13 @@
 .root {
   width: 90%;
   margin: 30px 0;
+  transition: 0.2s;
+}
+
+.root a {
   color: #000;
   text-decoration: none;
-  transition: 0.2s;
+
 }
 .root .frame {
   height: 170px;
@@ -27,6 +31,7 @@ div.desktopEmptySpace {
   height: 0;
 }
 .root h3 {
+  /* color: #000; */
   margin: 20px 0 0 0;
 }
 .root h4 {

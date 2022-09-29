@@ -16,25 +16,25 @@
   position: absolute;
   background-color: #d1d1d1;
 }
-.line.l--0 {
+.line.l__0 {
   left: 0;
 }
-.line.l--25 {
+.line.l__25 {
   left: 25%;
 }
-.line.l--33 {
+.line.l__33 {
   left: 33%;
 }
-.line.l--50 {
+.line.l__50 {
   left: 50%;
 }
-.line.l--66 {
+.line.l__66 {
   left: 66%;
 }
-.line.l--75 {
+.line.l__75 {
   left: 75%;
 }
-.line.l--100 {
+.line.l__100 {
   left: calc(100% - 1px);
 }
 .line__label {
@@ -61,7 +61,7 @@
   list-style-type: none;
   margin-bottom: 4px;
 }
-.chart--horiz {
+.chart__horiz {
   overflow: hidden;
   padding-left: 80px;
 }
@@ -82,31 +82,31 @@
   -webkit-animation: anim-lightspeed-in 1s ease forwards;
   animation: anim-lightspeed-in 1s ease forwards;
 }
-.chart--dev .chart__bar:nth-of-type(4) {
+.chart__dev .chart__bar:nth-of-type(4) {
   -webkit-animation-delay: 1.3s;
   animation-delay: 1.3s;
 }
-.chart--dev .chart__bar:nth-of-type(3) {
+.chart__dev .chart__bar:nth-of-type(3) {
   -webkit-animation-delay: 1.1s;
   animation-delay: 1.1s;
 }
-.chart--dev .chart__bar:nth-of-type(2) {
+.chart__dev .chart__bar:nth-of-type(2) {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
 }
-.chart--dev .chart__bar:first-of-type {
+.chart__dev .chart__bar:first-of-type {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
-.chart--design .chart__bar:nth-of-type(3) {
+.chart__design .chart__bar:nth-of-type(3) {
   -webkit-animation-delay: 1.1s;
   animation-delay: 1.1s;
 }
-.chart--design .chart__bar:nth-of-type(2) {
+.chart__design .chart__bar:nth-of-type(2) {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
 }
-.chart--design .chart__bar:first-of-type {
+.chart__design .chart__bar:first-of-type {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
@@ -151,7 +151,7 @@ li:nth-child(odd) .chart__label {
     opacity: 1;
   }
 }
-.flex-li {
+.flex_li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,7 +182,7 @@ li:nth-child(odd) .chart__label {
   .lines {
     margin-left: 100px;
   }
-  .chart--horiz {
+  .chart__horiz {
     padding-left: 100px;
   }
   .line__label {
@@ -201,7 +201,7 @@ li:nth-child(odd) .chart__label {
   .skills {
     height: 490px;
   }
-  .chart--horiz {
+  .chart__horiz {
     padding-left: 200px;
   }
   .chart__label {

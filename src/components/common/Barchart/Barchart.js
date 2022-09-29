@@ -1,48 +1,48 @@
 import React from "react";
-import classes from "./Barchart.module.css";
+import c from "./Barchart.module.css";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
 const Barchart = ({ web, design }) => (
   <>
-    <div className={classes.skills}>
-      <ul className="lines">
-        <li className="line l--0">
-          <span className="line__label title">
+    <div className={c.skills}>
+      <ul className={c.lines}>
+        <li className={c.line + " " + c.l__0}>
+          <span className={c.line__label + " " + c.title}>
             <Trans>Erfaring</Trans>:
           </span>
         </li>
-        <li className="line l--33">
-          <span className="line__label">
+        <li className={c.line + " " + c.l__33}>
+          <span className={c.line__label}>
             <Trans>Grunn&shy;leggende</Trans>
           </span>
         </li>
-        <li className="line l--66">
-          <span className="line__label">
+        <li className={c.line + " " + c.l__66}>
+          <span className={c.line__label}>
             <Trans>Behersker godt</Trans>
           </span>
         </li>
-        <li className="line l--100">
-          <span className="line__label">
+        <li className={c.line + " " + c.l__100}>
+          <span className={c.line__label}>
             <Trans>Ganske god på</Trans>
           </span>
         </li>
       </ul>
 
-      <div className="charts">
-        <div className="chart chart--dev">
-          <h3 className="chart__title">
+      <div className={c.charts}>
+        <div className={c.chart + " " + c.chart__dev}>
+          <h3 className={c.chart__title}>
             <Trans>Webutvikling</Trans>
           </h3>
-          <ul className="chart--horiz">{web && createBars(web)}</ul>
+          <ul className={c.chart__horiz}>{web && createBars(web)}</ul>
         </div>
 
-        <div className="chart chart--design">
-          <h3 className="chart__title">
+        <div className={c.chart + " " + c.chart__design}>
+          <h3 className={c.chart__title}>
             <Trans>Grafisk design</Trans>
           </h3>
-          <ul className="chart--horiz">{design && createBars(design)}</ul>
+          <ul className={c.chart__horiz}>{design && createBars(design)}</ul>
         </div>
       </div>
     </div>
@@ -73,13 +73,13 @@ const createBars = (topics) =>
     }
     return (
       <li title={title} key={tech}>
-        <div className="flex-li">
-          <span className="chart__label">
+        <div className={c.flex_li}>
+          <span className={c.chart__label}>
             {/* hvis topic har en HTML-entities versjon av tech, så bruk det.
             Relasjonsdatabaser er et ord som trenger å brytes opp */}
             {techHtmlEntities ? techHtmlEntities : tech}
           </span>
-          <div className="chart__bar" style={{ width: width }}></div>
+          <div className={c.chart__bar} style={{ width: width }}></div>
         </div>
       </li>
     );

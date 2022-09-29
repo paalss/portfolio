@@ -27,21 +27,23 @@ function App({ Component, pageProps }) {
     i18n.activate(storedLang ? storedLang : "en");
     document.documentElement.lang = i18n.locale;
   }, []);
-  
+
   return (
     <I18nProvider i18n={i18n}>
-      <Header>
-        <div className="container">
-          <h1>PålS</h1>
-        </div>
-      </Header>
-      <Nav />
-      <Main>
-        <div className="container">
-      <Component {...pageProps} />
+      <div className="oldbody">
+        <Header>
+          <div className="container">
+            <h1>PålS</h1>
+          </div>
+        </Header>
+        <Nav />
+        <Main>
+          <div className="container">
+            <Component {...pageProps} />
+          </div>
+        </Main>
+        <Footer />
       </div>
-      </Main>
-      <Footer />
     </I18nProvider>
   );
 }

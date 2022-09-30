@@ -16,7 +16,6 @@ const Index = () => (
     <Head>
       <title>Pål Stakvik | Web dev</title>
     </Head>
-    <Certificate />
 
     <Trans>
       <h2>Kompetanse</h2>
@@ -73,6 +72,8 @@ const Index = () => (
     <h2 className="mb-50">
       <Trans>React sertifikat</Trans>
     </h2>
+
+    <Certificate />
   </>
 );
 

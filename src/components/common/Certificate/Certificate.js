@@ -44,7 +44,7 @@ const Certificate = () => {
           href="https://www.udemy.com/certificate/UC-0f5eb1d1-16ce-43f4-87ef-f0c9b09a9e04/"
           target="_blank"
           rel="noopener noreferrer"
-          className={classes.card3d}
+          className="card3d"
           title={t`Åpne Udemy siden for dette sertifikatet`}
         >
           <img

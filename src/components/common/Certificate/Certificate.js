@@ -47,7 +47,7 @@ const Certificate = () => {
           className="card3d"
           title={t`Åpne Udemy siden for dette sertifikatet`}
         >
-          <Image
+          <img
             src="/images/certificates/react-certificate-small.webp"
             width={1600}
             height={1190}

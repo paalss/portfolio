@@ -1,4 +1,5 @@
 .iconAndText {
+  width: 100px;
   display: flex;
   column-gap: 5px;
 }

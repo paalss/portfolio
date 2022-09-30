@@ -21,36 +21,26 @@ const LangMenu = () => {
     localStorage.setItem("lang", lang);
   };
 
-  // returner active.class hvis knappen er aktiv
-  const activeClass = (lang) => activeLang === lang && classes.active;
+  const flagSrc =
+    activeLang === "no" ? "/images/flags/US.svg" : "/images/flags/NO.svg";
 
   return (
     <>
-      {activeLang === "no" && (
-        <button
-          onClick={() => toggleLang()}
-          className={classes.button + " " + activeClass("en")}
-        >
-          <Image className={classes.flag} src="/images/flags/4x3/us.svg" width={10} height={10} alt="United states flag" />
-          English
-        </button>
-      )}
-
-      {activeLang === "en" && (
-        <button
-          onClick={() => toggleLang()}
-          className={classes.button + " " + activeClass("no")}
-        >
-          <Image
-            className={classes.flag}
-            src="/images/flags/4x3/no.svg"
-            alt="Norwegian flag"
-            width={10}
-            height={10}
-          />
-          Norsk
-        </button>
-      )}
+      <button
+        onClick={() => toggleLang()}
+      >
+        <div className={classes.iconAndText}>
+          <div>
+            <Image
+              src={flagSrc}
+              width={16}
+              height={12}
+              alt="United states flag"
+            />
+          </div>
+          {activeLang === "no" ? "English" : "Norsk"}
+        </div>
+      </button>
     </>
   );
 };

@@ -10,13 +10,12 @@ import classes from "./Footer.module.css";
 import Image from "next/image";
 
 // react lingui
-// import { t } from "@lingui/macro";
+import { t } from "@lingui/macro";
 
 const Footer = () => (
   <footer className={classes.footer}>
     <div className="container">
-      <b>Du finner meg på:</b>
-      {/* <b>{t`Du finner meg på:`}</b> */}
+      <b>{t`Du finner meg på:`}</b>
       <ul>
         <li>
           <a
@@ -55,7 +54,12 @@ const Footer = () => (
             rel="noopener noreferrer"
           >
             <span className={classes.icon}>
-              <Image src="/images/scratchlogo-transparent-white-small.webp" width={10} height={10} alt="Scratch logo" />
+              <Image
+                src="/images/scratchlogo-transparent-white-small.webp"
+                width={20}
+                height={20}
+                alt="Scratch logo"
+              />
             </span>
             <span className={classes.linkText}>Scratch (pa0110)</span>
           </a>
@@ -72,8 +76,7 @@ const Footer = () => (
         </li>
         <li>
           <Fa className={classes.icon} icon={faLocationDot} />
-          Bosatt i Trondheim
-          {/* {t`Bosatt i Trondheim`} */}
+          {t`Bosatt i Trondheim`}
         </li>
       </ul>
     </div>

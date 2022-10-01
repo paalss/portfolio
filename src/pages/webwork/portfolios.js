@@ -189,14 +189,14 @@ const Portfolios = () => (
       </p>
       <div uk-lightbox="animation: slide">
         <Figure
-          imgSrc="/images/webwork/portfolios/pf1-2.webp"
+          imgSrc="/images/webwork/portfolios/pf1-1.webp"
           imgWidth={723}
           imgHeight={437}
           imgAlt={t`portefølje 1 versjon 1`}
           caption={t`Innleveringsoppgave på medier og kommunikasjon`}
         />
         <Figure
-          imgSrc="/images/webwork/portfolios/pf1-1.webp"
+          imgSrc="/images/webwork/portfolios/pf1-2.webp"
           imgWidth={1280}
           imgHeight={622}
           imgAlt={t`portefølje 1 versjon 2`}

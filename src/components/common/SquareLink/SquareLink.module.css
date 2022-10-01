@@ -65,14 +65,14 @@ div.desktopEmptySpace {
   .root,
   div.desktopEmptySpace {
     width: 170px;
-    margin: 6px 2%;
+    margin: 30px 2%;
   }
 }
 @media only screen and (min-width: 1500px) {
   .root,
   div.desktopEmptySpace {
     width: 190px;
-    margin: 6px 3%;
+    margin: 30px 3%;
   }
   .root .frame {
     height: 200px;

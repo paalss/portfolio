@@ -4,8 +4,8 @@ import React from 'react';
 import { Trans, t } from "@lingui/macro";
 
 // components
-import Figure from "../../components/common/Figure";
-import WorkHeading from "../components/common/WorkHeading";
+// import Figure from "../../components/common/Figure";
+// import WorkHeading from "../components/common/WorkHeading";
 
 const Template = () => (
   <>
@@ -16,7 +16,7 @@ const Template = () => (
       height={0}
       alt={t`_bilde`}
     />
-    <WorkHeading
+    {/* <WorkHeading
       heading={t`h1-tittel eller oppdelt`}
       timespan={t`2022 tidsspann`}
       siteInfo={{
@@ -24,12 +24,12 @@ const Template = () => (
         repo: "",
       }}
       tools={[]}
-    />
+    /> */}
     <p>
       <Trans>Beskrivelse</Trans>
     </p>
     <div uk-lightbox="animation: slide" className="flex wrap">
-      <Figure
+      {/* <Figure
         imgSrc={projImg}
         imgWidth={0}
         imgHeight={0}
@@ -42,7 +42,7 @@ const Template = () => (
         imgHeight={0}
         imgAlt={t`_bilde2`}
         caption={t`_bilde2`}
-      />
+      /> */}
     </div>
   </>
 );

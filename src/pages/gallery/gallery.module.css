@@ -1,0 +1,23 @@
+/*
+Bra galleri kode:
+Adaptive Photo Layout with Flexbox | CSS-Tricks
+https://css-tricks.com/adaptive-photo-layout-with-flexbox/ 
+https://codepen.io/maxvoltar/pen/eYOPdMG?editors=0100
+
+ekvalenter
+.flex = ul
+.list-item = li
+*/
+
+.galleryFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+

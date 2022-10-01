@@ -7,27 +7,32 @@ import LangMenu from "../../common/LangMenu";
 
 import classes from "./Nav.module.css";
 import dynamic from "next/dynamic";
+import { useRouter } from "next/router";
 
 const Nav = () => {
-  const DarkmodeSwitch = useMemo(()=>{
+  const router = useRouter();
+  const { pathname } = router;
+
+  const DarkmodeSwitch = useMemo(() => {
     if (typeof window !== "undefined") {
       return dynamic(() => import("../../common/DarkmodeSwitch"));
     } else {
-      return undefined
+      return undefined;
     }
-    
-  }, [window])
-  
+  }, [window]);
+
   return (
     <nav className={classes.nav}>
       <div className="container">
         <ul className={classes.ul}>
           {/* linker til subpages */}
           {pagesInfo.map((page) => (
-            <li key={page.id}>
+            <li
+              key={page.id}
+              className={pathname === page.link ? classes.selected : ""}
+            >
               <NavLink
                 href={page.link}
-                activeClassName={classes.selected}
                 exact={page.exact ? page.exactActiveClassName : false}
               >
                 <a>{page.title}</a>
@@ -38,7 +43,6 @@ const Nav = () => {
                     <li key={subpage.id}>
                       <NavLink
                         href={subpage.link}
-                        activeClassName={classes.selected}
                       >
                         <a>{subpage.title}</a>
                       </NavLink>

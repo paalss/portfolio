@@ -67,13 +67,18 @@
   /* border-right-color: orange; */
   right: 10px;
 }
-.nav a.selected,
+.nav li.selected,
 .nav a:active,
 .nav a:focus,
 .nav a:hover,
 .nav button:hover {
   font-weight: 900;
 }
+
+.nav li li {
+  font-weight: 600;
+}
+
 .nav button {
   border: none;
   height: 100%;

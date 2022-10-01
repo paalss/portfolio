@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import Image from "next/image"
+import Image from "next/image";
 import { Trans } from "@lingui/macro";
 
 // ---------------
@@ -12,8 +12,8 @@ const Home = lazy(() => import("./pages"));
 
 // webwork
 const Webwork = lazy(() => import("./pages/webwork"));
-const Ohmyaliases = lazy(()=> import("./pages/webwork/ohmyaliases"));
-const Ytwrapped = lazy(()=> import("./pages/webwork/ytwrapped"));
+const Ohmyaliases = lazy(() => import("./pages/webwork/ohmyaliases"));
+const Ytwrapped = lazy(() => import("./pages/webwork/ytwrapped"));
 const Fakturanett = lazy(() => import("./pages/webwork/fakturanett"));
 const Extraoptical = lazy(() => import("./pages/webwork/extraoptical"));
 const Dokker = lazy(() => import("./pages/webwork/dokker"));
@@ -144,7 +144,8 @@ const pagesInfo = [
           </h1>
         ),
         page: <Videoopplasting />,
-        imgSrc: "./images/webwork/www-teknologi/prosjekt2-5-videoside-small.webp",
+        imgSrc:
+          "./images/webwork/www-teknologi/prosjekt2-5-videoside-small.webp",
         imgAlt: "Video uploading app",
         tools: ["PHP", "LitElement", "JavaScript"],
         thereAreMoreTools: true,
@@ -212,7 +213,7 @@ const pagesInfo = [
         title: <Trans>Bok web-banner</Trans>,
         subtitle: <Trans>Skole</Trans>,
         page: <Flaviadeluce />,
-        imgSrc: "./images/graphicwork/mpoe/mpoe-cropped-forside.webp",
+        imgSrc: "./images/graphicwork/flaviadeluce/flavia-cropped-hode.webp",
         imgAlt: "Book webbanner",
         tools: ["Photoshop", "Illustrator"],
       },
@@ -222,7 +223,7 @@ const pagesInfo = [
         title: <Trans>Bok-cover o.l.</Trans>,
         subtitle: <Trans>Skole</Trans>,
         page: <MPOE />,
-        imgSrc: "./images/graphicwork/flaviadeluce/flavia-cropped-hode.webp",
+        imgSrc: "./images/graphicwork/mpoe/mpoe-cropped-forside.webp",
         imgAlt: "Book cover",
         tools: ["Photoshop", "Illustrator", "InDesign"],
       },

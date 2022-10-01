@@ -12,26 +12,26 @@ const Home = lazy(() => import("./pages"));
 
 // webwork
 const Webwork = lazy(() => import("./pages/webwork"));
-const Ohmyaliases = lazy(()=> import("./pages/webwork/Ohmyaliases"));
-const Ytwrapped = lazy(()=> import("./pages/webwork/Ytwrapped"));
-const Fakturanett = lazy(() => import("./pages/webwork/Fakturanett"));
-const Extraoptical = lazy(() => import("./pages/webwork/Extraoptical"));
-const Dokker = lazy(() => import("./pages/webwork/Dokker"));
-const Rankingapp = lazy(() => import("./pages/webwork/Rankingapp"));
-const Videoopplasting = lazy(() => import("./pages/webwork/Videoopplasting"));
-const Portfolios = lazy(() => import("./pages/webwork/Portfolios"));
-const Maclean = lazy(() => import("./pages/webwork/Maclean"));
-const Fagstoff = lazy(() => import("./pages/webwork/Fagstoff"));
+const Ohmyaliases = lazy(()=> import("./pages/webwork/ohmyaliases"));
+const Ytwrapped = lazy(()=> import("./pages/webwork/ytwrapped"));
+const Fakturanett = lazy(() => import("./pages/webwork/fakturanett"));
+const Extraoptical = lazy(() => import("./pages/webwork/extraoptical"));
+const Dokker = lazy(() => import("./pages/webwork/dokker"));
+const Rankingapp = lazy(() => import("./pages/webwork/rankingapp"));
+const Videoopplasting = lazy(() => import("./pages/webwork/videoopplasting"));
+const Portfolios = lazy(() => import("./pages/webwork/portfolios"));
+const Maclean = lazy(() => import("./pages/webwork/maclean"));
+const Fagstoff = lazy(() => import("./pages/webwork/fagstoff"));
 
 // graphicwork
 const Graphicwork = lazy(() => import("./pages/graphicwork"));
-const Artistbooking = lazy(() => import("./pages/graphicwork/Artistbooking"));
-const MPOE = lazy(() => import("./pages/graphicwork/MPOE"));
-const Flaviadeluce = lazy(() => import("./pages/graphicwork/Flaviadeluce"));
-const JRNM = lazy(() => import("./pages/graphicwork/JRNM"));
+const Artistbooking = lazy(() => import("./pages/graphicwork/artistbooking"));
+const MPOE = lazy(() => import("./pages/graphicwork/mpoe"));
+const Flaviadeluce = lazy(() => import("./pages/graphicwork/flaviadeluce"));
+const JRNM = lazy(() => import("./pages/graphicwork/jrnm"));
 
 // other
-const Gallery = lazy(() => import("./pages/Gallery"));
+const Gallery = lazy(() => import("./pages/gallery"));
 
 const pagesInfo = [
   {

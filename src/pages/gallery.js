@@ -94,7 +94,6 @@ export async function getStaticProps(context) {
       (d) => d.media_type !== "VIDEO"
     );
 
-    console.log(mediaWithoutVideos);
     return {
       props: {
         media: mediaWithoutVideos,

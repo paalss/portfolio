@@ -1,3 +1,6 @@
+import React from "react";
+
+
 // react lingui
 import { Trans, t } from "@lingui/macro";
 

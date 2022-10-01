@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useMemo } from "react";
 import NavLink from "next/link";
 import pagesInfo from "../../../pagesInfo";
 import LangMenu from "../../common/LangMenu";
@@ -9,11 +9,15 @@ import classes from "./Nav.module.css";
 import dynamic from "next/dynamic";
 
 const Nav = () => {
-  let DarkmodeSwitch = undefined
-  if (typeof window !== "undefined") {
-    DarkmodeSwitch = dynamic(() => import("../../common/DarkmodeSwitch"));
-  }
-
+  const DarkmodeSwitch = useMemo(()=>{
+    if (typeof window !== "undefined") {
+      return dynamic(() => import("../../common/DarkmodeSwitch"));
+    } else {
+      return undefined
+    }
+    
+  }, [window])
+  
   return (
     <nav className={classes.nav}>
       <div className="container">

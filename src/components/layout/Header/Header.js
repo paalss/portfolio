@@ -1,14 +1,12 @@
 import { useRouter } from "next/router";
 import React from "react";
-import pagesInfo from "../../../pagesInfo";
+import { flatPagesInfo } from "../../../pagesInfo";
 
 const DynamicHeaderContent = () => {
   const router = useRouter();
   const path = router.asPath;
 
-  const currentPageInfo = pagesInfo.find((e) => {
-    return e.link === path;
-  });
+  const currentPageInfo = flatPagesInfo.find((e) => e.link === path);
 
   if (currentPageInfo === undefined) {
     return (

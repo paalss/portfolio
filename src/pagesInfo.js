@@ -65,7 +65,7 @@ const pagesInfo = [
     subpages: [
       {
         id: 12,
-        link: "/webwork/yt-wrapped",
+        link: "/webwork/ytwrapped",
         site: "https://paalss.github.io/youtube-wrapped",
         repo: "https://github.com/paalss/youtube-wrapped",
         title: "Youtube-wrapped",

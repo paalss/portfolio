@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import LightboxImage from "../../components/common/LightboxImage";
-import classes from "./Gallery.module.css";
+import classes from "./gallery.module.css";
 
 import { t, Trans } from "@lingui/macro";
 

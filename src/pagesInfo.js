@@ -130,7 +130,7 @@ const pagesInfo = [
         page: <Portfolios />,
         imgSrc: "./images/webwork/portfolios/pf5.webp",
         imgAlt: "Portfolio page",
-        tools: ["React", "JavaScript", "CSS"],
+        tools: ["React", "Next", "JavaScript", "CSS"],
         thereAreMoreTools: true,
       },
       {

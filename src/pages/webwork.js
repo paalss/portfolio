@@ -48,6 +48,7 @@ const filterProjects = (filter) => {
 
 const techsToFilterBy = [
   "React",
+  "Next",
   "Lit",
   "JavaScript",
   "TypeScript",

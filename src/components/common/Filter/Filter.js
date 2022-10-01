@@ -6,6 +6,7 @@ const findMatchingImage = (name) => {
   const images = [
     "/images/tools/javascript.svg",
     "/images/tools/typescript-icon.svg",
+    "/images/tools/nextjs-icon.svg",
     "/images/tools/php.svg",
     "/images/tools/react.svg",
     "/images/tools/graphql.svg",

@@ -25,6 +25,7 @@ const Portfolios = () => (
         }}
         tools={[
           "React",
+          "Next",
           "JavaScript",
           "JSX",
           "CSS",

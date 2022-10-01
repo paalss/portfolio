@@ -42,7 +42,7 @@ const Index = () => (
           { tech: "PHP", level: "2" },
           { tech: t`Automatisk testing`, level: "1" },
           { tech: "NodeJS", level: "1" },
-          { tech: "Docker", level: "1" },
+          { tech: "Next", level: "1" },
         ]}
         design={[
           {

@@ -90,11 +90,12 @@
     padding: 0;
     align-items: center;
   }
-  .nav a, .nav .switch { /* ! TODO HÆH er dette riktig? */
+  .nav a, .nav .switch {
     padding: 16px 40px;
   }
 
   .nav button {
-    padding: 22px 40px;
+    min-width: 120px;
+    padding: 22px 0;
   }
 }

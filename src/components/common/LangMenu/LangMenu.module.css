@@ -1,5 +1,6 @@
 .iconAndText {
   width: 100px;
   display: flex;
+  justify-content: center;
   column-gap: 5px;
 }

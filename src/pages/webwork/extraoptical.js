@@ -19,12 +19,13 @@ const Extraoptical = () => (
 
     <WorkHeading
       heading={t`Extra Opticals nettbutikk`}
-      timespan={t`2022 februar–nå`}
+      timespan={t`2022 februar–august`}
       siteInfo={{
         site: "https://extraoptical.no/",
       }}
       tools={[
         "React",
+        "GraphQL",
         "JSX",
         "CSS",
         <>Magento&nbsp;PWA&nbsp;builder</>,
@@ -54,9 +55,21 @@ const Extraoptical = () => (
     </dl>
     <p>
       <Trans>
-        På denne nettsiden har jeg jobbet mest i kildekoden, men også noe i{" "}
-        CMS-et <i>Magento PWA builder</i>. Koden er satt opp slik at enkelte
-        deler er satt av til CMS-et, mens resten er React-komponenter.
+        Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg
+        har lagd UI-elementer, hentet data fra serveren og oversatt innhold med
+        React.
+      </Trans>
+    </p>
+    <p>
+      <Trans>
+        Jeg lærte meg GraphQL, jobbe med magento components, Magento Page
+        Builder og forskjellige react-packages (react-slick, react-intl,
+        react-spring).
+      </Trans>{" "}
+      <Trans>
+        Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull
+        Requests for den som skal se gjennom den. Å separere logikk og markup
+        ble jeg også bedre på.
       </Trans>
     </p>
     <p>
@@ -67,10 +80,23 @@ const Extraoptical = () => (
       </Trans>
     </p>
 
+    {/*
+      Jeg har jobbet med nettbutikken til Extra Optical, mest i kildekoden som
+      er skrevet i React, men også noe i Magento Page Builder-verktøyet (et CMS
+      for nettsideadministratorer). Lærte GraphQL, ble bedre på å samarbeide.
+      Bruke SSH-keys. Hvordan man separerer logikk og templating i komponent og
+      custom hook. Har fått frisket opp engelsken mye i løpet av denne tiden,
+      snakker med ukrainere, dokumenterer pull requests på engelsk.
+
+      Forskjell på CRLF line endings og LF
+
+      litt react-spring. og react-slick. og react-intl.
+    */}
+
     <WorkHeading
       extraSpaceAbove={true}
       heading={t`Extra Opticals eldre nettbutikk`}
-      timespan={t`2022 november–februar`}
+      timespan={t`2021 november – 2022 februar`}
       tools={["Magento2", "PHTML", "CSS"]}
     />
     <h4>

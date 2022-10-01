@@ -19,7 +19,7 @@ const Portfolios = () => (
       />
       <WorkHeading
         heading={t`Portefølje`}
-        timespan={t`2022 desember–nå`}
+        timespan={t`2020 desember–nå`}
         siteInfo={{
           repo: "https://github.com/paalss/portfolio",
         }}

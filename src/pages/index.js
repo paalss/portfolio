@@ -29,6 +29,7 @@ const Index = () => (
         web={[
           { tech: "HTML & CSS", level: "3" },
           { tech: "JavaScript", level: "3" },
+          { tech: "React", level: "3" },
           {
             // denne string'en passer for bar title, men ikke som label innerhtml...
             tech: t`MySQL & relasjonsdatabaser`,
@@ -36,9 +37,8 @@ const Index = () => (
             techHtmlEntities: (
               <Trans>MySQL &amp; relasjons&shy;databaser</Trans>
             ),
-            level: "3",
+            level: "2",
           },
-          { tech: "React", level: "2" },
           { tech: "PHP", level: "2" },
           { tech: t`Automatisk testing`, level: "1" },
           { tech: "NodeJS", level: "1" },

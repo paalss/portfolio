@@ -1,4 +1,4 @@
-import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
@@ -17,42 +17,23 @@ const Footer = () => (
     <div className="container">
       <b>{t`Du finner meg på:`}</b>
       <ul>
+        <La href="https://github.com/paalss" icon={faGithub}>
+          Github (paalss)
+        </La>
+        <La href="https://www.linkedin.com/in/pal-stakvik/" icon={faLinkedin}>
+          Linkedin
+        </La>
+        <La href="https://www.instagram.com/gassosaman/" icon={faInstagram}>
+          Instagram (gassosaman)
+        </La>
+        {/* <li>
+          <span className={classes.icon}>
+            <img src={codersrankLogo} alt="Codersrank logo" />
+          </span>
+          <a href="https://profile.codersrank.io/user/paalss/">Codersrank</a>
+        </li> */}
         <li>
-          <a
-            href="https://github.com/paalss"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Fa className={classes.icon} icon={faGithub} />
-            <span className={classes.linkText}>Github (paalss)</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/pal-stakvik/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Fa className={classes.icon} icon={faLinkedin} />
-            <span className={classes.linkText}>Linkedin</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/gassosaman/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Fa className={classes.icon} icon={faInstagram} />
-            <span className={classes.linkText}>Instagram (gassosaman)</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://scratch.mit.edu/users/pa0110/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://scratch.mit.edu/users/pa0110/">
             <span className={classes.icon}>
               <Image
                 src="/images/scratchlogo-transparent-white-small.webp"
@@ -68,14 +49,11 @@ const Footer = () => (
 
       <b>Info:</b>
       <ul>
+        <La href="mailto:paalss94@gmail.com" icon={faEnvelope}>
+          paalss94@gmail.com
+        </La>
         <li>
-          <a href="mailto:paalss94@gmail.com">
-            <Fa className={classes.icon} icon={faEnvelope} />
-            <span className={classes.linkText}>paalss94@gmail.com</span>
-          </a>
-        </li>
-        <li>
-          <Fa className={classes.icon} icon={faLocationDot} />
+          <Icon className={classes.icon} icon={faLocationDot} />
           {t`Bosatt i Trondheim`}
         </li>
       </ul>
@@ -84,3 +62,17 @@ const Footer = () => (
 );
 
 export default Footer;
+
+/**
+ * List anchor
+ */
+const La = ({ href, icon, children }) => {
+  return (
+    <li>
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        <Icon className={classes.icon} icon={icon} />
+        <span className={classes.linkText}>{children}</span>
+      </a>
+    </li>
+  );
+};

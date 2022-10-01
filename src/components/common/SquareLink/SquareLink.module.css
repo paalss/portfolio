@@ -41,6 +41,7 @@ div.desktopEmptySpace {
 }
 .externalLinks {
   display: flex;
+  column-gap: 1px;
 }
 .externalLinks a {
   flex-grow: 1;
@@ -49,13 +50,12 @@ div.desktopEmptySpace {
   background-color: #1d1d1d;
   text-align: center;
   text-decoration: none;
-  border: 0.2px solid #fff;
+  border: 0.2px solid #1d1d1d;
 }
 .externalLinks a:hover,
 .externalLinks a:focus {
   color: #1d1d1d;
   background-color: #fff;
-  border: 0.2px solid #1d1d1d;
 }
 /* placeholder */
 .externalLinks span {

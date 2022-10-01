@@ -103,11 +103,11 @@ const pagesInfo = [
         link: "/webwork/extraoptical",
         site: "https://extraoptical.no/",
         title: "Extra Optical",
-        subtitle: <Trans>Praksis & jobb</Trans>,
+        subtitle: <Trans>Praksis &amp; jobb</Trans>,
         page: <Extraoptical />,
         imgSrc: "./images/webwork/extraoptical/logo/eo-icon.webp",
         imgAlt: "Extraoptical logo",
-        tools: ["React", "Linux", "Magento2"],
+        tools: ["React", "GraphQL", "Magento2", "CSS"],
         thereAreMoreTools: true,
       },
       {
@@ -130,7 +130,7 @@ const pagesInfo = [
         page: <Portfolios />,
         imgSrc: "./images/webwork/portfolios/pf5.webp",
         imgAlt: "Portfolio page",
-        tools: ["React", "JavaScript", <>React&#8209;lingui</>],
+        tools: ["React", "JavaScript", "CSS"],
         thereAreMoreTools: true,
       },
       {
@@ -147,7 +147,7 @@ const pagesInfo = [
         imgSrc:
           "./images/webwork/www-teknologi/prosjekt2-5-videoside-small.webp",
         imgAlt: "Video uploading app",
-        tools: ["PHP", "LitElement", "JavaScript"],
+        tools: ["PHP", "Lit", "HTML", "CSS", "JavaScript", "MySQL", "Docker"],
         thereAreMoreTools: true,
       },
       {
@@ -172,7 +172,7 @@ const pagesInfo = [
         page: <Maclean />,
         imgSrc: "./images/webwork/maclean/alistairmaclean.webp",
         imgAlt: "MacLean page",
-        tools: ["HTML", "CSS", "Photoshop"],
+        tools: ["HTML", "CSS", "JavaScript"],
         thereAreMoreTools: true,
       },
       {
@@ -184,8 +184,7 @@ const pagesInfo = [
         page: <Rankingapp />,
         imgSrc: "./images/webwork/rankingapp/rankingapp-small.webp",
         imgAlt: "Ranking app",
-        tools: ["TypeScript", "PHP", "MySQL"],
-        thereAreMoreTools: true,
+        tools: ["TypeScript", "PHP", "MySQL", "HTML", "CSS", "Jest", "Docker"]
       },
     ],
   },

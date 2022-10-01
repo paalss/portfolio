@@ -1,7 +1,7 @@
 import React from "react";
 
 // react lingui
-import { t } from "@lingui/macro";
+import { t, Trans } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
@@ -19,7 +19,7 @@ const Fakturanett = () => (
 
     <WorkHeading
       heading="Fakturanett"
-      timespan={t`2022 februar–nå`}
+      timespan={t`2022 februar–august`}
       siteInfo={{
         site: "https://www.fakturanett.no/",
       }}
@@ -27,24 +27,14 @@ const Fakturanett = () => (
     />
 
     <p>
+      <Trans>
+        Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å
+        forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra
+        pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer.
+      </Trans>
+      {/* har lært litt regex */}
       {/* <Trans>Jobber med å optimalisere koden, fjerne unødvendige filer. Skal jobbe med å bygge nettsiden med Vue etter hvert</Trans> */}
     </p>
-    {/* <div uk-lightbox="animation: slide" className="flex wrap">
-      <Figure
-        imgSrc={projImg}
-        imgWidth={0}
-        imgHeight={0}
-        imgAlt={t`_bilde1`}
-        caption={t`_bilde1`}
-      />
-      <Figure
-        imgSrc={projImg}
-        imgWidth={0}
-        imgHeight={0}
-        imgAlt={t`_bilde2`}
-        caption={t`_bilde2`}
-      />
-    </div> */}
   </>
 );
 

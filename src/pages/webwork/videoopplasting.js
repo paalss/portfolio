@@ -30,8 +30,8 @@ const Videoopplasting = () => (
     
     <WorkHeading
       heading={t`PHP-prosjekt`}
-      timespan={t`2020 vår`}
-      tools={["Twig", "PHP", "MySQL", "Relasjonsdatabase", "HTML", "Docker"]}
+      timespan={t`2020 januar–april`}
+      tools={["Twig", "PHP", "MySQL", "HTML", "Docker"]}
     />
 
     <Trans>
@@ -59,10 +59,10 @@ const Videoopplasting = () => (
     </div>
 
     <WorkHeading
-      heading={t`LitElement-prosjekt`}
-      timespan={t`2020 vår`}
+      heading={t`Lit-prosjekt`}
+      timespan={t`2020 april–mai`}
       tools={[
-        "LitElement",
+        "Lit",
         "JavaScript",
         "PHP",
         "MySQL",
@@ -74,12 +74,12 @@ const Videoopplasting = () => (
     />
 
     <dl>
-      <dt>LitElement</dt>
+      <dt>Lit</dt>
       <dd>
         <Trans>
-          Verktøy for å bygge komponent-baserte nettsider. LitElement skiller
+          Verktøy for å bygge komponent-baserte nettsider. Lit skiller
           seg fra React ved at den bruker HTML som sitt templating språk (og
-          ikke JSX). Ellers så har LitElement kun <i>class-based</i> components.
+          ikke JSX). Ellers så har Lit kun <i>class-based</i> components.
         </Trans>
       </dd>
     </dl>
@@ -120,7 +120,7 @@ const Videoopplasting = () => (
         Jeg drev også med litt CSS styling.
       </p>
       <p>
-        Appen ble lagd med bruk av LitElement-baserte komponenter som vi for det
+        Appen ble lagd med bruk av Lit-baserte komponenter som vi for det
         meste lagde selv.
       </p>
     </Trans>

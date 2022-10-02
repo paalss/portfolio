@@ -15,15 +15,8 @@ https://paalss.github.io/portfolio/
   },
 ```
 
-**Installer dependencies**
-```
-yarn
-```
-**Serve**
-```
-yarn dev
-```
-
+### Trenger ikke bruke Git Bash for å lage build
+Går helt fint å bruke WSL etter Next-ifiseringen av porteføljen
 
 ### Deploy-problemer etter checkout
 

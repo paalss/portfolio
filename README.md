@@ -15,22 +15,15 @@ https://paalss.github.io/portfolio/
   },
 ```
 
-**Bruk Git bash for følgende. WSL funker ikke til predeploy (react-snap).**
-
 **Installer dependencies**
 ```
 yarn
 ```
 **Serve**
 ```
-yarn run dev
+yarn dev
 ```
-:rocket: **Deploy**
-```
-yarn predeploy
-yarn deploy
-```
-https://create-react-app.dev/docs/deployment#github-pages
+
 
 ### Deploy-problemer etter checkout
 

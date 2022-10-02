@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "../styles/globals.css";
+import paalssInfo from "./jsonLdSchema";
 // import "../styles/uikit-lightbox-related.css";
 
 import Header from "../components/layout/Header";
@@ -31,6 +32,7 @@ function App({ Component, pageProps }) {
 
   return (
     <I18nProvider i18n={i18n}>
+      <script type="application/ld+json">{JSON.stringify(paalssInfo)}</script>
       <div className="oldbody">
         <Header/>
         <Nav />

@@ -96,7 +96,7 @@ const pagesInfo = [
         page: <Fakturanett />,
         imgSrc: "./images/webwork/fakturanett/fakturanett-icon.avif",
         imgAlt: "Fakturanett ikon",
-        tools: ["PHP", "HTML", "CSS"],
+        tools: ["PHP", "HTML", "CSS", "JavaScript"],
       },
       {
         id: 9,
@@ -107,7 +107,7 @@ const pagesInfo = [
         page: <Extraoptical />,
         imgSrc: "./images/webwork/extraoptical/logo/eo-icon.webp",
         imgAlt: "Extraoptical logo",
-        tools: ["React", "GraphQL", "Magento2", "CSS"],
+        tools: ["React", "GraphQL", "JavaScript", "CSS"],
         thereAreMoreTools: true,
       },
       {

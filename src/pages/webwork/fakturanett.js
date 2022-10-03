@@ -23,7 +23,7 @@ const Fakturanett = () => (
       siteInfo={{
         site: "https://www.fakturanett.no/",
       }}
-      tools={["PHP", "HTML", "CSS"]}
+      tools={["PHP", "HTML", "CSS", "JavaScript"]}
     />
 
     <p>

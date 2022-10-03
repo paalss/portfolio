@@ -25,8 +25,9 @@ const Extraoptical = () => (
       }}
       tools={[
         "React",
-        "GraphQL",
+        "JavaScript",
         "JSX",
+        "GraphQL",
         "CSS",
         <>Magento&nbsp;PWA&nbsp;builder</>,
         "PHTML",

@@ -5,13 +5,15 @@ const paalssInfo = {
   givenName: "Pål",
   gender: "http://schema.org/Male",
   birthDate: "1994-11-28",
+  image: "../public/images/cvphoto2.webp",
+  nationality: "Norwegian",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Trondheim",
     postalCode: "7022",
     addressCountry: "Norway",
   },
-  worksFor: ["http://extraoptical.no/"],
+  worksFor: "http://extraoptical.no/",
   alumniOf: "https://www.ntnu.no/gjovik",
   knowsLanguage: [
     {

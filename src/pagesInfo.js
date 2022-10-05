@@ -49,7 +49,12 @@ const pagesInfo = [
           </span>
         </div>
         <div className="circle-frame">
-          <img src="/images/cvphoto2.webp" alt="Pål Stakvik" />
+          <Image
+            width={1200}
+            height={1600}
+            src="/images/cvphoto2.webp"
+            alt="Pål Stakvik"
+          />
         </div>
       </div>
     ),
@@ -184,7 +189,7 @@ const pagesInfo = [
         page: <Rankingapp />,
         imgSrc: "./images/webwork/rankingapp/rankingapp-small.webp",
         imgAlt: "Ranking app",
-        tools: ["TypeScript", "PHP", "MySQL", "HTML", "CSS", "Jest", "Docker"]
+        tools: ["TypeScript", "PHP", "MySQL", "HTML", "CSS", "Jest", "Docker"],
       },
     ],
   },

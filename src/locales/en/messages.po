@@ -509,17 +509,9 @@ msgstr "Internship & work"
 msgid "React sertifikat"
 msgstr "React certificate"
 
-#: src/pages/webwork/Rankingapp.js:36
-#~ msgid "Relasjonsdatabase"
-#~ msgstr "Relational database"
-
 #: src/pages/webwork/extraoptical.js:114
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
-
-#: src/pages/Webwork.js:36
-#~ msgid "Se mer på Github"
-#~ msgstr "See more on Github"
 
 #: src/pages/webwork/rankingapp.js:84
 msgid "Sett inn egne elementer, tilpass etter behov"

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
@@ -27,7 +26,7 @@ const Videoopplasting = () => (
         kravspesifikasjonen.
       </p>
     </Trans>
-    
+
     <WorkHeading
       heading={t`PHP-prosjekt`}
       timespan={t`2020 januar–april`}
@@ -77,9 +76,9 @@ const Videoopplasting = () => (
       <dt>Lit</dt>
       <dd>
         <Trans>
-          Verktøy for å bygge komponent-baserte nettsider. Lit skiller
-          seg fra React ved at den bruker HTML som sitt templating språk (og
-          ikke JSX). Ellers så har Lit kun <i>class-based</i> components.
+          Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra
+          React ved at den bruker HTML som sitt templating språk (og ikke JSX).
+          Ellers så har Lit kun <i>class-based</i> components.
         </Trans>
       </dd>
     </dl>
@@ -120,18 +119,25 @@ const Videoopplasting = () => (
         Jeg drev også med litt CSS styling.
       </p>
       <p>
-        Appen ble lagd med bruk av Lit-baserte komponenter som vi for det
-        meste lagde selv.
+        Appen ble lagd med bruk av Lit-baserte komponenter som vi for det meste
+        lagde selv.
       </p>
     </Trans>
 
     <div uk-lightbox="animation: slide">
       <Figure
-        imgSrc="/images/webwork/www-teknologi/prosjekt2-5-videoside.webp"
-        imgWidth={1920}
-        imgHeight={1017}
-        imgAlt={t`side med videospiller, meny og transkript`}
-        caption={t`Videoside`}
+        imgSrc="/images/webwork/www-teknologi/prosjekt2-videovisning-topp.png"
+        imgWidth={1325}
+        imgHeight={679}
+        imgAlt={t`Side med videospiller, meny og transkript`}
+        caption={t`Videoside topp`}
+      />
+      <Figure
+        imgSrc="/images/webwork/www-teknologi/prosjekt2-videovisning-bunn.png"
+        imgWidth={1325}
+        imgHeight={679}
+        imgAlt={t`Videoside som viser kommentarer og hvilke spillelister den er i`}
+        caption={t`Videoside bunn`}
       />
       <Figure
         imgSrc="/images/webwork/www-teknologi/prosjekt2-7-videoliste.webp"

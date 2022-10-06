@@ -10,7 +10,7 @@ export default function Document() {
         <meta name="theme-color" content="#7f017f" />
         <meta
           name="google-site-verification"
-          content="NOhdOMfh9b1Bi0rnexMou10Luv_m_10FSnBzzDrFNyo"
+          content="QHRtIQSyLGdlaOZq_NjWPRG1WIEudGxXECk1wey5F1U"
         />
         <meta
           name="description"

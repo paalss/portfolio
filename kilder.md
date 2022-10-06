@@ -1,7 +1,6 @@
 # Kilder som ikke står i package.json
 
 Brukt kode/bilder fra
-- [Flag SVG icons (Panayiotis Lipiridis)](https://flagicons.lipis.dev/)
 - [Lightbox (UIkit)](https://getuikit.com/docs/lightbox)
 
 Remixet kode fra disse

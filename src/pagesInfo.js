@@ -54,6 +54,8 @@ const pagesInfo = [
             height={1600}
             src="/images/cvphoto2.webp"
             alt="Pål Stakvik"
+            placeholder="blur"
+            blurDataURL="/images/cvphoto2.webp"
           />
         </div>
       </div>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import ToolList from "../ToolList/ToolList";
 import React from "react";
 import classes from "./SquareLink.module.css";
+import FutureImage from "next/future/image";
 
 // icons
 import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
@@ -28,7 +29,7 @@ const SquareLink = ({
         <Link href={link} className={classes.root}>
           <a>
             <div className={classes.frame}>
-              <img src={imgSrc} alt={imgAlt} />
+              <FutureImage className={classes.img} src={imgSrc} alt={imgAlt} />
             </div>
             <h3>{title}</h3>
             <h4>{subtitle}</h4>

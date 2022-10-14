@@ -18,7 +18,7 @@
   transform: scale(1.05);
   transition: 0.2s;
 }
-.root img {
+.root .img {
   width: 100%;
   height: 100%;
   object-fit: cover;

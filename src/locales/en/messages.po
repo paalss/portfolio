@@ -109,7 +109,7 @@ msgstr "<0>During this five months internship I contributed to Dokker, an web ap
 msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2>"
 msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we were set to make web apps for uploading and watching videos. Put simply, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
-#: src/pagesInfo.js:170
+#: src/pagesInfo.js:202
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
@@ -166,12 +166,12 @@ msgstr "Contribution"
 msgid "Bilder jeg har lagt ut på min Instagram"
 msgstr "Images which I’ve published on my Instagram"
 
-#: src/pagesInfo.js:212
+#: src/pagesInfo.js:244
 msgid "Bok web-banner"
 msgstr "Book web-banner"
 
 #: src/pages/graphicwork/mpoe.js:20
-#: src/pagesInfo.js:222
+#: src/pagesInfo.js:254
 msgid "Bok-cover o.l."
 msgstr "Book-cover and similar"
 
@@ -183,7 +183,7 @@ msgstr "Resident in Trondheim"
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "This site was abandoned half-finished and has no sub-pages."
 
-#: src/pagesInfo.js:128
+#: src/pagesInfo.js:161
 msgid "Denne porteføljen"
 msgstr "This portfolio"
 
@@ -269,7 +269,7 @@ msgid "Extra Opticals nettbutikk"
 msgstr "Extra Optical’s online store"
 
 #: src/pages/webwork/fagstoff.js:20
-#: src/pagesInfo.js:158
+#: src/pagesInfo.js:190
 msgid "Fagstoff"
 msgstr "Subject matter"
 
@@ -297,12 +297,12 @@ msgstr "Web banner for the Flavia de Luce series"
 msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogget på Youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
 msgstr "To use this app it is assumed that you watched the videos while logged in to Youtube. Otherwise you wouldn’t be able to get the data necessary for this app."
 
-#: src/pagesInfo.js:72
-#: src/pagesInfo.js:84
-#: src/pagesInfo.js:129
-#: src/pagesInfo.js:159
-#: src/pagesInfo.js:183
-#: src/pagesInfo.js:245
+#: src/pagesInfo.js:105
+#: src/pagesInfo.js:117
+#: src/pagesInfo.js:162
+#: src/pagesInfo.js:191
+#: src/pagesInfo.js:215
+#: src/pagesInfo.js:277
 msgid "Fritid"
 msgstr "Spare time"
 
@@ -314,16 +314,8 @@ msgstr "Spare-time project which I never finished"
 msgid "Få pene og oversiktlige lister"
 msgstr "Get nice and pretty lists"
 
-#: src/components/common/Barchart/Barchart.js:28
-msgid "Ganske god på"
-msgstr "Very good at"
-
-#: src/components/common/Barchart/Barchart.js:71
-msgid "Ganske god på {tech}"
-msgstr "Very good at {tech}"
-
 #: src/pages/index.js:62
-#: src/pagesInfo.js:196
+#: src/pagesInfo.js:228
 msgid "Grafisk"
 msgstr "Graphics"
 
@@ -335,7 +327,7 @@ msgstr "Graphic design"
 msgid "Grunn­leggende"
 msgstr "Basics"
 
-#: src/pagesInfo.js:42
+#: src/pagesInfo.js:68
 msgid "Hjem"
 msgstr "Home"
 
@@ -383,7 +375,7 @@ msgstr "I learned GraphQL, working with Magento components, Magento Page Builder
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 msgstr "I started making this December 2020, it was made to present the web projects that I’ve made. It was to be used in job searching."
 
-#: src/pagesInfo.js:95
+#: src/pagesInfo.js:128
 msgid "Jobb"
 msgstr "Work"
 
@@ -399,11 +391,11 @@ msgstr "Know some {tech}"
 msgid "Kildekode"
 msgstr "Source code"
 
-#: src/components/common/SquareLink/SquareLink.js:48
+#: src/components/common/SquareLink/SquareLink.js:49
 msgid "Kode"
 msgstr "Code"
 
-#: src/pagesInfo.js:244
+#: src/pagesInfo.js:276
 msgid "Kunst"
 msgstr "Art"
 
@@ -447,7 +439,7 @@ msgstr "MySQL & relational databases"
 msgid "Måtte lære meg aliasene til Oh my bash. Så jeg lagde denne oppslagsverk-appen for å raskt kunne se aliasene for mine ofte brukte kommandoer. Aliasene er for øvrig de samme på Oh my bash og -zsh."
 msgstr "Had to learn the aliases of Oh my bash. So I made this app so that I could quickly find the aliases for my most used commands. The aliases are by the way the same for Oh my bash and -zsh."
 
-#: src/components/common/SquareLink/SquareLink.js:41
+#: src/components/common/SquareLink/SquareLink.js:42
 msgid "Nett"
 msgstr "Web"
 
@@ -456,7 +448,7 @@ msgid "Nettside med overskriften 'fagstoff'"
 msgstr "Webpage with its heading reading “subject matter”"
 
 #: src/pages/index.js:57
-#: src/pagesInfo.js:63
+#: src/pagesInfo.js:96
 msgid "Nettsider"
 msgstr "Websites"
 
@@ -488,12 +480,12 @@ msgstr "Portfolio 3"
 msgid "Porteføljen slik den så ut 9. desember 2020"
 msgstr "The portfolio as of 9. December 2020"
 
-#: src/pagesInfo.js:118
-#: src/pagesInfo.js:233
+#: src/pagesInfo.js:151
+#: src/pagesInfo.js:265
 msgid "Praksis"
 msgstr "Internship"
 
-#: src/pagesInfo.js:106
+#: src/pagesInfo.js:139
 msgid "Praksis & jobb"
 msgstr "Internship & work"
 
@@ -521,9 +513,9 @@ msgstr "Insert your own elements, customize to your needs"
 msgid "Side med videospiller, meny og transkript"
 msgstr "Page with video player, menu and transcript"
 
-#: src/pagesInfo.js:171
-#: src/pagesInfo.js:213
-#: src/pagesInfo.js:223
+#: src/pagesInfo.js:203
+#: src/pagesInfo.js:245
+#: src/pagesInfo.js:255
 msgid "Skole"
 msgstr "School"
 
@@ -532,8 +524,8 @@ msgstr "School"
 msgid "Startside"
 msgstr "Front page"
 
-#: src/pagesInfo.js:140
-#: src/pagesInfo.js:203
+#: src/pagesInfo.js:173
+#: src/pagesInfo.js:235
 msgid "Studier"
 msgstr "Studies"
 
@@ -567,13 +559,21 @@ msgstr "During my stay here I contributed to the ecommerce site Extra Optical. I
 msgid "Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer."
 msgstr "During my 20%-epmployment at Invoice Club my job was to improve the codebasse for fakturanett.no. Jeg had to upgrade the source code from pre-PHP5.5 to PHP7, discover and fix bugs and remove unnecessary files."
 
-#: src/pagesInfo.js:48
+#: src/pagesInfo.js:74
 msgid "Utdannet web­utvikler"
 msgstr "Educated web developer"
 
 #: src/pages/graphicwork/flaviadeluce.js:39
 msgid "Utkast og skisser til web-banneret oppe til venstre. Jeg har desverre ikke tatt vare på et mer høyoppløselig bilde av det."
 msgstr "Drafts and sketches for the web-banner top left."
+
+#: src/components/common/Barchart/Barchart.js:28
+msgid "Veldig god på"
+msgstr "Very good at"
+
+#: src/components/common/Barchart/Barchart.js:71
+msgid "Veldig god på {tech}"
+msgstr "Very good at {tech}"
 
 #: src/pages/webwork/videoopplasting.js:78
 msgid "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components."
@@ -603,8 +603,8 @@ msgstr "Video page that shows comments and which playlists it resides in"
 msgid "Videoside topp"
 msgstr "Video page top"
 
-#: src/pagesInfo.js:139
-#: src/pagesInfo.js:143
+#: src/pagesInfo.js:172
+#: src/pagesInfo.js:176
 msgid "Video­opplastings­apper"
 msgstr "Video uploading apps"
 

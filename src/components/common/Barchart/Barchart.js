@@ -25,7 +25,7 @@ const Barchart = ({ web, design }) => (
         </li>
         <li className={c.line + " " + c.l__100}>
           <span className={c.line__label}>
-            <Trans>Ganske god på</Trans>
+            <Trans>Veldig god på</Trans>
           </span>
         </li>
       </ul>
@@ -68,7 +68,7 @@ const createBars = (topics) =>
       width = "66%";
     }
     if (level === "3") {
-      title = t`Ganske god på ${tech}`;
+      title = t`Veldig god på ${tech}`;
       width = "100%";
     }
     return (

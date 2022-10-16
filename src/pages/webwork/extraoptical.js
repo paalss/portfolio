@@ -54,23 +54,47 @@ const Extraoptical = () => (
         </Trans>
       </dd>
     </dl>
+    <h3>
+      <Trans>Mitt bidrag</Trans>
+    </h3>
     <p>
       <Trans>
-        Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg
-        har lagd UI-elementer, hentet data fra serveren og oversatt innhold med
-        React.
+        Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical.
+        Arbeidsoppgavene har for det meste vært å skape UI-elementer med React
+        og GraphQL.
       </Trans>
     </p>
     <p>
       <Trans>
-        Jeg lærte meg GraphQL, jobbe med magento components, Magento Page
-        Builder og forskjellige react-packages (react-slick, react-intl,
-        react-spring).
+        Jeg har bidratt med UI-elementer som bilde- og produkt-karuseller,
+        product-grids, tilbehørs pop-up og progress bars. I alle disse
+        tilfellene måtte jeg også bruke GraphQL til å fylle inn elementene med
+        ekte data.
       </Trans>{" "}
       <Trans>
-        Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull
-        Requests for den som skal se gjennom den. Å separere logikk og markup
-        ble jeg også bedre på.
+        Ellers har jeg har hjulpet til med oversetting (med package'n{" "}
+        <i>react-intl</i>) og lagt til litt animasjon (med <i>react-spring</i>).
+      </Trans>{" "}
+      <Trans>
+        De fleste av karusellene ble lagd med <i>react-slick</i>.
+      </Trans>
+    </p>
+    <h3>
+      <Trans>Dette har jeg lært</Trans>
+    </h3>
+    <p>
+      <Trans>
+        Jeg lærte meg GraphQL, jobbe med magento components, Magento Page
+        Builder, bruke SSH-keys og forskjellige react-packages.
+      </Trans>{" "}
+      <Trans>
+        Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge{" "}
+        <i>Pull Requests</i> for den som skal se gjennom den.
+      </Trans>{" "}
+      <Trans>
+        Jeg har blitt bedre på å separere logikk og markup og vet hvilke
+        konsekvenser man får av å blande <i>CRLF</i> og <i>LF line endings</i> i
+        samme prosjekt.
       </Trans>
     </p>
     <p>
@@ -80,19 +104,6 @@ const Extraoptical = () => (
         versjon av nettsiden også.
       </Trans>
     </p>
-
-    {/*
-      Jeg har jobbet med nettbutikken til Extra Optical, mest i kildekoden som
-      er skrevet i React, men også noe i Magento Page Builder-verktøyet (et CMS
-      for nettsideadministratorer). Lærte GraphQL, ble bedre på å samarbeide.
-      Bruke SSH-keys. Hvordan man separerer logikk og templating i komponent og
-      custom hook. Har fått frisket opp engelsken mye i løpet av denne tiden,
-      snakker med ukrainere, dokumenterer pull requests på engelsk.
-
-      Forskjell på CRLF line endings og LF
-
-      litt react-spring. og react-slick. og react-intl.
-    */}
 
     <WorkHeading
       extraSpaceAbove={true}

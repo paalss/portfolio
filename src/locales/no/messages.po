@@ -43,7 +43,7 @@ msgstr "2020 januar–april"
 msgid "2021 april–september"
 msgstr "2021 april–september"
 
-#: src/pages/webwork/extraoptical.js:100
+#: src/pages/webwork/extraoptical.js:111
 msgid "2021 november – 2022 februar"
 msgstr "2021 november – 2022 februar"
 
@@ -194,7 +194,7 @@ msgstr "Besøk min Github-profil"
 msgid "Besøk siden"
 msgstr "Besøk siden"
 
-#: src/pages/webwork/extraoptical.js:104
+#: src/pages/webwork/extraoptical.js:115
 msgid "Bidrag"
 msgstr "Bidrag"
 
@@ -219,6 +219,10 @@ msgstr "Bosatt i Trondheim"
 #~ msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 #~ msgstr "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
 
+#: src/pages/webwork/extraoptical.js:78
+msgid "De fleste av karusellene ble lagd med <0>react-slick</0>."
+msgstr "De fleste av karusellene ble lagd med <0>react-slick</0>."
+
 #: src/pages/webwork/portfolios.js:157
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
@@ -227,7 +231,7 @@ msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har in
 msgid "Denne porteføljen"
 msgstr "Denne porteføljen"
 
-#: src/pages/webwork/extraoptical.js:77
+#: src/pages/webwork/extraoptical.js:101
 msgid "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
 msgstr "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
 
@@ -238,6 +242,10 @@ msgstr "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim- og my
 #: src/pages/webwork/portfolios.js:75
 msgid "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 msgstr "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
+
+#: src/pages/webwork/extraoptical.js:83
+msgid "Dette har jeg lært"
+msgstr "Dette har jeg lært"
 
 #: src/pages/webwork/Portfolios.js:100
 #~ msgid "Dette var en portefølje jeg lagde under studiene. Etter et år ble informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd med desginet og måten jeg hadde kodet det på. Derfor skrotet jeg denne og begynte på siden du er på nå."
@@ -258,6 +266,10 @@ msgstr "Dokker blogg"
 #: src/components/layout/Footer/Footer.js:18
 msgid "Du finner meg på:"
 msgstr "Du finner meg på:"
+
+#: src/pages/webwork/extraoptical.js:74
+msgid "Ellers har jeg har hjulpet til med oversetting (med package'n <0>react-intl</0>) og lagt til litt animasjon (med <1>react-spring</1>)."
+msgstr "Ellers har jeg har hjulpet til med oversetting (med package'n <0>react-intl</0>) og lagt til litt animasjon (med <1>react-spring</1>)."
 
 #: src/pages/graphicwork/artistbooking.js:65
 #: src/pages/graphicwork/artistbooking.js:66
@@ -308,7 +320,7 @@ msgstr "Et poster jeg også lagde"
 msgid "Extra Optical forside"
 msgstr "Extra Optical forside"
 
-#: src/pages/webwork/extraoptical.js:99
+#: src/pages/webwork/extraoptical.js:110
 msgid "Extra Opticals eldre nettbutikk"
 msgstr "Extra Opticals eldre nettbutikk"
 
@@ -337,15 +349,15 @@ msgstr "Fagstoff"
 msgid "Fant ingen bilder"
 msgstr "Fant ingen bilder"
 
-#: src/pages/webwork/extraoptical.js:108
+#: src/pages/webwork/extraoptical.js:119
 msgid "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 msgstr "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 
-#: src/pages/webwork/extraoptical.js:125
+#: src/pages/webwork/extraoptical.js:136
 msgid "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 msgstr "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 
-#: src/pages/webwork/extraoptical.js:122
+#: src/pages/webwork/extraoptical.js:133
 msgid "Fikset på Extra Opticals Zendesk Help center."
 msgstr "Fikset på Extra Opticals Zendesk Help center."
 
@@ -451,13 +463,25 @@ msgstr "Innleveringsoppgave"
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Innleveringsoppgave på medier og kommunikasjon"
 
+#: src/pages/webwork/extraoptical.js:68
+msgid "Jeg har bidratt med UI-elementer som bilde- og produkt-karuseller, product-grids, tilbehørs pop-up og progress bars. I alle disse tilfellene måtte jeg også bruke GraphQL til å fylle inn elementene med ekte data."
+msgstr "Jeg har bidratt med UI-elementer som bilde- og produkt-karuseller, product-grids, tilbehørs pop-up og progress bars. I alle disse tilfellene måtte jeg også bruke GraphQL til å fylle inn elementene med ekte data."
+
+#: src/pages/webwork/extraoptical.js:90
+msgid "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge <0>Pull Requests</0> for den som skal se gjennom den."
+msgstr "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge <0>Pull Requests</0> for den som skal se gjennom den."
+
 #: src/pages/webwork/Extraoptical.js:70
 #~ msgid "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den og separere logikk og markup."
 #~ msgstr "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den og separere logikk og markup."
 
 #: src/pages/webwork/extraoptical.js:70
-msgid "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den. Å separere logikk og markup ble jeg også bedre på."
-msgstr "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den. Å separere logikk og markup ble jeg også bedre på."
+#~ msgid "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den. Å separere logikk og markup ble jeg også bedre på."
+#~ msgstr "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge Pull Requests for den som skal se gjennom den. Å separere logikk og markup ble jeg også bedre på."
+
+#: src/pages/webwork/extraoptical.js:94
+msgid "Jeg har blitt bedre på å separere logikk og markup og vet hvilke konsekvenser man får av å blande <0>CRLF</0> og <1>LF line endings</1> i samme prosjekt."
+msgstr "Jeg har blitt bedre på å separere logikk og markup og vet hvilke konsekvenser man får av å blande <0>CRLF</0> og <1>LF line endings</1> i samme prosjekt."
 
 #: src/pages/webwork/Extraoptical.js:65
 #~ msgid "Jeg har blitt bedre på å tilrettelegge PR for den som skal se gjennom den og separere logikk og markup."
@@ -468,8 +492,12 @@ msgid "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-all
 msgstr "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
 
 #: src/pages/webwork/extraoptical.js:65
-msgid "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages (react-slick, react-intl, react-spring)."
-msgstr "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages (react-slick, react-intl, react-spring)."
+#~ msgid "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages (react-slick, react-intl, react-spring)."
+#~ msgstr "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages (react-slick, react-intl, react-spring)."
+
+#: src/pages/webwork/extraoptical.js:86
+msgid "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder, bruke SSH-keys og forskjellige react-packages."
+msgstr "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder, bruke SSH-keys og forskjellige react-packages."
 
 #: src/pages/webwork/portfolios.js:38
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
@@ -503,7 +531,7 @@ msgstr "Kunst"
 msgid "Lag egne lister"
 msgstr "Lag egne lister"
 
-#: src/pages/webwork/extraoptical.js:119
+#: src/pages/webwork/extraoptical.js:130
 msgid "Lagd undersider"
 msgstr "Lagd undersider"
 
@@ -534,6 +562,10 @@ msgstr "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 #: src/pages/gallery.js:73
 msgid "Maleri, tegninger og annet"
 msgstr "Maleri, tegninger og annet"
+
+#: src/pages/webwork/extraoptical.js:58
+msgid "Mitt bidrag"
+msgstr "Mitt bidrag"
 
 #: src/pages/index.js:35
 msgid "MySQL & relasjonsdatabaser"
@@ -617,7 +649,7 @@ msgstr "React sertifikat"
 #~ msgid "Relasjonsdatabase"
 #~ msgstr "Relasjonsdatabase"
 
-#: src/pages/webwork/extraoptical.js:114
+#: src/pages/webwork/extraoptical.js:125
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Rettet opp / fjernet <0>broken links</0>"
 
@@ -667,13 +699,17 @@ msgstr "Søkeresultater"
 msgid "Tidligere portefølje"
 msgstr "Tidligere portefølje"
 
+#: src/pages/webwork/extraoptical.js:61
+msgid "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Arbeidsoppgavene har for det meste vært å skape UI-elementer med React og GraphQL."
+msgstr "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Arbeidsoppgavene har for det meste vært å skape UI-elementer med React og GraphQL."
+
 #: src/pages/webwork/Extraoptical.js:73
 #~ msgid "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har kodet i React og dokumentert bidrag i egne pull requests. Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
 #~ msgstr "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har kodet i React og dokumentert bidrag i egne pull requests. Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
 
 #: src/pages/webwork/extraoptical.js:58
-msgid "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har lagd UI-elementer, hentet data fra serveren og oversatt innhold med React."
-msgstr "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har lagd UI-elementer, hentet data fra serveren og oversatt innhold med React."
+#~ msgid "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har lagd UI-elementer, hentet data fra serveren og oversatt innhold med React."
+#~ msgstr "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har lagd UI-elementer, hentet data fra serveren og oversatt innhold med React."
 
 #: src/pages/webwork/fakturanett.js:30
 msgid "Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer."

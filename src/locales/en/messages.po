@@ -93,7 +93,7 @@ msgstr "<0>In this I worked in a group with two others. My responsibilities was 
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 msgstr "<0>Competence</0><1>I have experience in web development and graphic design.</1>"
 
-#: src/pages/webwork/videoopplasting.js:86
+#: src/pages/webwork/videoopplasting.js:94
 msgid "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av Lit-baserte komponenter som vi for det meste lagde selv.</14>"
 msgstr "<0>The assignment specification was much like that of the first project. In this assignment we had to make different user types, which was <1>admin</1>, <2>teacher</2> og <3>students</3>, each with their own set of permissions:</0><4><5><6>students</6> should be able to wach videos, comment, insert video into playlists etc.</5><7><8>teachers</8> should have the same permissions as students, plus ability to upload videos</7><9><10>admin</10> should have all the persmissions of the preceding roles, plus permission to change the user type for other users. (To registrate a teacher user, one has to start with a student account, and then send a wants-to-get-teacher-user request to admin.)</9></4><11>The web app should also be a <12>Single page application</12>.</11><13>In this project I worked with one other student. My responsibility was to make video uploading, -playing and ‑overview functionality. I also made most of the user editing functionality for admins. I also did some CSS styling.</13><14>The app was made using Lit-based components that we for the most part made ourselves.</14>"
 
@@ -509,7 +509,7 @@ msgstr "Corrected / removed broken links"
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Insert your own elements, customize to your needs"
 
-#: src/pages/webwork/videoopplasting.js:132
+#: src/pages/webwork/videoopplasting.js:140
 msgid "Side med videospiller, meny og transkript"
 msgstr "Page with video player, menu and transcript"
 
@@ -576,30 +576,26 @@ msgid "Veldig god på {tech}"
 msgstr "Very good at {tech}"
 
 #: src/pages/webwork/videoopplasting.js:78
-msgid "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components."
-msgstr "Tool for creating component-based webpages. Lit differs from React by using HTML templating literals as its templating language (and not JSX). Lit has only class-based components."
-
-#: src/pages/webwork/Videoopplasting.js:82
-#~ msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
-#~ msgstr "Tool for creating component-based webpages. LitElement differs from React by using HTML templating literals as its templating language (and not JSX). LitElement has only class-based components."
+msgid "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components. Lit brukes til å lage web-komponenter som man f.eks. finner på <1>https://shoelace.style/</1>"
+msgstr "Tool for creating component-based webpages. Lit differs from React by using HTML templating literals as its templating language (and not JSX). Lit also only has <0>class-based</0> components. Lit is being used to create web-components that can be found on eg. <1>https://shoelace.style/</1>"
 
 #: src/components/common/ToolList/ToolList.js:8
 msgid "Verktøy:"
 msgstr "Tools:"
 
-#: src/pages/webwork/videoopplasting.js:147
+#: src/pages/webwork/videoopplasting.js:155
 msgid "Videooversikt"
 msgstr "Video overview"
 
-#: src/pages/webwork/videoopplasting.js:140
+#: src/pages/webwork/videoopplasting.js:148
 msgid "Videoside bunn"
 msgstr "Video page bottom"
 
-#: src/pages/webwork/videoopplasting.js:139
+#: src/pages/webwork/videoopplasting.js:147
 msgid "Videoside som viser kommentarer og hvilke spillelister den er i"
 msgstr "Video page that shows comments and which playlists it resides in"
 
-#: src/pages/webwork/videoopplasting.js:133
+#: src/pages/webwork/videoopplasting.js:141
 msgid "Videoside topp"
 msgstr "Video page top"
 
@@ -716,11 +712,11 @@ msgstr "drafts"
 msgid "utkast til bok-cover"
 msgstr "drafts to book cover"
 
-#: src/pages/webwork/videoopplasting.js:153
+#: src/pages/webwork/videoopplasting.js:161
 msgid "videoopplastingsside"
 msgstr "video uploading page"
 
-#: src/pages/webwork/videoopplasting.js:146
+#: src/pages/webwork/videoopplasting.js:154
 msgid "videooversikt"
 msgstr "video overview"
 
@@ -732,7 +728,7 @@ msgstr "video overview in PHP-project"
 msgid "videospiller og transkript"
 msgstr "video player and transcript"
 
-#: src/pages/webwork/videoopplasting.js:154
+#: src/pages/webwork/videoopplasting.js:162
 msgid "«Last opp video»-siden"
 msgstr "“upload video”-page"
 

@@ -117,7 +117,7 @@ msgstr "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videooppla
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 msgstr "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 
-#: src/pages/webwork/videoopplasting.js:86
+#: src/pages/webwork/videoopplasting.js:94
 msgid "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av Lit-baserte komponenter som vi for det meste lagde selv.</14>"
 msgstr "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av Lit-baserte komponenter som vi for det meste lagde selv.</14>"
 
@@ -629,7 +629,7 @@ msgstr "Rettet opp / fjernet <0>broken links</0>"
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Sett inn egne elementer, tilpass etter behov"
 
-#: src/pages/webwork/videoopplasting.js:132
+#: src/pages/webwork/videoopplasting.js:140
 msgid "Side med videospiller, meny og transkript"
 msgstr "Side med videospiller, meny og transkript"
 
@@ -696,8 +696,16 @@ msgid "Veldig god på {tech}"
 msgstr "Veldig god på {tech}"
 
 #: src/pages/webwork/videoopplasting.js:78
-msgid "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components."
-msgstr "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components."
+#~ msgid "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components."
+#~ msgstr "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components."
+
+#: src/pages/webwork/videoopplasting.js:78
+msgid "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components. Lit brukes til å lage web-komponenter som man f.eks. finner på <1>https://shoelace.style/</1>"
+msgstr "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components. Lit brukes til å lage web-komponenter som man f.eks. finner på <1>https://shoelace.style/</1>"
+
+#: src/pages/webwork/videoopplasting.js:78
+#~ msgid "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components. Lit til å lage web-komponenter, som man f.eks. finner på <1>https://shoelace.style/</1>"
+#~ msgstr "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components. Lit til å lage web-komponenter, som man f.eks. finner på <1>https://shoelace.style/</1>"
 
 #: src/pages/webwork/Videoopplasting.js:82
 #~ msgid "Verktøy for å bygge komponent-baserte nettsider. LitElement skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har LitElement kun <0>class-based</0> components."
@@ -707,7 +715,7 @@ msgstr "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra R
 msgid "Verktøy:"
 msgstr "Verktøy:"
 
-#: src/pages/webwork/videoopplasting.js:147
+#: src/pages/webwork/videoopplasting.js:155
 msgid "Videooversikt"
 msgstr "Videooversikt"
 
@@ -715,15 +723,15 @@ msgstr "Videooversikt"
 #~ msgid "Videoside"
 #~ msgstr "Videoside"
 
-#: src/pages/webwork/videoopplasting.js:140
+#: src/pages/webwork/videoopplasting.js:148
 msgid "Videoside bunn"
 msgstr "Videoside bunn"
 
-#: src/pages/webwork/videoopplasting.js:139
+#: src/pages/webwork/videoopplasting.js:147
 msgid "Videoside som viser kommentarer og hvilke spillelister den er i"
 msgstr "Videoside som viser kommentarer og hvilke spillelister den er i"
 
-#: src/pages/webwork/videoopplasting.js:133
+#: src/pages/webwork/videoopplasting.js:141
 msgid "Videoside topp"
 msgstr "Videoside topp"
 
@@ -840,11 +848,11 @@ msgstr "utkast"
 msgid "utkast til bok-cover"
 msgstr "utkast til bok-cover"
 
-#: src/pages/webwork/videoopplasting.js:153
+#: src/pages/webwork/videoopplasting.js:161
 msgid "videoopplastingsside"
 msgstr "videoopplastingsside"
 
-#: src/pages/webwork/videoopplasting.js:146
+#: src/pages/webwork/videoopplasting.js:154
 msgid "videooversikt"
 msgstr "videooversikt"
 
@@ -856,7 +864,7 @@ msgstr "videoside i PHP-prosjekt"
 msgid "videospiller og transkript"
 msgstr "videospiller og transkript"
 
-#: src/pages/webwork/videoopplasting.js:154
+#: src/pages/webwork/videoopplasting.js:162
 msgid "«Last opp video»-siden"
 msgstr "«Last opp video»-siden"
 

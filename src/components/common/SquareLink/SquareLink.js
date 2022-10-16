@@ -29,7 +29,12 @@ const SquareLink = ({
         <Link href={link} className={classes.root}>
           <a>
             <div className={classes.frame}>
-              <FutureImage className={classes.img} src={imgSrc} alt={imgAlt} />
+              <FutureImage
+                placeholder="blur"
+                className={classes.img}
+                src={imgSrc}
+                alt={imgAlt}
+              />
             </div>
             <h3>{title}</h3>
             <h4>{subtitle}</h4>

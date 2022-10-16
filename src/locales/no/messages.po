@@ -329,8 +329,8 @@ msgstr "Extra Opticals eldre nettbutikk"
 #~ msgstr "Extra Opticals eldre side"
 
 #: src/pages/webwork/extraoptical.js:21
-msgid "Extra Opticals nettbutikk"
-msgstr "Extra Opticals nettbutikk"
+#~ msgid "Extra Opticals nettbutikk"
+#~ msgstr "Extra Opticals nettbutikk"
 
 #: src/pages/webwork/Extraoptical.js:22
 #~ msgid "Extra Opticals nye netbutikk fra februar"
@@ -339,6 +339,10 @@ msgstr "Extra Opticals nettbutikk"
 #: src/pages/webwork/Extraoptical.js:23
 #~ msgid "Extra Opticals nye nettbutikk"
 #~ msgstr "Extra Opticals nye nettbutikk"
+
+#: src/pages/webwork/extraoptical.js:21
+msgid "Extra Opticals nåværende nettbutikk"
+msgstr "Extra Opticals nåværende nettbutikk"
 
 #: src/pages/webwork/fagstoff.js:20
 #: src/pagesInfo.js:190

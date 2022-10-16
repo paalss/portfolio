@@ -263,8 +263,8 @@ msgid "Extra Opticals eldre nettbutikk"
 msgstr "Extra Optical’s older online site"
 
 #: src/pages/webwork/extraoptical.js:21
-msgid "Extra Opticals nettbutikk"
-msgstr "Extra Optical’s online store"
+msgid "Extra Opticals nåværende nettbutikk"
+msgstr "Extra Optical’s current online store"
 
 #: src/pages/webwork/fagstoff.js:20
 #: src/pagesInfo.js:190

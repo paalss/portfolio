@@ -5,10 +5,10 @@ https://paalss.github.io/portfolio/
 ## Utvikling
 
 ### Serve
+
 ```bash
 yarn dev
 ```
-http://localhost:3000
 
 ### :rocket: Deploy
 
@@ -17,17 +17,9 @@ yarn build # for at kunst-siden skal fungere
 git push # på master branch
 ```
 
-Evt. kan du `yarn start` etter `yarn build` for å sjekke at alt er i orden med kunst-siden.
+Evt. `yarn start` etter `yarn build` for å sjekke at alt er i orden med kunst-siden.
 
-### Trenger ikke bruke Git Bash for å lage build
-
-Går helt fint å bruke WSL etter Next-ifiseringen av porteføljen
-
-### Deploy-problemer etter checkout
-
-Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg husker ikke hva for å serve appen, så kan det hende at du ikke får predeployet som normalt og ikke deployet i det hele tatt når du er tilbake på siste master-versjon igjen. Har notert løsningen her:
-
-[deploy-problem-losning.md](deploy-problem-losning.md)
+Trenger ikke å bruke Git Bash. Går helt fint å bruke WSL til dette etter Next-ifiseringen av porteføljen
 
 ### Oversett innhold
 
@@ -43,6 +35,38 @@ Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg
 Ikke bruk `t` for tekst i pagesInfo.js, det oppdateres kun når det er JSX (`<Trans>`) og ikke string (`t`). Litt synd med tanke på image alt-attributtene som forblir uoversettet, da.
 
 https://lingui.js.org/tutorials/react.html
+
+### Instagram-galleri API ressurser
+
+#### Har token gått ut på dato?
+
+1. finn app-code (se postman)
+2. Sett inn app-code i denne URL-en: `https://api.instagram.com/oauth/authorize?client_id={app-id}&redirect_uri=https://paalss.github.io/portfolio/&scope=user_profile,user_media&response_type=code`
+3. Lim inn URL i nettleser, logg inn og gi tilgang
+4. Når du har kommet til din porteføje, kopier koden som har dukket opp i URL. `code=` (begynn tekstmarkering) `[code]` (avslutt markering) `#_`
+5. lim inn kode i code variabelen i postman (Klikk Insta api > Variables)
+6. Hent access_token med auth token
+7. osv.
+
+#### Opprette ny
+
+https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
+
+https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-profiles-and-media
+
+1. Dupliser .env.example og navngi ny fil .env:
+   `cp .env.example .env`
+   (.env.example ligger i prosjektrota)
+
+2. Lim inn long lived access token og tracking id
+
+---
+
+### Deploy-problemer etter checkout
+
+Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg husker ikke hva for å serve appen, så kan det hende at du ikke får predeployet som normalt og ikke deployet i det hele tatt når du er tilbake på siste master-versjon igjen. Har notert løsningen her:
+
+[deploy-problem-losning.md](deploy-problem-losning.md)
 
 ### AVIF / webp bildekonvertering
 
@@ -78,34 +102,6 @@ https://www.xconvert.com/compress-webp
 
 https://www.compresss.com/compress-avif.html
 
-### Instagram-galleri API ressurser
-
-#### Har token gått ut på dato?
-
-1. finn app-code (se postman)
-2. Sett inn app-code i denne URL-en: `https://api.instagram.com/oauth/authorize?client_id={app-id}&redirect_uri=https://paalss.github.io/portfolio/&scope=user_profile,user_media&response_type=code`
-3. Lim inn URL i nettleser, logg inn og gi tilgang
-4. Når du har kommet til din porteføje, kopier koden som har dukket opp i URL. `code=` (begynn tekstmarkering) `[code]` (avslutt markering) `#_`
-5. lim inn kode i code variabelen i postman (Klikk Insta api > Variables)
-6. Hent access_token med auth token
-7. osv.
-
-#### Opprette ny
-
-https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
-
-https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-profiles-and-media
-
-1. Dupliser .env.example og navngi ny fil .env:
-   `cp .env.example .env`
-   (.env.example ligger i prosjektrota)
-
-2. Lim inn long lived access token og tracking id
-
 ### Kilder
 
 [kilder.md](kilder.md)
-
-### Create React App README
-
-[CRA-README.md](CRA-README.md)

@@ -16,6 +16,7 @@ https://paalss.github.io/portfolio/
 ```
 
 ### Trenger ikke bruke Git Bash for å lage build
+
 Går helt fint å bruke WSL etter Next-ifiseringen av porteføljen
 
 ### Deploy-problemer etter checkout
@@ -32,6 +33,7 @@ Hvis du har checkoutet en tidligere commit og kjørt yarn og yarn install og jeg
 4. `yarn compile` - genererer/oppdaterer JS message catalog
 
 #### Valgfritt
+
 5. `yarn clean` - fjern ubrukte oversettelser - bare husk at engelsk tekst i ubrukte (utdaterte) oversettelser kan føres over i ny oppdatert tekst.
 
 Ikke bruk `t` for tekst i pagesInfo.js, det oppdateres kun når det er JSX (`<Trans>`) og ikke string (`t`). Litt synd med tanke på image alt-attributtene som forblir uoversettet, da.
@@ -46,11 +48,10 @@ https://lingui.js.org/tutorials/react.html
 
 **Bruk WSL, ikke git bash**
 
-* `npx @squoosh/cli --avif auto test.png`
-  
-* `npx @squoosh/cli --webp auto test.png`
+- `npx @squoosh/cli --avif auto test.png`
+- `npx @squoosh/cli --webp auto test.png`
 
-* `npx @squoosh/cli --avif auto mappe-med-bilder/`
+- `npx @squoosh/cli --avif auto mappe-med-bilder/`
 
 Se mer:
 
@@ -92,8 +93,8 @@ https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
 https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-profiles-and-media
 
 1. Dupliser .env.example og navngi ny fil .env:
-`cp .env.example .env`
-(.env.example ligger i prosjektrota)
+   `cp .env.example .env`
+   (.env.example ligger i prosjektrota)
 
 2. Lim inn long lived access token og tracking id
 

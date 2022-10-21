@@ -4,16 +4,20 @@ https://paalss.github.io/portfolio/
 
 ## Utvikling
 
-```json
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "extract": "lingui extract",
-    "clean": "lingui extract --clean",
-    "compile": "lingui compile"
-  },
+### Serve
+```bash
+yarn dev
 ```
+http://localhost:3000
+
+### :rocket: Deploy
+
+```bash
+yarn build # for at kunst-siden skal fungere
+git push # på master branch
+```
+
+Evt. kan du `yarn start` etter `yarn build` for å sjekke at alt er i orden med kunst-siden.
 
 ### Trenger ikke bruke Git Bash for å lage build
 

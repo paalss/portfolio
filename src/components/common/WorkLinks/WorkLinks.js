@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./WorkLinks.module.css"
 
 // icons
 import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
@@ -12,12 +11,12 @@ const WorkLinks = ({ site = false, repo = false }) => {
   return (
     <>
       {site && (
-        <a className={classes.link} href={site} rel="noopener noreferrer">
+        <a className="button" href={site} rel="noopener noreferrer">
           <Fa icon={faGlobe} /> {t`Besøk siden`}
         </a>
       )}
       {repo && (
-        <a className={classes.link} href={repo} rel="noopener noreferrer">
+        <a className="button" href={repo} rel="noopener noreferrer">
           <Fa icon={faCode} /> {t`Kildekode`}
         </a>
       )}

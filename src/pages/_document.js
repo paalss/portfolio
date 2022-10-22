@@ -12,7 +12,7 @@ export default function Document() {
           name="google-site-verification"
           content="QHRtIQSyLGdlaOZq_NjWPRG1WIEudGxXECk1wey5F1U"
         />
-        {/* <link rel="shortcut icon" href="public/favicon.ico" /> */}
+        <link rel="shortcut icon" href="/favicon.ico" />
         <meta
           name="description"
           content="Experience with: React, HTML, CSS, MySQL ..."

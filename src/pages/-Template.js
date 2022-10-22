@@ -2,6 +2,7 @@ import React from 'react';
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
+import WorkHeaderImage from '../components/common/WorkHeaderImage';
 
 // components
 // import Figure from "../../components/common/Figure";
@@ -9,9 +10,8 @@ import { Trans, t } from "@lingui/macro";
 
 const Template = () => (
   <>
-    <img
+    <WorkHeaderImage
       src={projImg}
-      className="work-heading-img"
       width={0}
       height={0}
       alt={t`_bilde`}

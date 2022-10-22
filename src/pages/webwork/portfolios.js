@@ -7,9 +7,13 @@ import { Trans, t } from "@lingui/macro";
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
 import WorkHeaderImage from "../../components/common/WorkHeaderImage";
+import Head from "next/head";
 
 const Portfolios = () => (
   <>
+    <Head>
+      <title>{t`Denne porteføljen`} – Pål Stakvik</title>
+    </Head>
     <>
       <WorkHeaderImage
         src="/images/webwork/portfolios/pf5.webp"

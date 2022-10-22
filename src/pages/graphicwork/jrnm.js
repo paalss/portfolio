@@ -6,12 +6,16 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import Head from "next/head";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const JRNM = () => (
   <>
-    <img
+    <Head>
+      <title>Jr NM ski 2015 logo – Pål Stakvik</title>
+    </Head>
+    <WorkHeaderImage
       src="/images/graphicwork/jr-nm-ski/IMG_2413-min.webp"
-      className="work-heading-img"
       width={5184}
       height={3456}
       alt="Junior NM på ski logo på skilt"

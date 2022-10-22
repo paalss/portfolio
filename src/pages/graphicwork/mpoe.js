@@ -6,12 +6,16 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage"
+import Head from "next/head";
 
 const MPOE = () => (
   <>
-    <img
+    <Head>
+      <title>{t`Bok-cover`} – Pål Stakvik</title>
+    </Head>
+    <WorkHeaderImage
       src="/images/graphicwork/mpoe/mpoe-cropped.webp"
-      className="work-heading-img"
       width={961}
       height={446}
       alt={t`mord på orienteksekspressen bok-cover`}

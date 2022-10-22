@@ -7,9 +7,13 @@ import { Trans, t } from "@lingui/macro";
 import WorkHeading from "../../components/common/WorkHeading";
 import HT from "../../components/common/HtmlTag";
 import WorkHeaderImage from "../../components/common/WorkHeaderImage";
+import Head from "next/head";
 
 const Extraoptical = () => (
   <>
+    <Head>
+      <title>Extra Optical – Pål Stakvik</title>
+    </Head>
     <WorkHeaderImage
       src="/images/webwork/extraoptical/sider/front-page-pwa.png"
       width={1504}

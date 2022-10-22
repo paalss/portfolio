@@ -6,9 +6,13 @@ import { Trans, t } from "@lingui/macro";
 // components
 import WorkHeading from "../../components/common/WorkHeading";
 import WorkHeaderImage from "../../components/common/WorkHeaderImage";
+import Head from "next/head";
 
 const Maclean = () => (
   <>
+    <Head>
+      <title>{t`Alistair MacLean nettside redesign`} – Pål Stakvik</title>
+    </Head>
     <WorkHeaderImage
       src="/images/webwork/maclean/alistairmaclean-full.webp"
       width={837}

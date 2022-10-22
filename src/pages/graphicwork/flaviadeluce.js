@@ -6,14 +6,18 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import Head from "next/head";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const Flaviadeluce = () => (
   <>
-    <img
+    <Head>
+      <title>{t`Bok web-banner`} – Pål Stakvik</title>
+    </Head>
+    <WorkHeaderImage
       src="/images/graphicwork/flaviadeluce/flavia.webp"
-      className="work-heading-img"
-      width={0}
-      height={0}
+      width={1024}
+      height={725}
       alt="web-banner"
     />
     <WorkHeading

@@ -14,7 +14,7 @@ import { Trans, t } from "@lingui/macro";
 const Index = () => (
   <>
     <Head>
-      <title>Pål Stakvik | Web dev</title>
+      <title>Pål Stakvik</title>
     </Head>
 
     <Trans>

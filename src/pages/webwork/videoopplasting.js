@@ -6,9 +6,13 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import Head from "next/head";
 
 const Videoopplasting = () => (
   <>
+    <Head>
+      <title>{t`Videoopplasting`} – Pål Stakvik</title>
+    </Head>
     <Trans>
       <p>
         Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle

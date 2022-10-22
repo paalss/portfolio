@@ -1,14 +1,18 @@
-import React from 'react';
+import React from "react";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
-import WorkHeaderImage from '../../components/common/WorkHeaderImage';
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
+import Head from "next/head";
 
 const Ytwrapped = () => (
   <>
+    <Head>
+      <title>YT-wrapped – Pål Stakvik</title>
+    </Head>
     <WorkHeaderImage
       src="/images/webwork/yt-wrapped/img.avif"
       width={1059.58}
@@ -34,8 +38,8 @@ const Ytwrapped = () => (
     <p>
       <Trans>
         For å bruke denne applikasjonen så forutsetter det at du har vært
-        innlogget på Youtube mens du har sett videoene, slik at man kan
-        skaffe disse datene og laste dem opp i denne appen.
+        innlogget på Youtube mens du har sett videoene, slik at man kan skaffe
+        disse datene og laste dem opp i denne appen.
       </Trans>
     </p>
   </>

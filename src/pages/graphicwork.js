@@ -1,6 +1,8 @@
-import React from 'react';
+import Head from "next/head";
+import React from "react";
 import SquareLink from "../components/common/SquareLink";
 import { graphicworkInfo } from "../pagesInfo";
+import { t } from "@lingui/macro";
 
 const Graphicwork = () => (
   <>

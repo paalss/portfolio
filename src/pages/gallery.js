@@ -3,6 +3,7 @@ import LightboxImage from "../components/common/LightboxImage";
 import classes from "./gallery.module.css";
 
 import { t, Trans } from "@lingui/macro";
+import Head from "next/head";
 
 const Gallery = (props) => {
   let content = (
@@ -70,6 +71,9 @@ const Gallery = (props) => {
 
   return (
     <>
+      <Head>
+        <title>{t`Kunst`} – Pål Stakvik</title>
+      </Head>
       <h2>{t`Maleri, tegninger og annet`}</h2>
       <p>{t`Bilder jeg har lagt ut på min Instagram`}</p>
 

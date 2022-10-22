@@ -6,10 +6,14 @@ import { t, Trans } from "@lingui/macro";
 // components
 import WorkHeading from "../../components/common/WorkHeading";
 import WorkHeaderImage from "../../components/common/WorkHeaderImage";
+import Head from "next/head";
 // import Figure from "../../components/common/Figure";
 
 const Fakturanett = () => (
   <>
+    <Head>
+      <title>Fakturanett – Pål Stakvik</title>
+    </Head>
     <WorkHeaderImage
       src="/images/webwork/fakturanett/page.avif"
       width={1294}

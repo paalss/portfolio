@@ -6,9 +6,13 @@ import { Trans, t } from "@lingui/macro";
 // components
 import WorkHeading from "../../components/common/WorkHeading";
 import WorkHeaderImage from "../../components/common/WorkHeaderImage";
+import Head from "next/head";
 
 const Fagstoff = () => (
   <>
+    <Head>
+      <title>{t`Fagstoff`} – Pål Stakvik</title>
+    </Head>
     <WorkHeaderImage
       src="/images/webwork/fagstoff/fagstoff.webp"
       width={1893}
@@ -25,7 +29,7 @@ const Fagstoff = () => (
       }}
       tools={["HTML", "CSS"]}
     />
-    
+
     <p>
       <Trans>
         En nettside som jeg førte opp webkoding-notater i. Sist oppdatert

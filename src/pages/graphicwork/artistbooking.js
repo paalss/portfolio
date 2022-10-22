@@ -6,9 +6,13 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import Head from "next/head";
 
 const Artistbooking = () => (
   <>
+    <Head>
+      <title>Artist booking – Pål Stakvik</title>
+    </Head>
     <WorkHeading
       heading="Artistbooking prototype"
       timespan={t`2019 høst`}
@@ -25,9 +29,7 @@ const Artistbooking = () => (
       </Trans>
     </p>
     <h3>
-      <Trans>
-        Noen utvalgte bilder
-      </Trans>
+      <Trans>Noen utvalgte bilder</Trans>
     </h3>
     <div uk-lightbox="animation: slide" className="flex wrap">
       <Figure

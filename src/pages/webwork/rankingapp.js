@@ -7,9 +7,13 @@ import { Trans, t } from "@lingui/macro";
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
 import WorkHeaderImage from "../../components/common/WorkHeaderImage";
+import Head from "next/head";
 
 const Rankingapp = () => (
   <>
+    <Head>
+      <title>Ranking app – Pål Stakvik</title>
+    </Head>
     <WorkHeaderImage
       src="/images/webwork/rankingapp/app-recording1.gif"
       width={1296}
@@ -23,15 +27,7 @@ const Rankingapp = () => (
       siteInfo={{
         repo: "https://github.com/paalss/Ranking-app",
       }}
-      tools={[
-        "TypeScript",
-        "Jest",
-        "PHP",
-        "MySQL",
-        "HTML",
-        "CSS",
-        "Docker",
-      ]}
+      tools={["TypeScript", "Jest", "PHP", "MySQL", "HTML", "CSS", "Docker"]}
     />
 
     <Trans>

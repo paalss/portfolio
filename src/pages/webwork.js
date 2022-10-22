@@ -9,8 +9,9 @@ import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 // react lingui
-import { Trans } from "@lingui/macro";
+import { t, Trans } from "@lingui/macro";
 import Filter from "../components/common/Filter/Filter";
+import Head from "next/head";
 
 // const filteredWebwork = () => {};
 const countProjectsWith = (tech) => {
@@ -58,7 +59,7 @@ const techsToFilterBy = [
   "PHP",
   "HTML",
   "CSS",
-  "Docker"
+  "Docker",
 ];
 
 const Webwork = () => {

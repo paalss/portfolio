@@ -9,3 +9,7 @@ Remixet kode fra disse
 
 Hjelpeverktøy
 - [PurifyCSS Online](https://purifycss.online/)
+
+Box-shadow
+- https://www.joshwcomeau.com/shadow-palette/
+- https://getcssscan.com/css-box-shadow-examples

@@ -55,7 +55,7 @@ msgstr "2022 January–now"
 msgid "2022 mai–juni"
 msgstr "2022 May–June"
 
-#: src/pages/webwork/rankingapp.js:32
+#: src/pages/webwork/rankingapp.js:33
 msgid "<0>Dette prosjektet er arkivert og jobbes ikke på lenger.</0><1>I slutten av juli 2020 begynte jeg å lage denne webappen for å rangere ting, hvor poenggivingen er en sortering fra best til dårligst. Potensielle ideer jeg hadde for appen, var å la brukerne få dele/vise listen sin med andre brukere, bidra på felles lister og importere listelementer direkte fra andre databaser (med web API).</1><2>Motivasjon til prosjektet</2><3>Kort sagt: Jeg ville prøve å lage det ranker.com burde ha vært. Og for å ha et kodeprosjekt å drive på med.</3><4>Ranker.com er en nettapp som hadde mye av den samme funksjonaliteten som jeg nevnte over. Jeg likte det, og det var derfor skuffende da ranker.com plutselig på et tidspunkt bestemte seg for å skrote konseptet sitt. (De byttet ut å ordne lister mot å kun velge én favoritt per kategori.) Nettsidedesignet syntes jeg allerede ikke var særlig pent. Det var dette, samt behovet mitt for å holde på med noe koding etter å ha blitt ferdig med studiene, som fikk meg til å begynne dette prosjektet.</4><5>Det skal nevnes at ranker.com i ettertid har ombestemt seg og gått tilbake til sitt originale konsept igjen. Men nettsiden er fortsatt et stort rot.</5><6>Uansett, jeg hadde jo blitt bedre på programmering i JavaScript, så det i seg selv er jo motivasjon nok til å fortsette med det.</6>"
 msgstr "<0>This project is archieved and is no longer developed.</0>"
 
@@ -129,15 +129,15 @@ msgstr "Masters {tech} well"
 msgid "Beskrivelse"
 msgstr "Description"
 
-#: src/pages/webwork/rankingapp.js:85
+#: src/pages/webwork/rankingapp.js:86
 msgid "Beste bøker listeeksempel"
 msgstr "Best books list example"
 
-#: src/pages/webwork/rankingapp.js:78
+#: src/pages/webwork/rankingapp.js:79
 msgid "Beste metroidvanias listeeksempel"
 msgstr "Best metroidvanias list example"
 
-#: src/pages/webwork.js:111
+#: src/pages/webwork.js:108
 msgid "Besøk min Github-profil"
 msgstr "Visit my Github-profile"
 
@@ -316,11 +316,10 @@ msgstr "Spare time"
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Spare-time project which I never finished"
 
-#: src/pages/webwork/rankingapp.js:86
+#: src/pages/webwork/rankingapp.js:87
 msgid "Få pene og oversiktlige lister"
 msgstr "Get nice and pretty lists"
 
-#: src/pages/graphicwork.js:10
 #: src/pages/index.js:62
 #: src/pagesInfo.js:228
 msgid "Grafisk"
@@ -415,7 +414,7 @@ msgstr "Code"
 msgid "Kunst"
 msgstr "Art"
 
-#: src/pages/webwork/rankingapp.js:72
+#: src/pages/webwork/rankingapp.js:73
 msgid "Lag egne lister"
 msgstr "Create your own lists"
 
@@ -468,7 +467,6 @@ msgid "Nettside med overskriften 'fagstoff'"
 msgstr "Webpage with its heading reading “subject matter”"
 
 #: src/pages/index.js:57
-#: src/pages/webwork.js:94
 #: src/pagesInfo.js:96
 msgid "Nettsider"
 msgstr "Websites"
@@ -477,7 +475,7 @@ msgstr "Websites"
 msgid "Noen utvalgte bilder"
 msgstr "Some selected images"
 
-#: src/pages/webwork/rankingapp.js:71
+#: src/pages/webwork/rankingapp.js:72
 msgid "Oversikt over lister eksempel"
 msgstr "Overview of lists example"
 
@@ -518,7 +516,7 @@ msgstr "React certificate"
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 
-#: src/pages/webwork/rankingapp.js:79
+#: src/pages/webwork/rankingapp.js:80
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Insert your own elements, customize to your needs"
 
@@ -725,4 +723,4 @@ msgstr "“upload video”-page"
 
 #: src/components/common/Certificate/Certificate.js:48
 msgid "Åpne Udemy siden for dette sertifikatet"
-msgstr "Open the Udemy page for this certificate>>>>>>> 556e9009f0a4a2302b106c64c84e413aebd297ea"
+msgstr "Open the Udemy page for this certificate"

@@ -14,10 +14,10 @@ import ohmyaliasesImg from "../public/images/webwork/ohmyaliases/img.avif";
 import extraopticalImg from "../public/images/webwork/extraoptical/logo/eo-icon.webp";
 import dokkerImg from "../public/images/webwork/dokker/logo/dokkericon.webp";
 import rankingappImg from "../public/images/webwork/rankingapp/rankingapp-small.webp";
-import videoopplastingImg from "../public/images/webwork/www-teknologi/prosjekt2-5-videoside-small.webp";
+import videoopplastingImg from "../public/images/webwork/www-teknologi/split-videouploading.webp";
 import fagstoffImg from "../public/images/webwork/fagstoff/fagstoff-small.webp";
 import macleanImg from "../public/images/webwork/maclean/alistairmaclean.webp";
-import portfoliosImg from "../public/images/webwork/portfolios/pf5.webp";
+import portfoliosImg from "../public/images/webwork/portfolios/split-portfolios.webp";
 
 // graphicwork
 import artistbookingImg from "../public/images/graphicwork/artistbooking/Android-Mobile–1.webp";

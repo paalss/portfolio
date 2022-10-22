@@ -60,6 +60,10 @@ https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-
 
 2. Lim inn long lived access token og tracking id
 
+### Split images
+
+https://safeimagekit.com/download?tool=split
+
 ---
 
 ### Deploy-problemer etter checkout

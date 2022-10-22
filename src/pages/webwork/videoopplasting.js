@@ -7,12 +7,19 @@ import { Trans, t } from "@lingui/macro";
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
 import Head from "next/head";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const Videoopplasting = () => (
   <>
     <Head>
       <title>{t`Videoopplasting`} – Pål Stakvik</title>
     </Head>
+    <WorkHeaderImage
+      src="/images/webwork/www-teknologi/split-videouploading.webp"
+      width={951}
+      height={605}
+    />
+    <h2>{t`Videoopplastingsapper`}</h2>
     <Trans>
       <p>
         Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle

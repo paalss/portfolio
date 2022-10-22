@@ -1,4 +1,5 @@
 import FutureImage from "next/future/image";
+import { number, string } from "prop-types";
 import React from "react";
 import classes from "./WorkHeaderImage.module.css";
 
@@ -14,3 +15,10 @@ const WorkHeaderImage = (props) => {
 };
 
 export default WorkHeaderImage;
+
+WorkHeaderImage.propTypes = {
+  src: string,
+  width: number,
+  height: number,
+  alt: string,
+};

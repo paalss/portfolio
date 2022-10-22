@@ -16,13 +16,13 @@ const Portfolios = () => (
     </Head>
     <>
       <WorkHeaderImage
-        src="/images/webwork/portfolios/pf5.webp"
+        src="/images/webwork/portfolios/split-portfolios.webp"
         alt={t`portefølje med foto og ferdigheter`}
-        width={1229}
-        height={7013}
+        width={951}
+        height={605}
       />
       <WorkHeading
-        heading={t`Portefølje`}
+        heading={t`Portefølje` + " 5"}
         timespan={t`2020 desember–nå`}
         siteInfo={{
           repo: "https://github.com/paalss/portfolio",
@@ -86,7 +86,7 @@ const Portfolios = () => (
     <>
       <WorkHeading
         extraSpaceAbove={true}
-        heading={t`Tidligere portefølje`}
+        heading={t`Portefølje` + " 4"}
         timespan="2019"
         siteInfo={{
           repo: "https://github.com/paalss/portfolio-2019-fritid",
@@ -125,7 +125,7 @@ const Portfolios = () => (
     <>
       <WorkHeading
         extraSpaceAbove={true}
-        heading={t`Innlevering i webkoding`}
+        heading={t`Portefølje` + " 3"}
         timespan={t`2016 høst`}
         siteInfo={{
           site: "https://paalss.github.io/portfolio-2016-2-webkoding-final-delivery",
@@ -148,7 +148,7 @@ const Portfolios = () => (
     <>
       <WorkHeading
         extraSpaceAbove={true}
-        heading={t`Enda tidligere portefølje`}
+        heading={t`Portefølje` + " 2"}
         timespan="2016"
         siteInfo={{
           site: "https://paalss.github.io/portfolio-2016-1-fritid",
@@ -166,7 +166,7 @@ const Portfolios = () => (
           imgSrc="/images/webwork/portfolios/pf2-full2.webp"
           imgWidth={1331}
           imgHeight={752}
-          imgAlt={t`portefølje 2`}
+          imgAlt={t`Portefølje` + " 2"}
           caption={t`Fritidsprosjekt som aldri ble fullført`}
         />
       </div>
@@ -175,7 +175,7 @@ const Portfolios = () => (
     <>
       <WorkHeading
         extraSpaceAbove={true}
-        heading={t`Innleveringsoppgave`}
+        heading={t`Portefølje` + " 1"}
         timespan="2015"
         siteInfo={{
           site: "https://paalss.github.io/portfolio-2015-2-etter-innlevering",

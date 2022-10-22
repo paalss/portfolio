@@ -5,14 +5,14 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeaderImage from '../../components/common/WorkHeaderImage';
 
 const Ytwrapped = () => (
   <>
-    <img
+    <WorkHeaderImage
       src="/images/webwork/yt-wrapped/img.avif"
-      className="work-heading-img"
-      // width={0}
-      // height={0}
+      width={1059.58}
+      height={780.417}
       alt={t`liste over videoer`}
     />
     <WorkHeading

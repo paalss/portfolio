@@ -195,14 +195,6 @@
     display: flex;
     flex-wrap: wrap;
   }
-  main .work-heading-img {
-    height: auto; /*nødvendig for å overskrive height attribute */
-    /* må synces med .oldbody > * */
-    width: 120%;
-    margin-left: -10%;
-    margin-right: -10%;
-    box-shadow: var(--shadow-elevation-medium);
-  }
   
   main a.button,
   main span.button {
@@ -262,13 +254,6 @@
   .oldbody > * {
     padding-left: 14%;
     padding-right: 14%;
-  }
-  main .work-heading-img {
-    height: auto; /*nødvendig for å overskrive height attribute */
-    /* trekk bilde ut av container, og legg til på bredde */
-    width: 106%;
-    margin-left: -3%;
-    margin-right: -3%;
   }
   h1 {
     font-size: 3rem;

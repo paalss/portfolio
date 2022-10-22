@@ -1,0 +1,19 @@
+.workHeaderImage {
+  height: auto; /*nødvendig for å overskrive height attribute */
+  /* må synces med .oldbody > * */
+  width: 120%;
+  margin-left: -10%;
+  margin-right: -10%;
+  box-shadow: var(--shadow-elevation-medium);
+}
+
+@media only screen and (min-width: 570px) {
+  /* !* this value is mirrored in SquareLink.module.css. Keep them in sync. Code: ★ */
+  main .workHeaderImage {
+    height: auto; /*nødvendig for å overskrive height attribute */
+    /* trekk bilde ut av container, og legg til på bredde */
+    width: 106%;
+    margin-left: -3%;
+    margin-right: -3%;
+  }
+}

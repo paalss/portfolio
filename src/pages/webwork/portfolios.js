@@ -6,13 +6,13 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const Portfolios = () => (
   <>
     <>
-      <img
+      <WorkHeaderImage
         src="/images/webwork/portfolios/pf5.webp"
-        className="work-heading-img"
         alt={t`portefølje med foto og ferdigheter`}
         width={1229}
         height={7013}

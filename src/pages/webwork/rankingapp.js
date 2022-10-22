@@ -6,12 +6,12 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const Rankingapp = () => (
   <>
-    <img
+    <WorkHeaderImage
       src="/images/webwork/rankingapp/app-recording1.gif"
-      className="work-heading-img"
       width={1296}
       height={616}
       alt="Ranking app interface"

@@ -5,12 +5,12 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const Fagstoff = () => (
   <>
-    <img
+    <WorkHeaderImage
       src="/images/webwork/fagstoff/fagstoff.webp"
-      className="work-heading-img"
       width={1893}
       height={543}
       alt={t`Nettside med overskriften 'fagstoff'`}

@@ -6,12 +6,12 @@ import { Trans, t } from "@lingui/macro";
 // components
 import WorkHeading from "../../components/common/WorkHeading";
 import HT from "../../components/common/HtmlTag";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const Extraoptical = () => (
   <>
-    <img
+    <WorkHeaderImage
       src="/images/webwork/extraoptical/sider/front-page-pwa.png"
-      className="work-heading-img"
       width={1504}
       height={909}
       alt={t`Extra Optical forside`}

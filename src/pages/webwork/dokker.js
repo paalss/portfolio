@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // react lingui
 import { Trans, t } from "@lingui/macro";
@@ -6,15 +6,15 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const Dokker = () => (
   <>
-    <img
+    <WorkHeaderImage
       src="/images/webwork/dokker/dashboard/latest-document-assignment.webp"
-      className="work-heading-img"
       width={2880}
       height={1534}
-      alt="Dokker logo"
+      alt="Dokker interface"
     />
 
     <WorkHeading

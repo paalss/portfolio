@@ -5,14 +5,16 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const Maclean = () => (
   <>
-    <img
+    <WorkHeaderImage
       src="/images/webwork/maclean/alistairmaclean-full.webp"
-      className="work-heading-img"
       width={837}
       height={556}
+      // width={1893}
+      // height={841}
       alt={t`maclean nettside`}
     />
 

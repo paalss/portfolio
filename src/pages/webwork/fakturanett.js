@@ -5,13 +5,13 @@ import { t, Trans } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 // import Figure from "../../components/common/Figure";
 
 const Fakturanett = () => (
   <>
-    <img
+    <WorkHeaderImage
       src="/images/webwork/fakturanett/page.avif"
-      className="work-heading-img"
       width={1294}
       height={665}
       alt={t`fakturanett forside`}

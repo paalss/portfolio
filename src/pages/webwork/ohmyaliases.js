@@ -5,14 +5,15 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeaderImage from "../../components/common/WorkHeaderImage";
 
 const Ohmyaliases = () => (
   <>
-    <img
+    <WorkHeaderImage
       src="/images/webwork/ohmyaliases/img.avif"
       className="work-heading-img"
-      // width={0}
-      // height={0}
+      width={939}
+      height={587}
       alt={t`liste over aliaser`}
     />
     <WorkHeading

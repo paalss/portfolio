@@ -5,7 +5,7 @@ ul.tools li {
   display: inline;
 }
 ul.tools .tool {
-  color: #4d4d4d;
+  color: var(--light-gray);
   border-radius: 20px;
   border: 2px solid #eee;
   padding: 2px 7px;

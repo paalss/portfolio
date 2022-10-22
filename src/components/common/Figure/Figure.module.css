@@ -1,5 +1,5 @@
 .figure {
-  border: 1px solid #7f017f;
+  border: 1px solid var(--purple);
   border-radius: 20px;
   margin: 15px 0;
   padding: 40px 5% 10px 5%;

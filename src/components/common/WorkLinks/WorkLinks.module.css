@@ -1,6 +1,6 @@
 .link {
   padding: 10px;
-  color: #7f017f;
+  color: var(--purple);
 }
 
 .link:hover {

@@ -49,7 +49,7 @@
 }
 /* arrow hover styling */
 .ul > li > a:first-child:nth-last-child(2):before {
-  border-top-color: #7f017f;
+  border-top-color: var(--purple);
 }
 .ul > li:hover > a:first-child:nth-last-child(2) {
   font-weight: 900;

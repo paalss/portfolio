@@ -6,6 +6,12 @@
 
 /* https://www.joshwcomeau.com/shadow-palette/ */
 :root {
+  --purple:  #7f017f;
+  --dark-purple: #330145;
+  --dark-blue: #01011f;
+  --light-gray: #4d4d4d;
+  --gray: #414141;
+  --dark-gray: #1d1d1d;
   --shadow-color: 0deg 0% 63%;
   --shadow-elevation-low:
     0px 0.7px 0.8px hsl(var(--shadow-color) / 0.34),
@@ -209,7 +215,7 @@
   }
   main a.button:link,
   main a.button:visited {
-    background: #7f017f;
+    background: var(--purple);
     background: -webkit-linear-gradient(
       top left,
       rgba(127, 1, 127, 1),
@@ -220,7 +226,7 @@
       rgba(127, 1, 127, 1),
       rgba(1, 1, 31, 1)
     );
-    background: linear-gradient(to bottom right, #7f017f, #01011f);
+    background: linear-gradient(to bottom right, var(--purple), var(--dark-blue));
   }
   main a.button:focus,
   main a.button:hover {

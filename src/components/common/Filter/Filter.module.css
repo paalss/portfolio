@@ -24,7 +24,7 @@
 
 .option.checked {
   color: #fff;
-  background-color: #1d1d1d;
+  background-color: var(--dark-gray);
 }
 
 .option img {

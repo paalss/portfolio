@@ -8,7 +8,7 @@ import WorkHeaderImage from '../components/common/WorkHeaderImage';
 // import Figure from "../../components/common/Figure";
 // import WorkHeading from "../components/common/WorkHeading";
 
-const Template = () => (
+const [FTName] = () => (
   <>
     <WorkHeaderImage
       src={projImg}
@@ -47,4 +47,4 @@ const Template = () => (
   </>
 );
 
-export default Template;
+export default [FTName];

@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./WorkHeading.module.css";
 
 // components
-import ToolList from "../ToolList";
+import ToolList from "../../SquareLinks/ToolList";
 import WorkLinks from "../WorkLinks";
 
 const WorkHeading = ({

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React from "react";
 import LightboxImage from "../components/common/LightboxImage";
 import classes from "./gallery.module.css";
 

@@ -5,7 +5,7 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import Figure from "../../components/common/Figure";
-import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeading from "../../components/common/WorkPage/WorkHeading";
 import Head from "next/head";
 
 const Artistbooking = () => (

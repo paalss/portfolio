@@ -1,7 +1,6 @@
-import classes from "./Certificate.module.css";
 import React, { useEffect } from "react";
-import Image from "next/image";
 import { t } from "@lingui/macro";
+import classes from "./Certificate.module.css";
 
 const Certificate = () => {
   useEffect(() => {

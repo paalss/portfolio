@@ -37,24 +37,24 @@ import galleryImg from "../public/images/gallery/gallery1-small.webp";
 const Home = lazy(() => import("./pages"));
 
 // webwork
-const Webwork = lazy(() => import("./pages/webwork"));
-const Ohmyaliases = lazy(() => import("./pages/webwork/ohmyaliases"));
-const Ytwrapped = lazy(() => import("./pages/webwork/ytwrapped"));
-const Fakturanett = lazy(() => import("./pages/webwork/fakturanett"));
-const Extraoptical = lazy(() => import("./pages/webwork/extraoptical"));
-const Dokker = lazy(() => import("./pages/webwork/dokker"));
-const Rankingapp = lazy(() => import("./pages/webwork/rankingapp"));
-const Videoopplasting = lazy(() => import("./pages/webwork/videoopplasting"));
-const Portfolios = lazy(() => import("./pages/webwork/portfolios"));
-const Maclean = lazy(() => import("./pages/webwork/maclean"));
-const Fagstoff = lazy(() => import("./pages/webwork/fagstoff"));
+const Webwork = lazy(() => import("./pages/websites"));
+const Ohmyaliases = lazy(() => import("./pages/websites/ohmyaliases"));
+const Ytwrapped = lazy(() => import("./pages/websites/ytwrapped"));
+const Fakturanett = lazy(() => import("./pages/websites/fakturanett"));
+const Extraoptical = lazy(() => import("./pages/websites/extraoptical"));
+const Dokker = lazy(() => import("./pages/websites/dokker"));
+const Rankingapp = lazy(() => import("./pages/websites/rankingapp"));
+const Videoopplasting = lazy(() => import("./pages/websites/videoopplasting"));
+const Portfolios = lazy(() => import("./pages/websites/portfolios"));
+const Maclean = lazy(() => import("./pages/websites/maclean"));
+const Fagstoff = lazy(() => import("./pages/websites/fagstoff"));
 
 // graphicwork
-const Graphicwork = lazy(() => import("./pages/graphicwork"));
-const Artistbooking = lazy(() => import("./pages/graphicwork/artistbooking"));
-const MPOE = lazy(() => import("./pages/graphicwork/mpoe"));
-const Flaviadeluce = lazy(() => import("./pages/graphicwork/flaviadeluce"));
-const JRNM = lazy(() => import("./pages/graphicwork/jrnm"));
+const Graphicwork = lazy(() => import("./pages/graphics"));
+const Artistbooking = lazy(() => import("./pages/graphics/artistbooking"));
+const MPOE = lazy(() => import("./pages/graphics/mpoe"));
+const Flaviadeluce = lazy(() => import("./pages/graphics/flaviadeluce"));
+const JRNM = lazy(() => import("./pages/graphics/jrnm"));
 
 // other
 const Gallery = lazy(() => import("./pages/gallery"));
@@ -90,15 +90,15 @@ const pagesInfo = [
   },
   {
     id: 2,
-    link: "/webwork",
-    exact: true, // naviger til Webwork kun om link er eksakt "/webwork"
-    exactActiveClassName: false, // uthev nav-link om link inneholder "/webwork"
+    link: "/websites",
+    exact: true, // naviger til Webwork kun om link er eksakt "/websites"
+    exactActiveClassName: false, // uthev nav-link om link inneholder "/websites"
     title: <Trans>Nettsider</Trans>,
     page: <Webwork />,
     subpages: [
       {
         id: 12,
-        link: "/webwork/ytwrapped",
+        link: "/websites/ytwrapped",
         site: "https://paalss.github.io/youtube-wrapped",
         repo: "https://github.com/paalss/youtube-wrapped",
         title: "Youtube-wrapped",
@@ -110,7 +110,7 @@ const pagesInfo = [
       },
       {
         id: 11,
-        link: "/webwork/ohmyaliases",
+        link: "/websites/ohmyaliases",
         site: "https://paalss.github.io/oh-my-aliases",
         repo: "https://github.com/paalss/oh-my-aliases",
         title: "Oh my aliases",
@@ -122,7 +122,7 @@ const pagesInfo = [
       },
       {
         id: 10,
-        link: "/webwork/fakturanett",
+        link: "/websites/fakturanett",
         site: "https://fakturanett.no/",
         title: "Fakturanett",
         subtitle: <Trans>Jobb</Trans>,
@@ -133,7 +133,7 @@ const pagesInfo = [
       },
       {
         id: 9,
-        link: "/webwork/extraoptical",
+        link: "/websites/extraoptical",
         site: "https://extraoptical.no/",
         title: "Extra Optical",
         subtitle: <Trans>Praksis &amp; jobb</Trans>,
@@ -145,7 +145,7 @@ const pagesInfo = [
       },
       {
         id: 8,
-        link: "/webwork/dokker",
+        link: "/websites/dokker",
         site: "https://www.dokker.com/nb",
         title: "Dokker",
         subtitle: <Trans>Praksis</Trans>,
@@ -156,7 +156,7 @@ const pagesInfo = [
       },
       {
         id: 7,
-        link: "/webwork/portfolios",
+        link: "/websites/portfolios",
         repo: "https://github.com/paalss/portfolio",
         title: <Trans>Denne porteføljen</Trans>,
         subtitle: <Trans>Fritid</Trans>,
@@ -168,7 +168,7 @@ const pagesInfo = [
       },
       {
         id: 5,
-        link: "/webwork/videoopplasting",
+        link: "/websites/videoopplasting",
         title: <Trans>Video&shy;opplastings&shy;apper</Trans>,
         subtitle: <Trans>Studier</Trans>,
         heading: (
@@ -184,7 +184,7 @@ const pagesInfo = [
       },
       {
         id: 4,
-        link: "/webwork/fagstoff",
+        link: "/websites/fagstoff",
         site: "https://paalss.github.io/fagstoff/",
         repo: "https://github.com/paalss/fagstoff",
         title: <Trans>Fagstoff</Trans>,
@@ -196,7 +196,7 @@ const pagesInfo = [
       },
       {
         id: 3,
-        link: "/webwork/maclean",
+        link: "/websites/maclean",
         site: "https://paalss.github.io/Alistair-MacLean-portfolio-redesign/",
         repo: "https://github.com/paalss/Alistair-MacLean-portfolio-redesign",
         title: <Trans>Alistair MacLean nettside redesign</Trans>,
@@ -209,7 +209,7 @@ const pagesInfo = [
       },
       {
         id: 6,
-        link: "/webwork/rankingapp",
+        link: "/websites/rankingapp",
         repo: "https://github.com/paalss/ranking-app",
         title: "Ranking app",
         subtitle: <Trans>Fritid</Trans>,
@@ -222,7 +222,7 @@ const pagesInfo = [
   },
   {
     id: 10,
-    link: "/graphicwork",
+    link: "/graphics",
     exact: true,
     exactActiveClassName: false,
     title: <Trans>Grafisk</Trans>,
@@ -230,7 +230,7 @@ const pagesInfo = [
     subpages: [
       {
         id: 14,
-        link: "/graphicwork/artistbooking",
+        link: "/graphics/artistbooking",
         title: "Artist booking app prototype",
         subtitle: <Trans>Studier</Trans>,
         page: <Artistbooking />,
@@ -240,7 +240,7 @@ const pagesInfo = [
       },
       {
         id: 13,
-        link: "/graphicwork/flaviadeluce",
+        link: "/graphics/flaviadeluce",
         title: <Trans>Bok web-banner</Trans>,
         subtitle: <Trans>Skole</Trans>,
         page: <Flaviadeluce />,
@@ -250,7 +250,7 @@ const pagesInfo = [
       },
       {
         id: 12,
-        link: "/graphicwork/mpoe",
+        link: "/graphics/mpoe",
         title: <Trans>Bok-cover o.l.</Trans>,
         subtitle: <Trans>Skole</Trans>,
         page: <MPOE />,
@@ -260,7 +260,7 @@ const pagesInfo = [
       },
       {
         id: 11,
-        link: "/graphicwork/jrnm",
+        link: "/graphics/jrnm",
         title: "Jr NM ski 2015 logo",
         subtitle: <Trans>Praksis</Trans>,
         page: <JRNM />,
@@ -302,17 +302,17 @@ pagesInfo =
   },
   {
     id: 2,
-    link: "/webwork",
+    link: "/websites",
     title: "Nettsider",
     subpages: [
       {
         id: 3,
-        link: "/webwork/rankingapp",
+        link: "/websites/rankingapp",
         title: "Ranking app",
       },
       {
         id: 4,
-        link: "/webwork/videoopplasting",
+        link: "/websites/videoopplasting",
         title: "Videoopplastingsapper",
       }
       ...
@@ -332,18 +332,18 @@ flatPagesInfo =
   },
   {
     id: 2,
-    link: "/webwork",
+    link: "/websites",
     title: "Nettsider",
     subpages: [...],
   },
   {
     id: 3,
-    link: "/webwork/rankingapp",
+    link: "/websites/rankingapp",
     title: "Ranking app",
   },
   {
     id: 4,
-    link: "/webwork/videoopplasting",
+    link: "/websites/videoopplasting",
     title: "Videoopplastingsapper",
   }
   ...
@@ -361,17 +361,17 @@ export const flatPagesInfo = [...pagesInfo, ...subpages];
 
 /*
 =============================
-Hent pages for Home
+Hent pages for Index
 =============================
 
-Home trenger pages for å generere <SquareLink>-er
+Index trenger pages for å generere <SquareLink>-er
 */
 
 export const webworkInfo = pagesInfo.find(
-  (element) => element.link === "/webwork"
+  (element) => element.link === "/websites"
 ).subpages;
 export const graphicworkInfo = pagesInfo.find(
-  (element) => element.link === "/graphicwork"
+  (element) => element.link === "/graphics"
 ).subpages;
 export const galleryInfo = pagesInfo.find(
   (element) => element.link === "/gallery"

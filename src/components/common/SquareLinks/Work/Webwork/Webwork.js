@@ -1,17 +1,16 @@
 import React, { useState } from "react";
-import { webworkInfo } from "../pagesInfo";
+import { webworkInfo } from "../../../../../pagesInfo";
 
 // components
-import SquareLink from "../components/common/SquareLink";
+import SquareLink from "../../SquareLink";
 
 // icons
 import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 // react lingui
-import { t, Trans } from "@lingui/macro";
-import Filter from "../components/common/Filter/Filter";
-import Head from "next/head";
+import { Trans } from "@lingui/macro";
+import Filter from "../../../Filter";
 
 // const filteredWebwork = () => {};
 const countProjectsWith = (tech) => {
@@ -89,7 +88,7 @@ const Webwork = () => {
   }
 
   return (
-    <>
+    <div>
       <Filter filter={filter} onSelect={filterHandler} />
       <div className="squarelinks-flex">
         {filteredProjects.map((page) => (
@@ -108,7 +107,7 @@ const Webwork = () => {
           <Fa icon={faGithub} /> <Trans>Besøk min Github-profil</Trans>
         </a>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "../styles/globals.css";
 import paalssInfo from "../jsonLdSchema";
-// import "../styles/uikit-lightbox-related.css";
 
 import Header from "../components/layout/Header";
 

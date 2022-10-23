@@ -1,9 +1,7 @@
-import React, { Suspense, useEffect, useMemo } from "react";
+import React, { useMemo } from "react";
 import NavLink from "next/link";
 import pagesInfo from "../../../pagesInfo";
-import LangMenu from "../../common/LangMenu";
-
-// import DarkmodeSwitch from "../../common/DarkmodeSwitch";
+import LangMenu from "../../layout/LangMenu"
 
 import classes from "./Nav.module.css";
 import dynamic from "next/dynamic";
@@ -15,7 +13,7 @@ const Nav = () => {
 
   const DarkmodeSwitch = useMemo(() => {
     if (typeof window !== "undefined") {
-      return dynamic(() => import("../../common/DarkmodeSwitch"));
+      return dynamic(() => import("../../layout/DarkmodeSwitch"));
     } else {
       return undefined;
     }

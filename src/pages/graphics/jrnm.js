@@ -5,9 +5,9 @@ import { Trans, t } from "@lingui/macro";
 
 // components
 import Figure from "../../components/common/Figure";
-import WorkHeading from "../../components/common/WorkHeading";
+import WorkHeading from "../../components/common/WorkPage/WorkHeading";
 import Head from "next/head";
-import WorkHeaderImage from "../../components/common/WorkHeaderImage";
+import WorkHeaderImage from "../../components/common/WorkPage/WorkHeaderImage";
 
 const JRNM = () => (
   <>

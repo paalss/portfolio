@@ -39,6 +39,7 @@ const Videoopplasting = () => (
     </Trans>
 
     <WorkHeading
+      hLevel={3}
       heading={t`PHP-prosjekt`}
       timespan={t`2020 januar–april`}
       tools={["Twig", "PHP", "MySQL", "HTML", "Docker"]}
@@ -69,6 +70,7 @@ const Videoopplasting = () => (
     </div>
 
     <WorkHeading
+      hLevel={3}
       heading={t`Lit-prosjekt`}
       timespan={t`2020 april–mai`}
       tools={[

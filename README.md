@@ -21,6 +21,10 @@ Evt. `yarn start` etter `yarn build` for å sjekke at alt er i orden med kunst-s
 
 Trenger ikke å bruke Git Bash. Går helt fint å bruke WSL til dette etter Next-ifiseringen av porteføljen
 
+### Lag nytt komponent
+
+Velg **Create New Templated folder (ctrl + shift + alt + N)** fra høyreklikksmenyen ved klikk i File Explorer.
+
 ### Oversett innhold
 
 1. wrap tekst i `<Trans>__</Trans>` eller `t`\`\_\_`

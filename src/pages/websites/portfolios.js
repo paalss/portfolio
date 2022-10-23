@@ -21,8 +21,20 @@ const Portfolios = () => (
         width={951}
         height={605}
       />
+
+      <h2>{t`Fem ulike versjoner`}</h2>
+      <p>
+        <Trans>
+          Jeg har lagd "min personlige portefølje" fem ganger. Hvorfor? Utdatert
+          informasjon, teknisk gjeld og krav i skoleoppgaver har ført meg
+          til å revidere nettsiden fullstendig.
+        </Trans>{" "}
+        <Trans>Under kan du se alle versjonene.</Trans>
+      </p>
+
       <WorkHeading
-        heading={t`Portefølje` + " 5"}
+        hLevel={3}
+        heading={t`Portefølje` + " 5 " + t`(siste)`}
         timespan={t`2020 desember–nå`}
         siteInfo={{
           repo: "https://github.com/paalss/portfolio",
@@ -85,6 +97,7 @@ const Portfolios = () => (
 
     <>
       <WorkHeading
+        hLevel={3}
         extraSpaceAbove={true}
         heading={t`Portefølje` + " 4"}
         timespan="2019"
@@ -124,6 +137,7 @@ const Portfolios = () => (
 
     <>
       <WorkHeading
+        hLevel={3}
         extraSpaceAbove={true}
         heading={t`Portefølje` + " 3"}
         timespan={t`2016 høst`}
@@ -147,6 +161,7 @@ const Portfolios = () => (
 
     <>
       <WorkHeading
+        hLevel={3}
         extraSpaceAbove={true}
         heading={t`Portefølje` + " 2"}
         timespan="2016"
@@ -174,6 +189,7 @@ const Portfolios = () => (
 
     <>
       <WorkHeading
+        hLevel={3}
         extraSpaceAbove={true}
         heading={t`Portefølje` + " 1"}
         timespan="2015"

@@ -13,8 +13,12 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/pages/websites/portfolios.js:37
+msgid "(siste)"
+msgstr "(last)"
+
 #: src/pages/websites/fagstoff.js:25
-#: src/pages/websites/portfolios.js:129
+#: src/pages/websites/portfolios.js:143
 msgid "2016 høst"
 msgstr "2016 fall"
 
@@ -22,15 +26,15 @@ msgstr "2016 fall"
 msgid "2019 høst"
 msgstr "2019 fall"
 
-#: src/pages/websites/videoopplasting.js:73
+#: src/pages/websites/videoopplasting.js:75
 msgid "2020 april–mai"
 msgstr "2020 April–May"
 
-#: src/pages/websites/portfolios.js:26
+#: src/pages/websites/portfolios.js:38
 msgid "2020 desember–nå"
 msgstr "2020 December–now"
 
-#: src/pages/websites/videoopplasting.js:43
+#: src/pages/websites/videoopplasting.js:44
 msgid "2020 januar–april"
 msgstr "2020 January–April"
 
@@ -67,11 +71,11 @@ msgstr "<0>In 2013 I had a one-week internship at Orega in Lade, Trondheim. Here
 msgid "<0>I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg valgte å redesigne <1>alistairmaclean.com</1> sitt GUI. Grunnen var at jeg tidligere hadde jeg sett og vært skuffet over hvordan den så ut. MacLean skrev nesten utelukkende bøker med action og spenning, og det syntes jeg ikke nettsiden reflekterte noe av.</0><2>Verktøy</2><3>Jeg bygget nettsiden i HTML og CSS og bittelitt JavaScript (ikke så mye å skryte av). Logoen lagde jeg i Illustrator og header-bildet lagde jeg ved photoshoppe et bilde av eget modellfly oppå noen T-skjorter.</3>"
 msgstr "<0>In 2015 I had a project on videregående (equivalent to high school) where I chose to redesign the GUI of <1>alistairmaclean.com</1>. The reason behind this, was that I had previously seen and been dissapointed by it. MacLean almost exclusively books with action and suspense, and I didn’t think this site resembled that the slightest.</0><2>Tools</2><3>I built the site using HTML and CSS and a little bit JavaScript. I made the logo in Illustrator and the header image in Photoshop.</3>"
 
-#: src/pages/websites/portfolios.js:59
+#: src/pages/websites/portfolios.js:71
 msgid "<0>I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med “vanilla JavaScript” ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 msgstr "<0>Since then I added more content and improved SEO. I’m very satisfied with its design, code quality and choice of web development tools.</0>"
 
-#: src/pages/websites/videoopplasting.js:47
+#: src/pages/websites/videoopplasting.js:48
 msgid "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting, ‑redigering og ‑visning. I tillegg gjorde jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting av videoer til filsystemet. Jeg jobbet også litt med kommentarer.</0><1>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</1>"
 msgstr "<0>In this I worked in a group with two others. My responsibilities was most on video uploading, -editing and -playing. Additionaly I did the playlist related stuff. Technically speaking this meant working with the app’s integration with the database, database structure and downloading of videos to the filesystem. I also worked a little with the comments.</0><1>The app was made with PHP-files and the templating engine Twig to render the html-pages.</1>"
 
@@ -79,7 +83,7 @@ msgstr "<0>In this I worked in a group with two others. My responsibilities was 
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 msgstr "<0>Competence</0><1>I have experience in web development and graphic design.</1>"
 
-#: src/pages/websites/videoopplasting.js:105
+#: src/pages/websites/videoopplasting.js:107
 msgid "<0>Kravspesifikasjonen var mye det samme som i prosjekt 1. Her skulle det også skilles mellom ulike brukertyper, som var <1>admin</1>, <2>lærer</2> og <3>studenter</3>, hver med ulike rettigheter:</0><4><5><6>studenter</6> skulle ha mulighet til å se på videoer, kommentere, lagre video i spillelister etc.</5><7><8>lærere</8> skulle ha studenters rettigheter pluss mulighet til å legge ut videoer</7><9><10>admin</10> skulle ha de samme rettighetene som alle andre, pluss mulighet til å endre å brukertypen til de andre brukerne. (Når folk skal registrere seg som lærer, må de opprette en studentbruker, og så sende forespørsel til admin om å få byttet brukertype)</9></4><11>Nettappen skulle også være en <12>Single page application</12>, men dette fikk vi til bare delvis. (Hvis man klikker på en video i oversikten, tar siden en automatisk refresh. Man må også refreshe etter å ha lastet opp video eller gjort andre permanente endringer.)</11><13>I dette prosjektet jobbet jeg med én annen. Det jeg hadde ansvar for, var å få til videoopplasting, ‑visning og ‑oversikt. Jeg lagde også mesteparten av brukerredigeringsfunksjonen for admin-brukere. Jeg drev også med litt CSS styling.</13><14>Appen ble lagd med bruk av Lit-baserte komponenter som vi for det meste lagde selv.</14>"
 msgstr "<0>The assignment specification was much like that of the first project. In this assignment we had to make different user types, which was <1>admin</1>, <2>teacher</2> og <3>students</3>, each with their own set of permissions:</0><4><5><6>students</6> should be able to wach videos, comment, insert video into playlists etc.</5><7><8>teachers</8> should have the same permissions as students, plus ability to upload videos</7><9><10>admin</10> should have all the persmissions of the preceding roles, plus permission to change the user type for other users. (To registrate a teacher user, one has to start with a student account, and then send a wants-to-get-teacher-user request to admin.)</9></4><11>The web app should also be a <12>Single page application</12>.</11><13>In this project I worked with one other student. My responsibility was to make video uploading, -playing and ‑overview functionality. I also made most of the user editing functionality for admins. I also did some CSS styling.</13><14>The app was made using Lit-based components that we for the most part made ourselves.</14>"
 
@@ -108,7 +112,7 @@ msgstr "Alistair MacLean portfolio redesign"
 msgid "Annet"
 msgstr "Other"
 
-#: src/pages/other.js:11
+#: src/pages/other.js:10
 msgid "Annet arbeid"
 msgstr "Other work"
 
@@ -179,7 +183,7 @@ msgstr "Resident in Trondheim"
 msgid "De fleste av karusellene ble lagd med <0>react-slick</0>."
 msgstr "Most of the carousells were made with <0>react-slick</0>."
 
-#: src/pages/websites/portfolios.js:161
+#: src/pages/websites/portfolios.js:176
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "This site was abandoned half-finished and has no sub-pages."
 
@@ -196,7 +200,7 @@ msgstr "This version of the web page was launched February 2022. I also had inte
 msgid "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim- og mysterier-bokserie som tar plass i england på 50-tallet. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg det var. (Det er fortsatt bare en skoleoppgave og ikke et 'ordentlig' oppdrag, altså.)"
 msgstr "This is a book banner I made for the Flavia de Luce series, a crime- and mysteries book series that takes place in England in the fifties. This banner is meant to fit a book store webpage, ark.no, if I remember correctly. (This was still just a school assignment, not a “real world” assignment, that is.)"
 
-#: src/pages/websites/portfolios.js:79
+#: src/pages/websites/portfolios.js:91
 msgid "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 msgstr "This isn’t the first time I’ve made my own portfolio. Below you can se the earlier versions, which I never felt quite satisfied with."
 
@@ -204,7 +208,7 @@ msgstr "This isn’t the first time I’ve made my own portfolio. Below you can 
 msgid "Dette har jeg lært"
 msgstr "This is what I've learned"
 
-#: src/pages/websites/portfolios.js:98
+#: src/pages/websites/portfolios.js:111
 msgid "Dette var en portefølje jeg lagde under studiene. Etter ett år ble informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd med designet og måten jeg hadde kodet det på. Derfor skrotet jeg denne og begynte på siden du er på nå."
 msgstr "I made this portfolio during my studies. After one year its information became outdated, and I was dissatisfied with its design and the way I’d coded it. For these reasons I scrapped this portfolio, and began making the one you’re looking at now."
 
@@ -232,10 +236,6 @@ msgstr "A desktop page"
 #: src/pages/websites/fagstoff.js:34
 msgid "En nettside som jeg førte opp webkoding-notater i. Sist oppdatert 02.11.16"
 msgstr "A webpage that I made to write down subject matter in the course web coding. Last updated at 2016 November 2."
-
-#: src/pages/webwork/portfolios.js:151
-#~ msgid "Enda tidligere portefølje"
-#~ msgstr "Yet another earlier portfolio"
 
 #: src/components/common/Barchart/Barchart.js:13
 msgid "Erfaring"
@@ -287,6 +287,10 @@ msgstr "Subject matter"
 msgid "Fant ingen bilder"
 msgstr "Found no images"
 
+#: src/pages/websites/portfolios.js:25
+msgid "Fem ulike versjoner"
+msgstr "Five different versions"
+
 #: src/pages/websites/extraoptical.js:123
 msgid "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 msgstr "Fixed errors and code negligence in HTML. For example there were many <0>opening/closing</0>-HTML-tags that missed matching pair"
@@ -316,7 +320,7 @@ msgstr "To use this app it is assumed that you watched the videos while logged i
 msgid "Fritid"
 msgstr "Spare time"
 
-#: src/pages/websites/portfolios.js:170
+#: src/pages/websites/portfolios.js:185
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Spare-time project which I never finished"
 
@@ -342,7 +346,7 @@ msgstr "Basics"
 msgid "Hjem"
 msgstr "Home"
 
-#: src/pages/websites/portfolios.js:189
+#: src/pages/websites/portfolios.js:205
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "In 2015 i attended <0>media and communication</0> on Byåsen VGS (highschool), where I got a task to make a three-page portfolio about myself. After delivering this I improved it in my spare time."
 
@@ -358,15 +362,7 @@ msgstr "Loading of images failed. You can try to:<0><1>Turn off Enhanced Trackin
 msgid "Innlasting av bilder mislyktes. Men du kan alltids se innholdet på <0>min Instagram-konto</0>."
 msgstr "Loading of images failed. But you can alway see the same content at <0>my Instagram-account</0>."
 
-#: src/pages/webwork/portfolios.js:128
-#~ msgid "Innlevering i webkoding"
-#~ msgstr "Assignment in web coding"
-
-#: src/pages/webwork/portfolios.js:178
-#~ msgid "Innleveringsoppgave"
-#~ msgstr "Assignment"
-
-#: src/pages/websites/portfolios.js:201
+#: src/pages/websites/portfolios.js:217
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Assignment at media and communication"
 
@@ -382,7 +378,11 @@ msgstr "I've gotten better at documenting my own contributions and facilitate th
 msgid "Jeg har blitt bedre på å separere logikk og markup og vet hvilke konsekvenser man får av å blande <0>CRLF</0> og <1>LF line endings</1> i samme prosjekt."
 msgstr "I've gotten better at separating logic and markup and I know what consequenses you may get by mixing <0>CRLF</0> and <1>LF line endings</1> in same project."
 
-#: src/pages/websites/portfolios.js:106
+#: src/pages/websites/portfolios.js:27
+msgid "Jeg har lagd \"min personlige portefølje\" fem ganger. Hvorfor? Utdatert informasjon, teknisk gjeld og krav i skoleoppgaver har ført meg til å revidere nettsiden fullstendig."
+msgstr "I've made \"my personal portfolio\" five times. Why? Outdated information, technical debt and requirements in school assignments has pushed me to revise the webpage completely."
+
+#: src/pages/websites/portfolios.js:119
 msgid "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
 msgstr "This was made using PHP, mostly for achieving “same-header-and-footer-on-all-pages”. I didn’t know much JavaScript at the time, so that’s the reason I didn’t use that."
 
@@ -390,7 +390,7 @@ msgstr "This was made using PHP, mostly for achieving “same-header-and-footer-
 msgid "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder, bruke SSH-keys og forskjellige react-packages."
 msgstr "I've learned GraphQL, working with Magento components, Magento Page Builder, using SSH-keys and different react-packages."
 
-#: src/pages/websites/portfolios.js:42
+#: src/pages/websites/portfolios.js:54
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 msgstr "I started making this December 2020, it was made to present the web projects that I’ve made. It was to be used in job searching."
 
@@ -427,7 +427,7 @@ msgstr "Create your own lists"
 msgid "Lagd undersider"
 msgstr "Made subpages"
 
-#: src/pages/websites/videoopplasting.js:72
+#: src/pages/websites/videoopplasting.js:74
 msgid "Lit-prosjekt"
 msgstr "Lit project"
 
@@ -485,7 +485,7 @@ msgstr "Some selected images"
 msgid "Oversikt over lister eksempel"
 msgstr "Overview of lists example"
 
-#: src/pages/websites/videoopplasting.js:42
+#: src/pages/websites/videoopplasting.js:43
 msgid "PHP-prosjekt"
 msgstr "PHP-project"
 
@@ -493,20 +493,20 @@ msgstr "PHP-project"
 msgid "Plakat"
 msgstr "Poster"
 
-#: src/pages/websites/portfolios.js:25
-#: src/pages/websites/portfolios.js:89
-#: src/pages/websites/portfolios.js:128
-#: src/pages/websites/portfolios.js:151
-#: src/pages/websites/portfolios.js:169
-#: src/pages/websites/portfolios.js:178
+#: src/pages/websites/portfolios.js:37
+#: src/pages/websites/portfolios.js:102
+#: src/pages/websites/portfolios.js:142
+#: src/pages/websites/portfolios.js:166
+#: src/pages/websites/portfolios.js:184
+#: src/pages/websites/portfolios.js:194
 msgid "Portefølje"
 msgstr "Portfolio"
 
-#: src/pages/websites/portfolios.js:143
+#: src/pages/websites/portfolios.js:157
 msgid "Portefølje 3"
 msgstr "Portfolio 3"
 
-#: src/pages/websites/portfolios.js:55
+#: src/pages/websites/portfolios.js:67
 msgid "Porteføljen slik den så ut 9. desember 2020"
 msgstr "The portfolio as of 9. December 2020"
 
@@ -531,7 +531,7 @@ msgstr "Corrected / removed broken links"
 msgid "Sett inn egne elementer, tilpass etter behov"
 msgstr "Insert your own elements, customize to your needs"
 
-#: src/pages/websites/videoopplasting.js:151
+#: src/pages/websites/videoopplasting.js:153
 msgid "Side med videospiller, meny og transkript"
 msgstr "Page with video player, menu and transcript"
 
@@ -565,13 +565,13 @@ msgstr "Search bar"
 msgid "Søkeresultater"
 msgstr "Search results"
 
-#: src/pages/webwork/portfolios.js:89
-#~ msgid "Tidligere portefølje"
-#~ msgstr "Earlier portfolio"
-
 #: src/pages/websites/extraoptical.js:65
 msgid "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Arbeidsoppgavene har for det meste vært å skape UI-elementer med React og GraphQL."
 msgstr "During this stay I've contributed on the online store Extra Optical. My tasks has for the most part been to create UI-elements with React and GraphQL."
+
+#: src/pages/websites/portfolios.js:32
+msgid "Under kan du se alle versjonene."
+msgstr "Below you can see all its versions."
 
 #: src/pages/websites/fakturanett.js:34
 msgid "Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer."
@@ -593,7 +593,7 @@ msgstr "Very good at"
 msgid "Veldig god på {tech}"
 msgstr "Very good at {tech}"
 
-#: src/pages/websites/videoopplasting.js:89
+#: src/pages/websites/videoopplasting.js:91
 msgid "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components. Lit brukes til å lage web-komponenter som man f.eks. finner på <1>https://shoelace.style/</1>"
 msgstr "Tool for creating component-based webpages. Lit differs from React by using HTML templating literals as its templating language (and not JSX). Lit also only has <0>class-based</0> components. Lit is being used to create web-components that can be found on eg. <1>https://shoelace.style/</1>"
 
@@ -609,19 +609,19 @@ msgstr "Video uploading"
 msgid "Videoopplastingsapper"
 msgstr "Video uploading apps"
 
-#: src/pages/websites/videoopplasting.js:166
+#: src/pages/websites/videoopplasting.js:168
 msgid "Videooversikt"
 msgstr "Video overview"
 
-#: src/pages/websites/videoopplasting.js:159
+#: src/pages/websites/videoopplasting.js:161
 msgid "Videoside bunn"
 msgstr "Video page bottom"
 
-#: src/pages/websites/videoopplasting.js:158
+#: src/pages/websites/videoopplasting.js:160
 msgid "Videoside som viser kommentarer og hvilke spillelister den er i"
 msgstr "Video page that shows comments and which playlists it resides in"
 
-#: src/pages/websites/videoopplasting.js:152
+#: src/pages/websites/videoopplasting.js:154
 msgid "Videoside topp"
 msgstr "Video page top"
 
@@ -634,7 +634,7 @@ msgstr "Video uploading apps"
 msgid "Videre lesing"
 msgstr "Further reading"
 
-#: src/pages/websites/portfolios.js:208
+#: src/pages/websites/portfolios.js:224
 msgid "Videreutvikling etter leveranse: nye farger og noe endret layout"
 msgstr "Further development after delivery: added new colors and changed some of the layout"
 
@@ -679,24 +679,20 @@ msgstr "Murder on the Orient Express book cover"
 msgid "plakat med logo"
 msgstr "poster with logo"
 
-#: src/pages/websites/portfolios.js:200
+#: src/pages/websites/portfolios.js:216
 msgid "portefølje 1 versjon 1"
 msgstr "portfolio 1 version 1"
 
-#: src/pages/websites/portfolios.js:207
+#: src/pages/websites/portfolios.js:223
 msgid "portefølje 1 versjon 2"
 msgstr "portfolio 1 version 2"
 
-#: src/pages/webwork/portfolios.js:169
-#~ msgid "portefølje 2"
-#~ msgstr "portfolio 2"
-
-#: src/pages/websites/portfolios.js:142
+#: src/pages/websites/portfolios.js:156
 msgid "portefølje 3"
 msgstr "portfolio 3"
 
-#: src/pages/websites/portfolios.js:119
-#: src/pages/websites/portfolios.js:120
+#: src/pages/websites/portfolios.js:132
+#: src/pages/websites/portfolios.js:133
 msgid "portefølje 4"
 msgstr "portfolio 4"
 
@@ -704,7 +700,7 @@ msgstr "portfolio 4"
 msgid "portefølje med foto og ferdigheter"
 msgstr "portfolio with photo and skills"
 
-#: src/pages/websites/portfolios.js:54
+#: src/pages/websites/portfolios.js:66
 msgid "portefølje med prosjekter"
 msgstr "portfolio with projects"
 
@@ -716,26 +712,26 @@ msgstr "drafts"
 msgid "utkast til bok-cover"
 msgstr "drafts to book cover"
 
-#: src/pages/websites/videoopplasting.js:172
+#: src/pages/websites/videoopplasting.js:174
 msgid "videoopplastingsside"
 msgstr "video uploading page"
 
-#: src/pages/websites/videoopplasting.js:165
+#: src/pages/websites/videoopplasting.js:167
 msgid "videooversikt"
 msgstr "video overview"
 
-#: src/pages/websites/videoopplasting.js:67
+#: src/pages/websites/videoopplasting.js:68
 msgid "videoside i PHP-prosjekt"
 msgstr "video overview in PHP-project"
 
-#: src/pages/websites/videoopplasting.js:66
+#: src/pages/websites/videoopplasting.js:67
 msgid "videospiller og transkript"
 msgstr "video player and transcript"
 
-#: src/pages/websites/videoopplasting.js:173
+#: src/pages/websites/videoopplasting.js:175
 msgid "«Last opp video»-siden"
 msgstr "“upload video”-page"
 
-#: src/components/common/Certificate/Certificate.js:48
+#: src/components/common/Certificate/Certificate.js:47
 msgid "Åpne Udemy siden for dette sertifikatet"
 msgstr "Open the Udemy page for this certificate"

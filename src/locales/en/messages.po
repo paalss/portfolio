@@ -15,7 +15,7 @@ msgstr ""
 
 #: src/pages/websites/portfolios.js:37
 msgid "(siste)"
-msgstr "(lastest)"
+msgstr "(latest)"
 
 #: src/pages/websites/fagstoff.js:25
 #: src/pages/websites/portfolios.js:143

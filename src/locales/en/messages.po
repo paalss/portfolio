@@ -100,7 +100,7 @@ msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi sku
 msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we were set to make web apps for uploading and watching videos. Put simply, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
 #: src/pages/websites/maclean.js:14
-#: src/pagesInfo.js:202
+#: src/pagesInfo.js:206
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
@@ -162,7 +162,7 @@ msgid "Bilder jeg har lagt ut på min Instagram"
 msgstr "Images which I’ve published on my Instagram"
 
 #: src/pages/graphics/flaviadeluce.js:15
-#: src/pagesInfo.js:244
+#: src/pagesInfo.js:248
 msgid "Bok web-banner"
 msgstr "Book web-banner"
 
@@ -171,7 +171,7 @@ msgid "Bok-cover"
 msgstr "Book-cover"
 
 #: src/pages/graphics/mpoe.js:24
-#: src/pagesInfo.js:254
+#: src/pagesInfo.js:258
 msgid "Bok-cover o.l."
 msgstr "Book-cover and similar"
 
@@ -279,7 +279,7 @@ msgstr "Extra Optical’s current online store"
 
 #: src/pages/websites/fagstoff.js:14
 #: src/pages/websites/fagstoff.js:24
-#: src/pagesInfo.js:190
+#: src/pagesInfo.js:194
 msgid "Fagstoff"
 msgstr "Subject matter"
 
@@ -313,10 +313,10 @@ msgstr "To use this app it is assumed that you watched the videos while logged i
 
 #: src/pagesInfo.js:105
 #: src/pagesInfo.js:117
-#: src/pagesInfo.js:162
-#: src/pagesInfo.js:191
-#: src/pagesInfo.js:215
-#: src/pagesInfo.js:277
+#: src/pagesInfo.js:164
+#: src/pagesInfo.js:195
+#: src/pagesInfo.js:219
+#: src/pagesInfo.js:281
 msgid "Fritid"
 msgstr "Spare time"
 
@@ -330,7 +330,7 @@ msgstr "Get nice and pretty lists"
 
 #: src/pages/graphics.js:9
 #: src/pages/index.js:62
-#: src/pagesInfo.js:228
+#: src/pagesInfo.js:232
 msgid "Grafisk"
 msgstr "Graphics"
 
@@ -403,6 +403,7 @@ msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt 
 msgstr "I started making this December 2020, it was made to present the web projects that I’ve made. It was to be used in job searching."
 
 #: src/pagesInfo.js:128
+#: src/pagesInfo.js:164
 msgid "Jobb"
 msgstr "Work"
 
@@ -423,7 +424,7 @@ msgid "Kode"
 msgstr "Code"
 
 #: src/pages/gallery.js:75
-#: src/pagesInfo.js:276
+#: src/pagesInfo.js:280
 msgid "Kunst"
 msgstr "Art"
 
@@ -519,7 +520,7 @@ msgid "Porteføljen slik den så ut 9. desember 2020"
 msgstr "The portfolio as of 9. December 2020"
 
 #: src/pagesInfo.js:151
-#: src/pagesInfo.js:265
+#: src/pagesInfo.js:269
 msgid "Praksis"
 msgstr "Internship"
 
@@ -543,9 +544,9 @@ msgstr "Insert your own elements, customize to your needs"
 msgid "Side med videospiller, meny og transkript"
 msgstr "Page with video player, menu and transcript"
 
-#: src/pagesInfo.js:203
-#: src/pagesInfo.js:245
-#: src/pagesInfo.js:255
+#: src/pagesInfo.js:207
+#: src/pagesInfo.js:249
+#: src/pagesInfo.js:259
 msgid "Skole"
 msgstr "School"
 
@@ -554,8 +555,8 @@ msgstr "School"
 msgid "Startside"
 msgstr "Front page"
 
-#: src/pagesInfo.js:173
-#: src/pagesInfo.js:235
+#: src/pagesInfo.js:177
+#: src/pagesInfo.js:239
 msgid "Studier"
 msgstr "Studies"
 
@@ -633,8 +634,8 @@ msgstr "Video page that shows comments and which playlists it resides in"
 msgid "Videoside topp"
 msgstr "Video page top"
 
-#: src/pagesInfo.js:172
 #: src/pagesInfo.js:176
+#: src/pagesInfo.js:180
 msgid "Video­opplastings­apper"
 msgstr "Video uploading apps"
 

@@ -159,7 +159,11 @@ const pagesInfo = [
         link: "/websites/portfolios",
         repo: "https://github.com/paalss/portfolio",
         title: <Trans>Denne porteføljen</Trans>,
-        subtitle: <Trans>Fritid</Trans>,
+        subtitle: (
+          <>
+            <Trans>Fritid</Trans>/<Trans>Skole</Trans>/<Trans>Studier</Trans>
+          </>
+        ),
         page: <Portfolios />,
         imgSrc: portfoliosImg,
         imgAlt: "Portfolio page",

@@ -37,27 +37,28 @@ const Extraoptical = () => (
         "PHTML",
         "Linux",
       ]}
-    />
+    >
+      <dl>
+        <dt>Magento PWA builder</dt>
+        <dd>
+          <Trans>
+            Et eCommerce CMS hvor administratorer kan legge til egne undersider
+            og byggeklosser med drag and drop interface. Kildekoden kan hente
+            inn disse byggeklossene med <HT>CmsBlock/</HT>
+          </Trans>
+        </dd>
+      </dl>
+      <dl>
+        <dt>PHTML</dt>
+        <dd>
+          <Trans>
+            Et HTML templating språk (HTML hvor man kan bruke variabler og
+            expressions). Ikke så ulikt Twig og Handlebars.
+          </Trans>
+        </dd>
+      </dl>
+    </WorkHeading>
 
-    <dl>
-      <dt>Magento PWA builder</dt>
-      <dd>
-        <Trans>
-          Et eCommerce CMS hvor administratorer kan legge til egne undersider og
-          byggeklosser med drag and drop interface. Kildekoden kan hente inn
-          disse byggeklossene med <HT>CmsBlock/</HT>
-        </Trans>
-      </dd>
-    </dl>
-    <dl>
-      <dt>PHTML</dt>
-      <dd>
-        <Trans>
-          Et HTML templating språk (HTML hvor man kan bruke variabler og
-          expressions). Ikke så ulikt Twig og Handlebars.
-        </Trans>
-      </dd>
-    </dl>
     <h3>
       <Trans>Mitt bidrag</Trans>
     </h3>

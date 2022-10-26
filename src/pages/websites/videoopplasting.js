@@ -83,26 +83,26 @@ const Videoopplasting = () => (
         "CSS",
         "Docker",
       ]}
-    />
-
-    <dl>
-      <dt>Lit</dt>
-      <dd>
-        <Trans>
-          Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra
-          React ved at den bruker HTML som sitt templating språk (og ikke JSX).
-          Ellers så har Lit kun <i>class-based</i> components. Lit brukes til å
-          lage web-komponenter som man f.eks. finner på{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://shoelace.style/"
-          >
-            https://shoelace.style/
-          </a>
-        </Trans>
-      </dd>
-    </dl>
+    >
+      <dl>
+        <dt>Lit</dt>
+        <dd>
+          <Trans>
+            Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra
+            React ved at den bruker HTML som sitt templating språk (og ikke
+            JSX). Ellers så har Lit kun <i>class-based</i> components. Lit
+            brukes til å lage web-komponenter som man f.eks. finner på{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://shoelace.style/"
+            >
+              https://shoelace.style/
+            </a>
+          </Trans>
+        </dd>
+      </dl>
+    </WorkHeading>
 
     <Trans>
       <p>

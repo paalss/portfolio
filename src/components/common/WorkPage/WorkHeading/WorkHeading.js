@@ -13,6 +13,7 @@ const WorkHeading = ({
   timespan,
   siteInfo = false,
   tools,
+  children
 }) => {
   const { site = false, repo = false } = siteInfo && siteInfo;
   const marginTopClass = extraSpaceAbove
@@ -28,6 +29,7 @@ const WorkHeading = ({
       <span className="subtitle">{timespan}</span>
       <WorkLinks site={site} repo={repo} />
       <ToolList tools={tools} toolsText={true} />
+      {children}
     </div>
   );
 };

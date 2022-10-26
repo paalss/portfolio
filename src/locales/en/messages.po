@@ -42,7 +42,7 @@ msgstr "2020 January–April"
 msgid "2021 april–september"
 msgstr "2021 April–September"
 
-#: src/pages/websites/extraoptical.js:115
+#: src/pages/websites/extraoptical.js:119
 msgid "2021 november – 2022 februar"
 msgstr "2021 November – 2022 February"
 
@@ -134,8 +134,8 @@ msgid "Behersker {tech} godt"
 msgstr "Masters {tech} well"
 
 #: src/pages/-Template.js:29
-msgid "Beskrivelse"
-msgstr "Description"
+#~ msgid "Beskrivelse"
+#~ msgstr "Description"
 
 #: src/pages/websites/rankingapp.js:86
 msgid "Beste bøker listeeksempel"
@@ -153,7 +153,7 @@ msgstr "Visit my Github-profile"
 msgid "Besøk siden"
 msgstr "Visit site"
 
-#: src/pages/websites/extraoptical.js:119
+#: src/pages/websites/extraoptical.js:123
 msgid "Bidrag"
 msgstr "Contribution"
 
@@ -179,7 +179,7 @@ msgstr "Book-cover and similar"
 msgid "Bosatt i Trondheim"
 msgstr "Resident in Trondheim"
 
-#: src/pages/websites/extraoptical.js:82
+#: src/pages/websites/extraoptical.js:86
 msgid "De fleste av karusellene ble lagd med <0>react-slick</0>."
 msgstr "Most of the carousells were made with <0>react-slick</0>."
 
@@ -192,7 +192,7 @@ msgstr "This site was abandoned half-finished and has no sub-pages."
 msgid "Denne porteføljen"
 msgstr "This portfolio"
 
-#: src/pages/websites/extraoptical.js:105
+#: src/pages/websites/extraoptical.js:109
 msgid "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også praksis hos Extra Optical før dette, så jeg har fått jobbet på en eldre versjon av nettsiden også."
 msgstr "This version of the web page was launched February 2022. I also had internship at Extra Optical before this, so I’ve worked on the older version of the site as well."
 
@@ -204,7 +204,7 @@ msgstr "This is a book banner I made for the Flavia de Luce series, a crime- and
 msgid "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 msgstr "This isn’t the first time I’ve made my own portfolio. Below you can se the earlier versions, which I never felt quite satisfied with."
 
-#: src/pages/websites/extraoptical.js:87
+#: src/pages/websites/extraoptical.js:91
 msgid "Dette har jeg lært"
 msgstr "This is what I've learned"
 
@@ -224,7 +224,7 @@ msgstr "Dokker blog"
 msgid "Du finner meg på:"
 msgstr "I’m available on:"
 
-#: src/pages/websites/extraoptical.js:78
+#: src/pages/websites/extraoptical.js:82
 msgid "Ellers har jeg har hjulpet til med oversetting (med package'n <0>react-intl</0>) og lagt til litt animasjon (med <1>react-spring</1>)."
 msgstr "Other than that I've helped translating the page (using the package <0>react-intl</0>) and added some animation (using <1>react-spring</1>)."
 
@@ -241,7 +241,7 @@ msgstr "A webpage that I made to write down subject matter in the course web cod
 msgid "Erfaring"
 msgstr "Experience"
 
-#: src/pages/websites/extraoptical.js:55
+#: src/pages/websites/extraoptical.js:54
 msgid "Et HTML templating språk (HTML hvor man kan bruke variabler og expressions). Ikke så ulikt Twig og Handlebars."
 msgstr "A HTML templating language (HTML where you can use variables and expressions). Not so different to Twig and Handlebars."
 
@@ -249,7 +249,7 @@ msgstr "A HTML templating language (HTML where you can use variables and express
 msgid "Et bok-cover jeg lagde for boka \"Mord på orientekspressen\" av Agatha Christie. Jeg lagde også et poster og andre design med samme motiv."
 msgstr "A book cover I made for the book “Murder on the Orient Express” by Agata Christie. I also made a poster and some other designs."
 
-#: src/pages/websites/extraoptical.js:45
+#: src/pages/websites/extraoptical.js:44
 msgid "Et eCommerce CMS hvor administratorer kan legge til egne undersider og byggeklosser med drag and drop interface. Kildekoden kan hente inn disse byggeklossene med <0>CmsBlock/</0>"
 msgstr "A eCommerce CMS where admins may create their own subpages and building blocks."
 
@@ -269,7 +269,7 @@ msgstr "A poster which I also made"
 msgid "Extra Optical forside"
 msgstr "Extra Optical front page"
 
-#: src/pages/websites/extraoptical.js:114
+#: src/pages/websites/extraoptical.js:118
 msgid "Extra Opticals eldre nettbutikk"
 msgstr "Extra Optical’s older online site"
 
@@ -291,15 +291,15 @@ msgstr "Found no images"
 msgid "Fem ulike versjoner"
 msgstr "Five different versions"
 
-#: src/pages/websites/extraoptical.js:123
+#: src/pages/websites/extraoptical.js:127
 msgid "Fikset errors og kodeslurv i HTML. For eksempel var det mange enslige <0>opening/closing</0>-HTML-tags som manglet <1>matching pair</1>."
 msgstr "Fixed errors and code negligence in HTML. For example there were many <0>opening/closing</0>-HTML-tags that missed matching pair"
 
-#: src/pages/websites/extraoptical.js:140
+#: src/pages/websites/extraoptical.js:144
 msgid "Fikset layout på bunntekst og ordnet en side for mobilstørrelser"
 msgstr "Fixed layout on bottom text and made a site available for mobile sizes"
 
-#: src/pages/websites/extraoptical.js:137
+#: src/pages/websites/extraoptical.js:141
 msgid "Fikset på Extra Opticals Zendesk Help center."
 msgstr "Fixed Extra Optical’s Zendesk Help center"
 
@@ -350,6 +350,10 @@ msgstr "Home"
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "In 2015 i attended <0>media and communication</0> on Byåsen VGS (highschool), where I got a task to make a three-page portfolio about myself. After delivering this I improved it in my spare time."
 
+#: src/pages/websites/extraoptical.js:77
+msgid "I alle disse tilfellene måtte jeg også bruke GraphQL til å fylle inn elementene med ekte data."
+msgstr " "
+
 #: src/pages/graphics/artistbooking.js:23
 msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en klikkbar hi-fi prototype for en app. Appen skulle være musikkrelatert, så det endte opp med å bli en app for privatpersoner og musikkartister som kunne avtale spillejobber med hverandre. Jeg bestemte meg til å lage mobil- og desktop-visning av alle sidene."
 msgstr "In the course “Graphic Tools, Principles and Methods” we made a clickable hi-fi prototype for an app. The app should be music related, so it ended up being an app for private citizens and music artists where they could get in contact and and arrange gigs. I decided to make both mobile and desktop view of all the pages."
@@ -366,15 +370,15 @@ msgstr "Loading of images failed. But you can alway see the same content at <0>m
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Assignment at media and communication"
 
-#: src/pages/websites/extraoptical.js:72
-msgid "Jeg har bidratt med UI-elementer som bilde- og produkt-karuseller, product-grids, tilbehørs pop-up og progress bars. I alle disse tilfellene måtte jeg også bruke GraphQL til å fylle inn elementene med ekte data."
-msgstr "I have contributed with UI-elements like image- and product-carousells, product-grids, accessories popup and progress bars. In all of these cases I also had to use GraphQL to fill the elements with real data."
+#: src/pages/websites/extraoptical.js:73
+msgid "Jeg har bidratt med UI-elementer som bilde- og produkt-karuseller, product-grids, handlekurv-side, tilbehørs pop-up og progress bars."
+msgstr "I have contributed with UI-elements like image- and product-carousells, product-grids, cart page accessories popup and progress bars."
 
-#: src/pages/websites/extraoptical.js:94
+#: src/pages/websites/extraoptical.js:98
 msgid "Jeg har blitt bedre på å dokumentere egne bidrag og tilrettelegge <0>Pull Requests</0> for den som skal se gjennom den."
 msgstr "I've gotten better at documenting my own contributions and facilitate the <0>Pull Requests</0> for the reviewers."
 
-#: src/pages/websites/extraoptical.js:98
+#: src/pages/websites/extraoptical.js:102
 msgid "Jeg har blitt bedre på å separere logikk og markup og vet hvilke konsekvenser man får av å blande <0>CRLF</0> og <1>LF line endings</1> i samme prosjekt."
 msgstr "I've gotten better at separating logic and markup and I know what consequenses you may get by mixing <0>CRLF</0> and <1>LF line endings</1> in same project."
 
@@ -382,11 +386,15 @@ msgstr "I've gotten better at separating logic and markup and I know what conseq
 msgid "Jeg har lagd \"min personlige portefølje\" fem ganger. Hvorfor? Utdatert informasjon, teknisk gjeld og krav i skoleoppgaver har ført meg til å revidere nettsiden fullstendig."
 msgstr "I've made \"my personal portfolio\" five times. Why? Outdated information, technical debt and requirements in school assignments has pushed me to revise the webpage completely."
 
+#: src/pages/websites/extraoptical.js:81
+msgid "Jeg har også skrevet noen mutasjoner."
+msgstr "I've also written some mutations."
+
 #: src/pages/websites/portfolios.js:119
 msgid "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
 msgstr "This was made using PHP, mostly for achieving “same-header-and-footer-on-all-pages”. I didn’t know much JavaScript at the time, so that’s the reason I didn’t use that."
 
-#: src/pages/websites/extraoptical.js:90
+#: src/pages/websites/extraoptical.js:94
 msgid "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder, bruke SSH-keys og forskjellige react-packages."
 msgstr "I've learned GraphQL, working with Magento components, Magento Page Builder, using SSH-keys and different react-packages."
 
@@ -423,7 +431,7 @@ msgstr "Art"
 msgid "Lag egne lister"
 msgstr "Create your own lists"
 
-#: src/pages/websites/extraoptical.js:134
+#: src/pages/websites/extraoptical.js:138
 msgid "Lagd undersider"
 msgstr "Made subpages"
 
@@ -447,7 +455,7 @@ msgstr "Logo that was used"
 msgid "Maleri, tegninger og annet"
 msgstr "Paintings, drawings and other"
 
-#: src/pages/websites/extraoptical.js:62
+#: src/pages/websites/extraoptical.js:63
 msgid "Mitt bidrag"
 msgstr "My contribution"
 
@@ -523,7 +531,7 @@ msgstr "Internship & work"
 msgid "React sertifikat"
 msgstr "React certificate"
 
-#: src/pages/websites/extraoptical.js:129
+#: src/pages/websites/extraoptical.js:133
 msgid "Rettet opp / fjernet <0>broken links</0>"
 msgstr "Corrected / removed broken links"
 
@@ -565,9 +573,9 @@ msgstr "Search bar"
 msgid "Søkeresultater"
 msgstr "Search results"
 
-#: src/pages/websites/extraoptical.js:65
-msgid "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Arbeidsoppgavene har for det meste vært å skape UI-elementer med React og GraphQL."
-msgstr "During this stay I've contributed on the online store Extra Optical. My tasks has for the most part been to create UI-elements with React and GraphQL."
+#: src/pages/websites/extraoptical.js:66
+msgid "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Arbeidsoppgavene har for det meste vært å skape UI-elementer og hente data med React og GraphQL."
+msgstr "During this stay I've contributed on the online store Extra Optical. My tasks has for the most part been to create UI-elements and fetch data with React and GraphQL."
 
 #: src/pages/websites/portfolios.js:32
 msgid "Under kan du se alle versjonene."
@@ -593,7 +601,7 @@ msgstr "Very good at"
 msgid "Veldig god på {tech}"
 msgstr "Very good at {tech}"
 
-#: src/pages/websites/videoopplasting.js:91
+#: src/pages/websites/videoopplasting.js:90
 msgid "Verktøy for å bygge komponent-baserte nettsider. Lit skiller seg fra React ved at den bruker HTML som sitt templating språk (og ikke JSX). Ellers så har Lit kun <0>class-based</0> components. Lit brukes til å lage web-komponenter som man f.eks. finner på <1>https://shoelace.style/</1>"
 msgstr "Tool for creating component-based webpages. Lit differs from React by using HTML templating literals as its templating language (and not JSX). Lit also only has <0>class-based</0> components. Lit is being used to create web-components that can be found on eg. <1>https://shoelace.style/</1>"
 
@@ -643,8 +651,8 @@ msgid "Webutvikling"
 msgstr "Web development"
 
 #: src/pages/-Template.js:17
-msgid "_bilde"
-msgstr "_img"
+#~ msgid "_bilde"
+#~ msgstr "_img"
 
 #: src/pages/graphics/mpoe.js:41
 #: src/pages/graphics/mpoe.js:42

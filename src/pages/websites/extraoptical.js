@@ -65,17 +65,20 @@ const Extraoptical = () => (
     <p>
       <Trans>
         Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical.
-        Arbeidsoppgavene har for det meste vært å skape UI-elementer med React
-        og GraphQL.
+        Arbeidsoppgavene har for det meste vært å skape UI-elementer og hente
+        data med React og GraphQL.
       </Trans>
     </p>
     <p>
       <Trans>
         Jeg har bidratt med UI-elementer som bilde- og produkt-karuseller,
-        product-grids, tilbehørs pop-up og progress bars. I alle disse
-        tilfellene måtte jeg også bruke GraphQL til å fylle inn elementene med
-        ekte data.
+        product-grids, handlekurv-side, tilbehørs pop-up og progress bars.
       </Trans>{" "}
+      <Trans>
+        I alle disse tilfellene måtte jeg også bruke GraphQL til å fylle inn
+        elementene med ekte data.
+      </Trans>{" "}
+      <Trans>Jeg har også skrevet noen mutasjoner.</Trans>{" "}
       <Trans>
         Ellers har jeg har hjulpet til med oversetting (med package'n{" "}
         <i>react-intl</i>) og lagt til litt animasjon (med <i>react-spring</i>).

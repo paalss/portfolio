@@ -23,14 +23,6 @@ const Portfolios = () => (
       />
 
       <h2>{t`Fem ulike versjoner`}</h2>
-      <p>
-        <Trans>
-          Jeg har lagd "min personlige portefølje" fem ganger. Hvorfor? Utdatert
-          informasjon, teknisk gjeld og krav i skoleoppgaver har ført meg
-          til å revidere nettsiden fullstendig.
-        </Trans>{" "}
-        <Trans>Under kan du se alle versjonene.</Trans>
-      </p>
 
       <WorkHeading
         hLevel={3}

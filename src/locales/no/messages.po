@@ -13,12 +13,12 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/websites/portfolios.js:37
+#: src/pages/websites/portfolios.js:29
 msgid "(siste)"
 msgstr "(siste)"
 
 #: src/pages/websites/fagstoff.js:25
-#: src/pages/websites/portfolios.js:143
+#: src/pages/websites/portfolios.js:135
 msgid "2016 høst"
 msgstr "2016 høst"
 
@@ -30,7 +30,7 @@ msgstr "2019 høst"
 msgid "2020 april–mai"
 msgstr "2020 april–mai"
 
-#: src/pages/websites/portfolios.js:38
+#: src/pages/websites/portfolios.js:30
 msgid "2020 desember–nå"
 msgstr "2020 desember–nå"
 
@@ -109,7 +109,7 @@ msgstr "<0>I 2015 hadde jeg et valgfritt prosjekt på videregående hvor jeg val
 #~ msgid "<0>I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 #~ msgstr "<0>I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med \"vanilla JavaScript\" ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 
-#: src/pages/websites/portfolios.js:71
+#: src/pages/websites/portfolios.js:63
 msgid "<0>I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med “vanilla JavaScript” ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 msgstr "<0>I senere tid har jeg lagt til mer innhold og forbedret SEO. Jeg er veldig fornøyd med designet, kodekvaliteten og valg av verktøy.</0><1>Hvorfor React?</1><2>Før jeg brukte React til porteføljen brukte jeg JavaScript til å etterligne en komponent-basert arkitektur. Det var fordi noen elementer måtte gjenbrukes på hver side (Nav og Footer) og et element måtte ryddes bort fra index.html (søylediagrammet).</2><3>Å lage komponenter med “vanilla JavaScript” ble ganske uelegant etter hvert som koden ble større. Jeg gikk derfor over til React da det var det komponent-baserte verktøyet jeg hadde tidligere erfaring med.</3>"
 
@@ -245,7 +245,7 @@ msgstr "Bosatt i Trondheim"
 msgid "De fleste av karusellene ble lagd med <0>react-slick</0>."
 msgstr "De fleste av karusellene ble lagd med <0>react-slick</0>."
 
-#: src/pages/websites/portfolios.js:176
+#: src/pages/websites/portfolios.js:168
 msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 
@@ -262,7 +262,7 @@ msgstr "Denne versjonen av nettsiden ble lansert februar 2022. Jeg hadde også p
 msgid "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim- og mysterier-bokserie som tar plass i england på 50-tallet. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg det var. (Det er fortsatt bare en skoleoppgave og ikke et 'ordentlig' oppdrag, altså.)"
 msgstr "Dette er et bokbanner jeg lagde av Flavia de Luce-serien, en krim- og mysterier-bokserie som tar plass i england på 50-tallet. Bokbanneret er ment for å passe til å bli brukt på en bokhandel-nettside, ark.no, tror jeg det var. (Det er fortsatt bare en skoleoppgave og ikke et 'ordentlig' oppdrag, altså.)"
 
-#: src/pages/websites/portfolios.js:91
+#: src/pages/websites/portfolios.js:83
 msgid "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 msgstr "Dette er ikke første gang jeg har lagd en egen portefølje. Under kan du se mine tidligere, som jeg aldri ble helt fornøyd med."
 
@@ -274,7 +274,7 @@ msgstr "Dette har jeg lært"
 #~ msgid "Dette var en portefølje jeg lagde under studiene. Etter et år ble informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd med desginet og måten jeg hadde kodet det på. Derfor skrotet jeg denne og begynte på siden du er på nå."
 #~ msgstr "Dette var en portefølje jeg lagde under studiene. Etter et år ble informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd med desginet og måten jeg hadde kodet det på. Derfor skrotet jeg denne og begynte på siden du er på nå."
 
-#: src/pages/websites/portfolios.js:111
+#: src/pages/websites/portfolios.js:103
 msgid "Dette var en portefølje jeg lagde under studiene. Etter ett år ble informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd med designet og måten jeg hadde kodet det på. Derfor skrotet jeg denne og begynte på siden du er på nå."
 msgstr "Dette var en portefølje jeg lagde under studiene. Etter ett år ble informasjonen på siden ganske utdatert, og jeg ble ganske misfornøyd med designet og måten jeg hadde kodet det på. Derfor skrotet jeg denne og begynte på siden du er på nå."
 
@@ -414,7 +414,7 @@ msgstr "For å bruke denne applikasjonen så forutsetter det at du har vært inn
 msgid "Fritid"
 msgstr "Fritid"
 
-#: src/pages/websites/portfolios.js:185
+#: src/pages/websites/portfolios.js:177
 msgid "Fritidsprosjekt som aldri ble fullført"
 msgstr "Fritidsprosjekt som aldri ble fullført"
 
@@ -464,7 +464,7 @@ msgstr "Grunn­leggende"
 msgid "Hjem"
 msgstr "Hjem"
 
-#: src/pages/websites/portfolios.js:205
+#: src/pages/websites/portfolios.js:197
 msgid "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 msgstr "I 2015 gikk jeg på <0>medier og kommunikasjon</0> på Byåsen VGS. Der hadde jeg en oppgave i å lage en tresiders portefølje om meg selv. Etter å ha levert denne oppgaven endret jeg litt på layout-et."
 
@@ -496,7 +496,7 @@ msgstr "Innlasting av bilder mislyktes. Men du kan alltids se innholdet på <0>m
 #~ msgid "Innleveringsoppgave"
 #~ msgstr "Innleveringsoppgave"
 
-#: src/pages/websites/portfolios.js:217
+#: src/pages/websites/portfolios.js:209
 msgid "Innleveringsoppgave på medier og kommunikasjon"
 msgstr "Innleveringsoppgave på medier og kommunikasjon"
 
@@ -529,8 +529,8 @@ msgstr "Jeg har blitt bedre på å separere logikk og markup og vet hvilke konse
 #~ msgstr "Jeg har blitt bedre på å tilrettelegge PR for den som skal se gjennom den og separere logikk og markup."
 
 #: src/pages/websites/portfolios.js:27
-msgid "Jeg har lagd \"min personlige portefølje\" fem ganger. Hvorfor? Utdatert informasjon, teknisk gjeld og krav i skoleoppgaver har ført meg til å revidere nettsiden fullstendig."
-msgstr "Jeg har lagd \"min personlige portefølje\" fem ganger. Hvorfor? Utdatert informasjon, teknisk gjeld og krav i skoleoppgaver har ført meg til å revidere nettsiden fullstendig."
+#~ msgid "Jeg har lagd \"min personlige portefølje\" fem ganger. Hvorfor? Utdatert informasjon, teknisk gjeld og krav i skoleoppgaver har ført meg til å revidere nettsiden fullstendig."
+#~ msgstr "Jeg har lagd \"min personlige portefølje\" fem ganger. Hvorfor? Utdatert informasjon, teknisk gjeld og krav i skoleoppgaver har ført meg til å revidere nettsiden fullstendig."
 
 #: src/pages/websites/extraoptical.js:81
 #~ msgid "Jeg har også sendt noen mutasjoner."
@@ -540,7 +540,7 @@ msgstr "Jeg har lagd \"min personlige portefølje\" fem ganger. Hvorfor? Utdater
 msgid "Jeg har også skrevet noen mutasjoner."
 msgstr "Jeg har også skrevet noen mutasjoner."
 
-#: src/pages/websites/portfolios.js:119
+#: src/pages/websites/portfolios.js:111
 msgid "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
 msgstr "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-alle-sidene». Jeg kunne heller ikke JavaScript så godt på denne tiden, så det er grunnen til at jeg ikke brukte det."
 
@@ -552,7 +552,7 @@ msgstr "Jeg lagde denne i PHP, mest for å fikse «samme-header-og-footer-på-al
 msgid "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder, bruke SSH-keys og forskjellige react-packages."
 msgstr "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Builder, bruke SSH-keys og forskjellige react-packages."
 
-#: src/pages/websites/portfolios.js:54
+#: src/pages/websites/portfolios.js:46
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 msgstr "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 
@@ -663,20 +663,20 @@ msgstr "PHP-prosjekt"
 msgid "Plakat"
 msgstr "Plakat"
 
-#: src/pages/websites/portfolios.js:37
-#: src/pages/websites/portfolios.js:102
-#: src/pages/websites/portfolios.js:142
-#: src/pages/websites/portfolios.js:166
-#: src/pages/websites/portfolios.js:184
-#: src/pages/websites/portfolios.js:194
+#: src/pages/websites/portfolios.js:29
+#: src/pages/websites/portfolios.js:94
+#: src/pages/websites/portfolios.js:134
+#: src/pages/websites/portfolios.js:158
+#: src/pages/websites/portfolios.js:176
+#: src/pages/websites/portfolios.js:186
 msgid "Portefølje"
 msgstr "Portefølje"
 
-#: src/pages/websites/portfolios.js:157
+#: src/pages/websites/portfolios.js:149
 msgid "Portefølje 3"
 msgstr "Portefølje 3"
 
-#: src/pages/websites/portfolios.js:67
+#: src/pages/websites/portfolios.js:59
 msgid "Porteføljen slik den så ut 9. desember 2020"
 msgstr "Porteføljen slik den så ut 9. desember 2020"
 
@@ -778,8 +778,8 @@ msgstr "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Ar
 #~ msgstr "Under dette oppholdet har jeg bidratt på nettbutikken Extra Optical. Jeg har lagd UI-elementer, hentet data fra serveren og oversatt innhold med React."
 
 #: src/pages/websites/portfolios.js:32
-msgid "Under kan du se alle versjonene."
-msgstr "Under kan du se alle versjonene."
+#~ msgid "Under kan du se alle versjonene."
+#~ msgstr "Under kan du se alle versjonene."
 
 #: src/pages/websites/fakturanett.js:34
 msgid "Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer."
@@ -858,7 +858,7 @@ msgstr "Video­opplastings­apper"
 msgid "Videre lesing"
 msgstr "Videre lesing"
 
-#: src/pages/websites/portfolios.js:224
+#: src/pages/websites/portfolios.js:216
 msgid "Videreutvikling etter leveranse: nye farger og noe endret layout"
 msgstr "Videreutvikling etter leveranse: nye farger og noe endret layout"
 
@@ -917,11 +917,11 @@ msgstr "mord på orienteksekspressen bok-cover"
 msgid "plakat med logo"
 msgstr "plakat med logo"
 
-#: src/pages/websites/portfolios.js:216
+#: src/pages/websites/portfolios.js:208
 msgid "portefølje 1 versjon 1"
 msgstr "portefølje 1 versjon 1"
 
-#: src/pages/websites/portfolios.js:223
+#: src/pages/websites/portfolios.js:215
 msgid "portefølje 1 versjon 2"
 msgstr "portefølje 1 versjon 2"
 
@@ -929,12 +929,12 @@ msgstr "portefølje 1 versjon 2"
 #~ msgid "portefølje 2"
 #~ msgstr "portefølje 2"
 
-#: src/pages/websites/portfolios.js:156
+#: src/pages/websites/portfolios.js:148
 msgid "portefølje 3"
 msgstr "portefølje 3"
 
-#: src/pages/websites/portfolios.js:132
-#: src/pages/websites/portfolios.js:133
+#: src/pages/websites/portfolios.js:124
+#: src/pages/websites/portfolios.js:125
 msgid "portefølje 4"
 msgstr "portefølje 4"
 
@@ -942,7 +942,7 @@ msgstr "portefølje 4"
 msgid "portefølje med foto og ferdigheter"
 msgstr "portefølje med foto og ferdigheter"
 
-#: src/pages/websites/portfolios.js:66
+#: src/pages/websites/portfolios.js:58
 msgid "portefølje med prosjekter"
 msgstr "portefølje med prosjekter"
 

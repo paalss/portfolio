@@ -79,7 +79,7 @@ msgstr "<0>Since then I added more content and improved SEO. I’m very satisfie
 msgid "<0>Jeg jobbet i en gruppe med to andre. Jeg arbeidet mest med videoopplasting, ‑redigering og ‑visning. I tillegg gjorde jeg det spilleliste relaterte. Teknisk sett innebar dette å jobbe med appens interaksjon med databasen, databasestrukturen og nedlasting av videoer til filsystemet. Jeg jobbet også litt med kommentarer.</0><1>Appen ble lagd med PHP-filer og templating engine'en Twig for å rendre html-sidene.</1>"
 msgstr "<0>In this I worked in a group with two others. My responsibilities was most on video uploading, -editing and -playing. Additionaly I did the playlist related stuff. Technically speaking this meant working with the app’s integration with the database, database structure and downloading of videos to the filesystem. I also worked a little with the comments.</0><1>The app was made with PHP-files and the templating engine Twig to render the html-pages.</1>"
 
-#: src/pages/index.js:20
+#: src/pages/index.js:21
 msgid "<0>Kompetanse</0><1>Jeg har erfaring innen webutvikling og grafisk design.</1>"
 msgstr "<0>Competence</0><1>I have experience in web development and graphic design.</1>"
 
@@ -121,7 +121,7 @@ msgstr "Other work"
 msgid "Artistprofil"
 msgstr "Artist profile"
 
-#: src/pages/index.js:43
+#: src/pages/index.js:44
 msgid "Automatisk testing"
 msgstr "Automatic testing"
 
@@ -443,11 +443,11 @@ msgstr "Paintings, drawings and other"
 msgid "Mitt bidrag"
 msgstr "My contribution"
 
-#: src/pages/index.js:35
+#: src/pages/index.js:36
 msgid "MySQL & relasjonsdatabaser"
 msgstr "MySQL & relational databases"
 
-#: src/pages/index.js:38
+#: src/pages/index.js:39
 msgid "MySQL & relasjons­databaser"
 msgstr "MySQL & relational databases"
 
@@ -722,6 +722,6 @@ msgstr "video player and transcript"
 msgid "«Last opp video»-siden"
 msgstr "“upload video”-page"
 
-#: src/components/common/Certificate/Certificate.js:47
+#: src/components/common/Certificate/Certificate.js:52
 msgid "Åpne Udemy siden for dette sertifikatet"
 msgstr "Open the Udemy page for this certificate"

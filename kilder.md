@@ -2,6 +2,7 @@
 
 Brukt kode/bilder fra
 - [Lightbox (UIkit)](https://getuikit.com/docs/lightbox)
+- https://codepen.io/catdad/pen/VwjRLoM
 
 Remixet kode fra disse
 - [Bar chart (Felix Schimdt)](https://codepen.io/FelixSchmidt/pen/MKzXNp)

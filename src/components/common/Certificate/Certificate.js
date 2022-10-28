@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { t } from "@lingui/macro";
 import classes from "./Certificate.module.css";
+import fireConfettiFrom from "./confetti";
 
 const Certificate = () => {
   useEffect(() => {
@@ -26,11 +27,15 @@ const Certificate = () => {
         Card3D(card, ev);
       });
 
-      card.addEventListener("mouseleave", (ev) => {
+      card.addEventListener("mouseleave", () => {
         let img = card.querySelector("img");
 
         img.style.transform = "rotateX(0deg) rotateY(0deg)";
         img.style.filter = "brightness(1)";
+      });
+
+      card.addEventListener("mouseenter", (ev) => {
+        fireConfettiFrom(ev.target);
       });
     });
   }, []);

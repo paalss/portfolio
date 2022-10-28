@@ -28,37 +28,6 @@ import jrNmImg from "../public/images/graphicwork/jr-nm-ski/IMG_2413-min-small.w
 // other
 import galleryImg from "../public/images/gallery/gallery1-small.webp";
 
-// ---------------
-// PAGES
-// Lazy load for å forminske loade-tiden når du først besøker nettsiden. Spar loading til du besøker dem.
-// ---------------
-
-// home
-const Home = lazy(() => import("./pages"));
-
-// webwork
-const Webwork = lazy(() => import("./pages/websites"));
-const Ohmyaliases = lazy(() => import("./pages/websites/ohmyaliases"));
-const Ytwrapped = lazy(() => import("./pages/websites/ytwrapped"));
-const Fakturanett = lazy(() => import("./pages/websites/fakturanett"));
-const Extraoptical = lazy(() => import("./pages/websites/extraoptical"));
-const Dokker = lazy(() => import("./pages/websites/dokker"));
-const Rankingapp = lazy(() => import("./pages/websites/rankingapp"));
-const Videoopplasting = lazy(() => import("./pages/websites/videoopplasting"));
-const Portfolios = lazy(() => import("./pages/websites/portfolios"));
-const Maclean = lazy(() => import("./pages/websites/maclean"));
-const Fagstoff = lazy(() => import("./pages/websites/fagstoff"));
-
-// graphicwork
-const Graphicwork = lazy(() => import("./pages/graphics"));
-const Artistbooking = lazy(() => import("./pages/graphics/artistbooking"));
-const MPOE = lazy(() => import("./pages/graphics/mpoe"));
-const Flaviadeluce = lazy(() => import("./pages/graphics/flaviadeluce"));
-const JRNM = lazy(() => import("./pages/graphics/jrnm"));
-
-// other
-const Gallery = lazy(() => import("./pages/gallery"));
-
 const pagesInfo = [
   {
     id: 1,
@@ -86,7 +55,6 @@ const pagesInfo = [
         </div>
       </div>
     ),
-    page: <Home />,
   },
   {
     id: 2,
@@ -94,7 +62,6 @@ const pagesInfo = [
     exact: true, // naviger til Webwork kun om link er eksakt "/websites"
     exactActiveClassName: false, // uthev nav-link om link inneholder "/websites"
     title: <Trans>Nettsider</Trans>,
-    page: <Webwork />,
     subpages: [
       {
         id: 9,
@@ -102,7 +69,6 @@ const pagesInfo = [
         site: "https://extraoptical.no/",
         title: "Extra Optical",
         subtitle: <Trans>Praksis &amp; jobb</Trans>,
-        page: <Extraoptical />,
         imgSrc: extraopticalImg,
         imgAlt: "Extraoptical logo",
         tools: ["React", "GraphQL", "JavaScript", "CSS"],
@@ -114,7 +80,6 @@ const pagesInfo = [
         site: "https://fakturanett.no/",
         title: "Fakturanett",
         subtitle: <Trans>Jobb</Trans>,
-        page: <Fakturanett />,
         imgSrc: fakturanettImg,
         imgAlt: "Fakturanett ikon",
         tools: ["PHP", "HTML", "CSS", "JavaScript"],
@@ -125,7 +90,6 @@ const pagesInfo = [
         site: "https://www.dokker.com/nb",
         title: "Dokker",
         subtitle: <Trans>Praksis</Trans>,
-        page: <Dokker />,
         imgSrc: dokkerImg,
         imgAlt: "Dokker logo",
         tools: ["React", "TypeScript", "CSS"],
@@ -137,7 +101,6 @@ const pagesInfo = [
         repo: "https://github.com/paalss/youtube-wrapped",
         title: "Youtube-wrapped",
         subtitle: <Trans>Fritid</Trans>,
-        page: <Ytwrapped />,
         imgSrc: ytWrappedImg,
         imgAlt: "youtube-wrapped UI",
         tools: ["React", "JavaScript", "JSX", "CSS"],
@@ -149,7 +112,6 @@ const pagesInfo = [
         repo: "https://github.com/paalss/oh-my-aliases",
         title: "Oh my aliases",
         subtitle: <Trans>Fritid</Trans>,
-        page: <Ohmyaliases />,
         imgSrc: ohmyaliasesImg,
         imgAlt: "oh my aliases UI",
         tools: ["React", "JavaScript", "JSX", "CSS"],
@@ -164,7 +126,6 @@ const pagesInfo = [
             <Trans>Fritid</Trans>/<Trans>Skole</Trans>/<Trans>Studier</Trans>
           </>
         ),
-        page: <Portfolios />,
         imgSrc: portfoliosImg,
         imgAlt: "Portfolio page",
         tools: ["React", "Next", "JavaScript", "CSS"],
@@ -180,7 +141,6 @@ const pagesInfo = [
             <Trans>Video&shy;opplastings&shy;apper</Trans>
           </h1>
         ),
-        page: <Videoopplasting />,
         imgSrc: videoopplastingImg,
         imgAlt: "Video uploading app",
         tools: ["PHP", "Lit", "HTML", "CSS", "JavaScript", "MySQL", "Docker"],
@@ -193,7 +153,6 @@ const pagesInfo = [
         repo: "https://github.com/paalss/fagstoff",
         title: <Trans>Fagstoff</Trans>,
         subtitle: <Trans>Fritid</Trans>,
-        page: <Fagstoff />,
         imgSrc: fagstoffImg,
         imgAlt: "Subject matter",
         tools: ["HTML", "CSS"],
@@ -205,7 +164,6 @@ const pagesInfo = [
         repo: "https://github.com/paalss/Alistair-MacLean-portfolio-redesign",
         title: <Trans>Alistair MacLean nettside redesign</Trans>,
         subtitle: <Trans>Skole</Trans>,
-        page: <Maclean />,
         imgSrc: macleanImg,
         imgAlt: "MacLean page",
         tools: ["HTML", "CSS", "JavaScript"],
@@ -217,7 +175,6 @@ const pagesInfo = [
         repo: "https://github.com/paalss/ranking-app",
         title: "Ranking app",
         subtitle: <Trans>Fritid</Trans>,
-        page: <Rankingapp />,
         imgSrc: rankingappImg,
         imgAlt: "Ranking app",
         tools: ["TypeScript", "PHP", "MySQL", "HTML", "CSS", "Jest", "Docker"],
@@ -230,14 +187,12 @@ const pagesInfo = [
     exact: true,
     exactActiveClassName: false,
     title: <Trans>Grafisk</Trans>,
-    page: <Graphicwork />,
     subpages: [
       {
         id: 14,
         link: "/graphics/artistbooking",
         title: "Artist booking app prototype",
         subtitle: <Trans>Studier</Trans>,
-        page: <Artistbooking />,
         imgSrc: artistbookingImg,
         imgAlt: "High-fidelity prototype of an artist booking app",
         tools: ["Adobe XD"],
@@ -247,7 +202,6 @@ const pagesInfo = [
         link: "/graphics/flaviadeluce",
         title: <Trans>Bok web-banner</Trans>,
         subtitle: <Trans>Skole</Trans>,
-        page: <Flaviadeluce />,
         imgSrc: flaviaImg,
         imgAlt: "Book webbanner",
         tools: ["Photoshop", "Illustrator"],
@@ -257,7 +211,6 @@ const pagesInfo = [
         link: "/graphics/mpoe",
         title: <Trans>Bok-cover o.l.</Trans>,
         subtitle: <Trans>Skole</Trans>,
-        page: <MPOE />,
         imgSrc: mpoeImg,
         imgAlt: "Book cover",
         tools: ["Photoshop", "Illustrator", "InDesign"],
@@ -267,7 +220,6 @@ const pagesInfo = [
         link: "/graphics/jrnm",
         title: "Jr NM ski 2015 logo",
         subtitle: <Trans>Praksis</Trans>,
-        page: <JRNM />,
         imgSrc: jrNmImg,
         imgAlt: "Jr NM ski logo",
         tools: ["Photoshop"],
@@ -279,7 +231,6 @@ const pagesInfo = [
     link: "/gallery",
     title: <Trans>Kunst</Trans>,
     subtitle: <Trans>Fritid</Trans>,
-    page: <Gallery />,
     imgSrc: galleryImg,
     imgAlt: "gallery",
   },

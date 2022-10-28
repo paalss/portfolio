@@ -44,8 +44,8 @@ const Portfolios = () => (
 
       <p>
         <Trans>
-          Jeg startet på denne siden desember 2020, og jeg designet den
-          spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle
+          Siden du befinner deg på nå startet jeg i desember 2020. Den ble designet
+          spesifikt for å presentere mine webprosjekt og skulle
           fungere som et supplement til CV i forbindelse med jobbsøking.
         </Trans>
       </p>
@@ -78,13 +78,6 @@ const Portfolios = () => (
           det komponent-baserte verktøyet jeg hadde tidligere erfaring med.
         </p>
       </Trans>
-
-      <p>
-        <Trans>
-          Dette er ikke første gang jeg har lagd en egen portefølje. Under kan
-          du se mine tidligere, som jeg aldri ble helt fornøyd med.
-        </Trans>
-      </p>
     </>
 
     <>

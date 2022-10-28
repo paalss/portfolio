@@ -150,7 +150,7 @@ msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi sku
 msgstr "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi skulle lage nettapplikasjoner for videoopplasting og ‑visning. Altså mye det samme som det f.eks. Youtube, Udemy og Edx tilbyr.</0><1>Begge nettappene skulle gi brukere mulighet til å blant annet: laste opp videoer, se på dem, legge til et interaktivt transkript ved siden av videoen, endre videodetaljene, legge dem til i spillelister og abonnere på spillelister.</1><2>Det som skilte prosjektene, var verktøyene vi skulle bruke og noe av kravspesifikasjonen.</2>"
 
 #: src/pages/websites/maclean.js:14
-#: src/pagesInfo.js:206
+#: src/pagesInfo.js:165
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean nettside redesign"
 
@@ -208,11 +208,19 @@ msgid "Bidrag"
 msgstr "Bidrag"
 
 #: src/pages/gallery.js:78
-msgid "Bilder jeg har lagt ut på min Instagram"
-msgstr "Bilder jeg har lagt ut på min Instagram"
+#~ msgid "Bilder jeg har lagt ut på min Instagram"
+#~ msgstr "Bilder jeg har lagt ut på min Instagram"
+
+#: src/pages/gallery.js:78
+#~ msgid "Bilder jeg har lagt ut på min Instagram-konto"
+#~ msgstr "Bilder jeg har lagt ut på min Instagram-konto"
+
+#: src/pages/gallery.js:78
+msgid "Bilder jeg har lagt ut på min Instagram-konto."
+msgstr "Bilder jeg har lagt ut på min Instagram-konto."
 
 #: src/pages/graphics/flaviadeluce.js:15
-#: src/pagesInfo.js:248
+#: src/pagesInfo.js:203
 msgid "Bok web-banner"
 msgstr "Bok web-banner"
 
@@ -221,7 +229,7 @@ msgid "Bok-cover"
 msgstr "Bok-cover"
 
 #: src/pages/graphics/mpoe.js:24
-#: src/pagesInfo.js:258
+#: src/pagesInfo.js:212
 msgid "Bok-cover o.l."
 msgstr "Bok-cover o.l."
 
@@ -242,7 +250,7 @@ msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ing
 msgstr "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ingen undersider og index-siden er halvferdig."
 
 #: src/pages/websites/portfolios.js:15
-#: src/pagesInfo.js:161
+#: src/pagesInfo.js:123
 msgid "Denne porteføljen"
 msgstr "Denne porteføljen"
 
@@ -361,7 +369,7 @@ msgstr "Extra Opticals nåværende nettbutikk"
 
 #: src/pages/websites/fagstoff.js:14
 #: src/pages/websites/fagstoff.js:24
-#: src/pagesInfo.js:194
+#: src/pagesInfo.js:154
 msgid "Fagstoff"
 msgstr "Fagstoff"
 
@@ -397,12 +405,12 @@ msgstr "Flavia de Luce serien web-banner"
 msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogget på Youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
 msgstr "For å bruke denne applikasjonen så forutsetter det at du har vært innlogget på Youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
 
-#: src/pagesInfo.js:105
-#: src/pagesInfo.js:117
-#: src/pagesInfo.js:164
-#: src/pagesInfo.js:195
-#: src/pagesInfo.js:219
-#: src/pagesInfo.js:281
+#: src/pagesInfo.js:103
+#: src/pagesInfo.js:114
+#: src/pagesInfo.js:126
+#: src/pagesInfo.js:155
+#: src/pagesInfo.js:177
+#: src/pagesInfo.js:233
 msgid "Fritid"
 msgstr "Fritid"
 
@@ -424,7 +432,7 @@ msgstr "Få pene og oversiktlige lister"
 
 #: src/pages/graphics.js:9
 #: src/pages/index.js:62
-#: src/pagesInfo.js:232
+#: src/pagesInfo.js:189
 msgid "Grafisk"
 msgstr "Grafisk"
 
@@ -452,7 +460,7 @@ msgstr "Grunn­leggende"
 #~ msgid "Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
 #~ msgstr "Her lærte jeg GraphQL, jobbe med magento components, Magento Page Builder og forskjellige react-packages."
 
-#: src/pagesInfo.js:68
+#: src/pagesInfo.js:37
 msgid "Hjem"
 msgstr "Hjem"
 
@@ -548,8 +556,7 @@ msgstr "Jeg lærte meg GraphQL, jobbe med magento components, Magento Page Build
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 msgstr "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 
-#: src/pagesInfo.js:128
-#: src/pagesInfo.js:164
+#: src/pagesInfo.js:82
 msgid "Jobb"
 msgstr "Jobb"
 
@@ -570,7 +577,7 @@ msgid "Kode"
 msgstr "Kode"
 
 #: src/pages/gallery.js:75
-#: src/pagesInfo.js:280
+#: src/pagesInfo.js:232
 msgid "Kunst"
 msgstr "Kunst"
 
@@ -636,7 +643,7 @@ msgstr "Nettside med overskriften 'fagstoff'"
 
 #: src/pages/index.js:57
 #: src/pages/websites.js:10
-#: src/pagesInfo.js:96
+#: src/pagesInfo.js:64
 msgid "Nettsider"
 msgstr "Nettsider"
 
@@ -673,12 +680,12 @@ msgstr "Portefølje 3"
 msgid "Porteføljen slik den så ut 9. desember 2020"
 msgstr "Porteføljen slik den så ut 9. desember 2020"
 
-#: src/pagesInfo.js:151
-#: src/pagesInfo.js:269
+#: src/pagesInfo.js:92
+#: src/pagesInfo.js:222
 msgid "Praksis"
 msgstr "Praksis"
 
-#: src/pagesInfo.js:139
+#: src/pagesInfo.js:71
 msgid "Praksis & jobb"
 msgstr "Praksis & jobb"
 
@@ -718,9 +725,10 @@ msgstr "Sett inn egne elementer, tilpass etter behov"
 msgid "Side med videospiller, meny og transkript"
 msgstr "Side med videospiller, meny og transkript"
 
-#: src/pagesInfo.js:207
-#: src/pagesInfo.js:249
-#: src/pagesInfo.js:259
+#: src/pagesInfo.js:126
+#: src/pagesInfo.js:166
+#: src/pagesInfo.js:204
+#: src/pagesInfo.js:213
 msgid "Skole"
 msgstr "Skole"
 
@@ -729,8 +737,9 @@ msgstr "Skole"
 msgid "Startside"
 msgstr "Startside"
 
-#: src/pagesInfo.js:177
-#: src/pagesInfo.js:239
+#: src/pagesInfo.js:126
+#: src/pagesInfo.js:138
+#: src/pagesInfo.js:195
 msgid "Studier"
 msgstr "Studier"
 
@@ -776,7 +785,7 @@ msgstr "Under kan du se alle versjonene."
 msgid "Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer."
 msgstr "Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer."
 
-#: src/pagesInfo.js:74
+#: src/pagesInfo.js:43
 msgid "Utdannet web­utvikler"
 msgstr "Utdannet web­utvikler"
 
@@ -840,8 +849,8 @@ msgstr "Videoside som viser kommentarer og hvilke spillelister den er i"
 msgid "Videoside topp"
 msgstr "Videoside topp"
 
-#: src/pagesInfo.js:176
-#: src/pagesInfo.js:180
+#: src/pagesInfo.js:137
+#: src/pagesInfo.js:141
 msgid "Video­opplastings­apper"
 msgstr "Video­opplastings­apper"
 

@@ -100,7 +100,7 @@ msgid "<0>Våren 2020, i faget WWW-teknologi, hadde vi to prosjekter hvor vi sku
 msgstr "<0>In Spring 2020, in the course WWW-technologies we had two projects where we were set to make web apps for uploading and watching videos. Put simply, replicate much of the functionality that you will find in services such as Youtube, Udemy and Edx.</0><1>Both web apps should make users able to inter alia upload videos, watch them, add interactive transcript, change video details (title, description etc.), place videos in playlists and subscribe to playlists.</1>"
 
 #: src/pages/websites/maclean.js:14
-#: src/pagesInfo.js:206
+#: src/pagesInfo.js:165
 msgid "Alistair MacLean nettside redesign"
 msgstr "Alistair MacLean webpage redesign"
 
@@ -158,11 +158,11 @@ msgid "Bidrag"
 msgstr "Contribution"
 
 #: src/pages/gallery.js:78
-msgid "Bilder jeg har lagt ut på min Instagram"
-msgstr "Images which I’ve published on my Instagram"
+msgid "Bilder jeg har lagt ut på min Instagram-konto."
+msgstr "Images which I’ve published on my Instagram-account."
 
 #: src/pages/graphics/flaviadeluce.js:15
-#: src/pagesInfo.js:248
+#: src/pagesInfo.js:203
 msgid "Bok web-banner"
 msgstr "Book web-banner"
 
@@ -171,7 +171,7 @@ msgid "Bok-cover"
 msgstr "Book-cover"
 
 #: src/pages/graphics/mpoe.js:24
-#: src/pagesInfo.js:258
+#: src/pagesInfo.js:212
 msgid "Bok-cover o.l."
 msgstr "Book-cover and similar"
 
@@ -188,7 +188,7 @@ msgid "Denne kom jeg aldri langt med før jeg la prosjektet fra meg. Den har ing
 msgstr "This site was abandoned half-finished and has no sub-pages."
 
 #: src/pages/websites/portfolios.js:15
-#: src/pagesInfo.js:161
+#: src/pagesInfo.js:123
 msgid "Denne porteføljen"
 msgstr "This portfolio"
 
@@ -279,7 +279,7 @@ msgstr "Extra Optical’s current online store"
 
 #: src/pages/websites/fagstoff.js:14
 #: src/pages/websites/fagstoff.js:24
-#: src/pagesInfo.js:194
+#: src/pagesInfo.js:154
 msgid "Fagstoff"
 msgstr "Subject matter"
 
@@ -311,12 +311,12 @@ msgstr "Web banner for the Flavia de Luce series"
 msgid "For å bruke denne applikasjonen så forutsetter det at du har vært innlogget på Youtube mens du har sett videoene, slik at man kan skaffe disse datene og laste dem opp i denne appen."
 msgstr "To use this app it is assumed that you watched the videos while logged in to Youtube. Otherwise you wouldn’t be able to get the data necessary for this app."
 
-#: src/pagesInfo.js:105
-#: src/pagesInfo.js:117
-#: src/pagesInfo.js:164
-#: src/pagesInfo.js:195
-#: src/pagesInfo.js:219
-#: src/pagesInfo.js:281
+#: src/pagesInfo.js:103
+#: src/pagesInfo.js:114
+#: src/pagesInfo.js:126
+#: src/pagesInfo.js:155
+#: src/pagesInfo.js:177
+#: src/pagesInfo.js:233
 msgid "Fritid"
 msgstr "Spare time"
 
@@ -330,7 +330,7 @@ msgstr "Get nice and pretty lists"
 
 #: src/pages/graphics.js:9
 #: src/pages/index.js:62
-#: src/pagesInfo.js:232
+#: src/pagesInfo.js:189
 msgid "Grafisk"
 msgstr "Graphics"
 
@@ -342,7 +342,7 @@ msgstr "Graphic design"
 msgid "Grunn­leggende"
 msgstr "Basics"
 
-#: src/pagesInfo.js:68
+#: src/pagesInfo.js:37
 msgid "Hjem"
 msgstr "Home"
 
@@ -402,8 +402,7 @@ msgstr "I've learned GraphQL, working with Magento components, Magento Page Buil
 msgid "Jeg startet på denne siden desember 2020, og jeg designet den spesifikt for å presentere webprosjekt jeg hadde gjort. Det skulle fungere som et supplement til CV i forbindelse med jobbsøking."
 msgstr "I started making this December 2020, it was made to present the web projects that I’ve made. It was to be used in job searching."
 
-#: src/pagesInfo.js:128
-#: src/pagesInfo.js:164
+#: src/pagesInfo.js:82
 msgid "Jobb"
 msgstr "Work"
 
@@ -424,7 +423,7 @@ msgid "Kode"
 msgstr "Code"
 
 #: src/pages/gallery.js:75
-#: src/pagesInfo.js:280
+#: src/pagesInfo.js:232
 msgid "Kunst"
 msgstr "Art"
 
@@ -482,7 +481,7 @@ msgstr "Webpage with its heading reading “subject matter”"
 
 #: src/pages/index.js:57
 #: src/pages/websites.js:10
-#: src/pagesInfo.js:96
+#: src/pagesInfo.js:64
 msgid "Nettsider"
 msgstr "Websites"
 
@@ -519,12 +518,12 @@ msgstr "Portfolio 3"
 msgid "Porteføljen slik den så ut 9. desember 2020"
 msgstr "The portfolio as of 9. December 2020"
 
-#: src/pagesInfo.js:151
-#: src/pagesInfo.js:269
+#: src/pagesInfo.js:92
+#: src/pagesInfo.js:222
 msgid "Praksis"
 msgstr "Internship"
 
-#: src/pagesInfo.js:139
+#: src/pagesInfo.js:71
 msgid "Praksis & jobb"
 msgstr "Internship & work"
 
@@ -544,9 +543,10 @@ msgstr "Insert your own elements, customize to your needs"
 msgid "Side med videospiller, meny og transkript"
 msgstr "Page with video player, menu and transcript"
 
-#: src/pagesInfo.js:207
-#: src/pagesInfo.js:249
-#: src/pagesInfo.js:259
+#: src/pagesInfo.js:126
+#: src/pagesInfo.js:166
+#: src/pagesInfo.js:204
+#: src/pagesInfo.js:213
 msgid "Skole"
 msgstr "School"
 
@@ -555,8 +555,9 @@ msgstr "School"
 msgid "Startside"
 msgstr "Front page"
 
-#: src/pagesInfo.js:177
-#: src/pagesInfo.js:239
+#: src/pagesInfo.js:126
+#: src/pagesInfo.js:138
+#: src/pagesInfo.js:195
 msgid "Studier"
 msgstr "Studies"
 
@@ -586,7 +587,7 @@ msgstr "Below you can see all its versions."
 msgid "Under min 20%-ansettelse hos Invoice Club har jeg hatt som jobb å forbedre koden til fakturanett.no. Jeg skulle oppgradere kildekoden fra pre-PHP5.5 til PHP7, oppdage og fikse bugs og fjerne unødvendige filer."
 msgstr "During my 20%-epmployment at Invoice Club my job was to improve the codebasse for fakturanett.no. Jeg had to upgrade the source code from pre-PHP5.5 to PHP7, discover and fix bugs and remove unnecessary files."
 
-#: src/pagesInfo.js:74
+#: src/pagesInfo.js:43
 msgid "Utdannet web­utvikler"
 msgstr "Educated web developer"
 
@@ -634,8 +635,8 @@ msgstr "Video page that shows comments and which playlists it resides in"
 msgid "Videoside topp"
 msgstr "Video page top"
 
-#: src/pagesInfo.js:176
-#: src/pagesInfo.js:180
+#: src/pagesInfo.js:137
+#: src/pagesInfo.js:141
 msgid "Video­opplastings­apper"
 msgstr "Video uploading apps"
 

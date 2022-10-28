@@ -75,7 +75,7 @@ const Gallery = (props) => {
         <title>{t`Kunst`} – Pål Stakvik</title>
       </Head>
       <h2>{t`Maleri, tegninger og annet`}</h2>
-      <p>{t`Bilder jeg har lagt ut på min Instagram`}</p>
+      <p>{t`Bilder jeg har lagt ut på min Instagram-konto.`}</p>
 
       <div uk-lightbox="animation: slide">
         <div className={classes.galleryFlex}>{content}</div>

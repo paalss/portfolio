@@ -1,6 +1,6 @@
 # Påls portefølje
 
-https://paalss.github.io/portfolio/
+https://paalss.vercel.app/
 
 ## Utvikling
 

@@ -52,7 +52,7 @@ const Portfolios = () => (
 
       <div uk-lightbox="animation: slide">
         <Figure
-          imgSrc="/images/webwork/portfolios/pf5-1-9desember-2020.png"
+          imgSrc="/images/webwork/portfolios/pf5-2020-12-09.png"
           imgWidth={1918}
           imgHeight={920}
           imgAlt={t`portefølje med prosjekter`}

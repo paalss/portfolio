@@ -5,68 +5,27 @@ import classes from "./gallery.module.css";
 import { t, Trans } from "@lingui/macro";
 import Head from "next/head";
 
-const Gallery = (props) => {
+import * as instaResonseLocal from "./local-gallery-images.json";
+
+const Gallery = () => {
   let content = (
     <p>
       <Trans>Fant ingen bilder</Trans>
     </p>
   );
 
-  if (props.media) {
-    const { media: instaMedia } = props;
-    if (instaMedia.length > 0) {
-      content = instaMedia.map((i) => (
-        <LightboxImage
-          key={i.id}
-          imgSrc={i.media_url}
-          imgAlt={i.caption}
-          title={i.caption}
-          gallery={true}
-        />
-      ));
-    }
-  }
+  const instaMedia = instaResonseLocal.data;
 
-  if (props.errMessage) {
-    content = (
-      <>
-        <p>{props.errMessage}</p>
-        <p>
-          <Trans>
-            Innlasting av bilder mislyktes. Men du kan alltids se innholdet på{" "}
-            <a href="https://www.instagram.com/gassosaman/">
-              min Instagram-konto
-            </a>
-            .
-          </Trans>
-        </p>
-      </>
-    );
-    if (
-      props.errMessage === "NetworkError when attempting to fetch resource."
-    ) {
-      content = (
-        <>
-          <p>{props.errMessage}</p>
-          <p>
-            <Trans>
-              Innlasting av bilder mislyktes. Du kan prøve å:
-              <ul>
-                <li>Slå av utvidet sporingsbeskyttelse for dette nettstedet</li>
-                <li>
-                  Åpne denne nettsiden i Google Chrome eller Microsoft Edge
-                </li>
-              </ul>
-              Ellers så kan du gå til{" "}
-              <a href="https://www.instagram.com/gassosaman/">
-                min Instagram-konto
-              </a>{" "}
-              og de samme bildene der.
-            </Trans>
-          </p>
-        </>
-      );
-    }
+  if (instaMedia.length > 0) {
+    content = instaMedia.map((i) => (
+      <LightboxImage
+        key={i.id}
+        imgSrc={i.media_url}
+        imgAlt={i.caption}
+        title={i.caption}
+        gallery={true}
+      />
+    ));
   }
 
   return (
@@ -84,32 +43,13 @@ const Gallery = (props) => {
   );
 };
 
-export async function getStaticProps(context) {
-  try {
-    const response = await fetch(
-      `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type&access_token=${process.env.NEXT_PUBLIC_LONG_LIVED_ACCESS_TOKEN}`
-    );
+// Change after "47ecfb5 - replace instagram-cdn-links with links referring to local images"
 
-    if (!response.ok) {
-      throw new Error("Something went wrong!");
-    }
-    const media = await response.json();
-    const mediaWithoutVideos = media.data.filter(
-      (d) => d.media_type !== "VIDEO"
-    );
+// Going away from using instagram-cdn responses because they always 'expire' after a while:
+// Images would either disappear entirely or just show the caption when a certain amout of time
+// had passed. You would need to manually refetch access token in Postman or redeploy
+// the site.
 
-    return {
-      props: {
-        media: mediaWithoutVideos,
-      },
-    };
-  } catch (error) {
-    return {
-      props: {
-        errMessage: error.message,
-      },
-    };
-  }
-}
+// Now local images are used
 
 export default Gallery;

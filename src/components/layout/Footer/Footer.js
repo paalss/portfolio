@@ -54,7 +54,7 @@ const Footer = () => (
         </La>
         <li>
           <Icon className={classes.icon} icon={faLocationDot} />
-          {t`Bosatt i Trondheim`}
+          {t`Bosatt i Oslo`}
         </li>
       </ul>
     </div>

@@ -153,7 +153,7 @@ msgstr "Visit site"
 msgid "Bidrag"
 msgstr "Contribution"
 
-#: src/pages/gallery.js:78
+#: src/pages/gallery.js:37
 msgid "Bilder jeg har lagt ut på min Instagram-konto."
 msgstr "Images which I’ve published on my Instagram-account."
 
@@ -172,8 +172,8 @@ msgid "Bok-cover o.l."
 msgstr "Book-cover and similar"
 
 #: src/components/layout/Footer/Footer.js:57
-msgid "Bosatt i Trondheim"
-msgstr "Resident in Trondheim"
+msgid "Bosatt i Oslo"
+msgstr "Resident in Oslo"
 
 #: src/pages/websites/extraoptical.js:86
 msgid "De fleste av karusellene ble lagd med <0>react-slick</0>."
@@ -275,7 +275,7 @@ msgstr "Extra Optical’s current online store"
 msgid "Fagstoff"
 msgstr "Subject matter"
 
-#: src/pages/gallery.js:11
+#: src/pages/gallery.js:13
 msgid "Fant ingen bilder"
 msgstr "Found no images"
 
@@ -351,12 +351,12 @@ msgid "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en kl
 msgstr "In the course “Graphic Tools, Principles and Methods” we made a clickable hi-fi prototype for an app. The app should be music related, so it ended up being an app for private citizens and music artists where they could get in contact and and arrange gigs. I decided to make both mobile and desktop view of all the pages."
 
 #: src/pages/gallery.js:52
-msgid "Innlasting av bilder mislyktes. Du kan prøve å:<0><1>Slå av utvidet sporingsbeskyttelse for dette nettstedet</1><2>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</2></0>Ellers så kan du gå til <3>min Instagram-konto</3> og de samme bildene der."
-msgstr "Loading of images failed. You can try to:<0><1>Turn off Enhanced Tracking Protection for this site</1><2>Open this webpage in Google Chrome or Microsoft Edge</2></0>Or else you can go to <3>my Instagram-account</3> and see the same images there."
+#~ msgid "Innlasting av bilder mislyktes. Du kan prøve å:<0><1>Slå av utvidet sporingsbeskyttelse for dette nettstedet</1><2>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</2></0>Ellers så kan du gå til <3>min Instagram-konto</3> og de samme bildene der."
+#~ msgstr "Loading of images failed. You can try to:<0><1>Turn off Enhanced Tracking Protection for this site</1><2>Open this webpage in Google Chrome or Microsoft Edge</2></0>Or else you can go to <3>my Instagram-account</3> and see the same images there."
 
 #: src/pages/gallery.js:35
-msgid "Innlasting av bilder mislyktes. Men du kan alltids se innholdet på <0>min Instagram-konto</0>."
-msgstr "Loading of images failed. But you can alway see the same content at <0>my Instagram-account</0>."
+#~ msgid "Innlasting av bilder mislyktes. Men du kan alltids se innholdet på <0>min Instagram-konto</0>."
+#~ msgstr "Loading of images failed. But you can alway see the same content at <0>my Instagram-account</0>."
 
 #: src/pages/websites/portfolios.js:202
 msgid "Innleveringsoppgave på medier og kommunikasjon"
@@ -406,7 +406,7 @@ msgstr "Source code"
 msgid "Kode"
 msgstr "Code"
 
-#: src/pages/gallery.js:75
+#: src/pages/gallery.js:34
 #: src/pagesInfo.js:232
 msgid "Kunst"
 msgstr "Art"
@@ -435,7 +435,7 @@ msgstr "Logo for Junior NM on ski 2015"
 msgid "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 msgstr "Logo that was used"
 
-#: src/pages/gallery.js:77
+#: src/pages/gallery.js:36
 msgid "Maleri, tegninger og annet"
 msgstr "Paintings, drawings and other"
 

@@ -215,7 +215,7 @@ msgstr "Bidrag"
 #~ msgid "Bilder jeg har lagt ut på min Instagram-konto"
 #~ msgstr "Bilder jeg har lagt ut på min Instagram-konto"
 
-#: src/pages/gallery.js:78
+#: src/pages/gallery.js:37
 msgid "Bilder jeg har lagt ut på min Instagram-konto."
 msgstr "Bilder jeg har lagt ut på min Instagram-konto."
 
@@ -234,8 +234,12 @@ msgid "Bok-cover o.l."
 msgstr "Bok-cover o.l."
 
 #: src/components/layout/Footer/Footer.js:57
-msgid "Bosatt i Trondheim"
-msgstr "Bosatt i Trondheim"
+msgid "Bosatt i Oslo"
+msgstr "Bosatt i Oslo"
+
+#: src/components/layout/Footer/Footer.js:57
+#~ msgid "Bosatt i Trondheim"
+#~ msgstr "Bosatt i Trondheim"
 
 #: src/pages/webwork/Extraoptical.js:104
 #~ msgid "Bygd noen sider på den nye nettsiden (en Progressive Web App)"
@@ -373,7 +377,7 @@ msgstr "Extra Opticals nåværende nettbutikk"
 msgid "Fagstoff"
 msgstr "Fagstoff"
 
-#: src/pages/gallery.js:11
+#: src/pages/gallery.js:13
 msgid "Fant ingen bilder"
 msgstr "Fant ingen bilder"
 
@@ -481,12 +485,12 @@ msgstr "I faget \"grafiske verktøy, prinsipper og metoder\" skulle vi lage en k
 #~ msgstr "Innlasting av bilder mislyktes. Du kan prøve å:<0><1>Slå av sporingsbeskyttelse for dette nettstedet</1><2>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</2></0>Ellers så kan du gå til <3>min Instagram-konto</3> og de samme bildene der."
 
 #: src/pages/gallery.js:52
-msgid "Innlasting av bilder mislyktes. Du kan prøve å:<0><1>Slå av utvidet sporingsbeskyttelse for dette nettstedet</1><2>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</2></0>Ellers så kan du gå til <3>min Instagram-konto</3> og de samme bildene der."
-msgstr "Innlasting av bilder mislyktes. Du kan prøve å:<0><1>Slå av utvidet sporingsbeskyttelse for dette nettstedet</1><2>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</2></0>Ellers så kan du gå til <3>min Instagram-konto</3> og de samme bildene der."
+#~ msgid "Innlasting av bilder mislyktes. Du kan prøve å:<0><1>Slå av utvidet sporingsbeskyttelse for dette nettstedet</1><2>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</2></0>Ellers så kan du gå til <3>min Instagram-konto</3> og de samme bildene der."
+#~ msgstr "Innlasting av bilder mislyktes. Du kan prøve å:<0><1>Slå av utvidet sporingsbeskyttelse for dette nettstedet</1><2>Åpne denne nettsiden i Google Chrome eller Microsoft Edge</2></0>Ellers så kan du gå til <3>min Instagram-konto</3> og de samme bildene der."
 
 #: src/pages/gallery.js:35
-msgid "Innlasting av bilder mislyktes. Men du kan alltids se innholdet på <0>min Instagram-konto</0>."
-msgstr "Innlasting av bilder mislyktes. Men du kan alltids se innholdet på <0>min Instagram-konto</0>."
+#~ msgid "Innlasting av bilder mislyktes. Men du kan alltids se innholdet på <0>min Instagram-konto</0>."
+#~ msgstr "Innlasting av bilder mislyktes. Men du kan alltids se innholdet på <0>min Instagram-konto</0>."
 
 #: src/pages/webwork/portfolios.js:128
 #~ msgid "Innlevering i webkoding"
@@ -576,7 +580,7 @@ msgstr "Kildekode"
 msgid "Kode"
 msgstr "Kode"
 
-#: src/pages/gallery.js:75
+#: src/pages/gallery.js:34
 #: src/pagesInfo.js:232
 msgid "Kunst"
 msgstr "Kunst"
@@ -613,7 +617,7 @@ msgstr "Logo for Junior NM på ski 2015"
 msgid "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 msgstr "Logo som ble brukt: En bearbeidet versjon av det jeg leverte i 2013"
 
-#: src/pages/gallery.js:77
+#: src/pages/gallery.js:36
 msgid "Maleri, tegninger og annet"
 msgstr "Maleri, tegninger og annet"
 

@@ -18,41 +18,6 @@ const Index = () => {
         <title>Pål Stakvik – Web dev</title>
       </Head>
 
-      <Trans>
-        <h2>Kompetanse</h2>
-        <div className="mb-50">
-          Jeg har erfaring innen webutvikling og grafisk design.
-        </div>
-      </Trans>
-
-      <div id="skills-placeholder" className="skills-placeholder mb-130">
-        <Barchart
-          web={[
-            { tech: "HTML & CSS", level: "3" },
-            { tech: "JavaScript", level: "3" },
-            { tech: "React", level: "3" },
-            {
-              // denne string'en passer for bar title, men ikke som label innerhtml...
-              tech: t`MySQL & relasjonsdatabaser`,
-              // ...label trenger en HTML-versjon med soft hyphen (&shy;), slik at ordet kan orddeles ved linjeskift
-              techHtmlEntities: (
-                <Trans>MySQL &amp; relasjons&shy;databaser</Trans>
-              ),
-              level: "2",
-            },
-            { tech: "PHP", level: "2" },
-            { tech: t`Automatisk testing`, level: "1" },
-            { tech: "NodeJS", level: "1" },
-            { tech: "Next", level: "1" },
-          ]}
-          design={[
-            {
-              tech: "Adobe XD, Photoshop, Illustrator & InDesign",
-              level: "2",
-            },
-          ]} />
-      </div>
-
       <h2 className="mb-50">
         <Trans>Nettsider</Trans>
       </h2>

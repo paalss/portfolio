@@ -91,7 +91,7 @@ const Webwork = () => {
   return (
     <div>
       <Filter filter={filter} onSelect={filterHandler} />
-      {isFilterOn ? <p><strong>{filteredProjects.length}</strong> prosjekter bruker denne teknologien</p> : null}
+      {isFilterOn ? <p>Viser <strong>{filteredProjects.length}</strong> prosjekter</p> : null}
       <div className="squarelinks-flex">
         {filteredProjects.map((page) => (
           <SquareLink key={page.id} {...page} />

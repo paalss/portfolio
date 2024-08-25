@@ -30,3 +30,6 @@ wip
 potential-images
 .yarn
 .yarnrc.yml
+
+# IDE
+.idea

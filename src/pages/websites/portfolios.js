@@ -44,9 +44,9 @@ const Portfolios = () => (
 
       <p>
         <Trans>
-          Siden du befinner deg på nå startet jeg i desember 2020. Den ble designet
-          spesifikt for å presentere mine webprosjekt og skulle
-          fungere som et supplement til CV i forbindelse med jobbsøking.
+          Siden du befinner deg på nå startet jeg i desember 2020. Den ble
+          designet spesifikt for å presentere mine webprosjekt og skulle fungere
+          som et supplement til CV i forbindelse med jobbsøking.
         </Trans>
       </p>
 

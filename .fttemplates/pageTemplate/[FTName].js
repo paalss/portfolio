@@ -1,7 +1,7 @@
 import React from 'react';
 
 // react lingui
-import { Trans, t } from "@lingui/macro";
+import { Trans, t } from '@lingui/macro';
 import WorkHeaderImage from '../components/common/WorkHeaderImage';
 
 // components

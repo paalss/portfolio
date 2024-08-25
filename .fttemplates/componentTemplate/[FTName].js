@@ -1,9 +1,9 @@
-import classes from "./[FTName].module.css";
+import classes from './[FTName].module.css';
 
 const [FTName] = () => {
   return (
     <>
-      
+
     </>
   );
 };

@@ -33,7 +33,7 @@ function App({ Component, pageProps }) {
     <I18nProvider i18n={i18n}>
       <script type="application/ld+json">{JSON.stringify(paalssInfo)}</script>
       <div className="oldbody">
-        <Header/>
+        <Header />
         <Nav />
         <Main>
           <div className="container">

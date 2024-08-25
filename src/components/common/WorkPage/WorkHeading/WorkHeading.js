@@ -1,4 +1,4 @@
-import { oneOf } from 'prop-types';
+import { oneOf } from "prop-types";
 import React from "react";
 import classes from "./WorkHeading.module.css";
 
@@ -13,7 +13,7 @@ const WorkHeading = ({
   timespan,
   siteInfo = false,
   tools,
-  children
+  children,
 }) => {
   const { site = false, repo = false } = siteInfo && siteInfo;
   const marginTopClass = extraSpaceAbove
@@ -37,5 +37,5 @@ const WorkHeading = ({
 export default WorkHeading;
 
 WorkHeading.propTypes = {
-  hLevel: oneOf([2, 3])
-}
+  hLevel: oneOf([2, 3]),
+};

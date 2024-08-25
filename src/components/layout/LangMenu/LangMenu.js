@@ -26,9 +26,7 @@ const LangMenu = () => {
 
   return (
     <>
-      <button
-        onClick={() => toggleLang()}
-      >
+      <button onClick={() => toggleLang()}>
         <div className={classes.iconAndText}>
           <div>
             <Image

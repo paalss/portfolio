@@ -1,3 +1,3 @@
-import Otherwork from './Otherwork';
+import Otherwork from "./Otherwork";
 
 export default Otherwork;

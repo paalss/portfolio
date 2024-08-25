@@ -1,2 +1,2 @@
-import LightboxImage from './LightboxImage'
-export default LightboxImage
+import LightboxImage from "./LightboxImage";
+export default LightboxImage;

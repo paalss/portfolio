@@ -5,7 +5,8 @@ const paalssInfo = {
   givenName: "Pål",
   gender: "http://schema.org/Male",
   birthDate: "1994-11-28",
-  image: "https://raw.githubusercontent.com/paalss/portfolio/master/public/images/cvphoto2.webp",
+  image:
+    "https://raw.githubusercontent.com/paalss/portfolio/master/public/images/cvphoto2.webp",
   nationality: "Norwegian",
   address: {
     "@type": "PostalAddress",
@@ -35,7 +36,7 @@ const paalssInfo = {
     "https://www.linkedin.com/in/pal-stakvik/",
     "https://www.instagram.com/gassosaman/",
     "https://scratch.mit.edu/users/pa0110/",
-    "https://profile.codersrank.io/user/paalss"
+    "https://profile.codersrank.io/user/paalss",
   ],
   email: "mailto:paalss94@gmail.com",
 };

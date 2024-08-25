@@ -75,7 +75,11 @@
     from(var(--purple)),
     to(var(--dark-purple))
   );
-  background: linear-gradient(to bottom right, var(--purple), var(--dark-purple));
+  background: linear-gradient(
+    to bottom right,
+    var(--purple),
+    var(--dark-purple)
+  );
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   opacity: 0;

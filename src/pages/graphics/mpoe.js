@@ -6,7 +6,7 @@ import { Trans, t } from "@lingui/macro";
 // components
 import Figure from "../../components/common/Figure";
 import WorkHeading from "../../components/common/WorkPage/WorkHeading";
-import WorkHeaderImage from "../../components/common/WorkPage/WorkHeaderImage"
+import WorkHeaderImage from "../../components/common/WorkPage/WorkHeaderImage";
 import Head from "next/head";
 
 const MPOE = () => (

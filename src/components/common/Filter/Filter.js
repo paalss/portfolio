@@ -43,7 +43,11 @@ const findMatchingImage = (name) => {
 };
 
 const Checkbox = ({ name: techName, isChecked, onChange, amount }) => {
-  const { src, width: intrinsicWidth, height: intrinsicHeight } = findMatchingImage(techName);
+  const {
+    src,
+    width: intrinsicWidth,
+    height: intrinsicHeight,
+  } = findMatchingImage(techName);
   const renderedHeight = 30;
   const proportion = intrinsicHeight / renderedHeight;
   const renderedWidth = intrinsicWidth / proportion;

@@ -3,7 +3,10 @@
   padding-bottom: 40px;
   color: #fff;
   background: var(--purple);
-  background: linear-gradient(to bottom right, rgba(127, 1, 127, 1),rgba(1, 1, 31, 1)
+  background: linear-gradient(
+    to bottom right,
+    rgba(127, 1, 127, 1),
+    rgba(1, 1, 31, 1)
   );
 }
 .footer ul {

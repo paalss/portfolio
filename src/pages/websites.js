@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Webwork from "../components/common/SquareLinks/Work/Webwork"
+import Webwork from "../components/common/SquareLinks/Work/Webwork";
 import { t } from "@lingui/macro";
 
 const Websites = () => {

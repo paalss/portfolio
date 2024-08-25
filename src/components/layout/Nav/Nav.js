@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import NavLink from "next/link";
 import pagesInfo from "../../../pagesInfo";
-import LangMenu from "../../layout/LangMenu"
+import LangMenu from "../../layout/LangMenu";
 
 import classes from "./Nav.module.css";
 import dynamic from "next/dynamic";
@@ -39,9 +39,7 @@ const Nav = () => {
                 <ul className="website-links">
                   {page.subpages.map((subpage) => (
                     <li key={subpage.id}>
-                      <NavLink
-                        href={subpage.link}
-                      >
+                      <NavLink href={subpage.link}>
                         <a>{subpage.title}</a>
                       </NavLink>
                     </li>

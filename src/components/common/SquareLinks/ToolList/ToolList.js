@@ -5,7 +5,7 @@ import { t } from "@lingui/macro";
 
 const ToolList = ({ tools, thereAreMoreTools = false, toolsText = false }) => (
   <ul className={classes.tools}>
-    {toolsText && (t`Verktøy:` + " ")}
+    {toolsText && t`Verktøy:` + " "}
     {tools &&
       tools.map((tech, i) => (
         <li key={i}>

@@ -5,15 +5,15 @@
 - WSL
 - Node version v20.17.0
 
-````shell
+```shell
 npm install
-````
+```
 
-````shell
+```shell
 npm run dev
-````
+```
 
-````shell
+```shell
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,4 +22,4 @@ npm run dev
     "clean": "lingui extract --clean",
     "compile": "lingui compile"
   },
-````
+```

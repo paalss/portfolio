@@ -88,12 +88,10 @@ const Webwork = () => {
     filteredProjects = webworkInfo;
   }
 
-
-
   return (
     <div>
       <Filter filter={filter} onSelect={filterHandler} />
-      {isFilterOn ? <p>X antall prosjekter funnet med Y teknologi</p> : null}
+      {isFilterOn ? <p><strong>{filteredProjects.length}</strong> prosjekter bruker denne teknologien</p> : null}
       <div className="squarelinks-flex">
         {filteredProjects.map((page) => (
           <SquareLink key={page.id} {...page} />

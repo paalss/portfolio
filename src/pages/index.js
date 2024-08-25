@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Pål Stakvik</title>
+        <title>Pål Stakvik – Web dev</title>
       </Head>
 
       <Trans>

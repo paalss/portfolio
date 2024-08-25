@@ -2,6 +2,17 @@
 
 ## Development
 
+- WSL
+- Node version v20.17.0
+
+````shell
+npm install
+````
+
+````shell
+npm run dev
+````
+
 ````shell
   "scripts": {
     "dev": "next dev",

@@ -37,11 +37,8 @@ const pagesInfo = [
     title: <Trans>Hjem</Trans>,
     heading: (
       <div className="index-header-flex">
-        <div>
-          <h1>Pål Stakvik</h1>
-          <span className="tagline">
-            <Trans>Utdannet web&shy;utvikler</Trans>
-          </span>
+        <div className="dark">
+          <h1>Pål</h1>
         </div>
         <div className="circle-frame">
           <Image
